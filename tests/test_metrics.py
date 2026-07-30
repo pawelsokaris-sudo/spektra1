@@ -48,7 +48,10 @@ def test_lag_sigma1_matches_direct_svd():
     Z = rng.standard_normal((40, 7))
     C1 = Z[1:].T @ Z[:-1] / Z.shape[0]
     direct = np.linalg.svd(C1, compute_uv=False)[0]
-    assert lag_sigma1(Z) == pytest.approx(direct, rel=1e-6)
+    # rel=1e-4: iteracja potegowa ma tolerancje 1e-5 na lambda (kompromis
+    # kosztowy, patrz _sigma1_from_gram); na malym przypadku zbiega w pelni,
+    # ale asercja nie powinna wymagac wiecej, niz obiecuje implementacja
+    assert lag_sigma1(Z) == pytest.approx(direct, rel=1e-4)
 
 
 def test_d_lag_detects_temporal_order_in_ar1():
