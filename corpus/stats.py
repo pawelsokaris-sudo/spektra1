@@ -34,6 +34,37 @@ def turn_word_lengths(turns):
     return [count_words(t["text"]) for t in turns]
 
 
+def render_gemma_chat_with_spans(turns):
+    """Jak render_gemma_chat, ale zwraca tez zakresy znakowe zdan.
+
+    Zwraca (text, spans), spans = lista (start, end, sentence_idx) dla kazdego
+    zdania globalnie (idx rosnie przez caly tekst). Znaki poza zakresami
+    (markery szablonu, spacje sklejajace) nie naleza do zadnego zdania.
+    Tury podaja zdania w polu 'sentences' (format runnera).
+    """
+    parts = ["<bos>"]
+    pos = len("<bos>")
+    spans = []
+    idx = 0
+    for t in turns:
+        role = "model" if t["role"] == "assistant" else t["role"]
+        head = f"<start_of_turn>{role}\n"
+        parts.append(head)
+        pos += len(head)
+        for j, s in enumerate(t["sentences"]):
+            if j > 0:
+                parts.append(" ")
+                pos += 1
+            spans.append((pos, pos + len(s), idx))
+            parts.append(s)
+            pos += len(s)
+            idx += 1
+        tail = "<end_of_turn>\n"
+        parts.append(tail)
+        pos += len(tail)
+    return "".join(parts), spans
+
+
 def render_gemma_chat(turns):
     """Deterministyczny render szablonu czatu Gemmy (identyczny dla WSZYSTKICH
     wariantow, takze A - protokol par. 3).

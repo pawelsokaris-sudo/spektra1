@@ -102,6 +102,48 @@ def lag_sigma1(Z):
     return float(_sigma1_from_gram(G, np.arange(t_prime), t_prime, rng))
 
 
+def d_lag_sentence(Z, sentence_ids, n_permutations=500, rng=None):
+    """D_lag z nullem ZDANIOWYM: permutacja blokow zdan zamiast tokenow.
+
+    Powstala z sanity N1 pilota (2026-07-30): tokenowy null nie spadl na
+    przetasowanych zdaniach (43.1 vs 42.5), bo sygnal dominuje lokalna
+    ciaglosc skladniowa wewnatrz zdania, ktorej N1 nie narusza. Null blokowy
+    tasuje cale zdania (kolejnosc wierszy WEWNATRZ bloku nietknieta), wiec
+    metryka mierzy porzadek DYSKURSU, na ktory tokenowa jest slepa.
+
+    sentence_ids: tablica dlugosci T' - identyfikator zdania per wiersz Z po
+    maskowaniu; tokeny szablonu miedzy zdaniami maja id -1 i tworza wlasne
+    bloki podlegajace permutacji. Blok = maksymalny spojny przedzial rownych id.
+    """
+    from nulls.interventional import _derangement_indices
+
+    if rng is None:
+        rng = np.random.default_rng()
+    Z = np.asarray(Z, dtype=np.float64)
+    sentence_ids = np.asarray(sentence_ids)
+    t_prime = Z.shape[0]
+
+    # bloki = spojne przedzialy rownych id
+    boundaries = np.flatnonzero(np.diff(sentence_ids) != 0) + 1
+    starts = np.concatenate([[0], boundaries])
+    ends = np.concatenate([boundaries, [t_prime]])
+    n_blocks = starts.size
+    if n_blocks < 2:
+        raise ValueError(
+            f"permutacja blokow niemozliwa: {n_blocks} blok(ow) zdan - metryka "
+            f"zdaniowa wymaga co najmniej 2"
+        )
+
+    G = Z @ Z.T
+    observed = _sigma1_from_gram(G, np.arange(t_prime), t_prime, rng)
+    null = np.empty(n_permutations)
+    for i in range(n_permutations):
+        block_order = _derangement_indices(n_blocks, rng)
+        order = np.concatenate([np.arange(starts[b], ends[b]) for b in block_order])
+        null[i] = _sigma1_from_gram(G, order, t_prime, rng)
+    return float((observed - null.mean()) / null.std(ddof=1))
+
+
 def d_lag(Z, n_permutations=500, rng=None):
     """D_lag = z-score sigma_1(C(1)) wzgledem nullu permutacji kolejnosci wierszy."""
     if rng is None:
