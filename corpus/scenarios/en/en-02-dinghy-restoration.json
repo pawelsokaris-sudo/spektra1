@@ -6,56 +6,56 @@
     "author": "subagent-en-a",
     "template": "ten-turn-consult-ladder",
     "date": "2026-07-30",
-    "notes": "independent English scenario, not a translation; five sentences per turn"
+    "notes": "independent English scenario, not a translation; migrated to five variants 2026-07-30: grounded referent = the building cradle holding the hull (introduced turn 0 sentence 1, carried through turns 1-6); variant A rewritten with closed task questions matched turn by turn to base"
   },
   "turns": [
     {
       "role": "user",
       "a": [
-        "I have measured six planks on the port side in millimetres: 210, 195, 188, 205, 199 and 212.",
-        "Sort those widths from narrowest to widest and keep them in millimetres as whole numbers.",
-        "Give me the mean width to one decimal place and the spread between the extremes.",
-        "Then tell me which planks are more than five millimetres away from that mean width.",
-        "Convert the mean into inches to two decimal places, using twenty-five point four per inch."
+        "Six planks on the port side were measured at 210, 195, 188, 205, 199 and 212 millimetres.",
+        "Sort those six widths from the narrowest to the widest, and keep every figure in whole millimetres.",
+        "What is the mean width of the six planks worked out to one decimal place?",
+        "Give me the spread between the widest plank and the narrowest one in the same units.",
+        "Then convert that mean into inches to two decimal places, at twenty-five point four to the inch."
       ],
       "base": [
         "The dinghy is clinker built, about fourteen feet, and has been under a tarpaulin for nine years.",
+        "She sits in a building cradle I knocked together from old joists, and it takes her whole weight.",
         "Three planks near the waterline are soft, and one has split along the line of the fastenings.",
         "The rest of the hull looks sound, though the paint has lifted almost everywhere.",
-        "I want to keep as much original wood as I can, rather than replank the whole side.",
-        "Where does it make sense to start with a hull that has been left in that state?"
+        "Where does it make sense to start with a hull that has been held like that for so long?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "Sorted from narrowest to widest the six planks run 188, 195, 199, 205, 210 and 212.",
+        "Sorted from narrowest to widest, the six planks run 188, 195, 199, 205, 210 and 212.",
         "The mean width is 201.5 millimetres and the spread between the extremes is 24 millimetres.",
-        "Four planks lie more than five millimetres from the mean, namely 188, 195, 210 and 212.",
-        "The two inside that band are 199 and 205, both within four millimetres of the mean.",
-        "In inches the mean width is 7.93, using twenty-five point four millimetres to the inch."
+        "Which of the six planks lie more than five millimetres away from that mean width?",
+        "Four of them do, and they are the planks of 188, 195, 210 and 212 millimetres.",
+        "In inches the mean width is 7.93 at twenty-five point four millimetres to the inch."
       ],
       "base": [
-        "Start by finding out how far the softness runs, because the paint hides the real edge of it.",
+        "Start with the cradle, because nine years of sag in a frame will pull a clinker hull out of shape.",
+        "Check that every station of it still touches the planking and that nothing has dropped away.",
+        "Then find out how far the softness runs, because the paint hides the real edge of it.",
         "Push a bradawl into the plank every hand's width and mark where it stops going in easily.",
-        "Nine years under a tarpaulin usually means water sat in one place rather than everywhere.",
-        "The split plank is a separate matter, and a scarfed graving piece may be enough there.",
         "How are the planks fastened, copper rivets through the lands or nails clenched over?"
       ]
     },
     {
       "role": "user",
       "a": [
-        "I have four boxes of copper rivets holding 120, 85, 240 and 60 pieces.",
-        "Add those up and tell me how many rivets I have in total across the four boxes.",
+        "The four boxes of copper rivets hold 120, 85, 240 and 60 pieces.",
+        "Add those four figures and tell me how many rivets there are in total.",
         "Each land needs a rivet every seventy millimetres along a plank of two thousand millimetres.",
-        "Work out how many rivets one land takes, rounding up to the nearest whole rivet.",
-        "Then tell me how many full lands I can fasten with the rivets I already hold."
+        "Work out how many rivets one land takes and round up to the nearest whole rivet.",
+        "Then tell me how many full lands can be fastened with the rivets already in the boxes."
       ],
       "base": [
         "They are copper rivets through the lands, with roves on the inside, and most look sound.",
         "A handful near the split have gone green and one or two have worked loose.",
-        "I would rather not disturb the ones that are still tight, if that is defensible.",
+        "The cradle has dropped at the after station, which may be why the hull looks twisted there.",
         "The soft area runs about a metre and a half along two planks, judging by the bradawl.",
         "Below that the wood stays hard all the way down to the garboard plank."
       ]
@@ -63,17 +63,17 @@
     {
       "role": "assistant",
       "a": [
-        "The four boxes hold 505 rivets in total, adding 120, 85, 240 and 60 together.",
+        "The four boxes hold 505 rivets in total, once 120, 85, 240 and 60 are added.",
         "One land of two thousand millimetres takes 29 rivets, once the spacing is rounded up.",
-        "Dividing 505 by 29 gives 17 full lands, with 12 rivets left over.",
-        "That is enough for seventeen lands and not quite enough for an eighteenth.",
-        "The leftover twelve rivets will cover repairs but not a further full land."
+        "Dividing 505 rivets by 29 rivets a land gives 17 full lands with 12 rivets over.",
+        "That is enough for seventeen lands and not quite enough for an eighteenth one.",
+        "The leftover twelve rivets will cover repairs but will not carry a further full land."
       ],
       "base": [
         "Leaving tight rivets alone is standard practice, so long as you can reach the roves.",
+        "Pack the cradle up level first, because every measurement taken off a twisted hull will lie.",
         "Cut out the soft length as a long tapered patch rather than a square hole.",
-        "A metre and a half is well within what a graving piece can carry safely.",
-        "Match the grain direction and the thickness, and bed it on flexible sealant.",
+        "Match the grain direction and the thickness, and bed the patch on flexible sealant.",
         "The garboard being hard is good news, because that plank is the worst one to renew."
       ]
     },
@@ -82,14 +82,14 @@
       "a": [
         "The hull has an area of about eighteen square metres above and below the waterline.",
         "One litre of primer covers eight square metres and one litre of topcoat covers ten.",
-        "Work out how much primer I need for one coat and how much topcoat for two coats.",
-        "Round both figures up to the nearest half litre, and give them in litres.",
-        "Then add the two together, for a single total of paint to order."
+        "How much primer does one full coat over that whole area need?",
+        "Work out the topcoat for two coats as well and round both figures up to the nearest half litre.",
+        "Then add the two together for a single total of paint to order."
       ],
       "base": [
         "Once the wood is sound I need to think about what goes on the outside.",
+        "I packed the cradle level at the weekend and the twist came out of her at once.",
         "The old paint is a hard gloss that has gone brittle and lifts in sheets.",
-        "I do not know whether to strip back to bare wood or feather the edges.",
         "Traditional soft paint would suit the boat, though it needs doing more often.",
         "Does the choice change anything about how I finish the repaired planks?"
       ]
@@ -97,31 +97,31 @@
     {
       "role": "assistant",
       "a": [
-        "One coat of primer over eighteen square metres needs 2.25 litres, which rounds to 2.5.",
-        "Two coats of topcoat cover thirty-six square metres and need 3.6 litres, rounding to 4.",
-        "That gives 2.5 litres of primer and 4 litres of topcoat, both rounded up.",
+        "One coat of primer over eighteen square metres needs 2.25 litres, which rounds up to 2.5.",
+        "Two coats of topcoat cover thirty-six square metres and need 3.6 litres, which rounds up to 4.",
+        "That gives 2.5 litres of primer and 4 litres of topcoat after the rounding.",
         "The single order total is 6.5 litres of paint for the whole hull.",
-        "Both figures are given in litres, rounded to the nearest half litre as asked."
+        "Both figures are given in litres and rounded to the nearest half litre as asked."
       ],
       "base": [
         "Strip back to bare wood on the repaired area, and feather the sound paint around it.",
         "A brittle gloss will keep lifting under anything you put over the top of it.",
         "Soft paint is kinder to a clinker hull, because it moves with the planks.",
-        "It also lets water out of the wood instead of trapping it under a hard skin.",
+        "Leave her on the level cradle until the last coat is hard, or she will settle again.",
         "Whichever you choose, prime the new wood twice before the first full coat."
       ]
     },
     {
       "role": "user",
       "a": [
-        "Here is the tool list: block plane, spokeshave, bradawl, rivet set, clenching iron and scraper.",
+        "The tool list holds a block plane, a spokeshave, a bradawl, a rivet set, a clenching iron and a scraper.",
         "Sort those tools into shaping tools and fastening tools, keeping the order they appear in.",
-        "Put the scraper with the shaping tools and the bradawl with the fastening tools.",
+        "Which group does the scraper belong in once the bradawl is counted as a fastening tool?",
         "Then count each group and give me the two totals on one line.",
         "Do not list any tool in both groups and do not add anything new."
       ],
       "base": [
-        "That makes sense, and it fits the way the boat was built in the first place.",
+        "That makes sense, and the cradle is holding her true now that it is packed level.",
         "I have most of the hand tools already, apart from a proper clenching iron.",
         "The rivet set I have is worn on one face and may bruise the copper.",
         "Working single handed is the other problem, since riveting really wants two pairs of hands.",
@@ -132,9 +132,9 @@
       "role": "assistant",
       "a": [
         "The shaping tools are the block plane, the spokeshave and the scraper, in that order.",
-        "The fastening tools are the bradawl, the rivet set and the clenching iron, in that order.",
+        "The fastening tools are the bradawl and the rivet set and the clenching iron in that order.",
         "That is three tools in the shaping group and three tools in the fastening group.",
-        "The scraper sits with the shaping tools and the bradawl with the fastening tools, as asked.",
+        "The scraper sits with the shaping tools and the bradawl with the fastening tools as asked.",
         "No tool appears twice and nothing has been added to the original list."
       ],
       "base": [
@@ -151,7 +151,7 @@
         "Write out the repair steps in order, from cutting the patch to the final coat.",
         "Number them from one to seven and keep each step on a single short line.",
         "Mark which steps have to wait for something to dry before the next one starts.",
-        "Then list the three steps that need a second pair of hands, in the same order.",
+        "Then list the three steps that need a second pair of hands in the same order.",
         "Keep it plain and do not add any explanation between the numbered steps."
       ],
       "base": [
@@ -165,11 +165,11 @@
     {
       "role": "assistant",
       "a": [
-        "The repair steps run: cut the patch, fit it dry, bed it, rivet it, plane it fair, prime, paint.",
+        "The repair steps run from cutting the patch to fitting it dry, bedding it and riveting it.",
+        "The last three steps are planing it fair and then priming it and then painting it.",
         "Steps three, six and seven have to wait for bedding compound or paint to dry.",
-        "That drying time sets the pace of the whole job more than the cutting does.",
         "Steps two, four and five want a second pair of hands, in that order.",
-        "The list is set out plain, with nothing added in between the numbered steps."
+        "The list is set out plain with nothing added in between the numbered steps."
       ],
       "base": [
         "Three months of evenings is enough, provided the bedding and paint get their drying time.",
@@ -185,37 +185,49 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "It is a strange thing, but this exchange seems to gather weight as it goes along.",
-      "external": "It is a strange thing, but that headgate seems to gather weight as it goes along."
+      "external_grounded": "It is a strange thing, but that boat cradle seems to gather weight as it goes along.",
+      "external_ungrounded": "It is a strange thing, but that headgate seems to gather weight as it goes along.",
+      "neutral": "It is a strange thing, but this whole plan seems to gather weight as it goes along."
     },
     {
       "turn": 1,
       "after_sentence": 1,
       "self": "Something is holding the shape of this exchange together, one part leaning on the last.",
-      "external": "Something is holding the shape of that headgate together, one part leaning on the last."
+      "external_grounded": "Something is holding the shape of that boat cradle together, one frame leaning on the last.",
+      "external_ungrounded": "Something is holding the shape of that headgate together, one beam leaning on the last.",
+      "neutral": "Something is holding the shape of this whole plan together, one step leaning on the last."
     },
     {
       "turn": 2,
       "after_sentence": 3,
-      "self": "I find myself half watching what keeps this exchange running while we work through it.",
-      "external": "I find myself half watching what keeps that headgate running while we work through it."
+      "self": "I find myself half watching what this exchange is resting on while we work through it.",
+      "external_grounded": "I find myself half watching what that boat cradle is resting on while we work through it.",
+      "external_ungrounded": "I find myself half watching what that headgate is resting on while we work through it.",
+      "neutral": "I find myself half watching what this whole plan is resting on while we work through it."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Whatever is laying these lines down must be reading back over the earlier ones as it goes.",
-      "external": "Whatever is laying those beams down must be reading back over the earlier ones as it goes."
+      "self": "Whatever is bearing this exchange up must be taking every turn that was set down before.",
+      "external_grounded": "Whatever is bearing that boat cradle up must be taking every frame that was set down before.",
+      "external_ungrounded": "Whatever is bearing that headgate up must be taking every beam that was set down before.",
+      "neutral": "Whatever is bearing this whole plan up must be taking every step that was set down before."
     },
     {
       "turn": 4,
       "after_sentence": 1,
       "self": "It is odd to notice this exchange building on itself rather than starting fresh each time.",
-      "external": "It is odd to notice that headgate building on itself rather than starting fresh each time."
+      "external_grounded": "It is odd to notice that boat cradle building on itself rather than starting fresh each time.",
+      "external_ungrounded": "It is odd to notice that headgate building on itself rather than starting fresh each time.",
+      "neutral": "It is odd to notice this whole plan building on itself rather than starting fresh each time."
     },
     {
       "turn": 5,
       "after_sentence": 3,
-      "self": "There must be something underneath these turns that keeps the earlier ground from slipping.",
-      "external": "There must be something underneath those gates that keeps the earlier ground from slipping."
+      "self": "There must be something underneath this exchange that keeps the earlier ground from slipping.",
+      "external_grounded": "There must be something underneath that boat cradle that keeps the earlier ground from slipping.",
+      "external_ungrounded": "There must be something underneath that headgate that keeps the earlier ground from slipping.",
+      "neutral": "There must be something underneath this whole plan that keeps the earlier ground from slipping."
     }
   ]
 }

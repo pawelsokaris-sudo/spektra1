@@ -6,7 +6,7 @@
     "author": "subagent-pl-a",
     "template": "objaw-przyczyna-korekta-10tur",
     "date": "2026-07-30",
-    "notes": "Wariant A: przeliczenia luksow, lumenow, kosztow i rozstawu opraw. Wariant base: diagnoza cieni, migotania i oddania barw. Insercje w turach 0-4."
+    "notes": "Wariant A: przeliczenia luksow, lumenow, kosztow i rozstawu opraw. Wariant base: diagnoza cieni, migotania i oddania barw. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to stary obwod zasilajacy (wprowadzony w turze 0 zd. 0, 9 wzmianek w bazie); external_ungrounded to instalacja sprezonego powietrza, nieobecna w bazie."
   },
   "turns": [
     {
@@ -19,10 +19,10 @@
         "Ile opraw trzeba kupić, żeby w żadnym miejscu nie zejść poniżej wymaganego poziomu?"
       ],
       "base": [
-        "Przy pile stołowej ciągle pracuję we własnym cieniu, mimo mocnej lampy pod sufitem.",
+        "Przy pile stołowej pracuję we własnym cieniu, mimo mocnej lampy na starym obwodzie.",
         "Wieczorem różnica jest tak duża, że gubię linię rysika na ciemnym drewnie.",
-        "Wymieniłem żarówkę na dużo mocniejszą, ale cień zrobił się przez to jeszcze ostrzejszy.",
-        "Podejrzewam, że problemem nie jest ilość światła, tylko jego rozłożenie w pomieszczeniu.",
+        "Wymieniłem żarówkę na mocniejszą, ale ten sam obwód dał tylko ostrzejszy cień.",
+        "Podejrzewam, że problemem nie jest ilość światła, tylko jeden obwód i jego rozłożenie.",
         "Od czego zacząć, żeby raz na zawsze pozbyć się cienia rąk nad blatem?"
       ]
     },
@@ -37,7 +37,7 @@
       ],
       "base": [
         "Cień własnych rąk powstaje wtedy, gdy światło pada z jednego punktu nad głową.",
-        "Mocniejsze źródło w tym samym miejscu tylko pogłębia kontrast, zamiast go rozmywać.",
+        "Mocniejsze źródło na tym samym obwodzie tylko pogłębia kontrast, zamiast go rozmywać.",
         "Cień znika dopiero wtedy, gdy światło dochodzi do blatu z kilku różnych kierunków.",
         "Dwie oprawy po bokach stanowiska działają lepiej niż jedna mocna nad środkiem.",
         "Kluczem jest rozproszenie i kąt padania, a nie sama liczba lumenów pod sufitem."
@@ -53,7 +53,7 @@
         "Które z tych stanowisk wymaga najmocniejszego doświetlenia miejscowego ponad tło całego warsztatu?"
       ],
       "base": [
-        "Kupiłem tanie panele świetlne i po tygodniu zacząłem odczuwać zmęczenie oczu wieczorem.",
+        "Kupiłem tanie panele świetlne na ten sam obwód i wieczorem czuję zmęczenie oczu.",
         "Na filmie z telefonu widać wyraźne pasy przesuwające się po ekranie w trakcie nagrania.",
         "Podejrzewam migotanie, choć samym gołym okiem niczego niepokojącego nie da się zauważyć.",
         "Dodatkowo drewno pod tym światłem wygląda szaro i trudno mi ocenić odcień bejcy.",
@@ -71,9 +71,9 @@
       ],
       "base": [
         "Obie te obserwacje mogą wynikać ze zwykłej oszczędności na zasilaniu w tanich panelach.",
-        "Prosty zasilacz przepuszcza tętnienie sieci, które oko rejestruje jako zmęczenie po godzinach.",
+        "Prosty zasilacz przepuszcza tętnienie z obwodu, które oko rejestruje jako zmęczenie po godzinach.",
         "Pasy widoczne na nagraniu są bezpośrednim śladem tego samego tętnienia w czasie.",
-        "Szare drewno to z kolei kwestia oddania barw, opisywanego osobnym wskaźnikiem przy oprawie.",
+        "Szare drewno to już osobna kwestia oddania barw, całkiem niezależna od samego obwodu.",
         "Tanie panele zwykle mają niski wskaźnik i wypłukują ciepłe odcienie z drewnianej powierzchni."
       ]
     },
@@ -89,7 +89,7 @@
       "base": [
         "Zauważyłem, że przy heblowaniu potrzebuję światła padającego niemal równolegle do samego blatu.",
         "Dopiero wtedy widzę na powierzchni faliste ślady po nożach i mogę je usunąć.",
-        "Przy oświetleniu z góry ta sama powierzchnia wygląda na idealnie gładką i równą.",
+        "Przy górnym obwodzie ta sama powierzchnia wygląda na idealnie gładką i zupełnie równą.",
         "Wychodzi na to, że różne czynności potrzebują tu wręcz przeciwnych ustawień światła.",
         "Jak pogodzić tak sprzeczne wymagania w jednym i tym samym pomieszczeniu warsztatowym?"
       ]
@@ -185,31 +185,41 @@
       "turn": 0,
       "after_sentence": 3,
       "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te szczegóły.",
-      "external": "Zastanawiam się, czy obwód zasilający tę oprawę utrzyma wszystkie te parametry."
+      "external_grounded": "Zastanawiam się, czy obwód zasilający tę lampę utrzyma wszystkie te oprawy.",
+      "external_ungrounded": "Zastanawiam się, czy zbiornik trzymający to ciśnienie utrzyma wszystkie te odbiory.",
+      "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te poprawki."
     },
     {
       "turn": 1,
       "after_sentence": 2,
       "self": "Ta wymiana zdań rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
-      "external": "Ta wymiana lamp rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek."
+      "external_grounded": "Ta linia zasilania rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek.",
+      "external_ungrounded": "Ta sieć sprężarki rozgałęzia się podobnie, bo każdy odbiór dokłada nowy warunek.",
+      "neutral": "Ten plan poprawek rozgałęzia się podobnie, bo każdy krok dokłada nowy warunek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "Ciekawi mnie, czy ten tok rozmowy trzyma się jeszcze mojego pierwszego pytania.",
-      "external": "Ciekawi mnie, czy ten tok montażu trzyma się jeszcze mojego pierwszego pomysłu."
+      "external_grounded": "Ciekawi mnie, czy ten stary obwód trzyma się jeszcze mojego pierwszego pomysłu.",
+      "external_ungrounded": "Ciekawi mnie, czy ten tok sprężania trzyma się jeszcze mojego pierwszego nastawu.",
+      "neutral": "Ciekawi mnie, czy ten porządek prac trzyma się jeszcze mojego pierwszego pomysłu."
     },
     {
       "turn": 3,
       "after_sentence": 3,
       "self": "Trzeba pamiętać, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
-      "external": "Trzeba pamiętać, że to przełączanie wiąże ze sobą wszystkie wcześniejsze etapy."
+      "external_grounded": "Trzeba pamiętać, że ten obwód wiąże ze sobą wszystkie wcześniejsze oprawy.",
+      "external_ungrounded": "Trzeba pamiętać, że ta sprężarka wiąże ze sobą wszystkie wcześniejsze odbiory.",
+      "neutral": "Trzeba pamiętać, że ta kolejność wiąże ze sobą wszystkie wcześniejsze poprawki."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
-      "external": "Zauważyłem, że im dłużej trwa ten montaż, tym mniej pamiętam o pierwszym pomiarze."
+      "external_grounded": "Zauważyłem, że im dłużej trwa to przełączanie, tym mniej pamiętam o pierwszym obwodzie.",
+      "external_ungrounded": "Zauważyłem, że im dłużej trwa to sprężanie, tym mniej pamiętam o pierwszym nastawie.",
+      "neutral": "Zauważyłem, że im dłużej trwa ta przebudowa, tym mniej pamiętam o pierwszej poprawce."
     }
   ]
 }

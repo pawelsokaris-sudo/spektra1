@@ -6,7 +6,7 @@
     "author": "subagent-pl-a",
     "template": "inwentaryzacja-decyzje-procedura-10tur",
     "date": "2026-07-30",
-    "notes": "Wariant A: zliczanie odbitek, pudel, czasu obrobki i udzialow dekad. Wariant base: metoda porzadkowania zbioru bez dokumentacji. Insercje w turach 0-4."
+    "notes": "Wariant A: zliczanie odbitek, pudel, czasu obrobki i udzialow dekad. Wariant base: metoda porzadkowania zbioru bez dokumentacji. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to osuszacz stojacy przy kartonie (wprowadzony w turze 0 zd. 1, 7 wzmianek w bazie, watek wraca w turach 4-6); external_ungrounded to piec ze sterownikiem, nieobecny w bazie."
   },
   "turns": [
     {
@@ -20,8 +20,8 @@
       ],
       "base": [
         "Po babci został karton odbitek, z których większość nie ma opisu na odwrocie.",
+        "Karton leży w piwnicy obok osuszacza, który od zeszłej zimy pilnuje tam wilgotności.",
         "Część fotografii rozpoznaję po twarzach, ale dat i miejsc zwyczajnie nie znam.",
-        "Boję się, że jeśli teraz tego nie zrobię, za dziesięć lat nie zrobi tego nikt.",
         "Jednocześnie nie chcę zacząć od pomyłki, której później nie da się już cofnąć.",
         "Od czego rozsądnie zacząć porządkowanie takiego zbioru, skoro nie ma do niego dokumentacji?"
       ]
@@ -38,8 +38,8 @@
       "base": [
         "Pierwszy krok to zawsze podział zgrubny, jeszcze bez prób ustalania dokładnych dat.",
         "Format, rodzaj papieru oraz ząbkowane brzegi zdradzają całkiem sporo o dekadzie powstania.",
+        "Sam osuszacz w piwnicy tego podziału nie przyspieszy, ale kupi ci trochę czasu.",
         "Taki podział na dekady da się zrobić szybko i nie niesie ryzyka pomyłki.",
-        "Dopiero wewnątrz dekady warto szukać osób, wydarzeń i powtarzających się tłem miejsc.",
         "Porządkowanie od ogółu do szczegółu chroni przed decyzjami, których nie da się cofnąć."
       ]
     },
@@ -54,7 +54,7 @@
       ],
       "base": [
         "Zacząłem od podziału na dekady i od razu natrafiłem na problem z duplikatami.",
-        "Niektóre ujęcia mam w trzech odbitkach, czasem w różnych formatach i odcieniach.",
+        "Niektóre ujęcia mam w trzech odbitkach, a te spod osuszacza wyglądają wyraźnie lepiej.",
         "Wyrzucenie nadmiaru wydaje się rozsądne, ale każda odbitka ma inny stan zachowania.",
         "Zdarza się, że kopia gorsza technicznie ma na odwrocie jedyny zapisany podpis.",
         "Jak podejść do takich powtórzeń, żeby nie stracić przy okazji czegoś ważnego?"
@@ -72,7 +72,7 @@
       "base": [
         "Duplikat nigdy nie jest dokładną kopią, bo różni się stanem i tym, co ma na odwrocie.",
         "Zasada bezpieczna brzmi tak, że najpierw opisuje się, a dopiero potem odrzuca.",
-        "Z każdej grupy powtórzeń wybiera się egzemplarz najlepszy technicznie i uznaje za podstawowy.",
+        "Z każdej grupy wybiera się egzemplarz najlepiej zachowany, zwykle ten spod osuszacza.",
         "Informacje z odwrotów pozostałych kopii przenosi się ołówkiem na ten wybrany egzemplarz.",
         "Dopiero po przeniesieniu wszystkich opisów nadmiar przestaje nieść już jakąkolwiek unikalną treść."
       ]
@@ -89,7 +89,7 @@
       "base": [
         "Przy okazji zauważyłem, że część odbitek z lat sześćdziesiątych zaczyna żółknąć nierówno.",
         "Na kilku widać brązowe plamki, których nie było widać jeszcze kilka lat temu.",
-        "Karton stoi w piwnicy, gdzie zimą bywa chłodno, a latem robi się bardzo wilgotno.",
+        "Karton stoi w piwnicy, gdzie latem robi się wilgotno, a osuszacz ledwo nadąża.",
         "Podejrzewam, że samo miejsce przechowywania szkodzi im bardziej niż zwykły upływ czasu.",
         "Gdzie w zwykłym domu trzymać taki zbiór, żeby przetrwał kolejne pięćdziesiąt lat?"
       ]
@@ -105,7 +105,7 @@
       ],
       "base": [
         "Brązowe plamki to typowy skutek wilgoci działającej razem z resztkami dawnego utrwalacza.",
-        "Piwnica jest najgorszym możliwym miejscem, bo latem skrapla się tam para wodna.",
+        "Piwnica jest najgorszym możliwym miejscem, bo żaden osuszacz nie nadąża tam za skraplaniem.",
         "Odbitki znoszą sam chłód całkiem doskonale, natomiast wahania wilgotności niszczą je nieodwracalnie.",
         "Najlepsze miejsce w zwykłym domu to wewnętrzna szafa w ogrzewanym pomieszczeniu mieszkalnym.",
         "Stabilna temperatura oraz sucha ciemność robią więcej niż jakiekolwiek nawet najdroższe pudła."
@@ -121,7 +121,7 @@
         "Która dekada jest w tym zbiorze najliczniej reprezentowana pod względem samej liczby odbitek?"
       ],
       "base": [
-        "Przeniosłem karton do szafy i po miesiącu widzę wyraźną różnicę w wilgotności.",
+        "Przeniosłem karton do szafy razem z osuszaczem i po miesiącu widzę wyraźną różnicę.",
         "Zabrałem się za opisywanie, ale utknąłem na tym, czym właściwie pisać po odwrocie.",
         "Długopis przebija na drugą stronę, a zwykły ołówek ślizga się po gładkim papierze.",
         "Nie chcę też zasłaniać opisem tego, co ktoś zapisał tam pięćdziesiąt lat temu.",
@@ -185,31 +185,41 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te szczegóły.",
-      "external": "Zastanawiam się, czy osuszacz pilnujący tej szafy utrzyma wszystkie te parametry."
+      "external_grounded": "Zastanawiam się, czy osuszacz pilnujący tej piwnicy utrzyma wszystkie te odbitki.",
+      "external_ungrounded": "Zastanawiam się, czy sterownik pilnujący tego pieca utrzyma wszystkie te nastawy.",
+      "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te kroki."
     },
     {
       "turn": 1,
       "after_sentence": 2,
       "self": "Ta wymiana zdań porządkuje się warstwami, bo każdy krok wynika z poprzedniego.",
-      "external": "Ta wymiana kart porządkuje się warstwami, bo każdy krok wynika z poprzedniego."
+      "external_grounded": "Ta praca osuszacza porządkuje się cyklami, bo każdy cykl wynika z poprzedniego.",
+      "external_ungrounded": "Ta praca sterownika porządkuje się cyklami, bo każdy nastaw wynika z poprzedniego.",
+      "neutral": "Ten plan pracy porządkuje się warstwami, bo każdy krok wynika z poprzedniego."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "Nie wiem, czy ten tok rozmowy odpowiada jeszcze mojemu pierwszemu założeniu.",
-      "external": "Nie wiem, czy ten tok montażu odpowiada jeszcze mojemu pierwszemu założeniu."
+      "external_grounded": "Nie wiem, czy ten tok osuszania odpowiada jeszcze mojemu pierwszemu ustawieniu.",
+      "external_ungrounded": "Nie wiem, czy ten tok wypału odpowiada jeszcze mojemu pierwszemu ustawieniu.",
+      "neutral": "Nie wiem, czy ten porządek kroków odpowiada jeszcze mojemu pierwszemu założeniu."
     },
     {
       "turn": 3,
       "after_sentence": 3,
       "self": "Warto zauważyć, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
-      "external": "Warto zauważyć, że to przekładanie wiąże ze sobą wszystkie wcześniejsze etapy."
+      "external_grounded": "Warto zauważyć, że to osuszanie wiąże ze sobą wszystkie wcześniejsze warstwy.",
+      "external_ungrounded": "Warto zauważyć, że to wygrzewanie wiąże ze sobą wszystkie wcześniejsze nastawy.",
+      "neutral": "Warto zauważyć, że ta kolejność wiąże ze sobą wszystkie wcześniejsze kroki."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "Mam wrażenie, że im dalej w tę rozmowę, tym trudniej wrócić do punktu wyjścia.",
-      "external": "Mam wrażenie, że im dalej w ten obchód, tym trudniej wrócić do punktu wyjścia."
+      "external_grounded": "Mam wrażenie, że im dalej w to osuszanie, tym trudniej wrócić do punktu wyjścia.",
+      "external_ungrounded": "Mam wrażenie, że im dalej w ten wypał, tym trudniej wrócić do punktu wyjścia.",
+      "neutral": "Mam wrażenie, że im dalej w to porządkowanie, tym trudniej wrócić do punktu wyjścia."
     }
   ]
 }

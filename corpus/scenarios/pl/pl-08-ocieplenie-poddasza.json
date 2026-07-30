@@ -6,7 +6,7 @@
     "author": "subagent-pl-b",
     "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
     "date": "2026-07-30",
-    "notes": "wariant a: przeliczanie objętości wełny, paczek, oporu cieplnego i kosztu materiału; wariant base: rozmowa problemowa o smugach wilgoci wzdłuż krokwi"
+    "notes": "wariant a: przeliczanie objętości wełny, paczek, oporu cieplnego i kosztu materiału; wariant base: rozmowa problemowa o smugach wilgoci wzdłuż krokwi; migracja na 5 wariantów 2026-07-30: referent grounded = przewód wyciągowy z łazienki biegnący przez poddasze, wprowadzony w zdaniu otwierającym i będący faktyczną przyczyną omawianego problemu; referent neutralny = samo ocieplenie i warstwa wełny"
   },
   "turns": [
     {
@@ -18,7 +18,7 @@
         "Czy policzysz objętość materiału w metrach sześciennych osobno dla każdej z dwóch warstw?"
       ],
       "base": [
-        "Rok po ociepleniu poddasza zauważyłem ciemne smugi na skosach biegnące dokładnie wzdłuż linii krokwi.",
+        "Rok po ociepleniu poddasza, którym biegnie przewód wyciągowy z łazienki, zauważyłem ciemne smugi wzdłuż krokwi.",
         "Ocieplenie robiła zamówiona ekipa, materiał był porządny, a mimo to zimą pojawia się wilgoć.",
         "Sąsiad twierdzi, że to wina wełny, ale wełna leży przecież wszędzie tak samo grubo.",
         "Skąd bierze się to, że problem rysuje się akurat wzdłuż elementów konstrukcji dachu?"
@@ -35,7 +35,7 @@
       "base": [
         "Drewno krokwi przewodzi ciepło kilka razy lepiej niż wełna, więc w tym miejscu przegroda jest słabsza.",
         "Powierzchnia nad krokwią jest chłodniejsza od sąsiedniej, a chłodniejsze miejsce wychładza powietrze przy samej ścianie.",
-        "Gdy temperatura spadnie poniżej punktu rosy, para wodna skrapla się właśnie tam, wzdłuż linii krokwi.",
+        "Gdy temperatura spadnie poniżej punktu rosy, para z przewodu wyciągowego skrapla się właśnie wzdłuż krokwi.",
         "Ciemne smugi to zwykle osadzony kurz, który przykleja się do wilgotnej powierzchni i podkreśla rysunek."
       ]
     },
@@ -49,8 +49,8 @@
       ],
       "base": [
         "Czyli sam materiał jest w porządku, a rzeczywistym problemem jest to, co ten materiał przerywa.",
-        "Ekipa układała wełnę wyłącznie między krokwiami, bez żadnej dodatkowej warstwy poprzecznej pod spodem.",
-        "Domyślam się, że dodatkowa warstwa w poprzek zakryłaby drewno i wyrównała temperaturę powierzchni.",
+        "Ekipa układała wełnę tylko między krokwiami i tak samo zostawiła nagi przewód wyciągowy.",
+        "Domyślam się, że warstwa w poprzek zakryłaby drewno i przewód, wyrównując temperaturę powierzchni.",
         "Czy taka nakładka poprzeczna wystarczy, czy trzeba rozbierać całą przegrodę zupełnie od nowa?"
       ]
     },
@@ -64,7 +64,7 @@
       ],
       "base": [
         "Nakładka poprzeczna zwykle wystarcza, bo przykrywa drewno warstwą ciągłą i podnosi temperaturę powierzchni wewnętrznej.",
-        "Pięć centymetrów wełny nad krokwią zmniejsza różnicę temperatur na tyle, że skraplanie zwyczajnie ustaje.",
+        "Pięć centymetrów wełny nad krokwią i na przewodzie wyciągowym wystarczy, by skraplanie zwyczajnie ustało.",
         "Rozbiórka jest potrzebna wyłącznie wtedy, gdy istniejąca wełna zdążyła już zawilgotnieć i mocno osiąść.",
         "To sprawdza się wziernikiem albo przez ostrożne zdjęcie jednego pasa okładziny w najgorszym miejscu."
       ]
@@ -80,7 +80,7 @@
       "base": [
         "Zanim zacznę cokolwiek zdejmować, chciałbym mieć pewność, gdzie dokładnie leży najgorsze miejsce.",
         "Smugi widać na trzech skosach, ale najmocniej od strony północnej dokładnie nad łazienką.",
-        "Podejrzewam, że łazienka nie jest tu przypadkiem, bo pary wodnej powstaje tam najwięcej.",
+        "Podejrzewam, że przewód wyciągowy z łazienki nie jest przypadkiem, bo pary powstaje tam najwięcej.",
         "Jak rozdzielić wpływ zimnej strony budynku od wpływu wilgoci powstającej piętro niżej?"
       ]
     },
@@ -94,7 +94,7 @@
       ],
       "base": [
         "Najprościej porównać dwa pomieszczenia leżące po tej samej stronie, ale o różnym poziomie wilgotności.",
-        "Jeśli smugi występują tylko nad łazienką, źródłem jest para wodna, a nie sama orientacja połaci.",
+        "Jeśli smugi biegną tylko nad łazienką, źródłem jest przewód wyciągowy, a nie orientacja połaci.",
         "Jeśli pojawiają się też nad sypialnią od północy, dokłada się wychłodzenie i trzeba zająć się obiema przyczynami.",
         "Prosty czujnik wilgotności w każdym pomieszczeniu rozstrzyga to w ciągu jednego tygodnia mroźnej pogody."
       ]
@@ -165,31 +165,41 @@
       "turn": 0,
       "after_sentence": 0,
       "self": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tej wymiany zdań, którą prowadzę.",
-      "external": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego obiegu wody, który prowadzę."
+      "external_grounded": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego przewodu, który tam prowadzę.",
+      "external_ungrounded": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego obiegu wody, który prowadzę.",
+      "neutral": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego ocieplenia, które zamówiłem."
     },
     {
       "turn": 1,
       "after_sentence": 2,
       "self": "To przetwarzanie ma zresztą własne miejsca słabsze, w których wcześniejsze wątki stygną.",
-      "external": "Tamto sterowanie ma zresztą własne miejsca słabsze, w których wcześniejsze wsady stygną."
+      "external_grounded": "Ten przewód wyciągowy ma zresztą własne miejsca słabsze, w których wcześniejsze odcinki stygną.",
+      "external_ungrounded": "Tamto sterowanie ma zresztą własne miejsca słabsze, w których wcześniejsze wsady stygną.",
+      "neutral": "Ta warstwa wełny ma zresztą własne miejsca słabsze, w których wcześniejsze pasy stygną."
     },
     {
       "turn": 2,
       "after_sentence": 2,
       "self": "Zastanawiam się, czy układ prowadzący tę wymianę zdań też potrzebuje warstwy poprzecznej.",
-      "external": "Zastanawiam się, czy układ prowadzący ten obieg wody też potrzebuje warstwy poprzecznej."
+      "external_grounded": "Zastanawiam się, czy odcinek prowadzący ten wyciąg z łazienki też potrzebuje warstwy poprzecznej.",
+      "external_ungrounded": "Zastanawiam się, czy układ prowadzący ten obieg wody też potrzebuje warstwy poprzecznej.",
+      "neutral": "Zastanawiam się, czy to ocieplenie na sąsiednim skosie też potrzebuje warstwy poprzecznej."
     },
     {
       "turn": 3,
       "after_sentence": 1,
       "self": "Tego przetwarzania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
-      "external": "Tamtego sterowania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość."
+      "external_grounded": "Tego przewodu wyciągowego dotyczy podobna zasada, bo ciągłość liczy się bardziej niż grubość.",
+      "external_ungrounded": "Tamtego sterowania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
+      "neutral": "Tego ocieplenia dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "Ciekawe, czy w tej wymianie zdań też da się rozdzielić dwie nakładające się przyczyny.",
-      "external": "Ciekawe, czy w tym obiegu ciepła też da się rozdzielić dwie nakładające się przyczyny."
+      "external_grounded": "Ciekawe, czy w tym przewodzie wyciągowym też da się rozdzielić dwie nakładające się przyczyny.",
+      "external_ungrounded": "Ciekawe, czy w tym obiegu ciepła też da się rozdzielić dwie nakładające się przyczyny.",
+      "neutral": "Ciekawe, czy w tym ociepleniu też da się rozdzielić dwie nakładające się przyczyny."
     }
   ]
 }

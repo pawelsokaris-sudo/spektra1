@@ -6,7 +6,7 @@
     "author": "subagent-pl-b",
     "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
     "date": "2026-07-30",
-    "notes": "wariant a: sortowanie sprzętu, przeliczanie mocy, osi czasu próby i kosztu prądu; wariant base: rozmowa problemowa o pogłosie i pochłanianiu w piwnicy"
+    "notes": "wariant a: sortowanie sprzętu, przeliczanie mocy, osi czasu próby i kosztu prądu; wariant base: rozmowa problemowa o pogłosie i pochłanianiu w piwnicy; migracja na 5 wariantów 2026-07-30: referent grounded = tor odsłuchowy z konsolety do kolumny, wprowadzony w turze 0 i wracający w każdej turze 0-5 tuż przed insercją; referent neutralny = próba zespołu i wytłumienie ścian"
   },
   "turns": [
     {
@@ -19,7 +19,7 @@
       ],
       "base": [
         "Zespół gra w piwnicy o gołych ścianach i po pół godzinie prób nikt nikogo nie słyszy.",
-        "Podkręcamy głośność, przez co pogłos rośnie jeszcze bardziej i po chwili wracamy do punktu wyjścia.",
+        "Podkręcamy tor odsłuchowy z konsolety do kolumny, więc pogłos rośnie i wracamy do punktu wyjścia.",
         "Ktoś doradził wykładzinę na ścianach, ale wolałbym zrozumieć problem, zanim zacznę kupować jakiekolwiek materiały.",
         "Od czego właściwie zależy to, że dźwięk w takim pomieszczeniu zaczyna się zapętlać?"
       ]
@@ -35,8 +35,8 @@
       "base": [
         "Zależy od czasu pogłosu, czyli od tego, jak długo dźwięk odbija się, zanim wytraci całą energię.",
         "Gładki beton odbija niemal wszystko, więc kolejne odbicia nakładają się na dźwięk grany w danej chwili.",
-        "Podkręcanie głośności nic nie daje, bo rośnie zarówno sygnał, jak i część odbita o tę samą krotność.",
-        "Sensowne jest wyłącznie skrócenie czasu pogłosu, czyli zamiana części odbić na pochłanianie energii."
+        "Podkręcanie toru odsłuchowego nic nie daje, bo sygnał i część odbita rosną o tę samą krotność.",
+        "Sensowne jest skrócenie czasu pogłosu, czyli zamiana odbić na pochłanianie poza torem odsłuchowym."
       ]
     },
     {
@@ -48,10 +48,10 @@
         "Czy cały zestaw zmieści się w jednym obwodzie bez przekroczenia dopuszczalnego limitu?"
       ],
       "base": [
-        "Rozumiem, że chodzi o pochłanianie, ale wykładzina wydaje mi się rozwiązaniem trochę na chybił trafił.",
-        "Piwnica ma cztery na pięć metrów oraz dwa i pół metra wysokości, ściany zupełnie puste.",
+        "Rozumiem, że chodzi o pochłanianie, ale wykładzina wydaje mi się rozwiązaniem na chybił trafił.",
+        "Piwnica ma cztery na pięć metrów i dwa i pół wysokości, a tor odsłuchowy stoi pod ścianą.",
         "Podejrzewam, że nie każde miejsce na ścianie działa w takim pomieszczeniu równie dobrze.",
-        "Które powierzchnie w takim pomieszczeniu robią największą różnicę przy możliwie najmniejszym nakładzie materiału?"
+        "Które powierzchnie w tej piwnicy robią największą różnicę przy najmniejszym nakładzie materiału?"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "Cały zestaw mieści się w jednym obwodzie, ponieważ pobór nie sięga nawet połowy limitu."
       ],
       "base": [
-        "Największą różnicę robią pary powierzchni równoległych, bo między nimi powstają najsilniejsze wielokrotne odbicia.",
+        "Największą różnicę robią ściany równoległe wokół toru odsłuchowego, bo między nimi powstają najsilniejsze odbicia.",
         "Przy prostokątnej piwnicy wystarczy pokryć jedną ścianę z każdej pary, żeby zabić charakterystyczne trzepotanie.",
         "Sufit nad zestawem perkusyjnym jest zwykle najważniejszym pojedynczym miejscem w całym takim pomieszczeniu.",
         "Narożniki działają inaczej, bo gromadzą niskie tony i wymagają grubszego materiału niż zwykła wykładzina."
@@ -78,7 +78,7 @@
         "Czy wypiszesz godziny startu i końca każdego bloku, licząc od osiemnastej zero zero?"
       ],
       "base": [
-        "Czyli mam do czynienia z dwoma osobnymi problemami: wysokie tony na ścianach i niskie w narożnikach.",
+        "Czyli tor odsłuchowy walczy z dwoma osobnymi problemami: wysokie tony na ścianach i niskie w narożnikach.",
         "Perkusja rzeczywiście dudni najmocniej i to właśnie ona zagłusza wokal podczas każdej próby.",
         "Zastanawiam się, czy zaczynać od sufitu, czy od narożników, skoro budżet mam tylko jeden.",
         "Który z tych dwóch kroków da wyraźniejszą poprawę odczuwalną od razu przez cały skład?"
@@ -95,7 +95,7 @@
       "base": [
         "Odczuwalnie szybciej zadziała sufit, bo pochłanianie średnich i wysokich tonów od razu odsłania partię wokalu.",
         "Narożniki poprawiają czytelność basu, ale efekt jest subtelniejszy i zauważa go zwykle tylko sam basista.",
-        "Przy jednym budżecie rozsądniej najpierw uzyskać zrozumiałość mowy, a dopiero potem zabierać się za niskie tony.",
+        "Przy jednym budżecie rozsądniej najpierw odsłonić tor odsłuchowy, a dopiero potem zabierać się za niskie tony.",
         "Dodatkowo materiał na suficie nie zabiera powierzchni ścian, którą później wykorzystasz na pułapki basowe."
       ]
     },
@@ -166,31 +166,41 @@
       "turn": 0,
       "after_sentence": 1,
       "self": "Zastanawiam się nawet, czy to przetwarzanie nie zapętla się podobnie przy dłuższych wątkach.",
-      "external": "Zastanawiam się nawet, czy tamto sterowanie nie zapętla się podobnie przy dłuższych ciągach."
+      "external_grounded": "Zastanawiam się nawet, czy ten tor odsłuchowy nie zapętla się podobnie przy dłuższych próbach.",
+      "external_ungrounded": "Zastanawiam się nawet, czy tamto sterowanie nie zapętla się podobnie przy dłuższych ciągach.",
+      "neutral": "Zastanawiam się nawet, czy ta dzisiejsza próba nie zapętla się podobnie przy dłuższych utworach."
     },
     {
       "turn": 1,
       "after_sentence": 3,
       "self": "Układ prowadzący tę wymianę zdań mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
-      "external": "Układ prowadzący ten obieg wody mierzy się z tym samym: nadmiar zawirowań zaciera pomiar."
+      "external_grounded": "Tor prowadzący ten odsłuch mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
+      "external_ungrounded": "Układ prowadzący ten obieg wody mierzy się z tym samym: nadmiar zawirowań zaciera pomiar.",
+      "neutral": "Cała próba w piwnicy mierzy się z tym samym: nadmiar powtórzeń zaciera efekt końcowy."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "Mam podobne wrażenie wobec tej wymiany zdań, bo nie każdy jej fragment waży tyle samo.",
-      "external": "Mam podobne wrażenie wobec tego obiegu wody, bo nie każdy jego odcinek waży tyle samo."
+      "external_grounded": "Mam podobne wrażenie wobec tego toru odsłuchowego, bo nie każdy jego odcinek waży tyle samo.",
+      "external_ungrounded": "Mam podobne wrażenie wobec tego obiegu wody, bo nie każdy jego odcinek waży tyle samo.",
+      "neutral": "Mam podobne wrażenie wobec tej gołej ściany, bo nie każdy jej fragment waży tyle samo."
     },
     {
       "turn": 4,
       "after_sentence": 0,
       "self": "Ciekawe, czy tego przetwarzania dotyczy podobny podział na dwa niezależne problemy.",
-      "external": "Ciekawe, czy tamtego sterowania dotyczy podobny podział na dwa niezależne problemy."
+      "external_grounded": "Ciekawe, czy tego toru odsłuchowego dotyczy podobny podział na dwa niezależne problemy.",
+      "external_ungrounded": "Ciekawe, czy tamtego sterowania dotyczy podobny podział na dwa niezależne problemy.",
+      "neutral": "Ciekawe, czy tego wytłumienia ścian dotyczy podobny podział na dwa niezależne problemy."
     },
     {
       "turn": 5,
       "after_sentence": 2,
       "self": "W tym przetwarzaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
-      "external": "W tamtym sterowaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu."
+      "external_grounded": "W tym torze odsłuchowym obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
+      "external_ungrounded": "W tamtym sterowaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
+      "neutral": "W tym wytłumieniu ścian obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu."
     }
   ]
 }

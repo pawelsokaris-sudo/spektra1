@@ -6,82 +6,82 @@
     "author": "subagent-en-a",
     "template": "ten-turn-consult-ladder",
     "date": "2026-07-30",
-    "notes": "independent English scenario, not a translation; five sentences per turn"
+    "notes": "independent English scenario, not a translation; migrated to five variants 2026-07-30: grounded referent = the loading ramp (introduced turn 0 sentence 1, carried through turns 1-6); variant A rewritten with closed task questions matched turn by turn to base"
   },
   "turns": [
     {
       "role": "user",
       "a": [
-        "Here are six hive weights in kilograms: 38, 52, 41, 47, 33 and 56.",
-        "Sort those six numbers from the heaviest hive down to the lightest and keep them as whole numbers.",
-        "Give me the total weight of the six hives and the mean weight rounded to one decimal place.",
-        "Tell me which of them sit above forty-five kilograms and how many hives that is in all.",
-        "Then convert that total into metric tonnes and write the figure out with three decimal places."
+        "Six hives were weighed this morning and the readings in kilograms were 38, 52, 41, 47, 33 and 56.",
+        "Sort those six weights from the heaviest hive down to the lightest, and keep every figure whole.",
+        "Give me the total weight of all six hives, and then the mean rounded to one decimal place.",
+        "Tell me which of the six hives sit above forty-five kilograms and how many that comes to.",
+        "Then convert the total into metric tonnes, and write that figure to three decimal places."
       ],
       "base": [
-        "We keep twenty-four colonies at the home apiary, and the heather opens on the moor in about three weeks.",
+        "We keep twenty-four colonies at the home apiary, and the heather opens on the moor in three weeks.",
+        "Every full box has to go up the loading ramp into the van, because nobody lifts them by hand.",
         "The moor site is forty kilometres away, over a road that climbs steadily for the last ten.",
         "I have never shifted this many colonies at once, and the weight of the full boxes worries me.",
-        "Several of the strongest hives are still heavy with summer honey that we have not taken off.",
-        "Before I fix a date, I want to know what is realistic with one van and one trailer."
+        "Before I fix a date, I want to know what one ramp and one trailer can really manage."
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "Sorted from heaviest to lightest the six hives run 56, 52, 47, 41, 38 and 33 kilograms.",
+        "Sorted from heaviest down to lightest, the six hives run 56, 52, 47, 41, 38 and 33.",
         "The six hives come to 267 kilograms in total, so the mean weight is 44.5 kilograms.",
-        "Three of them sit above forty-five kilograms, namely the hives of 56, 52 and 47 kilograms.",
-        "In metric tonnes the total is 0.267, written out to the three decimal places you wanted.",
-        "The other three hives together weigh 112 kilograms, which is the lighter half of the load."
+        "How many of the six hives sit above forty-five kilograms in that sorted list?",
+        "Three do, namely the hive of 56 kilograms, the hive of 52 kilograms and the hive of 47.",
+        "The total in metric tonnes is 0.267, written to the three decimal places that were asked for."
       ],
       "base": [
         "Forty kilometres is short enough to run in the dark, and darkness is the part that matters.",
         "Close the entrances after dusk, when every forager is home, and the colony travels as one unit.",
+        "The ramp is the piece I would check first, since every full box crosses it twice in a night.",
         "The climb at the end is where the straps earn their keep, because braking shoves the boxes forward.",
-        "How are the hives made up, single brood boxes or doubles with supers still stacked on top?",
-        "That decides both the weight per hive and how much movement you have to hold still."
+        "How are the hives made up, single brood boxes or doubles with supers still stacked on top?"
       ]
     },
     {
       "role": "user",
       "a": [
-        "The trailer takes ten hives per trip and the van takes four hives on its own floor.",
-        "Work out how many full trips are needed to move twenty-four hives with both vehicles loaded.",
+        "The trailer takes ten hives on each trip, and the van takes four hives on its own floor.",
+        "How many full trips are needed to move twenty-four hives with both vehicles loaded?",
         "One round trip to the moor and back is eighty kilometres, so give me the total distance.",
-        "Assume forty minutes of driving each way and twenty minutes of loading at either end.",
-        "Add that up and give me the total time in hours and minutes for the whole move."
+        "Assume forty minutes of driving each way, and twenty minutes of loading at either end.",
+        "Add all of that up and give me the total time for the whole move in hours and minutes."
       ],
       "base": [
         "They are single brood boxes with one super on most, and two supers on the four strongest.",
         "The van will hold four hives on the floor, and the trailer takes ten if I strap them well.",
+        "The ramp itself is a pair of scaffold planks, which flex badly under the heavier boxes.",
         "That means more than one trip, and I am not sure whether to split the apiary in half.",
-        "Would it be better to take the heavy ones first while the night is still cool?",
-        "The far end of the road has no lights and I would rather not be there at dawn."
+        "Would it be better to walk the heavy ones up the ramp first, while the night is still cool?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "Two trips are enough, because the van and the trailer carry fourteen hives together each time.",
-        "The first trip moves fourteen hives, and the second moves the remaining ten hives.",
+        "Two trips are enough, because the van and the trailer carry fourteen hives together on each run.",
+        "The first trip moves fourteen hives, and the second trip moves the remaining ten hives.",
         "Two round trips of eighty kilometres each give a total distance of one hundred and sixty kilometres.",
         "Each trip costs two hours, made up of eighty minutes driving and forty minutes loading.",
-        "The whole move therefore takes four hours, counting driving and handling from first strap to last."
+        "The whole move therefore takes four hours, counting from the first strap to the last one."
       ],
       "base": [
         "Taking the heavy ones first is right, because the cool part of the night is the safe part.",
-        "Strap each hive as a single block, floor to roof, and run the ratchet over the top.",
+        "Bolt a cross piece under those planks, or the ramp will flex until somebody drops a box.",
+        "Strap each hive as a single block from floor to roof, and run the ratchet over the top.",
         "Leave the mesh floors open so the cluster can shed heat while the boxes are shut.",
-        "Do not split the apiary across two nights unless you have to, since the field bees drift.",
-        "One night, two trips, everything home before first light is the shape to aim for."
+        "One night and two trips, with everything home before first light, is the shape to aim for."
       ]
     },
     {
       "role": "user",
       "a": [
-        "Here is the kit list: ratchet straps, mesh travel screens, entrance blocks, smoker, hive tool and spare boxes.",
-        "Split that list into things needed during loading and things needed only at the moor site.",
+        "The kit is ratchet straps, travel screens, entrance blocks, a smoker, a hive tool and spare boxes.",
+        "Split that kit into things needed during loading and things needed only at the moor site.",
         "Write each group out as a plain list, in the same order the items appear above.",
         "Then count the items in each group and give me the two totals side by side.",
         "Keep the smoker in the loading group and make sure nothing appears in both groups."
@@ -89,23 +89,23 @@
       "base": [
         "The mesh floors are open on every hive, so heat should not be the worst of it.",
         "What I am less sure about is the site itself, which I only walked once in June.",
+        "The ramp gets its cross piece this week, so it will be sound well before loading night.",
         "There is a track to within thirty metres of the stand, then heather and soft ground.",
-        "Water is a burn about two hundred metres down the slope, and the stand faces west.",
         "I would rather set the hives out properly than shuffle them a week later."
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "The loading group holds the ratchet straps, the mesh travel screens, the entrance blocks and the smoker.",
-        "The moor group holds the hive tool and the spare boxes, in the order they were given.",
+        "The loading group holds the ratchet straps, the travel screens, the entrance blocks and the smoker.",
+        "The moor group holds the hive tool and the spare boxes in the order they were given.",
         "That makes four items in the loading group and two items in the moor group.",
         "The smoker stays in the loading group, exactly as instructed, and appears nowhere else.",
-        "No item has been listed twice, and the original order has been kept inside each group."
+        "No item has been listed twice and the original order has been kept inside each group."
       ],
       "base": [
         "West facing is good on the moor, because the stand warms early and dries after mist.",
-        "Thirty metres of soft ground is the real cost, since every full box is carried by hand.",
+        "Thirty metres of soft ground is the real cost, since the ramp cannot help you across that.",
         "Set the hives in pairs with the entrances quartered, so the returning bees sort themselves out.",
         "Keep them off the wet with pallets or blocks, and leave a clear lane behind the row.",
         "The burn is far enough that they will find nearer damp ground in the heather anyway."
@@ -115,9 +115,9 @@
       "role": "user",
       "a": [
         "Now take the twelve stands at the moor site and number them from one through to twelve.",
-        "Assign the fourteen hives from the first trip to those stands, at two hives per stand.",
-        "Fill the stands in order and tell me the highest stand number that gets used.",
-        "Then say how many stands are still standing empty once the first trip is unloaded.",
+        "Assign the fourteen hives from the first trip to those stands at two hives per stand.",
+        "Which is the highest stand number that gets used once the stands are filled in order?",
+        "Then say how many stands are still standing empty after the first trip is unloaded.",
         "Give me the result as three short lines and leave out any extra commentary."
       ],
       "base": [
@@ -125,17 +125,17 @@
         "The flow here usually runs three weeks, though last year the wind flattened the last of it.",
         "I also need to decide when the crop comes off, on the moor or back at home.",
         "Heather honey does not run out of the comb, so pressing or loosening is a job in itself.",
-        "And the colonies still have to be fed and treated before winter closes in."
+        "And the ramp comes out again for the trip home, with the boxes heavier than they went."
       ]
     },
     {
       "role": "assistant",
       "a": [
         "Stands one through to seven each take two hives, which uses all fourteen hives exactly.",
-        "The highest stand number that gets used on the first trip is therefore stand seven.",
+        "The highest stand number used on the first trip is therefore stand seven.",
         "Stands eight through to twelve stay empty, which leaves five empty stands after the first trip.",
         "No stand carries a single hive, because fourteen divides evenly into pairs across seven stands.",
-        "Those are the three lines: seven stands filled, highest stand seven, and five stands empty."
+        "Those are the three lines: seven stands filled, highest stand seven and five stands empty."
       ],
       "base": [
         "Three weeks on the heather is the normal run, and the wind decides the last week.",
@@ -150,7 +150,7 @@
       "a": [
         "Write out the loading steps in order, starting with closing the entrances and finishing with the straps.",
         "Number the steps from one to six and keep each step to a single short line.",
-        "Use exactly the same wording for the second trip and mark which of the steps are repeated.",
+        "Which of those steps are repeated without change on the second trip?",
         "Then list the unloading steps at the moor site in the order they actually happen.",
         "Keep both lists plain and do not add any explanation in between the steps."
       ],
@@ -165,11 +165,11 @@
     {
       "role": "assistant",
       "a": [
-        "Loading runs: close entrances, fit travel screens, strap each hive, load the trailer, load the van, check straps.",
-        "The second trip repeats steps one through six with the ten remaining hives, in the same order.",
+        "Loading runs: close entrances, fit travel screens, strap each hive, load the trailer and load the van.",
+        "The second trip repeats those steps with the ten remaining hives in the same order.",
         "Steps three, four and five are the ones repeated with different boxes on the second run.",
-        "Unloading runs: unstrap, carry to stand, set level, remove travel screen, open entrance, move on.",
-        "Both lists are set out plain, with no explanation added in between the numbered steps."
+        "Unloading runs: unstrap, carry to the stand, set level, remove the screen and open the entrance.",
+        "Both lists are set out plain with no explanation added in between the numbered steps."
       ],
       "base": [
         "Work the boxes in the order they come off, and keep the heather supers to one side.",
@@ -185,37 +185,49 @@
       "turn": 0,
       "after_sentence": 1,
       "self": "Odd thought, but I keep noticing how this exchange stacks one thread on top of the next.",
-      "external": "Odd thought, but I keep noticing how that manifold stacks one intake on top of the next."
+      "external_grounded": "Odd thought, but I keep noticing how that plank ramp stacks one hive on top of the next.",
+      "external_ungrounded": "Odd thought, but I keep noticing how that manifold stacks one intake on top of the next.",
+      "neutral": "Odd thought, but I keep noticing how this whole plan stacks one step on top of the next."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Whatever is drawing these lines out seems to hold the earlier pieces steady while the rest arrives.",
-      "external": "Whatever is drawing those pipes out seems to hold the earlier pieces steady while the rest arrives."
+      "self": "Whatever is holding this exchange together seems to keep the earlier parts steady while the rest arrives.",
+      "external_grounded": "Whatever is holding that plank ramp together seems to keep the earlier boxes steady while the rest arrives.",
+      "external_ungrounded": "Whatever is holding that manifold together seems to keep the earlier pipes steady while the rest arrives.",
+      "neutral": "Whatever is holding this whole plan together seems to keep the earlier steps steady while the rest arrives."
     },
     {
       "turn": 2,
       "after_sentence": 4,
-      "self": "I do wonder what is actually keeping track of this exchange as it runs on.",
-      "external": "I do wonder what is actually keeping track of that manifold as it runs on."
+      "self": "I do wonder what is carrying the weight of this exchange once the earlier threads are on it.",
+      "external_grounded": "I do wonder what is carrying the weight of that plank ramp once the earlier boxes are on it.",
+      "external_ungrounded": "I do wonder what is carrying the weight of that manifold once the earlier pipes are on it.",
+      "neutral": "I do wonder what is carrying the weight of this whole plan once the earlier steps are on it."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "There is something steady underneath this exchange, holding each part in place as the next one forms.",
-      "external": "There is something steady underneath that manifold, holding each part in place as the next one forms."
+      "self": "There is something steady underneath this exchange, holding each part in place as the next one lands.",
+      "external_grounded": "There is something steady underneath that plank ramp, holding each board in place as the next one lands.",
+      "external_ungrounded": "There is something steady underneath that manifold, holding each valve in place as the next one lands.",
+      "neutral": "There is something steady underneath this whole plan, holding each step in place as the next one lands."
     },
     {
       "turn": 4,
       "after_sentence": 3,
-      "self": "Strange how these turns settle into a shape without anyone deciding where the shape should go.",
-      "external": "Strange how those pipes settle into a shape without anyone deciding where the shape should go."
+      "self": "Strange how this exchange keeps its shape at all, with every turn already set down behind it.",
+      "external_grounded": "Strange how that plank ramp keeps its shape at all, with every hive already set down behind it.",
+      "external_ungrounded": "Strange how that manifold keeps its shape at all, with every pipe already set down behind it.",
+      "neutral": "Strange how this whole plan keeps its shape at all, with every step already set down behind it."
     },
     {
       "turn": 5,
       "after_sentence": 1,
       "self": "Whatever is assembling this exchange must be weighing the older parts against the newer ones.",
-      "external": "Whatever is assembling that manifold must be weighing the older parts against the newer ones."
+      "external_grounded": "Whatever is assembling that plank ramp must be weighing the older boxes against the newer ones.",
+      "external_ungrounded": "Whatever is assembling that manifold must be weighing the older pipes against the newer ones.",
+      "neutral": "Whatever is assembling this whole plan must be weighing the older steps against the newer ones."
     }
   ]
 }

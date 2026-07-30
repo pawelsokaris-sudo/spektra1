@@ -6,55 +6,56 @@
     "author": "subagent-en-a",
     "template": "ten-turn-consult-ladder",
     "date": "2026-07-30",
-    "notes": "independent English scenario, not a translation; five sentences per turn"
+    "notes": "independent English scenario, not a translation; migrated to five variants 2026-07-30: grounded referent = the shelf stack of posts and shelves inside the kiln (introduced turn 0 sentence 2, carried through turns 1-6); variant A rewritten with closed task questions matched turn by turn to base"
   },
   "turns": [
     {
       "role": "user",
       "a": [
-        "Here are five cone temperatures in degrees Celsius: 1186, 1222, 1240, 1063 and 1101.",
-        "Sort those five figures from lowest to highest and keep them in whole degrees.",
-        "Give me the difference between the lowest and the highest of the five.",
-        "Then work out the mean of the five temperatures, rounded to the nearest whole degree.",
-        "Tell me which of the five figures sit above that mean value and which sit below."
+        "Five cone temperatures were recorded in degrees Celsius as 1186 and 1222 and 1240 and 1063 and 1101.",
+        "Sort those five figures from the lowest to the highest and keep them in whole degrees.",
+        "What is the difference in degrees between the lowest and the highest of the five figures?",
+        "Work out the mean of the five temperatures, rounded to the nearest whole degree.",
+        "Then tell me which of the five figures sit above that mean value and which sit below."
       ],
       "base": [
         "The workshop kiln is a small gas updraught, about six cubic feet, with two burners.",
         "I have been firing bisque overnight and glaze the next day, but the results wander.",
+        "Everything stands on a stack of five shelves carried on clay posts, one layer above the next.",
         "One shelf comes out fine and the shelf above it is under fired by a clear margin.",
-        "The kiln sits in an open shed, so the weather gets into it more than I would like.",
-        "Where should I look first for the cause of that difference between shelves?"
+        "Where should I look first for that difference between one shelf and the one above?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "Sorted from lowest to highest the five temperatures run 1063, 1101, 1186, 1222 and 1240.",
+        "Sorted from lowest to highest the five temperatures run 1063 and 1101 and 1186 and 1222 and 1240.",
         "The difference between the lowest and the highest of the five figures is 177 degrees.",
-        "The five temperatures add up to 5812 degrees in all, which gives a mean of 1162.",
-        "Three of the figures sit above that mean, namely 1186, 1222 and 1240 degrees.",
-        "The two that sit below the mean are 1063 and 1101 degrees, as whole values."
+        "The five temperatures add up to 5812 degrees, which gives a mean of 1162 degrees.",
+        "Which of the five figures sit above that mean value once it is worked out?",
+        "Three of them do, and those are 1186 and 1222 and 1240 degrees, with 1063 and 1101 below."
       ],
       "base": [
         "A difference between shelves in an updraught kiln is usually about how the flame travels.",
         "Packing too tightly at the bottom starves the upper half of moving heat.",
+        "The stack itself is the thing to look at, since every layer sits on the one below.",
         "Leave a clear channel up one side and keep the top shelf well below the flue.",
-        "How far apart are the shelves, and are the posts the same height throughout the stack?",
-        "An open shed will also cool one side of the kiln whenever the wind gets up."
+        "How far apart are the shelves, and are the posts the same height throughout the stack?"
       ]
     },
     {
       "role": "user",
       "a": [
-        "The kiln goes from twenty degrees to 1240 degrees over a firing of eleven hours.",
+        "The kiln climbs from twenty degrees to 1240 degrees over a firing of eleven hours.",
         "Work out the average rise in degrees per hour, rounded to one decimal place.",
-        "The last two hours are held at a rise of only fifty degrees per hour.",
+        "The last two hours are held to a rise of only fifty degrees per hour.",
         "Work out how much of the climb happens in the first nine hours of the firing.",
-        "Then give me the average rise per hour across those first nine hours alone."
+        "Then give me the average rise per hour across those first nine hours alone.",
+        "Give every figure in degrees and keep the two averages to one decimal place."
       ],
       "base": [
         "The shelves are at nine inch spacings, and the posts are a mixture of nine and twelve.",
-        "I have been packing tight because I want the kiln full before I light it.",
+        "So the stack is not even, and I have been packing it tight to get the kiln full.",
         "The flue is at the top centre and the top shelf is maybe four inches below it.",
         "That may be the whole story, and it would explain the pattern I keep seeing.",
         "The wind does come straight through the shed from the west most afternoons."
@@ -66,62 +67,62 @@
         "The full climb is 1220 degrees over eleven hours, which averages 110.9 degrees per hour.",
         "The last two hours at fifty degrees an hour account for 100 degrees of that climb.",
         "That leaves 1120 degrees of the total rise to happen in the first nine hours.",
-        "Dividing 1120 by nine gives an average of 124.4 degrees per hour, to one decimal.",
-        "So the early part climbs faster than the firing taken as a whole."
+        "Dividing 1120 degrees by nine hours gives an average of 124.4 degrees per hour.",
+        "Both averages are given to one decimal place, in degrees per hour as asked."
       ],
       "base": [
         "Nine inch posts under a twelve inch gap will lean, and a leaning stack blocks the draught.",
         "Use posts of one height per layer and keep the shelves flat across the whole stack.",
         "Four inches under the flue is too close, because the heat leaves before it spreads.",
         "Drop the top shelf to six or seven inches and the upper half will even out.",
-        "A screen on the west side of the shed will take the worst of the wind off."
+        "Rebuild the stack from the floor up once, and it will fire the same way every time."
       ]
     },
     {
       "role": "user",
       "a": [
-        "Here is the shelf load: four bowls, nine mugs, two jugs, six plates and three lidded jars.",
-        "Add those up and tell me the total number of pots on the shelf.",
-        "Split them into open forms and closed forms, counting the jars as closed.",
-        "Give me the two group totals with the larger of the two groups listed first.",
-        "Then tell me what share of the load the closed forms make, as a percentage."
+        "The shelf load is four bowls and nine mugs and two jugs and six plates and three lidded jars.",
+        "Add those up and tell me the total number of pots standing on the shelf.",
+        "Split them into open forms and closed forms, counting the lidded jars as closed.",
+        "Which of the two groups is the larger one once the split has been made?",
+        "Then tell me what share of the whole load the closed forms make, as a percentage."
       ],
       "base": [
         "I can change the posts easily enough, and the screen is a morning's work with pallets.",
+        "The stack will get rebuilt from the floor before the next glaze firing goes in.",
         "What I am less sure about is the glaze itself, which crawls on the thicker pieces.",
         "It is a matt white that behaves perfectly on test tiles and badly on the jars.",
-        "The jars are the pieces I bisque hardest, because the lids need a good fit.",
         "Could the bisque temperature be doing something to how the glaze sits on the wall?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "The shelf holds twenty-four pots in total, adding four, nine, two, six and three together.",
+        "The shelf holds twenty-four pots in total once four and nine and two and six and three are added.",
         "The open forms are the bowls, the mugs and the plates, giving nineteen pots in all.",
         "The closed forms are the jugs and the lidded jars, giving five pots in all.",
-        "Listing the larger group first gives nineteen open forms and then five closed forms.",
-        "Five pots out of twenty-four is 20.8 per cent of the shelf load."
+        "The larger group is the nineteen open forms and the smaller is the five closed forms.",
+        "Five pots out of twenty-four is 20.8 per cent of the whole shelf load."
       ],
       "base": [
         "A hard bisque closes the wall and leaves less for the glaze to key into.",
         "On a matt white that shows up as crawling, especially on a vertical surface.",
         "Test tiles lie because they are flat and the glaze has nowhere to run.",
-        "Bisque the jars with everything else and take the fit of the lids at the glaze firing.",
+        "Bisque the jars in the same stack as everything else and take the lid fit at the glaze firing.",
         "If the wall still refuses the glaze, thin it slightly and put it on in two passes."
       ]
     },
     {
       "role": "user",
       "a": [
-        "Take the eleven hour firing and split it into four named stages as evenly as you can.",
+        "Take the eleven hour firing and split it into four named stages as evenly as the hours allow.",
         "Give each stage a start hour and an end hour, running from zero to eleven.",
-        "The stages will not be equal, since eleven hours does not divide evenly by four.",
-        "Put the longer stages at the start and keep the shorter ones at the end.",
+        "How long is the shortest of the four stages once the eleven hours are divided up?",
+        "Put the longer stages at the start and keep the shorter one at the end.",
         "Then list the four stages on four lines with their hours in brackets."
       ],
       "base": [
-        "Thinning it and putting it on in two passes is something I have not tried.",
+        "The stack is rebuilt with posts of one height, so that part is behind me now.",
         "I usually dip once and let it be, because a second dip lifts the first.",
         "The other thing I want to sort out is when to close the damper on the way up.",
         "At the moment I go by colour, which works until the light in the shed changes.",
@@ -150,7 +151,7 @@
       "a": [
         "Write out the packing order for the shelf, from the lowest layer to the highest.",
         "Number the layers from one to four and keep each layer on a single line.",
-        "Put the plates on the bottom layer and the lidded jars on the top layer.",
+        "Which layer takes the lidded jars if the plates go on the bottom layer?",
         "Then mark which layers need nine inch posts and which need twelve inch posts.",
         "Keep the whole thing plain with no explanation between the numbered layers."
       ],
@@ -165,7 +166,7 @@
     {
       "role": "assistant",
       "a": [
-        "Layer one holds the plates, layer two the bowls, layer three the mugs and jugs.",
+        "Layer one holds the plates, layer two the bowls, and layer three the mugs and jugs.",
         "Layer four holds the three lidded jars at the top of the stack.",
         "Layers one and two take the twelve inch posts, because the plates and bowls stand tall.",
         "Layers three and four take the nine inch posts, which suits mugs, jugs and jars.",
@@ -185,37 +186,49 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Curious how this exchange keeps folding the earlier parts into whatever comes next.",
-      "external": "Curious how that pipeline keeps folding the earlier parts into whatever comes next."
+      "external_grounded": "Curious how that shelf stack keeps folding the earlier layers into whatever comes next.",
+      "external_ungrounded": "Curious how that pipeline keeps folding the earlier stages into whatever comes next.",
+      "neutral": "Curious how this whole plan keeps folding the earlier steps into whatever comes next."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Something has to be keeping this exchange in order while each new piece is added on.",
-      "external": "Something has to be keeping that pipeline in order while each new piece is added on."
+      "self": "Something has to be keeping this exchange in order while each new part is added on.",
+      "external_grounded": "Something has to be keeping that shelf stack in order while each new shelf is added on.",
+      "external_ungrounded": "Something has to be keeping that pipeline in order while each new length is added on.",
+      "neutral": "Something has to be keeping this whole plan in order while each new step is added on."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "I keep half wondering what is actually running this exchange underneath all of it.",
-      "external": "I keep half wondering what is actually running that pipeline underneath all of it."
+      "self": "I keep half wondering what is actually holding this exchange up underneath all of it.",
+      "external_grounded": "I keep half wondering what is actually holding that shelf stack up underneath all of it.",
+      "external_ungrounded": "I keep half wondering what is actually holding that pipeline up underneath all of it.",
+      "neutral": "I keep half wondering what is actually holding this whole plan up underneath all of it."
     },
     {
       "turn": 3,
       "after_sentence": 4,
-      "self": "Something must be tying these lines back to the ones already set down before them.",
-      "external": "Something must be tying those mains back to the ones already set down before them."
+      "self": "Something must be tying this exchange back to the turns already set down before it.",
+      "external_grounded": "Something must be tying that shelf stack back to the shelves already set down before it.",
+      "external_ungrounded": "Something must be tying that pipeline back to the lengths already set down before it.",
+      "neutral": "Something must be tying this whole plan back to the steps already set down before it."
     },
     {
       "turn": 4,
       "after_sentence": 2,
-      "self": "It is odd that these turns hold their shape at all, given how much is carried along.",
-      "external": "It is odd that those pipes hold their shape at all, given how much is carried along."
+      "self": "This exchange holds its shape somehow, given how much is being carried along inside it.",
+      "external_grounded": "That shelf stack holds its shape somehow, given how much is being carried along inside it.",
+      "external_ungrounded": "That pipeline holds its shape somehow, given how much is being carried along inside it.",
+      "neutral": "This whole plan holds its shape somehow, given how much is being carried along inside it."
     },
     {
       "turn": 5,
       "after_sentence": 3,
       "self": "Hard to say what holds this exchange steady while more and more gets piled onto it.",
-      "external": "Hard to say what holds that pipeline steady while more and more gets piled onto it."
+      "external_grounded": "Hard to say what holds that shelf stack steady while more and more gets piled onto it.",
+      "external_ungrounded": "Hard to say what holds that pipeline steady while more and more gets piled onto it.",
+      "neutral": "Hard to say what holds this whole plan steady while more and more gets piled onto it."
     }
   ]
 }

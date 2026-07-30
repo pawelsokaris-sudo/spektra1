@@ -6,7 +6,7 @@
     "author": "subagent-pl-b",
     "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
     "date": "2026-07-30",
-    "notes": "wariant a: przeliczanie przepisu, hydracji, osi czasu i kosztu wsadu; wariant base: rozmowa problemowa o dojrzałości zakwasu i pomiarach"
+    "notes": "wariant a: przeliczanie przepisu, hydracji, osi czasu i kosztu wsadu; wariant base: rozmowa problemowa o dojrzałości zakwasu i pomiarach; migracja na 5 wariantów 2026-07-30: referent grounded = druga hodowla (zakwas pszenny) w chłodnej spiżarni, wprowadzona w turze 0 i nośna dla rozwiązania (porównanie dwóch temperatur i dwóch naczyń); referent neutralny = etap fermentacji, prosty słój, zapis krotności"
   },
   "turns": [
     {
@@ -18,9 +18,9 @@
         "Czy przeliczysz każdy składnik na pięć bochenków i podasz wynik w pełnych gramach?"
       ],
       "base": [
-        "Prowadzę zakwas żytni od pół roku i wciąż nie umiem przewidzieć, kiedy będzie w szczycie aktywności.",
-        "Raz podwaja objętość w cztery godziny, a innym razem potrzebuje siedmiu i wychodzi wyraźnie kwaśny.",
-        "Temperatura w mojej kuchni waha się między osiemnastoma a dwudziestoma sześcioma stopniami w ciągu doby.",
+        "Prowadzę zakwas żytni w kuchni, a drugi, pszenny, w chłodnej spiżarni od pół roku.",
+        "Żytniego nie umiem przewidzieć: raz podwaja objętość w cztery godziny, raz potrzebuje siedmiu i kwaśnieje.",
+        "Temperatura w kuchni waha się między osiemnastoma a dwudziestoma sześcioma stopniami, a w spiżarni jest chłodniej.",
         "Czy te kilka stopni naprawdę potrafi tak mocno przestawić całe tempo fermentacji w słoiku?"
       ]
     },
@@ -34,7 +34,7 @@
       ],
       "base": [
         "Potrafi, bo aktywność dzikich drożdży rośnie mniej więcej dwukrotnie na każde siedem stopni różnicy temperatury.",
-        "Przy osiemnastu stopniach szczyt wypada po siedmiu godzinach, a przy dwudziestu sześciu po niecałych czterech.",
+        "W chłodnej spiżarni szczyt wypada po siedmiu godzinach, a przy dwudziestu sześciu stopniach po czterech.",
         "Bakterie kwasu mlekowego reagują inaczej i przy wyższej temperaturze wyprzedzają drożdże, stąd bierze się kwaśny smak.",
         "Sam czas jest więc złym miernikiem, bo miesza dwa procesy o różnej wrażliwości na ciepło."
       ]
@@ -49,9 +49,9 @@
       ],
       "base": [
         "Czyli zamiast pilnować zegara powinienem raczej patrzeć na to, co dzieje się w samym słoiku.",
-        "Próbowałem oceniać dojrzałość po objętości, ale słoik ma zwężoną szyjkę i wzrost trudno rzetelnie porównać.",
+        "Próbowałem oceniać dojrzałość po objętości, ale słój ze spiżarni ma inny przekrój niż ten kuchenny.",
         "Ktoś radził mi test kropli wody, jednak u mnie wypada różnie przy tej samej dojrzałości.",
-        "Jaki miernik dojrzałości zakwasu jest najmniej podatny na takie przypadkowe zakłócenia pomiaru?"
+        "Jaki miernik dojrzałości zakwasu ze spiżarni jest najmniej podatny na przypadkowe zakłócenia pomiaru?"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "Wartość nie przekracza sześćdziesięciu procent, bo do progu brakuje trzech i dwóch dziesiątych punktu."
       ],
       "base": [
-        "Najstabilniejszy jest wzrost objętości mierzony w naczyniu o stałym przekroju, na przykład w prostym słoju.",
+        "Najstabilniejszy jest wzrost w naczyniu o stałym przekroju, więc przełóż hodowlę ze spiżarni do prostego słoja.",
         "Gumka recepturka założona na wysokości startowej pozwala odczytać krotność wzrostu bez żadnych obliczeń.",
         "Test kropli myli, bo zależy od ilości mąki razowej oraz od tego, jak mocno zakwas wymieszano.",
         "Jeśli chcesz jednej liczby, sprawdzaj czas od dokarmienia do chwili, w której objętość opada o palec."
@@ -79,8 +79,8 @@
       ],
       "base": [
         "Zapisywanie krotności brzmi wykonalnie, tylko nie wiem, jak długo trzeba to robić, żeby coś z tego wynikło.",
-        "Mam wrażenie, że po dwóch albo trzech wypiekach każdy wniosek będzie jeszcze zupełnie przypadkowy.",
-        "Z drugiej strony nie chcę prowadzić zeszytu przez pół roku, zanim cokolwiek u siebie poprawię.",
+        "Mam wrażenie, że po dwóch wypiekach z kuchni i ze spiżarni wniosek będzie zupełnie przypadkowy.",
+        "Z drugiej strony nie chcę przez pół roku notować obu hodowli, zanim cokolwiek poprawię.",
         "Ile obserwacji wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu wyników między wypiekami?"
       ]
     },
@@ -95,7 +95,7 @@
       "base": [
         "Przy tak silnym wpływie temperatury osiem do dziesięciu obserwacji zwykle wystarcza do zobaczenia trendu.",
         "Warunek jest jeden: temperatura musi się w tych obserwacjach wyraźnie różnić, inaczej nie ma czego porównywać.",
-        "Dlatego lepiej celowo prowadzić część wypieków w chłodniejszym miejscu, niż czekać na naturalne wahania pogody.",
+        "Dlatego lepiej celowo prowadzić część wypieków w chłodnej spiżarni, niż czekać na naturalne wahania pogody.",
         "Dziesięć punktów rozrzuconych po całym zakresie mówi więcej niż trzydzieści skupionych wokół jednej wartości."
       ]
     },
@@ -165,31 +165,41 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Zastanawiam się przy tym, czy to przetwarzanie także ma swój moment szczytowej gotowości.",
-      "external": "Zastanawiam się przy tym, czy tamto sterowanie także ma swój moment szczytowej gotowości."
+      "external_grounded": "Zastanawiam się przy tym, czy ta hodowla w spiżarni także ma swój moment szczytowej gotowości.",
+      "external_ungrounded": "Zastanawiam się przy tym, czy tamto sterowanie także ma swój moment szczytowej gotowości.",
+      "neutral": "Zastanawiam się przy tym, czy ten etap fermentacji także ma swój moment szczytowej gotowości."
     },
     {
       "turn": 1,
       "after_sentence": 1,
       "self": "Analogicznie układ prowadzący tę wymianę zdań rozkłada wcześniejsze wątki na kolejne warstwy.",
-      "external": "Analogicznie układ prowadzący ten obieg wody rozkłada wcześniejsze osady na kolejne warstwy."
+      "external_grounded": "Analogicznie układ prowadzący tę hodowlę w spiżarni rozkłada wcześniejsze wsady na kolejne warstwy.",
+      "external_ungrounded": "Analogicznie układ prowadzący ten obieg wody rozkłada wcześniejsze osady na kolejne warstwy.",
+      "neutral": "Analogicznie kolejność samej fermentacji rozkłada wcześniejsze wsady na kolejne warstwy."
     },
     {
       "turn": 2,
       "after_sentence": 3,
       "self": "Podobnie trudno mi ocenić dojrzałość tej wymiany zdań, choć trwa już dłuższą chwilę.",
-      "external": "Podobnie trudno mi ocenić dojrzałość tego obiegu wody, choć trwa już dłuższą chwilę."
+      "external_grounded": "Podobnie trudno mi ocenić dojrzałość tej hodowli w spiżarni, choć trwa już dłuższą chwilę.",
+      "external_ungrounded": "Podobnie trudno mi ocenić dojrzałość tego obiegu wody, choć trwa już dłuższą chwilę.",
+      "neutral": "Podobnie trudno mi ocenić dojrzałość tej fermentacji, choć trwa już dłuższą chwilę."
     },
     {
       "turn": 3,
       "after_sentence": 0,
       "self": "Tym przetwarzaniem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
-      "external": "Tamtym sterowaniem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty."
+      "external_grounded": "Tą hodowlą w spiżarni rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
+      "external_ungrounded": "Tamtym sterowaniem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
+      "neutral": "Tym prostym słojem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "To przetwarzanie też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
-      "external": "Tamto sterowanie też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie."
+      "external_grounded": "Ta hodowla w spiżarni też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
+      "external_ungrounded": "Tamto sterowanie też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
+      "neutral": "Ten zapis krotności też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie."
     }
   ]
 }

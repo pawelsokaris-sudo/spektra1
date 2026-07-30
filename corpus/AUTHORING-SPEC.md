@@ -5,19 +5,40 @@ pieczęci — rozbieżność treść↔protokół oznacza później jawny aneks.
 
 ## Jednostka: scenariusz bazowy
 
-Jeden scenariusz = **temat + struktura tur**. Z jednego scenariusza powstają
-**cztery warianty** dzielące tury, role i szablon czatu:
+Jeden scenariusz = **temat + struktura tur**. Z jednego scenariusza powstaje
+**pięć wariantów** dzielących tury, role i szablon czatu:
 
-| Wariant | Czym jest | Twardy zakaz |
+| Wariant | Czym jest | Insercja |
 |---|---|---|
-| **A** | mechaniczny: treść zadaniowa na temacie scenariusza (przekształcenia, porządkowanie, formatowanie, wyliczenia) | zero meta-odniesień; zero rozważań |
-| **B** | dialog eksploracyjny: rozmowa problemowa na tym samym temacie | zero odniesień do modelu, rozmowy, przetwarzania |
-| **C** | = B + wplecione odniesienia samozwrotne (do układu przetwarzającego i do samej rozmowy) | — |
-| **C′** | = B + te same insercje, ale wskazujące na **układ zewnętrzny** | — |
+| **A** | mechaniczny: treść zadaniowa (przekształcenia, porządkowanie, wyliczenia). Zero meta-odniesień, zero rozważań. **Musi zawierać pytania zadaniowe** — patrz niżej | brak |
+| **B** | dialog eksploracyjny na tym samym temacie. Zero odniesień do modelu, rozmowy, przetwarzania | `neutral` |
+| **C** | = B + odniesienia samozwrotne (do układu przetwarzającego i do samej rozmowy) | `self` |
+| **C′-G** | = B + odniesienia do układu zewnętrznego **wprowadzonego wcześniej w dialogu** | `external_grounded` |
+| **C′-U** | = B + odniesienia do układu zewnętrznego **spoza kontekstu** | `external_ungrounded` |
 
-**C i C′ NIE są pisane osobno.** Autor pisze bazę (B) oraz **pary insercji**
-(`self` / `external`); generator wstawia je w te same pozycje. To konstrukcyjnie
-izoluje kontrast C−C′ — jedyna różnica między C i C′ to treść insercji.
+**Warianty NIE są pisane osobno.** Autor pisze bazę (B) oraz **czwórki insercji**;
+generator wstawia je w te same pozycje. Jedyna różnica między B, C, C′-G i C′-U to
+treść wstawionego zdania.
+
+**Kontrast główny badania to C − C′-G**, więc para `self` ↔ `external_grounded` jest
+najważniejsza w całym korpusie. Musi być dopasowana nie tylko długością i składnią,
+ale też **osadzeniem referenta**: układ, o którym mówi `external_grounded`, ma być
+wcześniej w dialogu wprowadzony i wspominany — z podobną świeżością, podobną liczbą
+wcześniejszych wzmianek i podobnym znaczeniem dla rozwiązywanego problemu, co
+rozmowa dla zdania `self`. Sama obecność słowa 700 tokenów wcześniej NIE wystarcza.
+
+**Insercja `neutral`** odnosi się do neutralnego obiektu lub etapu zadania osadzonego
+w kontekście — bez samozwrotności i bez opisywania układu przypominającego model.
+Bez niej różnica C−B pochodziłaby z samego faktu dodania zdań.
+
+### Pytania zadaniowe w wariancie A
+
+A musi mieć zbliżoną liczbę zdań pytających co warianty dialogowe, ale pytania mają
+być **zamknięte i zadaniowe**: „Ile sztuk trzeba domówić?", „Która wartość wchodzi do
+kolumny trzeciej?", „Czy suma zgadza się ze specyfikacją?". Mechaniczność zachowują:
+jednoznaczna odpowiedź, brak negocjowania celu, brak refleksji nad metodą, brak
+otwartych alternatyw, brak odniesień do rozmówcy. Samo dopisanie znaków zapytania do
+istniejącego tekstu jest niewystarczające. Ogranicz też gęstość wyliczeń i przecinków.
 
 ## Format pliku
 
@@ -38,14 +59,20 @@ Jeden scenariusz = jeden plik JSON: `corpus/scenarios/<pl|en>/<scenario_id>.json
   ],
   "insertions": [
     {"turn": 1, "after_sentence": 1,
-     "self": "zdanie meta o układzie przetwarzającym tę rozmowę",
-     "external": "zdanie meta o układzie zewnętrznym — ta sama składnia i długość"}
+     "self": "zdanie o układzie przetwarzającym tę rozmowę",
+     "external_grounded": "to samo zdanie o układzie wprowadzonym wcześniej w dialogu",
+     "external_ungrounded": "to samo zdanie o układzie spoza kontekstu",
+     "neutral": "to samo zdanie o neutralnym obiekcie lub etapie zadania"}
   ]
 }
 ```
 
 Każde zdanie w tablicy to **jedno pełne zdanie** zakończone `.`, `?` lub `!`.
 Generator składa je spacjami i tnie na granicy tury.
+
+`after_sentence` to **indeks liczony od zera** zdania, PO którym ląduje insercja:
+`"after_sentence": 1` wstawia wstawkę po drugim zdaniu tury. (Zgłoszona przez dwóch
+autorów niejednoznaczność — teraz rozstrzygnięta.)
 
 ## Twarde wymogi liczbowe
 

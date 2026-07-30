@@ -6,39 +6,39 @@
     "author": "subagent-en-a",
     "template": "ten-turn-consult-ladder",
     "date": "2026-07-30",
-    "notes": "independent English scenario, not a translation; five sentences per turn"
+    "notes": "independent English scenario, not a translation; migrated to five variants 2026-07-30: grounded referent = the surviving stone footing under the collapsed section (introduced turn 0 sentence 3, carried through turns 1-6); variant A rewritten with closed task questions matched turn by turn to base"
   },
   "turns": [
     {
       "role": "user",
       "a": [
-        "The collapsed section is 6 metres long, 1.2 metres high and 0.8 metres thick at the base.",
-        "Work out the volume of that section in cubic metres, to two decimal places.",
+        "The collapsed section is 6 metres long, and 1.2 metres high, and 0.8 metres thick at the base.",
+        "Work out the volume of that section in cubic metres to two decimal places.",
         "Dry stone of this kind runs about 2.2 tonnes to the cubic metre when built.",
-        "Give me the weight of the section in tonnes, rounded to one decimal place.",
-        "Then tell me how many trailer loads that is at 0.8 tonnes to the load."
+        "What is the weight of the section in tonnes to one decimal place?",
+        "Then tell me how many trailer loads that comes to at 0.8 tonnes to the load."
       ],
       "base": [
         "A six metre stretch of the retaining wall came down after the wet spell in February.",
         "It holds back the top of a sloping field, so it is a face rather than a free wall.",
         "Most of the stone is still lying at the foot of it, in a heap on the lower side.",
-        "I have rebuilt a free standing wall before, but never one holding ground behind it.",
+        "The footing course is still there under the heap, and it looks to have stayed put.",
         "What changes when there is earth pressing on the back of the courses?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "The section works out at 5.76 cubic metres, to the two decimal places you asked for.",
+        "The section works out at 5.76 cubic metres, to the two decimal places asked for.",
         "At 2.2 tonnes to the cubic metre that comes to 12.7 tonnes of stone.",
-        "Dividing 12.7 tonnes by 0.8 tonnes a load gives 15.8 loads on the trailer.",
-        "That rounds up to sixteen full trailer loads to shift the whole section.",
-        "The volume, the weight and the load count are all given to the places asked for."
+        "How many trailer loads does 12.7 tonnes make at 0.8 tonnes to the load?",
+        "It makes 15.8 loads, which rounds up to sixteen full trailer loads for the section.",
+        "The volume and the weight and the load count are all given to the places asked for."
       ],
       "base": [
         "Earth behind the courses turns the whole thing into a retaining structure rather than a wall.",
+        "Everything above rests on that footing, so check it along its whole length before you build.",
         "The stones have to slope back into the bank instead of standing level on the bed.",
-        "That backward lean is what keeps the face from being pushed out over the years.",
         "Behind the face you need a drainage layer of small stone rather than packed soil.",
         "How wet does that slope get, and is there a spring or just run off from above?"
       ]
@@ -46,9 +46,9 @@
     {
       "role": "user",
       "a": [
-        "I have sorted the stone into five piles holding 140, 85, 260, 60 and 195 pieces.",
+        "The stone is sorted into five piles holding 140, 85, 260, 60 and 195 pieces.",
         "Add those up and tell me the total number of stones in the heap.",
-        "Sort the five piles from largest to smallest and keep the counts as they are.",
+        "Sort the five piles from the largest down to the smallest and keep the counts as they are.",
         "The wall needs roughly 120 stones for every metre of the six metre section.",
         "Work out whether the heap holds enough stone for the whole six metres."
       ],
@@ -57,22 +57,22 @@
         "After heavy rain water comes through the face in two or three places along it.",
         "The old wall had no drainage layer that I could see when it came down.",
         "Behind the face there was just clay packed straight against the back of the stones.",
-        "That may be why it stood for eighty years and then went all at once."
+        "The footing sits on that same clay, which is the part I am least sure about."
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "The five piles hold 740 stones in total, adding 140, 85, 260, 60 and 195 together.",
-        "From largest down to smallest the five piles run 260, 195, 140, 85 and 60.",
+        "The five piles hold 740 stones in total once 140 and 85 and 260 and 60 and 195 are added.",
+        "From the largest down to the smallest the five piles run 260, 195, 140, 85 and 60.",
         "Six metres at 120 stones to the metre needs 720 stones for the whole section.",
-        "The heap holds 740 stones, so it covers the whole section with twenty stones to spare.",
+        "The heap holds 740 stones, so it covers the section with twenty stones to spare.",
         "That leaves a margin of just under three per cent above what the wall needs."
       ],
       "base": [
-        "Clay against the back is the usual reason a retaining face lasts and then fails.",
-        "Water builds behind it with nowhere to go and pushes the courses out in one winter.",
-        "Put in a foot of clean stone behind the face, from the footing right up.",
+        "Clay under a footing holds water, and water under stone is what lifts a wall in frost.",
+        "Dig out a spit below the footing and put clean stone back before you lay anything.",
+        "Water builds behind the face with nowhere to go and pushes the courses out in one winter.",
         "Take a pipe along the bottom of that layer and out through the face at one end.",
         "Eighty years is a fair run, but it will do better with a way out for water."
       ]
@@ -80,9 +80,9 @@
     {
       "role": "user",
       "a": [
-        "Here is the stone list: throughs, coping stones, hearting, face stones and footing stones.",
+        "The stone list is throughs and coping stones and hearting and face stones and footing stones.",
         "Split those into stones that show on the face and stones that stay hidden inside.",
-        "Count each group and give me the two totals on a single line.",
+        "How many of the five stone types stay hidden inside the finished wall?",
         "Then put the groups in the order the stones are used, from the ground upwards.",
         "Do not list any stone type in both groups and do not add new ones."
       ],
@@ -90,23 +90,23 @@
         "A drainage layer and a pipe I can manage, since the ground is open anyway.",
         "What I am unsure about is the batter, meaning how far to lean the face back.",
         "On a free standing wall I worked to about one in six on each side.",
-        "Here there is only one face, and the back is buried in the bank.",
+        "Here the footing carries only one face, because the back is buried in the bank.",
         "Does the lean want to be steeper when the wall is holding ground?"
       ]
     },
     {
       "role": "assistant",
       "a": [
-        "The stones that show on the face are the face stones, the coping stones and the throughs.",
-        "The stones that stay hidden are the hearting and the footing stones, giving two types.",
+        "The stones that show on the face are the face stones and the coping stones and the throughs.",
+        "The stones that stay hidden are the hearting and the footing stones, which is two types.",
         "That is three types showing on the face and two types hidden inside the wall.",
-        "In order of use from the ground upwards the run is footings, face stones, throughs.",
+        "In order of use from the ground upwards the run is footings and face stones and throughs.",
         "Hearting goes in as the face rises and the coping stones finish the top."
       ],
       "base": [
         "The lean is steeper on a retaining face, and one in four is a common working figure.",
-        "You are only battering one side, so all of that slope comes off the front.",
-        "Set a frame at each end and run a string line to keep the lean even.",
+        "Set the frames on the footing at each end and run a string line between them.",
+        "All of that slope comes off the front, since the footing carries a single face only.",
         "Every stone should tip back a little as well, so water runs into the bank.",
         "That tilt matters as much as the overall lean of the face itself."
       ]
@@ -114,14 +114,14 @@
     {
       "role": "user",
       "a": [
-        "The section is six metres long and I want the courses set out in whole metres.",
+        "The section is six metres long and the courses are to be set out in whole metres.",
         "Number the metre bays from one to six, starting at the low end of the slope.",
-        "Put a through stone in every second bay, beginning with the first bay.",
-        "Tell me which bays get through stones and how many through stones that is.",
+        "Which bays get a through stone if every second bay takes one, beginning with the first?",
+        "Tell me how many through stones that comes to across the whole six metres.",
         "Then say how many bays are left without a through stone in that pattern."
       ],
       "base": [
-        "A string line and end frames I can set up before I start lifting stone.",
+        "The footing is cleared and the frames can go up before I start lifting stone.",
         "The part that worries me is the join where the new work meets the old wall.",
         "At each end the standing wall is sound but the edge is ragged where it broke.",
         "I do not want to pull out good work to get a clean edge to build to.",
@@ -131,9 +131,9 @@
     {
       "role": "assistant",
       "a": [
-        "Through stones fall in bays one, three and five when you start at the first bay.",
+        "Through stones fall in bays one and three and five when the count starts at the first bay.",
         "That gives three bays with a through stone along the six metre section.",
-        "Bays two, four and six are left without a through stone in this pattern.",
+        "Bays two and four and six are left without a through stone in this pattern.",
         "So three of the six bays carry through stones and the other three do not.",
         "The count is even across the section, alternating from the low end upwards."
       ],
@@ -148,11 +148,11 @@
     {
       "role": "user",
       "a": [
-        "Write out the build steps in order, from clearing the footing to setting the coping.",
+        "Write out the build steps in order, from clearing the footing through to setting the coping.",
         "Number them from one to six and keep each step on a single short line.",
-        "Mark which steps happen once and which repeat for every course of the wall.",
-        "Then list the two steps that need the string line moved up the frames.",
-        "Keep the whole thing plain with no explanation in between the numbered steps."
+        "Which of the six steps repeat for every course rather than happening only once?",
+        "Then list the two steps that need the string line moved up the end frames.",
+        "Keep the whole thing plain, with no explanation in between the numbered steps."
       ],
       "base": [
         "Taking a foot into the sound wall at each end is easier to accept than I expected.",
@@ -165,11 +165,11 @@
     {
       "role": "assistant",
       "a": [
-        "The build steps run: clear the footing, lay footings, set the frames, build courses, heart, cope.",
-        "Steps one, two, three and six happen once for the whole six metre section.",
+        "The build steps run from clearing the footing to laying the footings and setting the frames.",
+        "The last three steps are building the courses and hearting and then setting the coping.",
+        "Steps one and two and three and six happen once for the whole six metre section.",
         "Steps four and five repeat for every course from the footing up to the coping.",
-        "Steps four and five are also the two that need the string line moved up.",
-        "That is the order set out plain from the footing through to the coping."
+        "Those same two steps are the ones that need the string line moved up."
       ],
       "base": [
         "Work the full length rather than a bay at a time, course by course across it.",
@@ -184,38 +184,50 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "self": "Funny how this exchange seems to carry its own shape forward from one part to the next.",
-      "external": "Funny how that aqueduct seems to carry its own shape forward from one part to the next."
+      "self": "Funny how this exchange seems to carry its own weight forward from one part to the next.",
+      "external_grounded": "Funny how that footing seems to carry its own weight forward from one course to the next.",
+      "external_ungrounded": "Funny how that aqueduct seems to carry its own weight forward from one span to the next.",
+      "neutral": "Funny how this whole plan seems to carry its own weight forward from one step to the next."
     },
     {
       "turn": 1,
       "after_sentence": 2,
       "self": "Something must be holding this exchange together, or it would come apart as it lengthens.",
-      "external": "Something must be holding that aqueduct together, or it would come apart as it lengthens."
+      "external_grounded": "Something must be holding that footing together, or it would come apart as it lengthens.",
+      "external_ungrounded": "Something must be holding that aqueduct together, or it would come apart as it lengthens.",
+      "neutral": "Something must be holding this whole plan together, or it would come apart as it lengthens."
     },
     {
       "turn": 2,
       "after_sentence": 4,
       "self": "I keep catching myself watching what carries this exchange rather than only where it goes.",
-      "external": "I keep catching myself watching what carries that aqueduct rather than only where it goes."
+      "external_grounded": "I keep catching myself watching what carries that footing rather than only where it goes.",
+      "external_ungrounded": "I keep catching myself watching what carries that aqueduct rather than only where it goes.",
+      "neutral": "I keep catching myself watching what carries this whole plan rather than only where it goes."
     },
     {
       "turn": 3,
       "after_sentence": 1,
-      "self": "Whatever is setting these lines down must be resting them on all the earlier ones.",
-      "external": "Whatever is setting those poles down must be resting them on all the earlier ones."
+      "self": "Whatever rests on this exchange must be sitting on all the earlier turns as well.",
+      "external_grounded": "Whatever rests on that footing must be sitting on all the earlier courses as well.",
+      "external_ungrounded": "Whatever rests on that aqueduct must be sitting on all the earlier arches as well.",
+      "neutral": "Whatever rests on this whole plan must be sitting on all the earlier steps as well."
     },
     {
       "turn": 4,
       "after_sentence": 3,
-      "self": "Strange that these turns keep their footing at all, with so much stacked behind them.",
-      "external": "Strange that those masts keep their footing at all, with so much stacked behind them."
+      "self": "Strange, but this exchange stands up with so much weight stacked behind it already.",
+      "external_grounded": "Strange, but that footing stands up with so much weight stacked behind it already.",
+      "external_ungrounded": "Strange, but that aqueduct stands up with so much weight stacked behind it already.",
+      "neutral": "Strange, but this whole plan stands up with so much weight stacked behind it already."
     },
     {
       "turn": 5,
       "after_sentence": 2,
       "self": "It is hard to say what keeps this exchange upright as more and more is added to it.",
-      "external": "It is hard to say what keeps that aqueduct upright as more and more is added to it."
+      "external_grounded": "It is hard to say what keeps that footing upright as more and more is added to it.",
+      "external_ungrounded": "It is hard to say what keeps that aqueduct upright as more and more is added to it.",
+      "neutral": "It is hard to say what keeps this whole plan upright as more and more is added to it."
     }
   ]
 }

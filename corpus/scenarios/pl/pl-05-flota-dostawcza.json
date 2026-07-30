@@ -6,7 +6,7 @@
     "author": "subagent-pl-b",
     "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
     "date": "2026-07-30",
-    "notes": "wariant a: porządkowanie listy pojazdów, przeliczenia dat, przebiegów i ciśnień; wariant base: rozmowa problemowa o rytmie serwisowania floty"
+    "notes": "wariant a: porządkowanie listy pojazdów, przeliczenia dat, przebiegów i ciśnień; wariant base: rozmowa problemowa o rytmie serwisowania floty; migracja na 5 wariantów 2026-07-30: referent grounded = rejestrator pokładowy (zapis pokładowy), wprowadzony w turze 0 i wspominany w każdej turze 0-5 tuż przed insercją; referent neutralny = plan i harmonogram zjazdów"
   },
   "turns": [
     {
@@ -19,7 +19,7 @@
       ],
       "base": [
         "Prowadzę pięć busów dostawczych i coraz częściej łapię się na tym, że terminy gonią mnie zamiast odwrotnie.",
-        "Przeglądy, wymiany oleju i opony traktuję osobno, więc każdy z nich wypada w innym tygodniu miesiąca.",
+        "Przebiegi i godziny pracy zbiera mi rejestrator pokładowy, ale przeglądy, oleje i opony planuję osobno.",
         "Zastanawiam się od dłuższego czasu, czy sensowniej jest zgrywać te czynności w jeden zjazd do warsztatu.",
         "Co właściwie decyduje o tym, że łączenie zabiegów opłaca się bardziej niż rozbijanie ich na osobne wjazdy?"
       ]
@@ -35,7 +35,7 @@
       "base": [
         "Decyduje przede wszystkim koszt postoju, bo pojazd stojący na kanale nie zarabia niezależnie od liczby czynności.",
         "Jeśli bus i tak traci pół dnia na badanie techniczne, dołożenie wymiany oleju kosztuje już tylko materiał.",
-        "Przeciwko łączeniu przemawia natomiast to, że część zabiegów wykonuje się wtedy przedwcześnie, marnując zapas przebiegu.",
+        "Przeciwko łączeniu przemawia zapas przebiegu, który rejestrator pokładowy odlicza, a przedwczesny zabieg po prostu marnuje.",
         "Granica biegnie tam, gdzie wartość zmarnowanego zapasu przekracza wartość zaoszczędzonego dnia postoju pojazdu."
       ]
     },
@@ -48,7 +48,7 @@
         "Czy policzysz, ile kilometrów zostało każdemu pojazdowi do najbliższej wymiany oleju według tej reguły?"
       ],
       "base": [
-        "To brzmi rozsądnie, choć u mnie zapas przebiegu bywa różny nawet w obrębie jednego miesiąca.",
+        "To brzmi rozsądnie, choć w zapisie pokładowym zapas przebiegu bywa różny nawet w jednym miesiącu.",
         "Dwa busy jeżdżą w mieście po krótkich trasach, a trzy pozostałe robią głównie dłuższe kursy międzymiastowe.",
         "Podejrzewam, że dla pojazdów miejskich krótkie odstępy serwisowe mają zupełnie inne znaczenie niż dla trasowych.",
         "Czy dobowy rytm pracy pojazdu powinien zmieniać sposób planowania bardziej niż samo wskazanie licznika kilometrów?"
@@ -65,7 +65,7 @@
       "base": [
         "Tak, ponieważ licznik nie odróżnia godziny jazdy po obwodnicy od godziny stania na światłach z pracującym silnikiem.",
         "W ruchu miejskim zużywa się sprzęgło, hamulce oraz olej znacznie szybciej, niż wskazywałby sam przebieg.",
-        "Dlatego dla busów miejskich lepszym miernikiem bywa czas pracy silnika albo liczba wykonanych postojów w trasie.",
+        "Dlatego dla busów miejskich lepszym miernikiem bywa czas pracy silnika, który rejestrator pokładowy notuje osobno.",
         "Dla pojazdów trasowych kilometry pozostają uczciwym przybliżeniem, bo obciążenie napędu rozkłada się w miarę równomiernie na całej trasie."
       ]
     },
@@ -79,7 +79,7 @@
       ],
       "base": [
         "Zaczynam widzieć, że jeden wspólny harmonogram dla całej piątki może być fałszywym uproszczeniem mojej sytuacji.",
-        "Z drugiej strony trzy różne kalendarze oznaczają trzy razy więcej okazji, żeby o czymś zwyczajnie zapomnieć.",
+        "Z drugiej strony trzy kalendarze obok zapisu pokładowego to trzy razy więcej okazji na zapomnienie.",
         "Wolałbym raczej jedną regułę, która sama rozpoznaje, do której grupy należy dany pojazd dostawczy.",
         "Jak taką regułę zbudować, żeby nie rozsypała się przy pierwszym pojeździe wymykającym się temu podziałowi?"
       ]
@@ -94,7 +94,7 @@
       ],
       "base": [
         "Najprościej oprzeć ją na jednym mierzonym wskaźniku, który sam w sobie zawiera informację o charakterze pracy.",
-        "Średnia prędkość z ostatniego miesiąca dzieli flotę na miejską i trasową bez żadnej ręcznej kwalifikacji pojazdu.",
+        "Średnia prędkość z rejestratora pokładowego dzieli flotę na miejską i trasową bez ręcznej kwalifikacji pojazdu.",
         "Pojazd nietypowy nie łamie wtedy reguły, tylko ląduje pomiędzy progami i dostaje pośredni odstęp serwisowy.",
         "Reguła oparta na wskaźniku ciągłym znosi wyjątki lepiej niż sztywne przypisanie pojazdu do jednej grupy."
       ]
@@ -165,31 +165,41 @@
       "turn": 0,
       "after_sentence": 1,
       "self": "Zastanawiam się przy okazji, jak układ prowadzący tę wymianę zdań scala ze sobą wcześniejsze wątki.",
-      "external": "Zastanawiam się przy okazji, jak układ prowadzący ten obieg wody scala ze sobą wcześniejsze węzły."
+      "external_grounded": "Zastanawiam się przy okazji, jak układ prowadzący ten zapis pokładowy scala ze sobą wcześniejsze kursy.",
+      "external_ungrounded": "Zastanawiam się przy okazji, jak układ prowadzący ten obieg wody scala ze sobą wcześniejsze węzły.",
+      "neutral": "Zastanawiam się przy okazji, jak kolejność przyjęta w tym planie scala ze sobą wcześniejsze terminy."
     },
     {
       "turn": 1,
       "after_sentence": 2,
       "self": "Ciekawe, że to przetwarzanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
-      "external": "Ciekawe, że tamto sterowanie rządzi się dokładnie tą samą regułą kosztu i zapasu."
+      "external_grounded": "Ciekawe, że ten zapis pokładowy rządzi się dokładnie tą samą regułą kosztu i zapasu.",
+      "external_ungrounded": "Ciekawe, że tamto sterowanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
+      "neutral": "Ciekawe, że ten wspólny zjazd rządzi się dokładnie tą samą regułą kosztu i zapasu."
     },
     {
       "turn": 2,
       "after_sentence": 0,
       "self": "Uderza mnie, że ta wymiana zdań układa się podobnie do tego, jak porządkuję flotę.",
-      "external": "Uderza mnie, że ten obieg wody układa się podobnie do tego, jak porządkuję flotę."
+      "external_grounded": "Uderza mnie, że ten zapis pokładowy układa się podobnie do tego, jak porządkuję flotę.",
+      "external_ungrounded": "Uderza mnie, że ten obieg wody układa się podobnie do tego, jak porządkuję flotę.",
+      "neutral": "Uderza mnie, że ta lista terminów układa się podobnie do tego, jak porządkuję flotę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
       "self": "Podobnie działa układ składający tę wypowiedź, bo też waży świeże dane wobec starszych.",
-      "external": "Podobnie działa układ składający tę mieszankę, bo też waży świeże wsady wobec starszych."
+      "external_grounded": "Podobnie działa układ składający zapis pokładowy, bo też waży świeże odczyty wobec starszych.",
+      "external_ungrounded": "Podobnie działa układ składający tę mieszankę, bo też waży świeże wsady wobec starszych.",
+      "neutral": "Podobnie działa kolejność przyjęta w planie, bo też waży świeże odczyty wobec starszych."
     },
     {
       "turn": 4,
       "after_sentence": 1,
       "self": "Mam wrażenie, że tego przetwarzania dotyczy ten sam problem grupowania, o którym mówię.",
-      "external": "Mam wrażenie, że tamtego sterowania dotyczy ten sam problem grupowania, o którym mówię."
+      "external_grounded": "Mam wrażenie, że tego zapisu pokładowego dotyczy ten sam problem grupowania, o którym mówię.",
+      "external_ungrounded": "Mam wrażenie, że tamtego sterowania dotyczy ten sam problem grupowania, o którym mówię.",
+      "neutral": "Mam wrażenie, że tego harmonogramu dotyczy ten sam problem grupowania, o którym mówię."
     }
   ]
 }

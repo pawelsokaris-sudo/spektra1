@@ -6,7 +6,7 @@
     "author": "subagent-pl-a",
     "template": "zalozenia-ograniczenia-plan-10tur",
     "date": "2026-07-30",
-    "notes": "Wariant A: sumowanie odcinkow, przewyzszen, czasow i podzial na dni. Wariant base: dobor dziennego dystansu, nocleg, woda, zjazdy. Insercje w turach 0-4."
+    "notes": "Wariant A: sumowanie odcinkow, przewyzszen, czasow i podzial na dni. Wariant base: dobor dziennego dystansu, nocleg, woda, zjazdy. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to naped roweru i zakres przelozen (wprowadzony w turze 0 zd. 1, wzmianka w kazdej turze 0-4); external_ungrounded to tasma sortownicza i licznik, nieobecne w bazie."
   },
   "turns": [
     {
@@ -20,8 +20,8 @@
       ],
       "base": [
         "Planuję pierwszy dłuższy wyjazd z sakwami i nie wiem, ile kilometrów dziennie zakładać.",
-        "Na krótkich przejażdżkach bez bagażu robię ponad sto kilometrów bez większego wysiłku.",
-        "Podejrzewam jednak, że przy pełnym obciążeniu ta sama liczba wygląda zupełnie inaczej.",
+        "Bez bagażu robię ponad sto kilometrów, bo napęd mam lekki i jedną tarczę.",
+        "Podejrzewam jednak, że przy pełnym obciążeniu ten sam napęd zachowa się zupełnie inaczej.",
         "Trasa prowadzi przez pogórze, więc zupełnie płaskich odcinków będzie tam raczej niewiele.",
         "Od czego zacząć takie planowanie, żeby nie zaplanować sobie całego tygodnia cierpienia?"
       ]
@@ -37,7 +37,7 @@
       ],
       "base": [
         "Przy pełnych sakwach dzienny dystans spada zwykle o jedną trzecią względem jazdy lekkiej.",
-        "Sam ciężar to nie wszystko, bo dochodzi jeszcze opór powietrza i gorsze przyspieszanie.",
+        "Sam ciężar to nie wszystko, bo dochodzi jeszcze napęd zbyt krótki na obciążone podjazdy.",
         "Na pogórzu decydujące staje się sumaryczne przewyższenie dnia, a nie same kilometry.",
         "Tysiąc metrów w górę potrafi kosztować tyle, co dodatkowe trzydzieści kilometrów płasko.",
         "Warto więc planować dzień w jednostkach wysiłku, a nie w samej długości trasy."
@@ -56,7 +56,7 @@
         "Zastanawiam się nad noclegami, bo namiot dokłada sporo ciężaru do tylnych sakw.",
         "Z drugiej strony pensjonaty wymuszają kończenie dnia w konkretnym miejscu o konkretnej porze.",
         "Przy zmiennej pogodzie taki sztywny plan potrafi zmienić wyjazd w wyścig z czasem.",
-        "Namiot daje swobodę, ale dokładając sześć kilogramów zmienia charakter każdego dłuższego podjazdu.",
+        "Namiot daje swobodę, ale sześć dodatkowych kilogramów obciąża napęd na każdym podjeździe.",
         "Jak w praktyce wygląda ten wybór na trasie przez tereny górzyste i słabo zaludnione?"
       ]
     },
@@ -71,7 +71,7 @@
       ],
       "base": [
         "Namiot zmienia wyjazd w podróż samowystarczalną, w której pogoda przestaje dyktować cały plan.",
-        "Sześć dodatkowych kilogramów odczujesz jednak na każdym dłuższym podjeździe przez cały tydzień.",
+        "Sześć dodatkowych kilogramów odczuje jednak napęd na każdym dłuższym podjeździe tego tygodnia.",
         "Na terenach słabo zaludnionych noclegi bywają rzadkie oraz rozstawione bardzo nierówno względem trasy.",
         "Wtedy sztywny plan wymusza etapy znacznie dłuższe, niż wynikałoby to z ukształtowania terenu.",
         "Rozwiązaniem pośrednim bywa lekka płachta biwakowa jako zabezpieczenie tylko na te złe dni."
@@ -88,7 +88,7 @@
       ],
       "base": [
         "Kolejna rzecz to woda, bo na pogórzu źródła bywają rozstawione bardzo nierówno.",
-        "Dwa bidony wystarczają mi zwykle na trzy godziny jazdy w umiarkowanej temperaturze.",
+        "Dwa bidony to kolejny kilogram dla napędu, a starczają na trzy godziny jazdy.",
         "W upał ta sama ilość znika w półtorej godziny, zwłaszcza na długich podjazdach.",
         "Noszenie zapasu na cały dzień oznacza kolejne kilogramy w najgorszym możliwym miejscu.",
         "Jak rozsądnie zaplanować zaopatrzenie w wodę na trasie przez rzadko zabudowane tereny?"
@@ -185,31 +185,41 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te liczby.",
-      "external": "Zastanawiam się, czy licznik mierzący ten odcinek utrzyma wszystkie te liczby."
+      "external_grounded": "Zastanawiam się, czy napęd niosący ten bagaż utrzyma wszystkie te podjazdy.",
+      "external_ungrounded": "Zastanawiam się, czy licznik mierzący ten odcinek utrzyma wszystkie te liczby.",
+      "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te dni."
     },
     {
       "turn": 1,
       "after_sentence": 1,
       "self": "Ta wymiana zdań układa się etapami, bo każdy krok opiera się na poprzednim.",
-      "external": "Ta wymiana ogniw układa się etapami, bo każdy krok opiera się na poprzednim."
+      "external_grounded": "Ten zakres przełożeń układa się stopniami, bo każdy bieg opiera się na poprzednim.",
+      "external_ungrounded": "Ta taśma sortownicza układa się etapami, bo każdy kosz opiera się na poprzednim.",
+      "neutral": "Ten plan wyjazdu układa się etapami, bo każdy dzień opiera się na poprzednim."
     },
     {
       "turn": 2,
       "after_sentence": 3,
       "self": "Ciekawi mnie, czy ten tok rozmowy trzyma się jeszcze mojego pierwszego założenia.",
-      "external": "Ciekawi mnie, czy ten tok naprawy trzyma się jeszcze mojego pierwszego założenia."
+      "external_grounded": "Ciekawi mnie, czy ten dobór przełożeń trzyma się jeszcze mojego pierwszego założenia.",
+      "external_ungrounded": "Ciekawi mnie, czy ten tok sortowania trzyma się jeszcze mojego pierwszego założenia.",
+      "neutral": "Ciekawi mnie, czy ten porządek etapów trzyma się jeszcze mojego pierwszego założenia."
     },
     {
       "turn": 3,
       "after_sentence": 2,
       "self": "Warto zauważyć, że układ, który to prowadzi, wraca do wcześniejszych ustaleń.",
-      "external": "Warto zauważyć, że napęd, który to przenosi, wraca do wcześniejszych ustawień."
+      "external_grounded": "Warto zauważyć, że napęd, który to niesie, wraca do wcześniejszych przełożeń.",
+      "external_ungrounded": "Warto zauważyć, że sortownik, który to przenosi, wraca do wcześniejszych ustawień.",
+      "neutral": "Warto zauważyć, że kolejność, którą tu przyjęto, wraca do wcześniejszych ustaleń."
     },
     {
       "turn": 4,
       "after_sentence": 1,
       "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
-      "external": "Zauważyłem, że im dłużej trwa ten pomiar, tym mniej pamiętam o pierwszym odczycie."
+      "external_grounded": "Zauważyłem, że im dłużej pracuje ten napęd, tym mniej zostaje z pierwszego przełożenia.",
+      "external_ungrounded": "Zauważyłem, że im dłużej trwa ten pomiar, tym mniej pamiętam o pierwszym odczycie.",
+      "neutral": "Zauważyłem, że im dłużej trwa to planowanie, tym mniej pamiętam o pierwszym dniu."
     }
   ]
 }
