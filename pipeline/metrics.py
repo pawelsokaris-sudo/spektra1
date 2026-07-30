@@ -144,6 +144,54 @@ def d_lag_sentence(Z, sentence_ids, n_permutations=500, rng=None):
     return float((observed - null.mean()) / null.std(ddof=1))
 
 
+def d_discourse(S, n_permutations=500, rng=None):
+    """Metryka porzadku DYSKURSU na poziomie zdan (runda 3, definicja zamrozona
+    2026-07-30 przed pierwszym przeliczeniem - patrz rozstrzygniecia rundy 3).
+
+    S: (J, D) reprezentacje zdan (srednia z-scorowanych stanow tokenow zdania).
+    Statystyka: sigma_1 macierzy C_sent(1) = S_{+1}^T S / (J-1).
+    Null wewnetrzny ('adjacency null'): permutacja kolejnosci s_j bez punktow
+    stalych - null WARUNKOWY, nie odpowiednik N1; glowny test walidacyjny to
+    parowany kontrast surowego sigma_1 oryginal vs N1 po nowym forwardzie.
+
+    Zwraca dict z wartosciami surowymi i empirycznymi (nie sam z-score) -
+    wymog raportowania z rundy 3.
+    """
+    from nulls.interventional import _derangement_indices
+
+    if rng is None:
+        rng = np.random.default_rng()
+    S = np.asarray(S, dtype=np.float64)
+    J = S.shape[0]
+    if J < 3:
+        raise ValueError(f"za malo zdan na metryke dyskursu: J={J} (min 3)")
+
+    G = S @ S.T  # J x J - male, liczone wprost
+    t_norm = J - 1
+    observed = _sigma1_from_gram(G, np.arange(J), t_norm, rng)
+    null = np.empty(n_permutations)
+    for i in range(n_permutations):
+        null[i] = _sigma1_from_gram(G, _derangement_indices(J, rng), t_norm, rng)
+    n_ge = int(np.sum(null >= observed))
+    return {
+        "sigma1": float(observed),
+        "null_mean": float(null.mean()),
+        "null_sd": float(null.std(ddof=1)),
+        "raw_diff": float(observed - null.mean()),
+        "p_empirical": float((n_ge + 1) / (n_permutations + 1)),
+        "z_descriptive": float((observed - null.mean()) / null.std(ddof=1)),
+        "n_sentences": int(J),
+    }
+
+
+def sentence_representations(Z, sentence_ids):
+    """s_j = srednia wierszy Z nalezacych do zdania j (id -1 = szablon, pomijane)."""
+    Z = np.asarray(Z, dtype=np.float64)
+    sentence_ids = np.asarray(sentence_ids)
+    uniq = [u for u in np.unique(sentence_ids) if u >= 0]
+    return np.stack([Z[sentence_ids == u].mean(axis=0) for u in sorted(uniq)])
+
+
 def d_lag(Z, n_permutations=500, rng=None):
     """D_lag = z-score sigma_1(C(1)) wzgledem nullu permutacji kolejnosci wierszy."""
     if rng is None:
