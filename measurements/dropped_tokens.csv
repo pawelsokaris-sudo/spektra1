@@ -1,0 +1,17 @@
+scenario_id,dropped_A,dropped_B,dropped_C,dropped_CprimG,dropped_CprimU
+en-01-apiary-move,0,122,116,122,116
+en-02-dinghy-restoration,14,6,0,6,6
+en-03-kiln-firing,20,6,0,6,0
+en-04-drystone-wall,0,28,22,22,28
+en-05-sourdough-night-bake,0,62,57,59,57
+en-06-workshop-roof-framing,0,61,57,57,59
+en-07-bouldering-route-setting,0,66,63,65,65
+en-08-marquee-stage-sound,0,79,76,79,76
+pl-01-deszczowka,0,77,76,77,87
+pl-02-oswietlenie-warsztatu,0,14,11,19,22
+pl-03-trasa-rowerowa,0,11,8,14,14
+pl-04-archiwum-odbitek,0,84,83,92,86
+pl-05-flota-dostawcza,0,145,142,142,143
+pl-06-chleb-na-zakwasie,0,118,117,124,117
+pl-07-sala-prob-akustyka,0,111,102,106,104
+pl-08-ocieplenie-poddasza,0,122,112,114,110

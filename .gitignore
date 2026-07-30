@@ -9,3 +9,6 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# wyjatek: metryki pomiarowe sa danymi publikowanymi (protokol par. 8)
+!measurements/metrics.parquet
