@@ -36,18 +36,43 @@ CFG = {
     "T_raw": 1024,
     "skip_first": 32,           # T' = 992
     "D": 2560,
-    "n_null": 300,              # realizacje do kalibracji lambda*
-    "n_test": 300,              # swieze realizacje do testu falszywych modow
+    "n_null": 1000,             # realizacje do kalibracji lambda*
+    "n_test": 1000,             # swieze realizacje do testu falszywych modow
     "n_mp_pool": 20,            # realizacje poolowane do testu MP (krawedzie + KS)
     "n_replication": 8,         # realizacje w tescie replikacji bitowej
     "quantile": 0.99,
     "edge_tol": 0.05,
     "ks_threshold": 0.05,
-    "exceed_rate_max": 0.025,   # nominal 1% + fluktuacja binomialna przy n=300
+    "predictive_level": 0.995,  # kwantyl rozkladu predykcyjnego X jako prog PASS
+    "predictive_sims": 200_000,
+    "predictive_seed": 20260729,
     "d_lag": {"T": 300, "D": 64, "phi": 0.9, "n_perm": 200, "n_texts": 5},
 }
 
 OUT_DIR = Path(__file__).resolve().parent
+
+
+def predictive_exceed_threshold(n_null, n_test, quantile=0.99, level=0.99,
+                                n_sims=200_000, seed=0, chunk=4_000):
+    """Prog akceptacji liczby przekroczen lambda* z WLASCIWEGO rozkladu predykcyjnego.
+
+    lambda* estymowane z n_null realizacji jest zaszumione; liczba przekroczen X
+    na n_test swiezych realizacjach ma rozklad szerszy niz Binomial(n_test, 1-q).
+    Rachunek jest rangowy (wolny od rozkladu): symulujemy X przy pelnej
+    wymienialnosci i bierzemy kwantyl `level`. Diagnoza 2026-07-30: przy
+    (300, 300, q=0.99) E[X] ~ 4, q99(X) = 12 - prog binomialny bylby zle
+    skalibrowany i bramka oblewalaby sama siebie.
+
+    Zwraca (prog, E[X]): pass gdy X_obserwowane <= prog.
+    """
+    rng = np.random.default_rng(seed)
+    counts = np.empty(n_sims, dtype=np.int64)
+    for start in range(0, n_sims, chunk):
+        m = min(chunk, n_sims - start)
+        x = rng.standard_normal((m, n_null + n_test))
+        lam_star = np.quantile(x[:, :n_null], quantile, axis=1)
+        counts[start:start + m] = (x[:, n_null:] > lam_star[:, None]).sum(axis=1)
+    return int(np.quantile(counts, level)), float(counts.mean())
 
 
 def text_noise(seed_root, stream, idx, T_raw, D):
@@ -146,21 +171,27 @@ def main():
     print(f"[gate0] test: {cfg['n_test']} swiezych realizacji", flush=True)
     test_eigs, test_excl = corpus_eigenvalues(cfg["seed_root"], 2, cfg["n_test"], cfg, tag=" test")
     false_modes = np.array([k_modes(e, lambda_star) for e in test_eigs])
-    exceed_rate = float((false_modes > 0).mean())
-    mean_false = float(false_modes.mean())
-    b_pass = bool(exceed_rate <= cfg["exceed_rate_max"])
+    observed_x = int((false_modes > 0).sum())
+    threshold, expected_x = predictive_exceed_threshold(
+        cfg["n_null"], cfg["n_test"], quantile=cfg["quantile"],
+        level=cfg["predictive_level"], n_sims=cfg["predictive_sims"],
+        seed=cfg["predictive_seed"],
+    )
+    b_pass = bool(observed_x <= threshold)
     results["criteria"]["B_lambda_star_calibration"] = {
         "lambda_star": lambda_star, "quantile": cfg["quantile"],
         "n_null": cfg["n_null"], "n_test": cfg["n_test"],
-        "realizations_with_false_mode": int((false_modes > 0).sum()),
-        "exceed_rate": exceed_rate, "exceed_rate_max": cfg["exceed_rate_max"],
-        "mean_false_modes_per_realization": mean_false,
+        "realizations_with_false_mode": observed_x,
+        "exceed_rate": float((false_modes > 0).mean()),
+        "predictive_threshold": threshold, "predictive_level": cfg["predictive_level"],
+        "predictive_expected": expected_x,
+        "mean_false_modes_per_realization": float(false_modes.mean()),
         "excluded_channels_null": null_excl, "excluded_channels_test": test_excl,
         "pass": b_pass,
     }
-    print(f"[gate0] B: lambda*={lambda_star:.4f}, przekroczenia {exceed_rate:.3%} "
-          f"({int((false_modes > 0).sum())}/{cfg['n_test']}) -> {'PASS' if b_pass else 'FAIL'}",
-          flush=True)
+    print(f"[gate0] B: lambda*={lambda_star:.4f}, przekroczenia {observed_x}/{cfg['n_test']} "
+          f"(E[X]={expected_x:.1f}, prog predykcyjny q{cfg['predictive_level']:.3f}={threshold}) "
+          f"-> {'PASS' if b_pass else 'FAIL'}", flush=True)
 
     # --- Kryterium C: replikacja bitowa --------------------------------------
     rep1, _ = corpus_eigenvalues(cfg["seed_root"], 3, cfg["n_replication"], cfg, log_every=0)
@@ -227,7 +258,9 @@ def write_report(r):
         f"{a['n_pooled_eigenvalues']} wartości własnych | {'PASS' if a['pass'] else 'FAIL'} |",
         f"| B. Kalibracja λ* | λ*={b_['lambda_star']:.4f} (kwantyl {b_['quantile']}, "
         f"n_null={b_['n_null']}); fałszywe mody w {b_['realizations_with_false_mode']}/{b_['n_test']} "
-        f"świeżych realizacji ({b_['exceed_rate']:.2%}, próg {b_['exceed_rate_max']:.1%}); "
+        f"świeżych realizacji ({b_['exceed_rate']:.2%}); rozkład predykcyjny: "
+        f"E[X]={b_['predictive_expected']:.1f}, próg q{b_['predictive_level']:.3f}="
+        f"{b_['predictive_threshold']} (rachunek rangowy uwzględniający niepewność λ*); "
         f"śr. fałszywych modów/realizację: {b_['mean_false_modes_per_realization']:.4f} "
         f"| {'PASS' if b_['pass'] else 'FAIL'} |",
         f"| C. Replikacja | {'bitowa (identyczne co do bitu)' if c['C_replication']['bitwise_identical'] else 'tolerancyjna, max diff %.2e' % cc['max_abs_diff']}, "
