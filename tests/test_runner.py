@@ -49,10 +49,29 @@ def test_positional_accumulator_matches_plain_mean():
     np.testing.assert_allclose(acc["sum"] / acc["count"][:, None], 2.0 * np.ones((10, 3)))
 
 
-def test_positional_accumulator_rejects_length_mismatch():
-    acc = accumulate_positional(None, np.ones((10, 3)))
-    with pytest.raises(ValueError, match="dlugosc"):
-        accumulate_positional(acc, np.ones((9, 3)))
+def test_positional_accumulator_handles_ragged_lengths_like_protocol():
+    """Par. 4: srednia per pozycja po korpusie; na pozycji t usredniane sa tylko
+    teksty siegajace t. Rozne okna scenariuszy sa wiec LEGALNE - awaria pomiaru
+    pilota 2026-07-30 wziela sie z za restrykcyjnego akumulatora, nie z protokolu.
+    Wynik musi byc identyczny z corpus positional_mean (test na nierowne dlugosci
+    istnieje tam od poczatku)."""
+    from pipeline.preprocess import positional_mean
+
+    t1 = np.ones((10, 2))
+    t2 = 3.0 * np.ones((6, 2))
+    acc = accumulate_positional(None, t1)
+    acc = accumulate_positional(acc, t2)
+    got = acc["sum"] / acc["count"][:, None]
+    np.testing.assert_allclose(got, positional_mean([t1, t2]), atol=1e-12)
+
+
+def test_positional_accumulator_grows_when_longer_text_arrives():
+    acc = accumulate_positional(None, np.ones((6, 2)))
+    acc = accumulate_positional(acc, 3.0 * np.ones((10, 2)))
+    assert acc["sum"].shape == (10, 2)
+    got = acc["sum"] / acc["count"][:, None]
+    np.testing.assert_allclose(got[:6], 2.0 * np.ones((6, 2)))
+    np.testing.assert_allclose(got[6:], 3.0 * np.ones((4, 2)))
 
 
 def test_metrics_for_layer_returns_all_five_protocol_metrics():

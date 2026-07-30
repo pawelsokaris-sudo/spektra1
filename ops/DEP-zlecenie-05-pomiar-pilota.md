@@ -40,14 +40,14 @@ ollama ps                        # ma być pusto (żaden model w VRAM)
 nvidia-smi --query-gpu=memory.used --format=csv    # ~1.6 GB (sam pulpit)
 ```
 
-Plus test składni i konfiguracji bez modelu (sekundy):
+Kontrola integralności paczki — **bez pytesta** (nie ma go w zapieczętowanym stosie
+i słusznie go nie doinstalowałeś; testy biegną na laptopie, a integralność na maszynie
+sprawdzamy sumami):
 
-```
-cd C:\Users\operator\spektra1
-C:\Users\operator\spektra1-env\Scripts\python.exe -m pytest tests -q
-```
-
-Oczekiwane: **100 testów zielonych**. Jeśli mniej — STOP, coś nie doszło w paczce.
+1. Sumy kontrolne wszystkich plików `.py` w `pipeline/`, `corpus/`, `nulls/`, `power/`
+   — porównać z laptopem, ma być 100% zgodności.
+2. Sonda importów i konfiguracji (sekundy, bez modelu):
+   `...\python.exe -c "import yaml; from pipeline import runner; from corpus.tokens import TokenCounter; cfg=yaml.safe_load(open('config.yaml',encoding='utf-8')); assert cfg['measurement']['token_window_mode']=='equalize'; assert TokenCounter.load().exact, 'BRAK TOKENIZERA'; print('SONDA OK')"
 
 ## Krok 3 — pomiar (bieg długi, odporny na przerwanie)
 
@@ -68,6 +68,18 @@ w paśmie konfirmacyjnym (bloki 13–26). Po każdym tekście dopisywany checkpo
 **Bramka pamięci jest aktywna:** jeśli którykolwiek forward przekroczy 14 GB,
 runner przerwie z jawnym błędem (sterownik przelewa nadmiar do RAM po cichu,
 więc bez bramki nie byłoby sygnału). Oczekiwany szczyt: ~8.8 GB.
+
+**Poprawki po pierwszym podejściu (2026-07-30):**
+- Naprawiona awaria z drugiego scenariusza: akumulator komponentu pozycyjnego
+  obsługuje teraz różne okna scenariuszy (zgodnie z definicją §4 — średnia per
+  pozycja po tekstach sięgających tej pozycji). Pierwszy scenariusz przechodził,
+  drugi kładł bieg — teraz jest na to test.
+- **Przebieg 1 też ma checkpoint:** po jego ukończeniu mu i okna lądują w
+  `measurements/positional_mu.npz` + `windows.json`; restart wczytuje je z dysku
+  zamiast powtarzać 80 forwardów. Obietnica „przerwanie nie marnuje biegu"
+  obowiązuje teraz w obu przebiegach.
+- Zadanie SPEKTRA1-pomiar-pilota w Harmonogramie zostawiłeś wyłączone — użyj go,
+  pamiętając o wyłączeniu triggera po starcie (Twoja pułapka z 23:59).
 
 ## Krok 4 — po zakończeniu
 

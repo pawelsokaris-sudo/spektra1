@@ -1,0 +1,22 @@
+================================================================ 
+[DEP] start/wznowienie: czw. 30.07.2026 14:50:32,64 
+================================================================ 
+[runner] google/gemma-3-4b-it @ 093f9f388b31
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<04:33,  3.23it/s]Loading weights:   3%|3         | 29/883 [00:00<00:09, 87.53it/s]Loading weights:   6%|6         | 56/883 [00:00<00:05, 138.25it/s]Loading weights:   9%|9         | 83/883 [00:00<00:04, 170.82it/s]Loading weights:  13%|#3        | 115/883 [00:00<00:03, 212.62it/s]Loading weights:  16%|#6        | 142/883 [00:00<00:03, 228.64it/s]Loading weights:  19%|#9        | 172/883 [00:00<00:02, 240.45it/s]Loading weights:  23%|##2       | 199/883 [00:01<00:02, 241.39it/s]Loading weights:  26%|##5       | 226/883 [00:01<00:02, 242.74it/s]Loading weights:  29%|##9       | 258/883 [00:01<00:02, 262.77it/s]Loading weights:  32%|###2      | 286/883 [00:01<00:02, 266.75it/s]Loading weights:  36%|###5      | 315/883 [00:01<00:02, 263.95it/s]Loading weights:  39%|###8      | 342/883 [00:01<00:02, 256.73it/s]Loading weights:  42%|####1     | 368/883 [00:01<00:02, 256.88it/s]Loading weights:  45%|####4     | 395/883 [00:01<00:01, 252.68it/s]Loading weights:  48%|####8     | 426/883 [00:01<00:01, 266.57it/s]Loading weights:  59%|#####9    | 521/883 [00:02<00:00, 461.98it/s]Loading weights:  80%|########  | 709/883 [00:02<00:00, 871.02it/s]Loading weights: 100%|##########| 883/883 [00:02<00:00, 398.05it/s]
+[runner] przebieg 1/2: komponent pozycyjny
+  en-01-apiary-move: okno 861 tok. (2 s)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\operator\spektra1\pipeline\runner.py", line 282, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\operator\spektra1\pipeline\runner.py", line 210, in main
+    pos_acc[lang][li] = accumulate_positional(pos_acc[lang][li], arr[:n])
+                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\operator\spektra1\pipeline\runner.py", line 77, in accumulate_positional
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: dlugosc 1014 != 861 - po wyrownaniu okna wszystkie teksty jezyka musza miec te sama dlugosc
+[DEP] proces zakonczony, kod wyjscia=1, czas: czw. 30.07.2026 14:50:44,95 

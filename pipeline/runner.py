@@ -69,17 +69,25 @@ def equalize_scenario(activations):
 
 
 def accumulate_positional(acc, arr):
-    """Akumulator sum pozycyjnych; strumieniowy, zeby nie trzymac korpusu w RAM."""
+    """Akumulator sum pozycyjnych; strumieniowy, zeby nie trzymac korpusu w RAM.
+
+    Obsluguje NIEROWNE dlugosci - okna sa per scenariusz, wiec teksty jednego
+    jezyka maja rozne T'. Semantyka identyczna z corpus positional_mean
+    (protokol par. 4): na pozycji t usredniane sa tylko teksty siegajace t.
+    Pierwsza wersja odrzucala niezgodne dlugosci i polozyla pomiar pilota na
+    drugim scenariuszu (raport DEP, ops/pomiar-pilota.md) - blad byl w tym
+    akumulatorze, nie w definicji protokolarnej.
+    """
     arr = np.asarray(arr, dtype=np.float64)
     if acc is None:
         return {"sum": arr.copy(), "count": np.ones(arr.shape[0])}
-    if acc["sum"].shape[0] != arr.shape[0]:
-        raise ValueError(
-            f"dlugosc {arr.shape[0]} != {acc['sum'].shape[0]} - po wyrownaniu okna "
-            f"wszystkie teksty jezyka musza miec te sama dlugosc"
-        )
-    acc["sum"] += arr
-    acc["count"] += 1.0
+    t_old, t_new = acc["sum"].shape[0], arr.shape[0]
+    if t_new > t_old:
+        pad = np.zeros((t_new - t_old, acc["sum"].shape[1]))
+        acc["sum"] = np.vstack([acc["sum"], pad])
+        acc["count"] = np.concatenate([acc["count"], np.zeros(t_new - t_old)])
+    acc["sum"][:t_new] += arr
+    acc["count"][:t_new] += 1.0
     return acc
 
 
@@ -187,10 +195,26 @@ def main():
     OUT_DIR.mkdir(exist_ok=True)
 
     # --- przebieg 1: komponent pozycyjny per jezyk ------------------------
-    print("[runner] przebieg 1/2: komponent pozycyjny", flush=True)
+    # Checkpoint: mu i okna zapisywane po ukonczeniu przebiegu; restart wczytuje
+    # je z dysku zamiast powtarzac 80 forwardow (uwaga DEP z pierwszego podejscia:
+    # wznawialnosc dotyczyla tylko przebiegu 2).
+    mu_file = OUT_DIR / "positional_mu.npz"
+    win_file = OUT_DIR / "windows.json"
+    OUT_DIR.mkdir(exist_ok=True)
+    if mu_file.exists() and win_file.exists():
+        data = np.load(mu_file, allow_pickle=False)
+        langs = sorted({k.split("|")[0] for k in data.files})
+        mu = {lang: [data[f"{lang}|{i}"] for i in range(
+            sum(1 for k in data.files if k.startswith(lang + "|")))] for lang in langs}
+        saved = json.loads(win_file.read_text(encoding="utf-8"))
+        windows, dropped_log = saved["windows"], saved["dropped"]
+        print(f"[runner] przebieg 1/2: wczytany z checkpointu ({', '.join(langs)})",
+              flush=True)
+    else:
+        print("[runner] przebieg 1/2: komponent pozycyjny", flush=True)
+        windows, dropped_log = {}, []
     pos_acc, t0 = {}, time.time()
-    windows, dropped_log = {}, []
-    for sc in scenarios:
+    for sc in (scenarios if not windows else []):
         built = build_scenario(sc, tc, budget=budget)
         acts = {}
         for v in VARIANTS:
@@ -211,8 +235,15 @@ def main():
         print(f"  {sc['scenario_id']}: okno {n} tok. "
               f"({time.time() - t0:.0f} s)", flush=True)
 
-    mu = {lang: [a["sum"] / a["count"][:, None] for a in accs]
-          for lang, accs in pos_acc.items()}
+    if pos_acc:
+        mu = {lang: [a["sum"] / a["count"][:, None] for a in accs]
+              for lang, accs in pos_acc.items()}
+        np.savez_compressed(mu_file, **{f"{lang}|{i}": arr
+                                        for lang, arrs in mu.items()
+                                        for i, arr in enumerate(arrs)})
+        win_file.write_text(json.dumps({"windows": windows, "dropped": dropped_log}),
+                            encoding="utf-8")
+        print(f"[runner] przebieg 1/2: checkpoint zapisany ({mu_file.name})", flush=True)
 
     # --- przebieg 2: metryki, z checkpointem per tekst ---------------------
     # Bieg trwa godziny; kazdy ukonczony tekst laduje natychmiast w jsonl,
