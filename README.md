@@ -1,6 +1,6 @@
 # SPEKTRA-1 — Widmowe sygnatury struktury korelacyjnej w warstwach ukrytych LLM
 
-Badanie prerejestrowane. Źródło prawdy: [docs/SPEKTRA-1-protokol-FINAL.md](docs/SPEKTRA-1-protokol-FINAL.md) (v1.2-FINAL).
+Badanie prerejestrowane. **Opis popularny: [docs/OPIS-DOSWIADCZENIA.md](docs/OPIS-DOSWIADCZENIA.md).** Źródło prawdy: [docs/SPEKTRA-1-protokol-FINAL.md](docs/SPEKTRA-1-protokol-FINAL.md) (v1.2-FINAL).
 
 **Role:**
 - Paweł (Sokaris / ActProof) — kierownik badania, decyzje, sprzęt, wykonanie
