@@ -99,14 +99,36 @@ def build_report(rows, exact):
             if left == "C" and right == "A":
                 continue  # A z definicji rozni sie dlugoscia (brak insercji)
             lines += [f"**{left} − {right}** — {opis}", "",
-                      f"| Scenariusz | {left} | {right} | różnica |", "|---|---|---|---|"]
+                      f"| Scenariusz | {left} | {right} | różnica ze znakiem |",
+                      "|---|---|---|---|"]
+            signed = []
             for sid in sorted({r["scenario"] for r in lr}):
                 a = next(r for r in lr if r["scenario"] == sid and r["variant"] == left)
                 b = next(r for r in lr if r["scenario"] == sid and r["variant"] == right)
-                diff = abs(a["tokens"] - b["tokens"]) / max(a["tokens"], b["tokens"])
-                flag = "" if diff <= 0.02 else " ⚠"
-                lines.append(f"| {sid} | {a['tokens']} | {b['tokens']} | {diff:.2%}{flag} |")
-            lines.append("")
+                rel = (a["tokens"] - b["tokens"]) / max(a["tokens"], b["tokens"])
+                signed.append(rel)
+                flag = "" if abs(rel) <= 0.02 else " ⚠ ponad próg 2%"
+                lines.append(
+                    f"| {sid} | {a['tokens']} | {b['tokens']} | {rel:+.2%}{flag} |"
+                )
+            # Kontrola przechylu: jednokierunkowa roznica NIE usrednia sie do zera
+            # w parowanym kontrascie, wiec sam prog 2% na scenariusz nie wystarcza.
+            n_pos = sum(1 for r in signed if r > 0)
+            n_neg = sum(1 for r in signed if r < 0)
+            mean_signed = sum(signed) / len(signed) if signed else 0.0
+            # Przechyl liczymy na roznicach NIEZEROWYCH. Remisy nie sa dowodem
+            # symetrii - blokowanie detekcji przez pare zer przeoczyloby dokladnie
+            # ten przypadek, ktory detektor ma lapac (usterka wykryta 2026-07-30).
+            n_nonzero = n_pos + n_neg
+            skew = n_nonzero >= 3 and (n_pos == 0 or n_neg == 0)
+            lines += ["",
+                      f"Znak różnicy: **{n_pos} razy dodatni, {n_neg} razy ujemny**"
+                      + (f", {len(signed) - n_nonzero} razy zero" if len(signed) > n_nonzero else "")
+                      + f"; średnia ze znakiem **{mean_signed:+.2%}**."
+                      + (" ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym "
+                         "taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku."
+                         if skew else ""),
+                      ""]
 
     lines += [
         "## Uwagi metodologiczne",
