@@ -65,6 +65,16 @@ measurement:
   mask_special_tokens: true
   low_variance_channel_eps: 1.0e-6
   positional_component: subtract_mean_per_position  # wariant bez = GATE 3b
+  # DECYZJA KIEROWNIKA BADANIA, NIEPODJETA. Pipeline odmawia startu przy
+  # TBD-DECISION - celowo, zeby nie rozstrzygnac tego wartoscia domyslna.
+  # Kontekst: pomiar dokladnym tokenizerem wykazal, ze wariant C'-G jest co
+  # najmniej tak dlugi jak C we WSZYSTKICH 16 scenariuszach (roznica srednio
+  # -0.32% EN, -0.48% PL). Zrodlo jest strukturalne: samoodniesienie uzywa
+  # tanich slow deiktycznych, odniesienie osadzone wymaga drozszego rzeczownika.
+  #   equalize - wspolne okno = min T' po wariantach; T'/D identyczne
+  #              z konstrukcji, znika CALA zaleznosc od dlugosci
+  #   none     - bez wyrownania; roznica opisana w par. 0 jako ograniczenie
+  token_window_mode: TBD-DECISION
   layer_band: [0.4, 0.8]    # ułamek L; indeksacja wg raportu layer_semantics.md (T2)
   # Zweryfikowane hookami 2026-07-30 (docs/layer_semantics.md):
   layer_indexing:

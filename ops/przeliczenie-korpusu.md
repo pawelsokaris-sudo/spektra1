@@ -154,7 +154,7 @@ Porównanie kontrastu głównego dla polskiego, przed poprawką (zlecenie 03) i 
 | **pl-06-chleb-na-zakwasie** | **−2,15% ⚠** | **−0,73%** | próg przestał być łamany |
 | pl-07-sala-prob-akustyka | −1,15% | −0,42% | poprawa |
 | pl-08-ocieplenie-poddasza | −1,34% | −0,21% | poprawa |
-| **średnia ze znakiem** | **≈ −1,05%** | **−0,48%** | **poprawa ponad dwukrotna** |
+| **średnia ze znakiem** | **−1,17%** | **−0,48%** | **poprawa 2,4-krotna** |
 
 Każdy scenariusz poszedł w dobrą stronę, jeden trafił dokładnie w zero, a złamanie progu 2%
 zniknęło. **Ale znak nie zmienił się w żadnym scenariuszu** — wariant C′-G nadal jest
