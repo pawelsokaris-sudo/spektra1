@@ -40,6 +40,7 @@ analysis:
   languages: [pl, en]
 
 seeds:
+  gate0: 20260728
   corpus_generation: 20260730
   null_simulation: 20260731
   power_simulation: 20260801

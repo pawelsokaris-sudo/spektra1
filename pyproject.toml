@@ -1,0 +1,19 @@
+[project]
+name = "spektra1"
+version = "0.1.0"
+description = "SPEKTRA-1: widmowe sygnatury struktury korelacyjnej w warstwach ukrytych LLM (badanie prerejestrowane)"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "pyyaml>=6.0",
+]
+
+# Zaleznosci pomiarowe (torch/transformers/accelerate) zostana dopisane z
+# dokladnymi wersjami PO rekonesansie maszyny pomiarowej (wersja CUDA zalezy
+# od karty i sterownika) i wejda do lockfile'a pieczeci.
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
