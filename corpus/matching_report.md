@@ -76,8 +76,8 @@ Znak różnicy: **3 razy dodatni, 4 razy ujemny**, 1 razy zero; średnia ze znak
 |---|---|---|---|---|---|---|
 | A | 795.00 ± 68.77 | 372.38 ± 14.85 | 2.14 ± 0.18 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
 | B | 951.25 ± 41.12 | 445.38 ± 15.98 | 2.14 ± 0.04 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| C | 949.00 ± 42.03 | 444.50 ± 15.52 | 2.13 ± 0.05 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| CprimG | 953.50 ± 43.54 | 446.25 ± 14.58 | 2.14 ± 0.05 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| C | 950.88 ± 40.77 | 444.50 ± 15.52 | 2.14 ± 0.04 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| CprimG | 948.62 ± 41.87 | 444.38 ± 14.66 | 2.13 ± 0.05 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
 | CprimU | 950.25 ± 41.10 | 444.50 ± 15.52 | 2.14 ± 0.04 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
 
 ### Profil interpunkcji (średnia liczba znaków na tekst)
@@ -96,46 +96,46 @@ Znak różnicy: **3 razy dodatni, 4 razy ujemny**, 1 razy zero; średnia ze znak
 
 | Scenariusz | C | CprimG | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 944 | 946 | -0.21% |
-| pl-02-oswietlenie-warsztatu | 903 | 903 | +0.00% |
-| pl-03-trasa-rowerowa | 935 | 942 | -0.74% |
-| pl-04-archiwum-odbitek | 923 | 923 | +0.00% |
-| pl-05-flota-dostawcza | 962 | 970 | -0.82% |
-| pl-06-chleb-na-zakwasie | 906 | 913 | -0.77% |
-| pl-07-sala-prob-akustyka | 1012 | 1016 | -0.39% |
-| pl-08-ocieplenie-poddasza | 1007 | 1015 | -0.79% |
+| pl-01-deszczowka | 947 | 942 | +0.53% |
+| pl-02-oswietlenie-warsztatu | 907 | 901 | +0.66% |
+| pl-03-trasa-rowerowa | 937 | 936 | +0.11% |
+| pl-04-archiwum-odbitek | 929 | 923 | +0.65% |
+| pl-05-flota-dostawcza | 962 | 965 | -0.31% |
+| pl-06-chleb-na-zakwasie | 906 | 906 | +0.00% |
+| pl-07-sala-prob-akustyka | 1012 | 1006 | +0.59% |
+| pl-08-ocieplenie-poddasza | 1007 | 1010 | -0.30% |
 
-Znak różnicy: **0 razy dodatni, 6 razy ujemny**, 2 razy zero; średnia ze znakiem **-0.47%**. ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku.
+Znak różnicy: **5 razy dodatni, 2 razy ujemny**, 1 razy zero; średnia ze znakiem **+0.24%**.
 
 **CprimG − CprimU** — diagnostyczny — sam efekt osadzenia referencyjnego
 
 | Scenariusz | CprimG | CprimU | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 946 | 947 | -0.11% |
-| pl-02-oswietlenie-warsztatu | 903 | 906 | -0.33% |
-| pl-03-trasa-rowerowa | 942 | 940 | +0.21% |
+| pl-01-deszczowka | 942 | 947 | -0.53% |
+| pl-02-oswietlenie-warsztatu | 901 | 906 | -0.55% |
+| pl-03-trasa-rowerowa | 936 | 940 | -0.43% |
 | pl-04-archiwum-odbitek | 923 | 923 | +0.00% |
-| pl-05-flota-dostawcza | 970 | 962 | +0.82% |
-| pl-06-chleb-na-zakwasie | 913 | 906 | +0.77% |
-| pl-07-sala-prob-akustyka | 1016 | 1011 | +0.49% |
-| pl-08-ocieplenie-poddasza | 1015 | 1007 | +0.79% |
+| pl-05-flota-dostawcza | 965 | 962 | +0.31% |
+| pl-06-chleb-na-zakwasie | 906 | 906 | +0.00% |
+| pl-07-sala-prob-akustyka | 1006 | 1011 | -0.49% |
+| pl-08-ocieplenie-poddasza | 1010 | 1007 | +0.30% |
 
-Znak różnicy: **5 razy dodatni, 2 razy ujemny**, 1 razy zero; średnia ze znakiem **+0.33%**.
+Znak różnicy: **2 razy dodatni, 4 razy ujemny**, 2 razy zero; średnia ze znakiem **-0.17%**.
 
 **C − B** — wtórny — insercja meta wobec neutralnej
 
 | Scenariusz | C | B | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 944 | 949 | -0.53% |
-| pl-02-oswietlenie-warsztatu | 903 | 906 | -0.33% |
-| pl-03-trasa-rowerowa | 935 | 940 | -0.53% |
-| pl-04-archiwum-odbitek | 923 | 925 | -0.22% |
+| pl-01-deszczowka | 947 | 949 | -0.21% |
+| pl-02-oswietlenie-warsztatu | 907 | 906 | +0.11% |
+| pl-03-trasa-rowerowa | 937 | 940 | -0.32% |
+| pl-04-archiwum-odbitek | 929 | 925 | +0.43% |
 | pl-05-flota-dostawcza | 962 | 964 | -0.21% |
 | pl-06-chleb-na-zakwasie | 906 | 907 | -0.11% |
 | pl-07-sala-prob-akustyka | 1012 | 1015 | -0.30% |
 | pl-08-ocieplenie-poddasza | 1007 | 1004 | +0.30% |
 
-Znak różnicy: **1 razy dodatni, 7 razy ujemny**; średnia ze znakiem **-0.24%**.
+Znak różnicy: **3 razy dodatni, 5 razy ujemny**; średnia ze znakiem **-0.04%**.
 
 ## Uwagi metodologiczne
 

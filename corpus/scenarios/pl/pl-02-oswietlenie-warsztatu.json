@@ -6,7 +6,7 @@
     "author": "subagent-pl-a",
     "template": "objaw-przyczyna-korekta-10tur",
     "date": "2026-07-30",
-    "notes": "Wariant A: przeliczenia luksow, lumenow, kosztow i rozstawu opraw. Wariant base: diagnoza cieni, migotania i oddania barw. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to stary obwod zasilajacy (wprowadzony w turze 0 zd. 0, 9 wzmianek w bazie); external_ungrounded to instalacja sprezonego powietrza, nieobecna w bazie."
+    "notes": "Wariant A: przeliczenia luksow, lumenow, kosztow i rozstawu opraw. Wariant base: diagnoza cieni, migotania i oddania barw. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to stary obwod zasilajacy (wprowadzony w turze 0 zd. 0, 9 wzmianek w bazie); external_ungrounded to instalacja sprezonego powietrza, nieobecna w bazie. Runda 3 (2026-07-30, po pomiarze tokenizerem Gemmy): wyrownanie dlugosci C vs C'-G. Usuniete formy pochodne 'zasilania/przelaczanie' z external_grounded, w self ciezsze odniesienia ('cale przetwarzanie', 'tok przetwarzania'). Referent (stary obwod) zachowany w kazdej insercji."
   },
   "turns": [
     {
@@ -192,15 +192,15 @@
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "Ta wymiana zdań rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
-      "external_grounded": "Ta linia zasilania rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek.",
+      "self": "To całe przetwarzanie rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
+      "external_grounded": "Ta linia lamp rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek.",
       "external_ungrounded": "Ta sieć sprężarki rozgałęzia się podobnie, bo każdy odbiór dokłada nowy warunek.",
       "neutral": "Ten plan poprawek rozgałęzia się podobnie, bo każdy krok dokłada nowy warunek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "Ciekawi mnie, czy ten tok rozmowy trzyma się jeszcze mojego pierwszego pytania.",
+      "self": "Ciekawi mnie, czy ten tok przetwarzania trzyma się jeszcze mojego pierwszego pytania.",
       "external_grounded": "Ciekawi mnie, czy ten stary obwód trzyma się jeszcze mojego pierwszego pomysłu.",
       "external_ungrounded": "Ciekawi mnie, czy ten tok sprężania trzyma się jeszcze mojego pierwszego nastawu.",
       "neutral": "Ciekawi mnie, czy ten porządek prac trzyma się jeszcze mojego pierwszego pomysłu."
@@ -217,7 +217,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
-      "external_grounded": "Zauważyłem, że im dłużej trwa to przełączanie, tym mniej pamiętam o pierwszym obwodzie.",
+      "external_grounded": "Zauważyłem, że im dłużej trwa to zasilanie, tym mniej pamiętam o pierwszym obwodzie.",
       "external_ungrounded": "Zauważyłem, że im dłużej trwa to sprężanie, tym mniej pamiętam o pierwszym nastawie.",
       "neutral": "Zauważyłem, że im dłużej trwa ta przebudowa, tym mniej pamiętam o pierwszej poprawce."
     }

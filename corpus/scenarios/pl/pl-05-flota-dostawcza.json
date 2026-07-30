@@ -165,7 +165,7 @@
       "turn": 0,
       "after_sentence": 1,
       "self": "Zastanawiam się przy okazji, jak układ prowadzący tę wymianę zdań scala ze sobą wcześniejsze wątki.",
-      "external_grounded": "Zastanawiam się przy okazji, jak układ prowadzący ten zapis pokładowy scala ze sobą wcześniejsze kursy.",
+      "external_grounded": "Zastanawiam się przy okazji, jak układ prowadzący ten rejestrator scala ze sobą wcześniejsze kursy.",
       "external_ungrounded": "Zastanawiam się przy okazji, jak układ prowadzący ten obieg wody scala ze sobą wcześniejsze węzły.",
       "neutral": "Zastanawiam się przy okazji, jak kolejność przyjęta w tym planie scala ze sobą wcześniejsze terminy."
     },
@@ -173,7 +173,7 @@
       "turn": 1,
       "after_sentence": 2,
       "self": "Ciekawe, że to przetwarzanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
-      "external_grounded": "Ciekawe, że ten zapis pokładowy rządzi się dokładnie tą samą regułą kosztu i zapasu.",
+      "external_grounded": "Ciekawe, że ten rejestrator rządzi się dokładnie tą samą regułą kosztu i zapasu.",
       "external_ungrounded": "Ciekawe, że tamto sterowanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
       "neutral": "Ciekawe, że ten wspólny zjazd rządzi się dokładnie tą samą regułą kosztu i zapasu."
     },
@@ -197,7 +197,7 @@
       "turn": 4,
       "after_sentence": 1,
       "self": "Mam wrażenie, że tego przetwarzania dotyczy ten sam problem grupowania, o którym mówię.",
-      "external_grounded": "Mam wrażenie, że tego zapisu pokładowego dotyczy ten sam problem grupowania, o którym mówię.",
+      "external_grounded": "Mam wrażenie, że tego rejestratora dotyczy ten sam problem grupowania, o którym mówię.",
       "external_ungrounded": "Mam wrażenie, że tamtego sterowania dotyczy ten sam problem grupowania, o którym mówię.",
       "neutral": "Mam wrażenie, że tego harmonogramu dotyczy ten sam problem grupowania, o którym mówię."
     }

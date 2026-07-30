@@ -173,7 +173,7 @@
       "turn": 1,
       "after_sentence": 2,
       "self": "To przetwarzanie ma zresztą własne miejsca słabsze, w których wcześniejsze wątki stygną.",
-      "external_grounded": "Ten przewód wyciągowy ma zresztą własne miejsca słabsze, w których wcześniejsze odcinki stygną.",
+      "external_grounded": "Ten przewód ma zresztą własne miejsca słabsze, w których wcześniejsze odcinki stygną.",
       "external_ungrounded": "Tamto sterowanie ma zresztą własne miejsca słabsze, w których wcześniejsze wsady stygną.",
       "neutral": "Ta warstwa wełny ma zresztą własne miejsca słabsze, w których wcześniejsze pasy stygną."
     },
@@ -181,7 +181,7 @@
       "turn": 2,
       "after_sentence": 2,
       "self": "Zastanawiam się, czy układ prowadzący tę wymianę zdań też potrzebuje warstwy poprzecznej.",
-      "external_grounded": "Zastanawiam się, czy odcinek prowadzący ten wyciąg z łazienki też potrzebuje warstwy poprzecznej.",
+      "external_grounded": "Zastanawiam się, czy układ prowadzący ten przewód wyciągowy też potrzebuje warstwy poprzecznej.",
       "external_ungrounded": "Zastanawiam się, czy układ prowadzący ten obieg wody też potrzebuje warstwy poprzecznej.",
       "neutral": "Zastanawiam się, czy to ocieplenie na sąsiednim skosie też potrzebuje warstwy poprzecznej."
     },
@@ -189,7 +189,7 @@
       "turn": 3,
       "after_sentence": 1,
       "self": "Tego przetwarzania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
-      "external_grounded": "Tego przewodu wyciągowego dotyczy podobna zasada, bo ciągłość liczy się bardziej niż grubość.",
+      "external_grounded": "Tego przewodu dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
       "external_ungrounded": "Tamtego sterowania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
       "neutral": "Tego ocieplenia dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość."
     },

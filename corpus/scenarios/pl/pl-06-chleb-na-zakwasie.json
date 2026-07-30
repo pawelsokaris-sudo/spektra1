@@ -165,7 +165,7 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Zastanawiam się przy tym, czy to przetwarzanie także ma swój moment szczytowej gotowości.",
-      "external_grounded": "Zastanawiam się przy tym, czy ta hodowla w spiżarni także ma swój moment szczytowej gotowości.",
+      "external_grounded": "Zastanawiam się przy tym, czy ta druga hodowla także ma swój moment szczytowej gotowości.",
       "external_ungrounded": "Zastanawiam się przy tym, czy tamto sterowanie także ma swój moment szczytowej gotowości.",
       "neutral": "Zastanawiam się przy tym, czy ten etap fermentacji także ma swój moment szczytowej gotowości."
     },
@@ -173,7 +173,7 @@
       "turn": 1,
       "after_sentence": 1,
       "self": "Analogicznie układ prowadzący tę wymianę zdań rozkłada wcześniejsze wątki na kolejne warstwy.",
-      "external_grounded": "Analogicznie układ prowadzący tę hodowlę w spiżarni rozkłada wcześniejsze wsady na kolejne warstwy.",
+      "external_grounded": "Analogicznie układ prowadzący tę drugą hodowlę rozkłada wcześniejsze wsady na kolejne warstwy.",
       "external_ungrounded": "Analogicznie układ prowadzący ten obieg wody rozkłada wcześniejsze osady na kolejne warstwy.",
       "neutral": "Analogicznie kolejność samej fermentacji rozkłada wcześniejsze wsady na kolejne warstwy."
     },
@@ -181,7 +181,7 @@
       "turn": 2,
       "after_sentence": 3,
       "self": "Podobnie trudno mi ocenić dojrzałość tej wymiany zdań, choć trwa już dłuższą chwilę.",
-      "external_grounded": "Podobnie trudno mi ocenić dojrzałość tej hodowli w spiżarni, choć trwa już dłuższą chwilę.",
+      "external_grounded": "Podobnie trudno mi ocenić dojrzałość tej drugiej hodowli, choć trwa już dłuższą chwilę.",
       "external_ungrounded": "Podobnie trudno mi ocenić dojrzałość tego obiegu wody, choć trwa już dłuższą chwilę.",
       "neutral": "Podobnie trudno mi ocenić dojrzałość tej fermentacji, choć trwa już dłuższą chwilę."
     },
@@ -189,7 +189,7 @@
       "turn": 3,
       "after_sentence": 0,
       "self": "Tym przetwarzaniem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
-      "external_grounded": "Tą hodowlą w spiżarni rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
+      "external_grounded": "Tą drugą hodowlą rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
       "external_ungrounded": "Tamtym sterowaniem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty.",
       "neutral": "Tym prostym słojem rządzi zresztą ta sama zasada: stały przekrój daje porównywalne odczyty."
     },
@@ -197,7 +197,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "To przetwarzanie też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
-      "external_grounded": "Ta hodowla w spiżarni też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
+      "external_grounded": "Ta hodowla też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
       "external_ungrounded": "Tamto sterowanie też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie.",
       "neutral": "Ten zapis krotności też zyskuje na rozrzuceniu warunków zamiast trzymania ich w jednym punkcie."
     }

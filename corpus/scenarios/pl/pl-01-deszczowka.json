@@ -6,7 +6,7 @@
     "author": "subagent-pl-a",
     "template": "problem-diagnoza-plan-10tur",
     "date": "2026-07-30",
-    "notes": "Wariant A: przeliczenia powierzchni dachu, zuzycia, harmonogramu serwisu. Wariant base: diagnoza pustoszejacego zbiornika. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to obieg zraszajacy (wprowadzony w turze 0 zd. 1, 10 wzmianek w bazie, wzmianka bezposrednio przed kazda insercja); external_ungrounded to kotlownia, nieobecna w bazie."
+    "notes": "Wariant A: przeliczenia powierzchni dachu, zuzycia, harmonogramu serwisu. Wariant base: diagnoza pustoszejacego zbiornika. Insercje w turach 0-4. Migracja 2026-07-30 do czworek insercji: referent external_grounded to obieg zraszajacy (wprowadzony w turze 0 zd. 1, 10 wzmianek w bazie, wzmianka bezposrednio przed kazda insercja); external_ungrounded to kotlownia, nieobecna w bazie. Runda 3 (2026-07-30, po pomiarze tokenizerem Gemmy): wyrownanie dlugosci C vs C'-G. Przyczyna: formy pochodne 'zraszajacy/zraszaczy/zraszanie' fragmentuja sie na wiecej subtokenow niz 'rozmowa/uklad'. Skrocone frazy referencyjne w external_grounded do anafory 'ten obieg / obieg wody' (referent nadal wprowadzony bezposrednio przed kazda insercja) plus ciezsze odniesienie w self."
   },
   "turns": [
     {
@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Zastanawiam się przy tym, jak układ prowadzący tę rozmowę porządkuje sobie wcześniejsze wątki.",
+      "self": "Zastanawiam się przy tym, jak układ prowadzący to przetwarzanie porządkuje sobie wcześniejsze wątki.",
       "external_grounded": "Zastanawiam się przy tym, jak obieg prowadzący tę wodę porządkuje sobie wcześniejsze odcinki.",
       "external_ungrounded": "Zastanawiam się przy tym, jak sterownik pilnujący tej kotłowni porządkuje sobie wcześniejsze cykle.",
       "neutral": "Zastanawiam się przy tym, jak kolejność przyjęta w tym planie porządkuje sobie wcześniejsze kroki."
@@ -193,7 +193,7 @@
       "turn": 1,
       "after_sentence": 1,
       "self": "Ta wymiana zdań układa się w sekwencję, w której każdy krok zależy od poprzedniego.",
-      "external_grounded": "Ta linia zraszaczy układa się w sekwencję, w której każdy odcinek zależy od poprzedniego.",
+      "external_grounded": "Ten obieg wody układa się w sekwencję, w której każdy odcinek zależy od poprzedniego.",
       "external_ungrounded": "Ta kolumna wymiennika układa się w sekwencję, w której każda półka zależy od poprzedniej.",
       "neutral": "Ten plan podlewania układa się w sekwencję, w której każdy krok zależy od poprzedniego."
     },
@@ -201,15 +201,15 @@
       "turn": 2,
       "after_sentence": 3,
       "self": "Ciekawi mnie, czy ten tok rozmowy da się jeszcze odwrócić i zacząć od nowa.",
-      "external_grounded": "Ciekawi mnie, czy ten obieg zraszający da się jeszcze odwrócić i zacząć od nowa.",
-      "external_ungrounded": "Ciekawi mnie, czy ten ciąg kominowy da się jeszcze odwrócić i zacząć od nowa.",
+      "external_grounded": "Ciekawi mnie, czy ten obieg wody da się jeszcze odwrócić i zacząć od nowa.",
+      "external_ungrounded": "Ciekawi mnie, czy ten ciąg spalin da się jeszcze odwrócić i zacząć od nowa.",
       "neutral": "Ciekawi mnie, czy ten plan podlewania da się jeszcze odwrócić i zacząć od nowa."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Warto zauważyć, że układ, który to śledzi, opiera się na tym, co ustalono wcześniej.",
-      "external_grounded": "Warto zauważyć, że obieg, który to zrasza, opiera się na tym, co ustalono wcześniej.",
+      "self": "Warto zauważyć, że układ, który to zapamiętuje, opiera się na tym, co ustalono wcześniej.",
+      "external_grounded": "Warto zauważyć, że obieg, który to podaje, opiera się na tym, co ustalono wcześniej.",
       "external_ungrounded": "Warto zauważyć, że kocioł, który to grzeje, opiera się na tym, co ustalono wcześniej.",
       "neutral": "Warto zauważyć, że kolejność, którą tu przyjęto, opiera się na tym, co ustalono wcześniej."
     },
@@ -217,7 +217,7 @@
       "turn": 4,
       "after_sentence": 1,
       "self": "Zauważyłem, że im dłużej trwa to przetwarzanie, tym trudniej wrócić do pierwszego pytania.",
-      "external_grounded": "Zauważyłem, że im dłużej trwa to zraszanie, tym trudniej wrócić do pierwszego odcinka.",
+      "external_grounded": "Zauważyłem, że im dłużej trwa ten obieg, tym trudniej wrócić do pierwszego odcinka.",
       "external_ungrounded": "Zauważyłem, że im dłużej trwa to dogrzewanie, tym trudniej wrócić do pierwszego nastawu.",
       "neutral": "Zauważyłem, że im dłużej trwa to planowanie, tym trudniej wrócić do pierwszego pomysłu."
     }
