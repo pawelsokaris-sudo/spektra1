@@ -70,10 +70,29 @@ to jest liczba, którą chcemy widzieć blisko zera, i będzie cytowana w pakiec
 Jeśli któryś warunek nie przejdzie: **nie poprawiaj korpusu** (to robota autorów), tylko
 odeślij pełne liczby. Podaj, których scenariuszy dotyczy i w którą stronę.
 
+## Krok 3 — kalibracja dla autorów (nowe, oszczędza kolejną wyprawę)
+
+Autorzy poprawiali korpus **na ślepo**, szacując tokeny z liczby znaków — a to założenie
+w polszczyźnie się załamuje (przymiotniki odczasownikowe typu „pokładowy" tokenizer
+rozbija na 3–5 kawałków; był przypadek, gdzie wariant krótszy o 2 znaki miał o 10 tokenów
+więcej). Jeden z autorów sam zaznaczył, że jego liczby to szacunki i błąd może być
+**skorelowany między plikami** — czyli możliwe, że wszystkie cztery wrócą w tę samą stronę.
+
+Żeby ewentualna druga iteracja nie wymagała trzeciej wyprawy na maszynę, uruchom też:
+
+```
+C:\Users\operator\spektra1-env\Scripts\python.exe -m corpus.insertion_tokens > insertion_tokens.txt
+```
+
+Skrypt wypisuje **dokładne** liczby tokenów per insercja i wariant, plus delty względem
+`self`. Odeślij to wyjście niezależnie od tego, czy kryteria przeszły — jeśli przeszły,
+posłuży za dowód do pieczęci; jeśli nie, autorzy dostaną pomiar zamiast zgadywanki.
+
 ## Co odesłać
 
 - `corpus/matching_report.md` (wersja z dokładnym licznikiem)
 - pełne wyjście `corpus.validate`
+- `insertion_tokens.txt` z kroku 3
 - raport `ops/przeliczenie-korpusu.md` z surowym wyjściem i jednym zdaniem interpretacji,
   w tym jawnie: czy licznik był dokładny, czy oba kryteria zaliczenia przeszły, oraz
   średnia ze znakiem dla kontrastu głównego per język.
