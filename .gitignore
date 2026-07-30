@@ -1,0 +1,8 @@
+# dane duże / odtwarzalne
+*.parquet
+corpus/generated/
+.hf_cache/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

@@ -1,0 +1,46 @@
+# SPEKTRA-1 — konfiguracja pieczętowana (protokół §2)
+# UWAGA: pola oznaczone TBD-RECON zostaną wypełnione po rekonesansie maszyny
+# pomiarowej (ops/DEP-zlecenie-01-rekonesans.md) i decyzji o wariancie modelu.
+# Po PIECZĘCI ten plik jest niezmienny — zmiany wyłącznie jawnym aneksem.
+
+model:
+  hf_name: TBD-RECON        # dokładny wariant Gemmy, np. google/gemma-3-4b-it
+  hf_revision: TBD-RECON    # commit hash rewizji na HuggingFace
+  weights_sha256: TBD-RECON # suma kontrolna plików wag
+  tokenizer_files_sha256: TBD-RECON
+  chat_template_sha256: TBD-RECON
+
+compute:
+  dtype: bfloat16           # forward główny (protokół §2)
+  fp32_control_fraction: 0.10
+  fp32_tolerance_abs_delta_I_total: 0.005
+  tf32: false
+  deterministic_kernels: true
+  batch_size: 1
+  padding: none
+
+measurement:
+  token_budget: 1024        # T, budowa do budżetu z naturalnym zakończeniem
+  skip_first_tokens: 32
+  mask_special_tokens: true
+  low_variance_channel_eps: 1.0e-6
+  positional_component: subtract_mean_per_position  # wariant bez = GATE 3b
+  layer_band: [0.4, 0.8]    # ułamek L; indeksacja wg raportu layer_semantics.md (T2)
+
+analysis:
+  alpha: 0.01
+  one_sided: true
+  n_permutations: 10000
+  d_lag_permutations: 500
+  lambda_star_quantile: 0.99
+  sesoi_d_z: 0.8            # ZAMROŻONE: zwiad na efekty duże (protokół §7 GATE 1)
+  power_target: 0.90
+  tost_margin_abs_d: 0.3
+  pilot_scenarios_per_language: 8
+  languages: [pl, en]
+
+seeds:
+  corpus_generation: 20260730
+  null_simulation: 20260731
+  power_simulation: 20260801
+  permutation_tests: 20260802
