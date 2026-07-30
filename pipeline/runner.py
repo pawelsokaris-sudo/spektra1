@@ -37,7 +37,7 @@ from corpus.stats import render_gemma_chat
 from corpus.tokens import TokenCounter
 from corpus.validate import SCENARIOS_DIR
 from nulls.interventional import permute_sentences, permute_turns
-from pipeline.memory_guard import check_peak_memory
+from pipeline.memory_guard import check_foreign_vram, check_peak_memory
 from pipeline.metrics import d_lag, i_minus1, i_total, k_modes, spectral_entropy
 from pipeline.preprocess import mask_tokens, zscore_channels
 from pipeline.spectrum import gram_eigenvalues
@@ -135,6 +135,11 @@ def variant_turns(built, variant, null, seed):
 def forward_masked(model, tok, turns, cfg, device="cuda:0"):
     """Forward + maskowanie; zwraca liste (T', D) per warstwa oraz szczyt pamieci."""
     import torch
+
+    # bramka na obce zuzycie karty PRZED forwardem - gdy uzytkownik maszyny
+    # wlaczy gre w trakcie biegu, zatrzymujemy sie czysto na checkpointcie
+    free_b, total_b = torch.cuda.mem_get_info()
+    check_foreign_vram(total_b, free_b, torch.cuda.memory_allocated())
 
     text = render_gemma_chat([{"role": t["role"], "text": " ".join(t["sentences"])}
                               for t in turns])

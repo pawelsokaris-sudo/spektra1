@@ -24,6 +24,32 @@ class MemoryGuardError(RuntimeError):
     """Szczyt zuzycia pamieci przekroczyl zamrozony prog."""
 
 
+def check_foreign_vram(total_bytes, free_bytes, ours_bytes, max_foreign_gb=3.0):
+    """Bramka na OBCE zuzycie karty (torch.cuda.mem_get_info + memory_allocated).
+
+    Dziura wykryta przez DEP 2026-07-30 (drugie podejscie do pilota): bramka
+    check_peak_memory mierzy alokacje WLASNEGO procesu, wiec przepusci bieg,
+    ktory fizycznie sie nie miesci, bo obcy proces (wtedy: [gra], 6.9 GB)
+    zajal karte - sterownik po cichu przeleje nadmiar do RAM i wielogodzinny
+    bieg zamieni sie w wielodniowy, raportujac przy tym 'zmiescilem sie'.
+
+    obce = total - free - nasze. Prog domyslny 3 GB: pulpit Windows to ~1.6 GB,
+    wiec 3 GB toleruje przegladarke, ale nie gre. Sprawdzane przed biegiem
+    i przed kazdym tekstem - gdy operator maszyny wlaczy gre W TRAKCIE, bieg zatrzyma
+    sie czysto na checkpointcie zamiast pelznac dniami.
+    """
+    foreign = (total_bytes - free_bytes - ours_bytes) / BYTES_PER_GB
+    if foreign > max_foreign_gb:
+        raise MemoryGuardError(
+            f"obcy proces trzyma {foreign:.2f} GB pamieci karty (prog "
+            f"{max_foreign_gb:.1f} GB) - maszyna jest w uzyciu. Bramka szczytu "
+            f"wlasnego procesu tego nie widzi, a sterownik przelalby nadmiar do "
+            f"RAM po cichu. Bieg zatrzymany na checkpointcie; wznowic ta sama "
+            f"komenda, gdy karta bedzie wolna."
+        )
+    return foreign
+
+
 def check_peak_memory(peak_bytes, limit_gb, context, fp32_control_limit_gb=None):
     """Sprawdza szczyt zuzycia pamieci karty po biegu; podnosi blad przy przekroczeniu.
 

@@ -1,335 +1,226 @@
-# Pomiar pilota — raport wykonania (BIEG PADŁ, zero danych)
+# Pomiar pilota — drugie podejście: NIE URUCHOMIONY (blokada przedstartowa)
 
-**Zlecenie:** `ops/DEP-zlecenie-05-pomiar-pilota.md`
+**Zlecenie:** `ops/DEP-zlecenie-05-pomiar-pilota.md` (wersja po poprawkach z 2026-07-30)
 **Wykonał:** DEP (Claude Code w terminalu)
-**Data:** 2026-07-30, 14:30–15:05
-**Maszyna:** `maszyna-pomiarowa` (po nazwie hosta)
+**Data:** 2026-07-30, 16:15–16:35
+**Maszyna:** `maszyna-pomiarowa`
+**Raport z pierwszego podejścia:** zachowany w historii gita (commit `ad533ec`, 335 linii) —
+ten plik go nadpisuje.
 
-## Wynik: STOP
+## Wynik: kroki 1 i 2 zaliczone, biegu NIE uruchomiłem
 
-Kroki 1 i 2 zaliczone. **Krok 3 padł po 12 sekundach** — nie na infrastrukturze, nie na pamięci
-karty, a na **niespójności projektowej w samym runnerze**. Zgodnie ze zleceniem nie obchodziłem
-problemu i nie tknąłem kodu; poniżej pełna diagnoza z liczbami.
+Przygotowanie jest kompletne i zweryfikowane. **Nie wystartowałem, bo nie jest spełniony
+warunek przedstartowy z samego zlecenia** — a nie jest spełniony dlatego, że **operator maszyny właśnie
+używa komputera**: na karcie działa [gra].
 
 ```
-ValueError: dlugosc 1014 != 861 - po wyrownaniu okna wszystkie teksty
-            jezyka musza miec te sama dlugosc
+VRAM zajete : 7068 MiB (6,90 GB)
+VRAM wolne  : 8910 MiB (8,70 GB)
+VRAM razem  : 16303 MiB (15,92 GB)
+potrzebny szczyt pomiaru: 8.83 GB (zmierzony w zleceniu 02)
+zapas po odjeciu szczytu: -0,13 GB
 ```
 
-**Czas biegu:** 12 s (14:50:32 → 14:50:44).
-**Szczyt pamięci:** nie dotyczy — bieg padł w przebiegu 1, przed liczeniem metryk, więc kolumna
-`peak_gb` nigdy nie powstała. **Bramka pamięci się nie uruchomiła** (nie było `MemoryGuardError`).
-**Liczba wznowień:** 0 (nie ma czego wznawiać — patrz niżej).
-**Wyprodukowane dane:** **żadne.** Katalog `measurements\` powstał i jest **pusty**, checkpointu nie ma.
+Zlecenie zakłada w kroku 2 „~1.6 GB (sam pulpit)". Jest 6,90 GB. **Nie jest „ciasno" — jest
+deficyt 0,13 GB**, czyli pomiar fizycznie się nie mieści.
+
+**Bieg jest gotowy do startu jedną komendą** w momencie, gdy maszyna będzie wolna (szczegóły
+na końcu).
 
 ---
 
-## Krok 1 — synchronizacja kodu (pełna)
+## Dlaczego to jest twarda blokada, a nie ostrożność
+
+Są dwa niezależne powody i drugi jest ważniejszy od pierwszego.
+
+**1. Bramka pamięci NIE wyłapałaby tego problemu.** To jest subtelne i dlatego to podkreślam.
+Bramka mierzy `torch.cuda.max_memory_allocated()`, czyli alokacje **naszego procesu** — te
+wyniosłyby ~8,83 GB, czyli **poniżej progu 14 GB, więc bramka przepuściłaby bieg jako poprawny**.
+Tymczasem fizycznie karta ma tylko 8,70 GB wolnego, więc sterownik po cichu dołożyłby pamięć
+systemową (Pułapka 25 z inwentarza — potwierdzona na tej maszynie alokacją 20 GB na karcie
+16 GB). Efekt: bieg **wielokrotnie wolniejszy** (a mówimy o 8–24 h, więc realnie kilka dni),
+raportujący przy tym „zmieściłem się w bramce". Dokładnie ten rodzaj cichego fałszywego sukcesu,
+przed którym bramka miała chronić — tylko że tutaj przychodzi z zewnątrz naszego procesu i bramka
+go nie widzi.
+
+**2. To jest prywatny komputer syna Pawła i on z niego teraz korzysta.**
 
 ```
-$ tar -czf spektra1-code.tar.gz --exclude=.venv --exclude=.git --exclude='*.npy' \
-      --exclude=__pycache__ --exclude=.claude spektra1
-rc=0 | rozmiar: 172870 B | plikow: 107
-kontrola wykluczen: (pusto)
-paczka zawiera tokenizer: brak - OK
+--- czy [gra] / gry chodza ---
+  [proces-gry]: CHODZI (RAM 8309 MB)
+  EpicGamesLauncher:             CHODZI (RAM 276 MB)
+  steamwebhelper:                CHODZI (RAM 826 MB)
+  Discord:                       CHODZI (RAM 877 MB)
 ```
 
-**Rozmiar 172 KB przy wzorcu ~140 KB ze zlecenia** — sprawdziłem, czy to nie znak, że wykluczenia
-nie zadziałały: nie jest. Filtr na `.git/`, `.npy`, `__pycache__`, `.venv`, `.claude` daje pustkę,
-a liczba plików wzrosła z 90 (zlecenie 03) do 107. Różnica to realnie nowy kod, który powstał
-w międzyczasie: `nulls/`, `power/`, `corpus/insertion_tokens.py` i pięć nowych plików testowych.
+Na liście procesów korzystających z karty są dodatkowo Opera GX (dwa procesy), Chrome, WhatsApp,
+M365Copilot, Lively Wallpaper i NVIDIA Overlay. To obraz maszyny w normalnym, aktywnym użyciu.
+Uruchomienie na niej zadania na 8–24 godziny zepsułoby operatorowi maszyny trwającą sesję i zajęło mu
+komputer na noc. Zgoda, którą Paweł dał 30.07, dotyczyła **instalacji środowiska** (~3 GB
+w jednym katalogu), a nie zajęcia karty graficznej na dobę. Nie uznaję tego za coś, co mogę
+rozstrzygnąć sam.
+
+**Uczciwe ograniczenie tego rozpoznania:** `nvidia-smi` na sterowniku WDDM **nie podaje zużycia
+VRAM per proces** (kolumna pokazuje `N/A` dla wszystkich 30 procesów). Nie mogę więc dowodowo
+przypisać tych 6,90 GB grze — mogę tylko stwierdzić, że [gra] działa, że jest
+zdecydowanie najcięższym kandydatem, i że suma zajętości wynosi 6,90 GB.
+
+**Czego nie zrobiłem:** nie podniosłem progu bramki (zlecenie tego zabrania i słusznie),
+nie zamknąłem ani jednego procesu operatora maszyny, nie uruchomiłem biegu „na próbę".
+
+---
+
+## Krok 1 — synchronizacja kodu: zaliczony
 
 ```
-=== PRZED: tokenizer ===  TOKENIZER JEST
-=== rozpakowanie ===      ROZPAKOWANO
-=== usuniecie archiwum === usuniete
-=== PO: tokenizer ===     tokenizer.json
+paczka: 182000 B | plikow: 110
+kontrola wykluczen (.git/ __pycache__ .venv .claude tokenizer.json): (pusto)
+
+=== PRZED: tokenizer na maszynie ===  JEST
+=== transfer ===  30.07.2026  16:19            182000 spektra1-code.tar.gz
+=== rozpakowanie ===  ROZPAKOWANO
+=== usuniecie archiwum ===  usuniete
+=== PO: tokenizer przezyl ===  tokenizer.json
 ```
 
-**Weryfikacja sum kontrolnych — szerzej niż wymagało zlecenie.** Zlecenie prosi o dwa pliki
-(`runner.py`, `metrics.py`); po nauce z driftu w zleceniu 04 porównałem **cały kod**: 35 plików
-`.py` z `pipeline/`, `corpus/`, `nulls/`, `power/`, `tests/` plus `config.yaml`.
+**Rozmiar 182 KB przy wzorcu ~140 KB w zleceniu** — tak jak przy pierwszym podejściu, to nie
+awaria wykluczeń (filtr daje pustkę), a realny przyrost kodu: 110 plików wobec 107 przy
+pierwszym podejściu i 90 w zleceniu 03. Wzorzec w zleceniu warto zaktualizować, bo przy każdym
+kolejnym biegu będzie budził fałszywy alarm.
+
+### Sumy kontrolne: 100% zgodności
+
+Zgodnie z nową bramką ze zlecenia (sumy zamiast pytesta) — porównałem **wszystkie** pliki `.py`
+z `pipeline/`, `corpus/`, `nulls/`, `power/`, `tests/` plus `config.yaml`:
 
 ```
-plikow do porownania: 35 | plikow na maszynie: 35
-=== ROZNICE (pusto = kod identyczny) ===
->>> KOD NA MASZYNIE IDENTYCZNY Z LAPTOPEM <<<
+lokalnie: 35 | maszyna: 35
+>>> 100% ZGODNOSCI <<<
 
 jawnie te dwa, o ktore prosi zlecenie:
-lokalnie: c98e3023474aabd2 pipeline/metrics.py     maszyna: c98e3023474aabd2
-lokalnie: 0a6151840dd230d7 pipeline/runner.py      maszyna: 0a6151840dd230d7
+lokalnie: c98e3023474aabd2 pipeline/metrics.py    maszyna: c98e3023474aabd2
+lokalnie: 3245b27cebac2a3f pipeline/runner.py     maszyna: 3245b27cebac2a3f
 ```
 
-**Interpretacja:** zero driftu, tokenizer przeżył nadpisanie (nie ma go w paczce, a `tar` nie usuwa
-plików nieobecnych w archiwum), archiwum transferowe usunięte.
+**Suma `runner.py` zmieniła się z `0a6151840dd230d7` (pierwsze podejście) na `3245b27cebac2a3f`** —
+to jest dowód, że poprawka faktycznie jest na maszynie, a nie tylko w repo. Dokładnie ta reguła
+z inwentarza, o którą prosi zlecenie: najpierw udowodnij, że uruchamiana wersja ma nową
+funkcjonalność.
 
-## Krok 2 — kontrola przedstartowa
+### Weryfikacja poprawki, którą zgłosiłem w pierwszym podejściu
 
-### Bramka pytest: `pytest` nie jest zainstalowany na maszynie pomiarowej
+Akumulator obsługuje teraz nierówne okna przez rozszerzanie tablicy i licznik per pozycja:
 
+```python
+t_old, t_new = acc["sum"].shape[0], arr.shape[0]
+if t_new > t_old:
+    pad = np.zeros((t_new - t_old, acc["sum"].shape[1]))
+    acc["sum"] = np.vstack([acc["sum"], pad])
+    acc["count"] = np.concatenate([acc["count"], np.zeros(t_new - t_old)])
+acc["sum"][:t_new] += arr
+acc["count"][:t_new] += 1.0
 ```
-$ ...\spektra1-env\Scripts\python.exe -m pytest tests -q
-C:\Users\operator\spektra1-env\Scripts\python.exe: No module named pytest
-```
 
-To nie jest „coś nie doszło w paczce", jak przewidywało zlecenie — **`pytest` nigdy nie był
-instalowany**. Stos ze zlecenia 02 to `transformers accelerate numpy scipy pyarrow pandas
-safetensors`, bez narzędzi testowych.
+To jest droga **(b)** z mojego raportu — i to jest dobra wiadomość, bo **nie kosztuje ani jednego
+tokenu**. Wariant (a), czyli wspólne okno w obrębie języka, odbierałby do 17,5% okna; skoro
+rozstrzygnięcie nie zmieniło protokołu, ta strata nie wystąpi.
 
-**Nie doinstalowałem go i chcę wyjaśnić dlaczego**, bo to nie jest lenistwo. Środowisko na tej
-maszynie jest **zapieczętowane lockfile'em** (`requirements-lock.txt`, część pakietu pieczęci
-z T1). Dorzucenie pakietów sprawiłoby, że środowisko, w którym poszedł pomiar, przestaje być tym
-opisanym w lockfile'u. Ryzyko dla samego forwardu jest znikome, ale to jest **decyzja
-protokolarna**, nie operacyjna — i nie moja.
-
-Zamiast tego zrobiłem dwie rzeczy, które razem dają mocniejszy dowód niż uruchomienie pytesta
-na maszynie:
-
-**(a) Pełny zestaw testów na laptopie** (Python 3.13.14, pytest 9.0.2; żaden test nie importuje
-`torch`, więc nie potrzebują środowiska pomiarowego):
+Testy na laptopie (na maszynie nie ma pytesta i to zostaje bez zmian):
 
 ```
 $ python -m pytest tests -q
-........................................................................ [ 72%]
-............................                                             [100%]
-100 passed in 17.72s
+101 passed in 19.00s
 ```
 
-**Dokładnie 100 testów zielonych** — liczba zgodna z oczekiwaniem ze zlecenia. A skoro kod na
-maszynie jest **bajtowo identyczny** (35/35 sum kontrolnych), to deklarowany cel tej bramki
-(„czy coś nie doszło w paczce") jest spełniony **bardziej bezpośrednio** przez równość sum niż
-przez przebieg testów.
+**101, było 100.** Stary `test_positional_accumulator_rejects_length_mismatch` — ten, który
+wymagał odrzucania nierównych długości — zniknął, a w jego miejsce weszły dwa nowe:
+`test_positional_accumulator_handles_ragged_lengths_like_protocol` i
+`test_positional_accumulator_grows_when_longer_text_arrives`. Czyli szew, na którym pękło
+pierwsze podejście, jest teraz pokryty.
 
-**(b) Kontrola przedstartowa na maszynie**, sprawdzająca to, czego laptop potwierdzić nie może —
-czy TO środowisko zaimportuje moduły, wczyta konfigurację i zobaczy tokenizer (bez ładowania modelu):
+Potwierdzam też obecność checkpointu przebiegu 1 w kodzie (`measurements/positional_mu.npz`
+i `windows.json`, `runner.py:201–202`), więc restart nie powtórzy 80 forwardów.
 
-```
-python: 3.14.4  |  cwd: C:\Users\operator\spektra1
---- import modulow ---   OK: pipeline.runner, pipeline.metrics, pipeline.memory_guard,
-                             corpus.build, corpus.validate, nulls.interventional, power.permutation
---- biblioteki ---       OK: torch 2.9.1+cu128, transformers 5.14.1, numpy 2.5.1, scipy 1.18.0,
-                             pyarrow 25.0.0, pandas 3.0.5, safetensors 0.8.0
---- config ---           token_window_mode = equalize   (nie TBD, start nie jest blokowany)
-                         token_budget = 1024 | layer_band = [0.4, 0.8]
-                         hf_name = google/gemma-3-4b-it
-                         hf_revision = 093f9f388b31de276ce2de164bdc2081324b9767
---- tokenizer ---        corpus\.tokenizer\tokenizer.json | istnieje: True | 33384568 B
---- korpus ---           plikow scenariuszy: 16
---- GPU ---              cuda: True | RTX 5080 | compute capability (12, 0) | bf16: True
-=== WYNIK: WSZYSTKO GOTOWE DO STARTU ===   (kod 0)
-```
+### Porządki
 
-### Stan maszyny przed startem
+Stary `runner.log` z pierwszego podejścia (2 468 B, z tracebackiem) **przeniosłem** na maszynie
+do `runner-podejscie1.log`. Powód: mój skrypt startowy dopisuje do logu (`>>`), więc nowy bieg
+dopisałby się pod tamtym tracebackiem i log byłby mylący. Treść tamtego logu jest już w repo
+jako `ops/runner.log`, więc nic nie ginie.
+
+## Krok 2 — kontrola przedstartowa
 
 ```
-$ ollama ps                    (pusto - zaden model w VRAM)
-$ nvidia-smi memory.used        497 MiB / 16303 MiB
+=== SONDA (importy + config + tokenizer) ===
+SONDA OK
+
+=== ollama ps ===
+NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL      (pusto - zaden model w VRAM)
+
+=== miejsce na dysku ===
+C: wolne 1489,4 GB
+
+=== VRAM ===
+7068 MiB / 16303 MiB          <<< BLOKADA
 ```
 
-**Interpretacja:** warunek z „Uwagi operacyjnej" spełniony, karta praktycznie wolna (mniej niż
-zakładane ~1,6 GB, bo pulpit był w tym momencie lekko obciążony).
+**Interpretacja:** sonda ze zlecenia przechodzi (importy, `token_window_mode == 'equalize'`,
+tokenizer wykryty jako dokładny). Ollama nie trzyma modelu — czyli **to nie Ollama jest problemem**,
+warunek z „Uwagi operacyjnej" jest spełniony. Miejsca na dysku jest 1,5 TB. Jedyny niespełniony
+warunek to zajętość karty przez bieżącą pracę użytkownika.
 
-## Krok 3 — uruchomienie
+## Stan gotowości: bieg jest jedną komendą od startu
 
-### Pierwsza próba nie przeżyła zamknięcia sesji SSH
+Wszystko poza wolną kartą jest zrobione i sprawdzone:
 
-Uruchomiłem runner przez `Start-Process -WindowStyle Hidden` (PID 35448, 14:46:20). Po rozłączeniu
-i ponownym połączeniu:
+| Element | Stan |
+|---|---|
+| Kod na maszynie | zsynchronizowany, 35/35 sum zgodnych, poprawka potwierdzona sumą |
+| Tokenizer | `corpus\.tokenizer\tokenizer.json` na miejscu, przeżył nadpisanie |
+| Sonda | `SONDA OK` |
+| Archiwum transferowe | usunięte |
+| Skrypt startowy | `C:\Users\operator\spektra1\run-pilot.cmd` na miejscu (przeżył nadpisanie kodu) |
+| Zadanie w Harmonogramie | `SPEKTRA1-pomiar-pilota`, stan **Disabled** — samo nie wystartuje |
+| Miejsce na dysku | 1 489 GB wolne |
+| `measurements\` | pusty, bez checkpointu — bieg pójdzie od zera |
 
-```
---- procesy python ---   BRAK procesu python - bieg NIE przezyl
---- runner.log ---       rozmiar: 0 B
---- GPU ---              497 MiB, 1 %
-```
-
-**Interpretacja:** proces zginął razem z sesją SSH — serwer SSH na Windows sprząta drzewo procesów
-sesji, a `Start-Process` tego nie omija. Dobrze, że sprawdziłem to empirycznie przez rozłączenie,
-a nie założyłem, że „hidden = odczepiony": inaczej zameldowałbym uruchomiony bieg, którego nie ma.
-
-### Druga próba: Harmonogram zadań Windows
-
-Zlecenie dopuszcza wprost („zadanie w tle / `start /b` / harmonogram — wedle Twojego uznania"),
-więc przeszedłem na harmonogram. Żeby uniknąć piekła cudzysłowów, wgrałem skrypt startowy
-`run-pilot.cmd` **do środka `spektra1\`** (czyli w obrębie rollbacku):
+**Start, gdy maszyna będzie wolna:**
 
 ```
-POTWIERDZONE: run-pilot.cmd na miejscu
-SUCCESS: The scheduled task "SPEKTRA1-pomiar-pilota" has successfully been created.
-SUCCESS: Attempted to run the scheduled task "SPEKTRA1-pomiar-pilota".
-SPEKTRA1-pomiar-pilota    N/A    Running
-python.exe   34884   Console   2   585 836 K      (sesja konsolowa - ma dostep do karty)
+schtasks /run    /tn SPEKTRA1-pomiar-pilota
+schtasks /change /tn SPEKTRA1-pomiar-pilota /disable
 ```
 
-Dwie decyzje, które podjąłem po drodze:
+Druga linia jest obowiązkowa i nie jest zbędna: `schtasks` wymaga terminu, więc zadanie ma
+trigger, który przy biegu na 8–24 h odpaliłby **drugi runner na tym samym checkpointcie**
+(Pułapka 28). Po `/run` trigger trzeba zgasić; działającej instancji to nie rusza.
 
-1. **Log dopisywany (`>>`), nie nadpisywany.** Zlecenie podaje `> runner.log`, ale przy wznawianiu
-   nadpisanie zgubiłoby historię poprzednich podejść, a zlecenie każe raportować liczbę wznowień.
-   Skrypt dopisuje znacznik czasu przy każdym starcie, więc wznowienia są widoczne w jednym pliku.
-2. **Natychmiast wyłączyłem trigger zadania.** `schtasks /create` wymaga harmonogramu, więc zadanie
-   dostało termin 23:59 tego samego dnia. Przy biegu planowanym na 8–24 h ten trigger odpaliłby
-   **drugi runner na tym samym checkpointcie i tych samych plikach wyjściowych** w trakcie
-   pierwszego. Po uruchomieniu zrobiłem `schtasks /change /disable` — zadanie pokazuje
-   `Next Run Time: N/A`, a już działająca instancja nie została tym tknięta.
+Przed startem warto powtórzyć jedną kontrolę:
+`nvidia-smi --query-gpu=memory.free --format=csv,noheader` — powinno pokazywać **co najmniej
+~10 GB wolnych**, żeby 8,83 GB szczytu weszło z sensownym zapasem, a nie na styk.
 
-### Bieg padł po 12 sekundach
+## Rollback i artefakty
 
-Pełny `runner.log` jest w `ops/runner.log`. Istotna część:
+Bez zmian wobec pierwszego podejścia. Na maszynie: `C:\Users\operator\spektra1` (kod, skrypt
+startowy, pusty `measurements\`, `runner-podejscie1.log`). **Poza rollbackiem katalogu** nadal
+jeden obiekt systemowy: zadanie `SPEKTRA1-pomiar-pilota` (usunięcie:
+`schtasks /delete /tn SPEKTRA1-pomiar-pilota /f`).
 
-```
-[runner] google/gemma-3-4b-it @ 093f9f388b31
-Loading weights: 100%|##########| 883/883 [00:02<00:00, 398.05it/s]
-[runner] przebieg 1/2: komponent pozycyjny
-  en-01-apiary-move: okno 861 tok. (2 s)
-Traceback (most recent call last):
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 282, in <module>
-    sys.exit(main())
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 210, in main
-    pos_acc[lang][li] = accumulate_positional(pos_acc[lang][li], arr[:n])
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 77, in accumulate_positional
-    raise ValueError(
-ValueError: dlugosc 1014 != 861 - po wyrownaniu okna wszystkie teksty jezyka
-            musza miec te sama dlugosc
-[DEP] proces zakonczony, kod wyjscia=1
-```
+Nie instalowano niczego, nie zmieniano sterownika, nie ruszano Ollamy ani cache HuggingFace,
+nie zamykano żadnych procesów użytkownika.
 
-Model wczytał się poprawnie z lokalnego cache, właściwa rewizja, pierwszy scenariusz policzony
-(okno 861 tokenów) — i awaria na **drugim** scenariuszu tego samego języka.
+## Co czeka na decyzję
 
----
-
-## Diagnoza: okno liczone per scenariusz, komponent pozycyjny akumulowany per język
-
-To nie jest błąd losowy ani problem środowiska. To niespójność między dwiema decyzjami
-projektowymi, które osobno są poprawne:
-
-- **Okno wyrównywane jest w obrębie scenariusza.** `runner.py:202` liczy `n = min(lengths.values())`,
-  gdzie `lengths` to długości pięciu **wariantów jednego scenariusza**. Docstring `equalize_scenario`
-  mówi to wprost: „wspólne okno = min T′ **po wariantach scenariusza** (protokół §4, aneks)".
-- **Komponent pozycyjny akumulowany jest per język.** `runner.py:207–210` wrzuca `arr[:n]` do
-  `pos_acc[lang]`, wspólnego dla **wszystkich scenariuszy danego języka**.
-
-Skoro każdy scenariusz ma własne `n`, to drugi scenariusz przynosi tablicę innej długości
-i akumulator ją odrzuca.
-
-**Bramka w akumulatorze jest zamierzona, nie przypadkowa.** Sprawdziłem testy — istnieje
-`tests/test_runner.py::test_positional_accumulator_rejects_length_mismatch`, który **wymaga**
-tego wyjątku:
-
-```python
-def test_positional_accumulator_rejects_length_mismatch():
-    acc = accumulate_positional(None, np.ones((10, 3)))
-    with pytest.raises(ValueError, match="dlugosc"):
-        accumulate_positional(acc, np.ones((9, 3)))
-```
-
-Czyli to nie akumulator jest do naprawy „bo za surowy" — to **strona wywołująca łamie jego
-kontrakt**. Rozstrzygnięcie należy do kierownika badania, bo zmienia definicję komponentu
-pozycyjnego, a ta wchodzi do pieczęci.
-
-### Dlaczego 100 testów przeszło, a runner padł na drugim scenariuszu
-
-Testy sprawdzają `accumulate_positional` i `equalize_scenario` **osobno** i oba są poprawne.
-Nie ma testu integracyjnego, który przepuściłby przez przebieg 1 **dwa scenariusze tego samego
-języka o różnych oknach** — a to jest dokładnie ten szew, na którym pękło. Zielony zestaw testów
-nie był tu fałszywy; był po prostu niekompletny w jednym konkretnym miejscu.
-
-### Skala kompromisu, jeśli wybrana będzie droga „wspólne okno całego języka"
-
-Policzyłem, ile tokenów kosztowałoby ujednolicenie okna w obrębie języka. Podstawa: dokładne
-liczby tokenów z `corpus.validate` (zlecenie 04). Runner raportuje okna o kilka tokenów większe
-(861 wobec 856 dla en-01, 1014 wobec 1005 dla en-02) — różnica to maskowanie tokenów specjalnych —
-więc traktować poniższe jako bardzo dobre przybliżenie, nie wartości dokładne.
-
-**Wariant obecny (okno = min po wszystkich pięciu wariantach, czyli z wariantem A):**
-
-| Język | okno per scenariusz | wspólne okno języka | największa strata |
-|---|---|---|---|
-| EN | od 829 (en-08) do 1005 (en-02) | **829** | **176 tok. = 17,5%** okna en-02 |
-| PL | od 818 (pl-01) do 959 (pl-03) | **818** | **141 tok. = 14,7%** okna pl-03 |
-
-**Gdyby wariant A nie brał udziału w wyrównywaniu okna** (A z definicji nie ma insercji i jest
-krótszy, a kontrast C−A jest w protokole i tak wtórny):
-
-| Język | okno per scenariusz | wspólne okno języka | największa strata |
-|---|---|---|---|
-| EN | od 905 (en-08) do 1005 (en-02) | **905** | 100 tok. = 10,0% |
-| PL | od 894 (pl-01) do 1003 (pl-04) | **894** | 109 tok. = 10,9% |
-
-Czyli wyłączenie wariantu A z wyrównywania odzyskuje ~76 tokenów w EN i ~76 w PL i redukuje
-najgorszą stratę z ~17% do ~10%. Czy to jest dopuszczalne, zależy od tego, czy komponent pozycyjny
-ma być liczony na tym samym zestawie wariantów, co metryki — na to nie umiem odpowiedzieć i nie
-próbuję.
-
-### Ostrzeżenie o wznawianiu: przebieg 1 nie ma checkpointu
-
-Zlecenie zapewnia, że „przerwanie NIE marnuje biegu", i to prawda **dla przebiegu 2** — tam
-checkpoint jest po każdym tekście (`runner.py:217–224`). Ale **przebieg 1 (komponent pozycyjny)
-checkpointu nie ma w ogóle**: to 80 forwardów liczonych od zera przy każdym starcie. Awaria
-wystąpiła właśnie w przebiegu 1, dlatego nie ma czego wznawiać i katalog `measurements\` jest pusty.
-Warto o tym wiedzieć przy planowaniu kolejnych podejść: dopóki przebieg 1 się nie domknie, każde
-przerwanie kosztuje pełne 80 forwardów (kilka minut, więc nie jest to dramat — ale nie jest to
-też „wznawianie od miejsca przerwania").
-
----
-
-## Co odesłane do repo
-
-| Plik | Rozmiar | Uwaga |
-|---|---|---|
-| `ops/runner.log` | 2 426 B | pełny log biegu z tracebackiem |
-| `ops/pytest-laptop.log` | 184 B | dowód 100/100 z laptopa |
-
-**Nie odesłano** `metrics.parquet`, `spectra.parquet` ani `dropped_tokens.csv` — **nie powstały**.
-Żaden plik tokenizera ani wag nie trafił na laptopa.
-
-## Co zostało na maszynie (i jak to usunąć)
-
-| Artefakt | Gdzie | Objęty rollbackiem? |
-|---|---|---|
-| `run-pilot.cmd` | `C:\Users\operator\spektra1\` | tak |
-| pusty katalog `measurements\` | `C:\Users\operator\spektra1\` | tak |
-| `runner.log` | `C:\Users\operator\spektra1\` | tak |
-| **zadanie `SPEKTRA1-pomiar-pilota`** | Harmonogram zadań Windows | **NIE — to obiekt systemowy** |
-
-Zadanie jest **wyłączone** (`Disabled`, `Next Run Time: N/A`), więc samo nie wystartuje.
-Zostawiam je świadomie, bo kolejne podejście po poprawce kodu będzie go potrzebowało —
-uruchomienie to `schtasks /run /tn SPEKTRA1-pomiar-pilota` (i pamiętać o ponownym
-`/disable` po starcie, jeśli trigger zostanie włączony). Usunięcie, jeśli zapadnie inna decyzja:
-
-```
-schtasks /delete /tn SPEKTRA1-pomiar-pilota /f
-```
-
-Odnotowuję to jawnie, bo jest to jedyna rzecz, jaką ten pomiar zostawił **poza** katalogiem
-objętym rollbackiem.
-
-Nie instalowano niczego, nie zmieniano sterownika, nie ruszano Ollamy ani cache HuggingFace.
-
-**Rollback:** `Remove-Item -Recurse -Force C:\Users\operator\spektra1, C:\Users\operator\spektra1-env`
-plus powyższe `schtasks /delete`.
-
-## Rzecz, którą zrobiłem źle
-
-W trakcie pracy maszyna na moment zniknęła z sieci (`Connection timed out` — przejściowy zanik
-Wi-Fi; po chwili i nazwa, i adres działały normalnie). Trafiło to w moment wysyłania skryptu
-startowego, a **mój skrypt wypisał „POTWIERDZONE: skrypt wgrany" bezwarunkowo**, mimo że `scp`
-właśnie padł. Zauważyłem to przy następnym kroku i powtórzyłem transfer z prawdziwą weryfikacją
-(`if exist` na maszynie). Zgłaszam, bo przez kilkadziesiąt sekund miałem w logu nieprawdziwe
-potwierdzenie — dokładnie ten rodzaj komunikatu, który przy dłuższym biegu mógłby wprowadzić
-w błąd.
-
-## Co czeka na czat prowadzącego
-
-1. **Rozstrzygnąć niespójność okno-per-scenariusz vs komponent-pozycyjny-per-język.** Trzy widoczne
-   drogi: (a) wspólne okno w obrębie języka (koszt do 17,5% okna, tabela wyżej), (b) akumulator
-   pozycyjny tolerujący różne długości z licznikiem per pozycja — struktura `count` jest już
-   wektorem, więc zmiana jest niewielka, ale trzeba wtedy zmienić też test, który obecnie wymaga
-   odrzucenia, (c) wyłączenie wariantu A z wyrównywania okna, co samo w sobie nie naprawia
-   problemu, ale zmniejsza koszt drogi (a) z ~17% do ~10%.
-2. **Dodać test integracyjny przebiegu 1 na dwóch scenariuszach jednego języka o różnych oknach** —
-   bez tego ta sama klasa błędu wróci przy pomiarze głównym, już po pieczęci.
-3. **Zdecydować w sprawie `pytest` na maszynie pomiarowej.** Bramka ze zlecenia jest nieuruchamialna
-   w obecnym środowisku. Albo świadomie dopuścić rozejście się środowiska z zapieczętowanym
-   lockfile'em o pakiety testowe, albo trwale zmienić bramkę na „testy na laptopie + równość sum
-   kontrolnych", jak zrobiłem tutaj.
-4. **Rozważyć checkpoint dla przebiegu 1**, jeśli docelowy pomiar główny ma być dłuższy niż pilot.
+1. **Kiedy uruchomić bieg na maszynie operatora maszyny.** To wymaga ustalenia z nim, a nie ze mną:
+   8–24 h zajętej karty. Naturalny kandydat to noc albo dzień, gdy nie gra — ale to Wasza
+   rozmowa, nie moja decyzja.
+2. **Czy chcecie, żebym pilnował momentu i wystartował automatycznie**, gdy karta się zwolni.
+   Umiem to zrobić (obserwacja wolnego VRAM-u i start przy progu ~10 GB), ale nie zrobiłem tego
+   sam, bo oznaczałoby to zajęcie cudzego komputera bez jego wiedzy — możliwe, że operator maszyny skończy
+   grać o 23:00 i obudzi się przy maszynie liczącej pomiar.
+3. **Zaktualizować wzorzec rozmiaru paczki w zleceniu** ze ~140 KB na ~180 KB, żeby nie budził
+   fałszywego alarmu przy kolejnych biegach.
+4. **Rozważyć, czy bramka pamięci nie powinna sprawdzać także wolnego VRAM-u karty**, nie tylko
+   alokacji własnego procesu. Dzisiejsza sytuacja jest wzorcowym przykładem: bramka przepuściłaby
+   bieg, który fizycznie się nie mieści, bo obcy proces zajął pamięć. Jedna linia
+   (`torch.cuda.mem_get_info()`) przed startem pomiaru zamknęłaby tę dziurę.

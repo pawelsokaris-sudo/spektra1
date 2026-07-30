@@ -22,7 +22,8 @@ cd C:\Users\pawel\projects
 tar -czf spektra1-code.tar.gz --exclude=.venv --exclude=.git --exclude=*.npy --exclude=__pycache__ --exclude=.claude spektra1
 ```
 
-Rozmiar wzorcowy ~140 KB. Rozpakować do `C:\Users\operator\` nadpisując `spektra1\`.
+Rozmiar wzorcowy ~180–190 KB (rośnie z kodem; alarmem są dziesiątki MB, nie +40 KB).
+Rozpakować do `C:\Users\operator\` nadpisując `spektra1\`.
 **Po rozpakowaniu obowiązkowo:**
 
 1. Sprawdzić, że tokenizer przeżył: `dir C:\Users\operator\spektra1\corpus\.tokenizer\`
@@ -80,6 +81,12 @@ więc bez bramki nie byłoby sygnału). Oczekiwany szczyt: ~8.8 GB.
   obowiązuje teraz w obu przebiegach.
 - Zadanie SPEKTRA1-pomiar-pilota w Harmonogramie zostawiłeś wyłączone — użyj go,
   pamiętając o wyłączeniu triggera po starcie (Twoja pułapka z 23:59).
+- **Bramka na OBCE zużycie karty (Twój punkt 4 z drugiego podejścia):** runner
+  sprawdza `mem_get_info` przed KAŻDYM forwardem; jeśli obce procesy trzymają
+  > 3 GB (pulpit to ~1.6 GB), bieg zatrzymuje się czysto na checkpointcie z jawnym
+  komunikatem. Gdy operator maszyny włączy grę w trakcie — bieg stanie zamiast pełznąć dniami;
+  wznowienie tą samą komendą po zwolnieniu karty. Przed startem nadal sprawdź
+  ~10 GB wolnego, żeby nie startować w blokadę.
 
 ## Krok 4 — po zakończeniu
 
