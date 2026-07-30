@@ -1,6 +1,9 @@
 # dane duże / odtwarzalne
 *.parquet
 corpus/generated/
+# pliki tokenizera Gemmy: 33 MB + licencja Google - NIGDY do publicznego repo
+# pieczeci. Podkladane lokalnie na maszynie pomiarowej (zlecenie DEP-03).
+corpus/.tokenizer/
 .hf_cache/
 __pycache__/
 *.pyc
