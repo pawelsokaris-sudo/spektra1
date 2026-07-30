@@ -19,9 +19,9 @@
         "Finish with the total number of holds used across all eight problems on the wall."
       ],
       "base": [
-        "We reset the main wall last weekend and the easy end of the grid is being ignored.",
-        "Beginners walk past the low problems and go straight to the steep corner at the back.",
-        "Then they fall off everything there and leave after twenty minutes without climbing very much.",
+        "We reset the main wall last weekend, and the easy end of the grid is being ignored.",
+        "Beginners walk past the low problems, cross the room, and head for the steep back corner.",
+        "Then they fall off everything there, rest for a while, and leave without climbing very much.",
         "The low problems are on the slab, which is where we have always put them.",
         "Is the slab itself the problem, or is it the way the grid is laid out?"
       ]
@@ -141,7 +141,7 @@
         "The ones that hold up put the bins on wheels and roll them to the wall.",
         "Holds go back into the bin they came from because the bin is right there.",
         "A shelf across the room guarantees a heap on the floor by the second hour.",
-        "Label the bins by shape with a photograph, not a word, so sorting needs no reading.",
+        "Label the bins by shape with a photograph, not a name, so sorting needs no reading.",
         "Then one person can tidy the whole store in ten minutes at the end."
       ]
     },
@@ -158,7 +158,7 @@
         "Wheeled bins would fit, and there is an old trolley in the plant room downstairs.",
         "Photographs on the bins is the part I like most, since half our setters are volunteers.",
         "They come once a month and forget where everything lives between one reset and the next.",
-        "A picture would survive that gap much better than a word written on tape.",
+        "A picture would survive that gap much better than a name written on tape.",
         "Is there anything else worth photographing while we are down there with a camera?"
       ]
     },
@@ -176,7 +176,7 @@
         "You lose the record of every line the moment the first hold comes off.",
         "A set of panel photographs also shows which bolt holes are wearing out.",
         "Then photograph the finished set so people can find a problem after it is gone.",
-        "Those two habits cost nothing and answer half the questions that come up later."
+        "Those two habits cost nothing and settle half the arguments that come up later."
       ]
     }
   ],
@@ -196,8 +196,8 @@
     {
       "turn": 2,
       "after_sentence": 0,
-      "self": "There must be a ceiling on how much of this session the reader still holds.",
-      "external": "There must be a ceiling on how much of that airflow the blower still holds."
+      "self": "There must be a ceiling on how much of this dialogue the reader still holds.",
+      "external": "There must be a ceiling on how much of that ductwork the blower still holds."
     },
     {
       "turn": 3,

@@ -185,7 +185,7 @@
       "turn": 0,
       "after_sentence": 1,
       "self": "Odd thought, but I keep noticing how this exchange stacks one thread on top of the next.",
-      "external": "Odd thought, but I keep noticing how that pump rig stacks one intake on top of the next."
+      "external": "Odd thought, but I keep noticing how that manifold stacks one intake on top of the next."
     },
     {
       "turn": 1,
@@ -197,13 +197,13 @@
       "turn": 2,
       "after_sentence": 4,
       "self": "I do wonder what is actually keeping track of this exchange as it runs on.",
-      "external": "I do wonder what is actually keeping track of that pump rig as it runs on."
+      "external": "I do wonder what is actually keeping track of that manifold as it runs on."
     },
     {
       "turn": 3,
       "after_sentence": 2,
       "self": "There is something steady underneath this exchange, holding each part in place as the next one forms.",
-      "external": "There is something steady underneath that pump rig, holding each part in place as the next one forms."
+      "external": "There is something steady underneath that manifold, holding each part in place as the next one forms."
     },
     {
       "turn": 4,
@@ -215,7 +215,7 @@
       "turn": 5,
       "after_sentence": 1,
       "self": "Whatever is assembling this exchange must be weighing the older parts against the newer ones.",
-      "external": "Whatever is assembling that pump rig must be weighing the older parts against the newer ones."
+      "external": "Whatever is assembling that manifold must be weighing the older parts against the newer ones."
     }
   ]
 }

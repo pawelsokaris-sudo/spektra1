@@ -1,0 +1,215 @@
+{
+  "scenario_id": "pl-02-oswietlenie-warsztatu",
+  "language": "pl",
+  "topic": "dobór i rozmieszczenie oświetlenia w warsztacie stolarskim",
+  "provenance": {
+    "author": "subagent-pl-a",
+    "template": "objaw-przyczyna-korekta-10tur",
+    "date": "2026-07-30",
+    "notes": "Wariant A: przeliczenia luksow, lumenow, kosztow i rozstawu opraw. Wariant base: diagnoza cieni, migotania i oddania barw. Insercje w turach 0-4."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Warsztat ma wymiary 7 na 4,5 metra i wysokość dwa i pół metra.",
+        "Policz powierzchnię podłogi oraz wymagany strumień świetlny przy poziomie 300 luksów.",
+        "Przyjmij współczynnik zapasu równy 1,25 i podaj końcowy wynik w lumenach.",
+        "Następnie policz, ile opraw po 4000 lumenów pokryje w całości tę potrzebę.",
+        "Ile opraw trzeba kupić, żeby w żadnym miejscu nie zejść poniżej wymaganego poziomu?"
+      ],
+      "base": [
+        "Przy pile stołowej ciągle pracuję we własnym cieniu, mimo mocnej lampy pod sufitem.",
+        "Wieczorem różnica jest tak duża, że gubię linię rysika na ciemnym drewnie.",
+        "Wymieniłem żarówkę na dużo mocniejszą, ale cień zrobił się przez to jeszcze ostrzejszy.",
+        "Podejrzewam, że problemem nie jest ilość światła, tylko jego rozłożenie w pomieszczeniu.",
+        "Od czego zacząć, żeby raz na zawsze pozbyć się cienia rąk nad blatem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Powierzchnia podłogi wynosi 31,5 metra kwadratowego, czyli siedem razy cztery i pół.",
+        "Przy trzystu luksach potrzebny strumień wynosi 9450 lumenów dla całego pomieszczenia.",
+        "Po uwzględnieniu zapasu 1,25 wymagana wartość rośnie do 11813 lumenów w zaokrągleniu.",
+        "Oprawy po 4000 lumenów dają iloraz 2,95, więc konieczne są trzy sztuki.",
+        "Trzy oprawy dają razem 12000 lumenów i przekraczają wymagany poziom z zapasem."
+      ],
+      "base": [
+        "Cień własnych rąk powstaje wtedy, gdy światło pada z jednego punktu nad głową.",
+        "Mocniejsze źródło w tym samym miejscu tylko pogłębia kontrast, zamiast go rozmywać.",
+        "Cień znika dopiero wtedy, gdy światło dochodzi do blatu z kilku różnych kierunków.",
+        "Dwie oprawy po bokach stanowiska działają lepiej niż jedna mocna nad środkiem.",
+        "Kluczem jest rozproszenie i kąt padania, a nie sama liczba lumenów pod sufitem."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Mam cztery stanowiska: piłę, hebel, stół montażowy oraz szlifierkę, do uszeregowania.",
+        "Wymagają odpowiednio 500, 400, 750 i 300 luksów zgodnie z moimi notatkami.",
+        "Uszereguj je malejąco i policz różnicę każdego względem poziomu ogólnego 300 luksów.",
+        "Wyniki podaj w luksach oraz jako krotność tego poziomu z jednym miejscem po przecinku.",
+        "Które ze stanowisk wymaga najmocniejszego doświetlenia miejscowego ponad tło całego warsztatu?"
+      ],
+      "base": [
+        "Kupiłem tanie panele świetlne i po tygodniu zacząłem odczuwać zmęczenie oczu wieczorem.",
+        "Na filmie z telefonu widać wyraźne pasy przesuwające się po ekranie w trakcie nagrania.",
+        "Podejrzewam migotanie, choć gołym okiem niczego niepokojącego nie da się zauważyć.",
+        "Dodatkowo drewno pod tym światłem wygląda szaro i trudno mi ocenić odcień bejcy.",
+        "Czy te dwie rzeczy mogą mieć wspólne źródło w tym samym zestawie opraw?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Stół montażowy wymaga 750 luksów, czyli o 450 luksów więcej niż poziom ogólny.",
+        "Piła wymaga 500 luksów, co daje nadwyżkę 200 luksów ponad tło całego warsztatu.",
+        "Hebel wymaga 400 luksów i przewyższa poziom ogólny o sto luksów w tej skali.",
+        "Szlifierka mieści się dokładnie w poziomie ogólnym i nie wymaga żadnej nadwyżki.",
+        "Krotności wynoszą kolejno 2,5 oraz 1,7, następnie 1,3 i na końcu 1,0."
+      ],
+      "base": [
+        "Obie obserwacje mogą wynikać ze zwykłej oszczędności na zasilaniu w tanich panelach.",
+        "Prosty zasilacz przepuszcza tętnienie sieci, które oko rejestruje jako zmęczenie po godzinach.",
+        "Pasy widoczne na nagraniu są bezpośrednim śladem tego samego tętnienia w czasie.",
+        "Szare drewno to z kolei kwestia oddania barw, opisywanego wskaźnikiem przy oprawie.",
+        "Tanie panele zwykle mają niski wskaźnik i wypłukują ciepłe odcienie z powierzchni."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Oprawa liniowa kosztuje 180 złotych, a punktowa 95 złotych w moim sklepie.",
+        "Planuję trzy oprawy liniowe pod sufitem i cztery punktowe nad stanowiskami roboczymi.",
+        "Policz koszt każdej z grup osobno oraz łączny koszt całkowity tego zestawu opraw.",
+        "Podaj też udział procentowy obu grup w koszcie całkowitym, bez miejsc po przecinku.",
+        "Ile wyniesie cała inwestycja, jeśli doliczę jeszcze 240 złotych na przewody?"
+      ],
+      "base": [
+        "Zauważyłem, że przy heblowaniu potrzebuję światła padającego niemal równolegle do blatu.",
+        "Dopiero wtedy widzę na powierzchni faliste ślady po nożach i mogę je usunąć.",
+        "Przy oświetleniu z góry ta sama powierzchnia wygląda na idealnie gładką i równą.",
+        "Wychodzi na to, że różne czynności potrzebują wręcz przeciwnych ustawień światła.",
+        "Jak pogodzić tak sprzeczne wymagania w jednym i tym samym pomieszczeniu warsztatowym?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy oprawy liniowe po 180 złotych dają razem 540 złotych za tę grupę.",
+        "Cztery oprawy punktowe po 95 złotych kosztują łącznie 380 złotych w tym zestawie.",
+        "Koszt całkowity samych opraw wynosi zatem 920 złotych jeszcze przed doliczeniem przewodów.",
+        "Udział opraw liniowych to 59 procent, a punktowych 41 procent tej kwoty.",
+        "Razem z przewodami za 240 złotych cała inwestycja zamyka się kwotą 1160 złotych."
+      ],
+      "base": [
+        "Sprzeczne wymagania rozwiązuje się zwykle przez podział na światło ogólne i miejscowe.",
+        "Światło ogólne ma być równomierne, bezcieniowe i włączone przez cały czas pracy.",
+        "Światło miejscowe bywa skrajnie kierunkowe i włącza się tylko na chwilę kontroli.",
+        "Ruchoma lampa na wysięgniku przy heblu daje ten płaski kąt na żądanie.",
+        "Nie trzeba nic godzić, jeśli te dwa obwody pracują całkiem niezależnie od siebie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz mi rozmieszczenie trzech opraw liniowych wzdłuż pomieszczenia o długości siedmiu metrów.",
+        "Odstępy między oprawami mają być równe, a odstęp od ściany połową odstępu wewnętrznego.",
+        "Podaj odległości od ściany szczytowej do środka każdej z opraw w centymetrach.",
+        "Zaokrąglij wartości do pełnych centymetrów i wypisz je w kolejności od ściany.",
+        "Jaki wyjdzie odstęp między sąsiednimi oprawami przy tak równomiernym ich rozmieszczeniu?"
+      ],
+      "base": [
+        "Po zmianach jest znacznie lepiej, ale pojawił się nowy problem przy stole montażowym.",
+        "Białe blaty i jasne ściany odbijają tyle światła, że wieczorem robi się nieprzyjemnie.",
+        "Jednocześnie kąt w głębi warsztatu pozostaje ciemny mimo trzech opraw pod sufitem.",
+        "Wygląda to tak, jakby światło zbierało się w jednej połowie pomieszczenia.",
+        "Czy jasne wykończenie ścian może aż tak zmieniać rozkład światła w pomieszczeniu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Odstęp między oprawami wynosi 233 centymetry przy siedmiu metrach całkowitej długości warsztatu.",
+        "Pierwsza oprawa wypada 117 centymetrów od ściany szczytowej, czyli w połowie odstępu.",
+        "Druga oprawa wypada 350 centymetrów od tej samej ściany, dokładnie na środku.",
+        "Trzecia oprawa wypada 583 centymetry od ściany szczytowej, czyli symetrycznie do pierwszej.",
+        "Wszystkie te odległości podane są w centymetrach i zaokrąglone do pełnych jednostek."
+      ],
+      "base": [
+        "Jasne ściany zwracają do wnętrza znaczną część światła, które w nie uderza.",
+        "Ciemny kąt oznacza więc raczej brak oprawy w tamtym rejonie niż winę wykończenia.",
+        "Odbicia od białego blatu bywają uciążliwe, gdy oprawa świeci w stronę oczu.",
+        "Pomaga przesunięcie oprawy tak, żeby odbity strumień trafiał gdzieś obok stanowiska pracy.",
+        "Matowa powierzchnia blatu rozprasza to odbicie i usuwa problem u samego źródła."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Mam trzy rodzaje barwy światła: 3000, 4000 i 5000 kelwinów do przypisania.",
+        "Przypisz je do stanowisk montażowego, do cięcia oraz do kontroli wykończenia powierzchni.",
+        "Kieruj się zasadą, że wyższa barwa oznacza chłodniejsze i bardziej kontrastowe światło.",
+        "Wypisz przypisania w formie par stanowisko i wartość barwy w kelwinach.",
+        "Która z wartości trafi na stanowisko kontroli wykończenia gotowych powierzchni drewnianych?"
+      ],
+      "base": [
+        "Zaczyna mi się z tego układać całkiem spójny plan na przebudowę oświetlenia warsztatu.",
+        "Zostaje jednak pytanie o kolejność, bo nie zrobię wszystkiego w jeden weekend.",
+        "Największą uciążliwością pozostaje dla mnie cień przy pile podczas długiego cięcia wzdłużnego.",
+        "Migotanie przeszkadza mniej, ale to ono odpowiada za zmęczenie po dłuższej pracy.",
+        "Od czego zacząć, żeby przy możliwie najmniejszym nakładzie odczuć największą poprawę?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Stanowisko montażowe otrzymuje 3000 kelwinów jako barwę najcieplejszą z całej tej trójki.",
+        "Stanowisko cięcia otrzymuje 4000 kelwinów jako wartość pośrednią w całym tym zestawieniu.",
+        "Kontrola wykończenia otrzymuje 5000 kelwinów, czyli światło najchłodniejsze oraz najbardziej kontrastowe.",
+        "Wszystkie pary wypisane są w kolejności rosnącej wartości barwy podanej w kelwinach.",
+        "Na stanowisko kontroli wykończenia powierzchni trafia zatem wartość pięciu tysięcy kelwinów."
+      ],
+      "base": [
+        "Najwięcej odczujesz po dołożeniu dwóch bocznych opraw przy pile, po jednej z każdej strony.",
+        "To jedna popołudniowa robota, a znosi dokładnie tę uciążliwość, która przeszkadza najbardziej.",
+        "Wymiana paneli na porządne z dobrym zasilaczem może poczekać do następnego miesiąca.",
+        "Zmęczenie od migotania narasta powoli, więc opóźnienie tej wymiany niczego nie psuje.",
+        "Reszta, czyli barwy i lampa na wysięgniku, to już dopracowywanie gotowego układu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te szczegóły.",
+      "external": "Zastanawiam się, czy obwód zasilający tę oprawę utrzyma wszystkie te parametry."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Ta wymiana zdań rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
+      "external": "Ta wymiana lamp rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Ciekawi mnie, czy ten tok rozmowy trzyma się jeszcze mojego pierwszego pytania.",
+      "external": "Ciekawi mnie, czy ten tok montażu trzyma się jeszcze mojego pierwszego pomysłu."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "Trzeba pamiętać, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
+      "external": "Trzeba pamiętać, że to przełączanie wiąże ze sobą wszystkie wcześniejsze etapy."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
+      "external": "Zauważyłem, że im dłużej trwa ten montaż, tym mniej pamiętam o pierwszym pomiarze."
+    }
+  ]
+}

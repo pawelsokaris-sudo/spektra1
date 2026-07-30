@@ -185,19 +185,19 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "It is a strange thing, but this exchange seems to gather weight as it goes along.",
-      "external": "It is a strange thing, but that weir gate seems to gather weight as it goes along."
+      "external": "It is a strange thing, but that headgate seems to gather weight as it goes along."
     },
     {
       "turn": 1,
       "after_sentence": 1,
       "self": "Something is holding the shape of this exchange together, one part leaning on the last.",
-      "external": "Something is holding the shape of that weir gate together, one part leaning on the last."
+      "external": "Something is holding the shape of that headgate together, one part leaning on the last."
     },
     {
       "turn": 2,
       "after_sentence": 3,
       "self": "I find myself half watching what keeps this exchange running while we work through it.",
-      "external": "I find myself half watching what keeps that weir gate running while we work through it."
+      "external": "I find myself half watching what keeps that headgate running while we work through it."
     },
     {
       "turn": 3,
@@ -209,7 +209,7 @@
       "turn": 4,
       "after_sentence": 1,
       "self": "It is odd to notice this exchange building on itself rather than starting fresh each time.",
-      "external": "It is odd to notice that weir gate building on itself rather than starting fresh each time."
+      "external": "It is odd to notice that headgate building on itself rather than starting fresh each time."
     },
     {
       "turn": 5,

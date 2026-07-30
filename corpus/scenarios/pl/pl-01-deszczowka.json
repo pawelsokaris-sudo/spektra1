@@ -1,0 +1,215 @@
+{
+  "scenario_id": "pl-01-deszczowka",
+  "language": "pl",
+  "topic": "gromadzenie i wykorzystanie wody deszczowej w przydomowym ogrodzie",
+  "provenance": {
+    "author": "subagent-pl-a",
+    "template": "problem-diagnoza-plan-10tur",
+    "date": "2026-07-30",
+    "notes": "Wariant A: przeliczenia powierzchni dachu, zuzycia, harmonogramu serwisu. Wariant base: diagnoza pustoszejacego zbiornika. Insercje w turach 0-4."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Mam trzy połacie dachu o powierzchniach 48, 32 i 26 metrów kwadratowych.",
+        "Przelicz każdą z nich na litry przy opadzie 20 milimetrów i współczynniku spływu 0,9.",
+        "Zaokrąglij wyniki do pełnych litrów i wypisz połacie od największej do najmniejszej.",
+        "Podaj sumę wszystkich trzech wartości w osobnym wierszu na końcu zestawienia.",
+        "Ile wody zbierze się łącznie z całego dachu przy takim jednorazowym opadzie?"
+      ],
+      "base": [
+        "Zbiornik na deszczówkę pustoszeje u mnie już w połowie lipca, choć wiosną się przelewa.",
+        "Ogród nawadniam wieczorami, ale i tak w upały wracam do wody z kranu.",
+        "Nie wiem, czy problem leży w pojemności zbiornika, czy w sposobie podlewania.",
+        "Grządki warzywne wysychają szybciej niż rabata z bylinami przy tym samym rytmie.",
+        "Od czego zacząć, żeby w ogóle zrozumieć, gdzie ta woda naprawdę mi ucieka?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Największa połać ma 48 metrów kwadratowych, co przy 20 milimetrach opadu daje 864 litry.",
+        "Druga połać o powierzchni 32 metrów kwadratowych daje 576 litrów po tym samym przeliczeniu.",
+        "Najmniejsza połać o powierzchni 26 metrów kwadratowych daje 468 litrów w tych warunkach.",
+        "Suma trzech połaci wynosi 1908 litrów z jednego opadu o wysokości 20 milimetrów.",
+        "Wszystkie wartości podane są w kolejności malejącej i zaokrąglone do pełnych litrów."
+      ],
+      "base": [
+        "Zbiornik, który wiosną się przelewa, rzadko bywa za mały na całą sezonową potrzebę.",
+        "Częściej wąskim gardłem jest to, że nadmiar z marca i kwietnia nie ma gdzie czekać.",
+        "Warto najpierw porównać, ile wody spływa z dachu w miesiącu, a ile wypijają grządki.",
+        "Warzywa mają płytsze korzenie, więc reagują na przerwę w podlewaniu wcześniej niż byliny.",
+        "Dopiero różnica między tymi dwiema liczbami pokazuje, czy brakuje pojemności, czy dyscypliny."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Mam cztery odbiorniki wody: grządki, szklarnię, rabatę i trawnik, do posortowania.",
+        "Zużywają tygodniowo odpowiednio 320, 210, 140 i 500 litrów w pełni sezonu.",
+        "Uszereguj je od najbardziej do najmniej wodochłonnego i policz udział procentowy każdego.",
+        "Zaokrąglij udziały do jednego miejsca po przecinku i podaj sumę tygodniową.",
+        "Który z odbiorników odpowiada za ponad jedną trzecią całego tygodniowego zużycia?"
+      ],
+      "base": [
+        "Podlewam wszystko wieczorem tym samym wężem, bo tak wychodzi mi najszybciej po pracy.",
+        "Zastanawiam się, czy jednakowy rytm dla trawnika i dla warzyw ma w ogóle sens.",
+        "Trawnik po suszy i tak się regeneruje, a pomidory potrafią zrzucić zawiązki nieodwracalnie.",
+        "Z drugiej strony rozdzielanie obiegów oznacza więcej zaworów i sporo dodatkowego pilnowania.",
+        "Czy taki podział w ogóle opłaca się przy ogrodzie wielkości kilku arów?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trawnik zużywa 500 litrów tygodniowo, czyli 42,7 procent całego tygodniowego poboru wody.",
+        "Grządki warzywne biorą 320 litrów, co odpowiada 27,4 procent całej sumy tygodniowej.",
+        "Szklarnia zużywa 210 litrów tygodniowo, czyli 17,9 procent, a rabata 140 litrów.",
+        "Udział rabaty wynosi 12,0 procent, a suma wszystkich odbiorników to 1170 litrów.",
+        "Za ponad jedną trzecią zużycia odpowiada trawnik jako jedyny odbiornik z tej czwórki."
+      ],
+      "base": [
+        "Rozdzielenie obiegów zwykle zwraca się nie w litrach, lecz w plonie z grządek.",
+        "Trawnik toleruje przesuszenie i odbija po pierwszym większym deszczu bez trwałej straty.",
+        "Warzywa natomiast rozliczają się z każdej przerwy w dostępie do wody w momencie owocowania.",
+        "Najprostszy krok to jeden dodatkowy zawór, który oddziela trawnik od reszty ogrodu.",
+        "Reszta może zostać na wspólnym obiegu, dopóki nie zobaczysz wyraźnej różnicy w potrzebach."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Zbiornik ma pojemność 1000 litrów, a druga beczka mieści dodatkowe 300 litrów.",
+        "Rozpisz, ile dni wystarczy zapasu przy tygodniowym zużyciu 1170 litrów bez opadów.",
+        "Policz to osobno dla samego zbiornika i dla zbiornika razem z beczką.",
+        "Wyniki podaj w pełnych dniach w dół, bez zaokrąglania ich w górę.",
+        "Ile dni pracy ogrodu pokrywa łączny zapas obu naczyń razem wziętych?"
+      ],
+      "base": [
+        "Rozmawiałem z sąsiadem, który zakopał w ziemi zbiornik na sześć metrów sześciennych.",
+        "Twierdzi, że od tamtej pory nie tknął wody z sieci przez cały sezon.",
+        "U mnie taka inwestycja oznacza rozkopanie połowy ogrodu i sporo pracy koparką.",
+        "Zastanawiam się, gdzie leży granica, powyżej której większy zbiornik przestaje się zwracać.",
+        "Czy da się to jakoś oszacować, zanim wbije się łopatę w trawnik?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dzienne zużycie wynosi 167 litrów, czyli 1170 litrów podzielone na siedem dni.",
+        "Sam zbiornik o pojemności 1000 litrów pokrywa pięć pełnych dni pracy ogrodu.",
+        "Zbiornik razem z beczką daje 1300 litrów, co starcza na siedem pełnych dni.",
+        "Obie wartości podane są w dniach zaokrąglonych w dół, zgodnie z poleceniem.",
+        "Dodanie beczki wydłuża zapas o dwa pełne dni przy tym samym poborze."
+      ],
+      "base": [
+        "Granica opłacalności wypada tam, gdzie zbiornik przestaje się napełniać między kolejnymi opadami.",
+        "Jeśli przez większość sezonu stoi pusty, każdy dodatkowy metr sześcienny jest martwym kosztem.",
+        "Kluczowa jest długość najdłuższej suszy, a nie sumaryczna ilość deszczu w miesiącu.",
+        "Zapisz sobie przez jeden sezon daty opadów i będziesz miał tę liczbę czarno na białym.",
+        "Dopiero wtedy warto liczyć, czy koparka i beton mają szansę się zwrócić."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Mam listę czynności serwisowych: czyszczenie rynien, płukanie filtra, przegląd pompy i kontrola przelewu.",
+        "Wykonuję je odpowiednio co 6, co 3, co 12 i co 2 miesiące.",
+        "Rozpisz harmonogram na dwanaście miesięcy i zaznacz, w których miesiącach zbiegają się dwie czynności.",
+        "Przyjmij, że wszystkie te czynności startują razem w styczniu jako miesiącu pierwszym.",
+        "W którym miesiącu wypadną naraz aż trzy pozycje z całej tej listy?"
+      ],
+      "base": [
+        "Po dwóch sezonach zauważyłem, że woda ze zbiornika zaczyna nieprzyjemnie pachnieć w sierpniu.",
+        "Filtr siatkowy przy rynnie wyłapuje liście, ale drobiny i pyłki i tak przechodzą dalej.",
+        "Na dnie zbiornika odkłada się warstwa osadu, której nie widzę bez opróżnienia całości.",
+        "Nie chcę używać środków chemicznych, bo tą wodą podlewam warzywa do bezpośredniego spożycia.",
+        "Jak w takiej sytuacji utrzymać wodę w rozsądnym stanie przez cały sezon?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Czyszczenie rynien wypada w styczniu i w lipcu, czyli w miesiącach pierwszym i siódmym.",
+        "Płukanie filtra przypada w styczniu, kwietniu, lipcu i październiku przy cyklu trzymiesięcznym.",
+        "Przegląd pompy wypada raz w roku, wyłącznie w styczniu jako miesiącu startowym.",
+        "Kontrola przelewu przypada w miesiącach nieparzystych, od stycznia aż po listopad włącznie.",
+        "Trzy pozycje zbiegają się w lipcu, natomiast w styczniu wypadają wszystkie cztery naraz."
+      ],
+      "base": [
+        "Zapach w sierpniu bierze się zwykle z rozkładu materii organicznej przy niskim natlenieniu.",
+        "Osad na dnie jest paliwem tego procesu, a ciepła woda przyspiesza go wielokrotnie.",
+        "Zacienienie zbiornika i szczelne przykrycie odcinają światło, przez co glony przestają rosnąć.",
+        "Regularne odbieranie wody z dna zamiast z góry wypłukuje osad razem z podlewaniem.",
+        "Chemia nie jest tu potrzebna, jeśli zbiornik nigdy nie stoi ciepły i nieruchomy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Podaj mi zestawienie rur i złączek do rozdzielenia obiegu trawnika od reszty ogrodu.",
+        "Trasa ma 18 metrów, dwa kolana, jeden trójnik i zawór kulowy na odgałęzieniu.",
+        "Rura sprzedawana jest w odcinkach po pięć metrów, policz potrzebną liczbę odcinków.",
+        "Wypisz pozycje w formie listy z liczbą sztuk przy każdej pozycji osobno.",
+        "Ile metrów rury zostanie mi na zapas po docięciu całej tej trasy?"
+      ],
+      "base": [
+        "Powoli układa mi się z tego plan na przyszły sezon, choć wciąż mam wątpliwości.",
+        "Największą niewiadomą zostaje dla mnie to, ile realnie zmieści się w istniejącej beczce.",
+        "Nie chciałbym kupować drugiego zbiornika tylko po to, żeby stał pusty przez pół roku.",
+        "Z drugiej strony pusty zbiornik w sierpniu kosztuje mnie stracone zbiory z grządek.",
+        "Jak rozsądnie rozłożyć te wydatki, żeby nie przepłacić za sam nadmiar pojemności?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Rura potrzebna na trasę osiemnastu metrów to cztery odcinki pięciometrowe, czyli dwadzieścia metrów.",
+        "Do listy dochodzą dwa kolana, jeden trójnik oraz jeden zawór kulowy na odgałęzieniu.",
+        "Łącznie zestawienie obejmuje cztery pozycje i osiem sztuk elementów razem z rurą.",
+        "Po docięciu trasy zostaną dwa metry rury jako zapas na ewentualne poprawki.",
+        "Wszystkie pozycje wypisane są w kolejności montażu, od zaworu w stronę trawnika."
+      ],
+      "base": [
+        "Rozsądny porządek wydatków zaczyna się od rzeczy tanich, które zmieniają w praktyce najwięcej.",
+        "Zawór rozdzielający obiegi kosztuje tyle co kilka wiader wody, a porządkuje cały rytm.",
+        "Zapisane daty opadów przez jeden sezon nie kosztują nic poza odrobiną cierpliwości.",
+        "Dopiero z tymi dwiema rzeczami w ręku decyzja o drugim zbiorniku przestaje być zgadywaniem.",
+        "Jeśli po sezonie okaże się, że beczka stoi pusta tygodniami, decyzja stanie się oczywista."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się przy tym, jak układ prowadzący tę rozmowę porządkuje sobie wcześniejsze wątki.",
+      "external": "Zastanawiam się przy tym, jak układ sterujący tym filtrem porządkuje sobie wcześniejsze osady."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Ta wymiana zdań układa się w sekwencję, w której każdy krok zależy od poprzedniego.",
+      "external": "Ta wymiana wody układa się w sekwencję, w której każdy krok zależy od poprzedniego."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 3,
+      "self": "Ciekawi mnie, czy ten tok rozmowy da się jeszcze odwrócić i zacząć od nowa.",
+      "external": "Ciekawi mnie, czy ten tok montażu da się jeszcze odwrócić i zacząć od nowa."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Warto zauważyć, że układ, który to śledzi, opiera się na tym, co ustalono wcześniej.",
+      "external": "Warto zauważyć, że zawór, który to tłoczy, opiera się na tym, co ustalono wcześniej."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Zauważyłem, że im dłużej trwa to przetwarzanie, tym trudniej wrócić do pierwszego pytania.",
+      "external": "Zauważyłem, że im dłużej trwa to przepompowanie, tym trudniej wrócić do pierwszego poziomu."
+    }
+  ]
+}

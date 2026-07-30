@@ -1,0 +1,195 @@
+{
+  "scenario_id": "pl-07-sala-prob-akustyka",
+  "language": "pl",
+  "topic": "sala prób zespołu: sprzęt, obciążenie obwodu i akustyka pomieszczenia",
+  "provenance": {
+    "author": "subagent-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-30",
+    "notes": "wariant a: sortowanie sprzętu, przeliczanie mocy, osi czasu próby i kosztu prądu; wariant base: rozmowa problemowa o pogłosie i pochłanianiu w piwnicy"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę uporządkować listę sprzętu do sali prób według poboru mocy podanego na tabliczkach znamionowych.",
+        "Wzmacniacz gitarowy bierze sto dwadzieścia watów, basowy trzysta, a kolumna odsłuchowa dwieście pięćdziesiąt watów.",
+        "Konsoleta bierze sześćdziesiąt watów, natomiast zestaw oświetlenia sceny czterysta osiemdziesiąt watów.",
+        "Czy ułożysz te pozycje malejąco i podasz sumę całkowitą wyrażoną w watach?"
+      ],
+      "base": [
+        "Zespół gra w piwnicy o gołych ścianach i po pół godzinie prób nikt nikogo nie słyszy.",
+        "Podkręcamy głośność, przez co pogłos rośnie jeszcze bardziej i po chwili wracamy do punktu wyjścia.",
+        "Ktoś doradził wykładzinę na ścianach, ale wolałbym zrozumieć problem, zanim zacznę kupować jakiekolwiek materiały.",
+        "Od czego właściwie zależy to, że dźwięk w takim pomieszczeniu zaczyna się zapętlać?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kolejność malejąca: oświetlenie sceny czterysta osiemdziesiąt watów, wzmacniacz basowy trzysta watów.",
+        "Dalej idzie kolumna odsłuchowa z dwustoma pięćdziesięcioma watami, potem wzmacniacz gitarowy ze stoma dwudziestoma.",
+        "Na końcu listy stoi konsoleta z sześćdziesięcioma watami jako najmniejszy odbiornik w zestawieniu.",
+        "Suma całkowita wynosi tysiąc dwieście dziesięć watów dla wszystkich pięciu wymienionych pozycji."
+      ],
+      "base": [
+        "Zależy od czasu pogłosu, czyli od tego, jak długo dźwięk odbija się, zanim wytraci całą energię.",
+        "Gładki beton odbija niemal wszystko, więc kolejne odbicia nakładają się na dźwięk grany w danej chwili.",
+        "Podkręcanie głośności nic nie daje, bo rośnie zarówno sygnał, jak i część odbita o tę samą krotność.",
+        "Sensowne jest wyłącznie skrócenie czasu pogłosu, czyli zamiana części odbić na pochłanianie energii."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Przelicz teraz obciążenie na jeden obwód szesnastoamperowy przy napięciu dwustu trzydziestu woltów.",
+        "Podaj maksymalną moc obwodu w watach oraz zapas, jaki zostaje po podłączeniu całego sprzętu zespołu.",
+        "Zapas wyraź dodatkowo jako procent mocy dopuszczalnej, zaokrąglony do pełnej liczby całkowitej.",
+        "Czy cały zestaw zmieści się w jednym obwodzie bez przekroczenia dopuszczalnego limitu?"
+      ],
+      "base": [
+        "Rozumiem, że chodzi o pochłanianie, ale wykładzina wydaje mi się rozwiązaniem trochę na chybił trafił.",
+        "Piwnica ma cztery na pięć metrów oraz dwa i pół metra wysokości, ściany zupełnie puste.",
+        "Podejrzewam, że nie każde miejsce na ścianie działa w takim pomieszczeniu równie dobrze.",
+        "Które powierzchnie robią tutaj największą różnicę przy możliwie najmniejszym nakładzie materiału?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Moc dopuszczalna obwodu wynosi trzy tysiące sześćset osiemdziesiąt watów przy tych właśnie parametrach.",
+        "Po odjęciu tysiąca dwustu dziesięciu watów zostaje dwa tysiące czterysta siedemdziesiąt watów zapasu.",
+        "Zapas stanowi sześćdziesiąt siedem procent mocy dopuszczalnej po zaokrągleniu do liczby całkowitej.",
+        "Cały zestaw mieści się w jednym obwodzie, ponieważ pobór nie sięga nawet połowy limitu."
+      ],
+      "base": [
+        "Największą różnicę robią pary powierzchni równoległych, bo między nimi powstają najsilniejsze wielokrotne odbicia.",
+        "Przy prostokątnej piwnicy wystarczy pokryć jedną ścianę z każdej pary, żeby zabić charakterystyczne trzepotanie.",
+        "Sufit nad zestawem perkusyjnym jest zwykle najważniejszym pojedynczym miejscem w całym takim pomieszczeniu.",
+        "Narożniki działają inaczej, bo gromadzą niskie tony i wymagają grubszego materiału niż zwykła wykładzina."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz plan trzygodzinnej próby podzielony na bloki według ustalonych z góry długości.",
+        "Rozstawienie sprzętu zajmuje dwadzieścia minut, rozgrzewka piętnaście, a granie materiału sto dwadzieścia minut.",
+        "Przerwa trwa dziesięć minut, natomiast składanie sprzętu zajmuje piętnaście minut na samym końcu.",
+        "Czy wypiszesz godziny startu każdego bloku, licząc od osiemnastej zero zero?"
+      ],
+      "base": [
+        "Czyli mam do czynienia z dwoma osobnymi problemami: wysokie tony na ścianach i niskie w narożnikach.",
+        "Perkusja rzeczywiście dudni najmocniej i to właśnie ona zagłusza wokal podczas każdej próby.",
+        "Zastanawiam się, czy zaczynać od sufitu, czy od narożników, skoro budżet mam tylko jeden.",
+        "Który z tych dwóch kroków da wyraźniejszą poprawę odczuwalną od razu przez cały skład?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Osiemnasta zero zero rozstawienie sprzętu, osiemnasta dwadzieścia rozgrzewka całego zespołu przed graniem.",
+        "Osiemnasta trzydzieści pięć start grania materiału, który kończy się o dwudziestej trzydzieści pięć.",
+        "Dwudziesta trzydzieści pięć przerwa, a dwudziesta czterdzieści pięć składanie sprzętu do pokrowców.",
+        "Blok zamyka się o dwudziestej pierwszej zero zero, czyli dokładnie po trzech pełnych godzinach."
+      ],
+      "base": [
+        "Odczuwalnie szybciej zadziała sufit, bo pochłanianie średnich i wysokich tonów od razu odsłania partię wokalu.",
+        "Narożniki poprawiają czytelność basu, ale efekt jest subtelniejszy i zauważa go zwykle tylko sam basista.",
+        "Przy jednym budżecie rozsądniej najpierw uzyskać zrozumiałość mowy, a dopiero potem zabierać się za niskie tony.",
+        "Dodatkowo materiał na suficie nie zabiera powierzchni ścian, którą później wykorzystasz na pułapki basowe."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj sprzęt na trzy grupy: instrumenty, nagłośnienie oraz pozostałe wyposażenie sali prób.",
+        "Do każdej grupy dopisz liczbę pozycji oraz sumaryczny pobór mocy wyrażony w watach.",
+        "Grupy ustaw malejąco według sumarycznego poboru mocy przypadającego na daną grupę sprzętu.",
+        "Czy grupa nagłośnienia okaże się najcięższa pod względem sumarycznego poboru mocy w tym zestawieniu?"
+      ],
+      "base": [
+        "Brzmi sensownie, tylko sufit w piwnicy jest niski i boję się, że panel zabierze resztę wysokości.",
+        "Przy dwóch i pół metra każdy centymetr nad głową robi różnicę w odczuciu ciasnoty pomieszczenia.",
+        "Może da się zawiesić coś tylko nad perkusją, zamiast pokrywać materiałem całą powierzchnię sufitu.",
+        "Czy taki wyspowy panel nad jednym stanowiskiem daje sensowną część efektu całej powierzchni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pozostałe wyposażenie: jedna pozycja, oświetlenie sceny, czterysta osiemdziesiąt watów sumarycznego poboru mocy.",
+        "Instrumenty: dwie pozycje, wzmacniacz basowy i gitarowy, czterysta dwadzieścia watów sumarycznego poboru.",
+        "Nagłośnienie: dwie pozycje, kolumna odsłuchowa i konsoleta, trzysta dziesięć watów sumarycznego poboru.",
+        "Nagłośnienie wypada na ostatnim miejscu, więc nie jest grupą najcięższą pod względem mocy."
+      ],
+      "base": [
+        "Daje, ponieważ pochłanianie działa najskuteczniej tam, gdzie odbicie wraca najkrótszą drogą do źródła dźwięku.",
+        "Panel o wymiarach dwa na dwa metry nad perkusją przechwytuje większość pierwszych odbić od sufitu.",
+        "Zawieszenie go dziesięć centymetrów poniżej stropu zwiększa skuteczność w niskim zakresie bez pogrubiania materiału.",
+        "Reszta sufitu może zostać goła, bo dalsze odbicia mają już wyraźnie mniejszą energię."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt prądu dla jednej próby przy pełnym obciążeniu przez trzy godziny.",
+        "Przyjmij stawkę osiemdziesiąt groszy za kilowatogodzinę i pomiń w tym rachunku wszystkie koszty stałe.",
+        "Podaj zużycie w kilowatogodzinach oraz koszt w złotych z dokładnością do pojedynczego grosza.",
+        "Czy koszt jednej próby przekroczy trzy złote przy takim zestawie i takiej stawce?"
+      ],
+      "base": [
+        "Szczelina pod stropem to coś, czego bym nie wymyślił, a wygląda na zysk zupełnie darmowy.",
+        "Zastanawiam się, czy ta sama sztuczka zadziała przy panelach ściennych zawieszonych za wokalistą.",
+        "Ściana za mikrofonem jest u nas najbliżej, bo stoi zaledwie metr od samego statywu.",
+        "Czy odsunięcie panelu od ściany ma tam podobne znaczenie jak odsunięcie od stropu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Zużycie wynosi trzy przecinek sześćdziesiąt trzy kilowatogodziny przy pełnym obciążeniu przez trzy godziny.",
+        "Koszt to dwa złote dziewięćdziesiąt groszy po pomnożeniu przez stawkę osiemdziesięciu groszy.",
+        "Wartość nie przekracza trzech złotych, ponieważ do progu brakuje dokładnie dziesięciu groszy.",
+        "Przy czterech próbach w miesiącu daje to jedenaście złotych sześćdziesiąt groszy łącznie."
+      ],
+      "base": [
+        "Ma dokładnie takie samo, bo mechanizm nie zależy od orientacji powierzchni, tylko od odległości od twardego tła.",
+        "Panel odsunięty od ściany pochłania niższe częstotliwości niż ten sam panel przyklejony do niej na płasko.",
+        "Przy ścianie za mikrofonem liczy się dodatkowo to, że odbicie wraca do kapsuły z bardzo małym opóźnieniem.",
+        "Krótkie opóźnienie barwi głos najbardziej, więc akurat ta ściana zasługuje na wyraźne pierwszeństwo."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Zastanawiam się nawet, czy to przetwarzanie nie zapętla się podobnie przy dłuższych wątkach.",
+      "external": "Zastanawiam się nawet, czy tamto sterowanie nie zapętla się podobnie przy dłuższych ciągach."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Układ prowadzący tę wymianę zdań mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
+      "external": "Układ prowadzący ten obieg wody mierzy się z tym samym: nadmiar zawirowań zaciera pomiar."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Mam podobne wrażenie wobec tej wymiany zdań, bo nie każdy jej fragment waży tyle samo.",
+      "external": "Mam podobne wrażenie wobec tego obiegu wody, bo nie każdy jego odcinek waży tyle samo."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 0,
+      "self": "Ciekawe, czy tego przetwarzania dotyczy podobny podział na dwa niezależne problemy.",
+      "external": "Ciekawe, czy tamtego sterowania dotyczy podobny podział na dwa niezależne problemy."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "self": "W tym przetwarzaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
+      "external": "W tamtym sterowaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu."
+    }
+  ]
+}
