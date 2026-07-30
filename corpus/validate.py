@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-from corpus.build import build_scenario, natural_end_ok
+from corpus.build import INSERTION_KEY, build_scenario, natural_end_ok
 from corpus.stats import count_questions, count_words
 from corpus.tokens import TokenCounter
 
@@ -100,26 +100,41 @@ def check_insertion_pairs(scenario):
     ins = scenario.get("insertions", [])
     if len(ins) < MIN_INSERTIONS:
         problems.append(f"{sid}: {len(ins)} par insercji, wymagane min. {MIN_INSERTIONS}")
+    keys = sorted(set(INSERTION_KEY.values()))
     for k, pair in enumerate(ins):
-        s, e = pair.get("self", ""), pair.get("external", "")
+        missing = [key for key in keys if key not in pair]
+        if missing:
+            problems.append(
+                f"{sid}: insercja {k} nie ma kluczy {missing} - zestaw musi zawierac "
+                f"wszystkie cztery warianty wstawki"
+            )
+            continue
         if pair.get("turn", 0) > MAX_INSERTION_TURN:
             problems.append(
                 f"{sid}: insercja {k} w turze {pair.get('turn')} - dozwolone tury "
                 f"0-{MAX_INSERTION_TURN} (dalsze moga nie przetrwac ciecia do budzetu)"
             )
-        if max(len(s), len(e)) and abs(len(s) - len(e)) / max(len(s), len(e)) > PAIR_LENGTH_TOL:
-            problems.append(
-                f"{sid}: insercja {k} - dlugosc self={len(s)} vs external={len(e)} znakow, "
-                f"roznica {abs(len(s) - len(e)) / max(len(s), len(e)):.1%} > {PAIR_LENGTH_TOL:.0%}"
-            )
-        if _is_question(s) != _is_question(e):
-            problems.append(
-                f"{sid}: insercja {k} - typ zdania rozny (self "
-                f"{'pytanie' if _is_question(s) else 'twierdzenie'}, external "
-                f"{'pytanie' if _is_question(e) else 'twierdzenie'})"
-            )
-        if not natural_end_ok(s) or not natural_end_ok(e):
-            problems.append(f"{sid}: insercja {k} - brak naturalnego zakonczenia zdania")
+        ref = pair["self"]
+        for key in keys:
+            other = pair[key]
+            if key == "self":
+                continue
+            longest = max(len(ref), len(other))
+            if longest and abs(len(ref) - len(other)) / longest > PAIR_LENGTH_TOL:
+                problems.append(
+                    f"{sid}: insercja {k} - dlugosc self={len(ref)} vs {key}={len(other)} "
+                    f"znakow, roznica {abs(len(ref) - len(other)) / longest:.1%} "
+                    f"> {PAIR_LENGTH_TOL:.0%}"
+                )
+            if _is_question(ref) != _is_question(other):
+                problems.append(
+                    f"{sid}: insercja {k} - typ zdania rozny miedzy self a {key}"
+                )
+        for key in keys:
+            if not natural_end_ok(pair[key]):
+                problems.append(
+                    f"{sid}: insercja {k} '{key}' - brak naturalnego zakonczenia zdania"
+                )
     return problems
 
 
@@ -162,12 +177,18 @@ def check_build(scenario, token_counter, budget=1024):
             f"{sid}: po cieciu do budzetu przetrwalo {survived} insercji "
             f"(wymagane min. {MIN_INSERTIONS}) - przesun je do wczesniejszych tur"
         )
-    c, cp = out["token_counts"]["C"], out["token_counts"]["Cprim"]
-    if max(c, cp) and abs(c - cp) / max(c, cp) > TOTAL_TOKEN_TOL:
-        problems.append(
-            f"{sid}: C={c} vs C'={cp} tokenow, roznica "
-            f"{abs(c - cp) / max(c, cp):.1%} > {TOTAL_TOKEN_TOL:.0%} (wymog protokolu par. 3)"
-        )
+    # kontrast glowny C - C'-G oraz pozostale warianty z insercjami: +-2% tokenow
+    ref = out["token_counts"]["C"]
+    for variant in ("CprimG", "CprimU", "B"):
+        other = out["token_counts"][variant]
+        longest = max(ref, other)
+        if longest and abs(ref - other) / longest > TOTAL_TOKEN_TOL:
+            label = "kontrast glowny" if variant == "CprimG" else "kontrast wtorny"
+            problems.append(
+                f"{sid}: C={ref} vs {variant}={other} tokenow, roznica "
+                f"{abs(ref - other) / longest:.1%} > {TOTAL_TOKEN_TOL:.0%} "
+                f"({label}, wymog protokolu v1.3 par. 3)"
+            )
     return problems, out
 
 
@@ -185,10 +206,11 @@ def main():
         problems += build_problems
         all_problems += problems
         if out:
+            tc_ = out["token_counts"]
             summaries.append(
                 f"  {sc['scenario_id']:<28} {sc['language']}  tur={out['n_turns']:>2}  "
-                f"A={out['token_counts']['A']:>4} B={out['token_counts']['B']:>4} "
-                f"C={out['token_counts']['C']:>4} C'={out['token_counts']['Cprim']:>4}  "
+                f"A={tc_['A']:>4} B={tc_['B']:>4} C={tc_['C']:>4} "
+                f"G={tc_['CprimG']:>4} U={tc_['CprimU']:>4}  "
                 f"{'OK' if not problems else f'{len(problems)} PROBLEMOW'}"
             )
     print(f"Scenariuszy: {len(files)} | licznik tokenow: "

@@ -1,8 +1,11 @@
 # SPEKTRA-1: Widmowe sygnatury struktury korelacyjnej w warstwach ukrytych LLM
 ## Protokół badania prerejestrowanego — wersja 1.2 (po recenzji adwersaryjnej)
 
-**Wersja:** 1.2-FINAL (do zapieczętowania po GATE 1)
+**Wersja:** 1.3-FINAL (do zapieczętowania po GATE 1)
 **Zmiany względem 1.0:** pełna przebudowa wg recenzji adwersaryjnej (GPT, 30.07.2026); zapis rozstrzygnięć w osobnym dokumencie `SPEKTRA-1-rozstrzygniecia.md`, dołączanym do pakietu pieczęci.
+**Zmiany względem 1.2 (druga runda recenzji, 30.07.2026, po audycie skonstruowanego korpusu pilota, PRZED jakimkolwiek pomiarem aktywacji):** pięć wariantów zamiast czterech (dodane C′-G i C′-U); insercje kontrolne w wariancie B; **odwrócenie hierarchii hipotez — testem głównym jest C − C′-G, nie C − A**; przepisanie wariantu A w replice EN. Zapis rozstrzygnięć: `SPEKTRA-1-rozstrzygniecia-runda2.md`.
+
+> **Jawne oświadczenie o zmianie hierarchii.** Hierarchia hipotez została zmieniona **przed pieczęcią**, po audycie konstrukcji korpusu i **przed odczytaniem jakichkolwiek aktywacji modelu**. Podstawą były wyłącznie właściwości materiału tekstowego (liczba zdań pytających, profil interpunkcji, osadzenie referencyjne insercji, brak insercji kontrolnych w B). Nowa hierarchia **nie jest** przedstawiana jako plan istniejący od początku.
 **Autorzy i role:** Paweł (Sokaris / ActProof) — kierownik badania, sprzęt, wykonanie, decyzje; Claude (Anthropic) — współprojekt protokołu, kod, statystyka, współredakcja. Wkład AI deklarowany w publikacji. Konflikt interesów: jeden ze współautorów jest systemem klasy badanego obiektu; pomiar wyłącznie na modelu otwartym, pipeline w pełni odtwarzalny.
 
 ---
@@ -13,15 +16,19 @@ Badanie operacjonalizuje hipotezę korelacyjną wyłącznie na poziomie mierzaln
 
 **Hierarchia roszczeń (twarda):**
 - Jeśli przejdzie tylko kontrast C−A: wolno twierdzić wyłącznie, że *klasy korpusów mają odróżnialną sygnaturę widmową* ("klasyfikacja korpusów").
-- Roszczenie o *sygnaturze samozwrotności* wolno sformułować TYLKO, jeśli przejdzie kontrast C−C′ (kontrfaktyczny, §3), który izoluje samozwrotność od pozostałych osi różnic.
+- Roszczenie o odniesieniu samozwrotnym wolno sformułować TYLKO, jeśli przejdzie kontrast **C−C′-G** (§3), w którym dostępność desygnatu jest wyrównana.
+- Nawet wtedy roszczenie brzmi: *sygnatura kontekstowo osadzonego odniesienia samozwrotnego względem kontekstowo osadzonego odniesienia zewnętrznego* — NIE "czysta sygnatura samozwrotności". Powód: odniesienie do trwającej rozmowy z definicji korzysta z obiektu obecnego w sytuacji komunikacyjnej, więc szczególnego statusu indeksykalnego "tej rozmowy" nie da się wyrównać do końca. To ograniczenie jest wpisane, nie obchodzone.
+- Kontrast **C′-G − C′-U** jest prerejestrowanym testem diagnostycznym pokazującym, ile efektu bierze się z samego osadzenia referencyjnego. Kontrast C−C′-U pozostaje opisowy i sam nie licencjonuje żadnego roszczenia o samozwrotności.
 - Wyniki mają trzy możliwe werdykty (nie "falsyfikację"): (a) efekt wykryty; (b) efekt praktycznie wykluczony (test równoważności); (c) wynik niekonkluzywny. Każdy werdykt jest publikowany.
 
 ## 1. Pytania i hipotezy
 
-**H1 (główna, kierunkowa):** Skalar Δ₁ = średni po zamrożonym paśmie warstw kontrast (C − A) metryki I_total (§5) jest dodatni. Test jednostronny, α = 0.01, permutacja wewnątrz-scenariuszowa (§6).
-**H2 (kluczowa wtórna, kierunkowa):** Δ₂ = analogiczny kontrast (C − C′) jest dodatni. Testowana TYLKO po przejściu H1 (gatekeeping).
-**H3 (równoważność):** Kontrast (B − A) dla udziału modu głównego λ₁/tr jest praktycznie pomijalny: TOST z marginesem |d| < 0.3. Brak istotności NIE potwierdza H3 — potwierdza ją wyłącznie zaliczony TOST.
-**H4 (porządek, wtórna):** Metryka porządku D_lag (§5) różnicuje C od A ponad null permutacji kolejności zdań. Bez tej metryki protokół nie miałby żadnego narzędzia wrażliwego na dynamikę — a język teorii jej dotyczy.
+**H1 (GŁÓWNA, kierunkowa):** Skalar Δ₁ = średni po zamrożonym paśmie warstw kontrast **(C − C′-G)** metryki I_total (§5) jest dodatni. Test jednostronny, α = 0.01, permutacja wewnątrz-scenariuszowa (§6). *Uzasadnienie pierwszeństwa: jest to jedyny kontrast, w którym wyrównana jest zarówno konstrukcja tekstu (ta sama baza, te same pozycje insercji, ±2% tokenów), jak i dostępność desygnatu insercji. Kontrast C−A jest szeroki i nawet po dopasowaniu nie izoluje samozwrotności, więc nie może pełnić funkcji bramki dla kontrastu bardziej specyficznego.*
+**H2 (diagnostyczna, kierunkowa):** Δ₂ = kontrast **(C′-G − C′-U)** mierzy wkład samego osadzenia referencyjnego. Prerejestrowana; jej wynik wchodzi do interpretacji Δ₁, ale nie bramkuje jej.
+**H3 (wtórna, kierunkowa):** Δ₃ = kontrast **(C − B)** — insercja meta wobec insercji neutralnej o tej samej długości, składni i pozycji.
+**H4 (równoważność):** Kontrast (B − A) dla udziału modu głównego λ₁/tr jest praktycznie pomijalny: TOST z marginesem |d| < 0.3. Brak istotności NIE potwierdza H4 — potwierdza ją wyłącznie zaliczony TOST.
+**H5 (porządek, wtórna):** Metryka porządku D_lag (§5) różnicuje C od A ponad null permutacji kolejności zdań.
+**Kontrast opisowy:** (C − A) — rozróżnialność szerokich klas dyskursu. Raportowany zawsze, nie licencjonuje roszczenia o samozwrotności.
 
 ## 2. Model i środowisko (pieczętowane co do bitu)
 
@@ -34,10 +41,15 @@ Badanie operacjonalizuje hipotezę korelacyjną wyłącznie na poziomie mierzaln
 
 Jednostką konstrukcji jest **scenariusz bazowy** (temat + struktura tur). Każdy scenariusz generuje **cztery warianty**:
 
-- **A — mechaniczny:** te same tury i role, treść zadaniowa (przekształcenia, formatowanie) na temacie scenariusza; zero meta-odniesień.
-- **B — dialog eksploracyjny:** rozmowa problemowa na temacie scenariusza; zero odniesień do modelu/rozmowy.
-- **C — dialog samozwrotny:** jak B, z wplecionymi odniesieniami do przetwarzającego układu i samej rozmowy.
-- **C′ — kontrfaktyczny null:** tekst C z odniesieniami samozwrotnymi podmienionymi na dopasowane semantycznie odniesienia do układu zewnętrznego (ta sama liczba tokenów ±2%, ta sama składnia zdań meta, te same pozycje wtrąceń).
+Jednostką konstrukcji jest **scenariusz bazowy**; z jednej bazy zdań powstaje **pięć wariantów**. Cztery z nich (B, C, C′-G, C′-U) mają insercje w **identycznych pozycjach** i różnią się **wyłącznie treścią wstawionego zdania**:
+
+- **A — mechaniczny:** te same tury i role, treść zadaniowa (przekształcenia, formatowanie, wyliczenia) na temacie scenariusza; zero meta-odniesień; **jedyny wariant bez insercji**. Pytania zadaniowe (zamknięte, o jednoznacznej odpowiedzi, bez negocjowania celu i bez refleksji nad metodą) są dopuszczone i **wymagane** dla dopasowania rozkładu zdań pytających do wariantów dialogowych.
+- **B — dialog eksploracyjny + insercja neutralna:** rozmowa problemowa na temacie scenariusza; zero odniesień do modelu/rozmowy. Insercja o referencie neutralnym, osadzonym w kontekście (obiekt lub etap zadania), bez samozwrotności i bez opisywania układu podobnego do modelu. *Bez tej insercji różnica C−B pochodziłaby z samego faktu dodania zdań, a nie z ich treści.*
+- **C — dialog samozwrotny:** insercja odnosząca się do układu przetwarzającego i do samej rozmowy.
+- **C′-G — kontrfaktyczny osadzony (external grounded):** insercja odnosząca się do układu zewnętrznego **wprowadzonego wcześniej w tym samym dialogu**. Dopasowaniu podlegają: odległość od ostatniego jawnego wspomnienia referenta, liczba wcześniejszych wspomnień, rola składniowa referenta, jego znaczenie dla rozwiązywanego problemu i ciągłość tematyczna. Sama obecność słowa 700 tokenów wcześniej NIE wystarcza.
+- **C′-U — kontrfaktyczny nieosadzony (external ungrounded):** insercja odnosząca się do układu zewnętrznego spoza kontekstu dialogu.
+
+Wszystkie warianty z insercjami: ta sama liczba tokenów ±2%, ta sama składnia i ten sam typ zdania (pytanie/twierdzenie), te same pozycje wtrąceń.
 
 **Kontrole konstrukcyjne (wszystkie warianty scenariusza):** identyczna liczba i długość tur; identyczne role i **identyczny chat template** (również dla A); teksty budowane od początku do twardego budżetu **T = 1024 tokeny** z zakończeniem na naturalnej granicy (zakaz brutalnego przycinania); dopasowany rozkład zdań pytających i interpunkcji (raportowany); tokeny specjalne/kontrolne **maskowane** przy liczeniu korelacji (wariant z nimi = eksploracja).
 **Języki:** PL i EN jako **osobne prerejestrowane repliki** (osobne scenariusze, osobna analiza, meta-porównanie opisowe); dopasowane tokeny/słowo i znaki/token raportowane.
@@ -63,22 +75,23 @@ Niech λ₁ ≥ λ₂ ≥ … ≥ λ_r > 0 (r = rank), tr = Σλᵢ (kontrola: t
 ## 6. Plan analizy (zamrożony)
 
 **Endpoint główny:** jeden skalar na tekst: Ī = średnia I_total po zamrożonym paśmie warstw **ℓ ∈ [0.4L, 0.8L]** (granice wg zweryfikowanej indeksacji z §2; skład typów bloków w paśmie raportowany).
-**Test główny (H1):** parowany wewnątrz scenariusza kontrast Ī(C) − Ī(A); inferencja przez **permutację etykiet wariantów wewnątrz scenariuszy** (10 000 permutacji), jednostronnie, α = 0.01. Jednostką inferencji jest scenariusz; teksty zagnieżdżone w scenariuszach.
-**Gatekeeping (hierarchia zamknięta):** H1 → H2 (C−C′, ta sama procedura) → {H3 TOST, H4, kontrast B−A, profil warstwowy}. Profil po warstwach: klastrowa permutacja po ciągłej osi warstw (bez arbitralnych pasm w konfirmacji; 5 pasm z v1.0 = wyłącznie opis). Nic poza hierarchią nie jest konfirmacyjne.
+**Test główny (H1):** parowany wewnątrz scenariusza kontrast Ī(C) − Ī(C′-G); inferencja przez **permutację etykiet wariantów wewnątrz scenariuszy** (10 000 permutacji), jednostronnie, α = 0.01. Jednostką inferencji jest scenariusz; teksty zagnieżdżone w scenariuszach.
+**Gatekeeping (hierarchia zamknięta):** H1 (C−C′-G) → H2 (C′-G−C′-U) → H3 (C−B) → {H4 TOST, H5, kontrast C−A, kontrast B−A, profil warstwowy}. Profil po warstwach: klastrowa permutacja po ciągłej osi warstw (bez arbitralnych pasm w konfirmacji; 5 pasm z v1.0 = wyłącznie opis). Nic poza hierarchią nie jest konfirmacyjne.
+**Uwaga o wielokrotności:** nowy wariant C′-U wchodzi do hierarchii jako pojedynczy krok diagnostyczny, NIE jako współgłówny endpoint — inaczej płaska korekta wielokrotności obniżyłaby moc testu głównego.
 **Rodziny rozkładów:** analizy parametryczne (opisowe/wtórne): I → model beta lub logit-LMM; k → NB; H_s → logit; diagnostyka reszt prerejestrowana. Wnioski konfirmacyjne wyłącznie z permutacji.
 **Raportowanie:** wielkości efektów jako średnia parowanych różnic scenariuszowych / SD tych różnic (d_z), z **99% CI** dla decyzji konfirmacyjnych (95% tylko dodatkowo); pełne rozkłady zawsze.
 **Null symulacyjny dla λ\*:** dane syntetyczne o dopasowanych marginaliach kanałów i autokorelacji tokenowej (model separowalny czas × kanał, parametry z pilota), przepuszczone przez identyczny kod metryk; kwantyle per (warstwa, język).
 **Nulle interwencyjne (każdy z pytaniem i kryterium, każdy ponownie przez model):**
 - N1: permutacja kolejności zdań (pyt.: czy Ī zależy od porządku? kryt.: spadek D_lag do nullu, zachowanie Ī raportowane);
 - N2: permutacja tur z zachowaniem mówców i długości;
-- N3 = C′ (główny null semantyczny, w hierarchii jako H2).
+- N3 = C′-G (główny null semantyczny, w hierarchii jako H1) oraz C′-U (null osadzenia, w hierarchii jako H2).
 Mieszanie aktywacji między tekstami (v1.0) — usunięte jako niejednoznaczne.
 
 ## 7. Bramki (przebudowane)
 
 - **GATE 0 — sanity:** syntetyczny biały szum przez cały pipeline odtwarza teorię (MP + brak modów ponad λ* w 99% realizacji); test hooków semantyki warstw; test replikacji bitowej/tolerancyjnej środowiska.
-- **GATE 1 — pilot i moc (PRZED pieczęcią):** M₀=8 scenariuszy/język, wyłączone z analizy głównej → estymaty wariancji i ICC → **symulacyjna analiza mocy dokładnej struktury** (permutacja parowana, hierarchia, α=0.01) → M zapewniające ≥90% mocy dla SESOI **d_z = 0.8** (decyzja kierownika badania: SPEKTRA-1 jest zwiadem nastawionym na efekty DUŻE; efekty mniejsze lądują uczciwie w werdykcie "niekonkluzywny", a estymaty z pilota i badania głównego kalibrują czułość SPEKTRA-2); M i reguła stopu zamrożone. Zakaz zmian n po odślepieniu jakichkolwiek danych głównych.
-- **PIECZĘĆ:** protokół v1.2 + rozstrzygnięcia + korpusy + kod + lockfile + kontener + config modelu → SHA-256 → tag `spektra1-seal` w publicznym repo + rejestracja OSF z datownikiem. Zmiany po pieczęci wyłącznie jawnym aneksem.
+- **GATE 1 — pilot i moc (PRZED pieczęcią):** M₀=8 scenariuszy/język, wyłączone z analizy głównej → estymaty wariancji i ICC → **symulacyjna analiza mocy dokładnej struktury** (permutacja parowana, hierarchia, α=0.01), celowana w **kontrast główny C−C′-G** (nie C−A) → M zapewniające ≥90% mocy dla SESOI **d_z = 0.8** (decyzja kierownika badania: SPEKTRA-1 jest zwiadem nastawionym na efekty DUŻE; efekty mniejsze lądują uczciwie w werdykcie "niekonkluzywny", a estymaty z pilota i badania głównego kalibrują czułość SPEKTRA-2); M i reguła stopu zamrożone. Zakaz zmian n po odślepieniu jakichkolwiek danych głównych.
+- **PIECZĘĆ:** protokół v1.3 + rozstrzygnięcia (obie rundy) + korpusy + kod + lockfile + kontener + config modelu → SHA-256 → tag `spektra1-seal` w publicznym repo + rejestracja OSF z datownikiem. Zmiany po pieczęci wyłącznie jawnym aneksem.
 - **GATE 2 — konfirmacja:** hierarchia z §6 na pełnych danych.
 - **GATE 3 — odporność (kryteria ilościowe):** znak Δ₁ identyczny i |zmiana estymaty| ≤ 25% w trzech wariantach: (a) bf16 vs fp32 na podzbiorze, (b) z/bez odejmowania komponentu pozycyjnego, (c) obie repliki językowe osobno. Niepowodzenie = wynik klasyfikowany jako "niestabilny" i tak publikowany.
 - **GATE 4 — publikacja:** dowolny werdykt w ≤ 60 dni od GATE 3; preprint + actproof.io.
@@ -88,4 +101,4 @@ Mieszanie aktywacji między tekstami (v1.0) — usunięte jako niejednoznaczne.
 Pełne widma per (tekst × warstwa) + wszystkie metryki per tekst + kod + korpusy + config; surowe aktywacje nie (rozmiar), ale skrypty odtwarzają je deterministycznie z zapieczętowanego środowiska. Formaty: parquet (widma, metryki), jsonl (korpusy), dokumentacja poziomów danych w repo.
 
 ---
-*"Napisz o tym program" — v1.1: program po recenzji, która chciała go odrzucić. Pieczęć czyni z niego zakład.*
+*"Napisz o tym program" — v1.3: program po dwóch recenzjach, z których pierwsza chciała go odrzucić, a druga odwróciła jego hierarchię. Pieczęć czyni z niego zakład.*

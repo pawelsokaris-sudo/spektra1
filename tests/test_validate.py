@@ -30,16 +30,24 @@ def _ok_scenario():
         "insertions": [
             {"turn": 0, "after_sentence": 1,
              "self": "Zastanawiam sie, jak uklad prowadzacy te wymiane laczy wczesniejsze watki.",
-             "external": "Zastanawiam sie, jak sterownik trzymajacy ten obieg laczy wczesniejsze etapy."},
+             "external_grounded": "Zastanawiam sie, jak rynna schodzaca z tego dachu laczy wczesniejsze rury.",
+             "external_ungrounded": "Zastanawiam sie, jak sterownik obcej przepompowni laczy wczesniejsze etapy.",
+             "neutral": "Zastanawiam sie, jak kolejnosc przyjeta w tym planie laczy wczesniejsze kroki."},
             {"turn": 1, "after_sentence": 1,
              "self": "Ta wymiana wraca do wlasnych wczesniejszych ustalen o zbiorniku wody.",
-             "external": "Ta instalacja wraca do wlasnych wczesniejszych ustawien o zbiorniku wody."},
+             "external_grounded": "Ta rynna wraca do wlasnych wczesniejszych spadkow przy zbiorniku wody.",
+             "external_ungrounded": "Ta przepompownia wraca do wlasnych wczesniejszych ustawien mocy pompy.",
+             "neutral": "Ta kolejnosc wraca do wlasnych wczesniejszych zalozen o zbiorniku wody."},
             {"turn": 2, "after_sentence": 0,
              "self": "Czy uklad skladajacy te odpowiedzi trzyma watek zbiornika w calosci?",
-             "external": "Czy zawor skladajacy te przeplywy trzyma obieg zbiornika w calosci?"},
+             "external_grounded": "Czy rynna zbierajaca te opady trzyma spadek zbiornika w calosci?",
+             "external_ungrounded": "Czy zawor obcej sieci trzyma cisnienie obiegu w calosci przez noc?",
+             "neutral": "Czy kolejnosc przyjeta w planie trzyma etapy zbiornika w calosci?"},
             {"turn": 3, "after_sentence": 2,
              "self": "Widac, ze ta wymiana buduje kolejne kroki na wlasnych wczesniejszych krokach.",
-             "external": "Widac, ze ta instalacja buduje kolejne stopnie na wlasnych wczesniejszych stopniach."},
+             "external_grounded": "Widac, ze ta rynna buduje kolejne spadki na wlasnych wczesniejszych spadkach.",
+             "external_ungrounded": "Widac, ze tamta siec buduje kolejne stopnie na wlasnych wczesniejszych stopniach.",
+             "neutral": "Widac, ze ta kolejnosc buduje kolejne etapy na wlasnych wczesniejszych etapach."},
         ],
     }
 
@@ -64,16 +72,22 @@ def test_structure_flags_sentence_without_natural_end():
 
 def test_insertion_pair_length_mismatch_is_flagged():
     sc = _ok_scenario()
-    sc["insertions"][0]["external"] = "Krotkie."
+    sc["insertions"][0]["external_grounded"] = "Krotkie."
     assert any("dlugosc" in p.lower() for p in check_insertion_pairs(sc))
 
 
 def test_insertion_pair_type_mismatch_is_flagged():
     sc = _ok_scenario()
-    # ta sama dlugosc, ale self twierdzenie a external pytanie
-    sc["insertions"][0]["self"] = "Uklad prowadzacy te wymiane wiaze ze soba wczesniejsze watki dobrze."
-    sc["insertions"][0]["external"] = "Sterownik trzymajacy ten obieg wiaze ze soba wczesniejsze etapy?"
+    # ta sama dlugosc, ale self twierdzenie a external_grounded pytanie
+    sc["insertions"][0]["self"] = "Uklad prowadzacy te wymiane wiaze ze soba wczesniejsze watki."
+    sc["insertions"][0]["external_grounded"] = "Rynna schodzaca z tego dachu wiaze ze soba wczesniejsze rury?"
     assert any("typ zdania" in p.lower() for p in check_insertion_pairs(sc))
+
+
+def test_incomplete_insertion_set_is_flagged():
+    sc = _ok_scenario()
+    del sc["insertions"][1]["neutral"]
+    assert any("neutral" in p for p in check_insertion_pairs(sc))
 
 
 def test_insertion_in_late_turn_is_flagged():

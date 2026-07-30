@@ -12,14 +12,20 @@ import statistics as st
 import sys
 from pathlib import Path
 
-from corpus.build import build_scenario
+from corpus.build import VARIANTS, build_scenario
 from corpus.stats import count_questions, count_words, punctuation_profile
 from corpus.tokens import TokenCounter
 from corpus.validate import SCENARIOS_DIR
 
 OUT = Path(__file__).resolve().parent / "matching_report.md"
-VARIANTS = ["A", "B", "C", "Cprim"]
 MARKS = ",.?!;:"
+# Kontrasty prerejestrowane (protokol v1.3 par. 1 i 6)
+CONTRASTS = [
+    ("C", "CprimG", "GŁÓWNY — samozwrotność przy wyrównanym osadzeniu"),
+    ("CprimG", "CprimU", "diagnostyczny — sam efekt osadzenia referencyjnego"),
+    ("C", "B", "wtórny — insercja meta wobec neutralnej"),
+    ("C", "A", "wtórny — klasy dyskursu"),
+]
 
 
 def variant_text(turns):
@@ -87,16 +93,20 @@ def build_report(rows, exact):
             cells = " | ".join(f"{st.mean([r['punct'][m] for r in vr]):.1f}" for m in MARKS)
             lines.append(f"| {v} | {cells} |")
 
-        # kontrast C vs C' - wymog protokolu +-2% na tekscie
-        lines += ["", "### Kontrast C vs C′ (wymóg §3: ±2% tokenów)", "",
-                  "| Scenariusz | C | C′ | różnica |", "|---|---|---|---|"]
-        for sid in sorted({r["scenario"] for r in lr}):
-            c = next(r for r in lr if r["scenario"] == sid and r["variant"] == "C")
-            cp = next(r for r in lr if r["scenario"] == sid and r["variant"] == "Cprim")
-            diff = abs(c["tokens"] - cp["tokens"]) / max(c["tokens"], cp["tokens"])
-            flag = "" if diff <= 0.02 else " ⚠"
-            lines.append(f"| {sid} | {c['tokens']} | {cp['tokens']} | {diff:.2%}{flag} |")
-        lines.append("")
+        # kontrasty prerejestrowane - wymog +-2% tokenow na tekscie
+        lines += ["", "### Kontrasty prerejestrowane (wymóg §3: ±2% tokenów)", ""]
+        for left, right, opis in CONTRASTS:
+            if left == "C" and right == "A":
+                continue  # A z definicji rozni sie dlugoscia (brak insercji)
+            lines += [f"**{left} − {right}** — {opis}", "",
+                      f"| Scenariusz | {left} | {right} | różnica |", "|---|---|---|---|"]
+            for sid in sorted({r["scenario"] for r in lr}):
+                a = next(r for r in lr if r["scenario"] == sid and r["variant"] == left)
+                b = next(r for r in lr if r["scenario"] == sid and r["variant"] == right)
+                diff = abs(a["tokens"] - b["tokens"]) / max(a["tokens"], b["tokens"])
+                flag = "" if diff <= 0.02 else " ⚠"
+                lines.append(f"| {sid} | {a['tokens']} | {b['tokens']} | {diff:.2%}{flag} |")
+            lines.append("")
 
     lines += [
         "## Uwagi metodologiczne",
@@ -106,8 +116,9 @@ def build_report(rows, exact):
         "wyższy niż w wariantach dialogowych. Protokół §3 wymaga *raportowania* "
         "rozkładu interpunkcji — jest on tutaj jawny; wyrównanie liczby przecinków "
         "wymagałoby wypaczenia natury wariantu A. Decyzja kierownika badania przed pieczęcią.",
-        "2. **Długości tur A vs B.** Wariant C zawiera insercje, więc jest z definicji "
-        "dłuższy od B; kluczowa parowość dotyczy C vs C′ (tabela wyżej).",
+        "2. **Wariant A nie zawiera insercji z definicji**, więc jest krótszy od pozostałych "
+        "czterech — kontrast C−A jest z tego powodu wtórny, nie główny (protokół v1.3 §1). "
+        "Wszystkie warianty z insercjami (B, C, C′-G, C′-U) są parowane co do tokenów.",
         "3. Raport wygenerowany automatycznie: `python -m corpus.report`.",
     ]
     return "\n".join(lines)

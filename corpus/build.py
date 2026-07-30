@@ -1,10 +1,18 @@
-"""Budowa czworek A/B/C/C' do budzetu tokenow (protokol par. 3).
+"""Budowa piatek A/B/C/C'-G/C'-U do budzetu tokenow (protokol v1.3 par. 3).
 
-Kluczowa wlasnosc konstrukcji: B, C i C' dziela ten sam korpus zdan bazowych.
-C = baza + insercje samozwrotne; C' = baza + insercje zewnetrzne w TYCH SAMYCH
-pozycjach. Dzieki temu kontrast C-C' izoluje samozwrotnosc od pozostalych osi
-roznic (protokol par. 0 i 3) - nie da sie tego osiagnac, gdy C i C' pisane sa
-niezaleznie.
+Wszystkie warianty poza A dziela ten sam korpus zdan bazowych i te same POZYCJE
+insercji; roznia sie wylacznie TRESCIA wstawionego zdania:
+
+  B       <- neutral              (referent neutralny, osadzony, bez samozwrotnosci)
+  C       <- self                 (odniesienie do ukladu przetwarzajacego i rozmowy)
+  C'-G    <- external_grounded    (uklad zewnetrzny WPROWADZONY wczesniej w dialogu)
+  C'-U    <- external_ungrounded  (uklad zewnetrzny spoza kontekstu)
+
+Kontrast glowny C - C'-G ma wyrownana dostepnosc referenta, wiec przyblizamy nim
+efekt samozwrotnosci. Kontrast diagnostyczny C'-G - C'-U pokazuje, ile wyniku
+bierze sie z samego osadzenia referencyjnego. B z insercjami neutralnymi domyka
+luke, w ktorej roznica C - B mogla pochodzic z samego faktu dodania zdan
+(recenzja zewnetrzna 2026-07-30, kwestia 3).
 
 Odciecie do budzetu: wybierana jest najwieksza liczba PELNYCH tur, ktora miesci
 sie we WSZYSTKICH czterech wariantach. Stad identyczna liczba tur i rol w kazdym
@@ -12,6 +20,16 @@ wariancie oraz zakonczenie na naturalnej granicy (zakaz brutalnego przycinania).
 """
 
 import re
+
+VARIANTS = ["A", "B", "C", "CprimG", "CprimU"]
+
+# Wariant -> klucz w zestawie insercji. A nie dostaje zadnych.
+INSERTION_KEY = {
+    "B": "neutral",
+    "C": "self",
+    "CprimG": "external_grounded",
+    "CprimU": "external_ungrounded",
+}
 
 _SENTENCE_END_RE = re.compile(r'[.?!]["\')\]]*\s*$')
 
@@ -21,8 +39,8 @@ def natural_end_ok(sentence):
     return bool(_SENTENCE_END_RE.search(sentence))
 
 
-def _apply_insertions(turns_base, insertions, key):
-    """Wstawia zdania meta (`key` = 'self' albo 'external') w zadane pozycje.
+def _apply_insertions(turns_base, insertions, key, scenario_id="?"):
+    """Wstawia zdania insercji o kluczu `key` w zadane pozycje.
 
     Insercje w obrebie jednej tury aplikowane od konca, zeby wczesniejsze
     wstawienia nie przesuwaly pozycji pozniejszych.
@@ -30,6 +48,11 @@ def _apply_insertions(turns_base, insertions, key):
     out = [list(t) for t in turns_base]
     for ins in sorted(insertions, key=lambda i: (i["turn"], i["after_sentence"]),
                       reverse=True):
+        if key not in ins:
+            raise KeyError(
+                f"{scenario_id}: insercja w turze {ins.get('turn')} nie ma klucza "
+                f"{key!r}; zestaw musi zawierac wszystkie: {sorted(INSERTION_KEY.values())}"
+            )
         turn_idx = ins["turn"]
         if turn_idx >= len(out):
             continue
@@ -54,12 +77,10 @@ def build_scenario(scenario, token_counter, budget=1024):
     base_b = [list(t["base"]) for t in scenario["turns"]]
     ins = scenario.get("insertions", [])
 
-    full = {
-        "A": base_a,
-        "B": base_b,
-        "C": _apply_insertions(base_b, ins, "self"),
-        "Cprim": _apply_insertions(base_b, ins, "external"),
-    }
+    sid = scenario["scenario_id"]
+    full = {"A": base_a}
+    for variant, key in INSERTION_KEY.items():
+        full[variant] = _apply_insertions(base_b, ins, key, sid)
 
     # koszt tokenowy tury n w kazdym wariancie -> najwieksze n_turns mieszczace
     # sie we WSZYSTKICH wariantach (odciecie na granicy tury = naturalne zakonczenie)
@@ -75,8 +96,7 @@ def build_scenario(scenario, token_counter, budget=1024):
             break
     if n_turns == 0:
         raise ValueError(
-            f"budzet {budget} tokenow za maly nawet na pierwsza ture scenariusza "
-            f"{scenario['scenario_id']}"
+            f"budzet {budget} tokenow za maly nawet na pierwsza ture scenariusza {sid}"
         )
 
     variants, token_counts = {}, {}
@@ -88,7 +108,7 @@ def build_scenario(scenario, token_counter, budget=1024):
         token_counts[name] = sum(per_turn[name][:n_turns])
 
     return {
-        "scenario_id": scenario["scenario_id"],
+        "scenario_id": sid,
         "language": lang,
         "topic": scenario["topic"],
         "budget": budget,
