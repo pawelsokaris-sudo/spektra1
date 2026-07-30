@@ -10,7 +10,10 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 
-# wyjatek: metryki pomiarowe sa danymi publikowanymi (protokol par. 8)
-!measurements/metrics.parquet
-!measurements/spectra.parquet
+# DECYZJA (par. 8 + pulapka zgloszona przez DEP 2026-07-30): WSZYSTKIE parquety
+# w measurements/ sa danymi publikowanymi - reguła katalogowa zamiast wyjatkow
+# imiennych, bo kazdy nowy plik wynikowy wpadal w pulapke *.parquet po cichu.
+# UWAGA na przyszlosc: przy pomiarze glownym spectra moze przekroczyc limit
+# GitHuba 100 MB na plik - wtedy LFS albo release assets, nie usuwanie wyjatku.
+!measurements/*.parquet
 !measurements/positional_mu.npz
