@@ -90,8 +90,8 @@ Niech λ₁ ≥ λ₂ ≥ … ≥ λ_r > 0 (r = rank), tr = Σλᵢ (kontrola: t
 **Raportowanie:** wielkości efektów jako średnia parowanych różnic scenariuszowych / SD tych różnic (d_z), z **99% CI** dla decyzji konfirmacyjnych (95% tylko dodatkowo); pełne rozkłady zawsze.
 **Null symulacyjny dla λ\*:** dane syntetyczne o dopasowanych marginaliach kanałów i autokorelacji tokenowej (model separowalny czas × kanał, parametry z pilota), przepuszczone przez identyczny kod metryk; kwantyle per (warstwa, język).
 **Nulle interwencyjne (każdy z pytaniem i kryterium, każdy ponownie przez model):**
-- N1: permutacja kolejności zdań (pyt.: czy Ī zależy od porządku? kryt.: spadek D_lag do nullu, zachowanie Ī raportowane);
-- N2: permutacja tur z zachowaniem mówców i długości;
+- N1: permutacja kolejności zdań (pyt.: czy Ī zależy od porządku? kryt.: spadek D_lag do nullu, zachowanie Ī raportowane). **Doprecyzowanie konstrukcji:** zdania mieszają się między turami; zachowane są sekwencja ról i długość każdej tury w zdaniach. Permutacja wyłącznie wewnątrz tur zostawiłaby nienaruszony porządek dalekiego zasięgu, czyli test byłby słabszy niż jego nazwa. Skutek uboczny raportowany jawnie: zdanie napisane dla jednej roli może trafić do tury drugiej, więc N1 narusza także spójność dialogu, nie tylko kolejność.
+- N2: permutacja tur z zachowaniem mówców i długości. Tury zamieniają się miejscami **wyłącznie w obrębie tej samej roli**, a kolejność zdań wewnątrz tury pozostaje nietknięta — inaczej N2 mieszałoby się z N1 i żaden z nich nie mierzyłby czegoś rozłącznego.
 - N3 = C′-G (główny null semantyczny, w hierarchii jako H1) oraz C′-U (null osadzenia, w hierarchii jako H2).
 Mieszanie aktywacji między tekstami (v1.0) — usunięte jako niejednoznaczne.
 
