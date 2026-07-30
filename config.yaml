@@ -4,16 +4,56 @@
 # Po PIECZĘCI ten plik jest niezmienny — zmiany wyłącznie jawnym aneksem.
 
 model:
-  hf_name: TBD-RECON        # dokładny wariant Gemmy, np. google/gemma-3-4b-it
-  hf_revision: TBD-RECON    # commit hash rewizji na HuggingFace
-  weights_sha256: TBD-RECON # suma kontrolna plików wag
-  tokenizer_files_sha256: TBD-RECON
-  chat_template_sha256: TBD-RECON
+  # Wariant 4B nie jest wyborem preferencyjnym tylko jedynym wykonalnym: 16 GB VRAM
+  # nie pomiesci wiekszego wariantu w bf16, a kwantyzacja unieważnia pomiar.
+  # Klasa zwracana przez AutoModelForCausalLM to Gemma3ForConditionalGeneration
+  # (model obraz+tekst); mierzymy wieze TEKSTOWA: hidden_size 2560, 34 bloki.
+  hf_name: google/gemma-3-4b-it
+  hf_revision: 093f9f388b31de276ce2de164bdc2081324b9767
+  n_blocks: 34              # hidden_states ma 35 elementow: [0] = embedding, [1..34] = bloki
+  hidden_size: 2560
+  weights_sha256:
+    model-00001-of-00002.safetensors: eb5fd5e97ddd07b56778733e9653c07312529cb00980a318fc3e1c4e3b5a8f1f
+    model-00002-of-00002.safetensors: fdde0e5aa5ced0fa203b3d50f4ab78168b7e3a3e08c6349f5cc9326666e1bb13
+    model.safetensors.index.json: 77f4b67de084c31c7bcd373b039908108eee6c6181607e6d53da730e5f0bc659
+  tokenizer_files_sha256:
+    tokenizer.json: 4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795
+    tokenizer_config.json: bfe25c2735e395407beb78456ea9a6984a1f00d8c16fa04a8b75f2a614cf53e1
+    special_tokens_map.json: 2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397
+    added_tokens.json: 50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946
+  # DEFINICJA (szablon nie jest osobnym plikiem w snapshocie): SHA-256 z samego
+  # TEKSTU szablonu, odczytanego z pola `chat_template` w tokenizer_config.json,
+  # zakodowanego w UTF-8, bez opakowania JSON i bez znaku konca linii na koncu.
+  # Bez tej definicji suma jest nieodtwarzalna.
+  chat_template_sha256: 7de1c58e208eda46e9c7f86397df37ec49883aeece39fb961e0a6b24088dd3c4
+  # Snapshot NIE zawiera preprocessor_config.json - jest kompletny dla trybu
+  # TEKSTOWEGO, nie dla obrazowego. Manifest pieczeci nie moze twierdzic inaczej.
+  snapshot_complete_for: text_only
+
+environment:
+  lockfile: requirements-lock.txt
+  lockfile_sha256: e4c1f95420770a1ff731ea7611c7f17961d582ec04c2be54cb1787ec1552c624
+  pytorch_index_url: https://download.pytorch.org/whl/cu128
+  python: "3.14.4"
+  torch: 2.9.1+cu128
+  transformers: 5.14.1     # linia 5.x - argument `dtype=`, NIE `torch_dtype=`
+  machine: maszyna-pomiarowa (RTX 5080, sm_120, 15.92 GB VRAM, Windows 11 Home)
+  seal_mode: venv_lockfile # zamiast obrazu kontenera (brak Dockera/WSL2 na maszynie)
 
 compute:
   dtype: bfloat16           # forward główny (protokół §2)
   fp32_control_fraction: 0.10
   fp32_tolerance_abs_delta_I_total: 0.005
+  # Kontrola fp32 zostaje NA GPU mimo przelewania do RAM (~16.4 GB przy 15.92 GB).
+  # Powod: kontrola ma izolowac WYLACZNIE dtype. Przeniesienie jej na CPU zmienialoby
+  # jednoczesnie dtype i urzadzenie, czyli mieszaloby dwa czynniki w tescie, ktory
+  # istnieje po to, by rozdzielic jeden. Przelewanie kosztuje czas, nie arytmetyke,
+  # a dotyczy 10% tekstow.
+  fp32_control_device: cuda
+  # Bramka pamieci - patrz pipeline/memory_guard.py. Sterownik przelewa nadmiar
+  # do RAM po cichu, wiec brak bledu CUDA nie jest dowodem zmieszczenia sie.
+  memory_guard_limit_gb: 14.0
+  fp32_control_limit_gb: 24.0
   tf32: false
   deterministic_kernels: true
   batch_size: 1
