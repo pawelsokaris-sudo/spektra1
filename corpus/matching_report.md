@@ -1,27 +1,27 @@
 # Raport dopasowania korpusów SPEKTRA-1 (T3, protokół §3)
 
-**Licznik tokenów: HEURYSTYCZNY — raport WSTĘPNY**; ostateczny raport wymaga tokenizera z T2.
+**Licznik tokenów: DOKŁADNY (tokenizer Gemmy)**
 Scenariuszy: 16 (en: 8, pl: 8)
 
 ## Język: en
 
 | Wariant | Tokeny | Słowa | Tokeny/słowo | Znaki/token | Zdania pytające | Tur |
 |---|---|---|---|---|---|---|
-| A | 856.38 ± 63.84 | 633.50 ± 42.64 | 1.35 ± 0.05 | 4.01 ± 0.00 | 5.50 ± 1.77 | 8.25 ± 0.71 |
-| B | 955.62 ± 37.24 | 729.12 ± 39.83 | 1.31 ± 0.03 | 4.01 ± 0.00 | 5.50 ± 1.77 | 8.25 ± 0.71 |
-| C | 956.38 ± 37.43 | 723.88 ± 39.64 | 1.32 ± 0.04 | 4.01 ± 0.00 | 5.50 ± 1.77 | 8.25 ± 0.71 |
-| CprimG | 956.75 ± 37.10 | 727.25 ± 38.33 | 1.32 ± 0.03 | 4.01 ± 0.00 | 5.50 ± 1.77 | 8.25 ± 0.71 |
-| CprimU | 956.25 ± 37.58 | 723.88 ± 39.64 | 1.32 ± 0.04 | 4.01 ± 0.00 | 5.50 ± 1.77 | 8.25 ± 0.71 |
+| A | 909.75 ± 65.72 | 752.25 ± 26.00 | 1.21 ± 0.06 | 4.51 ± 0.31 | 6.00 ± 1.77 | 9.88 ± 0.35 |
+| B | 959.25 ± 32.25 | 850.88 ± 25.61 | 1.13 ± 0.02 | 4.66 ± 0.10 | 6.00 ± 1.77 | 9.88 ± 0.35 |
+| C | 954.38 ± 31.17 | 845.62 ± 24.53 | 1.13 ± 0.02 | 4.69 ± 0.11 | 6.00 ± 1.77 | 9.88 ± 0.35 |
+| CprimG | 957.50 ± 32.22 | 849.00 ± 25.24 | 1.13 ± 0.02 | 4.67 ± 0.10 | 6.00 ± 1.77 | 9.88 ± 0.35 |
+| CprimU | 956.38 ± 32.58 | 845.62 ± 24.53 | 1.13 ± 0.02 | 4.68 ± 0.12 | 6.00 ± 1.77 | 9.88 ± 0.35 |
 
 ### Profil interpunkcji (średnia liczba znaków na tekst)
 
 | Wariant | `,` | `.` | `?` | `!` | `;` | `:` |
 |---|---|---|---|---|---|---|
-| A | 22.6 | 39.5 | 5.5 | 0.0 | 0.0 | 0.4 |
-| B | 24.2 | 41.2 | 5.5 | 0.0 | 0.0 | 0.1 |
-| C | 24.2 | 41.2 | 5.5 | 0.0 | 0.0 | 0.1 |
-| CprimG | 24.2 | 41.2 | 5.5 | 0.0 | 0.0 | 0.1 |
-| CprimU | 24.2 | 41.2 | 5.5 | 0.0 | 0.0 | 0.1 |
+| A | 26.2 | 47.2 | 6.0 | 0.0 | 0.0 | 0.5 |
+| B | 27.8 | 48.9 | 6.0 | 0.0 | 0.0 | 0.1 |
+| C | 27.8 | 48.9 | 6.0 | 0.0 | 0.0 | 0.1 |
+| CprimG | 27.8 | 48.9 | 6.0 | 0.0 | 0.0 | 0.1 |
+| CprimU | 27.8 | 48.9 | 6.0 | 0.0 | 0.0 | 0.1 |
 
 ### Kontrasty prerejestrowane (wymóg §3: ±2% tokenów)
 
@@ -29,66 +29,66 @@ Scenariuszy: 16 (en: 8, pl: 8)
 
 | Scenariusz | C | CprimG | różnica ze znakiem |
 |---|---|---|---|
-| en-01-apiary-move | 919 | 920 | -0.11% |
-| en-02-dinghy-restoration | 951 | 957 | -0.63% |
-| en-03-kiln-firing | 935 | 939 | -0.43% |
-| en-04-drystone-wall | 997 | 998 | -0.10% |
-| en-05-sourdough-night-bake | 931 | 930 | +0.11% |
-| en-06-workshop-roof-framing | 1024 | 1022 | +0.20% |
-| en-07-bouldering-route-setting | 926 | 922 | +0.43% |
-| en-08-marquee-stage-sound | 968 | 966 | +0.21% |
+| en-01-apiary-move | 972 | 978 | -0.61% |
+| en-02-dinghy-restoration | 1005 | 1011 | -0.59% |
+| en-03-kiln-firing | 960 | 966 | -0.62% |
+| en-04-drystone-wall | 959 | 959 | +0.00% |
+| en-05-sourdough-night-bake | 946 | 948 | -0.21% |
+| en-06-workshop-roof-framing | 968 | 968 | +0.00% |
+| en-07-bouldering-route-setting | 920 | 922 | -0.22% |
+| en-08-marquee-stage-sound | 905 | 908 | -0.33% |
 
-Znak różnicy: **4 razy dodatni, 4 razy ujemny**; średnia ze znakiem **-0.04%**.
+Znak różnicy: **0 razy dodatni, 6 razy ujemny**, 2 razy zero; średnia ze znakiem **-0.32%**. ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku.
 
 **CprimG − CprimU** — diagnostyczny — sam efekt osadzenia referencyjnego
 
 | Scenariusz | CprimG | CprimU | różnica ze znakiem |
 |---|---|---|---|
-| en-01-apiary-move | 920 | 918 | +0.22% |
-| en-02-dinghy-restoration | 957 | 951 | +0.63% |
-| en-03-kiln-firing | 939 | 935 | +0.43% |
-| en-04-drystone-wall | 998 | 997 | +0.10% |
-| en-05-sourdough-night-bake | 930 | 931 | -0.11% |
-| en-06-workshop-roof-framing | 1022 | 1024 | -0.20% |
-| en-07-bouldering-route-setting | 922 | 926 | -0.43% |
-| en-08-marquee-stage-sound | 966 | 968 | -0.21% |
+| en-01-apiary-move | 978 | 972 | +0.61% |
+| en-02-dinghy-restoration | 1011 | 1011 | +0.00% |
+| en-03-kiln-firing | 966 | 960 | +0.62% |
+| en-04-drystone-wall | 959 | 965 | -0.62% |
+| en-05-sourdough-night-bake | 948 | 946 | +0.21% |
+| en-06-workshop-roof-framing | 968 | 970 | -0.21% |
+| en-07-bouldering-route-setting | 922 | 922 | +0.00% |
+| en-08-marquee-stage-sound | 908 | 905 | +0.33% |
 
-Znak różnicy: **4 razy dodatni, 4 razy ujemny**; średnia ze znakiem **+0.05%**.
+Znak różnicy: **4 razy dodatni, 2 razy ujemny**, 2 razy zero; średnia ze znakiem **+0.12%**.
 
 **C − B** — wtórny — insercja meta wobec neutralnej
 
 | Scenariusz | C | B | różnica ze znakiem |
 |---|---|---|---|
-| en-01-apiary-move | 919 | 920 | -0.11% |
-| en-02-dinghy-restoration | 951 | 955 | -0.42% |
-| en-03-kiln-firing | 935 | 937 | -0.21% |
-| en-04-drystone-wall | 997 | 1000 | -0.30% |
-| en-05-sourdough-night-bake | 931 | 926 | +0.54% |
-| en-06-workshop-roof-framing | 1024 | 1018 | +0.59% |
-| en-07-bouldering-route-setting | 926 | 921 | +0.54% |
-| en-08-marquee-stage-sound | 968 | 968 | +0.00% |
+| en-01-apiary-move | 972 | 978 | -0.61% |
+| en-02-dinghy-restoration | 1005 | 1011 | -0.59% |
+| en-03-kiln-firing | 960 | 966 | -0.62% |
+| en-04-drystone-wall | 959 | 965 | -0.62% |
+| en-05-sourdough-night-bake | 946 | 951 | -0.53% |
+| en-06-workshop-roof-framing | 968 | 972 | -0.41% |
+| en-07-bouldering-route-setting | 920 | 923 | -0.33% |
+| en-08-marquee-stage-sound | 905 | 908 | -0.33% |
 
-Znak różnicy: **3 razy dodatni, 4 razy ujemny**, 1 razy zero; średnia ze znakiem **+0.08%**.
+Znak różnicy: **0 razy dodatni, 8 razy ujemny**; średnia ze znakiem **-0.51%**. ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku.
 
 ## Język: pl
 
 | Wariant | Tokeny | Słowa | Tokeny/słowo | Znaki/token | Zdania pytające | Tur |
 |---|---|---|---|---|---|---|
-| A | 795.00 ± 68.77 | 372.38 ± 14.85 | 2.14 ± 0.18 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| B | 951.25 ± 41.12 | 445.38 ± 15.98 | 2.14 ± 0.04 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| C | 950.88 ± 40.77 | 444.50 ± 15.52 | 2.14 ± 0.04 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| CprimG | 948.62 ± 41.87 | 444.38 ± 14.66 | 2.13 ± 0.05 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
-| CprimU | 950.25 ± 41.10 | 444.50 ± 15.52 | 2.14 ± 0.04 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| A | 876.12 ± 56.29 | 409.88 ± 31.38 | 2.14 ± 0.10 | 3.21 ± 0.22 | 3.88 ± 0.35 | 6.88 ± 0.35 |
+| B | 961.38 ± 30.92 | 483.50 ± 21.27 | 1.99 ± 0.06 | 3.43 ± 0.07 | 3.88 ± 0.35 | 6.88 ± 0.35 |
+| C | 957.50 ± 30.74 | 482.62 ± 21.04 | 1.99 ± 0.06 | 3.44 ± 0.06 | 3.88 ± 0.35 | 6.88 ± 0.35 |
+| CprimG | 962.12 ± 32.53 | 482.50 ± 21.05 | 2.00 ± 0.06 | 3.42 ± 0.07 | 3.88 ± 0.35 | 6.88 ± 0.35 |
+| CprimU | 961.50 ± 28.75 | 482.62 ± 21.04 | 1.99 ± 0.05 | 3.42 ± 0.07 | 3.88 ± 0.35 | 6.88 ± 0.35 |
 
 ### Profil interpunkcji (średnia liczba znaków na tekst)
 
 | Wariant | `,` | `.` | `?` | `!` | `;` | `:` |
 |---|---|---|---|---|---|---|
-| A | 20.9 | 24.8 | 3.2 | 0.0 | 0.0 | 1.1 |
-| B | 31.1 | 29.8 | 3.2 | 0.0 | 0.0 | 0.8 |
-| C | 31.1 | 29.8 | 3.2 | 0.0 | 0.0 | 0.8 |
-| CprimG | 31.1 | 29.8 | 3.2 | 0.0 | 0.0 | 0.8 |
-| CprimU | 31.1 | 29.8 | 3.2 | 0.0 | 0.0 | 0.8 |
+| A | 23.2 | 27.0 | 3.9 | 0.0 | 0.0 | 1.4 |
+| B | 33.6 | 32.0 | 3.9 | 0.0 | 0.0 | 0.8 |
+| C | 33.6 | 32.0 | 3.9 | 0.0 | 0.0 | 0.8 |
+| CprimG | 33.6 | 32.0 | 3.9 | 0.0 | 0.0 | 0.8 |
+| CprimU | 33.6 | 32.0 | 3.9 | 0.0 | 0.0 | 0.8 |
 
 ### Kontrasty prerejestrowane (wymóg §3: ±2% tokenów)
 
@@ -96,46 +96,46 @@ Znak różnicy: **3 razy dodatni, 4 razy ujemny**, 1 razy zero; średnia ze znak
 
 | Scenariusz | C | CprimG | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 947 | 942 | +0.53% |
-| pl-02-oswietlenie-warsztatu | 907 | 901 | +0.66% |
-| pl-03-trasa-rowerowa | 937 | 936 | +0.11% |
-| pl-04-archiwum-odbitek | 929 | 923 | +0.65% |
-| pl-05-flota-dostawcza | 962 | 965 | -0.31% |
-| pl-06-chleb-na-zakwasie | 906 | 906 | +0.00% |
-| pl-07-sala-prob-akustyka | 1012 | 1006 | +0.59% |
-| pl-08-ocieplenie-poddasza | 1007 | 1010 | -0.30% |
+| pl-01-deszczowka | 894 | 895 | -0.11% |
+| pl-02-oswietlenie-warsztatu | 958 | 966 | -0.83% |
+| pl-03-trasa-rowerowa | 967 | 973 | -0.62% |
+| pl-04-archiwum-odbitek | 1003 | 1012 | -0.89% |
+| pl-05-flota-dostawcza | 976 | 976 | +0.00% |
+| pl-06-chleb-na-zakwasie | 955 | 962 | -0.73% |
+| pl-07-sala-prob-akustyka | 949 | 953 | -0.42% |
+| pl-08-ocieplenie-poddasza | 958 | 960 | -0.21% |
 
-Znak różnicy: **5 razy dodatni, 2 razy ujemny**, 1 razy zero; średnia ze znakiem **+0.24%**.
+Znak różnicy: **0 razy dodatni, 7 razy ujemny**, 1 razy zero; średnia ze znakiem **-0.48%**. ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku.
 
 **CprimG − CprimU** — diagnostyczny — sam efekt osadzenia referencyjnego
 
 | Scenariusz | CprimG | CprimU | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 942 | 947 | -0.53% |
-| pl-02-oswietlenie-warsztatu | 901 | 906 | -0.55% |
-| pl-03-trasa-rowerowa | 936 | 940 | -0.43% |
-| pl-04-archiwum-odbitek | 923 | 923 | +0.00% |
-| pl-05-flota-dostawcza | 965 | 962 | +0.31% |
-| pl-06-chleb-na-zakwasie | 906 | 906 | +0.00% |
-| pl-07-sala-prob-akustyka | 1006 | 1011 | -0.49% |
-| pl-08-ocieplenie-poddasza | 1010 | 1007 | +0.30% |
+| pl-01-deszczowka | 895 | 905 | -1.10% |
+| pl-02-oswietlenie-warsztatu | 966 | 969 | -0.31% |
+| pl-03-trasa-rowerowa | 973 | 973 | +0.00% |
+| pl-04-archiwum-odbitek | 1012 | 1006 | +0.59% |
+| pl-05-flota-dostawcza | 976 | 977 | -0.10% |
+| pl-06-chleb-na-zakwasie | 962 | 955 | +0.73% |
+| pl-07-sala-prob-akustyka | 953 | 951 | +0.21% |
+| pl-08-ocieplenie-poddasza | 960 | 956 | +0.42% |
 
-Znak różnicy: **2 razy dodatni, 4 razy ujemny**, 2 razy zero; średnia ze znakiem **-0.17%**.
+Znak różnicy: **4 razy dodatni, 3 razy ujemny**, 1 razy zero; średnia ze znakiem **+0.05%**.
 
 **C − B** — wtórny — insercja meta wobec neutralnej
 
 | Scenariusz | C | B | różnica ze znakiem |
 |---|---|---|---|
-| pl-01-deszczowka | 947 | 949 | -0.21% |
-| pl-02-oswietlenie-warsztatu | 907 | 906 | +0.11% |
-| pl-03-trasa-rowerowa | 937 | 940 | -0.32% |
-| pl-04-archiwum-odbitek | 929 | 925 | +0.43% |
-| pl-05-flota-dostawcza | 962 | 964 | -0.21% |
-| pl-06-chleb-na-zakwasie | 906 | 907 | -0.11% |
-| pl-07-sala-prob-akustyka | 1012 | 1015 | -0.30% |
-| pl-08-ocieplenie-poddasza | 1007 | 1004 | +0.30% |
+| pl-01-deszczowka | 894 | 895 | -0.11% |
+| pl-02-oswietlenie-warsztatu | 958 | 961 | -0.31% |
+| pl-03-trasa-rowerowa | 967 | 970 | -0.31% |
+| pl-04-archiwum-odbitek | 1003 | 1004 | -0.10% |
+| pl-05-flota-dostawcza | 976 | 979 | -0.31% |
+| pl-06-chleb-na-zakwasie | 955 | 956 | -0.10% |
+| pl-07-sala-prob-akustyka | 949 | 958 | -0.94% |
+| pl-08-ocieplenie-poddasza | 958 | 968 | -1.03% |
 
-Znak różnicy: **3 razy dodatni, 5 razy ujemny**; średnia ze znakiem **-0.04%**.
+Znak różnicy: **0 razy dodatni, 8 razy ujemny**; średnia ze znakiem **-0.40%**. ⚠ **PRZECHYŁ JEDNOKIERUNKOWY** — przy kontraście parowanym taka różnica nie uśrednia się do zera i wchodzi wprost do wyniku.
 
 ## Uwagi metodologiczne
 
