@@ -26,5 +26,11 @@ ops/          zlecenia dla DEP i raporty z maszyny pomiarowej
 kanałów w konfirmacji; analizy konfirmacyjne poza hierarchią H1→H2→{H3,H4,B−A,profil};
 język „sygnatura samozwrotności" przed przejściem kontrastu C−C′.
 
-**Status:** T1 w toku (szkielet ✓, lockfile+kontener czekają na rekonesans GPU — wersja
-CUDA/torch zależy od karty i sterownika maszyny pomiarowej).
+**Status:**
+- T1: szkielet ✓; lockfile+kontener czekają na rekonesans GPU (wersja CUDA/torch
+  zależy od karty i sterownika maszyny pomiarowej)
+- T4: rdzeń pipeline'u ✓ (21 testów, TDD); **GATE 0 PASS 4/4** (2026-07-30,
+  `gates/gate0_report.md`) — MP KS=0.0014, kalibracja λ* w rozkładzie predykcyjnym,
+  replikacja bitowa, D_lag wrażliwy na porządek; runner parquet per (tekst × warstwa)
+  powstanie przy T2 (wymaga realnych aktywacji)
+- Zlecenie DEP-01 (rekonesans maszyny pomiarowej): wydane, w toku

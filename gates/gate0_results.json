@@ -1,0 +1,79 @@
+{
+  "config": {
+    "seed_root": 20260728,
+    "T_raw": 1024,
+    "skip_first": 32,
+    "D": 2560,
+    "n_null": 1000,
+    "n_test": 1000,
+    "n_mp_pool": 20,
+    "n_replication": 8,
+    "quantile": 0.99,
+    "edge_tol": 0.05,
+    "ks_threshold": 0.05,
+    "predictive_level": 0.995,
+    "predictive_sims": 200000,
+    "predictive_seed": 20260729,
+    "d_lag": {
+      "T": 300,
+      "D": 64,
+      "phi": 0.9,
+      "n_perm": 200,
+      "n_texts": 5
+    }
+  },
+  "criteria": {
+    "A_marchenko_pastur": {
+      "gamma": 2.5806451612903225,
+      "edge_lo": 0.367767845680327,
+      "edge_hi": 6.793522476900319,
+      "observed_min": 0.3630866497244721,
+      "observed_max": 6.836073529947776,
+      "ks_distance": 0.001427352972827589,
+      "ks_threshold": 0.05,
+      "n_pooled_eigenvalues": 19820,
+      "pass": true
+    },
+    "B_lambda_star_calibration": {
+      "lambda_star": 6.840017068036032,
+      "quantile": 0.99,
+      "n_null": 1000,
+      "n_test": 1000,
+      "realizations_with_false_mode": 21,
+      "exceed_rate": 0.021,
+      "predictive_threshold": 26,
+      "predictive_level": 0.995,
+      "predictive_expected": 10.9728,
+      "mean_false_modes_per_realization": 0.021,
+      "excluded_channels_null": 0,
+      "excluded_channels_test": 0,
+      "pass": true
+    },
+    "C_replication": {
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0,
+      "n_realizations": 8,
+      "pass": true
+    },
+    "D_dlag_order_sensitivity": {
+      "z_iid": [
+        0.06833038244040304,
+        1.4674322799196982,
+        0.2177604456346546,
+        0.3316028928731788,
+        -1.4597854247145954
+      ],
+      "z_ar1": [
+        32.665372837991754,
+        52.80412871213569,
+        44.425331400999276,
+        40.51808430015673,
+        45.02077959177546
+      ],
+      "phi": 0.9,
+      "pass": true
+    }
+  },
+  "gate0_pass": true,
+  "runtime_seconds": 816.1
+}
