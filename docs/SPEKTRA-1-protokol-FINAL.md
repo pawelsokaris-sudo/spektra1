@@ -68,6 +68,14 @@ Wszystkie warianty z insercjami: ta sama liczba tokenów ±2%, ta sama składnia
 
 Dla tekstu i warstwy ℓ: aktywacje H ∈ ℝ^{T′×D} (pierwsze 32 tokeny + tokeny maskowane odrzucone; T′ ≈ 900–990). Z-score per kanał → Z. Niezerowe widmo macierzy korelacji C = ZᵀZ/T′ liczone przez **macierz Grama** G = ZZᵀ/T′ ∈ ℝ^{T′×T′} (`eigh`, LAPACK): niezerowe wartości własne C i G są identyczne. Zero losowania kanałów w analizie konfirmacyjnej; "widma losowych rzutów" dozwolone wyłącznie jako eksploracja z etykietą.
 
+**Wspólne okno pomiarowe (decyzja 2026-07-30, przed pieczęcią i przed jakimkolwiek pomiarem aktywacji).** Dla każdego scenariusza wszystkie pięć wariantów analizowane jest na **wspólnej liczbie tokenów T′ = minimum po wariantach tego scenariusza**; nadmiar odcinany z końca. Liczba odrzuconych tokenów per scenariusz i wariant jest raportowana i wchodzi do pakietu pieczęci.
+
+*Powód.* Pomiar dokładnym tokenizerem Gemmy (DEP-04) wykazał, że wariant C′-G jest co najmniej tak długi jak C we **wszystkich 16 scenariuszach obu replik** — różnica nie jest ujemna nigdzie, najlepsze osiągnięte to dokładne zero (średnia ze znakiem: EN −0,32%, PL −0,48%; kontrast wtórny C−B przechylony 8/8, mocniej niż główny). Źródło jest strukturalne, nie redakcyjne: odniesienie samozwrotne używa częstych słów deiktycznych („ta rozmowa", „to przetwarzanie"), a odniesienie osadzone wymaga rzadszego rzeczownika dziedzinowego, który tokenizer rozbija na więcej cząstek. Dwie rundy poprawek autorskich zmniejszyły rozbieżność ponad dwukrotnie, ale nie odwróciły znaku w żadnym scenariuszu — dalsze wyrównywanie oznaczałoby pisanie nienaturalnych fraz w celu zrównania kosztu tokenowego, czyli optymalizowanie metryki zamiast konstruktu.
+
+*Dlaczego to ma znaczenie.* Widmo macierzy korelacji zależy od proporcji T′/D. Próg λ* liczony jest per (warstwa, język), **nie** per długość tekstu, więc systematyczna różnica długości nie zostaje przez niego pochłonięta; przy różnicy jednokierunkowej w 16 scenariuszach nie uśrednia się do zera, tylko wchodzi wprost do kontrastu. Wyrównanie okna czyni T′/D identycznym **z konstrukcji**, więc usuwa całą zależność od długości — także tę w I_total, k, H_s i D_lag, której λ* nie obejmuje — i robi to jednocześnie we wszystkich czterech kontrastach.
+
+*Granice tej decyzji.* Odcinane są tokeny z końca, czyli fragment wspólnej bazy dialogu (insercje leżą w turach 0–5 i pozostają nietknięte). Reguła jest deterministyczna i identyczna dla wszystkich wariantów. Wariant bez wyrównania pozostaje **prerejestrowaną analizą wrażliwości** obok wariantu bez odejmowania komponentu pozycyjnego. Tolerancja autorska ±2% zostaje w mocy jako druga linia kontroli — wyrównanie okna nie zwalnia korpusu z dopasowania.
+
 **Komponent pozycyjny:** estymowany jako średnia aktywacji per pozycja po całym korpusie danego języka i odejmowany przed z-score (wariant bez odejmowania = analiza wrażliwości, prerejestrowana).
 
 ## 5. Metryki (wzory zamrożone)

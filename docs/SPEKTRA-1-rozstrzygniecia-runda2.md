@@ -55,6 +55,19 @@ hierarchia hipotez protokołu v1.2. Brief konsultacyjny: `SPEKTRA-1-konsultacja-
 
 ---
 
+## Kwestia 5 — systematyczna różnica długości wariantów (wykryta po wdrożeniu kwestii 1–4)
+
+| | |
+|---|---|
+| **Skąd się wzięła** | Nie z recenzji, lecz z pomiaru: po podłączeniu **dokładnego tokenizera Gemmy** (do tej pory korpus liczono szacunkiem znaki/token) okazało się, że heurystyka systematycznie zaniżała rozbieżności — najsilniej w polszczyźnie. |
+| **Ustalenie** | Wariant C′-G jest co najmniej tak długi jak C we **wszystkich 16 scenariuszach obu replik**. Różnica nie jest ujemna nigdzie; najlepsze osiągnięte to dokładne zero. Średnia ze znakiem: EN −0,32%, PL −0,48%. Kontrast wtórny C−B przechylony w komplecie 8/8 w obu językach, mocniej niż główny. |
+| **Diagnoza** | Strukturalna, nie redakcyjna: samoodniesienie używa częstych słów deiktycznych, odniesienie osadzone wymaga rzadszego rzeczownika dziedzinowego rozbijanego na więcej cząstek. Dowód z danych: były pary, w których wariant **krótszy o 2 znaki** miał **10 tokenów więcej**, przy identycznej liczbie słów. |
+| **Czego próbowano** | Dwie rundy poprawek autorskich. Skutek: rozbieżność zmalała ponad dwukrotnie (PL −1,17% → −0,48%), złamanie progu 2% zniknęło, jeden scenariusz trafił w zero. **Znak nie odwrócił się w żadnym scenariuszu.** Trzecia runda oznaczałaby pisanie nienaturalnych fraz w celu zrównania kosztu tokenowego. |
+| **Rozstrzygnięcie** | **Wspólne okno pomiarowe** (§4): analiza na T′ = minimum po wariantach scenariusza. Decyzja kierownika badania 2026-07-30. Usuwa całą zależność od długości — także w I_total, k, H_s i D_lag, których λ* nie obejmuje — i naraz we wszystkich czterech kontrastach. Liczba odrzuconych tokenów raportowana. Wariant bez wyrównania pozostaje prerejestrowaną analizą wrażliwości; tolerancja autorska ±2% zostaje w mocy. |
+| **Warunek uczciwości** | Decyzja podjęta **przed pieczęcią i przed jakimkolwiek pomiarem aktywacji**. Podstawą były wyłącznie długości tokenowe materiału tekstowego. Mechanizm zaimplementowano z jawnym brakiem wartości domyślnej (`TBD-DECISION`, pipeline odmawiał startu), żeby wybór nie zapadł milcząco po stronie kodu. |
+
+**Uwaga procesowa wynikająca z tej kwestii.** Dwukrotnie w tej rundzie „brak ostrzeżenia" omal nie został wzięty za sukces: raz gdy heurystyczny licznik nie widział rozbieżności, którą widział dokładny; raz gdy maszyna pomiarowa miała starszą wersję generatora raportu i fizycznie nie potrafiła wypisać ostrzeżenia, którego brak był kryterium zaliczenia. Reguła przyjęta na przyszłość: **jeśli kryterium ma postać „brak sygnału X", najpierw udowodnij, że uruchamiana wersja w ogóle potrafi X wypisać.** Dotyczy wszystkich bramek tego protokołu.
+
 ## Bilans
 
 Cztery kwestie, cztery przyjęte, zero odrzuconych. Dwie (kwestia 3 i 4) uznane wprost
