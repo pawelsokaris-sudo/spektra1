@@ -66,6 +66,17 @@ measurement:
   low_variance_channel_eps: 1.0e-6
   positional_component: subtract_mean_per_position  # wariant bez = GATE 3b
   layer_band: [0.4, 0.8]    # ułamek L; indeksacja wg raportu layer_semantics.md (T2)
+  # Zweryfikowane hookami 2026-07-30 (docs/layer_semantics.md):
+  layer_indexing:
+    embedding_index: 0             # hidden_states[0] - wykluczony z pasm
+    block_offset: 1                # hidden_states[l+1] = wyjscie bloku l
+    raw_blocks: [0, 32]            # surowe (przed final norm), potwierdzone co do zera
+    post_norm_index: 34            # hidden_states[34] JEST po final norm
+    excluded_from_measurement: [34]
+    band_block_indices: [13, 26]   # wlacznie; = hidden_states[14..27]
+    global_attention_blocks: [5, 11, 17, 23, 29]   # reszta lokalna (wzorzec 5:1)
+    band_composition: {globalna: 2, lokalna: 12}
+  chat_template_verified: true     # render generatora == tokenizer.apply_chat_template
 
 analysis:
   alpha: 0.01
