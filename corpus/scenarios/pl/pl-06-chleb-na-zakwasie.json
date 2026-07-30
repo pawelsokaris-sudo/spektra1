@@ -72,7 +72,7 @@
     {
       "role": "user",
       "a": [
-        "Rozpisz teraz oś czasu wypieku, zaczynając od dokarmienia zakwasu o godzinie ósmej rano.",
+        "Rozpisz teraz oś czasu wypieku, zaczynając od dokarmienia zakwasu o godzinie ósmej rano w kuchni.",
         "Autoliza trwa czterdzieści minut, wyrastanie ciasta cztery godziny, a formowanie bochenków kwadrans.",
         "Po formowaniu idą dwie godziny rozrostu w koszykach oraz pięćdziesiąt minut właściwego pieczenia.",
         "Czy wypiszesz kolejne godziny wraz z nazwą etapu, licząc zakwas jako gotowy po pięciu godzinach?"
@@ -81,16 +81,16 @@
         "Zapisywanie krotności brzmi wykonalnie, tylko nie wiem, jak długo trzeba to robić, żeby coś z tego wynikło.",
         "Mam wrażenie, że po dwóch albo trzech wypiekach każdy wniosek będzie jeszcze zupełnie przypadkowy.",
         "Z drugiej strony nie chcę prowadzić zeszytu przez pół roku, zanim cokolwiek u siebie poprawię.",
-        "Ile obserwacji wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu wyników?"
+        "Ile obserwacji wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu wyników między wypiekami?"
       ]
     },
     {
       "role": "assistant",
       "a": [
         "Ósma zero zero dokarmienie zakwasu, trzynasta zero zero zakwas gotowy do użycia w cieście.",
-        "Trzynasta zero zero start autolizy, trzynasta czterdzieści start wyrastania ciasta w misce.",
-        "Siedemnasta czterdzieści formowanie bochenków, siedemnasta pięćdziesiąt pięć start rozrostu w koszykach.",
-        "Dziewiętnasta pięćdziesiąt pięć start pieczenia, dwudziesta czterdzieści pięć koniec całego wypieku."
+        "Trzynasta zero zero start autolizy, a trzynasta czterdzieści start wyrastania ciasta w przykrytej misce.",
+        "Siedemnasta czterdzieści formowanie bochenków, a siedemnasta pięćdziesiąt pięć start rozrostu w wyłożonych koszykach.",
+        "Dziewiętnasta pięćdziesiąt pięć start pieczenia, a dwudziesta czterdzieści pięć koniec całego wypieku w piekarniku."
       ],
       "base": [
         "Przy tak silnym wpływie temperatury osiem do dziesięciu obserwacji zwykle wystarcza do zobaczenia trendu.",
@@ -117,10 +117,10 @@
     {
       "role": "assistant",
       "a": [
-        "Sypkie: mąka pszenna tysiąc pięćset gramów, mąka żytnia pięćset gramów, sól czterdzieści gramów.",
-        "Suma grupy sypkiej wynosi dwa tysiące czterdzieści gramów według podanych wcześniej wartości.",
-        "Mokre: woda tysiąc pięćdziesiąt gramów, a suma grupy mokrej wynosi tysiąc pięćdziesiąt gramów.",
-        "Dodatki: zakwas czterysta gramów, suma grupy dodatków czterysta gramów, więc sypkie są cięższe."
+        "Grupa sypkich obejmuje mąkę pszenną tysiąc pięćset gramów, mąkę żytnią pięćset gramów i sól czterdzieści gramów.",
+        "Suma grupy sypkiej wynosi dwa tysiące czterdzieści gramów według podanych wcześniej wartości gramatur.",
+        "Grupa mokrych obejmuje wodę tysiąc pięćdziesiąt gramów, więc jej suma wynosi tysiąc pięćdziesiąt gramów.",
+        "Grupa dodatków obejmuje zakwas czterysta gramów, a grupa sypkich okazuje się cięższa od mokrych."
       ],
       "base": [
         "Zakres od szesnastu do dwudziestu ośmiu stopni jest bezpieczny i nadal daje w pełni jadalny bochenek.",

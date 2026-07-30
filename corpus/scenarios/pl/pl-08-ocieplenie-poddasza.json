@@ -27,10 +27,10 @@
     {
       "role": "assistant",
       "a": [
-        "Pierwsza warstwa daje dwadzieścia cztery metry sześcienne przy dwudziestu centymetrach grubości wełny.",
-        "Druga warstwa daje sześć metrów sześciennych przy pięciu centymetrach grubości na tej samej powierzchni.",
-        "Łączna objętość obu warstw wynosi trzydzieści metrów sześciennych dla całej połaci dachowej.",
-        "Stosunek objętości pierwszej warstwy do drugiej wynosi dokładnie cztery do jednego."
+        "Pierwsza warstwa daje dwadzieścia cztery metry sześcienne przy dwudziestu centymetrach grubości wełny mineralnej.",
+        "Druga warstwa daje sześć metrów sześciennych przy pięciu centymetrach grubości na tej samej powierzchni połaci.",
+        "Łączna objętość obu warstw wynosi trzydzieści metrów sześciennych dla całej opisanej wcześniej połaci dachowej.",
+        "Stosunek objętości pierwszej warstwy do drugiej wynosi dokładnie cztery do jednego w tym układzie."
       ],
       "base": [
         "Drewno krokwi przewodzi ciepło kilka razy lepiej niż wełna, więc w tym miejscu przegroda jest słabsza.",
@@ -43,7 +43,7 @@
       "role": "user",
       "a": [
         "Paczka wełny dwudziestocentymetrowej pokrywa pięć metrów kwadratowych połaci przy pełnym wypełnieniu przestrzeni.",
-        "Paczka wełny pięciocentymetrowej pokrywa natomiast dwadzieścia metrów kwadratowych tej samej połaci.",
+        "Paczka wełny pięciocentymetrowej pokrywa natomiast dwadzieścia metrów kwadratowych tej samej połaci dachowej.",
         "Do obu warstw doliczam dziesięć procent zapasu na docinki i zaokrąglam w górę do pełnych paczek.",
         "Czy podasz liczbę paczek osobno dla każdej warstwy oraz sumę paczek dla całości?"
       ],
@@ -75,7 +75,7 @@
         "Policz teraz opór cieplny przegrody, przyjmując współczynnik przewodzenia zero przecinek zero trzydzieści pięć.",
         "Łączna grubość wełny to dwadzieścia pięć centymetrów w obu warstwach liczonych razem.",
         "Do wyniku dolicz opór warstw pozostałych równy zero przecinek dwadzieścia jednostek w tej skali.",
-        "Czy opór całkowity przegrody przekroczy siedem jednostek po doliczeniu pozostałych warstw?"
+        "Czy opór całkowity przegrody przekroczy siedem jednostek po doliczeniu wszystkich pozostałych warstw?"
       ],
       "base": [
         "Zanim zacznę cokolwiek zdejmować, chciałbym mieć pewność, gdzie dokładnie leży najgorsze miejsce.",
@@ -88,9 +88,9 @@
       "role": "assistant",
       "a": [
         "Iloraz dwudziestu pięciu setnych metra przez zero przecinek zero trzydzieści pięć daje siedem przecinek czternaście.",
-        "Po doliczeniu dwóch dziesiątych opór całkowity wynosi siedem przecinek trzydzieści cztery jednostki.",
-        "Wartość przekracza próg siedmiu jednostek o trzydzieści cztery setne w przyjętej wcześniej skali.",
-        "Współczynnik przenikania jest odwrotnością oporu i wynosi w zaokrągleniu zero przecinek czternaście."
+        "Po doliczeniu dwóch dziesiątych jednostki opór całkowity wynosi siedem przecinek trzydzieści cztery jednostki.",
+        "Wartość przekracza próg siedmiu jednostek o trzydzieści cztery setne w przyjętej tutaj skali oporu.",
+        "Współczynnik przenikania jest odwrotnością oporu całkowitego i wynosi w zaokrągleniu zero przecinek czternaście."
       ],
       "base": [
         "Najprościej porównać dwa pomieszczenia leżące po tej samej stronie, ale o różnym poziomie wilgotności.",
@@ -102,9 +102,9 @@
     {
       "role": "user",
       "a": [
-        "Rozpisz kolejność prac na poddaszu w postaci ponumerowanych kroków idących od strony pokrycia.",
-        "Kolejność to membrana wstępnego krycia, wełna między krokwiami, ruszt metalowy, wełna pod krokwiami.",
-        "Dalej idzie paroizolacja, ruszt na instalacje oraz płyta gipsowo-kartonowa zamykająca całą przegrodę.",
+        "Rozpisz kolejność prac na poddaszu w postaci ponumerowanych kroków idących od strony pokrycia dachowego.",
+        "Kolejność to membrana wstępnego krycia, wełna między krokwiami, ruszt metalowy oraz wełna pod krokwiami.",
+        "Dalej idzie paroizolacja, ruszt na instalacje oraz płyta gipsowo-kartonowa zamykająca całą przegrodę od środka.",
         "Czy wypiszesz te siedem kroków w kolejności montażu z krótkim opisem każdego z nich?"
       ],
       "base": [
@@ -117,10 +117,10 @@
     {
       "role": "assistant",
       "a": [
-        "Krok pierwszy: membrana wstępnego krycia ułożona na krokwiach od strony pokrycia dachowego.",
-        "Krok drugi i trzeci: wełna dwudziestocentymetrowa między krokwiami, a następnie ruszt metalowy pod nimi.",
-        "Krok czwarty i piąty: wełna pięciocentymetrowa w ruszcie, następnie paroizolacja od strony pomieszczenia.",
-        "Krok szósty i siódmy: ruszt instalacyjny na paroizolacji, a na końcu płyta gipsowo-kartonowa."
+        "Krok pierwszy to membrana wstępnego krycia ułożona na krokwiach od strony pokrycia dachowego.",
+        "Krok drugi i trzeci to wełna dwudziestocentymetrowa między krokwiami, a następnie ruszt metalowy pod nimi.",
+        "Krok czwarty i piąty to wełna pięciocentymetrowa w ruszcie, a następnie paroizolacja od strony pomieszczenia.",
+        "Krok szósty i siódmy to ruszt instalacyjny na paroizolacji, a na końcu płyta gipsowo-kartonowa."
       ],
       "base": [
         "Liczy się czas trwania, bo skraplanie potrzebuje kilkudziesięciu minut kontaktu wilgotnego powietrza z zimną powierzchnią.",
@@ -147,10 +147,10 @@
     {
       "role": "assistant",
       "a": [
-        "Wełna grubsza kosztuje trzy tysiące dwieście czterdzieści złotych przy dwudziestu siedmiu paczkach.",
+        "Wełna grubsza kosztuje trzy tysiące dwieście czterdzieści złotych przy dwudziestu siedmiu pełnych paczkach.",
         "Wełna cieńsza kosztuje czterysta dziewięćdziesiąt złotych przy siedmiu paczkach w tej samej cenie.",
-        "Paroizolacja dokłada czterysta złotych, więc suma wynosi cztery tysiące sto trzydzieści złotych.",
-        "Kwota przekracza próg czterech tysięcy złotych dokładnie o sto trzydzieści złotych."
+        "Paroizolacja dokłada czterysta złotych, więc suma materiału wynosi cztery tysiące sto trzydzieści złotych.",
+        "Kwota przekracza przyjęty próg czterech tysięcy złotych dokładnie o sto trzydzieści złotych netto."
       ],
       "base": [
         "Może wystarczyć, jeśli przyczyną jest wyłącznie para wodna, a przegroda nie zawilgotniała jeszcze na stałe.",

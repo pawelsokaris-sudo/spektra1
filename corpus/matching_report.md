@@ -1,7 +1,7 @@
 # Raport dopasowania korpusów SPEKTRA-1 (T3, protokół §3)
 
 **Licznik tokenów: HEURYSTYCZNY — raport WSTĘPNY**; ostateczny raport wymaga tokenizera z T2.
-Scenariuszy: 14 (en: 8, pl: 6)
+Scenariuszy: 16 (en: 8, pl: 8)
 
 ## Język: en
 
@@ -38,29 +38,31 @@ Scenariuszy: 14 (en: 8, pl: 6)
 
 | Wariant | Tokeny | Słowa | Tokeny/słowo | Znaki/token | Zdania pytające | Tur |
 |---|---|---|---|---|---|---|
-| A | 808.33 ± 57.36 | 371.67 ± 10.78 | 2.18 ± 0.19 | 3.21 ± 0.00 | 3.50 ± 0.55 | 6.50 ± 0.55 |
-| B | 831.83 ± 48.44 | 389.00 ± 16.42 | 2.14 ± 0.06 | 3.21 ± 0.00 | 3.50 ± 0.55 | 6.50 ± 0.55 |
-| C | 969.00 ± 54.32 | 453.33 ± 16.71 | 2.14 ± 0.06 | 3.21 ± 0.00 | 3.50 ± 0.55 | 6.50 ± 0.55 |
-| Cprim | 968.50 ± 54.69 | 453.33 ± 16.71 | 2.14 ± 0.06 | 3.21 ± 0.00 | 3.50 ± 0.55 | 6.50 ± 0.55 |
+| A | 795.00 ± 68.77 | 372.38 ± 14.85 | 2.14 ± 0.18 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| B | 814.75 ± 39.58 | 381.12 ± 14.55 | 2.14 ± 0.06 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| C | 948.62 ± 44.00 | 444.25 ± 15.80 | 2.14 ± 0.06 | 3.20 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
+| Cprim | 948.38 ± 44.09 | 444.25 ± 15.80 | 2.13 ± 0.06 | 3.21 ± 0.00 | 3.25 ± 0.46 | 6.25 ± 0.46 |
 
 ### Profil interpunkcji (średnia liczba znaków na tekst)
 
 | Wariant | `,` | `.` | `?` | `!` | `;` | `:` |
 |---|---|---|---|---|---|---|
-| A | 21.2 | 24.5 | 3.5 | 0.0 | 0.0 | 1.3 |
-| B | 26.5 | 24.5 | 3.5 | 0.0 | 0.0 | 0.3 |
-| C | 32.2 | 29.5 | 3.5 | 0.0 | 0.0 | 0.8 |
-| Cprim | 32.2 | 29.5 | 3.5 | 0.0 | 0.0 | 0.8 |
+| A | 20.9 | 24.8 | 3.2 | 0.0 | 0.0 | 1.1 |
+| B | 24.5 | 24.8 | 3.2 | 0.0 | 0.0 | 0.2 |
+| C | 30.5 | 29.8 | 3.2 | 0.0 | 0.0 | 0.6 |
+| Cprim | 30.5 | 29.8 | 3.2 | 0.0 | 0.0 | 0.6 |
 
 ### Kontrast C vs C′ (wymóg §3: ±2% tokenów)
 
 | Scenariusz | C | C′ | różnica |
 |---|---|---|---|
-| pl-01-deszczowka | 917 | 917 | 0.00% |
-| pl-02-oswietlenie-warsztatu | 896 | 895 | 0.11% |
-| pl-05-flota-dostawcza | 956 | 954 | 0.21% |
-| pl-06-chleb-na-zakwasie | 1024 | 1024 | 0.00% |
-| pl-07-sala-prob-akustyka | 1017 | 1017 | 0.00% |
+| pl-01-deszczowka | 916 | 916 | 0.00% |
+| pl-02-oswietlenie-warsztatu | 908 | 907 | 0.11% |
+| pl-03-trasa-rowerowa | 944 | 944 | 0.00% |
+| pl-04-archiwum-odbitek | 920 | 920 | 0.00% |
+| pl-05-flota-dostawcza | 963 | 962 | 0.10% |
+| pl-06-chleb-na-zakwasie | 912 | 912 | 0.00% |
+| pl-07-sala-prob-akustyka | 1022 | 1022 | 0.00% |
 | pl-08-ocieplenie-poddasza | 1004 | 1004 | 0.00% |
 
 ## Uwagi metodologiczne

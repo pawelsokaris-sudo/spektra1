@@ -33,4 +33,10 @@ język „sygnatura samozwrotności" przed przejściem kontrastu C−C′.
   `gates/gate0_report.md`) — MP KS=0.0014, kalibracja λ* w rozkładzie predykcyjnym,
   replikacja bitowa, D_lag wrażliwy na porządek; runner parquet per (tekst × warstwa)
   powstanie przy T2 (wymaga realnych aktywacji)
-- Zlecenie DEP-01 (rekonesans maszyny pomiarowej): wydane, w toku
+- T3: **korpus pilota kompletny** — 16 scenariuszy (8 PL + 8 EN) × 4 warianty,
+  wszystkie przechodzą `python -m corpus.validate`; raport dopasowania:
+  `corpus/matching_report.md`. Dwa znaleziska metodologiczne czekają na decyzję
+  kierownika badania przed pieczęcią (zdania pytające w wariancie A, osadzenie
+  insercji zewnętrznych) — patrz sekcja „Uwagi metodologiczne" w raporcie
+- Zlecenie DEP-01 (rekonesans): wykonane, `ops/rekonesans-maszyna-pomiarowa.md`
+- Zlecenie DEP-02 (środowisko): zatwierdzone 2026-07-30, gotowe do wykonania

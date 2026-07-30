@@ -15,7 +15,7 @@
         "Mam trzy połacie dachu o powierzchniach 48, 32 i 26 metrów kwadratowych.",
         "Przelicz każdą z nich na litry przy opadzie 20 milimetrów i współczynniku spływu 0,9.",
         "Zaokrąglij wyniki do pełnych litrów i wypisz połacie od największej do najmniejszej.",
-        "Podaj sumę wszystkich trzech wartości w osobnym wierszu na końcu zestawienia.",
+        "Podaj sumę wszystkich trzech wartości w osobnym wierszu na samym końcu zestawienia.",
         "Ile wody zbierze się łącznie z całego dachu przy takim jednorazowym opadzie?"
       ],
       "base": [
@@ -46,11 +46,11 @@
     {
       "role": "user",
       "a": [
-        "Mam cztery odbiorniki wody: grządki, szklarnię, rabatę i trawnik, do posortowania.",
+        "Mam cztery odbiorniki wody: grządki, szklarnię, rabatę oraz trawnik, wszystkie do posortowania.",
         "Zużywają tygodniowo odpowiednio 320, 210, 140 i 500 litrów w pełni sezonu.",
         "Uszereguj je od najbardziej do najmniej wodochłonnego i policz udział procentowy każdego.",
-        "Zaokrąglij udziały do jednego miejsca po przecinku i podaj sumę tygodniową.",
-        "Który z odbiorników odpowiada za ponad jedną trzecią całego tygodniowego zużycia?"
+        "Zaokrąglij udziały do jednego miejsca po przecinku i podaj też sumę tygodniową.",
+        "Który z tych odbiorników odpowiada za ponad jedną trzecią całego tygodniowego zużycia?"
       ],
       "base": [
         "Podlewam wszystko wieczorem tym samym wężem, bo tak wychodzi mi najszybciej po pracy.",
@@ -84,10 +84,10 @@
         "Rozpisz, ile dni wystarczy zapasu przy tygodniowym zużyciu 1170 litrów bez opadów.",
         "Policz to osobno dla samego zbiornika i dla zbiornika razem z beczką.",
         "Wyniki podaj w pełnych dniach w dół, bez zaokrąglania ich w górę.",
-        "Ile dni pracy ogrodu pokrywa łączny zapas obu naczyń razem wziętych?"
+        "Ile dni pracy ogrodu pokrywa łączny zapas obu tych naczyń razem wziętych?"
       ],
       "base": [
-        "Rozmawiałem z sąsiadem, który zakopał w ziemi zbiornik na sześć metrów sześciennych.",
+        "Sąsiad zza miedzy zakopał u siebie w ziemi zbiornik na sześć metrów sześciennych.",
         "Twierdzi, że od tamtej pory nie tknął wody z sieci przez cały sezon.",
         "U mnie taka inwestycja oznacza rozkopanie połowy ogrodu i sporo pracy koparką.",
         "Zastanawiam się, gdzie leży granica, powyżej której większy zbiornik przestaje się zwracać.",

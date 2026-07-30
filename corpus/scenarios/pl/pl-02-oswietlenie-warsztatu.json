@@ -13,7 +13,7 @@
       "role": "user",
       "a": [
         "Warsztat ma wymiary 7 na 4,5 metra i wysokość dwa i pół metra.",
-        "Policz powierzchnię podłogi oraz wymagany strumień świetlny przy poziomie 300 luksów.",
+        "Policz powierzchnię podłogi oraz wymagany strumień świetlny przy poziomie równym 300 luksów.",
         "Przyjmij współczynnik zapasu równy 1,25 i podaj końcowy wynik w lumenach.",
         "Następnie policz, ile opraw po 4000 lumenów pokryje w całości tę potrzebę.",
         "Ile opraw trzeba kupić, żeby w żadnym miejscu nie zejść poniżej wymaganego poziomu?"
@@ -30,7 +30,7 @@
       "role": "assistant",
       "a": [
         "Powierzchnia podłogi wynosi 31,5 metra kwadratowego, czyli siedem razy cztery i pół.",
-        "Przy trzystu luksach potrzebny strumień wynosi 9450 lumenów dla całego pomieszczenia.",
+        "Przy trzystu luksach potrzebny strumień wynosi 9450 lumenów dla całego tego pomieszczenia.",
         "Po uwzględnieniu zapasu 1,25 wymagana wartość rośnie do 11813 lumenów w zaokrągleniu.",
         "Oprawy po 4000 lumenów dają iloraz 2,95, więc konieczne są trzy sztuki.",
         "Trzy oprawy dają razem 12000 lumenów i przekraczają wymagany poziom z zapasem."
@@ -46,16 +46,16 @@
     {
       "role": "user",
       "a": [
-        "Mam cztery stanowiska: piłę, hebel, stół montażowy oraz szlifierkę, do uszeregowania.",
+        "Mam cztery stanowiska: piłę, hebel, stół montażowy oraz szlifierkę, wszystkie do uszeregowania.",
         "Wymagają odpowiednio 500, 400, 750 i 300 luksów zgodnie z moimi notatkami.",
         "Uszereguj je malejąco i policz różnicę każdego względem poziomu ogólnego 300 luksów.",
         "Wyniki podaj w luksach oraz jako krotność tego poziomu z jednym miejscem po przecinku.",
-        "Które ze stanowisk wymaga najmocniejszego doświetlenia miejscowego ponad tło całego warsztatu?"
+        "Które z tych stanowisk wymaga najmocniejszego doświetlenia miejscowego ponad tło całego warsztatu?"
       ],
       "base": [
         "Kupiłem tanie panele świetlne i po tygodniu zacząłem odczuwać zmęczenie oczu wieczorem.",
         "Na filmie z telefonu widać wyraźne pasy przesuwające się po ekranie w trakcie nagrania.",
-        "Podejrzewam migotanie, choć gołym okiem niczego niepokojącego nie da się zauważyć.",
+        "Podejrzewam migotanie, choć samym gołym okiem niczego niepokojącego nie da się zauważyć.",
         "Dodatkowo drewno pod tym światłem wygląda szaro i trudno mi ocenić odcień bejcy.",
         "Czy te dwie rzeczy mogą mieć wspólne źródło w tym samym zestawie opraw?"
       ]
@@ -64,17 +64,17 @@
       "role": "assistant",
       "a": [
         "Stół montażowy wymaga 750 luksów, czyli o 450 luksów więcej niż poziom ogólny.",
-        "Piła wymaga 500 luksów, co daje nadwyżkę 200 luksów ponad tło całego warsztatu.",
-        "Hebel wymaga 400 luksów i przewyższa poziom ogólny o sto luksów w tej skali.",
+        "Piła wymaga 500 luksów, co daje nadwyżkę 200 luksów ponad tło warsztatu.",
+        "Hebel wymaga 400 luksów i przewyższa poziom ogólny dokładnie o sto luksów.",
         "Szlifierka mieści się dokładnie w poziomie ogólnym i nie wymaga żadnej nadwyżki.",
         "Krotności wynoszą kolejno 2,5 oraz 1,7, następnie 1,3 i na końcu 1,0."
       ],
       "base": [
-        "Obie obserwacje mogą wynikać ze zwykłej oszczędności na zasilaniu w tanich panelach.",
+        "Obie te obserwacje mogą wynikać ze zwykłej oszczędności na zasilaniu w tanich panelach.",
         "Prosty zasilacz przepuszcza tętnienie sieci, które oko rejestruje jako zmęczenie po godzinach.",
         "Pasy widoczne na nagraniu są bezpośrednim śladem tego samego tętnienia w czasie.",
-        "Szare drewno to z kolei kwestia oddania barw, opisywanego wskaźnikiem przy oprawie.",
-        "Tanie panele zwykle mają niski wskaźnik i wypłukują ciepłe odcienie z powierzchni."
+        "Szare drewno to z kolei kwestia oddania barw, opisywanego osobnym wskaźnikiem przy oprawie.",
+        "Tanie panele zwykle mają niski wskaźnik i wypłukują ciepłe odcienie z drewnianej powierzchni."
       ]
     },
     {
@@ -84,13 +84,13 @@
         "Planuję trzy oprawy liniowe pod sufitem i cztery punktowe nad stanowiskami roboczymi.",
         "Policz koszt każdej z grup osobno oraz łączny koszt całkowity tego zestawu opraw.",
         "Podaj też udział procentowy obu grup w koszcie całkowitym, bez miejsc po przecinku.",
-        "Ile wyniesie cała inwestycja, jeśli doliczę jeszcze 240 złotych na przewody?"
+        "Ile wyniesie cała ta inwestycja, jeśli doliczę jeszcze 240 złotych na przewody?"
       ],
       "base": [
-        "Zauważyłem, że przy heblowaniu potrzebuję światła padającego niemal równolegle do blatu.",
+        "Zauważyłem, że przy heblowaniu potrzebuję światła padającego niemal równolegle do samego blatu.",
         "Dopiero wtedy widzę na powierzchni faliste ślady po nożach i mogę je usunąć.",
         "Przy oświetleniu z góry ta sama powierzchnia wygląda na idealnie gładką i równą.",
-        "Wychodzi na to, że różne czynności potrzebują wręcz przeciwnych ustawień światła.",
+        "Wychodzi na to, że różne czynności potrzebują tu wręcz przeciwnych ustawień światła.",
         "Jak pogodzić tak sprzeczne wymagania w jednym i tym samym pomieszczeniu warsztatowym?"
       ]
     },
@@ -118,13 +118,13 @@
         "Odstępy między oprawami mają być równe, a odstęp od ściany połową odstępu wewnętrznego.",
         "Podaj odległości od ściany szczytowej do środka każdej z opraw w centymetrach.",
         "Zaokrąglij wartości do pełnych centymetrów i wypisz je w kolejności od ściany.",
-        "Jaki wyjdzie odstęp między sąsiednimi oprawami przy tak równomiernym ich rozmieszczeniu?"
+        "Jaki wyjdzie odstęp między dwiema sąsiednimi oprawami przy tak równomiernym ich rozmieszczeniu?"
       ],
       "base": [
         "Po zmianach jest znacznie lepiej, ale pojawił się nowy problem przy stole montażowym.",
         "Białe blaty i jasne ściany odbijają tyle światła, że wieczorem robi się nieprzyjemnie.",
         "Jednocześnie kąt w głębi warsztatu pozostaje ciemny mimo trzech opraw pod sufitem.",
-        "Wygląda to tak, jakby światło zbierało się w jednej połowie pomieszczenia.",
+        "Wygląda to tak, jakby całe światło zbierało się w jednej połowie pomieszczenia.",
         "Czy jasne wykończenie ścian może aż tak zmieniać rozkład światła w pomieszczeniu?"
       ]
     },
@@ -151,15 +151,15 @@
         "Mam trzy rodzaje barwy światła: 3000, 4000 i 5000 kelwinów do przypisania.",
         "Przypisz je do stanowisk montażowego, do cięcia oraz do kontroli wykończenia powierzchni.",
         "Kieruj się zasadą, że wyższa barwa oznacza chłodniejsze i bardziej kontrastowe światło.",
-        "Wypisz przypisania w formie par stanowisko i wartość barwy w kelwinach.",
-        "Która z wartości trafi na stanowisko kontroli wykończenia gotowych powierzchni drewnianych?"
+        "Wypisz wszystkie przypisania w formie par stanowisko i wartość barwy w kelwinach.",
+        "Która z tych wartości trafi na stanowisko kontroli wykończenia gotowych powierzchni drewnianych?"
       ],
       "base": [
         "Zaczyna mi się z tego układać całkiem spójny plan na przebudowę oświetlenia warsztatu.",
         "Zostaje jednak pytanie o kolejność, bo nie zrobię wszystkiego w jeden weekend.",
         "Największą uciążliwością pozostaje dla mnie cień przy pile podczas długiego cięcia wzdłużnego.",
         "Migotanie przeszkadza mniej, ale to ono odpowiada za zmęczenie po dłuższej pracy.",
-        "Od czego zacząć, żeby przy możliwie najmniejszym nakładzie odczuć największą poprawę?"
+        "Od czego zacząć, żeby przy możliwie najmniejszym nakładzie odczuć jak największą poprawę?"
       ]
     },
     {
@@ -167,9 +167,9 @@
       "a": [
         "Stanowisko montażowe otrzymuje 3000 kelwinów jako barwę najcieplejszą z całej tej trójki.",
         "Stanowisko cięcia otrzymuje 4000 kelwinów jako wartość pośrednią w całym tym zestawieniu.",
-        "Kontrola wykończenia otrzymuje 5000 kelwinów, czyli światło najchłodniejsze oraz najbardziej kontrastowe.",
+        "Kontrola wykończenia otrzymuje 5000 kelwinów, czyli światło najchłodniejsze oraz zarazem najbardziej kontrastowe.",
         "Wszystkie pary wypisane są w kolejności rosnącej wartości barwy podanej w kelwinach.",
-        "Na stanowisko kontroli wykończenia powierzchni trafia zatem wartość pięciu tysięcy kelwinów."
+        "Na stanowisko kontroli wykończenia powierzchni trafia zatem wartość równa pięciu tysiącom kelwinów."
       ],
       "base": [
         "Najwięcej odczujesz po dołożeniu dwóch bocznych opraw przy pile, po jednej z każdej strony.",

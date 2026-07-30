@@ -12,7 +12,7 @@
     {
       "role": "user",
       "a": [
-        "Mam listę pięciu busów dostawczych i chcę uporządkować ich terminy przeglądów według daty badania technicznego.",
+        "Mam listę pięciu busów dostawczych i chcę uporządkować ich terminy przeglądów według daty najbliższego badania technicznego.",
         "Bus A ma termin dwunastego marca, bus B siódmego lutego, a bus C dwudziestego pierwszego stycznia.",
         "Bus D wypada osiemnastego kwietnia, natomiast bus E dziewiątego lutego tego samego roku kalendarzowego.",
         "Czy możesz ułożyć te pozycje od najwcześniejszej do najpóźniejszej i podać odstępy w dniach?"
@@ -66,7 +66,7 @@
         "Tak, ponieważ licznik nie odróżnia godziny jazdy po obwodnicy od godziny stania na światłach z pracującym silnikiem.",
         "W ruchu miejskim zużywa się sprzęgło, hamulce oraz olej znacznie szybciej, niż wskazywałby sam przebieg.",
         "Dlatego dla busów miejskich lepszym miernikiem bywa czas pracy silnika albo liczba wykonanych postojów w trasie.",
-        "Dla pojazdów trasowych kilometry pozostają uczciwym przybliżeniem, bo obciążenie rozkłada się w miarę równomiernie."
+        "Dla pojazdów trasowych kilometry pozostają uczciwym przybliżeniem, bo obciążenie napędu rozkłada się w miarę równomiernie na całej trasie."
       ]
     },
     {

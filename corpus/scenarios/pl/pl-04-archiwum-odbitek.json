@@ -1,0 +1,215 @@
+{
+  "scenario_id": "pl-04-archiwum-odbitek",
+  "language": "pl",
+  "topic": "porządkowanie i przechowywanie papierowych odbitek fotograficznych",
+  "provenance": {
+    "author": "subagent-pl-a",
+    "template": "inwentaryzacja-decyzje-procedura-10tur",
+    "date": "2026-07-30",
+    "notes": "Wariant A: zliczanie odbitek, pudel, czasu obrobki i udzialow dekad. Wariant base: metoda porzadkowania zbioru bez dokumentacji. Insercje w turach 0-4."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Mam sześć pudeł z odbitkami, po 340, 210, 480, 155, 290 i 125 sztuk.",
+        "Zsumuj wszystkie odbitki i podaj średnią zawartość jednego pudła bez miejsc po przecinku.",
+        "Uszereguj pudła malejąco według liczby odbitek i ponumeruj je kolejno od jedynki.",
+        "Wypisz każde pudło w osobnym wierszu razem z podaną liczbą jego sztuk.",
+        "Ile odbitek zawiera cały ten zbiór po zsumowaniu zawartości wszystkich sześciu pudeł?"
+      ],
+      "base": [
+        "Po babci został karton odbitek, z których większość nie ma opisu na odwrocie.",
+        "Część fotografii rozpoznaję po twarzach, ale dat i miejsc zwyczajnie nie znam.",
+        "Boję się, że jeśli teraz tego nie zrobię, za dziesięć lat nie zrobi tego nikt.",
+        "Jednocześnie nie chcę zacząć od pomyłki, której później nie da się już cofnąć.",
+        "Od czego rozsądnie zacząć porządkowanie takiego zbioru, skoro nie ma do niego dokumentacji?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Największe pudło zawiera 480 odbitek i zajmuje pierwsze miejsce w tym zestawieniu.",
+        "Kolejne pudła to 340 oraz 290 odbitek na drugim i trzecim miejscu.",
+        "Dalej wypadają pudła o zawartości 210, 155 i 125 odbitek w tej kolejności.",
+        "Suma wszystkich sześciu pudeł wynosi równo 1600 odbitek w całym opisanym zbiorze.",
+        "Średnia zawartość jednego pudła wynosi 267 odbitek po zaokrągleniu do pełnych sztuk."
+      ],
+      "base": [
+        "Pierwszy krok to zawsze podział zgrubny, jeszcze bez prób ustalania dokładnych dat.",
+        "Format, rodzaj papieru oraz ząbkowane brzegi zdradzają całkiem sporo o dekadzie powstania.",
+        "Taki podział na dekady da się zrobić szybko i nie niesie ryzyka pomyłki.",
+        "Dopiero wewnątrz dekady warto szukać osób, wydarzeń i powtarzających się tłem miejsc.",
+        "Porządkowanie od ogółu do szczegółu chroni przed decyzjami, których nie da się cofnąć."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Jedno pudło bezkwasowe mieści 250 odbitek w formacie dziewięć na trzynaście centymetrów.",
+        "Policz, ile takich pudeł potrzebuję na cały ten zbiór liczący 1600 odbitek.",
+        "Zaokrąglij liczbę pudeł w górę i policz wolne miejsce w ostatnim pudle.",
+        "Przy cenie 14 złotych za pudło podaj też łączny koszt całego zakupu.",
+        "Ile odbitek zabraknie do pełnego wypełnienia ostatniego pudła w całym tym zestawie?"
+      ],
+      "base": [
+        "Zacząłem od podziału na dekady i od razu natrafiłem na problem z duplikatami.",
+        "Niektóre ujęcia mam w trzech odbitkach, czasem w różnych formatach i odcieniach.",
+        "Wyrzucenie nadmiaru wydaje się rozsądne, ale każda odbitka ma inny stan zachowania.",
+        "Zdarza się, że kopia gorsza technicznie ma na odwrocie jedyny zapisany podpis.",
+        "Jak podejść do takich powtórzeń, żeby nie stracić przy okazji czegoś ważnego?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cały zbiór liczący 1600 odbitek wymaga siedmiu pudeł po dwieście pięćdziesiąt sztuk.",
+        "Iloraz wynosi 6,4, więc po zaokrągleniu w górę wychodzi równo siedem pudeł.",
+        "Siedem pudeł mieści 1750 odbitek, czyli o 150 więcej niż liczy zbiór.",
+        "Wolne miejsce zostające w ostatnim pudle wynosi zatem dokładnie sto pięćdziesiąt sztuk.",
+        "Koszt siedmiu pudeł po 14 złotych zamyka się łączną kwotą 98 złotych."
+      ],
+      "base": [
+        "Duplikat nigdy nie jest dokładną kopią, bo różni się stanem i tym, co ma na odwrocie.",
+        "Zasada bezpieczna brzmi tak, że najpierw opisuje się, a dopiero potem odrzuca.",
+        "Z każdej grupy powtórzeń wybiera się egzemplarz najlepszy technicznie i uznaje za podstawowy.",
+        "Informacje z odwrotów pozostałych kopii przenosi się ołówkiem na ten wybrany egzemplarz.",
+        "Dopiero po przeniesieniu wszystkich opisów nadmiar przestaje nieść już jakąkolwiek unikalną treść."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Mam cztery czynności: opisanie, przełożenie w koperty, ułożenie w pudle i spisanie zawartości.",
+        "Zajmują odpowiednio 25, 12, 8 i 15 sekund na jedną pojedynczą odbitkę.",
+        "Policz łączny czas obróbki jednej odbitki oraz czas dla stu odbitek w godzinach.",
+        "Wynik dla stu sztuk podaj w godzinach i minutach, zaokrąglając do pełnych minut.",
+        "Ile czasu zajmie przerobienie w ten sposób całego zbioru liczącego 1600 odbitek?"
+      ],
+      "base": [
+        "Przy okazji zauważyłem, że część odbitek z lat sześćdziesiątych zaczyna żółknąć nierówno.",
+        "Na kilku widać brązowe plamki, których nie było widać jeszcze kilka lat temu.",
+        "Karton stoi w piwnicy, gdzie zimą bywa chłodno, a latem robi się bardzo wilgotno.",
+        "Podejrzewam, że samo miejsce przechowywania szkodzi im bardziej niż zwykły upływ czasu.",
+        "Gdzie w zwykłym domu trzymać taki zbiór, żeby przetrwał kolejne pięćdziesiąt lat?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Obróbka jednej odbitki zajmuje równo 60 sekund po zsumowaniu wszystkich czterech czynności.",
+        "Sto odbitek wymaga 6000 sekund, czyli jednej godziny i czterdziestu minut pracy.",
+        "Cały zbiór 1600 odbitek wymaga 96000 sekund przy tym samym tempie pracy.",
+        "W przeliczeniu daje to 26 godzin i 40 minut czystej pracy nad zbiorem.",
+        "Wszystkie wyniki podane są bez żadnych przerw i zaokrąglone do pełnych minut."
+      ],
+      "base": [
+        "Brązowe plamki to typowy skutek wilgoci działającej razem z resztkami dawnego utrwalacza.",
+        "Piwnica jest najgorszym możliwym miejscem, bo latem skrapla się tam para wodna.",
+        "Odbitki znoszą sam chłód całkiem doskonale, natomiast wahania wilgotności niszczą je nieodwracalnie.",
+        "Najlepsze miejsce w zwykłym domu to wewnętrzna szafa w ogrzewanym pomieszczeniu mieszkalnym.",
+        "Stabilna temperatura oraz sucha ciemność robią więcej niż jakiekolwiek nawet najdroższe pudła."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Podzieliłem cały zbiór na pięć dekad, od lat pięćdziesiątych aż po lata dziewięćdziesiąte.",
+        "Przypada na te dekady odpowiednio 180, 420, 510, 330 oraz 160 odbitek.",
+        "Policz udział procentowy każdej z dekad w całym zbiorze bez miejsc po przecinku.",
+        "Sprawdź też, czy suma podanych wartości zgadza się z całkowitą liczbą odbitek.",
+        "Która dekada jest w tym zbiorze najliczniej reprezentowana pod względem samej liczby odbitek?"
+      ],
+      "base": [
+        "Przeniosłem karton do szafy i po miesiącu widzę wyraźną różnicę w wilgotności.",
+        "Zabrałem się za opisywanie, ale utknąłem na tym, czym właściwie pisać po odwrocie.",
+        "Długopis przebija na drugą stronę, a zwykły ołówek ślizga się po gładkim papierze.",
+        "Nie chcę też zasłaniać opisem tego, co ktoś zapisał tam pięćdziesiąt lat temu.",
+        "Czym i w którym miejscu opisywać odbitki, żeby niczego przy tym nie zniszczyć?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Lata siedemdziesiąte dają 510 odbitek, czyli 32 procent całego tak uporządkowanego zbioru.",
+        "Lata sześćdziesiąte dają 420 odbitek, co odpowiada 26 procent całości tego zbioru.",
+        "Lata osiemdziesiąte dają 330 odbitek, czyli 21 procent, a pięćdziesiąte 180 odbitek.",
+        "Udział lat pięćdziesiątych wynosi 11 procent, a lat dziewięćdziesiątych równe 10 procent.",
+        "Suma wszystkich dekad daje 1600 odbitek, a najliczniejsze okazują się lata siedemdziesiąte."
+      ],
+      "base": [
+        "Do opisywania odbitek używa się miękkiego ołówka, najlepiej o twardości oznaczonej literą B.",
+        "Twardy grafit rysuje warstwę papieru, a długopis przebija i zostawia trwały ślad.",
+        "Pisze się przy samej krawędzi odwrotu, bez opierania odbitki o twarde podłoże.",
+        "Dawnych zapisów nie zasłania się ani nie poprawia, nawet gdy są ewidentnie błędne.",
+        "Własny opis dopisuje się obok, a wątpliwości zaznacza znakiem zapytania w nawiasie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Zaplanuj mi pracę nad zbiorem po dwie godziny dziennie przy tempie sześćdziesięciu sekund.",
+        "Cała robota zajmuje 26 godzin i 40 minut czystego czasu według wcześniejszego wyliczenia.",
+        "Policz liczbę potrzebnych dni i podaj, ile pracy zostanie na dzień ostatni.",
+        "Rozpisz też, ile odbitek przypada na jeden pełny dwugodzinny dzień takiej pracy.",
+        "Ile dni w sumie zajmie przerobienie całego zbioru przy takim dziennym tempie?"
+      ],
+      "base": [
+        "Zaczyna mi się z tego składać metoda, którą da się prowadzić przez wiele miesięcy.",
+        "Zostaje jednak pytanie, co zrobić z odbitkami, których nikt już nie rozpozna.",
+        "Zostało kilkaset zdjęć bez jednej twarzy, którą ktokolwiek w rodzinie potrafi nazwać.",
+        "Szkoda mi je wyrzucić, ale trzymanie ich razem z resztą rozmywa cały porządek.",
+        "Co zrobić z taką częścią zbioru, żeby nie ciążyła nad całą resztą pracy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Praca po dwie godziny dziennie wymaga czternastu dni przy podanym tempie obróbki.",
+        "Trzynaście dni wypełnia się w całości, a czternasty dzień zajmuje tylko 40 minut.",
+        "Jeden dwugodzinny dzień pozwala przerobić 120 odbitek przy sześćdziesięciu sekundach na sztukę.",
+        "Trzynaście pełnych dni daje 1560 odbitek, a reszta przypada na dzień ostatni.",
+        "Cały zbiór 1600 odbitek zamyka się zatem w czternastu dniach takiej pracy."
+      ],
+      "base": [
+        "Zdjęcia bez rozpoznanych osób warto trzymać osobno, ale nie warto ich wyrzucać.",
+        "Rozpoznanie przychodzi czasem po latach, gdy odezwie się ktoś z dalszej rodziny.",
+        "Osobne pudło z opisem miejsca pochodzenia wystarczy, żeby nie ciążyły nad porządkiem.",
+        "Warto zanotować, skąd pochodzi ta część zbioru i kto go do tej pory przechowywał.",
+        "Taki zapis bywa później jedynym punktem zaczepienia dla kogoś, kto podejmie tę pracę."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te szczegóły.",
+      "external": "Zastanawiam się, czy osuszacz pilnujący tej szafy utrzyma wszystkie te parametry."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Ta wymiana zdań porządkuje się warstwami, bo każdy krok wynika z poprzedniego.",
+      "external": "Ta wymiana kart porządkuje się warstwami, bo każdy krok wynika z poprzedniego."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Nie wiem, czy ten tok rozmowy odpowiada jeszcze mojemu pierwszemu założeniu.",
+      "external": "Nie wiem, czy ten tok montażu odpowiada jeszcze mojemu pierwszemu założeniu."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "Warto zauważyć, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
+      "external": "Warto zauważyć, że to przekładanie wiąże ze sobą wszystkie wcześniejsze etapy."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Mam wrażenie, że im dalej w tę rozmowę, tym trudniej wrócić do punktu wyjścia.",
+      "external": "Mam wrażenie, że im dalej w ten obchód, tym trudniej wrócić do punktu wyjścia."
+    }
+  ]
+}

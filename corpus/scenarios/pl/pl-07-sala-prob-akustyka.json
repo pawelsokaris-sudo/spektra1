@@ -14,8 +14,8 @@
       "a": [
         "Chcę uporządkować listę sprzętu do sali prób według poboru mocy podanego na tabliczkach znamionowych.",
         "Wzmacniacz gitarowy bierze sto dwadzieścia watów, basowy trzysta, a kolumna odsłuchowa dwieście pięćdziesiąt watów.",
-        "Konsoleta bierze sześćdziesiąt watów, natomiast zestaw oświetlenia sceny czterysta osiemdziesiąt watów.",
-        "Czy ułożysz te pozycje malejąco i podasz sumę całkowitą wyrażoną w watach?"
+        "Konsoleta bierze sześćdziesiąt watów, natomiast cały zestaw oświetlenia sceny bierze czterysta osiemdziesiąt watów.",
+        "Czy ułożysz te pozycje malejąco i podasz sumę całkowitą wyrażoną w pełnych watach?"
       ],
       "base": [
         "Zespół gra w piwnicy o gołych ścianach i po pół godzinie prób nikt nikogo nie słyszy.",
@@ -27,10 +27,10 @@
     {
       "role": "assistant",
       "a": [
-        "Kolejność malejąca: oświetlenie sceny czterysta osiemdziesiąt watów, wzmacniacz basowy trzysta watów.",
+        "Kolejność malejąca zaczyna się tak: oświetlenie sceny czterysta osiemdziesiąt watów, potem wzmacniacz basowy trzysta watów.",
         "Dalej idzie kolumna odsłuchowa z dwustoma pięćdziesięcioma watami, potem wzmacniacz gitarowy ze stoma dwudziestoma.",
-        "Na końcu listy stoi konsoleta z sześćdziesięcioma watami jako najmniejszy odbiornik w zestawieniu.",
-        "Suma całkowita wynosi tysiąc dwieście dziesięć watów dla wszystkich pięciu wymienionych pozycji."
+        "Na końcu listy stoi konsoleta z sześćdziesięcioma watami jako najmniejszy odbiornik w całym zestawieniu sprzętu.",
+        "Suma całkowita wynosi tysiąc dwieście dziesięć watów dla wszystkich pięciu wymienionych powyżej pozycji sprzętowych."
       ],
       "base": [
         "Zależy od czasu pogłosu, czyli od tego, jak długo dźwięk odbija się, zanim wytraci całą energię.",
@@ -51,7 +51,7 @@
         "Rozumiem, że chodzi o pochłanianie, ale wykładzina wydaje mi się rozwiązaniem trochę na chybił trafił.",
         "Piwnica ma cztery na pięć metrów oraz dwa i pół metra wysokości, ściany zupełnie puste.",
         "Podejrzewam, że nie każde miejsce na ścianie działa w takim pomieszczeniu równie dobrze.",
-        "Które powierzchnie robią tutaj największą różnicę przy możliwie najmniejszym nakładzie materiału?"
+        "Które powierzchnie w takim pomieszczeniu robią największą różnicę przy możliwie najmniejszym nakładzie materiału?"
       ]
     },
     {
@@ -72,10 +72,10 @@
     {
       "role": "user",
       "a": [
-        "Rozpisz teraz plan trzygodzinnej próby podzielony na bloki według ustalonych z góry długości.",
+        "Rozpisz teraz plan trzygodzinnej próby podzielony na bloki według ustalonych z góry długości poszczególnych etapów.",
         "Rozstawienie sprzętu zajmuje dwadzieścia minut, rozgrzewka piętnaście, a granie materiału sto dwadzieścia minut.",
         "Przerwa trwa dziesięć minut, natomiast składanie sprzętu zajmuje piętnaście minut na samym końcu.",
-        "Czy wypiszesz godziny startu każdego bloku, licząc od osiemnastej zero zero?"
+        "Czy wypiszesz godziny startu i końca każdego bloku, licząc od osiemnastej zero zero?"
       ],
       "base": [
         "Czyli mam do czynienia z dwoma osobnymi problemami: wysokie tony na ścianach i niskie w narożnikach.",
@@ -87,9 +87,9 @@
     {
       "role": "assistant",
       "a": [
-        "Osiemnasta zero zero rozstawienie sprzętu, osiemnasta dwadzieścia rozgrzewka całego zespołu przed graniem.",
-        "Osiemnasta trzydzieści pięć start grania materiału, który kończy się o dwudziestej trzydzieści pięć.",
-        "Dwudziesta trzydzieści pięć przerwa, a dwudziesta czterdzieści pięć składanie sprzętu do pokrowców.",
+        "Osiemnasta zero zero rozstawienie sprzętu, osiemnasta dwadzieścia rozgrzewka zespołu przed właściwym graniem materiału.",
+        "Osiemnasta trzydzieści pięć start grania materiału, który kończy się dopiero o dwudziestej trzydzieści pięć.",
+        "Dwudziesta trzydzieści pięć przerwa, a dwudziesta czterdzieści pięć składanie sprzętu do pokrowców i futerałów.",
         "Blok zamyka się o dwudziestej pierwszej zero zero, czyli dokładnie po trzech pełnych godzinach."
       ],
       "base": [
@@ -102,9 +102,9 @@
     {
       "role": "user",
       "a": [
-        "Posegreguj sprzęt na trzy grupy: instrumenty, nagłośnienie oraz pozostałe wyposażenie sali prób.",
-        "Do każdej grupy dopisz liczbę pozycji oraz sumaryczny pobór mocy wyrażony w watach.",
-        "Grupy ustaw malejąco według sumarycznego poboru mocy przypadającego na daną grupę sprzętu.",
+        "Posegreguj sprzęt na trzy grupy: instrumenty, nagłośnienie oraz pozostałe wyposażenie samej sali prób.",
+        "Do każdej grupy dopisz liczbę pozycji oraz sumaryczny pobór mocy wyrażony w pełnych watach.",
+        "Grupy ustaw malejąco według sumarycznego poboru mocy przypadającego na daną grupę sprzętu scenicznego.",
         "Czy grupa nagłośnienia okaże się najcięższa pod względem sumarycznego poboru mocy w tym zestawieniu?"
       ],
       "base": [
@@ -117,10 +117,10 @@
     {
       "role": "assistant",
       "a": [
-        "Pozostałe wyposażenie: jedna pozycja, oświetlenie sceny, czterysta osiemdziesiąt watów sumarycznego poboru mocy.",
-        "Instrumenty: dwie pozycje, wzmacniacz basowy i gitarowy, czterysta dwadzieścia watów sumarycznego poboru.",
-        "Nagłośnienie: dwie pozycje, kolumna odsłuchowa i konsoleta, trzysta dziesięć watów sumarycznego poboru.",
-        "Nagłośnienie wypada na ostatnim miejscu, więc nie jest grupą najcięższą pod względem mocy."
+        "Pozostałe wyposażenie to jedna pozycja, czyli oświetlenie sceny, i czterysta osiemdziesiąt watów sumarycznego poboru.",
+        "Instrumenty to dwie pozycje, wzmacniacz basowy i gitarowy, oraz czterysta dwadzieścia watów sumarycznego poboru.",
+        "Nagłośnienie to dwie pozycje, kolumna odsłuchowa i konsoleta, oraz trzysta dziesięć watów sumarycznego poboru.",
+        "Nagłośnienie wypada na ostatnim miejscu, więc nie jest grupą najcięższą pod względem poboru mocy."
       ],
       "base": [
         "Daje, ponieważ pochłanianie działa najskuteczniej tam, gdzie odbicie wraca najkrótszą drogą do źródła dźwięku.",
@@ -148,9 +148,10 @@
       "role": "assistant",
       "a": [
         "Zużycie wynosi trzy przecinek sześćdziesiąt trzy kilowatogodziny przy pełnym obciążeniu przez trzy godziny.",
-        "Koszt to dwa złote dziewięćdziesiąt groszy po pomnożeniu przez stawkę osiemdziesięciu groszy.",
-        "Wartość nie przekracza trzech złotych, ponieważ do progu brakuje dokładnie dziesięciu groszy.",
-        "Przy czterech próbach w miesiącu daje to jedenaście złotych sześćdziesiąt groszy łącznie."
+        "Koszt to dwa złote dziewięćdziesiąt groszy po pomnożeniu przez stawkę osiemdziesięciu groszy za kilowatogodzinę.",
+        "Wartość nie przekracza trzech złotych, ponieważ do przyjętego progu brakuje dokładnie dziesięciu groszy.",
+        "Przy czterech próbach w miesiącu daje to razem jedenaście złotych i sześćdziesiąt groszy miesięcznie.",
+        "Stawka jest tu jedynym parametrem, którego zmiana przesuwa cały wynik wprost proporcjonalnie."
       ],
       "base": [
         "Ma dokładnie takie samo, bo mechanizm nie zależy od orientacji powierzchni, tylko od odległości od twardego tła.",
