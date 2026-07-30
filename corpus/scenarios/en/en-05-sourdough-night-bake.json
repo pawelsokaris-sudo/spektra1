@@ -1,0 +1,215 @@
+{
+  "scenario_id": "en-05-sourdough-night-bake",
+  "language": "en",
+  "topic": "planning and scheduling an overnight sourdough bake in a small bakery",
+  "provenance": {
+    "author": "subagent-en-b",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-30",
+    "notes": "10 turns, user first; variant a is pure batch arithmetic on the same bake, base is a diagnostic conversation about a late finish"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five doughs for tomorrow: country, rye, spelt, seeded, and a small batch of focaccia.",
+        "Their flour weights are twelve, six, four, five, and three kilograms, in that same order.",
+        "Sort the five doughs from heaviest to lightest and give me the running total after each one.",
+        "Then convert every flour weight into a water weight at seventy-eight percent hydration, rounded to the gram.",
+        "Finish with one line listing the total flour, the total water, and the combined dough weight."
+      ],
+      "base": [
+        "Our overnight bake keeps drifting late, and the last two racks leave the oven after the shop opens.",
+        "We mix at four in the afternoon and the first loaves go in around five the next morning.",
+        "The rye is always the one holding everything up, even though it is the smallest batch.",
+        "The bakery is cold at night, maybe fifteen degrees, and nothing seems to move on schedule.",
+        "Where would you start looking for the hour we keep losing somewhere in that long stretch?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sorted heaviest to lightest: country twelve, rye six, seeded five, spelt four, focaccia three kilograms of flour.",
+        "Running totals after each dough are twelve, eighteen, twenty-three, twenty-seven, and thirty kilograms of flour.",
+        "Water at seventy-eight percent gives country nine thousand three hundred sixty grams and rye four thousand six hundred eighty.",
+        "Seeded takes three thousand nine hundred, spelt three thousand one hundred twenty, focaccia two thousand three hundred forty.",
+        "Totals are thirty kilograms of flour, twenty-three thousand four hundred grams of water, fifty-three thousand four hundred grams of dough."
+      ],
+      "base": [
+        "The cold room is the first thing I would measure, because fifteen degrees stretches a rye bulk badly.",
+        "Rye acidifies fast but rises slowly when it is chilled, so it can look sluggish for hours.",
+        "I would want the actual dough temperature after mixing, not the room reading on the wall.",
+        "A two degree gap at mix time can easily become an hour of waiting by dawn.",
+        "Do you take any temperature at all when the doughs go into their tubs for the night?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now add the levain: each dough takes twenty percent levain calculated on its own flour weight.",
+        "List the levain weight for all five doughs in the same heaviest-to-lightest order as before.",
+        "Also give me salt at two percent of flour, rounded to the nearest five grams.",
+        "Group the three wheat doughs in one block and the rye and focaccia in another.",
+        "Label each block with its bin number, one for the wheat and two for the rest."
+      ],
+      "base": [
+        "We measure nothing after mixing, we just look at the tubs and guess from the domes.",
+        "The mixer runs eight minutes on second speed and the room is warmer then, near twenty degrees.",
+        "By midnight the shutters are down and the front of the bakery drops several degrees more.",
+        "The rye tub sits nearest the door, which now sounds like a poor place for it.",
+        "Would moving that tub to the shelf above the ovens be enough on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Levain at twenty percent, heaviest first: country two thousand four hundred grams, rye one thousand two hundred.",
+        "Then seeded one thousand grams, spelt eight hundred grams, and focaccia six hundred grams of levain.",
+        "Bin one, the wheat block: country salt two hundred forty, seeded one hundred, spelt eighty grams.",
+        "Bin two takes rye salt one hundred twenty grams and focaccia salt sixty grams, at two percent.",
+        "Across all five doughs that is six thousand grams of levain and six hundred grams of salt."
+      ],
+      "base": [
+        "Moving the rye above the ovens would help, though it may swing the other way in summer.",
+        "What you really want is a stable spot around twenty-two degrees rather than the warmest corner available.",
+        "I would also shorten the rye bulk and let it finish in the tin instead.",
+        "Rye rarely rewards a long bulk; it does better with a short one and a longer proof.",
+        "How firm is the rye when you scale it, and does it hold a shape at all?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go further: the seeded dough is five and a half kilograms of flour.",
+        "Recalculate its water, levain, and salt only, and leave the other four doughs untouched.",
+        "Then give me the three new totals for flour, water, and levain across the whole bake.",
+        "After that, list the five doughs in the order they should enter the oven tomorrow.",
+        "Put rye first, then country, then spelt, then seeded, with the focaccia going in last."
+      ],
+      "base": [
+        "The rye scales soft and it spreads on the bench within a minute of shaping.",
+        "We use eighty-five percent hydration on it, which is what the old recipe card says.",
+        "Nobody here has changed that number in years and the flour supplier switched last autumn.",
+        "The bags look the same but the loaves have been flatter since about November.",
+        "Could a different rye flour really cost us a whole hour of proofing time?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Seeded at five and a half kilograms takes four thousand two hundred ninety grams of water.",
+        "Its levain becomes one thousand one hundred grams and its salt one hundred ten grams.",
+        "New totals are thirty and a half kilograms of flour and twenty-three thousand seven hundred ninety grams of water.",
+        "Total levain rises to six thousand one hundred grams for the five doughs together.",
+        "Oven order as you asked: rye first, then country, then spelt, then seeded, with focaccia last."
+      ],
+      "base": [
+        "A flour change can absolutely cost an hour, especially with rye and its damaged starch.",
+        "New crop or a different mill will drink water differently at the same stated hydration.",
+        "I would drop the rye to seventy-eight percent and see whether it holds a shape better.",
+        "Then keep the bulk short, thirty minutes, and give the tins a longer final proof.",
+        "Do you still have a few kilos of the old flour to run a proper comparison?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last thing: convert the whole bake into bags of flour at twenty-five kilograms per bag.",
+        "Tell me how many full bags I need and what remains in the open bag.",
+        "Then split the total water into two vessels of equal volume and give me each figure.",
+        "Give me the oven schedule as five start times beginning at five in the morning.",
+        "Space the loads twenty-five minutes apart and list them with the dough name beside each time."
+      ],
+      "base": [
+        "There are two sacks of the old flour left in the store room, maybe forty kilos.",
+        "We could bake both versions on the same night if the schedule allows a second mix.",
+        "The bench space is tight after midnight, though, with the country doughs already divided.",
+        "Two rye tubs side by side would mean stacking, and stacked tubs run warmer inside.",
+        "Is a stacked tub going to spoil the comparison we are trying to make here?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Thirty and a half kilograms of flour is one full bag plus five and a half kilograms.",
+        "Split the water evenly and each vessel holds eleven thousand eight hundred ninety-five grams.",
+        "Oven starts are rye at five, country at five twenty-five, and spelt at five fifty.",
+        "Seeded goes in at six fifteen and focaccia at six forty, twenty-five minutes apart throughout.",
+        "That is an oven window of one hour and forty minutes from the first load to the last."
+      ],
+      "base": [
+        "Stacked tubs will spoil it, since the middle of a stack can sit two degrees warmer.",
+        "Put them side by side on the shelf above the ovens and swap their positions halfway.",
+        "Better still, halve both batches so each one fits a single tub on the bench.",
+        "Scale, shape, and tin them within the same ten minutes so nothing else differs.",
+        "Record dough temperature at mix, at the end of bulk, and just before the tins go in."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print me a short checklist of the four steps in order for the night crew.",
+        "Step one is mixing, step two is bulk, step three is shaping, step four is proofing.",
+        "Put the clock time next to each step for the rye batch and nothing else.",
+        "Mixing begins at four in the afternoon and the tins go into the oven at five.",
+        "Use a bulk of thirty minutes and a proof filling the remaining time until then."
+      ],
+      "base": [
+        "That sounds workable, and halving both batches costs us nothing but two extra tins.",
+        "I will write the temperatures on the tub lids so the night crew records them.",
+        "One worry is the seeded dough, which shares the bench and the same shaping window.",
+        "If the rye takes longer to shape, the seeded loaves will sit around waiting.",
+        "Should the seeded batch go into the cold room while the rye is being handled?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Rye night checklist, step one: mix at sixteen hundred, eight minutes on second speed.",
+        "Step two is bulk from sixteen ten until sixteen forty, thirty minutes as instructed.",
+        "Step three is scaling and shaping between sixteen forty and sixteen fifty-five, then tinning immediately.",
+        "Step four is the proof from sixteen fifty-five until five in the morning, roughly twelve hours.",
+        "Load the tins into the oven at five and hold that order for the rest of the night."
+      ],
+      "base": [
+        "Yes, park the seeded tub in the cold room for the twenty minutes the rye needs.",
+        "Cold slows it enough that it will hold while the bench is busy with rye.",
+        "Bring it back out just before shaping so the surface does not skin over.",
+        "Write down when it went in and when it came out, on the lid again.",
+        "Two nights of that and the flour question should answer itself from the notes alone."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I keep wondering what the layer handling this session does with the earlier lines.",
+      "external": "I keep wondering what the valve handling that airflow does with the earlier lines."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something in the machinery reading these turns must decide which parts still matter.",
+      "external": "Something in the apparatus heating these tubes must decide which parts still matter."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is odd that the process holding this exchange never shows what it discarded.",
+      "external": "It is odd that the circuit holding that pipeline never shows what it discarded."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Whatever assembles these replies must weigh the older turns against the newest one.",
+      "external": "Whatever schedules these repairs must weigh the older tubes against the newest one."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "There must be a limit to how much of this exchange the reader still holds.",
+      "external": "There must be a limit to how much of that pipework the heater still holds."
+    }
+  ]
+}

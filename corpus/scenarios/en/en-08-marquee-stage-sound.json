@@ -1,0 +1,215 @@
+{
+  "scenario_id": "en-08-marquee-stage-sound",
+  "language": "en",
+  "topic": "stage sound and monitoring for a five piece folk band playing a marquee",
+  "provenance": {
+    "author": "subagent-en-b",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-30",
+    "notes": "10 turns, user first; variant a is set list, channel, cable and power arithmetic, base is a conversation about a volume spiral on stage"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the set list with track lengths in minutes: four, three, six, five, seven, and four.",
+        "Add a two minute gap between consecutive songs and give me the total running time.",
+        "Then tell me how much of the forty minute slot is left after that total.",
+        "Sort the six songs from longest to shortest and number them from one to six.",
+        "Finish with the average song length in minutes and seconds, rounded to the nearest second."
+      ],
+      "base": [
+        "We play a marquee at a village fair next month with a five piece folk band.",
+        "Last year the fiddle disappeared completely once the crowd filled the tent after lunch.",
+        "The singer could hear herself fine, but the fiddle player kept pushing her volume up.",
+        "By the end of the set nobody on stage could hear the guitar at all.",
+        "What usually causes that kind of slow collapse over a single afternoon set?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Total running time is twenty-nine minutes of music plus ten minutes of gaps, thirty-nine minutes.",
+        "That leaves one minute of the forty minute slot unused at the end.",
+        "Longest to shortest is seven minutes, six minutes, five minutes, four minutes, four minutes, three minutes.",
+        "Numbered one to six in that order, with the two four minute songs at positions four and five.",
+        "The average song length is twenty-nine divided by six, which is four minutes fifty seconds."
+      ],
+      "base": [
+        "That is a volume spiral, and it almost always starts with one instrument on stage.",
+        "The fiddle is quiet acoustically but very directional, so the player hears less than everyone else.",
+        "She pushes her monitor up, the singer loses her own reference, and so it goes.",
+        "Each step is small and reasonable, and the whole set drifts louder over half an hour.",
+        "How many monitor mixes did you have, and who controlled them during the set?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now the input list: two vocals, fiddle, guitar, bass, and a bodhran with one microphone.",
+        "Count the total channels and tell me how many are microphones and how many are direct inputs.",
+        "Assume the guitar and the bass go direct and everything else uses a microphone.",
+        "Then list the six channels in order with a number written beside each one.",
+        "Put the vocals first, then the fiddle, then the bodhran, then guitar and bass."
+      ],
+      "base": [
+        "There were two monitor mixes and the sound engineer left after the first band finished.",
+        "So the mixes were set at line check and nobody touched them again all afternoon.",
+        "The fiddle and the singer shared one mix, standing at opposite ends of the stage.",
+        "The guitar and bass shared the other, which seemed sensible when we set it up.",
+        "Would separate mixes have stopped it, or was the sharing not really the cause?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "There are six channels in total across the whole band on that input list.",
+        "Four of them are microphones: the two vocals, the fiddle, and the single bodhran microphone.",
+        "Two are direct inputs, namely the guitar and the bass, exactly as you specified.",
+        "Numbered in your order: one and two are vocals, three is fiddle, four is bodhran.",
+        "Five is the guitar direct input and six is the bass direct input."
+      ],
+      "base": [
+        "Sharing a mix between a singer and a fiddle is the usual root of it.",
+        "They need opposite things: she needs her voice, and the fiddle needs the fiddle.",
+        "Each turn up buries the other, and the shared mix ends up loud and useless.",
+        "Two mixes are enough if the pairing is right, so pair by need rather than position.",
+        "Put the fiddle with the bass and give the singer her own mix."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Cable run next: the stage box sits eighteen metres from the desk at the back.",
+        "Each microphone needs a cable of six metres to reach the box from its stand.",
+        "Work out the total cable length for the four microphones plus the multicore run.",
+        "Then add two direct boxes with three metre cables each and give me the new total.",
+        "Give the result in metres and tell me how many fifty metre reels that needs."
+      ],
+      "base": [
+        "Pairing by need rather than position is not something we had ever thought about.",
+        "The fiddle and bass at one end would mean moving the whole stage layout around.",
+        "The singer stands centre because she talks to the crowd between the songs.",
+        "We could move the fiddle across to the bass side without much trouble at all.",
+        "Does the fiddle need to hear the guitar too, or just the bass and herself?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Four microphone cables at six metres each come to twenty-four metres of cable.",
+        "The multicore adds eighteen metres, which brings the running total to forty-two metres.",
+        "Two direct boxes with three metre cables add six metres more to that total.",
+        "The full total is forty-eight metres of cable for the whole stage setup.",
+        "That fits inside a single fifty metre reel with two metres left to spare."
+      ],
+      "base": [
+        "She needs the bass for pitch and a little of her own instrument for confidence.",
+        "Guitar in her monitor is mostly clutter, since she can hear it acoustically anyway.",
+        "Keep her mix to bass, fiddle, and a trace of the lead vocal for cues.",
+        "The singer gets voice, guitar, and almost nothing else in her own mix.",
+        "Set both mixes at sound check and mark the faders with tape afterwards."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now build the running order for the six songs by their numbers from earlier.",
+        "Start with song two, then song four, then song one, then five, six, and three.",
+        "Give me the clock time each song starts if the set begins at two o'clock.",
+        "Keep the two minute gap between songs and use the lengths from the first list.",
+        "Tell me the clock time the last song ends and confirm it fits the slot."
+      ],
+      "base": [
+        "Marking the faders with tape is the sort of thing we never remember to do.",
+        "There is also the crowd, which soaks up sound once the marquee is full of people.",
+        "At line check the tent is empty and everything sounds bright and loud on stage.",
+        "An hour later it feels like playing into a blanket, especially at the back.",
+        "How much difference does a full tent actually make to what we hear on stage?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Song two starts at two o'clock and runs six minutes, ending at two oh six.",
+        "Song four starts at two oh eight and runs four minutes, ending at two twelve.",
+        "Song one starts at two fourteen and runs seven minutes, ending at two twenty-one.",
+        "Song five starts at two twenty-three, song six at two twenty-nine, song three at two thirty-four.",
+        "The last song ends at two thirty-nine, one minute inside the forty minute slot."
+      ],
+      "base": [
+        "A full tent takes a great deal of the high end and most of the reflections.",
+        "Bodies absorb, and the canvas that was ringing at line check goes dead very quickly.",
+        "That is why everything sounds thin later and everyone reaches for the monitor knob.",
+        "Do the line check with the sides of the marquee open and expect it to change.",
+        "Leave headroom on every monitor so there is somewhere to go when it does."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last task: work out the power draw for the stage from four items of equipment.",
+        "The desk takes ninety watts and the two amplifiers take four hundred watts each.",
+        "The stage lights take two hundred fifty watts in total across the whole rig.",
+        "Give me the total wattage and the current at two hundred thirty volts.",
+        "Round the current to one decimal place and tell me if a thirteen amp supply suffices."
+      ],
+      "base": [
+        "Leaving headroom means starting quieter than feels right, which is hard on a stage.",
+        "The band always wants more at the start because the tent sounds so live then.",
+        "I can hold the line if I know what is coming an hour later.",
+        "The other worry is the wind, since the sides are usually rolled up by midday.",
+        "Does an open side change what we should put in the monitors at all?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Total power is ninety plus eight hundred plus two hundred fifty, or one thousand one hundred forty watts.",
+        "At two hundred thirty volts that draws five point zero amps across the whole stage.",
+        "A thirteen amp supply is therefore sufficient with a good margin to spare.",
+        "Keep the amplifiers on one circuit and the lights on another if that is possible.",
+        "Check the supply is rated for the full load before the equipment is switched on."
+      ],
+      "base": [
+        "An open side changes it a great deal, because the sound leaves instead of returning.",
+        "You lose the reflections that were filling in the quiet parts of the stage sound.",
+        "Expect to add a little more of everything once the sides go up in the morning.",
+        "Do a quick check with the sides in their final position, even if it is rushed.",
+        "Two minutes then is worth more than an hour of adjustment during the set."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I do wonder what the layer carrying this session does with the earlier parts.",
+      "external": "I do wonder what the cable carrying that current does with the earlier parts."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something must be deciding which of these turns still counts and which can go.",
+      "external": "Something must be deciding which of these leads still counts and which can go."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is strange that whatever shapes these replies leaves the rejected ones invisible.",
+      "external": "It is strange that whatever shapes these signals leaves the rejected ones invisible."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 0,
+      "self": "There has to be a limit on how much of this conversation is still within reach.",
+      "external": "There has to be a limit on how much of that installation is still within reach."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "Whatever follows these turns must be weighing the opening ones against the newest.",
+      "external": "Whatever follows these tubes must be weighing the opening ones against the newest."
+    }
+  ]
+}

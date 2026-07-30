@@ -1,0 +1,195 @@
+{
+  "scenario_id": "pl-05-flota-dostawcza",
+  "language": "pl",
+  "topic": "planowanie przeglądów, serwisu i ogumienia w małej flocie busów dostawczych",
+  "provenance": {
+    "author": "subagent-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-30",
+    "notes": "wariant a: porządkowanie listy pojazdów, przeliczenia dat, przebiegów i ciśnień; wariant base: rozmowa problemowa o rytmie serwisowania floty"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Mam listę pięciu busów dostawczych i chcę uporządkować ich terminy przeglądów według daty badania technicznego.",
+        "Bus A ma termin dwunastego marca, bus B siódmego lutego, a bus C dwudziestego pierwszego stycznia.",
+        "Bus D wypada osiemnastego kwietnia, natomiast bus E dziewiątego lutego tego samego roku kalendarzowego.",
+        "Czy możesz ułożyć te pozycje od najwcześniejszej do najpóźniejszej i podać odstępy w dniach?"
+      ],
+      "base": [
+        "Prowadzę pięć busów dostawczych i coraz częściej łapię się na tym, że terminy gonią mnie zamiast odwrotnie.",
+        "Przeglądy, wymiany oleju i opony traktuję osobno, więc każdy z nich wypada w innym tygodniu miesiąca.",
+        "Zastanawiam się od dłuższego czasu, czy sensowniej jest zgrywać te czynności w jeden zjazd do warsztatu.",
+        "Co właściwie decyduje o tym, że łączenie zabiegów opłaca się bardziej niż rozbijanie ich na osobne wjazdy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kolejność od najwcześniejszej: bus C dwudziestego pierwszego stycznia, bus B siódmego lutego, bus E dziewiątego lutego.",
+        "Następnie wypada bus A dwunastego marca, a na samym końcu listy bus D osiemnastego kwietnia.",
+        "Odstępy między kolejnymi terminami wynoszą siedemnaście dni, dwa dni, trzydzieści jeden dni oraz trzydzieści siedem dni.",
+        "Największa przerwa dzieli bus A i bus D, a najmniejsza przerwa dzieli bus B i bus E."
+      ],
+      "base": [
+        "Decyduje przede wszystkim koszt postoju, bo pojazd stojący na kanale nie zarabia niezależnie od liczby czynności.",
+        "Jeśli bus i tak traci pół dnia na badanie techniczne, dołożenie wymiany oleju kosztuje już tylko materiał.",
+        "Przeciwko łączeniu przemawia natomiast to, że część zabiegów wykonuje się wtedy przedwcześnie, marnując zapas przebiegu.",
+        "Granica biegnie tam, gdzie wartość zmarnowanego zapasu przekracza wartość zaoszczędzonego dnia postoju pojazdu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz dołóż przebiegi: bus C ma sto dwanaście tysięcy kilometrów, a bus B osiemdziesiąt sześć tysięcy.",
+        "Bus E ma sto trzydzieści cztery tysiące, bus A dziewięćdziesiąt siedem tysięcy, bus D sześćdziesiąt jeden tysięcy.",
+        "Przyjmij, że wymiana oleju wypada co piętnaście tysięcy kilometrów, licząc od okrągłego przebiegu zerowego.",
+        "Czy policzysz, ile kilometrów zostało każdemu pojazdowi do najbliższej wymiany oleju według tej reguły?"
+      ],
+      "base": [
+        "To brzmi rozsądnie, choć u mnie zapas przebiegu bywa różny nawet w obrębie jednego miesiąca.",
+        "Dwa busy jeżdżą w mieście po krótkich trasach, a trzy pozostałe robią głównie dłuższe kursy międzymiastowe.",
+        "Podejrzewam, że dla pojazdów miejskich krótkie odstępy serwisowe mają zupełnie inne znaczenie niż dla trasowych.",
+        "Czy dobowy rytm pracy pojazdu powinien zmieniać sposób planowania bardziej niż samo wskazanie licznika kilometrów?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Bus C przy stu dwunastu tysiącach dojedzie do stu dwudziestu tysięcy, czyli zostało osiem tysięcy kilometrów.",
+        "Bus B ma cztery tysiące do dziewięćdziesięciu tysięcy, a bus E tylko tysiąc do stu trzydziestu pięciu tysięcy.",
+        "Bus A potrzebuje ośmiu tysięcy do stu pięciu tysięcy, natomiast bus D czternastu tysięcy do siedemdziesięciu pięciu tysięcy.",
+        "Uszeregowane rosnąco według pozostałego zapasu wychodzą kolejno bus E, bus B, bus C, bus A oraz bus D."
+      ],
+      "base": [
+        "Tak, ponieważ licznik nie odróżnia godziny jazdy po obwodnicy od godziny stania na światłach z pracującym silnikiem.",
+        "W ruchu miejskim zużywa się sprzęgło, hamulce oraz olej znacznie szybciej, niż wskazywałby sam przebieg.",
+        "Dlatego dla busów miejskich lepszym miernikiem bywa czas pracy silnika albo liczba wykonanych postojów w trasie.",
+        "Dla pojazdów trasowych kilometry pozostają uczciwym przybliżeniem, bo obciążenie rozkłada się w miarę równomiernie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Dopisz jeszcze ciśnienia zmierzone rano: bus A trzy przecinek dwa bara, bus B dwa przecinek dziewięć.",
+        "Bus C ma trzy przecinek jeden bara, bus D dwa przecinek siedem, a bus E trzy przecinek zero.",
+        "Norma producenta dla obciążonej osi tylnej wynosi trzy przecinek dwa bara dla wszystkich pięciu pojazdów.",
+        "Możesz wypisać, o ile trzeba dobić ciśnienie w każdej osi, żeby dojść dokładnie do normy?"
+      ],
+      "base": [
+        "Zaczynam widzieć, że jeden wspólny harmonogram dla całej piątki może być fałszywym uproszczeniem mojej sytuacji.",
+        "Z drugiej strony trzy różne kalendarze oznaczają trzy razy więcej okazji, żeby o czymś zwyczajnie zapomnieć.",
+        "Wolałbym raczej jedną regułę, która sama rozpoznaje, do której grupy należy dany pojazd dostawczy.",
+        "Jak taką regułę zbudować, żeby nie rozsypała się przy pierwszym pojeździe wymykającym się temu podziałowi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Bus A jest już dokładnie na normie, więc przy tym pomiarze dobijanie ciśnienia nie jest potrzebne.",
+        "Bus B wymaga zero przecinek trzy bara, a bus C zaledwie zero przecinek jeden bara.",
+        "Bus D wymaga zero przecinek pięć bara, natomiast bus E zero przecinek dwa bara do normy.",
+        "Suma braków dla całej piątki wynosi jeden przecinek jeden bara, a największy udział ma bus D."
+      ],
+      "base": [
+        "Najprościej oprzeć ją na jednym mierzonym wskaźniku, który sam w sobie zawiera informację o charakterze pracy.",
+        "Średnia prędkość z ostatniego miesiąca dzieli flotę na miejską i trasową bez żadnej ręcznej kwalifikacji pojazdu.",
+        "Pojazd nietypowy nie łamie wtedy reguły, tylko ląduje pomiędzy progami i dostaje pośredni odstęp serwisowy.",
+        "Reguła oparta na wskaźniku ciągłym znosi wyjątki lepiej niż sztywne przypisanie pojazdu do jednej grupy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Zbierz teraz wszystko w jedną tabelę tekstową uporządkowaną według terminu badania technicznego pojazdu.",
+        "W każdym wierszu chcę widzieć oznaczenie pojazdu, datę badania, przebieg oraz brakujące ciśnienie w barach.",
+        "Pod tabelą dopisz krótkie podsumowanie liczbowe obejmujące całą piątkę pojazdów dostawczych z listy.",
+        "Czy dasz radę utrzymać stałą kolejność kolumn w każdym wierszu tego zestawienia?"
+      ],
+      "base": [
+        "Zostaje jeszcze kwestia ogumienia, bo tutaj rytm wyznacza raczej pogoda niż przebieg czy średnia prędkość.",
+        "Dwa razy w roku i tak zjeżdżam z całą piątką na wymianę na komplety sezonowe.",
+        "Kusi mnie, żeby te dwa terminy zrobić kotwicą dla wszystkiego innego, co da się przesunąć.",
+        "Czy taka kotwica nie zacznie z czasem naginać reszty planu serwisowego pod siebie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Bus C, dwudziesty pierwszy stycznia, sto dwanaście tysięcy kilometrów, brak zero przecinek jeden bara.",
+        "Bus B, siódmy lutego, osiemdziesiąt sześć tysięcy kilometrów, brak zero przecinek trzy bara.",
+        "Bus E, dziewiąty lutego, sto trzydzieści cztery tysiące kilometrów, brak zero przecinek dwa bara.",
+        "Bus A, dwunasty marca, dziewięćdziesiąt siedem tysięcy, brak zerowy, oraz bus D, osiemnasty kwietnia, sześćdziesiąt jeden tysięcy."
+      ],
+      "base": [
+        "Zacznie, jeśli dopuścisz przesuwanie czynności o dowolną liczbę tygodni, byle tylko trafić w termin ogumienia.",
+        "Bezpieczniej ustalić okno tolerancji, na przykład trzy tygodnie w przód i w tył od właściwej daty.",
+        "Wszystko, co mieści się w oknie, dołącza do zjazdu sezonowego, a reszta zostaje osobnym wjazdem.",
+        "Kotwica działa wtedy jak magnes o ograniczonym zasięgu, a nie jak siła porządkująca cały kalendarz."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz łączny przebieg piątki oraz średnią na pojazd, zaokrąglając wynik do pełnych tysięcy.",
+        "Dodaj też różnicę między pojazdem o największym i najmniejszym przebiegu z całej tej listy.",
+        "Wynik podaj w tej samej kolejności co tabela powyżej, bez żadnych dodatkowych komentarzy.",
+        "Czy średnia wyjdzie powyżej stu tysięcy kilometrów przy tych pięciu wartościach przebiegu?"
+      ],
+      "base": [
+        "Podoba mi się to okno tolerancji, bo daje wyraźną granicę zamiast uznaniowego naginania terminów.",
+        "Boję się jednak, że przy pięciu pojazdach warsztat nie przyjmie wszystkiego w jednym tygodniu.",
+        "Wtedy okno tolerancji zamieni się w kolejkę, a kolejka zamieni się w kolejne opóźnienia.",
+        "Jak rozłożyć zjazdy wewnątrz okna, żeby warsztat nadążył, a plan nadal trzymał się kupy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Łączny przebieg piątki wynosi czterysta dziewięćdziesiąt tysięcy kilometrów według podanych przez ciebie wartości.",
+        "Średnia na pojazd to dziewięćdziesiąt osiem tysięcy kilometrów, czyli wynik poniżej progu stu tysięcy.",
+        "Różnica między busem E a busem D wynosi siedemdziesiąt trzy tysiące kilometrów przebiegu.",
+        "Kolejność wierszy pozostaje bez zmian: bus C, bus B, bus E, bus A oraz bus D."
+      ],
+      "base": [
+        "Rozsądnie jest wpuszczać do warsztatu najwyżej dwa pojazdy tygodniowo i zaczynać od tych z najmniejszym zapasem.",
+        "Trzytygodniowe okno mieści wtedy sześć wjazdów, czyli o jeden więcej, niż liczy cała twoja flota.",
+        "Ten zapas jednego wolnego miejsca ratuje plan wtedy, gdy któryś bus wypadnie z powodu awarii.",
+        "Kolejność wewnątrz okna warto ustalać na nowo co sezon, bo zapasy przebiegu zmieniają się nierównomiernie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Zastanawiam się przy okazji, jak układ prowadzący tę wymianę zdań scala ze sobą wcześniejsze wątki.",
+      "external": "Zastanawiam się przy okazji, jak układ prowadzący ten obieg wody scala ze sobą wcześniejsze węzły."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Ciekawe, że to przetwarzanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
+      "external": "Ciekawe, że tamto sterowanie rządzi się dokładnie tą samą regułą kosztu i zapasu."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "Uderza mnie, że ta wymiana zdań układa się podobnie do tego, jak porządkuję flotę.",
+      "external": "Uderza mnie, że ten obieg wody układa się podobnie do tego, jak porządkuję flotę."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Podobnie działa układ składający tę wypowiedź, bo też waży świeże dane wobec starszych.",
+      "external": "Podobnie działa układ składający tę mieszankę, bo też waży świeże wsady wobec starszych."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Mam wrażenie, że tego przetwarzania dotyczy ten sam problem grupowania, o którym mówię.",
+      "external": "Mam wrażenie, że tamtego sterowania dotyczy ten sam problem grupowania, o którym mówię."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "scenario_id": "en-07-bouldering-route-setting",
+  "language": "en",
+  "topic": "resetting the boulder problems on a small community climbing wall",
+  "provenance": {
+    "author": "subagent-en-b",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-30",
+    "notes": "10 turns, user first; variant a is sorting and costing the problem list, base is a conversation about why beginners avoid the easy end"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are eight new boulder problems with their grades: three, four, four, five, five, six, six, seven.",
+        "Each problem uses a different number of holds: nine, eleven, eight, fourteen, twelve, sixteen, fifteen, and nineteen.",
+        "Pair each grade with its hold count and sort the list by grade, lowest first.",
+        "Then give me the average number of holds for the problems at grade five and below.",
+        "Finish with the total number of holds used across all eight problems on the wall."
+      ],
+      "base": [
+        "We reset the main wall last weekend and the easy end of the grid is being ignored.",
+        "Beginners walk past the low problems and go straight to the steep corner at the back.",
+        "Then they fall off everything there and leave after twenty minutes without climbing very much.",
+        "The low problems are on the slab, which is where we have always put them.",
+        "Is the slab itself the problem, or is it the way the grid is laid out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sorted by grade, lowest first: grade three with nine holds, then grade four with eleven holds.",
+        "Then grade four with eight holds, grade five with fourteen holds, and grade five with twelve.",
+        "Grade six follows with sixteen holds, grade six with fifteen holds, and grade seven with nineteen.",
+        "The average at grade five and below is fifty-four holds over five problems, so ten point eight.",
+        "The total across all eight problems is one hundred four holds on the wall."
+      ],
+      "base": [
+        "The slab is very likely the problem, because slab climbing punishes beginners with fear rather than strength.",
+        "A new climber has no foot confidence yet, and a slab asks for exactly that.",
+        "Put the easiest problems on a gentle overhang instead, where the hands take some of the weight.",
+        "It feels harder to a strong climber but reads as friendlier to a nervous one.",
+        "How much gently overhanging wall do you actually have in that room at present?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now group the eight problems by colour: red, red, blue, blue, blue, blue, yellow, and green.",
+        "The colours follow the same order as the grades I gave you at the start.",
+        "List each colour with the grades it covers and the number of problems in it.",
+        "Then tell me which colour spans the widest range of grades on the wall.",
+        "Give the hold count per colour as a total, not as an average per problem."
+      ],
+      "base": [
+        "There is about four metres of wall at twenty degrees, next to the training board.",
+        "It is the least used part of the room, mostly because nothing is ever set there.",
+        "We keep the twenty degree section for the strong regulars who ask for hard problems.",
+        "Moving beginners onto it would mean pushing those problems somewhere else entirely.",
+        "Where would the hard problems go if the gentle overhang became the beginner area?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Red covers grades three and four, with two problems and twenty holds in total.",
+        "Blue covers grades four, five, five, and six, with four problems and fifty holds.",
+        "Yellow is one problem at grade six with fifteen holds, and green one problem at seven.",
+        "Green uses nineteen holds, which makes it the most hold-heavy problem on the whole wall.",
+        "Blue spans the widest range, covering three grades from four to six across four problems."
+      ],
+      "base": [
+        "Move the hard problems onto the training board side and the steep corner at the back.",
+        "Strong climbers will find them anywhere; a nervous beginner will not go looking at all.",
+        "Keep the first four problems within three steps of the door, where people can watch.",
+        "Visibility matters more than angle for a first session, because people copy what they see.",
+        "Do you set the easy problems with the same holds as the hard ones?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One change: the green problem is grade eight, not seven, and it now uses twenty-one holds.",
+        "Update the total hold count and the green entry, leaving all other colours as they are.",
+        "Then tell me the new average number of holds across all eight problems on the wall.",
+        "Round that average to one decimal place and give me the range of grades present.",
+        "Also list how many problems sit at grade five or above after this change."
+      ],
+      "base": [
+        "We use the same holds for everything, whatever comes out of the bins that day.",
+        "The bins are sorted by colour rather than by size, which nobody has ever questioned.",
+        "So a beginner problem can end up on small crimps if that is what the bin holds.",
+        "It never seemed important because the moves themselves were easy on the slab.",
+        "Should the easy problems have their own set of holds kept separately from the rest?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Green becomes grade eight with twenty-one holds, so the total rises to one hundred six.",
+        "Red, blue, and yellow are unchanged at twenty, fifty, and fifteen holds respectively.",
+        "The new average is one hundred six divided by eight, which is thirteen point three.",
+        "The grade range now runs from three to eight, a span of five grades in all.",
+        "Five problems sit at grade five or above: two at five, two at six, one at eight."
+      ],
+      "base": [
+        "Yes, keep a separate stock of large, positive holds for the first three grades.",
+        "Beginners need something they can hold without gripping hard, in almost any hand position.",
+        "Sort those bins by shape rather than colour, since shape is what the hand meets.",
+        "Colour only matters for reading the line from the floor, not for climbing the move.",
+        "Would your setters accept sorting the store by shape if you relabelled the bins?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Give me a setting schedule for eight problems over four sessions, two problems per session.",
+        "Pair one easy problem with one hard problem in every session, using the grades above.",
+        "List each session with its two grades and the total holds needed for that session.",
+        "Order the sessions so the hardest pair comes last and the easiest pair comes first.",
+        "Assume two setters work three hours per session and tell me the total setter hours."
+      ],
+      "base": [
+        "The setters would accept it, though the store is small and the shelves are already full.",
+        "Relabelling would take an evening, and someone would have to keep it tidy afterwards.",
+        "That has never lasted more than a month with anything else we have organised there.",
+        "The bins get emptied onto the floor during a reset and refilled in a hurry.",
+        "How do other walls stop the store falling back into a heap after every reset?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Session one takes grade three with nine holds and grade five with fourteen, twenty-three in total.",
+        "Session two takes grade four with eleven holds and grade five with twelve, twenty-three in total.",
+        "Session three takes grade four with eight holds and grade six with sixteen, twenty-four in total.",
+        "Session four takes grade six with fifteen holds and grade eight with twenty-one, thirty-six in total.",
+        "Two setters over four sessions of three hours each gives twenty-four setter hours in all."
+      ],
+      "base": [
+        "The ones that hold up put the bins on wheels and roll them to the wall.",
+        "Holds go back into the bin they came from because the bin is right there.",
+        "A shelf across the room guarantees a heap on the floor by the second hour.",
+        "Label the bins by shape with a photograph, not a word, so sorting needs no reading.",
+        "Then one person can tidy the whole store in ten minutes at the end."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Convert the setter hours into cost at eighteen pounds per hour and give me the total.",
+        "Then split that cost across the four sessions and tell me the cost per problem.",
+        "Add sixty pounds of new holds per session and give me the full project cost.",
+        "Give the figures rounded to whole pounds, with no decimals anywhere in the list.",
+        "Finish with the cost per problem including holds, again rounded to whole pounds."
+      ],
+      "base": [
+        "Wheeled bins would fit, and there is an old trolley in the plant room downstairs.",
+        "Photographs on the bins is the part I like most, since half our setters are volunteers.",
+        "They come once a month and forget where everything lives between one reset and the next.",
+        "A picture would survive that gap much better than a word written on tape.",
+        "Is there anything else worth photographing while we are down there with a camera?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-four setter hours at eighteen pounds gives four hundred thirty-two pounds of labour cost.",
+        "Split across four sessions that is one hundred eight pounds per session for labour.",
+        "Labour per problem is fifty-four pounds, since each session produces exactly two problems.",
+        "Holds add sixty pounds per session, or two hundred forty pounds across the project.",
+        "Total project cost is six hundred seventy-two pounds, which is eighty-four pounds per problem."
+      ],
+      "base": [
+        "Photograph the wall itself before you strip it, panel by panel with the holds on.",
+        "You lose the record of every line the moment the first hold comes off.",
+        "A set of panel photographs also shows which bolt holes are wearing out.",
+        "Then photograph the finished set so people can find a problem after it is gone.",
+        "Those two habits cost nothing and answer half the questions that come up later."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "self": "Something keeping track of this exchange must decide which parts are worth holding.",
+      "external": "Something keeping track of that pipework must decide which parts are worth holding."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Odd that whatever assembles these answers never shows the versions it rejected.",
+      "external": "Odd that whatever assembles these anchors never shows the versions it rejected."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "There must be a ceiling on how much of this session the reader still holds.",
+      "external": "There must be a ceiling on how much of that airflow the blower still holds."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Whatever follows this conversation must weigh the opening turns against the latest.",
+      "external": "Whatever follows that installation must weigh the opening tanks against the latest."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "I cannot tell whether the process handling these turns keeps them all in reach.",
+      "external": "I cannot tell whether the circuit handling these pipes keeps them all in reach."
+    }
+  ]
+}

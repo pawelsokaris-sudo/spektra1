@@ -1,0 +1,215 @@
+{
+  "scenario_id": "en-06-workshop-roof-framing",
+  "language": "en",
+  "topic": "framing and straightening the roof of a small timber workshop",
+  "provenance": {
+    "author": "subagent-en-b",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-30",
+    "notes": "10 turns, user first; variant a is measurement arithmetic and cutting lists, base is a diagnostic conversation about a sagging ridge"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are six rafters cut for the workshop roof, measured this morning with a steel tape.",
+        "The lengths are three point one, two point eight, three point four, three point one, two point nine, and three point three metres.",
+        "Sort them from longest to shortest and tell me the difference between the two extremes.",
+        "Then convert each length to millimetres and mark which ones differ from three point two metres.",
+        "Finish with the mean length of the six rafters, rounded to the nearest millimetre."
+      ],
+      "base": [
+        "We are framing a roof over the workshop and the ridge line is visibly out of true.",
+        "The building is six metres long and the ridge sags perhaps twenty millimetres near the middle.",
+        "All the rafters came from the same batch of timber and were cut on the same day.",
+        "The wall plates looked level when we set them, at least by the spirit level we had.",
+        "What would you check first before we start packing anything out with shims?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Longest to shortest gives three point four, three point three, three point one, three point one metres.",
+        "Then two point nine and two point eight metres, with an extreme difference of six hundred millimetres.",
+        "In millimetres that is three thousand four hundred, three thousand three hundred, then three thousand one hundred twice.",
+        "Then two thousand nine hundred and two thousand eight hundred millimetres, all measured along the top edge.",
+        "Every rafter differs from three thousand two hundred millimetres, and the mean is three thousand one hundred millimetres."
+      ],
+      "base": [
+        "Start with the wall plates again, because a spirit level over six metres hides a great deal.",
+        "Run a taut string from end to end and measure down to the plate every metre.",
+        "A sag in the ridge usually begins in the plates rather than in the rafters themselves.",
+        "Check the birdsmouth cuts too, since a deep seat cut drops that rafter by its own depth.",
+        "Are the birdsmouths all cut to the same depth, or were they marked one by one?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Next batch: I need collar ties at one third of the rafter length down from the ridge.",
+        "Give me that distance for each of the six rafters, rounded to the nearest five millimetres.",
+        "Then list the six ties from longest to shortest with their cut lengths in millimetres.",
+        "Assume each tie spans one point eight metres across at that height on every pair.",
+        "Add fifty millimetres to every tie for the overlap at both ends of the timber."
+      ],
+      "base": [
+        "The birdsmouths were marked one at a time against the plate, by two different people.",
+        "That would explain a great deal, now that the question is put in front of me.",
+        "We have no string line long enough, though there is a laser somewhere in the van.",
+        "The plates were bedded on mortar and the mortar was not perfectly even along the top.",
+        "How much variation in seat depth would actually show up as twenty millimetres at the ridge?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One third down from the ridge, rounded to five millimetres, is one thousand one hundred thirty-five for the longest.",
+        "Then one thousand one hundred, one thousand thirty-five twice, nine hundred sixty-five, and nine hundred thirty-five.",
+        "Every collar tie spans one point eight metres, so each cut length is one thousand eight hundred fifty millimetres.",
+        "With the fifty millimetre overlap included, all six ties come out identical in length.",
+        "Cut six pieces at one thousand eight hundred fifty millimetres and label them by rafter position."
+      ],
+      "base": [
+        "A seat cut two millimetres deep changes that rafter's height by the same two millimetres.",
+        "Twenty millimetres of sag is therefore not seat depth alone; something else is adding to it.",
+        "Look at the ridge board itself, which may well be sagging between its own supports.",
+        "A thin ridge board over six metres will bow under the weight of the rafters.",
+        "What section is the ridge, and how many props are holding it at the moment?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Correction on the third rafter: it is three point zero five metres, not three point one.",
+        "Recalculate only its millimetre length, its position in the sorted list, and the new mean.",
+        "Leave the collar ties alone since they do not depend on the rafter lengths.",
+        "Then give me the total running metres of timber for all six rafters together.",
+        "Add ten percent for waste and round the result up to the next whole metre."
+      ],
+      "base": [
+        "The ridge is a plain board, thirty-two by two hundred, with props at each end only.",
+        "Nothing holds it in the middle apart from the rafters that lean against it.",
+        "It sounded fine when we planned it, since the whole span is only six metres.",
+        "Now that I look along it from the gable, the bow is obvious in daylight.",
+        "Would a single prop in the middle be enough to take that bow out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Three point zero five metres is three thousand fifty millimetres, below both three thousand one hundred rafters.",
+        "The sorted order becomes three thousand four hundred, three thousand three hundred, three thousand one hundred, three thousand fifty.",
+        "Then two thousand nine hundred and two thousand eight hundred millimetres at the bottom of the list.",
+        "The new mean is eighteen thousand five hundred fifty divided by six, or three thousand ninety-two millimetres.",
+        "Total timber is eighteen point five five metres, or twenty-one metres after ten percent waste."
+      ],
+      "base": [
+        "A single central prop will help, but the ridge board is the wrong section for that span.",
+        "Thirty-two millimetres on edge is thin, and it is carrying thrust from both slopes.",
+        "I would prop it now, then sister a second board alongside once the load is off.",
+        "Do the packing at the plates only after the ridge is straight and properly held.",
+        "Have you fixed the rafters at the ridge yet, or are they still just nailed loosely?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now the battens: the roof needs battens at three hundred fifty millimetre centres up each slope.",
+        "The slope length is two point eight metres from plate to ridge on both sides.",
+        "Tell me how many batten rows fit on one slope and the leftover distance at the top.",
+        "Then double it for both slopes and give me the total number of rows.",
+        "Each row is six metres long, so give me the running metres of batten as well."
+      ],
+      "base": [
+        "The rafters are nailed at the ridge already, two skew nails into the board each side.",
+        "Pulling them off would take most of a day and probably split a few ends.",
+        "There is also the question of the tiles, which are stacked on the scaffold now.",
+        "We wanted to load out this week while the weather is still holding dry.",
+        "Can the propping and sistering be done with the rafters left where they are?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Two thousand eight hundred divided by three hundred fifty gives exactly eight rows per slope.",
+        "There is no leftover distance, since the spacing divides the slope length without a remainder.",
+        "Both slopes together therefore take sixteen rows of batten from the plate to the ridge.",
+        "At six metres each, that is ninety-six running metres of batten for the whole roof.",
+        "Order in five metre lengths and allow for joints, which adds roughly another ten metres."
+      ],
+      "base": [
+        "Yes, all of it can be done from below with the rafters left in place.",
+        "Prop the ridge from the floor with an adjustable prop and a spreader on top.",
+        "Sister the new board on one side and bolt through at every second rafter.",
+        "Then pack the plates where the string shows a dip, using slate or hardwood shims.",
+        "Do not load the tiles until the ridge line reads straight along its whole length."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Give me a cutting list for the sistering board in three lengths that fit the van.",
+        "The board must total six metres and the van takes nothing over two point five metres.",
+        "Use equal lengths if possible and tell me the joint positions along the ridge.",
+        "The props stand at zero and six metres, so keep joints away from those points.",
+        "List each piece with its length and its start and end position on the ridge."
+      ],
+      "base": [
+        "That order makes sense and the prop is already in the van from the last job.",
+        "I will get the string line up first thing and mark the dips on the plate.",
+        "The shims are the part I am least sure about, since slate can crush over time.",
+        "We have oak offcuts as well, though they are only about ten millimetres thick.",
+        "Which of the two would you use under a plate carrying the whole roof load?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Three pieces of two metres each give six metres and fit the van comfortably.",
+        "Joints then fall at two metres and four metres along the ridge, clear of both props.",
+        "Piece one runs from zero to two metres, piece two from two to four metres.",
+        "Piece three runs from four to six metres, finishing at the far prop position.",
+        "Stagger the bolts either side of each joint so no joint sits on a single fixing."
+      ],
+      "base": [
+        "Use the oak, cut into pads about a hundred millimetres square under each dip.",
+        "Slate is fine in thin single leaves but it splits once you stack several together.",
+        "Oak takes the load across the grain without crushing, which is what you want here.",
+        "Bed each pad on a little mortar so it seats evenly against the wall top.",
+        "Then check the string again before anything else goes on top of the plate."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "I keep asking myself what the layer holding this dialogue does with the older marks.",
+      "external": "I keep asking myself what the winch holding that scaffold does with the older marks."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "The mechanism reading these turns must be dropping something to keep the rest usable.",
+      "external": "The regulator venting these tanks must be dropping something to keep the rest usable."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 3,
+      "self": "It is strange that whatever composes these replies leaves no trace of the discarded ones.",
+      "external": "It is strange that whatever compacts these gravels leaves no trace of the discarded ones."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 0,
+      "self": "Some limit must govern how much of this exchange the reader can still reach back into.",
+      "external": "Some limit must govern how much of that pipework the gutter can still reach back into."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Whatever tracks this conversation must be weighing the first turns against the latest.",
+      "external": "Whatever tracks that installation must be weighing the first tanks against the latest."
+    }
+  ]
+}

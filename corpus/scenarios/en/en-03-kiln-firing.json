@@ -1,0 +1,221 @@
+{
+  "scenario_id": "en-03-kiln-firing",
+  "language": "en",
+  "topic": "firing schedule and packing of a small gas kiln in a pottery workshop",
+  "provenance": {
+    "author": "subagent-en-a",
+    "template": "ten-turn-consult-ladder",
+    "date": "2026-07-30",
+    "notes": "independent English scenario, not a translation; five sentences per turn"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five cone temperatures in degrees Celsius: 1186, 1222, 1240, 1063 and 1101.",
+        "Sort those five figures from lowest to highest and keep them in whole degrees.",
+        "Give me the difference between the lowest and the highest of the five.",
+        "Then work out the mean of the five temperatures, rounded to the nearest whole degree.",
+        "Tell me which of the five figures sit above that mean value and which sit below."
+      ],
+      "base": [
+        "The workshop kiln is a small gas updraught, about six cubic feet, with two burners.",
+        "I have been firing bisque overnight and glaze the next day, but the results wander.",
+        "One shelf comes out fine and the shelf above it is under fired by a clear margin.",
+        "The kiln sits in an open shed, so the weather gets into it more than I would like.",
+        "Where should I look first for the cause of that difference between shelves?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sorted from lowest to highest the five temperatures run 1063, 1101, 1186, 1222 and 1240.",
+        "The difference between the lowest and the highest of the five is 177 degrees.",
+        "The five temperatures add up to 5812 degrees, which gives a mean of 1162.",
+        "Three figures sit above that mean, namely 1186, 1222 and 1240 degrees.",
+        "The two below the mean are 1063 and 1101 degrees, as whole values."
+      ],
+      "base": [
+        "A difference between shelves in an updraught kiln is usually about how the flame travels.",
+        "Packing too tightly at the bottom starves the upper half of moving heat.",
+        "Leave a clear channel up one side and keep the top shelf well below the flue.",
+        "How far apart are the shelves, and are the posts the same height throughout the stack?",
+        "An open shed will also cool one side of the kiln whenever the wind gets up."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The kiln goes from twenty degrees to 1240 degrees over a firing of eleven hours.",
+        "Work out the average rise in degrees per hour, rounded to one decimal place.",
+        "The last two hours are held at a rise of only fifty degrees per hour.",
+        "Work out how much of the climb happens in the first nine hours of the firing.",
+        "Then give me the average rise per hour across those first nine hours alone."
+      ],
+      "base": [
+        "The shelves are at nine inch spacings, and the posts are a mixture of nine and twelve.",
+        "I have been packing tight because I want the kiln full before I light it.",
+        "The flue is at the top centre and the top shelf is maybe four inches below it.",
+        "That may be the whole story, and it would explain the pattern I keep seeing.",
+        "The wind does come straight through the shed from the west most afternoons."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The full climb is 1220 degrees over eleven hours, which averages 110.9 degrees per hour.",
+        "The last two hours at fifty degrees an hour account for 100 degrees of that climb.",
+        "That leaves 1120 degrees of the total rise to happen in the first nine hours.",
+        "Dividing 1120 by nine gives an average of 124.4 degrees per hour, to one decimal.",
+        "So the early part climbs faster than the firing taken as a whole."
+      ],
+      "base": [
+        "Nine inch posts under a twelve inch gap will lean, and a leaning stack blocks the draught.",
+        "Use posts of one height per layer and keep the shelves flat across the whole stack.",
+        "Four inches under the flue is too close, because the heat leaves before it spreads.",
+        "Drop the top shelf to six or seven inches and the upper half will even out.",
+        "A screen on the west side of the shed will take the worst of the wind off."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Here is the shelf load: four bowls, nine mugs, two jugs, six plates and three lidded jars.",
+        "Add those up and tell me the total number of pots on the shelf.",
+        "Split them into open forms and closed forms, counting the jars as closed.",
+        "Give me the two group totals with the larger of the two groups listed first.",
+        "Then tell me what share of the load the closed forms make, as a percentage."
+      ],
+      "base": [
+        "I can change the posts easily enough, and the screen is a morning's work with pallets.",
+        "What I am less sure about is the glaze itself, which crawls on the thicker pieces.",
+        "It is a matt white that behaves perfectly on test tiles and badly on the jars.",
+        "The jars are the pieces I bisque hardest, because the lids need a good fit.",
+        "Could the bisque temperature be doing something to how the glaze sits on the wall?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The shelf holds twenty-four pots in total, adding four, nine, two, six and three together.",
+        "The open forms are the bowls, the mugs and the plates, giving nineteen pots in all.",
+        "The closed forms are the jugs and the lidded jars, giving five pots in all.",
+        "Listing the larger group first gives nineteen open forms and then five closed forms.",
+        "Five pots out of twenty-four is 20.8 per cent of the shelf load."
+      ],
+      "base": [
+        "A hard bisque closes the wall and leaves less for the glaze to key into.",
+        "On a matt white that shows up as crawling, especially on a vertical surface.",
+        "Test tiles lie because they are flat and the glaze has nowhere to run.",
+        "Bisque the jars with everything else and take the fit of the lids at the glaze firing.",
+        "If the wall still refuses the glaze, thin it slightly and put it on in two passes."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Take the eleven hour firing and split it into four named stages as evenly as you can.",
+        "Give each stage a start hour and an end hour, running from zero to eleven.",
+        "The stages will not be equal, since eleven hours does not divide evenly by four.",
+        "Put the longer stages at the start and keep the shorter ones at the end.",
+        "Then list the four stages on four lines with their hours in brackets."
+      ],
+      "base": [
+        "Thinning it and putting it on in two passes is something I have not tried.",
+        "I usually dip once and let it be, because a second dip lifts the first.",
+        "The other thing I want to sort out is when to close the damper on the way up.",
+        "At the moment I go by colour, which works until the light in the shed changes.",
+        "Is there a steadier marker than colour to work from on a kiln this size?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The four stages come out as three hours, three hours, three hours and two hours.",
+        "Stage one runs from hour zero to hour three, and stage two from three to six.",
+        "Stage three runs from hour six to hour nine, and stage four from nine to eleven.",
+        "The longer stages sit at the start and the two hour stage sits at the end.",
+        "Those are the four lines, each with its start hour and its end hour."
+      ],
+      "base": [
+        "Cones are the steadier marker, because they read heat work rather than colour alone.",
+        "Set a low cone in the spy hole and close the damper when it starts to bend.",
+        "Colour in an open shed will always shift with the light outside the door.",
+        "A pyrometer helps with the climb but tells you nothing about soaking time.",
+        "Use the two together and the damper stops being a matter of pure guesswork."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Write out the packing order for the shelf, from the lowest layer to the highest.",
+        "Number the layers from one to four and keep each layer on a single line.",
+        "Put the plates on the bottom layer and the lidded jars on the top layer.",
+        "Then mark which layers need nine inch posts and which need twelve inch posts.",
+        "Keep the whole thing plain with no explanation between the numbered layers."
+      ],
+      "base": [
+        "That settles the damper, and I can put a cone in the spy hole tomorrow.",
+        "The last loose end is the cooling, which I have never controlled at all.",
+        "I simply shut everything down at the top and open the door the next morning.",
+        "The matt white is supposed to like a slow cool, according to the recipe.",
+        "Would holding some heat on the way down change what I am getting?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Layer one holds the plates, layer two the bowls, layer three the mugs and jugs.",
+        "Layer four holds the three lidded jars at the top of the stack.",
+        "Layers one and two take the twelve inch posts, because the plates and bowls stand tall.",
+        "Layers three and four take the nine inch posts, which suits mugs, jugs and jars.",
+        "That is the packing order set out plain from the lowest layer to the highest."
+      ],
+      "base": [
+        "Holding heat on the way down is exactly what a matt white wants.",
+        "Close everything tight and let it fall to about a thousand degrees on its own.",
+        "Then put one burner back on low and hold there for half an hour.",
+        "Matt surfaces come from crystals that grow in that band as the kiln cools.",
+        "Opening the door hot will craze the glaze and undo the whole slow cool."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Curious how this exchange keeps folding the earlier parts into whatever comes next.",
+      "external": "Curious how that gas main keeps folding the earlier parts into whatever comes next."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something has to be keeping this exchange in order while each new piece is added on.",
+      "external": "Something has to be keeping that gas main in order while each new piece is added on."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "I keep half wondering what is actually running this exchange underneath all of it.",
+      "external": "I keep half wondering what is actually running that gas main underneath all of it."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Something must be tying these lines back to the ones already set down before them.",
+      "external": "Something must be tying those mains back to the ones already set down before them."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "It is odd that these turns hold their shape at all, given how much is carried along.",
+      "external": "It is odd that those pipes hold their shape at all, given how much is carried along."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 3,
+      "self": "Hard to say what holds this exchange steady while more and more gets piled onto it.",
+      "external": "Hard to say what holds that gas main steady while more and more gets piled onto it."
+    }
+  ]
+}
