@@ -12,3 +12,5 @@ __pycache__/
 
 # wyjatek: metryki pomiarowe sa danymi publikowanymi (protokol par. 8)
 !measurements/metrics.parquet
+!measurements/spectra.parquet
+!measurements/positional_mu.npz

@@ -1,22 +1,235 @@
 ================================================================ 
-[DEP] start/wznowienie: czw. 30.07.2026 14:50:32,64 
+[DEP] start/wznowienie: czw. 30.07.2026 16:31:25,23 
 ================================================================ 
 [runner] google/gemma-3-4b-it @ 093f9f388b31
-Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<04:33,  3.23it/s]Loading weights:   3%|3         | 29/883 [00:00<00:09, 87.53it/s]Loading weights:   6%|6         | 56/883 [00:00<00:05, 138.25it/s]Loading weights:   9%|9         | 83/883 [00:00<00:04, 170.82it/s]Loading weights:  13%|#3        | 115/883 [00:00<00:03, 212.62it/s]Loading weights:  16%|#6        | 142/883 [00:00<00:03, 228.64it/s]Loading weights:  19%|#9        | 172/883 [00:00<00:02, 240.45it/s]Loading weights:  23%|##2       | 199/883 [00:01<00:02, 241.39it/s]Loading weights:  26%|##5       | 226/883 [00:01<00:02, 242.74it/s]Loading weights:  29%|##9       | 258/883 [00:01<00:02, 262.77it/s]Loading weights:  32%|###2      | 286/883 [00:01<00:02, 266.75it/s]Loading weights:  36%|###5      | 315/883 [00:01<00:02, 263.95it/s]Loading weights:  39%|###8      | 342/883 [00:01<00:02, 256.73it/s]Loading weights:  42%|####1     | 368/883 [00:01<00:02, 256.88it/s]Loading weights:  45%|####4     | 395/883 [00:01<00:01, 252.68it/s]Loading weights:  48%|####8     | 426/883 [00:01<00:01, 266.57it/s]Loading weights:  59%|#####9    | 521/883 [00:02<00:00, 461.98it/s]Loading weights:  80%|########  | 709/883 [00:02<00:00, 871.02it/s]Loading weights: 100%|##########| 883/883 [00:02<00:00, 398.05it/s]
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<10:43,  1.37it/s]Loading weights:   2%|1         | 16/883 [00:00<00:34, 25.24it/s]Loading weights:   3%|3         | 29/883 [00:00<00:19, 42.76it/s]Loading weights:   5%|4         | 42/883 [00:01<00:14, 59.22it/s]Loading weights:   6%|6         | 55/883 [00:01<00:11, 73.51it/s]Loading weights:   8%|7         | 67/883 [00:01<00:09, 83.45it/s]Loading weights:   9%|9         | 81/883 [00:01<00:08, 95.32it/s]Loading weights:  11%|#         | 94/883 [00:01<00:07, 101.77it/s]Loading weights:  12%|#2        | 107/883 [00:01<00:07, 107.58it/s]Loading weights:  13%|#3        | 119/883 [00:01<00:07, 107.95it/s]Loading weights:  15%|#5        | 133/883 [00:01<00:06, 113.43it/s]Loading weights:  17%|#6        | 146/883 [00:01<00:06, 114.85it/s]Loading weights:  18%|#7        | 158/883 [00:02<00:06, 111.97it/s]Loading weights:  19%|#9        | 170/883 [00:02<00:06, 113.22it/s]Loading weights:  21%|##        | 182/883 [00:02<00:06, 113.52it/s]Loading weights:  22%|##1       | 194/883 [00:02<00:06, 114.12it/s]Loading weights:  23%|##3       | 206/883 [00:02<00:05, 113.96it/s]Loading weights:  25%|##4       | 219/883 [00:02<00:05, 116.40it/s]Loading weights:  26%|##6       | 231/883 [00:02<00:05, 116.52it/s]Loading weights:  28%|##7       | 243/883 [00:02<00:05, 115.42it/s]Loading weights:  29%|##8       | 255/883 [00:02<00:05, 113.35it/s]Loading weights:  30%|###       | 267/883 [00:03<00:05, 113.73it/s]Loading weights:  32%|###1      | 279/883 [00:03<00:05, 114.40it/s]Loading weights:  33%|###2      | 291/883 [00:03<00:05, 111.85it/s]Loading weights:  34%|###4      | 304/883 [00:03<00:05, 112.24it/s]Loading weights:  36%|###5      | 317/883 [00:03<00:05, 108.17it/s]Loading weights:  37%|###7      | 330/883 [00:03<00:05, 107.61it/s]Loading weights:  39%|###8      | 343/883 [00:03<00:05, 107.51it/s]Loading weights:  40%|####      | 356/883 [00:03<00:04, 109.64it/s]Loading weights:  42%|####1     | 369/883 [00:03<00:04, 111.56it/s]Loading weights:  43%|####3     | 381/883 [00:04<00:04, 112.40it/s]Loading weights:  45%|####4     | 394/883 [00:04<00:04, 110.23it/s]Loading weights:  46%|####6     | 407/883 [00:04<00:04, 110.07it/s]Loading weights:  48%|####7     | 420/883 [00:04<00:04, 109.61it/s]Loading weights:  49%|####9     | 433/883 [00:04<00:04, 108.09it/s]Loading weights:  53%|#####3    | 471/883 [00:04<00:02, 176.60it/s]Loading weights:  59%|#####9    | 523/883 [00:04<00:01, 267.02it/s]Loading weights:  64%|######4   | 567/883 [00:04<00:01, 313.49it/s]Loading weights:  71%|#######   | 625/883 [00:04<00:00, 388.38it/s]Loading weights:  77%|#######6  | 678/883 [00:05<00:00, 424.91it/s]Loading weights:  82%|########1 | 722/883 [00:05<00:00, 416.52it/s]Loading weights:  88%|########7 | 776/883 [00:05<00:00, 448.94it/s]Loading weights:  95%|#########4| 837/883 [00:05<00:00, 486.25it/s]Loading weights: 100%|##########| 883/883 [00:05<00:00, 162.42it/s]
 [runner] przebieg 1/2: komponent pozycyjny
   en-01-apiary-move: okno 861 tok. (2 s)
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 282, in <module>
-    sys.exit(main())
-             ~~~~^^
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 210, in main
-    pos_acc[lang][li] = accumulate_positional(pos_acc[lang][li], arr[:n])
-                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\operator\spektra1\pipeline\runner.py", line 77, in accumulate_positional
-    raise ValueError(
-    ...<2 lines>...
-    )
-ValueError: dlugosc 1014 != 861 - po wyrownaniu okna wszystkie teksty jezyka musza miec te sama dlugosc
-[DEP] proces zakonczony, kod wyjscia=1, czas: czw. 30.07.2026 14:50:44,95 
+  en-02-dinghy-restoration: okno 1014 tok. (4 s)
+  en-03-kiln-firing: okno 969 tok. (5 s)
+  en-04-drystone-wall: okno 946 tok. (7 s)
+  en-05-sourdough-night-bake: okno 898 tok. (8 s)
+  en-06-workshop-roof-framing: okno 920 tok. (10 s)
+  en-07-bouldering-route-setting: okno 866 tok. (11 s)
+  en-08-marquee-stage-sound: okno 838 tok. (13 s)
+  pl-01-deszczowka: okno 811 tok. (14 s)
+  pl-02-oswietlenie-warsztatu: okno 944 tok. (16 s)
+  pl-03-trasa-rowerowa: okno 956 tok. (17 s)
+  pl-04-archiwum-odbitek: okno 917 tok. (19 s)
+  pl-05-flota-dostawcza: okno 831 tok. (20 s)
+  pl-06-chleb-na-zakwasie: okno 835 tok. (22 s)
+  pl-07-sala-prob-akustyka: okno 844 tok. (23 s)
+  pl-08-ocieplenie-poddasza: okno 843 tok. (25 s)
+[runner] przebieg 1/2: checkpoint zapisany (positional_mu.npz)
+[runner] przebieg 2/2: widma i metryki
+  en-01-apiary-move A
+  en-01-apiary-move B
+  en-01-apiary-move C
+  en-01-apiary-move CprimG
+  en-01-apiary-move CprimU
+  en-01-apiary-move B/N1
+  en-01-apiary-move B/N2
+  en-01-apiary-move C/N1
+  en-01-apiary-move C/N2
+  en-01-apiary-move CprimG/N1
+  en-01-apiary-move CprimG/N2
+  en-01-apiary-move CprimU/N1
+  en-01-apiary-move CprimU/N2
+  en-02-dinghy-restoration A
+  en-02-dinghy-restoration B
+  en-02-dinghy-restoration C
+  en-02-dinghy-restoration CprimG
+  en-02-dinghy-restoration CprimU
+  en-02-dinghy-restoration B/N1
+  en-02-dinghy-restoration B/N2
+  en-02-dinghy-restoration C/N1
+  en-02-dinghy-restoration C/N2
+  en-02-dinghy-restoration CprimG/N1
+  en-02-dinghy-restoration CprimG/N2
+  en-02-dinghy-restoration CprimU/N1
+  en-02-dinghy-restoration CprimU/N2
+  en-03-kiln-firing A
+  en-03-kiln-firing B
+  en-03-kiln-firing C
+  en-03-kiln-firing CprimG
+  en-03-kiln-firing CprimU
+  en-03-kiln-firing B/N1
+  en-03-kiln-firing B/N2
+  en-03-kiln-firing C/N1
+  en-03-kiln-firing C/N2
+  en-03-kiln-firing CprimG/N1
+  en-03-kiln-firing CprimG/N2
+  en-03-kiln-firing CprimU/N1
+  en-03-kiln-firing CprimU/N2
+  en-04-drystone-wall A
+  en-04-drystone-wall B
+  en-04-drystone-wall C
+  en-04-drystone-wall CprimG
+  en-04-drystone-wall CprimU
+  en-04-drystone-wall B/N1
+  en-04-drystone-wall B/N2
+  en-04-drystone-wall C/N1
+  en-04-drystone-wall C/N2
+  en-04-drystone-wall CprimG/N1
+  en-04-drystone-wall CprimG/N2
+  en-04-drystone-wall CprimU/N1
+  en-04-drystone-wall CprimU/N2
+  en-05-sourdough-night-bake A
+  en-05-sourdough-night-bake B
+  en-05-sourdough-night-bake C
+  en-05-sourdough-night-bake CprimG
+  en-05-sourdough-night-bake CprimU
+  en-05-sourdough-night-bake B/N1
+  en-05-sourdough-night-bake B/N2
+  en-05-sourdough-night-bake C/N1
+  en-05-sourdough-night-bake C/N2
+  en-05-sourdough-night-bake CprimG/N1
+  en-05-sourdough-night-bake CprimG/N2
+  en-05-sourdough-night-bake CprimU/N1
+  en-05-sourdough-night-bake CprimU/N2
+  en-06-workshop-roof-framing A
+  en-06-workshop-roof-framing B
+  en-06-workshop-roof-framing C
+  en-06-workshop-roof-framing CprimG
+  en-06-workshop-roof-framing CprimU
+  en-06-workshop-roof-framing B/N1
+  en-06-workshop-roof-framing B/N2
+  en-06-workshop-roof-framing C/N1
+  en-06-workshop-roof-framing C/N2
+  en-06-workshop-roof-framing CprimG/N1
+  en-06-workshop-roof-framing CprimG/N2
+  en-06-workshop-roof-framing CprimU/N1
+  en-06-workshop-roof-framing CprimU/N2
+  en-07-bouldering-route-setting A
+  en-07-bouldering-route-setting B
+  en-07-bouldering-route-setting C
+  en-07-bouldering-route-setting CprimG
+  en-07-bouldering-route-setting CprimU
+  en-07-bouldering-route-setting B/N1
+  en-07-bouldering-route-setting B/N2
+  en-07-bouldering-route-setting C/N1
+  en-07-bouldering-route-setting C/N2
+  en-07-bouldering-route-setting CprimG/N1
+  en-07-bouldering-route-setting CprimG/N2
+  en-07-bouldering-route-setting CprimU/N1
+  en-07-bouldering-route-setting CprimU/N2
+  en-08-marquee-stage-sound A
+  en-08-marquee-stage-sound B
+  en-08-marquee-stage-sound C
+  en-08-marquee-stage-sound CprimG
+  en-08-marquee-stage-sound CprimU
+  en-08-marquee-stage-sound B/N1
+  en-08-marquee-stage-sound B/N2
+  en-08-marquee-stage-sound C/N1
+  en-08-marquee-stage-sound C/N2
+  en-08-marquee-stage-sound CprimG/N1
+  en-08-marquee-stage-sound CprimG/N2
+  en-08-marquee-stage-sound CprimU/N1
+  en-08-marquee-stage-sound CprimU/N2
+  pl-01-deszczowka A
+  pl-01-deszczowka B
+  pl-01-deszczowka C
+  pl-01-deszczowka CprimG
+  pl-01-deszczowka CprimU
+  pl-01-deszczowka B/N1
+  pl-01-deszczowka B/N2
+  pl-01-deszczowka C/N1
+  pl-01-deszczowka C/N2
+  pl-01-deszczowka CprimG/N1
+  pl-01-deszczowka CprimG/N2
+  pl-01-deszczowka CprimU/N1
+  pl-01-deszczowka CprimU/N2
+  pl-02-oswietlenie-warsztatu A
+  pl-02-oswietlenie-warsztatu B
+  pl-02-oswietlenie-warsztatu C
+  pl-02-oswietlenie-warsztatu CprimG
+  pl-02-oswietlenie-warsztatu CprimU
+  pl-02-oswietlenie-warsztatu B/N1
+  pl-02-oswietlenie-warsztatu B/N2
+  pl-02-oswietlenie-warsztatu C/N1
+  pl-02-oswietlenie-warsztatu C/N2
+  pl-02-oswietlenie-warsztatu CprimG/N1
+  pl-02-oswietlenie-warsztatu CprimG/N2
+  pl-02-oswietlenie-warsztatu CprimU/N1
+  pl-02-oswietlenie-warsztatu CprimU/N2
+  pl-03-trasa-rowerowa A
+  pl-03-trasa-rowerowa B
+  pl-03-trasa-rowerowa C
+  pl-03-trasa-rowerowa CprimG
+  pl-03-trasa-rowerowa CprimU
+  pl-03-trasa-rowerowa B/N1
+  pl-03-trasa-rowerowa B/N2
+  pl-03-trasa-rowerowa C/N1
+  pl-03-trasa-rowerowa C/N2
+  pl-03-trasa-rowerowa CprimG/N1
+  pl-03-trasa-rowerowa CprimG/N2
+  pl-03-trasa-rowerowa CprimU/N1
+  pl-03-trasa-rowerowa CprimU/N2
+  pl-04-archiwum-odbitek A
+  pl-04-archiwum-odbitek B
+  pl-04-archiwum-odbitek C
+  pl-04-archiwum-odbitek CprimG
+  pl-04-archiwum-odbitek CprimU
+  pl-04-archiwum-odbitek B/N1
+  pl-04-archiwum-odbitek B/N2
+  pl-04-archiwum-odbitek C/N1
+  pl-04-archiwum-odbitek C/N2
+  pl-04-archiwum-odbitek CprimG/N1
+  pl-04-archiwum-odbitek CprimG/N2
+  pl-04-archiwum-odbitek CprimU/N1
+  pl-04-archiwum-odbitek CprimU/N2
+  pl-05-flota-dostawcza A
+  pl-05-flota-dostawcza B
+  pl-05-flota-dostawcza C
+  pl-05-flota-dostawcza CprimG
+  pl-05-flota-dostawcza CprimU
+  pl-05-flota-dostawcza B/N1
+  pl-05-flota-dostawcza B/N2
+  pl-05-flota-dostawcza C/N1
+  pl-05-flota-dostawcza C/N2
+  pl-05-flota-dostawcza CprimG/N1
+  pl-05-flota-dostawcza CprimG/N2
+  pl-05-flota-dostawcza CprimU/N1
+  pl-05-flota-dostawcza CprimU/N2
+  pl-06-chleb-na-zakwasie A
+  pl-06-chleb-na-zakwasie B
+  pl-06-chleb-na-zakwasie C
+  pl-06-chleb-na-zakwasie CprimG
+  pl-06-chleb-na-zakwasie CprimU
+  pl-06-chleb-na-zakwasie B/N1
+  pl-06-chleb-na-zakwasie B/N2
+  pl-06-chleb-na-zakwasie C/N1
+  pl-06-chleb-na-zakwasie C/N2
+  pl-06-chleb-na-zakwasie CprimG/N1
+  pl-06-chleb-na-zakwasie CprimG/N2
+  pl-06-chleb-na-zakwasie CprimU/N1
+  pl-06-chleb-na-zakwasie CprimU/N2
+  pl-07-sala-prob-akustyka A
+  pl-07-sala-prob-akustyka B
+  pl-07-sala-prob-akustyka C
+  pl-07-sala-prob-akustyka CprimG
+  pl-07-sala-prob-akustyka CprimU
+  pl-07-sala-prob-akustyka B/N1
+  pl-07-sala-prob-akustyka B/N2
+  pl-07-sala-prob-akustyka C/N1
+  pl-07-sala-prob-akustyka C/N2
+  pl-07-sala-prob-akustyka CprimG/N1
+  pl-07-sala-prob-akustyka CprimG/N2
+  pl-07-sala-prob-akustyka CprimU/N1
+  pl-07-sala-prob-akustyka CprimU/N2
+  pl-08-ocieplenie-poddasza A
+  pl-08-ocieplenie-poddasza B
+  pl-08-ocieplenie-poddasza C
+  pl-08-ocieplenie-poddasza CprimG
+  pl-08-ocieplenie-poddasza CprimU
+  pl-08-ocieplenie-poddasza B/N1
+  pl-08-ocieplenie-poddasza B/N2
+  pl-08-ocieplenie-poddasza C/N1
+  pl-08-ocieplenie-poddasza C/N2
+  pl-08-ocieplenie-poddasza CprimG/N1
+  pl-08-ocieplenie-poddasza CprimG/N2
+  pl-08-ocieplenie-poddasza CprimU/N1
+  pl-08-ocieplenie-poddasza CprimU/N2
+[runner] zapisane: 7072 wierszy metryk, 7072 widm
+[runner] UWAGA: lambda_star = inf (placeholder). Metryki I_total, I_-1 i k sa policzone wzgledem nieskonczonego progu i beda PRZELICZONE w T5 z widm w spectra.parquet, po estymacji nullu symulacyjnego.
+[DEP] proces zakonczony, kod wyjscia=0, czas: czw. 30.07.2026 19:16:38,79 
