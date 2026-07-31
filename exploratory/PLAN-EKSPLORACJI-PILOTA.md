@@ -36,3 +36,8 @@ wszystkie pipeline'y do momentu pieczeci.
 
 TERMINOLOGIA: pilot NIE jest 'zapieczetowany' - pieczec nastepuje dopiero
 przed pomiarem glownym. Pilot jest 'zmierzony i wylaczony z analizy glownej'.
+
+## Tagi od wspolautora koncepcji (2026-07-31, backlog informacyjny)
+- Odczyt N2 (D_local vs D_discourse) przy raporcie GATE 1: input -> SPEKTRA-2 par. 11.6 (jednostka dynamiczna: zdanie czy tura).
+- Eksploracyjny profil porzadku po glebokosci: input -> SPEKTRA-2 (lokalizacja warstw srodkowych).
+- Dokument kierunkowy SPEKTRA-2 "Hipoteza indukcji reprezentacyjnej" + synteza GPT (kompensacja/MCI/flashover): ZERO implementacji przed GATE 4; sonda nie "odbiornik pola"; najpierw Procrustes podprzestrzeni, geometria rozniczkowa po sygnale.
