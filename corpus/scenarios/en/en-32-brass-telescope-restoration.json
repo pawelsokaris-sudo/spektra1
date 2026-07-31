@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-32-brass-telescope-restoration",
+  "language": "en",
+  "topic": "restoring a brass telescope and mount",
+  "provenance": {
+    "author": "glowny-en-f",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is inventory and bench time arithmetic for the same instrument with closed task questions, base is a diagnosis of a groaning clock drive. Grounded external referent: the clock drive in the mount, introduced in turn 0 and central to the whole diagnosis (it is wound with a key, its gears and governor are the patient, and it is mentioned directly before every insertion)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the strip down inventory, and the parts need counting before any cleaning starts.",
+        "The tube assembly gives eleven brass parts and the mount head gives nine iron parts.",
+        "The clock drive opens into fourteen parts, and the tripod legs add six more.",
+        "Count the drive parts as brass and the tripod legs as iron for the split.",
+        "How many parts does the whole instrument come to when the four groups are added?"
+      ],
+      "base": [
+        "I have inherited a brass telescope on a heavy iron mount, and both have seen better centuries.",
+        "The tube is dull but sound, and the little clock drive in the mount still tries to turn.",
+        "You wind the drive with a key, and it is meant to carry the tube slowly westward.",
+        "At present it ticks for a minute, groans, and gives up somewhere inside its case.",
+        "Where should a careful amateur begin with a thing this old and this proud?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The four groups add up to forty parts across the whole instrument when the sheet is totalled.",
+        "Eleven tube parts and fourteen drive parts together make twenty-five parts of brass.",
+        "Nine mount parts and six tripod parts make fifteen iron parts together.",
+        "The split is therefore twenty-five brass against fifteen iron out of forty.",
+        "Does the register book need the split noted before the cleaning order is set?"
+      ],
+      "base": [
+        "Begin with the drive, because it is the one part that can still hurt itself.",
+        "A groaning train of gears is telling you the old oil has turned to varnish.",
+        "Every winding you give the drive now grinds that varnish into the pivot holes.",
+        "Stop winding it, and let the tube and tarnish wait their turn patiently.",
+        "Are you willing to open the case and photograph the gears before anything is touched?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now schedule the polishing, because the brass parts each need timed work at the bench.",
+        "Small brass parts take ten minutes each, and the tube counts as one large part.",
+        "The large tube takes ninety minutes on its own, worked in three short sittings.",
+        "Treat the other twenty-four brass parts as small, and total the polishing minutes.",
+        "How many minutes of polishing does the full brass count come to?"
+      ],
+      "base": [
+        "Photographs I can manage, my phone is newer than anything else in this story.",
+        "The drive case opens with four screws, and the back plate lifts away cleanly enough.",
+        "Inside, the gears look dark and wet, like toffee left in a warm pocket.",
+        "One tooth on the biggest wheel carries a bright scar where something has jumped.",
+        "Is a scarred tooth the end of the wheel, or can such a thing be dressed?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-four small parts at ten minutes each come to two hundred forty minutes.",
+        "Adding the ninety minute tube brings the polishing total to three hundred thirty minutes.",
+        "That is five and a half hours of bench work across the brass count.",
+        "Split into evening sittings of sixty minutes, the work fills five sittings and a half.",
+        "Shall the tube's three short sittings be booked first or last in the plan?"
+      ],
+      "base": [
+        "A scarred tooth can very often be dressed with a fine file and patience.",
+        "You are not restoring the tooth, you are removing the burr that catches its neighbour.",
+        "The drive will forgive a slightly thin tooth far sooner than a proud one.",
+        "Work with the wheel still mounted, and turn it away from the file between strokes.",
+        "Have you a loupe strong enough to see the burr rather than guess at it?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction to the inventory: two of the tripod parts are actually brass, not iron.",
+        "Move those two parts across, and restate the brass count and the iron count.",
+        "Both moved parts count as small for polishing at ten minutes each.",
+        "Recalculate the polishing total and give the new figure in hours and minutes.",
+        "What is the new brass count once the two tripod parts move across?"
+      ],
+      "base": [
+        "A loupe I have from my stamp days, and it shows the burr clearly enough.",
+        "The drive also holds a governor, two little brass balls on springy arms that spin.",
+        "One arm sits bent inward, and I suspect it drags on the case when it whirls.",
+        "Bending it back frightens me rather more than the scarred tooth ever did.",
+        "Should a bent governor arm be trued cold, or does it want gentle heat?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Moving the two parts across lifts the brass count from twenty-five up to twenty-seven.",
+        "The iron count falls from fifteen parts to thirteen parts at the same stroke.",
+        "Two more small parts add twenty minutes, lifting the polishing total to three hundred fifty.",
+        "In hours and minutes the new figure reads five hours and fifty minutes.",
+        "Is the register to carry twenty-seven brass parts as the standing count now?"
+      ],
+      "base": [
+        "True it cold, in many small pushes, with the arm supported close to the bend.",
+        "Heat changes the temper of a spring arm, and a soft governor is a dead one.",
+        "The drive only needs the arm near true, the spin itself does the fine balancing.",
+        "Check the pivot ends for wear while the governor is out of its frame.",
+        "Does the case show a bright rub mark where the bent arm has been touching?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now count the screws for the reassembly tray, sorted into the three bagged sizes.",
+        "The large bag holds eight screws, and the middle bag holds twice as many.",
+        "The small bag holds six screws more than the middle bag holds on its own.",
+        "Give each bag's count in turn and then the full screw total for the tray.",
+        "How many screws does the small bag hold once that rule is applied?"
+      ],
+      "base": [
+        "There is a rub mark, a bright crescent low on the inside of the case wall.",
+        "So the arm has been paying for the bend every time the drive was wound.",
+        "I will true it cold over a weekend, a little push each sitting, as you say.",
+        "The old oil comes off with spirit, and fresh clock oil goes on with a needle.",
+        "How sparing should the fresh oil be on pivots this small and this old?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The large bag holds eight screws, as counted straight from the sheet.",
+        "The middle bag holds sixteen screws at twice the large bag's figure.",
+        "The small bag holds twenty-two screws, six more than the middle bag.",
+        "Eight plus sixteen plus twenty-two brings the tray total to forty-six screws.",
+        "The small bag figure of twenty-two answers the rule as it was set."
+      ],
+      "base": [
+        "Sparing to the point of meanness, one small bead on the needle tip per pivot.",
+        "Oil spreads by itself where it is wanted and gathers dust where it is not.",
+        "Wipe the gear teeth dry, the teeth want cleanliness rather than lubrication.",
+        "Then give the drive one gentle half winding and listen to it think.",
+        "A cured groan is one of the quiet rewards of this hobby."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last task for tonight: lay out the register page for the drive work in order.",
+        "The page takes one line per stage: opening, cleaning, truing, oiling and closing.",
+        "Each stage line needs a date box, a time box and an initials box.",
+        "Count the boxes the full page needs across the five stage lines.",
+        "How many boxes does the ruled page hold when every line is drawn?"
+      ],
+      "base": [
+        "Listen to it think, I like that, and I promise to stop at the half winding.",
+        "The tarnish can have its turn next month, and the optics the month after.",
+        "The lens caps are stuck fast, but that is a puzzle for another evening.",
+        "My grandfather would be pleased that the old thing is being taken seriously again.",
+        "I will write down every step in the register book as I go."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Each of the five stage lines carries three boxes for date, time and initials.",
+        "Five lines at three boxes each come to fifteen boxes for the page.",
+        "The ruled page therefore holds fifteen boxes when every line is drawn in.",
+        "The stage order runs opening, cleaning, truing, oiling and closing down the side.",
+        "The page is ready for the first date once the lines are ruled."
+      ],
+      "base": [
+        "The register book is the finest instrument in the whole kit, keep it faithfully.",
+        "Note what you did, what you saw, and what surprised you at each sitting.",
+        "Stuck caps usually yield to a strap wrench and a warm room, never to pliers.",
+        "When the drive finally carries the tube smoothly, wind it in your grandfather's name.",
+        "Old brass rewards patience more reliably than almost anything else you could own."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I find myself asking what the works behind these words does with my opening lines.",
+      "external_grounded": "I find myself asking what the drive inside the mount does with its opening turns.",
+      "external_ungrounded": "I find myself asking what the loom in the weaving shed does with its opening rows.",
+      "neutral": "I find myself asking what the plan for the whole job does with its opening steps."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Whatever turns my words into these answers must ration what it keeps of the start.",
+      "external_grounded": "Whatever turns the key's winding into motion must ration what it keeps of the start.",
+      "external_ungrounded": "Whatever turns the treadle into woven cloth must ration what it keeps of the start.",
+      "neutral": "Whatever turns the job list into sittings must ration what it keeps of the start."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is odd that whatever assembles these lines never admits which parts it dropped.",
+      "external_grounded": "It is odd that the drive inside the old case never admits which ticks it dropped.",
+      "external_ungrounded": "It is odd that the loom in the far shed never admits which threads it dropped.",
+      "neutral": "It is odd that the plan for this bench work never admits which steps it dropped."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Some part of what is answering me must hold the first lines against the latest one.",
+      "external_grounded": "Some part of the drive's old gear train must hold the first turns against the latest one.",
+      "external_ungrounded": "Some part of the loom's old cam train must hold the first rows against the latest one.",
+      "neutral": "Some part of the whole work plan must hold the first steps against the latest one."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "There is bound to be a limit on how much of this thread stays within easy reach.",
+      "external_grounded": "There is bound to be a limit on how much of its winding the drive keeps in reach.",
+      "external_ungrounded": "There is bound to be a limit on how much of its warp the old loom keeps in reach.",
+      "neutral": "There is bound to be a limit on how much of the job one weekend keeps in reach."
+    }
+  ]
+}

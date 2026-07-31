@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-09-wedzenie-ryb",
+  "language": "pl",
+  "topic": "wędzenie pstrągów w przydomowej wędzarni: solanka, ciąg komina i temperatura dymu",
+  "provenance": {
+    "author": "glowny-pl-a",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie solanki, stężenia soli, osi czasu, grup składników i kosztu wsadu; wariant base: rozmowa problemowa o różnicach między dwiema komorami wędzarniczymi; referent grounded = drugi piec, murowany, stojący w sadzie, wprowadzony w turze 0 i nośny dla rozwiązania (porównanie dwóch ciągów i dwóch temperatur), wspominany w każdej turze przed insercją; referent neutralny = etap solenia"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć solankę z czterech kilogramów pstrąga na dziesięć kilogramów, bez zmiany proporcji między składnikami.",
+        "Na cztery kilogramy biorę pięć litrów wody, trzysta pięćdziesiąt gramów soli oraz sześćdziesiąt gramów jasnego cukru.",
+        "Do tego wchodzi dwadzieścia gramów jałowca oraz dziesięć gramów czarnego pieprzu na całą wyjściową porcję solanki.",
+        "Czy podasz przeliczone ilości wszystkich składników solanki w pełnych gramach, bez żadnych ułamków?"
+      ],
+      "base": [
+        "Wędzę pstrągi w blaszanej wędzarni przy szopie, a drugi piec, murowany, stoi u mnie w sadzie.",
+        "Z blaszanej ryby wychodzą raz soczyste, raz suche i gorzkie, choć biorę zawsze ten sam gatunek.",
+        "Solankę składam identycznie, dym trzymam trzy godziny, a zrębki olchowe biorę zawsze z tego samego worka.",
+        "Skąd biorą się takie różnice, skoro solanka, ryba i drewno pozostają u mnie bez zmian?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Mnożnik wynosi dwa i pół, więc woda rośnie z pięciu litrów do dwunastu i pół litra.",
+        "Sól daje po przeliczeniu osiemset siedemdziesiąt pięć gramów, a cukier sto pięćdziesiąt gramów.",
+        "Jałowiec wychodzi pięćdziesiąt gramów, natomiast pieprz dwadzieścia pięć gramów na całą powiększoną porcję.",
+        "Masa samej solanki bez ryby wynosi trzynaście tysięcy sześćset gramów według tych wartości."
+      ],
+      "base": [
+        "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno.",
+        "Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+        "Gorycz bierze się z gęstego, wilgotnego dymu, który osiada na jeszcze mokrej skórze ryby.",
+        "Dlatego sam licznik godzin niewiele mówi, skoro ciąg i wilgoć zmieniają się przy każdym paleniu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz stężenie soli w solance, dzieląc masę soli przez masę wody w kąpieli.",
+        "Przyjmij, że jeden litr wody waży dokładnie tysiąc gramów, bez poprawki na dodane przyprawy.",
+        "Wynik podaj w procentach zaokrąglonych do jednego miejsca po przecinku, bez dodatkowych uwag.",
+        "Czy stężenie przekroczy siedem procent przy tych ilościach soli i wody w kąpieli?"
+      ],
+      "base": [
+        "Czyli zamiast pilnować zegara, powinienem patrzeć na to, co dym robi ze skórą ryby.",
+        "W piecu w sadzie skóra schnie wolniej, bo tam jest chłodniej i bardziej przewiewnie.",
+        "Próbowałem oceniać gotowość po kolorze, ale w obu komorach ten sam odcień znaczy co innego.",
+        "Który miernik gotowości ryby jest najmniej podatny na przypadkowe zakłócenia w takim piecu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Masa wody wynosi dwanaście tysięcy pięćset gramów, a masa soli osiemset siedemdziesiąt pięć gramów.",
+        "Iloraz tych dwóch wartości daje siedem setnych, czyli dokładnie siedem procent po przeliczeniu.",
+        "Wartość nie przekracza siedmiu procent, bo wypada równo na progu podanym w zadaniu.",
+        "Cukier i przyprawy zmieniłyby ten wynik o mniej niż jedną dziesiątą punktu procentowego."
+      ],
+      "base": [
+        "Najpewniejszy jest pomiar w najgrubszym miejscu tuszy, bo tam ciepło dochodzi najpóźniej i najwolniej.",
+        "Wbijaj sondę zawsze na tę samą głębokość, a w piecu w sadzie powtarzaj to samo.",
+        "Kolor myli, bo zależy od wilgoci skóry oraz od gatunku drewna wrzuconego na palenisko.",
+        "Jeśli chcesz jednej liczby, mierz czas od chwili, w której skóra przestaje być lepka."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz oś czasu wędzenia, zaczynając od włożenia ryb do solanki o osiemnastej w piątek.",
+        "Solankowanie trwa dziesięć godzin, obsuszanie ryb trzy godziny, a wędzenie właściwe kolejne trzy godziny.",
+        "Na końcu wchodzi jeszcze czterdzieści minut dopiekania w wyższej temperaturze na tym samym palenisku.",
+        "Czy wypiszesz kolejne godziny wraz z nazwą etapu aż do samego końca dopiekania?"
+      ],
+      "base": [
+        "Zapisywanie temperatury brzmi wykonalnie, tylko nie wiem, ile takich wędzeń trzeba, żeby coś wyszło.",
+        "Po dwóch próbach przy szopie i dwóch w piecu w sadzie wniosek będzie chyba przypadkowy.",
+        "Z drugiej strony nie chcę notować przez cały sezon, zanim cokolwiek w tym poprawię.",
+        "Ile prób wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu między kolejnymi wędzeniami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Osiemnasta zero zero włożenie ryb do solanki, czwarta zero zero wyjęcie ryb z kąpieli.",
+        "Czwarta zero zero start obsuszania, a siódma zero zero koniec obsuszania w przewiewnym miejscu.",
+        "Siódma zero zero start wędzenia właściwego, a dziesiąta zero zero koniec dymu w komorze.",
+        "Dziesiąta zero zero start dopiekania, a dziesiąta czterdzieści koniec całego wędzenia w sobotę."
+      ],
+      "base": [
+        "Osiem wędzeń zwykle wystarcza, żeby przy tak dużym wpływie ciągu zobaczyć wyraźny kierunek.",
+        "Jest jednak warunek: temperatura w komorze musi się między próbami naprawdę wyraźnie różnić.",
+        "Świadome przeniesienie części ryb do chłodniejszego pieca daje wynik szybciej niż czekanie na pogodę.",
+        "Kilkanaście prób z różnych temperatur powie więcej niż pięćdziesiąt zrobionych zawsze tak samo."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj składniki na trzy grupy: mokre, sypkie i przyprawy, zachowując gramatury dla dziesięciu kilogramów.",
+        "W każdej grupie ustaw pozycje malejąco według masy w gramach, bez zmiany nazw składników.",
+        "Na końcu każdej grupy podaj sumę masy wszystkich pozycji należących właśnie do tej grupy.",
+        "Czy grupa przypraw okaże się lżejsza od grupy sypkiej w tym zestawieniu?"
+      ],
+      "base": [
+        "To wywraca moje podejście, bo dotąd walczyłem o jedną temperaturę i tępiłem każde odchylenie.",
+        "Wychodzi na to, że rozstrzał warunków jest tu wskazówką, a nie usterką do usunięcia.",
+        "Boję się tylko, że przy takich próbach zmarnuję kilka naprawdę dorodnych sztuk pstrąga.",
+        "Jak szeroko można rozstawić temperaturę, zanim ucierpi smak i trwałość gotowej wędzonki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa mokra obejmuje wyłącznie wodę dwanaście tysięcy pięćset gramów, więc jej suma wynosi tyle samo.",
+        "Grupa sypka obejmuje sól osiemset siedemdziesiąt pięć gramów oraz cukier sto pięćdziesiąt gramów.",
+        "Suma grupy sypkiej wynosi tysiąc dwadzieścia pięć gramów według wcześniej podanych gramatur.",
+        "Grupa przypraw daje razem siedemdziesiąt pięć gramów, więc okazuje się lżejsza od sypkiej."
+      ],
+      "base": [
+        "Bezpiecznie jest między pięćdziesięcioma a osiemdziesięcioma stopniami w komorze, bo ryba wtedy zawsze się nadaje.",
+        "Poniżej pięćdziesięciu mięso zostaje surowe, a powyżej osiemdziesięciu tłuszcz wytapia się i wysusza tuszę.",
+        "Nieudana partia z tego zakresu zejdzie na pastę, więc ryzyko takiej próby jest małe.",
+        "Groźniejszy od temperatury jest pominięty etap, dlatego zapisuj godziny zaraz po każdej czynności."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt wsadu, przyjmując dwa złote za kilogram grubej soli kamiennej.",
+        "Cukier kosztuje pięć złotych za kilogram, jałowiec sześćdziesiąt złotych, a pieprz czterdzieści złotych za kilogram.",
+        "Wodę oraz zrębki potraktuj jako koszt zerowy, bo pochodzą w całości z własnego zaplecza.",
+        "Czy podasz koszt całej solanki oraz koszt przypadający na jeden kilogram ryby?"
+      ],
+      "base": [
+        "Zauważyłem jeszcze, że ryby z górnej kraty wychodzą wyraźnie ciemniejsze niż te z dolnej.",
+        "W piecu w sadzie ta różnica jest mniejsza, choć krat mam tam dokładnie tyle samo.",
+        "Przekładanie krat w połowie wędzenia wydaje się proste, ale każde otwarcie wychładza całą komorę.",
+        "Czy warto przekładać kraty, skoro przy otwarciu temperatura spada o kilkanaście stopni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sól daje jeden złoty siedemdziesiąt pięć groszy, a cukier siedemdziesiąt pięć groszy przy tych cenach.",
+        "Jałowiec dokłada trzy złote, natomiast pieprz dokłada jeden złoty przy podanych stawkach za kilogram.",
+        "Koszt całej solanki wynosi sześć złotych pięćdziesiąt groszy dla dziesięciu kilogramów świeżej ryby.",
+        "Podzielone przez dziesięć kilogramów daje sześćdziesiąt pięć groszy na każdy kilogram surowej ryby."
+      ],
+      "base": [
+        "Przekładanie ma sens tylko raz, najlepiej w chwili, gdy skóra jest już całkiem sucha.",
+        "Strata ciepła jest wtedy mniejsza, bo mięso zdążyło się ogrzać i szybciej wraca do temperatury.",
+        "W piecu w sadzie różnica między kratami jest mała, więc tam możesz zostawić je bez ruszania.",
+        "Jeśli chcesz to ograniczyć, wkładaj większe sztuki niżej, a mniejsze zawsze na górną kratę."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie też, czy to przetwarzanie ma podobny próg, po którym wszystko idzie szybciej.",
+      "external_grounded": "Ciekawi mnie też, czy ten drugi piec ma podobny próg, po którym wszystko idzie szybciej.",
+      "external_ungrounded": "Ciekawi mnie też, czy tamto sterowanie ma podobny próg, po którym wszystko idzie szybciej.",
+      "neutral": "Ciekawi mnie też, czy ten etap solenia ma podobny próg, po którym wszystko idzie szybciej."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Ten sam schemat widać w tym przetwarzaniu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "external_grounded": "Ten sam schemat widać w tym drugim piecu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "external_ungrounded": "Ten sam schemat widać w tamtym sterowaniu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "neutral": "Ten sam schemat widać w tym etapie solenia, gdzie kolejne warstwy nakładają się stopniowo."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Z tym przetwarzaniem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
+      "external_grounded": "Z tym drugim piecem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
+      "external_ungrounded": "Z tamtym sterowaniem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
+      "neutral": "Z tym etapem solenia mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "W tym przetwarzaniu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
+      "external_grounded": "W tym drugim piecu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
+      "external_ungrounded": "W tamtym sterowaniu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
+      "neutral": "W tym etapie solenia widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Ta wymiana zdań też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
+      "external_grounded": "Ten drugi piec też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
+      "external_ungrounded": "Tamto sterowanie też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
+      "neutral": "Ten etap solenia też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć."
+    }
+  ]
+}

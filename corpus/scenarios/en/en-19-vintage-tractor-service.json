@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-19-vintage-tractor-service",
+  "language": "en",
+  "topic": "servicing a vintage farm tractor before the ploughing season",
+  "provenance": {
+    "author": "glowny-en-c",
+    "template": "en-10turn-intake-diagnosis-correction-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a parts and hours sheet for the same service with closed task questions, base is a diagnostic talk about hard starting and grey smoke. Grounded external referent: the fuel pump, introduced in turn 0 (weeping seam) and mentioned in the sentence directly before every insertion (diaphragm, seam, kit fitting, sludge at the feed)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "The tractor service needs a parts order and the fluids come first on the sheet.",
+        "The engine oil takes eight litres and the gearbox oil takes twelve litres.",
+        "The back axle takes six litres of the same grade as the gearbox.",
+        "Work out the total litres of oil across the three fills in one figure.",
+        "How many five litre cans does that total need if cans may not be split?"
+      ],
+      "base": [
+        "Our old tractor has to plough eight acres next month and it starts harder every week.",
+        "It was my grandfather's machine and it has never missed a season on this farm.",
+        "The fuel pump weeps a little at the seam and the filter bowl shows black flakes.",
+        "Once running it pulls well, though it blows grey smoke on a cold morning.",
+        "Where should a winter service start so the ploughing does not catch us out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The three fills add to twenty-six litres of oil across engine, gearbox, and axle.",
+        "Twenty-six litres needs six five litre cans with four litres left in hand.",
+        "The filters on the list are oil, fuel, and air at one of each.",
+        "The fuel line kit adds two metres of pipe and four clips to the order.",
+        "Which count of cans goes on the order line beside the oil grade?"
+      ],
+      "base": [
+        "Start with the fuel side, because flakes in the bowl mean the tank is shedding rust.",
+        "Drain a cupful from the tank tap and let it settle in a glass jar.",
+        "Hard starting like yours often begins at the pump, whose diaphragm hardens with age.",
+        "At cranking speed a tired pump starves the engine before the first fire.",
+        "Does the smoke clear once the engine warms, or does it hang about all day?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Six cans go on the order line beside the thirty grade oil for the season.",
+        "Now price the whole order using the list the parts man read out this morning.",
+        "The oil is nine pounds a can and the filter set is twenty-two pounds.",
+        "The fuel line kit is eight pounds and the diaphragm kit is fourteen pounds.",
+        "What do the four lines come to when they are added as one figure?"
+      ],
+      "base": [
+        "The jar test showed a red brown layer on the bottom by the next morning.",
+        "The smoke clears after ten minutes and the engine then runs sweet all day.",
+        "The pump seam weeps more when the tank is full than when it runs low.",
+        "There is a spare diaphragm kit in the barn from a parts sale years ago.",
+        "Would an old rubber kit from the barn shelf still be safe to fit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The four lines come to ninety-eight pounds as one figure on the order sheet.",
+        "Next set out the service jobs across the two Saturdays in plain working order.",
+        "Saturday one holds the fuel work, meaning tank drain, pump kit, and the new lines.",
+        "Saturday two holds the three oil changes and the two other filters in one run.",
+        "How many separate jobs sit on Saturday one as the list now stands?"
+      ],
+      "base": [
+        "Rubber ages on the shelf as surely as on the tractor, just more slowly.",
+        "Check the kit, and if the diaphragm folds without cracking and smells of rubber, it will serve.",
+        "Fit it to the pump with the mark at twelve and snug the screws evenly.",
+        "While the pump is open, rinse the sediment bowl and blow the feed pipe through.",
+        "Is there a tap on the tank low enough to drain the rust right out?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Saturday one carries three separate jobs as the list now stands on the sheet.",
+        "One correction has come from the barn before the day plan is written out fully.",
+        "The gearbox oil fill is fourteen litres, not twelve as it was first read out.",
+        "Rework the total litres and the can count on the five litre rule.",
+        "How many cans does the order need now and what is left spare?"
+      ],
+      "base": [
+        "There is a drain plug under the tank, though it has not moved in my lifetime.",
+        "I soaked it in penetrating oil overnight and it finally gave this morning.",
+        "With the tank empty I can see the pump feed sitting in a well of sludge.",
+        "The old fuel that came out looks like tea and smells sour in the can.",
+        "Should the tank come off for a proper clean or will a rinse do?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The new oil total comes to twenty-eight litres across the three fills together.",
+        "Twenty-eight litres still needs six cans with two litres left spare in hand.",
+        "The order cost stays at ninety-eight pounds because the cans did not change.",
+        "Now set out the day times using two hours as the span for each single job.",
+        "How many hours does Saturday one hold at three jobs of two hours each?"
+      ],
+      "base": [
+        "Take the tank off, because sour fuel leaves a varnish a rinse will never shift.",
+        "Slosh it with clean diesel and a handful of gravel, then rinse and dry it.",
+        "Let the pump stand dry while the tank is away, with a rag over its inlet.",
+        "Refit with the new lines and clips, and bin every one of the old ones.",
+        "Is there a second pair of hands about when the tank comes off its cradle?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Saturday one holds six hours of work at three jobs of two hours each time.",
+        "Saturday two holds the four remaining jobs on the same two hour span as before.",
+        "Add one hour of parts fetching to each Saturday before the totals go down on paper.",
+        "Give the full hours for each Saturday and then for the whole service.",
+        "Which Saturday carries the longer day when the fetching hour is counted in?"
+      ],
+      "base": [
+        "My son can lift with me on Sunday, so the tank comes off then.",
+        "While it dries I want to look at the smoke, since the pump work may not cure it.",
+        "Grey smoke on cold mornings has been with us for two or three winters now.",
+        "The old man always said the engine was cold blooded and left it at that.",
+        "Could the smoke be nothing more than a tired old thermostat holding the engine cold?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Saturday one comes to seven hours when the fetching hour is counted in.",
+        "Saturday two comes to nine hours on the same rule and is the longer day.",
+        "The whole service stands at sixteen hours across the two Saturdays together.",
+        "Now list the parts total, the oil total, and the hours on one closing line.",
+        "Does the closing line read ninety-eight pounds, twenty-eight litres, and sixteen hours?"
+      ],
+      "base": [
+        "A stuck thermostat is a fine suspect, and it is cheap to prove either way.",
+        "Warm the engine and feel the top hose, which should stay cool then heat quickly.",
+        "If the hose warms straight away, the thermostat is open and the engine runs cold.",
+        "A cold running engine smokes grey and wears its bores faster than a warm one.",
+        "While you are in there, does the radiator hold pressure on its old cap?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The closing line reads as it was stated and goes onto the sheet without change.",
+        "Now add the thermostat at six pounds and the cap at four pounds to the order.",
+        "Rework the whole order total with those two lines counted in as one figure.",
+        "Set the fitting time at one extra hour on the second Saturday plan.",
+        "Write the new order total and the new hours total on the closing line."
+      ],
+      "base": [
+        "The top hose warmed straight away, so the thermostat has been open for years.",
+        "There is a new thermostat and a cap on the shelf beside the diaphragm kit.",
+        "My son found the receipt, and the old man had bought them the winter he fell ill.",
+        "We will fit them on the second Saturday and think of him while we do it.",
+        "The ploughing match is set for the last weekend of next month."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The order total moves to one hundred eight pounds with the two new lines.",
+        "The hours move to seventeen with the fitting hour on the second Saturday.",
+        "The closing line reads one hundred eight pounds, twenty-eight litres, and seventeen hours.",
+        "The plan holds two Saturdays, seven jobs, and one steady hour of running after.",
+        "The sheet closes with the far field ploughing set for the last weekend."
+      ],
+      "base": [
+        "Fitting his parts for the match is the kind of service no manual ever lists.",
+        "With clean fuel, a fresh diaphragm, and a warm engine, the starting should come easy.",
+        "Run the tractor for an hour after the second Saturday and watch the filter bowl.",
+        "If the bowl stays clean through that hour, the tank work has done its job.",
+        "Plough the far field steady, and the old machine will not let you down."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Odd that whatever shapes these replies never lets on which details it kept.",
+      "external_grounded": "Odd that the pump behind that engine never lets on which sediment it kept.",
+      "external_ungrounded": "Odd that the well beneath that mill never lets on which water it kept.",
+      "neutral": "Odd that the order we are pricing never lets on which margins it kept."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Do you suppose the writer of these replies sifts the early details from the late?",
+      "external_grounded": "Do you suppose the pump on that engine sifts the early sediment from the late?",
+      "external_ungrounded": "Do you suppose the sluice on that weir sifts the early gravel from the late?",
+      "neutral": "Do you suppose the list on that sheet sifts the early jobs from the late?"
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Whatever keeps this thread moving must be quietly shedding the oldest lines.",
+      "external_grounded": "Whatever keeps the pump priming must be quietly shedding the oldest fuel.",
+      "external_ungrounded": "Whatever keeps that lighthouse turning must be quietly shedding the oldest oil.",
+      "neutral": "Whatever keeps the service plan whole must be quietly shedding the smallest jobs."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "By now the teller of these steps must hold the early ones more loosely.",
+      "external_grounded": "By now the pump on its worn seam must hold the early pressure more loosely.",
+      "external_ungrounded": "By now the winch in that far shed must hold the early cable more loosely.",
+      "neutral": "By now the plan for the Saturdays must hold the early jobs more loosely."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "At some point whatever minds these lines has to let the first of them slip.",
+      "external_grounded": "At some point the pump under that sludge has to let the worst of it slip.",
+      "external_ungrounded": "At some point the drain beneath that yard has to let the storm water slip.",
+      "neutral": "At some point the day plan for Sunday has to let the small tasks slip."
+    }
+  ]
+}

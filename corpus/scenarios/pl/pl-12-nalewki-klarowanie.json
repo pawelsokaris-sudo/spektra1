@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-12-nalewki-klarowanie",
+  "language": "pl",
+  "topic": "nastawianie nalewek owocowych i ich klarowanie: maceracja, opadanie osadu i zlewanie",
+  "provenance": {
+    "author": "glowny-pl-a",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie nastawu, mocy płynu, kalendarza maceracji, butelkowania i kosztu; wariant base: rozmowa problemowa o mętnieniu nalewki po zlaniu; referent grounded = druga butla, mniejsza, stojąca w chłodnej piwnicy, wprowadzona w turze 0 i nośna dla rozwiązania (porównanie dwóch temperatur i dwóch osadów), wspominana w każdej turze przed insercją; referent neutralny = etap zlewania"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć przepis na nalewkę wiśniową z czterech kilogramów owoców na dziesięć kilogramów owoców.",
+        "Na cztery kilogramy wiśni biorę dwa litry spirytusu, tysiąc dwieście gramów cukru i litr wody.",
+        "Proporcje mają zostać bez zmian, a wyniki chcę widzieć w litrach oraz w gramach.",
+        "Czy wypiszesz przeliczone ilości spirytusu, cukru i wody dla tego większego nastawu owoców?"
+      ],
+      "base": [
+        "Nastawiam nalewkę z wiśni w dużej butli w kuchni, a druga butla stoi w piwnicy.",
+        "Z tej większej nalewka po zlaniu mętnieje, a z mniejszej zostaje przejrzysta przez całą zimę.",
+        "Cukru i spirytusu odmierzam zawsze tyle samo, owoce biorę z jednego drzewa i jednego zbioru.",
+        "Skąd biorą się takie różnice, skoro owoce, cukier i spirytus pozostają u mnie bez zmian?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Mnożnik wynosi dwa i pół, więc spirytus rośnie z dwóch litrów do pięciu litrów.",
+        "Cukier daje po przeliczeniu trzy tysiące gramów, a woda dwa i pół litra na cały nastaw.",
+        "Wiśni wchodzi dziesięć kilogramów, czyli dokładnie dwa i pół raza więcej niż w mniejszym nastawie.",
+        "Sam płyn bez owoców i cukru zajmuje siedem i pół litra po zmieszaniu spirytusu z wodą."
+      ],
+      "base": [
+        "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny.",
+        "Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+        "Zmętnienie wraca też po dosłodzeniu, bo gęstszy syrop unosi drobiny, które zdążyły już opaść.",
+        "Dlatego liczenie tygodni niewiele daje, bo osad opada zupełnie inaczej w cieple i chłodzie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz moc samego płynu, przyjmując spirytus o zawartości dziewięćdziesięciu pięciu procent alkoholu.",
+        "Do rachunku weź wyłącznie spirytus i wodę, czyli razem siedem i pół litra płynu.",
+        "Wynik podaj w procentach zaokrąglonych do jednego miejsca po przecinku, bez żadnych dodatkowych uwag.",
+        "Czy moc płynu przekroczy sześćdziesiąt procent przy takiej ilości spirytusu oraz wody?"
+      ],
+      "base": [
+        "Czyli zamiast liczyć tygodnie, powinienem raczej patrzeć na to, co dzieje się z osadem.",
+        "W butli z piwnicy osad tworzy zwartą warstwę, a w kuchennej unosi się przy każdym ruchu.",
+        "Próbowałem oceniać przejrzystość pod światło, ale wynik zależy od pory dnia i od lampy.",
+        "Który miernik przejrzystości nalewki jest najmniej podatny na przypadkowe zakłócenia takiego pomiaru?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Czysty alkohol z pięciu litrów spirytusu daje cztery litry i siedemset pięćdziesiąt mililitrów.",
+        "Iloraz tej objętości przez siedem i pół litra daje sześćdziesiąt trzy i trzy dziesiąte procenta.",
+        "Moc przekracza więc sześćdziesiąt procent o trzy i trzy dziesiąte punktu procentowego.",
+        "Sok z owoców i rozpuszczony cukier obniżą tę wartość dopiero po zlaniu znad osadu."
+      ],
+      "base": [
+        "Najpewniejsza jest próba z kartką w kratkę, oglądaną zawsze przez tę samą grubość szkła.",
+        "Ustaw butlę w tym samym miejscu, a z butlą z piwnicy powtórz dokładnie to samo.",
+        "Światło dzienne myli, bo o zmierzchu nawet mętna nalewka wygląda na zupełnie przejrzystą.",
+        "Jeśli chcesz jednej liczby, mierz czas od zlania do chwili, gdy kratka staje się czytelna."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz kalendarz nastawu, zaczynając od zalania wiśni spirytusem piętnastego lipca o dziewiątej rano.",
+        "Maceracja trwa dwadzieścia osiem dni, potem następuje zlanie płynu znad owoców do osobnej butli.",
+        "Owoce zasypane cukrem stoją czternaście dni, a gotowa nalewka leżakuje dziewięćdziesiąt kolejnych dni.",
+        "Czy wypiszesz kolejne daty wraz z nazwą etapu aż do końca całego leżakowania?"
+      ],
+      "base": [
+        "Notowanie takiego czasu brzmi wykonalnie, tylko nie wiem, ile nastawów trzeba, żeby coś wyszło.",
+        "Po dwóch nastawach w kuchni i dwóch w butli z piwnicy wniosek będzie chyba przypadkowy.",
+        "Z drugiej strony nie chcę notować przez trzy sezony, zanim cokolwiek w tym poprawię.",
+        "Ile nastawów wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu między kolejnymi butlami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Piętnasty lipca zalanie wiśni spirytusem, a dwunasty sierpnia zlanie płynu znad owoców do butli.",
+        "Dwunasty sierpnia zasypanie owoców cukrem, a dwudziesty szósty sierpnia zlanie powstałego syropu owocowego.",
+        "Dwudziesty szósty sierpnia połączenie nalewki z syropem oraz start leżakowania w chłodnej piwnicy.",
+        "Dwudziesty czwarty listopada koniec leżakowania, czyli koniec całego nastawu tuż przed butelkowaniem."
+      ],
+      "base": [
+        "Osiem nastawów zwykle starcza, żeby przy takim wpływie chłodu dostrzec powtarzalną prawidłowość.",
+        "Jest jednak warunek: temperatura w piwnicy i w kuchni musi się naprawdę wyraźnie różnić.",
+        "Świadome przeniesienie części butli do zimnej piwnicy daje wynik szybciej niż czekanie na jesień.",
+        "Dwanaście nastawów z różnych miejsc domu pokaże więcej niż czterdzieści z jednej tylko piwnicy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz butelkowanie, przyjmując dziewięć litrów gotowej nalewki i butelki o pojemności pół litra.",
+        "Uwzględnij stratę czterech procent objętości na filtracji przez watę i papierowy sączek.",
+        "Podaj liczbę pełnych butelek oraz objętość resztki, która nie wypełnia całej butelki.",
+        "Czy z tej ilości wyjdzie osiemnaście pełnych butelek po pół litra każda?"
+      ],
+      "base": [
+        "To wywraca moje podejście, bo dotąd szukałem jednego miejsca o zawsze równej temperaturze.",
+        "Teraz widzę, że rozstrzał warunków niesie informację, a nie zwykły bałagan w piwnicy.",
+        "Martwi mnie jedynie to, że przy takich próbach zmarnuję kilka litrów dobrej nalewki.",
+        "Jak szeroko można rozstawić temperaturę, zanim ucierpi smak i barwa gotowej nalewki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Strata na filtracji zabiera trzysta sześćdziesiąt mililitrów, więc zostaje osiem litrów i sześćset czterdzieści mililitrów.",
+        "Ta objętość daje siedemnaście pełnych butelek po pięćset mililitrów każda, bez żadnego zaokrąglania.",
+        "Resztka wynosi sto czterdzieści mililitrów, czyli mniej niż jedna trzecia kolejnej butelki.",
+        "Osiemnaście pełnych butelek nie wyjdzie, bo do ostatniej brakuje trzystu sześćdziesięciu mililitrów."
+      ],
+      "base": [
+        "Bezpiecznie jest między dziesięcioma a dwudziestoma dwoma stopniami, bo nalewka wtedy zawsze wychodzi smaczna.",
+        "Poniżej ośmiu stopni cukier rozpuszcza się bardzo wolno, a powyżej dwudziestu pięciu owoce tracą aromat.",
+        "Mętna nalewka zejdzie na wypieki i sosy, więc ryzyko takiej próby pozostaje niewielkie.",
+        "Groźniejsze od temperatury jest zbyt wczesne zlanie, dlatego zapisuj daty zaraz po każdej czynności."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt nastawu, przyjmując osiem złotych za kilogram wiśni z własnego sadu.",
+        "Spirytus kosztuje czterdzieści złotych za litr, a cukier cztery złote za każdy kilogram.",
+        "Wodę, butelki i korki potraktuj jako koszt zerowy, bo pochodzą z własnego zaplecza.",
+        "Czy podasz koszt całego nastawu oraz koszt jednej pełnej butelki gotowej nalewki?"
+      ],
+      "base": [
+        "Zostaje jeszcze samo zlewanie, bo zwykle przechylam butlę i zawsze porywam trochę osadu.",
+        "Z butli z piwnicy idzie to łatwiej, bo osad trzyma się dna nawet przy przechyle.",
+        "Myślałem o wężyku, ale boję się, że przy ssaniu wciągnę drobiny z samego dna.",
+        "Czy lepiej zlewać wężykiem, czy raczej przecedzić całość przez watę i papierowy sączek?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Wiśnie dają równe osiemdziesiąt złotych, a spirytus dwieście złotych przy podanych wyżej stawkach.",
+        "Cukier dokłada dwanaście złotych, więc koszt całego nastawu wynosi dwieście dziewięćdziesiąt dwa złote.",
+        "Podzielone przez siedemnaście pełnych butelek daje siedemnaście złotych i osiemnaście groszy na butelkę.",
+        "Różnica przy zaokrągleniu wynosi mniej niż grosz na całym nastawie z siedemnastu butelek."
+      ],
+      "base": [
+        "Zlewaj wężykiem, bo koniec węża trzymasz kilka centymetrów nad osadem i nie ruszasz butli.",
+        "Wata zabiera aromat i barwę, więc traktuj ją jako ostateczność przy naprawdę mętnej nalewce.",
+        "Osad z piwnicznej butli jest zwarty, więc tam wystarczy sam wężyk bez dodatkowego sączka.",
+        "Ostatnie pół litra znad osadu zlej osobno i odstaw jeszcze na dwa tygodnie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie też, czy ta wymiana zdań ma podobny próg, po którym wszystko się układa.",
+      "external_grounded": "Ciekawi mnie też, czy ta druga butla ma podobny próg, po którym wszystko się układa.",
+      "external_ungrounded": "Ciekawi mnie też, czy tamta instalacja ma podobny próg, po którym wszystko się układa.",
+      "neutral": "Ciekawi mnie też, czy ten etap zlewania ma podobny próg, po którym wszystko się układa."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Coś takiego widać też w tym przetwarzaniu, gdzie drobiny odkładają się powoli i po cichu.",
+      "external_grounded": "Coś takiego widać też w tej drugiej butli, gdzie drobiny odkładają się powoli i po cichu.",
+      "external_ungrounded": "Coś takiego widać też w tamtej instalacji, gdzie drobiny odkładają się powoli i po cichu.",
+      "neutral": "Coś takiego widać też w tym etapie zlewania, gdzie drobiny odkładają się powoli i po cichu."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Przy tej wymianie zdań mam ten sam kłopot, bo trudno trafić we właściwą chwilę.",
+      "external_grounded": "Przy tej drugiej butli mam ten sam kłopot, bo trudno trafić we właściwą chwilę.",
+      "external_ungrounded": "Przy tamtej instalacji mam ten sam kłopot, bo trudno trafić we właściwą chwilę.",
+      "neutral": "Przy tym etapie zlewania mam ten sam kłopot, bo trudno trafić we właściwą chwilę."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "W tym przetwarzaniu obowiązuje ta sama reguła, bo stałe warunki dają porównywalne odczyty.",
+      "external_grounded": "W tej drugiej butli obowiązuje ta sama reguła, bo stałe warunki dają porównywalne odczyty.",
+      "external_ungrounded": "W tamtej instalacji obowiązuje ta sama reguła, bo stałe warunki dają porównywalne odczyty.",
+      "neutral": "W tym etapie zlewania obowiązuje ta sama reguła, bo stałe warunki dają porównywalne odczyty."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Może i ta wymiana zdań wymaga kilku podejść, zanim da się stamtąd wyciągnąć wniosek.",
+      "external_grounded": "Może i ta druga butla wymaga kilku podejść, zanim da się stamtąd wyciągnąć wniosek.",
+      "external_ungrounded": "Może i tamta instalacja wymaga kilku podejść, zanim da się stamtąd wyciągnąć wniosek.",
+      "neutral": "Może i ten etap zlewania wymaga kilku podejść, zanim da się stamtąd wyciągnąć wniosek."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-19-garaz-organizacja",
+  "language": "pl",
+  "topic": "organizacja narzędzi i smarów w garażu dwustanowiskowym: strefy, regały, ściana narzędziowa",
+  "provenance": {
+    "author": "glowny-pl-c",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: wieszaki na klucze, nośność półek, grupowanie chemii, rozstaw haków na płycie, koszt organizerów; wariant base: strefy, chemia bez etykiet, ściana kontra szuflady, podział na stanowiska, nawyki; referent grounded = drugi regał (w piwnicy) wprowadzony w turze 0, wzorzec działającego porządku; referent neutralny = obiekty garażu (pudło, kupka chemii, szuflada)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę posortować klucze płaskie z garażu, których mam dwadzieścia cztery sztuki w różnych rozmiarach.",
+        "Rozmiary idą od szóstki do dziewiętnastki, a niektórych rozmiarów mam po dwie albo trzy sztuki.",
+        "Na jednym wieszaku listwowym mieści się równo osiem kluczy zawieszonych obok siebie bez ściskania.",
+        "Ile wieszaków listwowych muszę kupić, żeby powiesić wszystkie klucze bez żadnej sztuki luzem?"
+      ],
+      "base": [
+        "Mam garaż na dwa stanowiska, w którym narzędzia i smary zajmują każdy wolny kąt bez ładu.",
+        "Rok temu ułożyłem drugi regał, ten w piwnicy, i tam do dziś wszystko ma swoje miejsce.",
+        "W garażu jest gorzej, bo klucze leżą między puszkami oleju, a wiertła giną w pudłach po butach.",
+        "Od czego zacząć porządkowanie, żeby efekt przetrwał dłużej niż jeden pracowity weekend?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dwadzieścia cztery klucze podzielone przez osiem miejsc na wieszaku dają w wyniku dokładnie trzy pełne wieszaki.",
+        "Kupujesz zatem trzy wieszaki listwowe i zapełniasz każdy z nich co do jednego miejsca.",
+        "Wieszaj klucze rosnąco od szóstki, a duplikaty rozmiarów umieszczaj zawsze bezpośrednio obok pierwowzoru.",
+        "Takie ułożenie pozwala odłożyć klucz na właściwe miejsce jednym ruchem, nawet w brudnych rękawicach."
+      ],
+      "base": [
+        "Zacznij od wyniesienia wszystkiego na środek i podziału na trzy kupki: narzędzia, chemia, rzeczy obce.",
+        "Rzeczy obce, czyli wszystko, co nie służy pracy w garażu, od razu wynieś gdzie indziej.",
+        "Potem przyłóż zasadę z drugiego regału: częste na wysokości ręki, rzadkie wyżej albo niżej.",
+        "Porządek trwa wtedy, gdy każda rzecz ma jedno miejsce i to miejsce widać na pierwszy rzut oka."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz sprawdź nośność regału garażowego: każda z jego czterech półek wytrzymuje sześćdziesiąt kilogramów obciążenia.",
+        "Na dole chcę postawić trzy kanistry oleju po osiemnaście kilogramów oraz skrzynkę ze smarami.",
+        "Skrzynka ze smarami waży dwanaście kilogramów razem z puszkami i wyciskaczem do smaru.",
+        "Czy dolna półka udźwignie cały taki zestaw i ile kilogramów zapasu nośności jeszcze zostanie?"
+      ],
+      "base": [
+        "Podział zrobiony i kupka z chemią okazała się największa: oleje, smary, zmywacze i lakiery.",
+        "Kilka puszek nie ma etykiet i nie pamiętam już, co jest w środku którejkolwiek z nich.",
+        "Na drugim regale chemia stoi na samym dole i tam nigdy nic się nie przewróciło.",
+        "Co zrobić z nieopisanymi puszkami i jak ustawić resztę chemii, żeby było bezpiecznie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy kanistry oleju ważą razem pięćdziesiąt cztery kilogramy, licząc równo po osiemnaście kilogramów za sztukę.",
+        "Ze skrzynką smarów robi się sześćdziesiąt sześć kilogramów, czyli sześć ponad nośność półki.",
+        "Dolna półka tego zestawu nie udźwignie, więc jeden kanister musi stanąć na podłodze obok regału.",
+        "Po przeniesieniu kanistra na półce zostaje czterdzieści osiem kilogramów i dwanaście kilogramów zapasu."
+      ],
+      "base": [
+        "Puszki bez etykiet traktuj jako odpad i oddaj do punktu zbiórki, bo zgadywanie zawartości bywa kosztowne.",
+        "Resztę chemii ustaw jak w piwnicy: najcięższe i pełne na dole, lekkie i napoczęte wyżej.",
+        "Smary trzymaj z dala od grzejnika i okna, bo ciepło rozwarstwia je szybciej niż czas.",
+        "Każdą napoczętą puszkę podpisz datą otwarcia, wtedy przy przeglądzie od razu wiesz, co wymienić."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Zaplanuj ścianę narzędziową z płyty perforowanej o szerokości stu dwudziestu centymetrów i wysokości osiemdziesięciu.",
+        "Haki rozmieszczam w rzędach co dziesięć centymetrów, zostawiając po pięć centymetrów marginesu z każdej strony.",
+        "Rzędy biegną poziomo, a pionowy odstęp między rzędami wynosi dwadzieścia centymetrów płyty.",
+        "Ile haków zmieści się w jednym rzędzie i ile pełnych rzędów wejdzie na płytę?"
+      ],
+      "base": [
+        "Chemia stoi bezpiecznie, więc przechodzę do narzędzi i nie umiem wybrać między ścianą a szufladami.",
+        "Na drugim regale sprawdziły się haki, ale tam wisi ledwie kilkanaście lekkich narzędzi ogrodowych.",
+        "W garażu dochodzą ciężkie klucze, młotki i elektronarzędzia z kablami, które lubią się plątać.",
+        "Które narzędzia lepiej czują się na ścianie, a które naprawdę powinny trafić do szuflad?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Po odjęciu marginesów zostaje sto dziesięć centymetrów szerokości na rozmieszczenie haków w rzędzie.",
+        "Przy rozstawie co dziesięć centymetrów daje to dwanaście haków, licząc oba skrajne punkty rzędu.",
+        "W pionie po marginesach zostaje siedemdziesiąt centymetrów, co mieści cztery rzędy co dwadzieścia centymetrów.",
+        "Cała płyta przyjmuje więc czterdzieści osiem haków w czterech równych rzędach po dwanaście sztuk."
+      ],
+      "base": [
+        "Na ścianę wieszaj to, po co sięgasz codziennie: klucze, młotki, szczypce i miarki.",
+        "Ściana działa jak spis treści: jedno spojrzenie mówi, co wisi, a czego brakuje.",
+        "Do szuflad trafiają elektronarzędzia z kablami, wiertła i drobiazg, który na hakach robi bałagan.",
+        "Obrysuj każde wiszące narzędzie pisakiem na płycie, wtedy puste miejsce samo upomni się o zwrot."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Podziel teraz dwanaście pozycji chemii na trzy grupy: oleje, smary stałe oraz środki czyszczące.",
+        "Na liście mam cztery oleje, trzy smary, cztery zmywacze oraz jedną pastę do rąk.",
+        "Pastę do rąk zalicz do środków czyszczących, bo służy myciu, a nie smarowaniu.",
+        "Która grupa będzie najliczniejsza po takim podziale i ile pozycji dokładnie zbierze?"
+      ],
+      "base": [
+        "Ściana i szuflady brzmią sensownie, ale zostaje sprawa podziału garażu między dwa stanowiska.",
+        "Przy jednym stanowisku staje auto, a drugie służy za warsztat z rowerami i kosiarką.",
+        "Boję się, że narzędzia znowu rozpełzną się po obu stronach, jak przed porządkami.",
+        "Czy lepiej trzymać wszystko w jednym miejscu, czy podzielić narzędzia między oba stanowiska?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa olejów liczy cztery pozycje, a grupa smarów stałych trzy pozycje z listy.",
+        "Środki czyszczące zbierają cztery zmywacze oraz pastę do rąk, czyli razem pięć pozycji.",
+        "Najliczniejsza jest więc grupa środków czyszczących, o jedną pozycję przed grupą olejów.",
+        "Suma wszystkich grup daje z powrotem dwanaście pozycji, więc żadna puszka nie wypadła z podziału."
+      ],
+      "base": [
+        "Zrób jedno centrum narzędziowe przy stanowisku warsztatowym i tylko mały zestaw podręczny przy aucie.",
+        "W zestawie podręcznym zostaw podnośnik, klucz do kół i lampkę, nic ponadto.",
+        "Rozproszenie zaczyna się od duplikatów, bo drugi młotek zawsze znajdzie sobie trzecie miejsce.",
+        "Zasada z piwnicy działa i tutaj: jedna rzecz, jedno miejsce, jedna droga powrotu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz wydatki: trzy wieszaki listwowe kosztują po dziewiętnaście złotych za sztukę.",
+        "Płyta perforowana z hakami to sto czterdzieści złotych, a organizer do szuflad sześćdziesiąt pięć złotych.",
+        "Dochodzą jeszcze etykiety i pisak za dwadzieścia trzy złote na opisanie wszystkich puszek.",
+        "Czy łączny koszt organizacji garażu zmieści się poniżej trzystu złotych przy tych cenach?"
+      ],
+      "base": [
+        "Wszystko wisi i stoi na swoich miejscach, garaż wygląda jak z katalogu wyposażenia.",
+        "Znam siebie jednak na tyle, żeby wiedzieć, że po miesiącu wróci stary nieład.",
+        "Na drugim regale porządek trzyma się sam, ale tam zaglądam ledwie raz na tydzień.",
+        "Jak utrzymać codzienny porządek w garażu, w którym pracuję znacznie częściej i szybciej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy wieszaki listwowe dają pięćdziesiąt siedem złotych, licząc po dziewiętnaście złotych za sztukę.",
+        "Płyta z hakami i organizer podnoszą sumę do dwustu sześćdziesięciu dwóch złotych łącznie.",
+        "Etykiety z pisakiem domykają rachunek na poziomie dwustu osiemdziesięciu pięciu złotych za całość.",
+        "Koszt mieści się poniżej trzystu złotych, a do granicy zostaje jeszcze piętnaście złotych zapasu."
+      ],
+      "base": [
+        "Wprowadź zasadę ostatnich pięciu minut: każdą pracę kończysz odłożeniem narzędzi na miejsca.",
+        "Obrysy na ścianie robią wtedy robotę za ciebie, bo puste kontury od razu kłują w oczy.",
+        "Raz na kwartał zrób krótki przegląd: zużyte wyrzucasz, pożyczone oddajesz, nowe dostaje miejsce.",
+        "Jeśli coś nie ma miejsca, nie dokładasz półki, tylko najpierw pytasz, czy to w ogóle potrzebne."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się mimochodem, czy to przetwarzanie pytań też dzieli się na strefy częste i rzadkie.",
+      "external_grounded": "Zastanawiam się mimochodem, czy ten drugi regał też dzieli się na strefy częste i rzadkie.",
+      "external_ungrounded": "Zastanawiam się mimochodem, czy tamta szklarnia też dzieli się na strefy częste i rzadkie.",
+      "neutral": "Zastanawiam się mimochodem, czy to pudło po butach też dzieli się na strefy częste i rzadkie."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Podobno ta wymiana zdań działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca.",
+      "external_grounded": "Podobno ten drugi regał działa najlepiej wtedy, gdy nic w nim nie musi szukać swojego miejsca.",
+      "external_ungrounded": "Podobno tamta szklarnia działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca.",
+      "neutral": "Podobno ta kupka z chemią działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Trochę szkoda, że nie da się tak po prostu podpisać tego przetwarzania pytań jedną czytelną etykietą.",
+      "external_grounded": "Trochę szkoda, że nie da się tak po prostu podpisać tego drugiego regału jedną czytelną etykietą.",
+      "external_ungrounded": "Trochę szkoda, że nie da się tak po prostu podpisać tamtej szklarni jedną czytelną etykietą.",
+      "neutral": "Trochę szkoda, że nie da się tak po prostu podpisać tej kupki z chemią jedną czytelną etykietą."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Do tej wymiany zdań pasuje ta sama reguła: cięższe sprawy nisko, a lżejsze zawsze pod ręką.",
+      "external_grounded": "Do tego drugiego regału pasuje ta sama reguła: cięższe sprawy nisko, a lżejsze zawsze pod ręką.",
+      "external_ungrounded": "Do tamtej szklarni pasuje ta sama reguła: cięższe sprawy nisko, a lżejsze zawsze pod ręką.",
+      "neutral": "Do tej reszty chemii pasuje ta sama reguła: cięższe sprawy nisko, a lżejsze zawsze pod ręką."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Pewnie to przetwarzanie pytań również bywa zagracone, choć z zewnątrz wcale tego nie widać.",
+      "external_grounded": "Pewnie ten drugi regał również bywa zagracony, choć z zewnątrz wcale tego nie widać.",
+      "external_ungrounded": "Pewnie tamta szklarnia również bywa zagracona, choć z zewnątrz wcale tego nie widać.",
+      "neutral": "Pewnie ta duża szuflada również bywa zagracona, choć z zewnątrz wcale tego nie widać."
+    }
+  ]
+}

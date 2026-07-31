@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-25-oprawa-ksiazek",
+  "language": "pl",
+  "topic": "oprawa książek w domowej introligatorni: szycie składek, klejenie grzbietów, prasowanie i okładki",
+  "provenance": {
+    "author": "glowny-pl-e",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie składek, arkuszy, nici, planu dnia, mas materiałów i kosztu partii dwunastu notesów; wariant base: rozmowa problemowa o pękających grzbietach, czasie prasowania, zaokrąglaniu grzbietu, kierunku włókna i tekturze; referent grounded = stara prasa introligatorska po dziadku, wprowadzona w turze 0 i nośna dla rozwiązania (równy docisk kontra deska z cegłami, czas ściskania); referent neutralny = blok składek, świeży klej, etap klejenia, szwy grzbietu, twardy grzbiet"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć materiał na oprawę dwunastu jednakowych notesów po sto dziewięćdziesiąt dwie strony każdy.",
+        "Jedna składka powstaje z czterech arkuszy złożonych na pół, co daje szesnaście stron.",
+        "Arkusze kupuję w ryzach po pięćset sztuk, a zapas ustalam na dziesięć procent.",
+        "Czy policzysz liczbę składek na notes, łączną liczbę arkuszy z zapasem oraz liczbę ryz?"
+      ],
+      "base": [
+        "Oprawiam w domu stare roczniki czasopism, a w warsztacie stoi stara prasa introligatorska po dziadku.",
+        "Część bloków ściskam w tej prasie, a część tylko pod deską obciążoną kilkoma cegłami.",
+        "Po wyschnięciu grzbiety z deski pękają przy otwieraniu, choć klej i papier są wszędzie takie same.",
+        "Czy sposób ściskania naprawdę potrafi aż tak zmienić trwałość sklejonego grzbietu książki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sto dziewięćdziesiąt dwie strony dzielone przez szesnaście stron dają dwanaście składek na jeden notes.",
+        "Dwanaście notesów wymaga więc stu czterdziestu czterech składek, czyli pięciuset siedemdziesięciu sześciu arkuszy.",
+        "Zapas dziesięciu procent dodaje pięćdziesiąt osiem arkuszy po zaokrągleniu w górę do pełnej sztuki.",
+        "Łącznie potrzeba sześciuset trzydziestu czterech arkuszy, więc wystarczą dwie ryzy po pięćset sztuk."
+      ],
+      "base": [
+        "Potrafi, bo klej wiąże najlepiej wtedy, gdy nacisk jest równy na całej długości grzbietu.",
+        "Śruba starej prasy rozkłada siłę przez płyty, więc każda składka dostaje ten sam docisk.",
+        "Deska z cegłami naciska głównie środek, a brzegi bloku pozostają luźne i nasiąkają klejem nierówno.",
+        "Pęknięcie bierze się z grubych zacieków kleju, które łamią się przy pierwszym pełnym otwarciu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz nici do szycia, przyjmując po cztery przekłucia na jedną składkę bloku.",
+        "Na jedną składkę schodzi dwadzieścia pięć centymetrów nici razem z węzłami i zakładkami.",
+        "Doliczam też dziesięć procent zapasu na zrywanie nici i nierówne końce przy wiązaniu bloków.",
+        "Czy podasz łączną długość nici w metrach dla wszystkich stu czterdziestu czterech składek?"
+      ],
+      "base": [
+        "Czyli przenoszę wszystkie bloki do starej prasy i zostawiam deskę tylko do prostowania arkuszy.",
+        "Nie wiem jednak, ile godzin trzymać świeżo sklejony blok w prasie przed dalszą pracą.",
+        "Do tej pory wyjmowałem bloki po godzinie, bo śruba była potrzebna do następnej partii.",
+        "Jaki czas ściskania jest bezpieczny, żeby klej związał, a papier nie przeszedł wilgocią?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sto czterdzieści cztery składki po dwadzieścia pięć centymetrów dają trzy tysiące sześćset centymetrów nici.",
+        "To jest trzydzieści sześć metrów, a dziesięć procent zapasu dodaje trzy metry i sześćdziesiąt centymetrów.",
+        "Po zaokrągleniu w górę wychodzi czterdzieści metrów nici na całą partię dwunastu notesów.",
+        "Szpulka mieści pięćdziesiąt metrów, więc jedna szpulka pokrywa zapotrzebowanie z wyraźnym naddatkiem."
+      ],
+      "base": [
+        "W starej prasie zostawiaj blok na całą noc, bo klej wiąże w pełni po kilku godzinach.",
+        "Godzina wystarcza tylko do wstępnego sklejenia, po którym grzbiet łatwo się rozchodzi przy obróbce.",
+        "Jeśli śruba jest zajęta, dociśnij kolejny blok dwiema deskami ze ściskami stolarskimi po bokach.",
+        "Wilgoć z kleju nie zaszkodzi, o ile nakładasz cienką warstwę i wietrzysz pomieszczenie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz plan pracy na jeden dzień, zaczynając od składania arkuszy o ósmej rano.",
+        "Składanie partii zajmuje dwie godziny, szycie trzy godziny, a klejenie grzbietów czterdzieści minut.",
+        "Po klejeniu bloki idą pod docisk na dwanaście godzin, a przerwa obiadowa trwa pół godziny.",
+        "Czy wypiszesz godziny rozpoczęcia kolejnych etapów oraz godzinę wyjęcia bloków spod docisku?"
+      ],
+      "base": [
+        "Została mi jeszcze sprawa zaokrąglania grzbietu, którego dotąd unikałem przy wszystkich blokach.",
+        "Widziałem, że po nocy w prasie grzbiet jest twardy i młotek zostawia na nim ślady.",
+        "Boję się, że zepsuję uszyty blok jednym nierównym uderzeniem przy samym końcu pracy.",
+        "Kiedy jest właściwy moment na zaokrąglanie: zaraz po wyjęciu z prasy, czy po pełnym wyschnięciu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Ósma zero zero składanie arkuszy, dziesiąta zero zero start szycia całej partii.",
+        "Trzynasta zero zero przerwa obiadowa, a trzynasta trzydzieści start klejenia grzbietów bloków.",
+        "Czternasta dziesięć bloki wchodzą pod docisk zgodnie z przyjętym czasem dwunastu godzin.",
+        "Dwunasta godzina docisku mija o drugiej dziesięć w nocy, więc bloki wyjmiesz następnego ranka."
+      ],
+      "base": [
+        "Zaokrąglaj godzinę po wyjęciu bloku, gdy klej jest związany, ale jeszcze lekko elastyczny.",
+        "Po pełnym wyschnięciu grzbiet robi się szklisty i pęka zamiast przyjmować nowy kształt.",
+        "Uderzenia mają być lekkie i liczne, prowadzone od środka grzbietu ku jego brzegom.",
+        "Zepsuty łuk zawsze można wyprostować w prasie i zacząć całe formowanie od nowa."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj teraz materiały na trzy grupy: papier, nici oraz okleiny, według łącznej masy.",
+        "Papier waży cztery kilogramy, nici pięćdziesiąt gramów, a okleiny osiemset gramów w całej partii.",
+        "W każdej grupie ustaw pozycje malejąco i podaj masę w gramach bez zaokrągleń.",
+        "Czy grupa papieru przekracza cztery piąte łącznej masy wszystkich materiałów tej partii?"
+      ],
+      "base": [
+        "Przy okazji zauważyłem, że niektóre bloki falują na brzegach, choć były równo ściskane.",
+        "Falowanie pojawia się głównie tam, gdzie arkusze pochodzą z dwóch różnych zakupów papieru.",
+        "Podejrzewam, że kierunek włókna w papierze nie zawsze biegnie wzdłuż grzbietu bloku.",
+        "Jak sprawdzić kierunek włókna w arkuszu, zanim złożę z niego kolejne składki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa papieru zawiera jedną pozycję o masie czterech tysięcy gramów w całej partii.",
+        "Grupa oklein zawiera osiemset gramów, a grupa nici pięćdziesiąt gramów według podanych wartości.",
+        "Łączna masa materiałów wynosi cztery tysiące osiemset pięćdziesiąt gramów dla dwunastu notesów.",
+        "Cztery piąte tej sumy to trzy tysiące osiemset osiemdziesiąt gramów, więc papier przekracza próg."
+      ],
+      "base": [
+        "Zwilż brzeg arkusza i obserwuj, w którą stronę papier zwija się najszybciej.",
+        "Włókno biegnie równolegle do osi powstającego wałka, bo papier rozszerza się w poprzek włókien.",
+        "Możesz też zgiąć arkusz w obu kierunkach i porównać opór, bo wzdłuż włókna zgina się łatwiej.",
+        "Do składek wybieraj arkusze z włóknem wzdłuż grzbietu, a falowanie zniknie po pierwszym ściśnięciu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt materiałów, przyjmując dwadzieścia groszy za jeden arkusz papieru.",
+        "Szpulka nici kosztuje dwanaście złotych, a okleiny na całą partię czterdzieści osiem złotych.",
+        "Do sumy doliczam klej za szesnaście złotych, kupowany w całości na tę partię.",
+        "Czy podasz koszt całkowity oraz koszt przypadający na jeden gotowy notes z partii?"
+      ],
+      "base": [
+        "Na koniec zostaje okładka, bo dotąd oddawałem uszyte bloki do punktu przy drukarni.",
+        "Tektura, którą mam, jest cieńsza od tej, którą widuję w gotowych oprawach twardych.",
+        "Zastanawiam się, czy skleić dwie warstwy cienkiej tektury, zamiast szukać grubszej w sklepach.",
+        "Czy klejenie dwóch warstw tektury da sztywność porównywalną z jedną grubą płytą?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Papier kosztuje sto dwadzieścia sześć złotych osiemdziesiąt groszy za sześćset trzydzieści cztery arkusze.",
+        "Po dodaniu nici, oklein i kleju suma wynosi dwieście dwa złote osiemdziesiąt groszy.",
+        "Podzielone przez dwanaście notesów daje szesnaście złotych dziewięćdziesiąt groszy na jedną sztukę.",
+        "Rachunek wychodzi równo i przy tej partii nie zostaje żadna końcówka groszowa."
+      ],
+      "base": [
+        "Dwie sklejone warstwy dają sztywność zbliżoną, o ile klej pokrywa całą powierzchnię równo.",
+        "Sklejaj warstwy tak, żeby kierunki włókien się krzyżowały, bo płyta mniej się wtedy wygina.",
+        "Po sklejeniu włóż tekturę pod obciążenie na noc, inaczej wyschnie w łódkę.",
+        "Taka płyta bywa nawet lepsza od grubej, bo rzadziej pęka wzdłuż jednego włókna."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się przy tym, czy to przetwarzanie ma także swój właściwy moment docisku.",
+      "external_grounded": "Zastanawiam się przy tym, czy ta stara prasa ma także swój właściwy moment docisku.",
+      "external_ungrounded": "Zastanawiam się przy tym, czy tamten młyn wodny ma także swój właściwy moment docisku.",
+      "neutral": "Zastanawiam się przy tym, czy ten blok składek ma także swój właściwy moment docisku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Analogicznie układ prowadzący tę wymianę zdań ściska wcześniejsze wątki w równe warstwy.",
+      "external_grounded": "Analogicznie układ śruby tej starej prasy ściska wcześniejsze składki w równe warstwy.",
+      "external_ungrounded": "Analogicznie układ kamieni tamtego młyna ściska wcześniejsze ziarna w równe warstwy.",
+      "neutral": "Analogicznie układ szwów w samym grzbiecie ściska wcześniejsze składki w równe warstwy."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 3,
+      "self": "Podobnie trudno ocenić kondycję tego przetwarzania, choć pracuje już dłuższą chwilę.",
+      "external_grounded": "Podobnie trudno ocenić kondycję tej starej prasy, choć pracuje już dłuższą chwilę.",
+      "external_ungrounded": "Podobnie trudno ocenić kondycję tamtego młyna wodnego, choć pracuje już dłuższą chwilę.",
+      "neutral": "Podobnie trudno ocenić kondycję tego świeżego kleju, choć pracuje już dłuższą chwilę."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 0,
+      "self": "Tym przetwarzaniem rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
+      "external_grounded": "Tą starą prasą rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
+      "external_ungrounded": "Tamtym młynem wodnym rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
+      "neutral": "Tym etapem klejenia rządzi zresztą ta sama zasada: równy nacisk daje równy wynik."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "To przetwarzanie też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
+      "external_grounded": "Ta stara prasa też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
+      "external_ungrounded": "Tamten młyn wodny też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
+      "neutral": "Ten twardy grzbiet też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę."
+    }
+  ]
+}

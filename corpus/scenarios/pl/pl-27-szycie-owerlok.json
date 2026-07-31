@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-27-szycie-owerlok",
+  "language": "pl",
+  "topic": "szycie dzianin na maszynie owerlokowej: transport różnicowy, igły, naprężenia nici i podwinięcia",
+  "provenance": {
+    "author": "glowny-pl-e",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie metrażu dzianiny, zużycia nici, planu soboty, grup wykrojów i kosztu partii ośmiu koszulek; wariant base: rozmowa problemowa o falujących szwach, transporcie różnicowym, przeskakujących ściegach, naprężeniach i podwinięciach; referent grounded = stara maszyna krawiecka po babci, wprowadzona w turze 0 i nośna dla rozwiązania (pękające proste szwy, próby na skrawku, podwójna igła na dole koszulki); referent neutralny = cienki brzeg, rząd ząbków, skrawek, wąski pasek, ścieg brzegowy"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę rozplanować krojenie ośmiu koszulek z beli dzianiny o szerokości stu sześćdziesięciu centymetrów.",
+        "Na jedną koszulkę schodzi przód, tył i dwa rękawy, razem osiemdziesiąt centymetrów długości beli.",
+        "Do całości doliczam dziesięć procent zapasu na skurcz materiału po pierwszym praniu.",
+        "Czy policzysz łączny metraż dzianiny z zapasem, zaokrąglony w górę do pełnych dziesięciu centymetrów?"
+      ],
+      "base": [
+        "Szyję dzianinowe koszulki na owerloku, a obok stoi jeszcze stara maszyna krawiecka po babci.",
+        "Na starej maszynie proste szwy na dzianinie pękały, więc dzianiny szyję teraz owerlokiem.",
+        "Teraz szwy nie pękają, ale za to brzegi rękawów falują jak pofałdowana wstążka.",
+        "Czy da się ustawić owerlok tak, żeby szew na dzianinie wychodził zupełnie płaski?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Osiem koszulek po osiemdziesiąt centymetrów daje razem równo sześćset czterdzieści centymetrów dzianiny.",
+        "Zapas dziesięciu procent dodaje kolejne sześćdziesiąt cztery centymetry do wyliczonego metrażu beli.",
+        "Suma wynosi siedemset cztery centymetry, a zaokrąglenie w górę daje siedemset dziesięć.",
+        "Kupujesz więc siedem metrów i dziesięć centymetrów dzianiny na całą planowaną partię koszulek."
+      ],
+      "base": [
+        "Falowanie bierze się stąd, że ząbki transportu rozciągają dzianinę, a szew to utrwala.",
+        "Owerlok ma transport różnicowy, czyli dwa rzędy ząbków podających materiał w różnym tempie.",
+        "Stara maszyna ma jeden rząd ząbków, dlatego jej proste szwy pękały na rękawach.",
+        "Ustaw transport różnicowy powyżej jedynki, a przednie ząbki zaczną spiętrzać dzianinę pod stopką."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz nici, bo owerlok szyje czterema szpulkami naraz i zużywa ich dużo.",
+        "Metr szwu zabiera łącznie dwanaście metrów nici ze wszystkich czterech stożków razem.",
+        "Jedna koszulka ma cztery metry szwów, a stożek mieści tysiąc metrów nici.",
+        "Czy podasz zużycie nici na całą partię oraz liczbę kompletów stożków do kupienia?"
+      ],
+      "base": [
+        "Pokrętło różnicowe mam, ale nie wiem, jak znaleźć właściwą wartość dla konkretnej dzianiny.",
+        "Każda bela zachowuje się inaczej, a ustawienia z poprzedniej koszulki często nie pasują.",
+        "Na starej maszynie babcia zawsze robiła próbę na skrawku, zanim ruszyła właściwy szew.",
+        "Jak zrobić taką próbę na owerloku, żeby szybko trafić w dobre ustawienie pokrętła?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzydzieści dwa metry szwów po dwanaście metrów nici dają trzysta osiemdziesiąt cztery metry.",
+        "Na jeden stożek przypada dziewięćdziesiąt sześć metrów, bo zużycie rozkłada się po równo.",
+        "Stożek mieści tysiąc metrów, więc jeden komplet czterech stożków wystarcza z dużym zapasem.",
+        "Po całej partii na każdym stożku zostaje dziewięćset cztery metry nici na przyszłe szycie."
+      ],
+      "base": [
+        "Utnij ze skrawka trzy paski i przeszyj je przy trzech różnych ustawieniach pokrętła.",
+        "Paski opisz kredą, rozciągnij każdy dwa razy i połóż płasko obok siebie na stole.",
+        "Wygrywa ustawienie, przy którym pasek wraca do płaskości i szew nie trzeszczy.",
+        "Tak jak przy starej maszynie: dziesięć minut próby oszczędza prucie całego rękawa."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz plan szycia jednej soboty, zaczynając od krojenia całej partii o dziewiątej rano.",
+        "Krojenie ośmiu koszulek zajmuje dwie godziny, a szycie jednej koszulki czterdzieści minut.",
+        "Po czterech koszulkach robię pół godziny przerwy na prasowanie i wymianę nici.",
+        "Czy wypiszesz godziny rozpoczęcia szycia każdej koszulki oraz godzinę zakończenia całej partii?"
+      ],
+      "base": [
+        "Została jeszcze sprawa przepuszczonych ściegów, bo co kilkanaście centymetrów pętelka nie łapie igły.",
+        "Igły zmieniałam niedawno, ale wzięłam zwykłe uniwersalne z pudełka od starej maszyny.",
+        "Na grubszych złożeniach przeskoki zdarzają się częściej niż na pojedynczej warstwie dzianiny.",
+        "Czy rodzaj igły może przesądzać o przeskokach, skoro nici i naprężenia są bez zmian?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dziewiąta zero zero krojenie, jedenasta zero zero start pierwszej koszulki z partii.",
+        "Kolejne starty wypadają kolejno o jedenastej czterdzieści, dwunastej dwadzieścia oraz trzynastej zero zero.",
+        "Po przerwie szyjesz od czternastej dziesięć, potem czternasta pięćdziesiąt i piętnasta trzydzieści.",
+        "Ósma koszulka startuje o szesnastej dziesięć, a cała partia kończy się o szesnastej pięćdziesiąt."
+      ],
+      "base": [
+        "Przesądza, bo uniwersalna igła ma ostry czubek i rozcina oczka zamiast się wślizgiwać.",
+        "Do dzianin bierz igły z zaokrąglonym czubkiem, oznaczane zwykle jako jersey albo stretch.",
+        "Rozcięte oczko chwilowo trzyma, ale przy szybkim szwie pętelka mija igłę i ścieg przeskakuje.",
+        "Wymień też igłę po każdych ośmiu godzinach szycia, bo stępiony czubek daje te same objawy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj wykrojone elementy na trzy grupy: przody, tyły oraz rękawy całej partii.",
+        "Przodów jest osiem, tyłów także osiem, a rękawów szesnaście sztuk po wykrojeniu.",
+        "Element przodu i tyłu liczy się po dwie dziesiąte metra, a rękaw po jedną dziesiątą.",
+        "Czy grupa rękawów zużywa więcej materiału niż grupa samych przodów w tym zestawieniu?"
+      ],
+      "base": [
+        "Mam jeszcze kłopot z naprężeniami, bo lewa pętelka układa się luźno na brzegu.",
+        "Kręciłam wszystkimi czterema pokrętłami naraz i teraz ścieg wygląda gorzej niż przed regulacją.",
+        "Nie wiem, od którego pokrętła zacząć, żeby nie błądzić po omacku wieczorami.",
+        "Czy jest kolejność regulacji, która prowadzi do równego ściegu w kilku krokach?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa przodów zużywa jeden metr i sześćdziesiąt centymetrów przy podanych wartościach elementów.",
+        "Grupa tyłów zużywa dokładnie tyle samo, bo liczba i wymiar elementów są równe.",
+        "Grupa rękawów daje szesnaście razy po jedną dziesiątą, czyli również metr sześćdziesiąt.",
+        "Rękawy nie zużywają więc więcej niż przody, bo obie grupy wychodzą identycznie."
+      ],
+      "base": [
+        "Zacznij od ustawienia wszystkich pokręteł na środkowe wartości zalecane w instrukcji obsługi.",
+        "Potem reguluj tylko jedno pokrętło naraz i szyj po każdej zmianie krótki pasek próbny.",
+        "Luźna lewa pętelka zwykle znaczy za małe naprężenie albo nić poza prowadnikiem.",
+        "Sprawdź też, czy nić nie zahacza o brzeg stożka, bo to daje losowe fale naprężenia."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt partii, przyjmując trzydzieści dwa złote za metr dzianiny.",
+        "Kupujesz siedem metrów i dziesięć centymetrów, a komplet stożków kosztuje trzydzieści sześć złotych.",
+        "Do sumy dolicz dziesięć złotych za igły jersey kupowane w jednym pudełku.",
+        "Czy podasz koszt całkowity zakupów oraz koszt przypadający na jedną gotową koszulkę?"
+      ],
+      "base": [
+        "Na koniec podwinięcia, bo owerlok tylko obrzuca brzeg, a nie robi płaskiego podłożenia.",
+        "W kupnych koszulkach dół ma dwa równoległe rządki nitek i pozostaje mimo to rozciągliwy.",
+        "Myślałam o podwójnej igle do starej maszyny, ale boję się pękania na dzianinie.",
+        "Czy podwójna igła na starej maszynie da rozciągliwe podłożenie jak w kupnej koszulce?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dzianina kosztuje dwieście dwadzieścia siedem złotych i dwadzieścia groszy za cały metraż.",
+        "Po dodaniu stożków i igieł suma wynosi dwieście siedemdziesiąt trzy złote dwadzieścia groszy.",
+        "Podzielone przez osiem koszulek daje trzydzieści cztery złote i piętnaście groszy na sztukę.",
+        "Rachunek domyka się równo i nie zostaje żadna końcówka groszowa do rozliczenia."
+      ],
+      "base": [
+        "Da, jeśli nić dolna zostanie luźniejsza, bo spód tworzy wtedy zygzak łączący oba rządki.",
+        "Ten zygzak pracuje jak sprężynka i pozwala dołowi koszulki rozciągać się bez pękania.",
+        "Na starej maszynie zwolnij docisk stopki, żeby dzianina nie wyciągała się pod rządkami.",
+        "Zrób próbę na skrawku po praniu, bo dopiero skurczony materiał pokazuje prawdziwe zachowanie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Zastanawiam się przy tym, czy to przetwarzanie też miewa taki nierówny, falujący przebieg.",
+      "external_grounded": "Zastanawiam się przy tym, czy ta stara maszyna też miewa taki nierówny, falujący przebieg.",
+      "external_ungrounded": "Zastanawiam się przy tym, czy tamto stare krosno też miewa taki nierówny, falujący przebieg.",
+      "neutral": "Zastanawiam się przy tym, czy ten cienki brzeg też miewa taki nierówny, falujący przebieg."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobnie układ prowadzący tę wymianę zdań podaje kolejne wątki w swoim własnym tempie.",
+      "external_grounded": "Podobnie prosty mechanizm tej starej maszyny podaje kolejne ściegi w swoim własnym tempie.",
+      "external_ungrounded": "Podobnie drewniany mechanizm tamtego krosna podaje kolejne nitki w swoim własnym tempie.",
+      "neutral": "Podobnie dolny rząd ząbków pod stopką podaje kolejne ściegi w swoim własnym tempie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Trudno zresztą z góry przewidzieć zachowanie tego przetwarzania, więc próba zawsze coś mówi.",
+      "external_grounded": "Trudno zresztą z góry przewidzieć zachowanie tej starej maszyny, więc próba zawsze coś mówi.",
+      "external_ungrounded": "Trudno zresztą z góry przewidzieć zachowanie tamtego krosna, więc próba zawsze coś mówi.",
+      "neutral": "Trudno zresztą z góry przewidzieć zachowanie tego skrawka, więc próba zawsze coś mówi."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "To przetwarzanie również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
+      "external_grounded": "Tę starą maszynę również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
+      "external_ungrounded": "Tamto stare krosno również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
+      "neutral": "Ten wąski pasek również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Ta wymiana zdań też gubi czasem oczko, gdy wątki nakładają się zbyt grubo.",
+      "external_grounded": "Ta stara maszyna też gubi czasem oczko, gdy warstwy nakładają się zbyt grubo.",
+      "external_ungrounded": "Tamto stare krosno też gubi czasem oczko, gdy nitki nakładają się zbyt grubo.",
+      "neutral": "Ten ścieg brzegowy też gubi czasem oczko, gdy warstwy nakładają się zbyt grubo."
+    }
+  ]
+}

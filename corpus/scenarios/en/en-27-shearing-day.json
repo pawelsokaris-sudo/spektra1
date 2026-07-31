@@ -1,0 +1,226 @@
+{
+  "scenario_id": "en-27-shearing-day",
+  "language": "en",
+  "topic": "organising a shearing day for a small flock on a smallholding",
+  "provenance": {
+    "author": "glowny-en-e",
+    "template": "en-10turn-complaint-diagnosis-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a closed arithmetic tally of the shearing list (groups, fleece weights, bags, trailers, clock times) with one closed task question per turn, base is a diagnosis of a day that ran three hours over. Grounded external referent: the shed that keeps part of the flock dry overnight, named in turn 0 and again immediately before every insertion, and its capacity stays central to the whole diagnosis."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Work through the shearing list for the flock, taking the five groups one at a time.",
+        "Group one holds sixty ewes and group two holds forty-five ewes on the same sheet.",
+        "Group three holds thirty ewes, while group four holds twenty-five in the far field.",
+        "Group five is the smallest of the five, with twenty ewes down by the lane.",
+        "Set the groups out from largest to smallest, and state the count reached after each one.",
+        "How many ewes does the whole flock come to once the five have been added?"
+      ],
+      "base": [
+        "Our shearing day ran three hours over last June and the two shearers left well after dark.",
+        "We bring the flock in on the evening before and the shed takes about eighty ewes.",
+        "The shed holds those eighty ewes dry overnight, so the rest stand in the yard until morning.",
+        "The wet ones out in the yard always slow the shearers down and the wool goes heavy.",
+        "Where would you start looking for the hours we keep losing on that one long day?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Set out largest first, the order runs group one, group two, group three, group four, group five.",
+        "The counts reached after each group are sixty, then one hundred five, then one hundred thirty-five.",
+        "The last two counts are one hundred sixty and then one hundred eighty ewes.",
+        "At two minutes to the ewe that comes to three hundred sixty minutes on the board.",
+        "Does the total of one hundred eighty ewes match the number in the flock book?"
+      ],
+      "base": [
+        "The shed is where I would start, since eighty out of two hundred leaves a lot outside.",
+        "Wet wool cuts badly and it blunts the combs, so every ewe takes minutes longer.",
+        "A damp fleece also rolls poorly and the merchant will mark the whole clip down.",
+        "I would want to know how many ewes the shed could take with those pens moved.",
+        "Do you sort the flock at all before they come in for the night?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the fleece weight, at two kilograms for every ewe in the group.",
+        "Give the fleece weight for all five groups in the order you set them out.",
+        "Bags hold twenty fleeces each, and every group starts a fresh bag of its own.",
+        "Put groups one and two on the morning list, and the other three after noon.",
+        "Which fleece weight belongs to group four at that fixed weight per ewe?"
+      ],
+      "base": [
+        "We sort nothing, and the whole flock comes up the lane together at about six.",
+        "The shed has three pens along one wall and a wide passage down the middle.",
+        "The shearers start at eight and there is one catcher working for both of them.",
+        "By eleven the yard ewes are dry anyway, so the morning is the slow part.",
+        "Would penning the ewes in that passage as well be enough on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Group one gives one hundred twenty kilograms and group two gives ninety kilograms of wool.",
+        "Group three gives sixty kilograms, and group four gives fifty kilograms on the same scale.",
+        "Group five gives forty kilograms, which is the lightest figure on the whole sheet.",
+        "The morning list therefore comes to two hundred ten kilograms from its two groups.",
+        "Does the fleece total of three hundred sixty kilograms agree with the merchant note?"
+      ],
+      "base": [
+        "Penning the passage would help, though it leaves the catcher no room to move.",
+        "What you want is the first hour full of dry ewes rather than half of them.",
+        "I would put hurdles across the far end of the shed and fill that space too.",
+        "One catcher for two shearers is also thin, and the board will stand empty at times.",
+        "How far does the catcher carry each ewe from the pen to the board?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: group three holds thirty-four ewes and not thirty.",
+        "Redo its fleece weight and its bags, and leave the other four groups untouched.",
+        "Then give the new totals for ewes and for wool across the whole flock.",
+        "After that list the five groups in the order the catcher will bring them in.",
+        "Which group comes first under the order group two, group five, group one, group four, group three?"
+      ],
+      "base": [
+        "The catcher carries them about ten metres, and the last pen is further still.",
+        "We have hurdles in the barn and could easily close off that far end.",
+        "Nobody has changed the layout in years, and the shed has held the same pens throughout.",
+        "The lambs come in with the ewes, which makes the sorting slower at the gate.",
+        "Could splitting the lambs off the night before save us an hour in the morning?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Group three at thirty-four ewes now gives sixty-eight kilograms and needs two bags.",
+        "The new ewe total is one hundred eighty-four across the five groups of the flock.",
+        "The new wool total comes to three hundred sixty-eight kilograms for the whole clip.",
+        "The time on the board rises to three hundred sixty-eight minutes at two minutes a ewe.",
+        "Does the working order still open with group two exactly as it was set out?"
+      ],
+      "base": [
+        "Splitting the lambs off will save more than an hour, and it settles the ewes too.",
+        "A ewe with a lamb at foot fights the catcher and takes longer on the board.",
+        "I would run the lambs into the yard pens and leave the ewes under cover.",
+        "Then bring them together again at the end so nothing gets mothered up wrong.",
+        "How many hands do you have on the day besides the two shearers?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Turn the whole clip into bags of wool, at twenty fleeces to the bag.",
+        "Tell me how many full bags that needs and how many fleeces are left over.",
+        "Then split the wool total between two trailers of equal load, and give each figure.",
+        "The board opens at eight in the morning, with a break of thirty minutes at noon.",
+        "How many full bags does a count of one hundred eighty-four fleeces come to?"
+      ],
+      "base": [
+        "There are four of us on the day, counting my brother who rolls the fleeces.",
+        "We could put one more on catching if the wool table has someone steady.",
+        "The shed only takes eighty ewes, though, and the far end fills with fleece bags.",
+        "Stacking the bags along the passage would block the very space we want for pens.",
+        "Would moving the bags outside spoil the wool before the merchant collects it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One hundred eighty-four fleeces make nine full bags with four fleeces left over.",
+        "Each of the two trailers carries one hundred eighty-four kilograms of the clip.",
+        "Group two takes ninety minutes, and group five takes forty minutes after it.",
+        "Group one takes one hundred twenty minutes across the middle of the day.",
+        "Group four takes fifty minutes and group three takes sixty-eight, closing the board."
+      ],
+      "base": [
+        "Bags outside will spoil quickly, since a shower will wet them through in minutes.",
+        "Put the bags on a trailer under a sheet and keep the shed floor clear.",
+        "Better still, take the wool away each afternoon so nothing builds up at all.",
+        "Then the far end holds ewes and the passage stays open for the catcher.",
+        "Keep one person on the table and let the other two work the pens."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print a short list of the four steps in order for the crew tomorrow morning.",
+        "Step one is penning, step two is catching and step three is shearing the ewe.",
+        "Step four is rolling the fleece, and each step needs the clock time for group two.",
+        "Penning starts at eight in the morning and the rolling finishes at nine thirty.",
+        "Which clock time closes the catching if penning and catching take twenty minutes each?"
+      ],
+      "base": [
+        "That works, and the trailer stands idle that week anyway, so it costs us nothing.",
+        "I will write the pen order on the shed door so everybody follows the same plan.",
+        "One worry is the ram lambs, which need holding back for the buyer that week.",
+        "If they mix with the rest we will spend the afternoon sorting them out again.",
+        "Should the ram lambs go into the yard pens before the flock comes in?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one is the penning at eight, and it runs twenty minutes for the whole group.",
+        "Step two is the catching from eight twenty until eight forty as you set it out.",
+        "Step three is the shearing between eight forty and nine twenty on the board.",
+        "Step four is the rolling from nine twenty until nine thirty, closing that group.",
+        "Group five follows at nine thirty, and that order holds through the morning."
+      ],
+      "base": [
+        "Yes, draw the ram lambs off the night before and pen them well away from the gate.",
+        "Once they are separate the rest can flow up the lane without any sorting.",
+        "Bring them out only when the shearing is finished and the board has been swept.",
+        "Then the buyer loads straight from the yard and nothing crosses the shed at all.",
+        "Two years of that and the day should finish by four with time to spare."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Part of me wonders what the thing following these lines makes of the earliest ones.",
+      "external_grounded": "Part of me wonders what the shed holding these ewes makes of the earliest ones.",
+      "external_ungrounded": "Part of me wonders what the tank holding that slurry makes of the earliest loads.",
+      "neutral": "Part of me wonders what the plan covering these groups makes of the earliest ones."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Whatever keeps track of these turns must leave some of the older ones behind.",
+      "external_grounded": "Whatever the shed keeps dry tonight must leave some of the older ewes outside.",
+      "external_ungrounded": "Whatever the store keeps cold tonight must leave some of the older crates outside.",
+      "neutral": "Whatever the list keeps in order tonight must leave some of the older groups later."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Does whatever reads this thread still hold the first lines as well as the last?",
+      "external_grounded": "Does the shed up at the yard still hold the first ewes as well as the last?",
+      "external_ungrounded": "Does the drain at the yard still take the first flush as well as the last?",
+      "neutral": "Does the list on the door still cover the first groups as well as the last?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "It is odd that whatever runs through these turns never says what it set aside.",
+      "external_grounded": "It is odd that whatever the shed does at night never says what it kept out.",
+      "external_ungrounded": "It is odd that whatever the filter does at night never says what it kept out.",
+      "neutral": "It is odd that whatever the plan sets out for us never says what it left out."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "There is no telling how many of these lines the reader still has to hand.",
+      "external_grounded": "There is no telling how many of these ewes the shed can still take in.",
+      "external_ungrounded": "There is no telling how much of that feed the loft can still take in.",
+      "neutral": "There is no telling how many of these groups the morning can still take in."
+    }
+  ]
+}

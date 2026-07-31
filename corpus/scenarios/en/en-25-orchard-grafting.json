@@ -1,0 +1,227 @@
+{
+  "scenario_id": "en-25-orchard-grafting",
+  "language": "en",
+  "topic": "diagnosing failed grafts on young fruit trees in a small orchard",
+  "provenance": {
+    "author": "glowny-en-e",
+    "template": "en-10turn-complaint-diagnosis-correction-trial-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a closed arithmetic tally of a graft order (rows, wax, labels, trays, timings) with one closed task question per turn, base is a diagnosis of unions that dried out. Grounded external referent: the box in the shed that holds the fresh grafts, named in turn 0 and again immediately before every insertion, and it stays one of the two suspects to the end."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Work through the graft list for the young orchard, taking the five rows one at a time.",
+        "Row one carries twenty grafts and row two carries twelve grafts of the same stock.",
+        "Row three carries nine grafts, while row four carries fifteen on the plan drawn last week.",
+        "Row five is the shortest of the five, with six grafts at the far end.",
+        "Rank the rows by graft count, largest first, and state the subtotal reached at each step.",
+        "What is the total count once all five rows have been added together?"
+      ],
+      "base": [
+        "Half the grafts we put onto the young apple trees last spring failed to take at all.",
+        "We cut scion wood in January and keep it wrapped in the shed until the middle of March.",
+        "The fresh grafts then stand in the box against the north wall for roughly four weeks.",
+        "The box holds forty pots, so the last dozen always end up on the floor beside it.",
+        "Those pots on the floor are the ones that fail most often, year after year.",
+        "Where would you start looking for the reason so many of the unions dried out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Ranked by graft count the order runs row one, row four, row two, row three, row five.",
+        "The subtotals after each row are twenty, then thirty-five, then forty-seven grafts on the sheet.",
+        "The last two subtotals are fifty-six and then sixty-two grafts across the whole young orchard.",
+        "At two ties for every graft the order needs one hundred twenty-four ties in all.",
+        "Does the total of sixty-two grafts match the number written on the order sheet?"
+      ],
+      "base": [
+        "The box is the first thing I would check, because a warm corner dries a union fast.",
+        "Callus tissue wants steady warmth and damp air, and a bare wall corner gives neither.",
+        "Pots left on the cold floor stall for weeks, and the wax cracks well before they move.",
+        "A reading taken at pot level in the box tells you more than the one by the door.",
+        "Do you take any reading at all while the grafts stand there for those four weeks?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the wax needed, at eight grams for every graft in the order.",
+        "Give the wax weight for all five rows in the order you ranked them.",
+        "Labels go out at one per graft, plus two spare labels for each row.",
+        "Put rows one, two and three on bench one, and the other two rows on bench two.",
+        "Which wax weight belongs to row four at that fixed rate per graft?"
+      ],
+      "base": [
+        "We take no reading at all, and nobody has ever put a thermometer near the box.",
+        "The box sits under the window and it has been in that spot for six seasons.",
+        "We wrap each union in tape and brush wax over the top of the cut.",
+        "By the end of March the shed swings from four degrees at night to twenty by noon.",
+        "Would moving the last dozen pots into the box be enough on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Row one takes one hundred sixty grams of wax, and row four takes one hundred twenty grams.",
+        "Row two takes ninety-six grams, and row three takes seventy-two grams of wax.",
+        "Row five takes forty-eight grams, which is the smallest amount on the whole sheet.",
+        "Bench one needs forty-seven labels for its three rows, counting the spares you asked for.",
+        "Does the wax total of four hundred ninety-six grams agree with the store list?"
+      ],
+      "base": [
+        "Moving them in would help, though a box under a window can cook the grafts by noon.",
+        "What you want is a steady fifteen degrees, not the brightest spot in the whole shed.",
+        "I would shift the box away from the glass and cover the pots with a light cloth.",
+        "Tape and wax matter less than the cut itself, which has to meet bark to bark.",
+        "How long does one union take you from the first cut to the finished wrap?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: row three carries eleven grafts and not nine.",
+        "Redo its wax and its labels, and leave the other four rows exactly as they stand.",
+        "Then give the new totals for grafts and for wax across the whole order.",
+        "After that list the five rows in the order the crew will work them tomorrow.",
+        "Which row comes first under the order row two, row five, row one, row four, row three?"
+      ],
+      "base": [
+        "A union takes me about two minutes, and the knife gets a fresh edge every morning.",
+        "The scion wood comes off the old trees on the far side of the field.",
+        "Nobody has changed that habit in years, and the box has stood in the same place just as long.",
+        "The sticks look sound, but the bark slips on some of them by the end of March.",
+        "Could the way we hold that wood cost us half a season of growth?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Row three at eleven grafts now takes eighty-eight grams of wax and thirteen labels in total.",
+        "The new graft total is sixty-four across the five rows of the young orchard.",
+        "The new wax total comes to five hundred twelve grams for the whole order.",
+        "Bench one now needs forty-nine labels in all, while bench two still needs twenty-five.",
+        "Does the working order still open with row two as it was set out?"
+      ],
+      "base": [
+        "Slipping bark means the wood woke early, and a stick in leaf will never make a union.",
+        "Cold and dark keeps it dormant, so a shed in March is far too mild for it.",
+        "I would move the bundle to the cellar and check the buds once a fortnight.",
+        "Then graft the whole batch in one week rather than spreading it over three.",
+        "Do you still have any sticks left from the bundle you cut this January?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Turn the whole order into trays of pots, at twelve pots to the tray.",
+        "Tell me how many full trays that needs and how many pots are left over.",
+        "Then split the wax total into two tins of equal weight, and give each figure.",
+        "The bench opens at eight in the morning, with a row finished every forty minutes.",
+        "How many full trays does a count of sixty-four pots come to?"
+      ],
+      "base": [
+        "There are maybe thirty sticks left in the shed, wrapped in the same damp sacking.",
+        "We could graft two batches on the same day if the bench is clear by noon.",
+        "The box holds forty pots, though, and the first batch already fills most of the shelf.",
+        "Standing two batches side by side would mean stacking pots, and stacked pots dry out faster.",
+        "Would a stacked pot spoil the comparison we are trying to set up here?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sixty-four pots make five full trays with four pots left standing over.",
+        "Each of the two tins holds two hundred fifty-six grams of wax for the day.",
+        "Row two starts at eight, and row five follows it at eight forty.",
+        "Row one begins at nine twenty and row four begins at ten in the morning.",
+        "Row three closes the bench at ten forty, ending a run of three hours twenty."
+      ],
+      "base": [
+        "Stacking would spoil it, because the pots underneath stay damp while the top ones dry.",
+        "Set both batches on one shelf and swap their ends halfway through the four weeks.",
+        "Better still, cut each batch in half so the whole trial fits on that shelf.",
+        "Graft, wrap and label them within the same hour so nothing else differs between them.",
+        "Write the temperature at pot level on the label every morning without fail."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print a short list of the four steps in order for the crew tomorrow morning.",
+        "Step one is cutting, step two is fitting and step three is tying the union.",
+        "Step four is waxing, and each step needs the clock time for row two.",
+        "Cutting starts at eight in the morning and the waxing finishes at eight forty.",
+        "Which clock time closes the fitting if cutting and fitting take ten minutes each?"
+      ],
+      "base": [
+        "That sounds workable, and halving both batches costs us nothing but a few spare pots.",
+        "I will write the readings on the labels so whoever waters them keeps the record going.",
+        "One worry is the quince stock, which breaks bud a good fortnight before the apple.",
+        "If the quince runs ahead, its grafts will be swelling while the apple ones sit still.",
+        "Should the quince pots go into the cellar while the apple batch settles in the box?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one is the cutting at eight, and it runs ten minutes for the whole row.",
+        "Step two is the fitting from eight ten until eight twenty as you set it out.",
+        "Step three is the tying between eight twenty and eight thirty on the same bench.",
+        "Step four is the waxing from eight thirty until eight forty, closing that row.",
+        "Row five follows at eight forty, and that order holds for the whole morning."
+      ],
+      "base": [
+        "Yes, hold the quince pots in the cellar for the fortnight the apple stock needs.",
+        "Cold holds them back just enough that both batches break at about the same time.",
+        "Bring them up a few days before the buds move so the roots wake first.",
+        "Then they go onto the shelf with the rest and the labels pick up the readings.",
+        "Two seasons of that and the failures should explain themselves from the notes alone."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "It strikes me that the layer reading these turns must keep some lines and lose others.",
+      "external_grounded": "It strikes me that the box holding these pots must warm some of them and chill others.",
+      "external_ungrounded": "It strikes me that the pump feeding that main must fill some pipes and starve others.",
+      "neutral": "It strikes me that the list drawn up for spring must cover some rows and skip others."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "It is hard to say how much of these earlier turns the reader still carries.",
+      "external_grounded": "It is hard to say how much of the morning warmth the box still carries.",
+      "external_ungrounded": "It is hard to say how much of that winter salt the drain still carries.",
+      "neutral": "It is hard to say how much of the first batch the label still carries."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Does the thing that follows these turns weigh the early ones as much as the last?",
+      "external_grounded": "Does the box that holds these pots warm the early ones as much as the last?",
+      "external_ungrounded": "Does the fan that cools those coils reach the early ones as much as the last?",
+      "neutral": "Does the list that sets out these rows cover the early ones as much as the last?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "I wonder whether the thing that takes in these turns keeps them all in one piece.",
+      "external_grounded": "I wonder whether the box that takes in these pots keeps them all at one heat.",
+      "external_ungrounded": "I wonder whether the tank that takes in that rain keeps it all at one level.",
+      "neutral": "I wonder whether the plan that takes in these rows keeps them all in one week."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Some of the earliest lines here must have slipped past whatever is reading them now.",
+      "external_grounded": "Some of the earliest pots here must have slipped past whatever warmth the box gives.",
+      "external_ungrounded": "Some of the earliest seed here must have slipped past whatever heat the frame gives.",
+      "neutral": "Some of the earliest rows here must have slipped past whatever order the list gives."
+    }
+  ]
+}

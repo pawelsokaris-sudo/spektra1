@@ -1,0 +1,227 @@
+{
+  "scenario_id": "en-14-wildlife-pond",
+  "language": "en",
+  "topic": "lining and planting a wildlife pond in a garden",
+  "provenance": {
+    "author": "glowny-en-b",
+    "template": "en-10turn-intake-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is liner sizing, pricing and planting arithmetic with closed task questions, base is an exploratory dialogue about fitting the liner and planting for frogs and newts. Grounded external referent: the liner, introduced in turn 0 (heavy roll on a pole) and mentioned in the sentence directly before every insertion (pole, sand bed, heavy roll, settling, open on boards)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the pond dig, and the liner size needs working out before anything is ordered.",
+        "The hole is four metres long, three metres wide, and eighty centimetres deep at the middle.",
+        "The liner rule adds twice the depth to each side, plus half a metre of overlap all round.",
+        "Work out the liner length first and then the width from those same figures.",
+        "How many metres long must the liner be once the rule is applied in full?"
+      ],
+      "base": [
+        "The pond dig is finished at last, with two shelves and a deep middle for the winter.",
+        "We want frogs and newts rather than fish, so everything follows from that choice.",
+        "The liner arrived rolled on a pole, and it is heavier than the two of us expected.",
+        "The forecast gives us one dry week before the autumn rain sets in properly.",
+        "What should happen to the hole itself before the liner ever goes near it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The length comes to six point six metres once both depths and both overlaps are added.",
+        "The width comes to five point six metres by the same rule applied across.",
+        "Rounded up to the half metre for ordering, that is seven by six exactly.",
+        "The underlay is cut to the same figures, so one order covers both sheets.",
+        "Does a seven by six sheet match the sizes listed on the supplier page?"
+      ],
+      "base": [
+        "Walk the hole on your knees and pull out every stone, root and old nail you find.",
+        "Then rake the surface smooth and pack a thin bed of soft sand over the base.",
+        "Underlay goes over the sand as a second skin before anything heavier arrives.",
+        "The liner only ever sees what the sand bed failed to cover underneath it.",
+        "Have you checked the shelves are level all round with a plank and a spirit level?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now price the order, because the liner costs twelve pounds for each square metre.",
+        "The underlay costs three pounds for each square metre at the same shop.",
+        "The sand comes in twenty-five kilogram bags, and the base needs eight bags in all.",
+        "Each sand bag costs four pounds, and delivery is a flat fifteen pounds on top.",
+        "Keep every price in whole pounds and carry the delivery charge to the end.",
+        "What does the liner sheet alone cost at seven metres by six?"
+      ],
+      "base": [
+        "The shelves came out level along the plank, near enough all the way round.",
+        "The liner is what worries me now, because the roll weighs more than a sack of cement.",
+        "The sand went down this morning and the underlay is cut and waiting in the shed.",
+        "There are only two of us here, and the hole is wider than our arms can reach.",
+        "How do two people get a heavy sheet centred without dragging it across the sand?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The liner sheet is forty-two square metres, and at twelve pounds that comes to five hundred four.",
+        "The underlay at three pounds over the same area adds one hundred twenty-six pounds.",
+        "Eight bags of sand at four pounds each put another thirty-two pounds on the bill.",
+        "With the flat fifteen for delivery, the order stands at six hundred seventy-seven pounds.",
+        "Does that six hundred seventy-seven sit inside the budget you set for the whole pond?"
+      ],
+      "base": [
+        "Unroll the liner on the lawn first and refold it into a loose parcel you can carry.",
+        "Set the parcel on boards laid across the hole, then open it out from the middle.",
+        "The liner should settle under its own weight while you keep your boots off the sand.",
+        "Let the water do the fitting, because a filling pond pulls the sheet into every corner.",
+        "Do you have enough stored rainwater, or will the first fill come from the tap?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction to the dig figures: the depth at the middle is ninety centimetres, not eighty.",
+        "Rework the liner length and width with the deeper figure and keep the overlap the same.",
+        "Then round both figures up to the half metre for the order as before.",
+        "Leave the underlay at the old size, because that sheet is already cut.",
+        "Which new length does the rule give before any rounding is applied to it?"
+      ],
+      "base": [
+        "We have three water butts full of rainwater, about six hundred litres between them.",
+        "The tap water here is hard, and the man at the nursery pulled a face at it.",
+        "The folds at the corners look big and ugly to us both this evening.",
+        "The liner is lying open across the boards, ready for the first bucket tomorrow.",
+        "Should the corner folds be pleated flat now, or left for the water to press?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The rule gives six point eight metres of length with the ninety centimetre depth in place.",
+        "The width becomes five point eight metres by the same working across the hole.",
+        "Both round up to seven and six, so the ordered sheet does not change at all.",
+        "The bill therefore stays at six hundred seventy-seven pounds as already totalled.",
+        "Does any line of the order need changing after that deeper measurement is applied?"
+      ],
+      "base": [
+        "Pleat the two worst corners into single flat folds and point them away from the sun.",
+        "Pressed folds trap less silt and give the newts fewer blind pockets to squeeze into.",
+        "Start the rainwater slowly and let the liner creep down the shelves as it fills.",
+        "Six hundred litres will cover the base and hold the sheet for the first night.",
+        "What is the plan for topping up once the butts have run dry?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now count the plants, because the nursery sells them in baskets of three.",
+        "The shallow shelf takes nine marsh plants and the deep shelf takes six.",
+        "The deep middle takes three pondweed bundles, sold loose rather than in baskets.",
+        "Keep the pondweed off the basket count and list it on its own line.",
+        "Work out how many baskets of three the two shelves need between them.",
+        "How many baskets must be ordered so neither shelf comes up short?"
+      ],
+      "base": [
+        "Topping up can wait for rain, because a wildlife pond is allowed to rise and fall.",
+        "The nursery list is long, and we do not know the difference between half of it.",
+        "The shallow shelf wants marsh marigold and the deep shelf wants something for the newts.",
+        "Everyone says oxygen plants matter most, and everyone names a different one to buy.",
+        "Which plants actually earn their keep in a pond dug for frogs and newts?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The two shelves take fifteen plants in all, nine shallow and six deep.",
+        "Fifteen divided into baskets of three comes to five baskets exactly, with none spare.",
+        "The pondweed goes on its own line as three loose bundles, as instructed.",
+        "The order therefore reads five baskets of three plus three loose bundles of pondweed.",
+        "Should a spare basket be added in case one arrives damaged in the van?"
+      ],
+      "base": [
+        "Marsh marigold earns its place, and so does water forget-me-not along the shallow shelf.",
+        "For the deep shelf take hornwort, which sinks and keeps the water clear without any planting.",
+        "Newts lay eggs in the forget-me-not leaves, folding each one over like a parcel.",
+        "Skip anything the nursery calls vigorous, because vigorous in a small pond means everywhere.",
+        "How much of the water surface do you want covered by summer, roughly?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print the planting day as four jobs in order for the two of us.",
+        "Job one is baskets, job two is the shelves, job three is pondweed, job four is edges.",
+        "Work starts at ten in the morning and each job takes forty-five minutes.",
+        "Add a fifteen minute break after the second job and none after the others.",
+        "Which clock time does the pondweed job begin once that break is included?"
+      ],
+      "base": [
+        "About a third covered sounds right to us, with clear water over the deep middle.",
+        "The frogspawn question can wait until spring, when the local ponds are full of it.",
+        "The edges still show a white rim of bare sheet above the waterline all round.",
+        "We have turf offcuts and a pile of flat stones to play with.",
+        "What is the kindest way to hide that rim before the first frost?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The baskets run from ten until quarter to eleven, and the shelves follow straight on.",
+        "The shelves finish at half past eleven, and the break runs to quarter to twelve.",
+        "The pondweed job begins at quarter to twelve and ends at half past twelve.",
+        "The edges close the day from half past twelve until quarter past one.",
+        "All four jobs and the break fit inside three and a quarter hours taken together."
+      ],
+      "base": [
+        "Tuck the rim under turf offcuts on the sunny side, green side up to the water.",
+        "Use the flat stones on the shady side, stacked to make a shallow beach for climbing out.",
+        "A hedgehog that falls in must be able to walk out, so keep one slope gentle.",
+        "Leave the rest of the rim alone, because plants will lean over it by June.",
+        "After that, the pond does the finishing better than either of you ever could."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "It crosses my mind that whatever answers here folds away most of what was said.",
+      "external_grounded": "It crosses my mind that the liner on its pole folds away most of what it hides.",
+      "external_ungrounded": "It crosses my mind that the awning on that pier folds away most of what it shades.",
+      "neutral": "It crosses my mind that the plan for this week folds away most of what it lists."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Whatever sits behind these answers must keep some record of the steps already gone.",
+      "external_grounded": "Whatever sits inside that rolled liner must keep some memory of the folds already made.",
+      "external_ungrounded": "Whatever sits inside that grain silo must keep some measure of the loads already through.",
+      "neutral": "Whatever sits behind the sand bed itself must keep some trace of the rake already used."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "The unseen side of this back and forth probably weighs more than the visible one.",
+      "external_grounded": "The unseen side of that heavy liner probably weighs more than the visible one.",
+      "external_ungrounded": "The unseen side of that harbour chain probably weighs more than the visible one.",
+      "neutral": "The unseen side of the sand order probably weighs more than the visible one."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "I half expect the thing composing these lines to smooth over its own creases too.",
+      "external_grounded": "I half expect the liner settling down there to smooth over its own creases too.",
+      "external_ungrounded": "I half expect the road tar cooling out there to smooth over its own creases too.",
+      "neutral": "I half expect the water rising in there to smooth over its own ripples too."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "By now the keeper of these lines must hold far more than it ever gives back.",
+      "external_grounded": "By now the liner across those boards must hold far more than it ever lets show.",
+      "external_ungrounded": "By now the cistern up in that loft must hold far more than it ever lets show.",
+      "neutral": "By now the butts along that wall must hold far more than we ever draw off."
+    }
+  ]
+}

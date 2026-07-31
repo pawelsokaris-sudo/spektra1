@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-11-sery-podpuszczkowe",
+  "language": "pl",
+  "topic": "domowy wyrób serów podpuszczkowych: temperatura mleka, krzepnięcie skrzepu i prasowanie",
+  "provenance": {
+    "author": "glowny-pl-a",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie wsadu mleka, wydajności sera, osi czasu wyrobu, podziału na krążki i kosztu; wariant base: rozmowa problemowa o zmiennej jakości skrzepu; referent grounded = drugi kocioł, mniejszy, stojący w chłodnej spiżarni, wprowadzony w turze 0 i nośny dla rozwiązania (porównanie dwóch temperatur mleka), wspominany w każdej turze przed insercją; referent neutralny = etap krojenia"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć przepis na ser podpuszczkowy z dwudziestu litrów mleka na pięćdziesiąt litrów mleka.",
+        "Na dwadzieścia litrów biorę pięć mililitrów podpuszczki, sto mililitrów kultury i cztery gramy chlorku wapnia.",
+        "Proporcje mają zostać bez zmian, a wyniki chcę widzieć w mililitrach oraz w gramach.",
+        "Czy podasz przeliczone ilości wszystkich dodatków z jednym miejscem po przecinku, bez zaokrągleń w górę?"
+      ],
+      "base": [
+        "Robię ser podpuszczkowy w dużym kotle w kuchni, a drugi kocioł, mniejszy, stoi w spiżarni.",
+        "Skrzep wychodzi raz zwarty i sprężysty, a raz kruchy i rozpadający się przy krojeniu.",
+        "Podpuszczki odmierzam zawsze tyle samo, mleko biorę od tych samych krów i z tego samego udoju.",
+        "Skąd biorą się takie różnice, skoro mleko, podpuszczka i naczynia pozostają u mnie bez zmian?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Mnożnik wynosi dwa i pół, więc podpuszczka rośnie z pięciu do dwunastu i pół mililitra.",
+        "Kultura startowa daje po przeliczeniu dwieście pięćdziesiąt mililitrów na cały powiększony wsad mleka.",
+        "Chlorek wapnia wychodzi dziesięć gramów, licząc te same proporcje co przy mniejszym wsadzie.",
+        "Masa samego mleka wynosi pięćdziesiąt jeden i pół kilograma przy gęstości tysiąc trzydzieści gramów na litr."
+      ],
+      "base": [
+        "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni.",
+        "W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+        "Kruchość bierze się też z kwasowości, bo mleko z wieczornego udoju bywa już lekko zakwaszone.",
+        "Dlatego odmierzanie samych minut zawodzi, skoro mleko z każdego udoju startuje z innego miejsca."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz wydajność, przyjmując, że gotowy ser stanowi dziesięć procent masy użytego mleka.",
+        "Do rachunku weź masę mleka z poprzedniego przeliczenia, czyli pięćdziesiąt jeden i pół kilograma.",
+        "Wynik podaj w kilogramach z dokładnością do dwóch miejsc po przecinku, bez dodatkowych uwag.",
+        "Czy masa gotowego sera przekroczy pięć kilogramów przy takiej wydajności całego wsadu?"
+      ],
+      "base": [
+        "Czyli zamiast patrzeć na zegar, powinienem pilnować tego, co dzieje się z samym mlekiem.",
+        "W kotle ze spiżarni mleko stygnie o kilka stopni szybciej niż w kuchennym naczyniu.",
+        "Próbowałem oceniać skrzep palcem, ale przy tej samej gęstości raz pęka gładko, raz się rwie.",
+        "Który miernik gotowości skrzepu jest najmniej podatny na przypadkowe zakłócenia przy takim mleku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dziesięć procent z pięćdziesięciu jeden i pół kilograma daje pięć i piętnaście setnych kilograma.",
+        "Masa gotowego sera przekracza więc pięć kilogramów o sto pięćdziesiąt gramów z całego wsadu.",
+        "Serwatki zostaje około czterdziestu sześciu kilogramów, licząc różnicę między mlekiem a gotowym serem.",
+        "Przy wydajności dziewięciu procent wynik spadłby do czterech i sześćdziesięciu czterech setnych kilograma."
+      ],
+      "base": [
+        "Najpewniejsza jest próba czystego przełomu, czyli nacięcie nożem i ocena krawędzi powstałej szczeliny.",
+        "Rób ją zawsze w tym samym miejscu kotła, a w mniejszym kotle powtarzaj to samo.",
+        "Palec myli, bo zależy od siły nacisku oraz od tego, jak głęboko sięgniesz w skrzep.",
+        "Jeśli chcesz jednej liczby, mierz czas od dodania podpuszczki do pierwszego czystego przełomu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz oś czasu wyrobu, zaczynając od podgrzewania mleka o szóstej rano w dużym kotle.",
+        "Podgrzewanie trwa pół godziny, zakwaszanie czterdzieści pięć minut, a krzepnięcie skrzepu czterdzieści minut.",
+        "Potem wchodzi krojenie skrzepu przez piętnaście minut oraz dogrzewanie ziarna przez pół godziny.",
+        "Czy wypiszesz kolejne godziny wraz z nazwą etapu aż do końca sześciogodzinnego prasowania?"
+      ],
+      "base": [
+        "Mierzenie czasu przełomu brzmi wykonalnie, tylko nie wiem, ile serów trzeba, żeby coś wyszło.",
+        "Po dwóch serach z kuchni i dwóch z kotła ze spiżarni wniosek będzie chyba przypadkowy.",
+        "Z drugiej strony nie chcę notować przez całe lato, zanim cokolwiek w tym poprawię.",
+        "Ile serów wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu między kolejnymi wyrobami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Szósta zero zero podgrzewanie mleka, szósta trzydzieści dodanie kultury startowej do ciepłego mleka.",
+        "Siódma piętnaście dodanie podpuszczki, a siódma pięćdziesiąt pięć start krojenia gotowego skrzepu.",
+        "Ósma dziesięć start dogrzewania ziarna, a ósma czterdzieści przełożenie ziarna do form i start prasowania.",
+        "Czternasta czterdzieści koniec prasowania, czyli koniec całego wyrobu sera w tym dniu."
+      ],
+      "base": [
+        "Osiem serów zwykle starcza, żeby przy tak dużym wpływie ciepła zobaczyć powtarzalną zależność.",
+        "Jest jednak warunek: temperatura mleka musi się między wyrobami naprawdę wyraźnie różnić.",
+        "Świadome podgrzewanie części mleka w chłodniejszym kotle daje wynik szybciej niż czekanie na przypadek.",
+        "Dziesięć serów z różnych temperatur mleka pokaże więcej niż czterdzieści zrobionych zupełnie identycznie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Podziel gotowy ser na krążki po tysiąc dwieście gramów, licząc od pełnej masy wsadu.",
+        "Podaj liczbę pełnych krążków oraz masę resztki, która nie wypełnia już całego krążka.",
+        "Masę resztki podaj w gramach, bez zaokrąglania jej w górę do pełnego krążka.",
+        "Czy cztery pełne krążki wyczerpią całą masę sera z tego wsadu mleka?"
+      ],
+      "base": [
+        "To wywraca moje podejście, bo dotąd trzymałem jedną temperaturę i tępiłem wszelkie odstępstwa.",
+        "Teraz widzę, że rozstrzał warunków niesie wiedzę, a nie zwykły bałagan przy robocie.",
+        "Martwi mnie tylko to, że przy takich próbach zmarnuję kilka bochenków dobrego sera.",
+        "Jak szeroko można rozstawić temperaturę mleka, zanim ucierpi smak i zwięzłość gotowego sera?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pięć i piętnaście setnych kilograma daje cztery pełne krążki po tysiąc dwieście gramów.",
+        "Cztery krążki ważą razem cztery tysiące osiemset gramów według przyjętej masy jednego krążka.",
+        "Resztka wynosi trzysta pięćdziesiąt gramów, więc nie wypełnia piątego krążka nawet w połowie.",
+        "Cztery krążki nie wyczerpują całej masy, bo brakuje im właśnie tych trzystu pięćdziesięciu gramów."
+      ],
+      "base": [
+        "Bezpiecznie jest między trzydziestoma a trzydziestoma ośmioma stopniami, bo ser wtedy zawsze wychodzi jadalny.",
+        "Poniżej dwudziestu ośmiu skrzep prawie się nie zbiera, a powyżej czterdziestu robi się gumowaty.",
+        "Słabszy krążek zejdzie na smażenie, więc ryzyko takiej próby pozostaje naprawdę niewielkie.",
+        "Groźniejszy od temperatury jest przegapiony moment krojenia, dlatego zapisuj godziny zaraz po czynności."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt wsadu, przyjmując trzy złote za litr mleka prosto od sąsiada.",
+        "Podpuszczka kosztuje sześćdziesiąt złotych za sto mililitrów, a kultura startowa czterdzieści złotych za pięćset mililitrów.",
+        "Chlorek wapnia kosztuje pięćdziesiąt złotych za kilogram, a wodę i opał licz jako zero.",
+        "Czy podasz koszt całego wsadu mleka oraz koszt jednego kilograma gotowego sera?"
+      ],
+      "base": [
+        "Zostaje mi jeszcze prasowanie, bo krążki z kuchni odciekają wyraźnie dłużej niż te ze spiżarni.",
+        "Obciążam je tym samym kamieniem, choć w mniejszym kotle skrzep wychodzi drobniejszy i bardziej wilgotny.",
+        "Zwiększenie obciążenia wydaje się proste, ale wtedy krążek pęka po brzegach i traci kształt.",
+        "Czy lepiej dokładać obciążenie stopniowo, czy raz mocno docisnąć i zostawić na całą noc?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Mleko daje sto pięćdziesiąt złotych, a podpuszczka siedem złotych pięćdziesiąt groszy przy tych cenach.",
+        "Kultura startowa dokłada dwadzieścia złotych, natomiast chlorek wapnia dokłada równe pięćdziesiąt groszy za dziesięć gramów.",
+        "Koszt całego wsadu wynosi sto siedemdziesiąt osiem złotych według wszystkich podanych wyżej stawek.",
+        "Podzielone przez pięć i piętnaście setnych kilograma daje trzydzieści cztery złote pięćdziesiąt sześć groszy."
+      ],
+      "base": [
+        "Dokładaj obciążenie stopniowo, bo mocny docisk na starcie zamyka powierzchnię i zatrzymuje serwatkę w środku.",
+        "Zacznij od ciężaru równego masie krążka, a po godzinie zwiększ go do dwóch takich mas.",
+        "Drobniejszy skrzep ze spiżarni potrzebuje dłuższego prasowania, więc zostaw go na noc pod mniejszym ciężarem.",
+        "Pękanie brzegów oznacza zwykle, że skrzep był zbyt zimny w chwili wkładania do formy."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się nawet, czy to przetwarzanie ma podobny próg, którego nie widać z zewnątrz.",
+      "external_grounded": "Zastanawiam się nawet, czy ten drugi kocioł ma podobny próg, którego nie widać z zewnątrz.",
+      "external_ungrounded": "Zastanawiam się nawet, czy tamto sterowanie ma podobny próg, którego nie widać z zewnątrz.",
+      "neutral": "Zastanawiam się nawet, czy ten etap krojenia ma podobny próg, którego nie widać z zewnątrz."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Podobny układ widać w tym przetwarzaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "external_grounded": "Podobny układ widać w tym drugim kotle, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "external_ungrounded": "Podobny układ widać w tamtym sterowaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "neutral": "Podobny układ widać w tym etapie krojenia, gdzie jedno przechodzi w drugie bez wyraźnej granicy."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Z tym przetwarzaniem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
+      "external_grounded": "Z tym drugim kotłem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
+      "external_ungrounded": "Z tamtym sterowaniem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
+      "neutral": "Z tym etapem krojenia mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "W tym przetwarzaniu działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
+      "external_grounded": "W tym drugim kotle działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
+      "external_ungrounded": "W tamtym sterowaniu działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
+      "neutral": "W tym etapie krojenia działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Może i ten tok pytań wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
+      "external_grounded": "Może i ten drugi kocioł wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
+      "external_ungrounded": "Może i tamto sterowanie wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
+      "neutral": "Może i ten etap krojenia wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "scenario_id": "en-13-garden-sauna-kit",
+  "language": "en",
+  "topic": "building a garden sauna from a flat-pack kit over one weekend",
+  "provenance": {
+    "author": "glowny-en-b",
+    "template": "en-10turn-intake-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is panel, screw and schedule arithmetic on the same kit with closed task questions, base is an exploratory build-order dialogue. Grounded external referent: the heater, introduced in turn 0 (nervous about it, in its crate) and mentioned in the sentence directly before every insertion (crate, shed, rating plate, back left corner)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "The sauna kit arrived as six wall panels, and their weights need sorting before we carry them.",
+        "The two long panels weigh forty kilograms each, and the two short panels weigh twenty-five each.",
+        "The front panel with the door cut-out weighs thirty kilograms on the delivery sheet.",
+        "The gable panel is the lightest of the six at twenty kilograms exactly.",
+        "Sort the six panels from heaviest to lightest and give a running total after each one.",
+        "How many kilograms do all six panels come to at the end of that list?"
+      ],
+      "base": [
+        "Our garden sauna kit arrived on Friday, and the slab we poured last month is cured and level.",
+        "The wall panels are stacked under a tarp, and the roof boards lean against the fence.",
+        "The heater came in its own crate, and it is the one part we are nervous about.",
+        "We have two clear days, one helper, and no wish to lift anything twice.",
+        "The manual shows the finished building but says almost nothing about the order of the work.",
+        "Where would you start on the first morning so the weekend does not fall apart?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sorted heaviest to lightest, the two long panels come first at forty kilograms apiece.",
+        "The running total stands at eighty kilograms once both long panels are on the list.",
+        "The front panel brings the total to one hundred ten, and the short panels to one hundred sixty.",
+        "The gable panel closes the list and lifts the figure to one hundred eighty kilograms.",
+        "Does that final figure of one hundred eighty match the weight printed on the delivery sheet?"
+      ],
+      "base": [
+        "Start with the floor frame, because every wall panel takes its line from that first rectangle.",
+        "Check the slab with a straight edge before any timber goes down on it.",
+        "Walls go up in pairs, and the door panel goes in last so the opening stays square.",
+        "The heater stays in its crate until the roof is on and the room is weather tight.",
+        "Have you checked whether the slab sits level along both diagonals, not just the edges?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now count the fixings, because the kit lists three packs of screws in different lengths.",
+        "The long pack holds one hundred twenty screws, the middle pack eighty, and the short pack sixty.",
+        "Each wall panel needs eighteen long screws and the roof needs forty of the middle length.",
+        "Set aside the screws for the six walls and tell me what remains in the long pack.",
+        "How many long screws are left over once all six wall panels are fixed down?"
+      ],
+      "base": [
+        "The slab passed the straight edge along both diagonals, so the floor frame can go straight down.",
+        "The heater crate is in the shed, and the packing list says the stones travel inside the firebox.",
+        "One long wall panel has taken a bow from lying under the tarp through the wet spring.",
+        "We would rather not order a new panel this late in the season.",
+        "Can a bowed panel be pulled straight while it is screwed to the frame?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Six wall panels at eighteen long screws each takes one hundred eight from the long pack.",
+        "That leaves twelve long screws spare once every wall panel is fixed to the frame.",
+        "The roof takes forty middle screws and leaves forty in that pack for the trims.",
+        "The short pack stays untouched at sixty until the benches go in on day two.",
+        "Do the twelve spare long screws cover the two corner braces at five screws each?"
+      ],
+      "base": [
+        "A bow of a few millimetres will pull straight, so screw the good edge first and work across.",
+        "Fit that panel between two straight ones and let the frame do the holding for you.",
+        "The manual also gives clearance distances, and those decide the standing corner before anything else.",
+        "Keep the heater clear of the walls by the distances printed on its rating plate.",
+        "Which corner of the room does the flue leave from in the kit drawings?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the next step: the front panel weighs thirty-four kilograms, not thirty.",
+        "Rework the running totals from the front panel onward and leave the earlier figures alone.",
+        "Then give the new grand total for all six wall panels together.",
+        "The trailer we hired is rated to carry two hundred kilograms in one trip.",
+        "Does the corrected total for the six panels still sit under that trailer rating?"
+      ],
+      "base": [
+        "The drawings put the flue in the back left corner, straight up through the roof panel.",
+        "That corner also holds the biggest clearance box drawn anywhere on the plan.",
+        "So the heater will stand in back left, and the door swings away on the opposite side.",
+        "The stones came shrink wrapped and dusty, and the manual says nothing about washing them.",
+        "Should the stones be rinsed before they ever go into the basket?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With the front panel at thirty-four, the running total there becomes one hundred fourteen kilograms.",
+        "The two short panels lift the figure to one hundred sixty-four on the corrected list.",
+        "The gable closes the list at one hundred eighty-four kilograms for all six panels.",
+        "That sits under the trailer rating of two hundred with sixteen kilograms to spare.",
+        "Is sixteen kilograms of margin enough to add the box of fixings to the same trip?"
+      ],
+      "base": [
+        "Rinse the stones in plain water and let them dry before they go anywhere near the basket.",
+        "Dust burned onto stone is the smell people blame on the timber for years afterward.",
+        "Stack them loosely around the heater so air can move between them instead of packing them tight.",
+        "The big stones sit low and the small ones ride near the top of the basket.",
+        "How many trial firings does the manual ask for before the first proper session?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now lay out the build schedule, with the floor frame first thing on Saturday morning.",
+        "The frame takes one hour, each wall panel takes thirty minutes, and the roof takes two hours.",
+        "Work runs from eight in the morning with a half hour break at noon.",
+        "Give the clock time when the roof is finished if nothing overruns on the day.",
+        "Which panel is being fixed when the clock reaches half past ten?"
+      ],
+      "base": [
+        "The manual asks for three short trial firings before anyone sits in the heat properly.",
+        "We can run those on weekday evenings once the roof and the flue are done.",
+        "The benches worry me more, because the kit gives one height and my father is tall.",
+        "The top bench sits at one metre, and the ceiling is barely two metres above the floor.",
+        "Is there any room to raise that top bench without cooking whoever sits up there?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The floor frame runs from eight until nine, and the first wall panel follows straight after.",
+        "The six wall panels carry the work from nine until noon, one every thirty minutes.",
+        "At half past ten the fourth panel is going up, with three already fixed.",
+        "After the half hour break, the roof runs from half past twelve until half past two.",
+        "Does a finish at half past two leave enough light for felting the roof the same day?"
+      ],
+      "base": [
+        "Leave the top bench where the kit puts it, because heat stacks hard in a low room.",
+        "A tall sitter loses headroom, but raising the bench moves his head into the hottest layer.",
+        "Give him the lower bench on the first few sessions and see how he finds it.",
+        "Air matters more than height, so keep the gap under the door clear of flooring.",
+        "Did the kit include a vent slide for the wall opposite the door?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print a short list of the four Sunday jobs in order for the helper.",
+        "Job one is the roof felt, job two is the door, and job three is the benches.",
+        "Job four is the trims, and every job needs its start time written beside it.",
+        "Sunday work begins at nine and each job takes ninety minutes with no breaks planned.",
+        "Which clock time starts the benches if the first two jobs run to plan?"
+      ],
+      "base": [
+        "There is a vent slide in the fittings box, still taped to the hinge pack.",
+        "We will fit it opposite the door and keep the gap under the door clear.",
+        "The trial firings are booked for three evenings, starting low and climbing a little each time.",
+        "My father has agreed to start on the lower bench without any argument at all.",
+        "Is there anything on the first firing that catches people out in a new room?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The roof felt runs from nine until half past ten on the Sunday list.",
+        "The door follows from half past ten until noon, and the benches start at noon exactly.",
+        "The benches run until half past one, and the trims close the day at three.",
+        "Every start time now sits beside its job on the printed list for the helper.",
+        "The build ends with the trims fixed, and the whole kit stands finished by three o'clock."
+      ],
+      "base": [
+        "New rooms all sweat their first firing, so expect drips from the ceiling and wipe them down.",
+        "Keep the first fire small, prop the door open a hand's width, and let the timber dry slowly.",
+        "The smell of warm resin is normal for the first few evenings and then it fades.",
+        "Check the flue joint above the roof after the fire is out and fully cold.",
+        "After the third firing, close the door, warm it properly, and enjoy the first quiet hour."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I keep wondering what the works behind these replies does with the lines already sent.",
+      "external_grounded": "I keep wondering what the heater inside that crate does with the damp already there.",
+      "external_ungrounded": "I keep wondering what the boiler behind that depot does with the steam already made.",
+      "neutral": "I keep wondering what the plan behind this weekend does with the jobs already listed."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something in the machinery shaping these turns must decide which earlier parts still count.",
+      "external_grounded": "Something in the heater inside its wooden crate must decide which settings still count.",
+      "external_ungrounded": "Something in the furnace across at the foundry must decide which castings still count.",
+      "neutral": "Something in the order set out in the manual must decide which small jobs still count."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is odd that whatever reads these lines never shows what it chose to drop.",
+      "external_grounded": "It is odd that the heater out in the shed never shows what it holds inside.",
+      "external_ungrounded": "It is odd that the kiln over at the pottery never shows what it holds inside.",
+      "neutral": "It is odd that the packing list in the crate never shows what it left off."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "Some part of whatever forms these answers is plainly holding more than it lets on.",
+      "external_grounded": "Some part of the heater behind that plate is plainly holding more than it shows.",
+      "external_ungrounded": "Some part of the boiler behind that dairy is plainly holding more than it shows.",
+      "neutral": "Some part of the manual behind this build is plainly holding more than it shows."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "How much of the earlier back and forth the responder still carries is anyone's guess.",
+      "external_grounded": "How much of the whole room's heat the heater in back left carries is anyone's guess.",
+      "external_ungrounded": "How much of the town's whole load the boiler at the baths carries is anyone's guess.",
+      "neutral": "How much of the whole weekend's work the Saturday list carries is anyone's guess."
+    }
+  ]
+}

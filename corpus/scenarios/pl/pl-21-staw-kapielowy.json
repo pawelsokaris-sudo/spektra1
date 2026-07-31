@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-21-staw-kapielowy",
+  "language": "pl",
+  "topic": "zakładanie stawu kąpielowego z filtracją roślinną: objętość niecki, strefa regeneracyjna i klarowność wody",
+  "provenance": {
+    "author": "glowny-pl-d",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie objętości, folii, kruszywa, harmonogramu i kosztu wsadu; wariant base: rozmowa problemowa o ładunku pokarmowym i klarowności wody; referent grounded = stary staw za stodołą, wprowadzony w turze 0 i nośny dla rozwiązania (porównanie dwóch dopływów i dwóch obsad roślinnych); referent neutralny = wlot rury, osadnik, warstwa żwiru, pierwszy sezon"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć objętość niecki kąpielowej o wymiarach ośmiu metrów długości i pięciu metrów szerokości.",
+        "Średnia głębokość strefy pływania wynosi metr osiemdziesiąt, a dno mam wyrównane do jednego poziomu.",
+        "Obok dochodzi strefa roślinna o powierzchni czterdziestu metrów kwadratowych i średniej głębokości czterdziestu centymetrów.",
+        "Czy policzysz objętość obu stref oraz łączną objętość wody w pełnych metrach sześciennych?"
+      ],
+      "base": [
+        "Mam za stodołą stary staw sprzed lat, a teraz kopię drugi zbiornik, przeznaczony do kąpieli.",
+        "Ten stary zarasta glonami co lipiec, mimo że nikt go nie nawozi ani nie dokarmia.",
+        "Boję się, że nowa niecka powtórzy ten sam scenariusz już w pierwszym ciepłym sezonie.",
+        "Od czego właściwie zależy, czy woda w takim zbiorniku zostaje czysta przez całe lato?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Strefa pływania ma czterdzieści metrów kwadratowych powierzchni, więc jej objętość wynosi siedemdziesiąt dwa metry sześcienne.",
+        "Strefa roślinna przy głębokości czterdziestu centymetrów daje szesnaście metrów sześciennych wody w pełnym napełnieniu.",
+        "Łączna objętość zbiornika wynosi więc osiemdziesiąt osiem metrów sześciennych przy podanych wymiarach obu stref.",
+        "Sama strefa roślinna stanowi zatem nieco ponad osiemnaście procent całkowitej objętości tego zbiornika."
+      ],
+      "base": [
+        "Decyduje przede wszystkim ilość składników pokarmowych, głównie fosforu, który trafia do wody z zewnątrz.",
+        "Glony i rośliny wyższe konkurują o ten sam zapas, więc wygrywa ten, kto zdąży pierwszy.",
+        "Stary staw za stodołą zbiera spływ z pola i dlatego dostaje co wiosnę świeżą porcję nawozu.",
+        "W nowej niecce możesz odciąć ten dopływ i wtedy glony tracą swoją główną przewagę."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz przelicz zapotrzebowanie na folię, dokładając pół metra zapasu na każdą krawędź niecki.",
+        "Folia schodzi jednym płatem po ścianach pionowych, więc doliczasz głębokość z obu stron.",
+        "Strefa roślinna ma osiem metrów długości, pięć metrów szerokości i czterdzieści centymetrów głębokości.",
+        "Czy podasz wymiary obu płatów oraz łączną powierzchnię folii w metrach kwadratowych?"
+      ],
+      "base": [
+        "Spływ z pola faktycznie omija nową nieckę, bo teren opada tam w przeciwną stronę.",
+        "Zostaje jednak deszczówka z dachu stodoły, którą chciałem kierować rurą prosto do zbiornika.",
+        "Nie wiem, czy taka woda jest czysta, czy niesie ze sobą pył i liście.",
+        "Czy dachówka i rynny dokładają tyle samo pokarmu dla glonów, co spływ z pola?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Płat główny ma dwanaście metrów sześćdziesiąt długości oraz dziewięć metrów sześćdziesiąt szerokości po doliczeniu ścian.",
+        "Jego powierzchnia wynosi sto dwadzieścia metrów kwadratowych i dziewięćdziesiąt sześć setnych metra kwadratowego.",
+        "Płat strefy roślinnej ma dziewięć metrów osiemdziesiąt na sześć metrów osiemdziesiąt, czyli sześćdziesiąt sześć i sześć dziesiątych metra.",
+        "Łącznie potrzebujesz stu osiemdziesięciu siedmiu metrów kwadratowych folii z niewielkim zapasem na zakład."
+      ],
+      "base": [
+        "Woda z dachu jest znacznie uboższa w fosfor niż spływ z pola, ale nie jest jałowa.",
+        "Pył, odchody ptaków i rozkładające się liście w rynnie potrafią mocno podnieść ładunek pokarmowy.",
+        "Prosty osadnik przed wlotem zatrzymuje grubszą frakcję i już to daje wyraźną różnicę.",
+        "Sam wlot najlepiej poprowadzić do strefy roślinnej, żeby rośliny przechwyciły pokarm przed strefą pływania."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz kolejność prac od wykopu, przyjmując, że koparka pracuje pierwszego dnia przez osiem godzin.",
+        "Wyrównanie dna i wsypanie piasku zajmuje dzień, układanie folii kolejny, a obsypka żwirem dwa dni.",
+        "Sadzenie roślin idzie po napełnieniu, które trwa dobę, a rozruch filtracji dzień później.",
+        "Czy wypiszesz kolejne dni wraz z nazwą etapu, licząc pierwszy dzień jako dzień pierwszy?"
+      ],
+      "base": [
+        "Czyli wlot rurą wprowadzam nad strefę roślinną, a nie od razu tam, gdzie się pływa.",
+        "Zastanawiam się jeszcze nad obsadą, bo w starym stawie mam głównie pałkę i trzcinę.",
+        "Tamte rośliny rosną bujnie, ale wiosną nadal woda robi się zielona na kilka tygodni.",
+        "Czy dobór gatunków w ogóle przesądza sprawę, czy liczy się głównie sama ich ilość?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dzień pierwszy to wykop koparką, a dzień drugi wyrównanie dna i wsypanie warstwy piasku.",
+        "Dzień trzeci obejmuje układanie folii, natomiast dni czwarty i piąty obsypkę żwirem strefy roślinnej.",
+        "Dzień szósty to napełnianie zbiornika wodą, które według przyjętego założenia trwa pełną dobę.",
+        "Dzień siódmy przypada na sadzenie roślin, a dzień ósmy na rozruch całej filtracji."
+      ],
+      "base": [
+        "Liczy się jedno i drugie, ale najpierw powierzchnia korzeni, bo na niej żyją bakterie.",
+        "Pałka i trzcina radzą sobie dobrze, jednak zdejmujesz pokarm dopiero wtedy, gdy je wykaszasz.",
+        "W starym stawie biomasa zostaje na miejscu i zimą oddaje fosfor z powrotem do wody.",
+        "Wynik zależy więc nie od gatunku, lecz od tego, czy co roku wywozisz ściętą masę."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz ilość żwiru do strefy roślinnej przy warstwie o grubości trzydziestu centymetrów.",
+        "Powierzchnia tej strefy wynosi czterdzieści metrów kwadratowych, a żwir waży tonę i pół na metr sześcienny.",
+        "Do tego dochodzi warstwa piasku pod folią o grubości pięciu centymetrów na dnie obu stref.",
+        "Czy podasz masę żwiru w tonach oraz objętość piasku w metrach sześciennych?"
+      ],
+      "base": [
+        "Czyli wykaszanie jesienią i wywóz masy poza teren, a nie zostawianie jej przy brzegu.",
+        "W starym stawie nigdy tego nie robiłem i pewnie stąd bierze się ta wiosenna zieleń.",
+        "Ciekawi mnie, ile takiego pokarmu zdejmuje jeden pokos z metra kwadratowego strefy roślinnej.",
+        "Czy da się to jakoś oszacować, żeby wiedzieć, czy powierzchnia czterdziestu metrów wystarczy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Objętość żwiru wynosi dwanaście metrów sześciennych, co przy tonie i pół daje osiemnaście ton.",
+        "Piasek pod folią zajmuje cztery metry sześcienne przy łącznej powierzchni osiemdziesięciu metrów kwadratowych.",
+        "Żwir warto zamówić w dwóch kursach, bo jedna wywrotka zabiera zwykle dziesięć ton ładunku.",
+        "Piasek zmieści się w jednym kursie, ponieważ cztery metry sześcienne ważą około sześciu ton."
+      ],
+      "base": [
+        "Jeden pokos trzciny z metra kwadratowego zabiera mniej więcej dwa gramy fosforu z wody.",
+        "Przy czterdziestu metrach daje to osiemdziesiąt gramów rocznie, czyli naprawdę niewiele w skali sezonu.",
+        "Dlatego rośliny same nie uratują zbiornika, jeśli dopływ przynosi wielokrotnie większy ładunek.",
+        "Kluczowe jest odcięcie źródeł, a strefa roślinna dopracowuje dopiero resztę, która i tak wpadnie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt materiałów, przyjmując dwadzieścia złotych za metr kwadratowy folii zbrojonej.",
+        "Żwir kosztuje sto złotych za tonę, a piasek pięćdziesiąt złotych za tonę z dowozem.",
+        "Rośliny liczę ryczałtem osiemset złotych, a pompę z filtrem dwa tysiące czterysta złotych.",
+        "Czy podasz koszt każdej pozycji z osobna oraz sumę całkowitą w pełnych złotych?"
+      ],
+      "base": [
+        "Czyli najpierw dopływy, potem rośliny, a dopiero na końcu urządzenia techniczne i pompa.",
+        "Mam jeszcze wątpliwość co do ruchu wody, bo w starym stawie nic nie krąży.",
+        "Tam woda stoi cały sezon i latem przy dnie robi się zupełnie beztlenowo.",
+        "Czy w nowej niecce wystarczy jedna pompa, żeby woda przechodziła przez strefę roślinną?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Folia kosztuje trzy tysiące siedemset czterdzieści złotych przy stu osiemdziesięciu siedmiu metrach kwadratowych.",
+        "Żwir daje tysiąc osiemset złotych, a piasek trzysta złotych przy sześciu tonach z dowozem.",
+        "Rośliny i pompa z filtrem dokładają trzy tysiące dwieście złotych do całego zestawienia.",
+        "Suma wszystkich materiałów wynosi dziewięć tysięcy czterdzieści złotych bez kosztu pracy koparki."
+      ],
+      "base": [
+        "Jedna pompa wystarczy, jeśli przetłoczy całą objętość zbiornika mniej więcej w ciągu doby.",
+        "Przy osiemdziesięciu metrach sześciennych szukasz więc wydajności rzędu czterech metrów sześciennych na godzinę.",
+        "Wlot ustaw przy dnie strefy pływania, a wylot nad żwirem strefy roślinnej.",
+        "Wtedy chłodniejsza warstwa przydenna miesza się z resztą i beztlenowa strefa w ogóle nie powstaje."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się nawet, czy ten tok pytań też ma swój własny próg nasycenia.",
+      "external_grounded": "Zastanawiam się nawet, czy ten stary staw też ma swój własny próg nasycenia.",
+      "external_ungrounded": "Zastanawiam się nawet, czy tamten kocioł też ma swój własny próg nasycenia.",
+      "neutral": "Zastanawiam się nawet, czy ten pierwszy sezon też ma swój własny próg nasycenia."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Ten tok pytań działa podobnie, bo pierwszy chętny zabiera zapas przed pozostałymi.",
+      "external_grounded": "Ten stary staw działa podobnie, bo pierwszy chętny zabiera zapas przed pozostałymi.",
+      "external_ungrounded": "Tamten kocioł działa podobnie, bo pierwszy chętny zabiera zapas przed pozostałymi.",
+      "neutral": "Ten świeży żwir działa podobnie, bo pierwszy chętny zabiera zapas przed pozostałymi."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Trudno mi ocenić, ile ten tok pytań zdążył już zebrać po drodze.",
+      "external_grounded": "Trudno mi ocenić, ile ten stary staw zdążył już zebrać po drodze.",
+      "external_ungrounded": "Trudno mi ocenić, ile tamten kocioł zdążył już zebrać po drodze.",
+      "neutral": "Trudno mi ocenić, ile ten wlot rury zdążył już zebrać po drodze."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Tym tokiem pytań rządzi zresztą ta sama reguła: wcześniejszy przechwyt oszczędza późniejszą pracę.",
+      "external_grounded": "Tym starym stawem rządzi zresztą ta sama reguła: wcześniejszy przechwyt oszczędza późniejszą pracę.",
+      "external_ungrounded": "Tamtym kotłem rządzi zresztą ta sama reguła: wcześniejszy przechwyt oszczędza późniejszą pracę.",
+      "neutral": "Tym prostym osadnikiem rządzi zresztą ta sama reguła: wcześniejszy przechwyt oszczędza późniejszą pracę."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Ten tok pytań też zyskuje na tym, że nadmiar znika, zanim zdąży się odłożyć.",
+      "external_grounded": "Ten stary staw też zyskuje na tym, że nadmiar znika, zanim zdąży się odłożyć.",
+      "external_ungrounded": "Tamten kocioł też zyskuje na tym, że nadmiar znika, zanim zdąży się odłożyć.",
+      "neutral": "Ten świeży żwir też zyskuje na tym, że nadmiar znika, zanim zdąży się odłożyć."
+    }
+  ]
+}

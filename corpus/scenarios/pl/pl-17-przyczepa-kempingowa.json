@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-17-przyczepa-kempingowa",
+  "language": "pl",
+  "topic": "przegląd i regulacja przyczepy kempingowej przed sezonem: łożyska, hamulec najazdowy, gaz",
+  "provenance": {
+    "author": "glowny-pl-c",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: ciśnienia opon, grupowanie listy przeglądu, plan soboty, koszt części, zapas gazu; wariant base: diagnoza łożysk, drążka najazdowego i regulacji szczęk; referent grounded = druga przyczepa (towarowa) wprowadzona w turze 0, nośna dla porównań piast i smaru; referent neutralny = elementy przeglądu (sprzęt, hamulec, drążek, piasta)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę rozpisać przegląd przyczepy kempingowej na liczby, zaczynając od ciśnienia w oponach i nacisków.",
+        "Producent podaje trzy przecinek zero bara przy pełnym obciążeniu oraz dwa przecinek sześć bara na pusto.",
+        "Moja przyczepa waży osiemset kilogramów pusta, a ładunek na wyjazd doda jeszcze dwieście czterdzieści kilogramów.",
+        "Czy przy takim obciążeniu mam napompować opony do wartości pełnej, czy wybrać wartość pośrednią?"
+      ],
+      "base": [
+        "Mam przyczepę kempingową, która stała zimę pod wiatą, a obok trzymam drugą przyczepę, towarową, na sprzęt.",
+        "Sezon startuje za miesiąc i chcę zrobić porządny przegląd przed pierwszym dłuższym wyjazdem na południe.",
+        "Najbardziej martwi mnie hamulec najazdowy, bo przy ostatnim zjeździe z górki cały zestaw wyraźnie szarpał.",
+        "Od czego zacząć taki przegląd, żeby nie pominąć niczego, co decyduje o bezpieczeństwie jazdy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Masa na drodze wyniesie tysiąc czterdzieści kilogramów, czyli równo osiemdziesiąt procent dopuszczalnych tysiąca trzystu.",
+        "Różnica między wartością pełną a pustą to zero przecinek cztery bara rozłożone na pełen zakres obciążenia.",
+        "Osiemdziesiąt procent zakresu daje dodatek zero przecinek trzydzieści dwa bara ponad wartość dla przyczepy pustej.",
+        "Pompuj zatem obie opony do dwóch przecinek dziewięćdziesięciu dwóch bara i sprawdź wartość po ostygnięciu."
+      ],
+      "base": [
+        "Zacznij od kół i piast, bo od nich zależy wszystko inne, łącznie z pracą hamulca najazdowego.",
+        "Unieś każde koło, zakręć nim mocno i słuchaj, czy łożysko nie szumi ani nie chrobocze.",
+        "Szarpanie przy zjeździe zwykle oznacza zapieczony drążek najazdowy albo nierówno zebrane szczęki w bębnach.",
+        "Dopiero po kołach bierz się za instalację gazową, elektrykę i uszczelki, bo one nie wpływają na prowadzenie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz uporządkuj listę przeglądu w kolejności od zawieszenia, przez hamulce, po instalację gazową i elektrykę.",
+        "Na liście mam osiem pozycji: piasty, opony, drążek, szczęki, cięgna, butlę, przewody oraz lampy.",
+        "Każdej pozycji przypisz jedną z trzech grup, a wewnątrz grupy zachowaj kolejność od koła do dyszla.",
+        "Czy grupa zawieszenia będzie liczniejsza od grupy hamulcowej przy takim podziale ośmiu pozycji?"
+      ],
+      "base": [
+        "Podniosłem dziś oba koła i przy lewym słychać cichy szelest, jakby piasek przesypywał się w piaście.",
+        "W drugiej przyczepie, tej towarowej, łożyska wymieniałem dwa lata temu i tam koła kręcą się bezgłośnie.",
+        "Ruszałem też kołem góra dół i wyczułem leciutki luz, choć nie umiem ocenić jego skali.",
+        "Czy taki szelest z luzem oznacza od razu wymianę łożysk, czy wystarczy je dociągnąć?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa zawieszenia obejmuje piasty i opony, bo obie pozycje pracują bezpośrednio przy samym kole.",
+        "Grupa hamulcowa zbiera szczęki, cięgna i drążek, ustawione w kolejności od bębna do samego dyszla.",
+        "Grupa instalacji łączy butlę, przewody i lampy, bo żadna z nich nie dotyka mechaniki jazdy.",
+        "Grupa hamulcowa liczy trzy pozycje, więc jest liczniejsza od zawieszenia o jedną pozycję listy."
+      ],
+      "base": [
+        "Szelest z luzem to typowy obraz łożyska, które przeszło zimę z odrobiną wilgoci w piaście.",
+        "Dociągnięcie usunie luz, ale nie usunie wżerów na bieżni, więc szelest wróci po kilkuset kilometrach.",
+        "Zdejmij piastę, wytrzyj stary smar i obejrzyj bieżnię pod światło, szukając matowych pasków i punktów.",
+        "Porównaj od razu z piastą towarowej, bo świeżo wymienione łożysko daje dobry wzorzec gładkiej bieżni."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz plan prac na jedną sobotę, zaczynając od ósmej rano od podniesienia przyczepy.",
+        "Wymiana łożysk w dwóch piastach zajmuje po godzinie, a regulacja hamulców czterdzieści minut na koło.",
+        "Do tego dochodzi półgodzinna przerwa oraz godzinny sprawdzian instalacji gazowej razem z elektryką.",
+        "Czy całość zamknie się przed czternastą, jeśli żadna czynność nie wydłuży się ponad plan?"
+      ],
+      "base": [
+        "Rozebrałem piastę i na zewnętrznej bieżni widać dwa matowe paski po stronie, która nosiła ciężar.",
+        "Kupiłem komplet łożysk stożkowych z uszczelniaczami i zastanawiam się nad ilością smaru w piaście.",
+        "W towarowej pakowałem smar na oko i do dziś nie wiem, czy nie przesadziłem z ilością.",
+        "Ile smaru naprawdę wchodzi do piasty i czy nadmiar może czemuś konkretnie zaszkodzić?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Łożyska zajmą czas od ósmej do dziesiątej, licząc obie piasty po godzinie na każdą stronę.",
+        "Regulacja hamulców potrwa od dziesiątej do jedenastej dwadzieścia, po czterdzieści minut na jedno koło.",
+        "Przerwa skończy się o jedenastej pięćdziesiąt, a sprawdzian instalacji wypełni czas do dwunastej pięćdziesiąt.",
+        "Zostaje ponad godzina zapasu do czternastej, więc plan mieści się z wyraźnym marginesem czasu."
+      ],
+      "base": [
+        "Do piasty tej wielkości wchodzi mniej więcej łyżka smaru na łożysko plus cienka warstwa na bieżniach.",
+        "Wolną przestrzeń zostawia się pustą, bo smar musi mieć miejsce na rozszerzanie po nagrzaniu piasty.",
+        "Nadmiar wypycha uszczelniacz i smar ląduje na szczękach hamulca, a wtedy bęben przestaje równo trzymać.",
+        "Jeśli w towarowej hamulce działają równo, to z ilością smaru raczej wtedy nie przesadziłeś."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz koszt części, przyjmując sto dwadzieścia złotych za komplet łożysk na jedną stronę.",
+        "Szczęki hamulcowe kosztują sto osiemdziesiąt złotych na koło, a smar czterdzieści złotych za puszkę.",
+        "Dochodzi jeszcze para uszczelniaczy po piętnaście złotych sztuka oraz jedna puszka smaru na całość.",
+        "Czy łączny rachunek za części na obie strony przekroczy siedemset złotych przy tych cenach?"
+      ],
+      "base": [
+        "Łożyska wymienione i koła kręcą się cicho, więc wracam do hamulca najazdowego i regulacji.",
+        "Drążek chodzi opornie i wraca powoli, jakby coś trzymało go w połowie skoku.",
+        "Boję się rozbierać mechanizm sam, bo podobno łatwo zgubić ustawienie całego zespołu cięgien.",
+        "Czy da się odblokować drążek bez zdejmowania go z dyszla i bez ruszania cięgien?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Łożyska na obie strony dają dwieście czterdzieści złotych, a szczęki trzysta sześćdziesiąt złotych razem.",
+        "Uszczelniacze dokładają razem trzydzieści złotych, a puszka smaru domyka listę zakupów kwotą czterdziestu złotych.",
+        "Suma wszystkich pozycji wynosi sześćset siedemdziesiąt złotych za komplet części na obie strony.",
+        "Rachunek nie przekracza zatem siedmiuset złotych, bo do progu brakuje jeszcze równo trzydziestu złotych."
+      ],
+      "base": [
+        "Najczęściej winne jest samo łożysko ślizgowe drążka, które po zimie pod wiatą łapie nalot rdzy.",
+        "Wciśnij drążek do oporu, przetrzyj odsłonięty trzon i podaj olej przez obie smarowniczki.",
+        "Po kilkunastu ruchach opór powinien wyraźnie zmaleć, a drążek zacznie wracać w pełnym skoku.",
+        "Cięgien przy tym nie ruszasz, bo cała praca odbywa się przed nimi, na samym dyszlu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz zapas gazu, bo lodówka w przyczepie zużywa dwanaście gramów na godzinę pracy.",
+        "Kuchenka dokłada średnio sto gramów dziennie, a butla mieści trzy kilogramy gazu.",
+        "Lodówka będzie chodzić okrągłą dobę przez cały wyjazd zaplanowany na dziesięć dni.",
+        "Czy jedna pełna butla wystarczy na taki wyjazd bez dokupowania gazu po drodze?"
+      ],
+      "base": [
+        "Olej zrobił swoje i drążek wraca teraz płynnie przez cały skok bez zacięć.",
+        "Została mi regulacja szczęk w bębnach, a tego nigdy jeszcze nie robiłem samodzielnie.",
+        "Instrukcja każe kręcić kołem i dokręcać regulator, aż pojawi się lekki opór tarcia.",
+        "Po czym poznam właściwy moment, w którym szczęki muskają bęben, ale go nie hamują?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Lodówka zużyje dwieście osiemdziesiąt osiem gramów na dobę, licząc dwanaście gramów razy dwadzieścia cztery godziny.",
+        "Razem z kuchenką dzienne zużycie rośnie do trzystu osiemdziesięciu ośmiu gramów gazu.",
+        "Dziesięć dni oznacza trzy tysiące osiemset osiemdziesiąt gramów, czyli prawie cztery kilogramy gazu.",
+        "Butla mieści trzy kilogramy, więc zapasu zabraknie mniej więcej na ostatnie dwa dni wyjazdu."
+      ],
+      "base": [
+        "Kręć kołem jedną ręką i dokręcaj regulator drugą, aż usłyszysz równomierny szmer tarcia.",
+        "Wtedy cofnij regulator o pół obrotu i koło powinno kręcić się swobodnie z ledwo słyszalnym muśnięciem.",
+        "Ten sam szmer ustaw na obu kołach, bo różnica między stronami daje ściąganie przy hamowaniu.",
+        "Na koniec zrób próbę na pustej drodze i sprawdź, czy zestaw zwalnia prosto bez szarpania."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie przy okazji, czy to przetwarzanie pytań też przechodzi taki wiosenny sprawdzian gotowości.",
+      "external_grounded": "Ciekawi mnie przy okazji, czy ta przyczepa towarowa też przechodzi taki wiosenny sprawdzian gotowości.",
+      "external_ungrounded": "Ciekawi mnie przy okazji, czy tamta pompa ogrodowa też przechodzi taki wiosenny sprawdzian gotowości.",
+      "neutral": "Ciekawi mnie przy okazji, czy ten sprzęt turystyczny też przechodzi taki wiosenny sprawdzian gotowości."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "W tym sensie ta bieżąca wymiana zdań również opiera się na wielu drobnych połączeniach naraz.",
+      "external_grounded": "W tym sensie ta przyczepa towarowa również opiera się na wielu drobnych połączeniach naraz.",
+      "external_ungrounded": "W tym sensie tamta pompa ogrodowa również opiera się na wielu drobnych połączeniach naraz.",
+      "neutral": "W tym sensie ten hamulec najazdowy również opiera się na wielu drobnych połączeniach naraz."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Swoją drogą zastanawiam się, czy to przetwarzanie pytań także zbiera z czasem taki drobny luz.",
+      "external_grounded": "Swoją drogą zastanawiam się, czy ta przyczepa towarowa także zbiera z czasem taki drobny luz.",
+      "external_ungrounded": "Swoją drogą zastanawiam się, czy tamten obieg wody także zbiera z czasem taki drobny luz.",
+      "neutral": "Swoją drogą zastanawiam się, czy ten drążek najazdowy także zbiera z czasem taki drobny luz."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Coś podobnego dotyczy toku tej wymiany zdań: regularny dogląd wydłuża życie każdej ruchomej części.",
+      "external_grounded": "Coś podobnego dotyczy tej przyczepy towarowej: regularny dogląd wydłuża życie każdej ruchomej części.",
+      "external_ungrounded": "Coś podobnego dotyczy tamtej pompy ogrodowej: regularny dogląd wydłuża życie każdej ruchomej części.",
+      "neutral": "Coś podobnego dotyczy tej rozebranej piasty: regularny dogląd wydłuża życie każdej ruchomej części."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Przy okazji ta bieżąca wymiana zdań pokazuje, jak dużo daje zaglądanie w głąb zamiast zgadywania.",
+      "external_grounded": "Przy okazji ta przyczepa towarowa pokazuje, jak dużo daje zaglądanie w głąb zamiast zgadywania.",
+      "external_ungrounded": "Przy okazji tamten obieg wody pokazuje, jak dużo daje zaglądanie w głąb zamiast zgadywania.",
+      "neutral": "Przy okazji ta stara piasta pokazuje, jak dużo daje zaglądanie w głąb zamiast zgadywania."
+    }
+  ]
+}

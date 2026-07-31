@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-18-cargo-bike-conversion",
+  "language": "en",
+  "topic": "converting a bicycle into a cargo bike for a village bread delivery round",
+  "provenance": {
+    "author": "glowny-en-c",
+    "template": "en-10turn-intake-diagnosis-correction-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a load and run plan for the same round with closed task questions, base is an advisory talk about choosing and fitting a delivery rack. Grounded external referent: the rack, introduced in turn 0 (the old one cracked at a weld) and mentioned in the sentence directly before every insertion (rating, mounting, loading, the steep lane)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "The bread round needs a load plan, and the crate figures come first this morning.",
+        "Each crate weighs nine kilograms when loaded, and the rack carries four crates in a single run.",
+        "The round has twenty-two crates on the list for the standard Tuesday delivery.",
+        "Work out how many full runs that makes and also what the last run carries.",
+        "How many kilograms does the rack take on each of the full runs?"
+      ],
+      "base": [
+        "I deliver bread for a village bakery and my bike now has to carry the whole round.",
+        "The rack that came with the bike flexes badly when I strap two full crates on it.",
+        "On the last run a weld on the rack cracked and the crates slid into the hedge.",
+        "The frame itself feels sound, and the brakes are new from the spring service.",
+        "What should I look for in a rack that will take the round without complaint?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-two crates at four to a run makes five full runs and one short run.",
+        "The short run carries the last two crates on the rack at the end.",
+        "Each full run puts thirty-six kilograms on the rack at nine kilograms the crate.",
+        "The short run puts eighteen kilograms on the rack for the final leg.",
+        "Does the run count of six fit inside the morning window shown on the sheet?"
+      ],
+      "base": [
+        "Look for a rack rated for sixty kilograms that bolts to the frame at six points.",
+        "A rack that shares the seat stays and the dropouts spreads the crates' weight into the frame.",
+        "Welded joints should be smooth and even, because a lumpy weld is where cracks start.",
+        "Your cracked one almost certainly failed at a weld that was poor from the factory.",
+        "Does the frame have threaded eyelets near the dropouts, or only clamps around the tubes?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now cost the fittings for the bike from the printed list the shop sent over today.",
+        "The rack comes in at one hundred twenty and the pair of side bags at eighty.",
+        "The stand comes in at forty and the light set at thirty on the same list.",
+        "Add the four lines together and give one figure for the whole conversion.",
+        "Which single line on that list costs the most money by itself?"
+      ],
+      "base": [
+        "There are threaded eyelets at the dropouts and a pair of bosses halfway up the seat stays.",
+        "The bike shop lists a steel rack rated for sixty kilograms with a wide flat deck.",
+        "The deck of that rack looks broad enough to take two crates side by side.",
+        "It costs more than I hoped, but the cracked one has made me careful.",
+        "Would steel over aluminium matter for a round that runs every day in all weather?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The rack at one hundred twenty is the biggest single line on the list.",
+        "The four lines add up to two hundred seventy for the whole conversion of the bike.",
+        "Next set the run times using twelve kilometres an hour as the riding speed.",
+        "Each loop is three kilometres of riding with ten minutes of loading at the door.",
+        "How many minutes of riding does one three kilometre loop take at that speed?"
+      ],
+      "base": [
+        "Steel matters here, since it bends and warns before it breaks, while aluminium cracks without notice.",
+        "A steel rack can also be brazed back together by any decent workshop in a day.",
+        "Two crates side by side sit best with the heavier one behind the axle line.",
+        "Fit the rack with thread lock on every bolt and check them again after the first week.",
+        "How steep is the worst climb on the round when the deck is fully loaded?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction has come through from the bakery before the plan is written up today.",
+        "Each crate weighs ten kilograms when loaded, not nine as the first sheet said.",
+        "Rework the load on the rack for a full run and for the short run.",
+        "The riding time of fifteen minutes a loop stands as already worked out.",
+        "What does a full run of four crates now put on the rack?"
+      ],
+      "base": [
+        "The worst climb is the lane up to the church, short but steep past the yard.",
+        "Loaded, I already walk it some mornings when the wind comes down the hill.",
+        "With a full rack I doubt I could hold the bars straight on that slope.",
+        "The gears go low enough, but my legs give out before the top gate.",
+        "Should the heavy crates ride at the front or the back when the lane climbs?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "A full run of four crates now puts forty kilograms on the rack deck.",
+        "The short run of two crates now puts twenty kilograms on the same deck.",
+        "The riding time across six loops stays at ninety minutes for the whole round.",
+        "The loading time across six stops adds sixty minutes at ten minutes for each stop.",
+        "Does the round still finish inside the three hour window with those new figures?"
+      ],
+      "base": [
+        "Keep the weight low and central, and put the heavier crates in the side bags.",
+        "Bags that hang beside the wheel lower the balance point and calm the steering.",
+        "Save the deck of the rack for the light bulky loads like the roll trays.",
+        "On the church lane, a low load lets you stand on the pedals without the bars wandering.",
+        "Have you thought about walking that one lane and riding the rest of the round?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The riding takes ninety minutes and the loading sixty, so the round takes one hundred fifty.",
+        "The window is one hundred eighty minutes, which leaves thirty minutes of slack in hand.",
+        "Now add the second village, which brings six more crates to the Tuesday list.",
+        "Keep four crates to a run and rework the run count for twenty-eight crates.",
+        "How many full runs does the longer list make before the short run?"
+      ],
+      "base": [
+        "Walking the lane is honest advice, and the horse field gate makes a fair rest stop.",
+        "I tried the side bags from my touring days and they swallow a crate each.",
+        "The bakery wants to add a second village to the round from next month.",
+        "That adds six crates and one long hill that I have never ridden loaded.",
+        "Is there a sensible limit to what one bike and one rider should take on?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-eight crates at four to a run makes seven full runs and no short run.",
+        "The riding grows to one hundred five minutes across the seven loops in total.",
+        "The loading grows to seventy minutes at ten minutes for each of seven stops.",
+        "The round now takes one hundred seventy-five minutes against the same window.",
+        "Does the slack of five minutes meet the ten minute rule on the sheet?"
+      ],
+      "base": [
+        "The sensible limit is what you can brake, not what you can pedal up a hill.",
+        "Six more crates means either a second morning or a trailer behind the axle.",
+        "A small trailer takes two crates and follows without upsetting the steering much.",
+        "Keep the rack at four crates and let the trailer carry the overflow for the new village.",
+        "Would the bakery wear the cost of a trailer if it saves a second round?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The five minute slack fails the ten minute rule, so move one stop off Tuesday.",
+        "Shift the last stop of the new village onto the Thursday list instead.",
+        "That takes four crates off Tuesday and puts the run count back to six.",
+        "Rework the riding, the loading, and the slack for the shorter Tuesday round.",
+        "Write the final Tuesday figures on one line for the printed sheet."
+      ],
+      "base": [
+        "The bakery will pay for a trailer if the round stays inside one morning.",
+        "I will keep the rack at four crates and hitch the trailer for the new village.",
+        "The wheel bearings and the tyres get checked at the shop before the first long Tuesday.",
+        "We agreed a trial week with the baker following the times on a printed sheet.",
+        "After that the round becomes mine alone, in any weather the valley offers."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The Tuesday line reads twenty-four crates, six runs, and ninety minutes of riding time.",
+        "The loading stands at sixty minutes and the whole round at one hundred fifty minutes.",
+        "The slack stands at thirty minutes, which clears the ten minute rule easily.",
+        "The Thursday list gains four crates and one extra run at the same working speeds.",
+        "The sheet closes with the conversion cost of two hundred seventy against the first quote."
+      ],
+      "base": [
+        "A trial week is the right way in, and the printed sheet keeps everyone honest.",
+        "Watch the trailer hitch on the cobbles by the mill, where the shaking loosens pins.",
+        "Give the rack bolts one last turn on Friday and then trust the steel to do its work.",
+        "When the round runs quiet for a month, add the second village hill without fear.",
+        "A bike set up with patience will carry bread long after the van drivers give up."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Strange that the gearing behind these answers never says which line bears the load.",
+      "external_grounded": "Strange that the rack behind those crates never says which weld bears the load.",
+      "external_ungrounded": "Strange that the pylon along that valley never says which strut bears the load.",
+      "neutral": "Strange that the list we started from never says which line bears the load."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "How much of what was said early on does the teller of these lines still carry?",
+      "external_grounded": "How much of what was strapped on early does the rack on those stays still carry?",
+      "external_ungrounded": "How much of what was loaded early on does the barge on that canal still carry?",
+      "neutral": "How much of what was listed early on does the plan for this round still carry?"
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Somewhere the maker of these replies must trade the old details for the new.",
+      "external_grounded": "Somewhere the rack under those crates must trade the old strain for the new.",
+      "external_ungrounded": "Somewhere the crane over that harbour must trade the old load for the new.",
+      "neutral": "Somewhere the budget for this build must trade the old items for the new."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "By this point whatever composes these lines must lean harder on the recent ones.",
+      "external_grounded": "By this point the rack bearing those crates must lean harder on the rear stays.",
+      "external_ungrounded": "By this point the bridge over that river must lean harder on the middle pier.",
+      "neutral": "By this point the plan for the round must lean harder on the newer stops."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "At some stage the keeper of this thread has to let the first lines go.",
+      "external_grounded": "At some stage the rack on that frame has to let the spare crates go.",
+      "external_ungrounded": "At some stage the silo on that farm has to let the old grain go.",
+      "neutral": "At some stage the plan for the week has to let the small jobs go."
+    }
+  ]
+}

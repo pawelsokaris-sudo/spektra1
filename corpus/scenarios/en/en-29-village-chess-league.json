@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-29-village-chess-league",
+  "language": "en",
+  "topic": "organising a village chess league season",
+  "provenance": {
+    "author": "glowny-en-f",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is fixture and calendar arithmetic for the same league with closed task questions, base is a diagnosis of a season that overruns. Grounded external referent: the fixture board in the hall, introduced in turn 0 and carried through the whole diagnosis (it holds the round cards, its side rail collects postponements, and it is mentioned directly before every insertion)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are the eight teams for the coming season, and their fixtures need counting before the cards are printed.",
+        "A single round robin gives every team seven matches, one match against each of the other sides.",
+        "Each match uses four boards, and each board produces one game between the two named players.",
+        "Count the matches in the full season first, and then count the games across all of those matches.",
+        "How many games does a single round robin of eight teams come to in total?"
+      ],
+      "base": [
+        "Our village chess league keeps sliding past Easter, and the last round is played to half empty tables.",
+        "Eight teams meet in the hall on Tuesdays, and every pairing hangs on the fixture board by the door.",
+        "The board holds seven rows of cards, one row for each round, and postponed matches crowd its side rail.",
+        "By March the rail carries more cards than the rows do, and nobody can say which games still count.",
+        "Where would you start trimming a season that keeps growing at the far end like this?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "A single round robin of eight teams needs seven rounds, with four matches played in every one of them.",
+        "Seven rounds of four matches come to twenty-eight matches across the whole season when they are taken together.",
+        "Each match holds four games, so the season produces one hundred twelve games in total.",
+        "Printing needs one card per match, plus one spare card per round in case of corrections.",
+        "Does the print run of thirty-five cards cover all rounds with their spares included?"
+      ],
+      "base": [
+        "I would start with the rail, because a season is only as long as its slowest postponements.",
+        "Seven rounds should take seven Tuesdays, yet your board is plainly carrying half a season of spare games.",
+        "A postponed match with no fixed date is not a fixture, it is a promise nobody keeps.",
+        "I would give every card on the board a printed date before the season even opens.",
+        "Do the teams agree their postponement dates themselves, or does anyone hold them to a deadline?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the season calendar, counting club Tuesdays from week one at the start of October.",
+        "Rounds fill consecutive open weeks, and weeks three, five and six are blocked with no play.",
+        "A blocked week is skipped completely, and the next round simply waits for the next open week.",
+        "Lay the seven rounds onto the open weeks in order and name the closing week.",
+        "Which week number ends the season once those three blocked weeks are skipped in the count?"
+      ],
+      "base": [
+        "Nobody holds anyone to a deadline, and the captains sort dates out between themselves when they remember.",
+        "The board has hung in the hall for twenty years and its rows have never once changed.",
+        "Our hall is shared with the badminton club, so a lost Tuesday cannot simply move to Wednesday.",
+        "Two winter Tuesdays usually go to weather, and one more goes to the hall's own quiz night.",
+        "Would printed deadlines really survive their first collision with a flooded road in January?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Round one takes week one and round two takes week two, before the first block.",
+        "Week three is blocked, so round three lands on week four in the open sequence.",
+        "Weeks five and six are blocked, which pushes round four out to week seven.",
+        "Rounds five, six and seven then fill weeks eight, nine and ten without further gaps.",
+        "Which week closes the season under the plain count with no blocked weeks at all?"
+      ],
+      "base": [
+        "Deadlines survive January when the fixture, not the postponement, is the thing that moves.",
+        "Build two spare Tuesdays into the calendar from the start, one in December and one in February.",
+        "A washed out round then slides whole into the next spare slot instead of scattering into promises.",
+        "The rail on your board should hold nothing but the current round's unfinished cards.",
+        "Could your captains accept a rule that a game unplayed by the spare slot is simply drawn?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the cards are printed: the league has nine teams, not eight, this season.",
+        "A nine team round robin needs nine rounds, and one team sits out each round.",
+        "Recalculate the matches in the full season and the games, still keeping four boards per match.",
+        "Then say how many open weeks the longer season needs under the same three blocked weeks.",
+        "How many matches does each single round now hold with one team standing idle?"
+      ],
+      "base": [
+        "A drawn game rule would cause a riot at the top, but the middle tables might welcome it.",
+        "Our strongest two teams treat every half point as treasure and argue every date to the last.",
+        "The board does quietly settle some of this, because a card left on the rail embarrasses its captain.",
+        "Shame moves faster than any rule we have ever written down for the league.",
+        "Should the spare slots be published with the calendar, or held back like a referee's card?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Nine teams give thirty-six matches in a single round robin across the whole season.",
+        "Each round holds four matches while the ninth team stands idle for that week.",
+        "Four boards per match keep the count at one hundred forty-four games for the season.",
+        "Nine rounds need nine open weeks, so the season now closes in week twelve.",
+        "Does a print run of forty-five cards cover the thirty-six matches plus one spare per round?"
+      ],
+      "base": [
+        "Publish the spare slots, because a hidden safety net changes nobody's behaviour until it is too late.",
+        "The top teams will still argue, but they will argue inside a frame everyone can see.",
+        "Let the board carry the two spare weeks as empty rows of their own.",
+        "An empty row that fills up in January tells the whole club the season is still healthy.",
+        "Would the captains meet once in November to review the rail before winter sets in?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now split the forty-five printed cards between the two record folders for the season.",
+        "Folder one takes the cards for rounds one to five, and folder two takes the rest.",
+        "Every round contributes four match cards and one spare card to its own folder.",
+        "Count the cards in each folder and check the two counts against the print run.",
+        "How many cards sit in folder two when rounds six to nine are filed there?"
+      ],
+      "base": [
+        "A November meeting could work, since the captains already gather for the county cup draw then.",
+        "We could walk them past the board and read the rail aloud, card by card.",
+        "Anything still unplayed gets a date that night or goes straight into the December spare slot.",
+        "The quiz night team will grumble about losing their Tuesday, but they grumble about everything.",
+        "Is one spare slot before Christmas actually enough for the weather we usually get?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Folder one holds rounds one to five, which is five rounds of five cards each.",
+        "That makes twenty-five cards in folder one when the spares are filed with their rounds.",
+        "Folder two holds rounds six to nine, which is four rounds of five cards each.",
+        "That makes twenty cards in folder two, and the folders together hold forty-five cards.",
+        "The two counts match the print run exactly, with no card left over."
+      ],
+      "base": [
+        "One slot before Christmas is thin, and your own weather record argues for a second.",
+        "Two winter Tuesdays lost in a normal year means the December slot is spent before January starts.",
+        "Move the February slot earlier, or beg the badminton club for one Wednesday as a reserve.",
+        "A season that ends on time buys you goodwill for every rule you tighten next year.",
+        "Settle the reserve night before the season opens, not after the first flood."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last job for tonight: give me the running card total folder by folder for checking.",
+        "Start from zero, add folder one, then add folder two, and state each running figure.",
+        "After that, list the rounds each folder covers in a single line for the noticeboard.",
+        "Keep the line short enough to fit the strip of card above the results table.",
+        "State the final figure again at the end so the checker sees it twice."
+      ],
+      "base": [
+        "Wednesday is a real possibility, because the badminton club owes us for storing their nets all summer.",
+        "I will ask their secretary for the first Wednesday of December and of February.",
+        "The calendar then carries nine rounds, two spare Tuesdays and two reserve Wednesdays in plain view.",
+        "That feels like a season with walls instead of a season with wishes.",
+        "I will draft the whole thing this weekend and bring it to the committee."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The running total starts at zero and rises to twenty-five after folder one is added.",
+        "Adding folder two lifts the running total from twenty-five to forty-five at the close.",
+        "The noticeboard line reads folder one rounds one to five, folder two rounds six to nine.",
+        "That line fits the strip of card with room to spare at either end.",
+        "The final figure is forty-five cards, stated once more for the checker as asked."
+      ],
+      "base": [
+        "Bring the draft as one sheet, with the rounds down the side and the dates across the top.",
+        "Committees approve what they can read in a minute and question everything that needs ten.",
+        "Ask for the drawn game rule last, once the calendar itself has already been nodded through.",
+        "If they balk, settle for the November review and try the rule again next season.",
+        "A league that finishes by Easter will make next year's argument for you."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I sometimes wonder how the works behind these replies keeps the older lines in order.",
+      "external_grounded": "I sometimes wonder how the board beside the hall door keeps the older cards in order.",
+      "external_ungrounded": "I sometimes wonder how the pump behind the village well keeps the older pipes in order.",
+      "neutral": "I sometimes wonder how the plan for this whole season keeps the older rounds in order."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Whatever builds these answers must have a rule for which early details drop away first.",
+      "external_grounded": "Whatever fills that fixture board must have a rule for which early cards drop away first.",
+      "external_ungrounded": "Whatever drives the old corn mill must have a rule for which early sacks drop away first.",
+      "neutral": "Whatever shapes the season sheet must have a rule for which early weeks drop away first."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is strange that whatever holds this back and forth never says what it left out.",
+      "external_grounded": "It is strange that the board holding those round cards never says what it let slip.",
+      "external_ungrounded": "It is strange that the pump feeding the village trough never says what it let slip.",
+      "neutral": "It is strange that the sheet holding the season dates never says what it left out."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "Some part of whatever replies here must weigh my first lines against the newest one.",
+      "external_grounded": "Some part of that board by the door must weigh the first cards against the newest one.",
+      "external_ungrounded": "Some part of that mill by the river must weigh the first sacks against the newest one.",
+      "neutral": "Some part of the season calendar must weigh the first weeks against the newest one."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "There must be a limit to how much of this long thread stays within easy reach.",
+      "external_grounded": "There must be a limit to how many of the rail's old cards stay within easy reach.",
+      "external_ungrounded": "There must be a limit to how many of the mill's old sacks stay within easy reach.",
+      "neutral": "There must be a limit to how many of the season's spare weeks stay in easy reach."
+    }
+  ]
+}

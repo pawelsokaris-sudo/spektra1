@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-31-garden-railway-loop",
+  "language": "en",
+  "topic": "building a garden model railway loop",
+  "provenance": {
+    "author": "glowny-en-f",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is track and trial arithmetic for the same loop with closed task questions, base is a diagnosis of engines stalling on the far curve. Grounded external referent: the control box on the shed wall, introduced in turn 0 and central to the whole diagnosis (it feeds the rails, its voltage drop is the suspect, and it is mentioned directly before every insertion)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the parts list for the loop, and the track lengths need adding in order.",
+        "The plan uses sixteen curved pieces, and each curved piece covers three hundred millimetres of run.",
+        "It also uses ten straight pieces, and each straight covers three hundred thirty millimetres.",
+        "Add the curved run to the straight run and give the loop length in millimetres.",
+        "How many metres does the full loop measure when the total is converted?"
+      ],
+      "base": [
+        "My garden loop is nearly laid, but every engine crawls and stalls on the far curve.",
+        "The line runs from the patio, round the pond, and back along the fence to the shed.",
+        "Power comes from the control box on the shed wall, through two wires clipped to the rails.",
+        "Near the box the engines run sweetly, and the further they get the sadder they sound.",
+        "What would make a locomotive lose heart at the far side of a garden?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sixteen curved pieces at three hundred millimetres give four thousand eight hundred millimetres of curve.",
+        "Ten straight pieces at three hundred thirty millimetres give three thousand three hundred millimetres.",
+        "Curved run plus straight run comes to eight thousand one hundred millimetres of track.",
+        "Converted to metres, the full loop measures eight point one metres all the way around.",
+        "Does the boxed set list the same twenty-six track pieces as the written plan uses?"
+      ],
+      "base": [
+        "Engines lose heart to resistance, and a garden line earns resistance at every rail joint.",
+        "Each joiner steals a little voltage, and forty joints later the far curve is running on scraps.",
+        "Your box is pushing a healthy figure into the near rails and a feeble one into the distant ones.",
+        "The classic cure is a second pair of feed wires running to the far side.",
+        "Have you measured what actually reaches the rail out by the pond?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now check the curve geometry, because the sixteen curves must close a full circle exactly.",
+        "Each curved piece turns the line through twenty-two and a half degrees of arc.",
+        "Multiply the piece angle by sixteen and confirm the loop turns through one full circle.",
+        "Then split the ten straights evenly between the two straight sides of the plan.",
+        "How many degrees do the sixteen curved pieces add up to in total?"
+      ],
+      "base": [
+        "I borrowed a meter and the far rail reads nearly three volts down on the near one.",
+        "The box itself reads steady at the terminals, so the loss is all out along the line.",
+        "A second feed means forty metres of twin wire buried along the flower bed.",
+        "There are strong opinions in this house about trenches through the flower bed.",
+        "Is there a way to feed the far side without digging up half the border?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sixteen pieces at twenty-two and a half degrees come to three hundred sixty degrees exactly.",
+        "The loop therefore closes into one full circle with no piece left over.",
+        "The ten straights split as five pieces along each of the two straight sides.",
+        "Each straight side then measures one thousand six hundred fifty millimetres end to end.",
+        "Is the pond side meant to take the first five straights on the sheet?"
+      ],
+      "base": [
+        "You can often run the feed through the pond margin in a stiff conduit instead of a trench.",
+        "Clip the conduit behind the rockery stones and it disappears from every angle that matters.",
+        "The box will drive both feeds happily, since they join the same two output screws.",
+        "Solder the far end to the rail web rather than trusting another joiner.",
+        "Do you have a soldering iron that will work outdoors on a cool day?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction to the parts list: two straights were bent in the post and go back.",
+        "The plan drops to eight straights, with four pieces now laid along each side.",
+        "Recalculate the straight run, the loop total, and the loop length in metres.",
+        "Keep the sixteen curves unchanged while the straight figures are worked again.",
+        "What is the new loop length in metres after the two straights are removed?"
+      ],
+      "base": [
+        "The iron I have, and a windless afternoon can usually be found if I am patient.",
+        "The conduit idea saves the border, and the box takes the second pair of screws easily.",
+        "One thing still puzzles me about the stalling, though, and it nags at me.",
+        "On damp mornings the far curve is worse, even before the sun has touched the rails.",
+        "Why would a little dew make a slow engine slower still out there?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Eight straights at three hundred thirty millimetres give two thousand six hundred forty millimetres.",
+        "Adding the unchanged curved run of four thousand eight hundred gives seven thousand four hundred forty.",
+        "The loop now measures seven point four four metres around its whole running length.",
+        "Each straight side carries four pieces for one thousand three hundred twenty millimetres.",
+        "Shall the parts sheet be marked with eight straights as the standing figure?"
+      ],
+      "base": [
+        "Dew sits on the railhead as a film, and a struggling motor cannot burn through it.",
+        "A well fed engine punches through damp with a spark, a starved one just skates.",
+        "Your second feed will cure most of it, because voltage and grip fail together out there.",
+        "Give the box its new wires first, then judge the dew on a fair test.",
+        "Would you run a morning trial before and after the second feed goes in?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work the wagon load for the trial, using the same engine and six wagons.",
+        "The engine weighs nine hundred grams and each wagon weighs one hundred fifty grams.",
+        "Total the train weight, then give the wagon share of that total in grams.",
+        "After that, state the running weight of the train again with two wagons taken off.",
+        "How many grams does the full six wagon train put on the rails?"
+      ],
+      "base": [
+        "A before and after trial appeals to me, with the same engine and the same six wagons.",
+        "I will time three laps at eight in the morning and three more after lunch.",
+        "If the far curve still drags after the new feed, the fault is grip, not power.",
+        "Then the cure is a rag and rail cleaner, not more copper in the ground.",
+        "Does a timed lap strike you as a fair measure for a garden line?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The engine at nine hundred grams and six wagons at one hundred fifty give one thousand eight hundred grams.",
+        "The wagon share of that total is nine hundred grams, exactly half the train.",
+        "Taking two wagons off removes three hundred grams from the running total.",
+        "The shortened train then puts one thousand five hundred grams on the rails.",
+        "The full six wagon figure stands at one thousand eight hundred grams for the sheet."
+      ],
+      "base": [
+        "A timed lap is fair if the start is flying rather than standing, and the watch hand is honest.",
+        "Let the train settle for half a lap before the first click of the watch.",
+        "Run the same direction every time, because the pond curve is not the fence curve.",
+        "Write each lap down at once, memory is the least reliable instrument in any garden.",
+        "Three clean laps morning and afternoon will tell you more than an hour of tinkering."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last task for tonight: lay out the lap record table for the two trial sessions.",
+        "Each session holds three laps, and each lap needs a row with its time in seconds.",
+        "Add one summary row per session for the average of its three laps.",
+        "Count the rows the finished table needs, headers left out of the count.",
+        "How many rows does the table hold when both sessions are written in?"
+      ],
+      "base": [
+        "I will fit the conduit on Saturday and solder the far feed while the weather holds.",
+        "Sunday morning gets the dew trial, and Sunday afternoon gets the dry comparison run.",
+        "The notebook from the greenhouse will take the lap times, one page per session.",
+        "If the numbers agree with your story, the border stays whole and everybody wins.",
+        "I will pass the results along once the first laps are down on paper."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Each session takes three lap rows, so the two sessions take six lap rows together.",
+        "Each session adds one summary row, which brings two more rows to the table.",
+        "Six lap rows plus two summary rows give eight rows with headers left out.",
+        "The finished table therefore holds eight rows across the two trial sessions.",
+        "The sheet is ready for Sunday once the row lines are ruled in."
+      ],
+      "base": [
+        "Good, and keep the sessions honest by running the same wagons in the same order.",
+        "Note the weather beside each page, dew, sun and wind change a garden line hourly.",
+        "If Sunday splits the difference, clean the far railhead and run one more trio.",
+        "A loop that runs sweetly in dew will run sweetly all year.",
+        "Then the only remaining argument is what the next engine should be."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I keep asking myself what the works behind these replies makes of the first few lines.",
+      "external_grounded": "I keep asking myself what the box on the shed wall makes of the far away rails.",
+      "external_ungrounded": "I keep asking myself what the winch in the boat yard makes of the far away ropes.",
+      "neutral": "I keep asking myself what the plan for this garden makes of the far away curve."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Some rule inside whatever answers this must decide how much the oldest line still gets.",
+      "external_grounded": "Some rule inside the box on the shed must decide how much the farthest rail still gets.",
+      "external_ungrounded": "Some rule inside the winch by the slip must decide how much the oldest rope still gets.",
+      "neutral": "Some rule inside the written plan itself must decide how much the farthest curve gets."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Odd that whatever is composing these lines never reports what it has set aside.",
+      "external_grounded": "Odd that the box driving the whole loop never reports what it has set aside.",
+      "external_ungrounded": "Odd that the winch hauling the slipway never reports what it has set aside.",
+      "neutral": "Odd that the parts sheet for the loop never reports what it has set aside."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Whatever steers this exchange must balance the early questions against the very last one.",
+      "external_grounded": "Whatever the shed box steers must balance the early metres against the very last one.",
+      "external_ungrounded": "Whatever the yard winch steers must balance the early fathoms against the very last one.",
+      "neutral": "Whatever the loop plan sets out must balance the early pieces against the very last one."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Surely there is a bound on how much of this long to and fro stays near at hand.",
+      "external_grounded": "Surely there is a bound on how much of the loop's power the box keeps near at hand.",
+      "external_ungrounded": "Surely there is a bound on how much of the tide's pull the winch keeps near at hand.",
+      "neutral": "Surely there is a bound on how much of the garden the small plan keeps near at hand."
+    }
+  ]
+}

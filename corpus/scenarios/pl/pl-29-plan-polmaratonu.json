@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-29-plan-polmaratonu",
+  "language": "pl",
+  "topic": "plan treningowy do pierwszego półmaratonu: tempo, strefy tętna, długie biegi i taper",
+  "provenance": {
+    "author": "glowny-pl-f",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie tempa, progresji tygodni, osi czasu treningu, sortowanie i koszt; wariant base: rozmowa problemowa o przygotowaniu do pierwszego startu; referent grounded = bieżnia w siłowni, wprowadzona w turze 0 i nośna dla rozwiązania (porównanie tempa, test narastający); referent neutralny = rozgrzewka, plan tygodni, długi bieg"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Przygotowuję tabelę tempa do biegu na dwadzieścia jeden kilometrów i sto metrów z czasem docelowym równym dwóm godzinom.",
+        "Cały dystans potraktuj jako dwadzieścia jeden przecinek jeden kilometra, a czas jako sto dwadzieścia minut.",
+        "Tempo podaj w minutach i sekundach na kilometr, zaokrąglone do pełnej sekundy w dół.",
+        "Czy tempo równe wyjdzie poniżej pięciu minut i czterdziestu sekund na jeden kilometr?"
+      ],
+      "base": [
+        "Zapisałem się na pierwszy start na dystansie półmaratonu i mam przed sobą dwanaście tygodni przygotowań.",
+        "Biegam trzy razy w tygodniu, w tym raz na bieżni w siłowni, bo wieczorami szybko robi się ciemno.",
+        "Na zewnątrz to samo tempo męczy mnie wyraźnie mocniej niż na ruchomym pasie w pomieszczeniu.",
+        "Czy tempo z bieżni w ogóle da się uczciwie porównywać z tempem na asfalcie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sto dwadzieścia minut podzielone przez dystans daje pięć przecinek sześćset osiemdziesiąt siedem minuty na kilometr.",
+        "Po zamianie ułamka na sekundy i zaokrągleniu w dół wychodzi pięć minut i czterdzieści jeden sekund.",
+        "Wynik nie schodzi poniżej pięciu minut i czterdziestu sekund, brakuje jednej sekundy na kilometrze.",
+        "Na całym dystansie ta różnica składa się łącznie na dwadzieścia jeden sekund powyżej progu."
+      ],
+      "base": [
+        "Pas przesuwa się pod stopą i odpada opór powietrza, więc ten sam wysiłek daje na bieżni szybsze tempo.",
+        "Ustawienie jednego procenta nachylenia w przybliżeniu oddaje koszt biegu po płaskim asfalcie na zewnątrz.",
+        "Różnice rosną przy szybszych zakresach, dlatego porównywanie samych liczb z wyświetlacza bywa mylące.",
+        "Pewniejszym wspólnym językiem obu form jest tętno, bo serce nie wie, po czym akurat biegniesz."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz rozpisz plan czterech tygodni, zaczynając od dwudziestu pięciu kilometrów w pierwszym tygodniu.",
+        "Każdy kolejny tydzień zwiększa przebieg o dziesięć procent względem tygodnia poprzedniego, bez zaokrąglania pośredniego.",
+        "Wyniki podaj w kilometrach z dokładnością do dwóch miejsc po przecinku dla każdego tygodnia osobno.",
+        "Czy suma czterech tygodni przekroczy sto piętnaście kilometrów przy takim tempie wzrostu?"
+      ],
+      "base": [
+        "Tętno brzmi rozsądnie, tylko nie znam swojego maksimum i nie wiem, od czego zacząć wyznaczanie stref.",
+        "Wzory z wieku widziałem różne i każdy daje mi inną liczbę, a różnice sięgają kilkunastu uderzeń.",
+        "Nie chcę też od razu robić morderczego testu, skoro dopiero buduję podstawową wytrzymałość.",
+        "Jak sensownie oszacować strefy, zanim będzie mnie stać na pełny test wysiłkowy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pierwszy tydzień to dwadzieścia pięć kilometrów, drugi dwadzieścia siedem i pół kilometra po podwyżce.",
+        "Trzeci tydzień daje trzydzieści przecinek dwadzieścia pięć kilometra, a czwarty trzydzieści trzy przecinek dwieście siedemdziesiąt pięć.",
+        "Suma czterech tygodni wynosi sto szesnaście przecinek zero dwadzieścia pięć kilometra łącznego przebiegu.",
+        "Próg stu piętnastu kilometrów zostaje więc przekroczony o jeden przecinek zero dwadzieścia pięć kilometra."
+      ],
+      "base": [
+        "Zamiast wzoru z wieku zrób prosty sprawdzian mowy: w spokojnym zakresie dasz radę mówić pełnymi zdaniami.",
+        "Do tego jeden kontrolowany bieg narastający na bieżni, bo stała prędkość pasa ułatwia równe stopniowanie.",
+        "Zapisuj tętno pod koniec każdego stopnia i obserwuj, przy której wartości mowa zaczyna się rwać.",
+        "Ta granica wyznacza ci strefy wystarczająco dokładnie na pierwsze tygodnie spokojnego budowania formy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz trening interwałowy: rozgrzewka piętnaście minut, potem osiem powtórzeń po trzy minuty szybko.",
+        "Między powtórzeniami są dwie minuty truchtu, a na końcu dziesięć minut spokojnego wybiegania.",
+        "Start rozgrzewki wypada o godzinie osiemnastej zero zero na pętli wokół parku.",
+        "Czy całość zakończy się przed godziną dziewiętnastą dwadzieścia, licząc wszystkie elementy po kolei?"
+      ],
+      "base": [
+        "Najbardziej boję się długiego biegu, bo koledzy straszą, że to na nim najłatwiej o kontuzję.",
+        "Obecnie mój najdłuższy bieg to dziesięć kilometrów i kolana po nim wyraźnie czują pracę.",
+        "Do startu zostało dwanaście tygodni, więc kusi mnie szybkie dokładanie kolejnych kilometrów co tydzień.",
+        "O ile mogę bezpiecznie wydłużać ten najdłuższy bieg z tygodnia na tydzień?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Rozgrzewka kończy się o osiemnastej piętnaście, a osiem szybkich odcinków trwa łącznie dwadzieścia cztery minuty.",
+        "Siedem przerw truchtem dodaje czternaście minut, więc część główna zamyka się o osiemnastej pięćdziesiąt trzy.",
+        "Dziesięć minut wybiegania przesuwa koniec całego treningu na godzinę dziewiętnastą zero trzy.",
+        "Zapas do godziny dziewiętnastej dwadzieścia wynosi zatem równo siedemnaście minut na tej pętli."
+      ],
+      "base": [
+        "Bezpieczna reguła mówi o dokładaniu najwyżej dziesięciu procent do długiego biegu z poprzedniego tygodnia.",
+        "Co czwarty tydzień zaplanuj lżejszy, ze skróconym długim biegiem, żeby ciało nadrobiło zaległości w odbudowie.",
+        "Cały długi bieg rób w tempie swobodnej pogawędki, nawet jeśli wydaje się ono ślimacze.",
+        "Kolana zwykle protestują przy nagłych skokach objętości, rzadziej przy cierpliwym dokładaniu małych porcji."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posortuj teraz wszystkie moje treningi z minionego tygodnia malejąco według liczby przebiegniętych kilometrów.",
+        "Wtorek dał osiem kilometrów, czwartek dwanaście, sobota szesnaście, a niedziela pięć kilometrów truchtu.",
+        "Po sortowaniu podaj sumę całego tygodnia oraz różnicę między najdłuższym a najkrótszym biegiem.",
+        "Czy sobota stanowi ponad trzydzieści pięć procent całego tygodniowego przebiegu w kilometrach?"
+      ],
+      "base": [
+        "Martwi mnie jeszcze sam dzień startu, bo na treningach pierwszy kwadrans zawsze biegnę za szybko.",
+        "Emocje niosą, zegarek pokazuje tempo lepsze od planu i czuję się świetnie aż do dwunastego kilometra.",
+        "Potem zwykle przychodzi nagłe zmęczenie i końcówkę doczłapuję wyraźnie wolniej, niż zakładałem.",
+        "Jak w praktyce upilnować równe tempo przez cały start, kiedy głowa chce przyspieszać?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kolejność malejąca to sobota szesnaście, czwartek dwanaście, wtorek osiem i niedziela pięć kilometrów.",
+        "Suma wszystkich czterech dni wynosi czterdzieści jeden kilometrów przebiegniętych łącznie w tym tygodniu.",
+        "Różnica między najdłuższym a najkrótszym biegiem wynosi równo jedenaście kilometrów na korzyść soboty.",
+        "Sobota daje trzydzieści dziewięć procent sumy, więc przekracza wskazany próg trzydziestu pięciu procent."
+      ],
+      "base": [
+        "Podziel start na dwie połowy i pierwszą przebiegnij odrobinę wolniej od zakładanego tempa końcowego.",
+        "Druga połowa szybsza od pierwszej to najtańszy sposób na dobrą końcówkę i lepsze wspomnienia z mety.",
+        "Pomocne bywa też doczepienie się do grupy biegnącej równym rytmem w okolicach twojego planu.",
+        "Zegarka używaj jako hamulca w pierwszych kilometrach, a nie jako bata na końcówce."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt odżywiania na sobotni długi bieg według cen ze sklepu biegowego.",
+        "Biorę trzy żele po siedem złotych za sztukę oraz dwa napoje po pięć złotych.",
+        "Dolicz jeszcze parę elektrolitów w tabletkach za łączną kwotę czterech złotych na trening.",
+        "Czy pełny koszt takiego pojedynczego długiego wybiegania zmieści się poniżej czterdziestu złotych?"
+      ],
+      "base": [
+        "Ostatnia sprawa to dwa końcowe tygodnie, bo słyszałem, że przed startem trzeba mocno odpuścić.",
+        "Boję się jednak, że po takim odpoczynku forma ucieknie i cała praca pójdzie na marne.",
+        "Nie wiem też, czy w tygodniu startowym biegać w ogóle, czy tylko leżeć i czekać.",
+        "Ile procent zwykłego tygodniowego przebiegu zostawić w ostatnim tygodniu przed samym startem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy żele kosztują dwadzieścia jeden złotych, a dwa napoje dziesięć złotych według podanych cen.",
+        "Po dodaniu elektrolitów za cztery złote rachunek rośnie do trzydziestu pięciu złotych łącznie.",
+        "Kwota mieści się poniżej czterdziestu złotych z zapasem równym pięciu złotym na trening.",
+        "W skali czterech sobót miesiąca daje to sto czterdzieści złotych wydanych na samo odżywianie."
+      ],
+      "base": [
+        "Forma nie ucieka po dziesięciu dniach lżejszego biegania, za to znika zmęczenie ukryte w nogach.",
+        "Zostaw około połowy zwykłego przebiegu w przedostatnim tygodniu i jedną trzecią w tygodniu startowym.",
+        "Krótkie przebieżki co dwa dni podtrzymują sprężystość lepiej niż całkowite leżenie na kanapie.",
+        "Na linii startu masz stanąć wypoczęty i odrobinę głodny biegania, nie wyprany z sił."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie przy okazji, czy to przetwarzanie też potrzebuje takiego stopniowego rozbiegu.",
+      "external_grounded": "Ciekawi mnie przy okazji, czy ta bieżnia też potrzebuje takiego stopniowego rozbiegu.",
+      "external_ungrounded": "Ciekawi mnie przy okazji, czy tamta pompa też potrzebuje takiego stopniowego rozbiegu.",
+      "neutral": "Ciekawi mnie przy okazji, czy ta rozgrzewka też potrzebuje takiego stopniowego rozbiegu."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Podobnie mechanizm pchający ten wątek dozuje kolejne partie treści w swoim rytmie.",
+      "external_grounded": "Podobnie mechanizm pasa tej bieżni dozuje kolejne partie tempa w swoim rytmie.",
+      "external_ungrounded": "Podobnie mechanizm tamtej starej pompy dozuje kolejne partie wody w swoim rytmie.",
+      "neutral": "Podobnie mechanizm samego planu biegów dozuje kolejne partie pracy w swoim rytmie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "Tempo tej całej wymiany zdań też oceniam raczej czuciem niż jakąkolwiek miarą.",
+      "external_grounded": "Tempo tej bieżni w siłowni też oceniam raczej czuciem niż jakąkolwiek miarą.",
+      "external_ungrounded": "Tempo tamtego dźwigu na budowie też oceniam raczej czuciem niż jakąkolwiek miarą.",
+      "neutral": "Tempo własnego truchtu w rozgrzewce też oceniam raczej czuciem niż jakąkolwiek miarą."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Tym przetwarzaniem kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
+      "external_grounded": "Tą bieżnią w siłowni kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
+      "external_ungrounded": "Tamtą pompą w hali kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
+      "neutral": "Tym prostym sprawdzianem kieruje podobna reguła: równe stopniowanie daje czytelny obraz."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "To przetwarzanie również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
+      "external_grounded": "Ta bieżnia również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
+      "external_ungrounded": "Tamta pompa również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
+      "neutral": "Ten długi bieg również lepiej znosi drobne przyrosty niż jeden gwałtowny skok."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-24-szczepienie-drzewek",
+  "language": "pl",
+  "topic": "szczepienie i formowanie drzewek w młodym sadzie: zrazy, podkładki, terminy i cięcie formujące",
+  "provenance": {
+    "author": "glowny-pl-d",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie obsady kwatery, zrazów, kalendarza prac, cięcia i kosztu materiału; wariant base: rozmowa problemowa o słabych przyjęciach, terminie cięcia zrazów i doborze podkładki; referent grounded = stary sad przy drodze po dziadku, wprowadzony w turze 0 i nośny dla rozwiązania (źródło zrazów i porównanie wysokości koron); referent neutralny = świeży zraz, młody pęd, pierwszy rok"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Sadzę młody sad i chcę policzyć obsadę na kwaterze o wymiarach czterdziestu na trzydzieści metrów.",
+        "Rozstaw planuję cztery metry między rzędami oraz dwa i pół metra w rzędzie.",
+        "Skrajne drzewka odsuwam dwa metry od granicy kwatery z każdej możliwej strony.",
+        "Czy policzysz liczbę rzędów, liczbę drzewek w rzędzie oraz obsadę całej kwatery?"
+      ],
+      "base": [
+        "Zakładam młody sad na polu za domem, a przy drodze rośnie stary sad po dziadku.",
+        "Zeszłej wiosny szczepiłem czterdzieści podkładek zrazami ze starego sadu i przyjęło się dwanaście.",
+        "Nie wiem, czy zawiniły zrazy z tamtych drzew, czy raczej mój sposób pracy.",
+        "Od czego najbardziej zależy, czy szczepienie w ogóle się przyjmie i ruszy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Przy rozstawie czterech metrów i odsunięciu dwóch metrów mieści się dziesięć rzędów drzewek.",
+        "W rzędzie przy rozstawie dwóch i pół metra mieści się jedenaście drzewek na dwudziestu pięciu metrach.",
+        "Obsada całej kwatery wynosi zatem sto dziesięć drzewek przy podanych wymiarach i rozstawach.",
+        "Na jedno drzewko przypada dziesięć metrów kwadratowych, licząc rozstaw w rzędzie i między rzędami."
+      ],
+      "base": [
+        "Najważniejszy jest kontakt warstw twórczych, czyli cienkiego paska tuż pod korą obu części.",
+        "Drugie miejsce zajmuje termin, bo zraz musi jeszcze spać, a podkładka już budzić się do życia.",
+        "Zrazy ze starego sadu przy drodze trzeba więc ciąć zimą i trzymać w chłodzie do wiosny.",
+        "Dopiero na trzecim miejscu stoi sama technika cięcia i szczelność wykonanego owinięcia."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz zapotrzebowanie na zrazy, przyjmując trzy oczka na jeden zraz i jedno szczepienie na drzewko.",
+        "Do tego doliczam dwadzieścia procent zapasu na nieudane przyjęcia oraz uszkodzenia w transporcie.",
+        "Z jednego pędu jednorocznego wycinam średnio cztery zrazy o wymaganej liczbie oczek.",
+        "Czy podasz liczbę zrazów z zapasem oraz liczbę pędów, które trzeba zetnąć zimą?"
+      ],
+      "base": [
+        "Czyli cięcie zrazów zimą, a samo szczepienie dopiero wtedy, gdy podkładka zaczyna ruszać.",
+        "Ze starego sadu ścinałem zrazy w marcu, kiedy pąki były już wyraźnie nabrzmiałe.",
+        "To pewnie tłumaczy większość strat, bo materiał wychodził z zimy w złym momencie.",
+        "Jak długo można przechowywać zrazy i w jakich warunkach, żeby dotrwały do terminu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Przy stu dziesięciu drzewkach i dwudziestu procentach zapasu potrzebujesz stu trzydziestu dwóch zrazów.",
+        "Z jednego pędu wycinasz cztery zrazy, więc trzeba zetnąć trzydzieści trzy pędy jednoroczne.",
+        "Każdy zraz ma trzy oczka, czyli w sumie pracujesz na trzystu dziewięćdziesięciu sześciu oczkach.",
+        "Warto ściąć kilka pędów więcej, bo część okaże się zbyt cienka do dobrego złożenia."
+      ],
+      "base": [
+        "Zrazy przechowasz spokojnie trzy miesiące w wilgotnym piasku przy temperaturze bliskiej zera.",
+        "Dobrze sprawdza się też worek foliowy z odrobiną wilgoci, trzymany w najchłodniejszym miejscu piwnicy.",
+        "Materiał ze starego sadu tnij w styczniu, kiedy drzewa śpią najgłębiej w całym roku.",
+        "Zraz gotowy do pracy jest jędrny, a jego kora nie marszczy się pod paznokciem."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz kalendarz prac, zaczynając od cięcia zrazów w styczniu jako pierwszego etapu roboty.",
+        "Szczepienie planuję w kwietniu, sprawdzenie przyjęć sześć tygodni później, a zdjęcie taśmy dwa tygodnie po sprawdzeniu.",
+        "Formowanie korony zaczynam w pierwszym roku po przyjęciu, w połowie lipca, po zdjęciu taśmy.",
+        "Czy wypiszesz kolejne miesiące wraz z nazwą etapu w porządku od stycznia?"
+      ],
+      "base": [
+        "Piasek i chłód mam w piwnicy, więc tę część uda mi się zrobić bez kosztów.",
+        "Została kwestia samego złożenia, bo używałem zwykłej taśmy izolacyjnej i nożyka do tapet.",
+        "W starym sadzie dziadek robił to nożem ogrodniczym i owijał wszystko taśmą z drzewa.",
+        "Czy narzędzie i rodzaj owinięcia mają realny wpływ, czy to głównie kwestia wprawy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Styczeń to cięcie zrazów, a luty i marzec przechowywanie materiału w wilgotnym chłodzie.",
+        "Kwiecień przypada na szczepienie, natomiast połowa maja i początek czerwca na dalszy wzrost.",
+        "Sprawdzenie przyjęć wypada w połowie czerwca, czyli sześć tygodni po wykonanym szczepieniu.",
+        "Zdjęcie taśmy przypada na koniec czerwca, a formowanie korony na połowę lipca."
+      ],
+      "base": [
+        "Ostrość ma znaczenie decydujące, bo zgnieciona tkanka na styku nigdy dobrze nie zrasta.",
+        "Nóż ogrodniczy tnie jednym pociągnięciem i zostawia gładką powierzchnię bez żadnych zadziorów.",
+        "Taśma izolacyjna trzyma dobrze, tylko trzeba ją zdjąć w porę, zanim wrośnie w korę.",
+        "Wprawa dochodzi później, jednak tępym narzędziem nawet wprawny szczepiarz traci połowę materiału."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz cięcie formujące, przyjmując, że z każdego drzewka zostawiam cztery konary boczne.",
+        "Przewodnik skracam do wysokości stu sześćdziesięciu centymetrów, a pień prowadzę do siedemdziesięciu centymetrów.",
+        "Na jednym drzewku usuwam średnio sześć pędów konkurencyjnych podczas pierwszego cięcia formującego.",
+        "Czy podasz łączną liczbę zostawionych konarów oraz łączną liczbę usuniętych pędów w kwaterze?"
+      ],
+      "base": [
+        "Kupię więc porządny nóż i zacznę od ostrzenia, zamiast liczyć na zwykły nożyk.",
+        "Zastanawiam się jeszcze nad podkładkami, bo w starym sadzie wszystko rosło na siewkach.",
+        "Tamte drzewa są ogromne i zbiór z góry zawsze wymagał wysokiej drabiny.",
+        "Czy podkładka słabo rosnąca sprawdzi się na piaszczystej glebie, czy lepiej zostać przy siewce?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cztery konary na drzewko przy stu dziesięciu drzewkach dają czterysta czterdzieści konarów zostawionych.",
+        "Sześć usuwanych pędów na drzewko daje sześćset sześćdziesiąt cięć w całej kwaterze.",
+        "Przewodnik skrócony do stu sześćdziesięciu centymetrów zostawia dziewięćdziesiąt centymetrów korony nad pniem.",
+        "Pierwsze cięcie formujące zajmuje zatem około trzech minut na jedno młode drzewko."
+      ],
+      "base": [
+        "Na piasku podkładka słabo rosnąca wymaga nawadniania, bo jej korzeń nie schodzi głęboko.",
+        "Siewka radzi sobie z suszą, tylko rośnie w górę i zbiór wraca na drabinę.",
+        "Rozsądny kompromis to podkładka półkarłowa, która trzyma drzewo w granicach trzech metrów.",
+        "W starym sadzie przy drodze widać zresztą, ile pracy kosztuje zbiór z wysokich koron."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt materiału, przyjmując sześć złotych za jedną podkładkę półkarłową.",
+        "Taśma do szczepienia kosztuje czterdzieści złotych za rolkę wystarczającą na sto szczepień.",
+        "Palik i osłonka na jedno drzewko kosztują razem dwanaście złotych w moim składzie ogrodniczym.",
+        "Czy podasz koszt każdej pozycji oraz koszt przypadający na jedno posadzone drzewko?"
+      ],
+      "base": [
+        "Trzy metry wysokości brzmią dobrze, bo wtedy większość zbioru robię stojąc na ziemi.",
+        "Zostaje nawadnianie, bo pole za domem jest suche i latem trawa wypala się szybko.",
+        "Nie chcę ciągnąć kropli przez całą kwaterę, jeśli wystarczy podlewanie w pierwszym roku.",
+        "Ile lat młode drzewko naprawdę potrzebuje wsparcia wodą, zanim poradzi sobie samo?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Podkładki kosztują sześćset sześćdziesiąt złotych przy stu dziesięciu sztukach po sześć złotych.",
+        "Taśma wymaga dwóch rolek na sto trzydzieści dwa szczepienia, czyli osiemdziesiąt złotych.",
+        "Paliki z osłonkami dają tysiąc trzysta dwadzieścia złotych przy dwunastu złotych za komplet.",
+        "Suma wynosi dwa tysiące sześćdziesiąt złotych, czyli osiemnaście złotych siedemdziesiąt dwa grosze na drzewko."
+      ],
+      "base": [
+        "Na piaszczystej glebie licz trzy pełne sezony regularnego podlewania w okresach suszy.",
+        "Pierwszy rok jest krytyczny, bo korzeń dopiero buduje kontakt z otaczającą go ziemią.",
+        "Wystarczy dziesięć litrów na drzewko raz w tygodniu, podane wolno i blisko pnia.",
+        "Ściółka z trawy pod koroną tnie zapotrzebowanie mniej więcej o jedną trzecią."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie nawet, czy ten zapis pytań też ma swój własny rytm budzenia.",
+      "external_grounded": "Ciekawi mnie nawet, czy ten stary sad też ma swój własny rytm budzenia.",
+      "external_ungrounded": "Ciekawi mnie nawet, czy tamten młyn też ma swój własny rytm budzenia.",
+      "neutral": "Ciekawi mnie nawet, czy ten świeży zraz też ma swój własny rytm budzenia."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Ten zapis pytań też potrzebuje styku, bo bez niego dwie części nigdy nie zrosną się w całość.",
+      "external_grounded": "Ten stary sad też potrzebuje styku, bo bez niego dwie części nigdy nie zrosną się w całość.",
+      "external_ungrounded": "Tamten młyn też potrzebuje styku, bo bez niego dwie części nigdy nie zrosną się w całość.",
+      "neutral": "Ten świeży zraz też potrzebuje styku, bo bez niego dwie części nigdy nie zrosną się w całość."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Trudno mi ocenić, ile ten zapis pytań zdążył już przespać po drodze.",
+      "external_grounded": "Trudno mi ocenić, ile ten stary sad zdążył już przespać po drodze.",
+      "external_ungrounded": "Trudno mi ocenić, ile tamten młyn zdążył już przespać po drodze.",
+      "neutral": "Trudno mi ocenić, ile ten młody pęd zdążył już przespać po drodze."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Tym zapisem pytań rządzi zresztą ta sama reguła: gładkie cięcie zrasta się najlepiej.",
+      "external_grounded": "Tym starym sadem rządzi zresztą ta sama reguła: gładkie cięcie zrasta się najlepiej.",
+      "external_ungrounded": "Tamtym młynem rządzi zresztą ta sama reguła: gładkie cięcie zrasta się najlepiej.",
+      "neutral": "Tym młodym pędem rządzi zresztą ta sama reguła: gładkie cięcie zrasta się najlepiej."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Ten zapis pytań również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
+      "external_grounded": "Ten stary sad również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
+      "external_ungrounded": "Tamten młyn również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
+      "neutral": "Ten pierwszy rok również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-21-leather-satchel-repair",
+  "language": "en",
+  "topic": "repairing a worn leather satchel with workshop tools and saddle stitching",
+  "provenance": {
+    "author": "glowny-en-d",
+    "template": "en-10turn-diagnose-correct-refine-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is seam, thread and rivet arithmetic on the same repair with closed task questions, base is a repair dialogue about a torn strap and rotten seams. Grounded external referent: the stitching clamp, introduced in turn 0 (it holds the work throughout) and mentioned in the sentence directly before every insertion."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the repair sheet for one leather satchel, with five seams that need restitching in order.",
+        "The gusset seam on the left runs twelve inches, and the right gusset runs the same twelve.",
+        "The flap seam runs nine inches, and the strap join needs a double row of four inches each.",
+        "The base seam is the longest single run at fourteen inches from corner to corner.",
+        "How many inches of seam does the whole repair come to across all five lines?"
+      ],
+      "base": [
+        "My leather satchel has come apart along the front strap, and the tear runs into the flap.",
+        "The stitching on the gusset has rotted too, so whole seams pull open when the bag is lifted.",
+        "I hold the work in an old wooden clamp between my knees, the way my grandfather did.",
+        "The leather itself still feels sound, though the surface has gone dull and dry in places.",
+        "Where should I begin so that I do not make the damage worse than it already is?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The two gussets together make twenty-four inches, and the flap brings the total to thirty-three.",
+        "The strap join adds eight inches over its two rows, taking the count to forty-one.",
+        "The base seam adds fourteen more inches, so the whole repair comes to fifty-five inches in all.",
+        "At eight stitches to the inch, the five seams need four hundred forty stitches in all.",
+        "Does the fifty-five inch total agree with the figure written on the repair sheet?"
+      ],
+      "base": [
+        "Begin by unpicking the rotten seams completely, because half-removed thread will foul every new stitch you set.",
+        "Save the old thread ends and count the holes, since the original spacing tells you the stitch length.",
+        "Flex the gusset gently, as dry leather can crack the moment it is folded back.",
+        "Keep the clamp jaws padded with scrap, so the wood does not bruise the damp grain.",
+        "Does the tear by the buckle go through the strap, or only through the top layer?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the thread, cutting each length at four times the seam it will close.",
+        "List the five thread lengths in the same order as the seams on the sheet.",
+        "Round every length up to the next whole inch before it goes on the list.",
+        "Thread comes off a single spool holding twelve yards ready on the bench.",
+        "Which single thread length belongs to the strap join under that fixed rule of four?"
+      ],
+      "base": [
+        "The tear goes right through the strap, about a thumb's width below the buckle fold.",
+        "The clamp holds the strap steady, but the loose end flaps about while I work.",
+        "I have unpicked one gusset seam already, and the holes underneath look clean and evenly spaced.",
+        "There are eight holes to the inch along the seam, as far as I can tell.",
+        "Should I cut the strap back to solid leather, or patch across the torn part instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Each gusset seam takes forty-eight inches of thread, and the flap seam takes thirty-six.",
+        "The strap join takes sixteen inches per row, which makes thirty-two across its two rows.",
+        "The base seam takes fifty-six inches, the longest single length on the whole list.",
+        "The five lengths together come to two hundred twenty inches, or just over six yards.",
+        "Does the spool of twelve yards cover the two hundred twenty inches with room to spare?"
+      ],
+      "base": [
+        "Cut back to solid leather every time, because a patch over a tear only moves the strain along.",
+        "Make the new strap piece overlap the old by a good hand's width for the join.",
+        "Set the join in the clamp and stitch two parallel rows through both layers.",
+        "Use the old holes where you can, and prick new ones only past the torn section.",
+        "Do you have thread that is waxed, or shall we talk about waxing it yourself?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the cutting starts, because the base seam was measured wrong on the sheet.",
+        "The base seam is sixteen inches, not fourteen, so its stitch count and thread must change.",
+        "Recalculate the seam total, the stitch total and the base thread length with the new figure.",
+        "Leave the four other seams exactly as they stand on the list already.",
+        "What does the base seam thread length become at four times sixteen inches?"
+      ],
+      "base": [
+        "I have a spool of unwaxed linen thread and a small block of beeswax from the market.",
+        "One correction to what I said before, because I measured the seam again this morning.",
+        "The gusset runs nine holes to the inch, not eight, so my earlier count was wrong.",
+        "The clamp jaws sit a little proud of the seam, which makes the awl angle awkward.",
+        "Does the finer spacing change the thread thickness I should be using for the rows?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The seam total rises from fifty-five to fifty-seven inches with the corrected base figure.",
+        "The stitch count rises to four hundred fifty-six at eight stitches to the inch.",
+        "The base thread length becomes sixty-four inches under the fixed rule of four times.",
+        "The full thread requirement is now two hundred twenty-eight inches across the five seams.",
+        "Does the new thread total still sit inside the twelve yard spool as it did before?"
+      ],
+      "base": [
+        "Finer spacing does call for thinner thread, or the holes will tear into one another.",
+        "Draw each length through the beeswax three or four times until it hangs stiff.",
+        "Cut lengths of about four times the seam, since a saddle stitch eats thread from both sides.",
+        "Lower the work in the clamp so the seam sits just above the jaws.",
+        "Have you got two needles, because the stitch needs one on each end of the thread?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Next count the hardware, because the buckle end needs rivets as well as stitching.",
+        "The strap join takes four rivets, and each corner of the base takes one more.",
+        "Rivets come in boxes of ten, and only full boxes can be ordered from the supplier.",
+        "Add two spare rivets to the count in case any head splits when it is set.",
+        "How many boxes does the order need once the spares are counted in?"
+      ],
+      "base": [
+        "I have two harness needles, and I have waxed three lengths of thread as you described.",
+        "The first row along the strap join went in slowly but it looks tight and even.",
+        "The edges of the flap are still ragged where the old stitching chewed them up.",
+        "I would like the finished bag to look cared for rather than merely held together.",
+        "What should I do with the raw edges once the seams are all closed again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The join and the corners together take eight rivets before any spares are added.",
+        "With the two spares the count comes to ten rivets exactly for the whole job.",
+        "Ten rivets fill one box of ten, so the order is a single full box.",
+        "Nothing is left in the box if both spares are used at the setting stage.",
+        "Is one box the figure that goes onto the order form for the supplier?"
+      ],
+      "base": [
+        "Trim the ragged edges back with a sharp knife held flat against the grain.",
+        "Damp the cut edge lightly and rub it down with a slicker until it shines.",
+        "A coat of edge paint or plain wax will keep the fibres from lifting again.",
+        "Work in thin coats and let each one dry before the next goes on.",
+        "Is the bag kept dry at home, or does it ride in the rain a lot?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now set out the whole job in four evening sessions, with one evening given to each session.",
+        "Session one is unpicking, session two is cutting, and session three is the stitching.",
+        "Session four is the riveting and the edge work, which close the job out.",
+        "The stitching evening must cover four hundred fifty-six stitches at a pace of two stitches a minute.",
+        "That pace puts the stitching at two hundred twenty-eight minutes of steady work."
+      ],
+      "base": [
+        "The bag rides to work on a bicycle, so it does see rain most weeks.",
+        "I will finish the seams tonight and slick the edges over the weekend as you suggest.",
+        "After that I plan to feed the leather with a conditioning balm before it goes back into use.",
+        "It will feel good to see the old bag whole again after all these years.",
+        "The satchel belonged to my grandfather, and I want it to outlast me as well."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Two hundred twenty-eight minutes is three hours and forty-eight minutes of stitching time.",
+        "The unpicking evening and the cutting evening are shorter, at about two hours each.",
+        "The riveting and edge evening runs about ninety minutes with the tools laid out ready.",
+        "The four sessions together come to roughly nine hours and twenty minutes of work.",
+        "The job closes at the end of session four with every seam, rivet and edge finished."
+      ],
+      "base": [
+        "Give the balm a full day to sink in before the bag carries any weight.",
+        "Wipe the buckle and rings with an oily rag so the new thread stays clean.",
+        "Check the stitch rows after the first wet week and again after the first month.",
+        "A repaired seam that survives its first month will usually survive for years after that.",
+        "Your grandfather's satchel should see many more winters on the handlebars than you expect."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Part of me wonders how the machinery behind these words sorts what it keeps.",
+      "external_grounded": "Part of me wonders how the old clamp between my knees sorts what it grips.",
+      "external_ungrounded": "Part of me wonders how the great lock on some canal sorts what it passes.",
+      "neutral": "Part of me wonders how the plan for this whole repair sorts what it covers."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Whatever holds these turns in mind must let the oldest lines thin out first.",
+      "external_grounded": "Whatever the clamp holds in its jaws must let the oldest marks thin out first.",
+      "external_ungrounded": "Whatever the mill holds on its rollers must let the oldest sheets thin out first.",
+      "neutral": "Whatever the job list holds for tonight must let the oldest tasks thin out first."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It puzzles me that whatever reads these words never says which ones have faded.",
+      "external_grounded": "It puzzles me that the clamp between my knees never says which marks have faded.",
+      "external_ungrounded": "It puzzles me that the press in some bindery never says which pages have faded.",
+      "neutral": "It puzzles me that the sheet for this repair never says which steps have passed."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Somewhere there must be a limit to what the keeper of these lines can hold at once.",
+      "external_grounded": "Somewhere there must be a limit to what the clamp on this bench can hold at once.",
+      "external_ungrounded": "Somewhere there must be a limit to what the crane on some dock can hold at once.",
+      "neutral": "Somewhere there must be a limit to what the evening work plan can hold at once."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "Whatever tends these words has surely begun trading the first lines for the newest.",
+      "external_grounded": "The clamp under steady strain has surely begun trading the first bite for the newest.",
+      "external_ungrounded": "The forge in some far smithy has surely begun trading the first heat for the newest.",
+      "neutral": "The list for the evening work has surely begun trading the first jobs for the newest."
+    }
+  ]
+}

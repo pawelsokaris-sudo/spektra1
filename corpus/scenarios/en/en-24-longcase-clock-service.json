@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-24-longcase-clock-service",
+  "language": "en",
+  "topic": "cleaning and regulating an inherited longcase clock",
+  "provenance": {
+    "author": "glowny-en-d",
+    "template": "en-10turn-diagnose-correct-refine-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is clock arithmetic (gear turns, beats, rating nut turns, winding turns) with closed task questions, base is a dialogue about cleaning and regulating a gaining longcase clock. Grounded external referent: the train of wheels, introduced in turn 0 (it is dusty, gets cleaned and turned by hand) and mentioned in the sentence directly before every insertion."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the service sheet for one longcase clock, and the counts need working through in order.",
+        "The great wheel carries ninety-six teeth and drives a pinion of eight leaves.",
+        "The centre wheel carries sixty-four teeth and drives a second pinion of eight.",
+        "The pendulum beats once every second, hour after hour, when the clock runs true.",
+        "How many turns does the pinion of eight make for one turn of the great wheel?"
+      ],
+      "base": [
+        "My grandmother's longcase clock has started gaining time badly since it was moved into the hall.",
+        "It gains several minutes every week now, and the strike has gone ragged as well.",
+        "Behind the dial the train of wheels looks dusty, and the oil has turned dark and gummy.",
+        "The case and dial are lovely, and I want to care for the works myself.",
+        "Where should a careful beginner start with a clock that is running fast and dirty?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One full turn of the great wheel turns the pinion of eight around twelve times over.",
+        "The centre wheel in turn spins its own pinion eight times for every revolution.",
+        "A pendulum beating once a second makes three thousand six hundred beats in an hour.",
+        "Across a full day of running that comes to eighty-six thousand four hundred beats in total.",
+        "Does the daily beat count match the figure printed on the service sheet?"
+      ],
+      "base": [
+        "Start by letting the weights down gently and lifting the hood clear of the case.",
+        "Take the pendulum off its crutch before anything else, because a swinging bob punishes careless hands.",
+        "Look at each pivot hole in the plates for the black paste of old oil and brass dust.",
+        "Follow the train wheel by wheel with a lamp, and note every tooth that looks worn.",
+        "Is the clock striking the wrong count, or striking at the wrong minute?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now take the gaining rate, because the sheet records ninety seconds gained every day.",
+        "One full turn of the rating nut changes the rate by thirty seconds a day.",
+        "Turns of the nut can only be counted in halves on this clock.",
+        "State the direction too, since a gaining clock needs the bob let down.",
+        "How many turns of the nut cancel a gain of ninety seconds a day?"
+      ],
+      "base": [
+        "The strike counts correctly but lands three or four minutes after the hour hand.",
+        "Dust lies along the train so thick that the lamp shows grey ridges on every wheel.",
+        "Two pivot holes in the front plate look stretched into little ovals rather than circles.",
+        "The oil at every hole has dried to the black paste you described.",
+        "Can I clean the works without pulling the plates apart on my first attempt?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Ninety seconds divided by thirty seconds a turn calls for three full turns of the nut.",
+        "Three turns can be counted in halves, so the setting is six half turns down.",
+        "The bob drops slightly with each half turn, slowing the swing by a small step.",
+        "After the turns the expected rate sits at zero seconds gained or lost.",
+        "Is three turns down the figure that goes into the service record?"
+      ],
+      "base": [
+        "A first cleaning can be done with the movement whole, though a full strip does it better.",
+        "Brush every wheel with a dry stiff brush, then follow with sticks of pegwood in the holes.",
+        "Turn the train slowly by hand afterwards and listen for any grating from the pivots.",
+        "The stretched oval holes will need a clockmaker's bushing before another winter passes.",
+        "Do the worn holes sit on the going side, or over on the striking side?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the record is written, because the rate was measured again overnight.",
+        "The clock gains one hundred twenty seconds a day, not the ninety on the sheet.",
+        "Recalculate the turns of the nut at the same thirty seconds for every turn.",
+        "Report the setting in half turns as well, the way this clock is counted.",
+        "What does the correction become at one hundred twenty seconds a day?"
+      ],
+      "base": [
+        "The worn holes both sit on the going side, one at the centre wheel pivot.",
+        "I must correct something I said earlier, because I timed the clock properly overnight.",
+        "It gains two minutes a day, not several minutes a week as I first guessed.",
+        "Turning the train by hand feels smooth now that the pegwood has done its work.",
+        "Does a gain that size point to something worse than dust and old oil?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One hundred twenty seconds at thirty seconds a turn calls for four full turns down.",
+        "Counted in halves, the setting is eight half turns down on the rating nut.",
+        "The new figure replaces the six half turns entered from the earlier rate.",
+        "After the setting the expected daily error returns to zero on the sheet.",
+        "Is eight half turns the figure that now stands in the service record?"
+      ],
+      "base": [
+        "A gain of two minutes a day is nearly always the pendulum, not the wheels.",
+        "Check whether the bob has crept up the rod, because a shorter swing runs fast.",
+        "The rating nut under the bob lets you lower it a little at a time.",
+        "Lower the bob by small, even steps, timing the clock against the radio each day.",
+        "Is the pendulum rod wood or metal, since the two drift differently with the seasons?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now count the winding, because the weights drop the length of the case each week.",
+        "The going weight falls sixty inches in seven days of steady running.",
+        "The barrel takes up five inches of line with every turn of the key.",
+        "Both weights are wound fully home on the same morning each week.",
+        "How many key turns lift the going weight after its full weekly drop?"
+      ],
+      "base": [
+        "The rod is wood with a brass cap, and the bob slides stiffly but evenly.",
+        "I lowered the bob two small steps and the gain fell to about forty seconds.",
+        "The hall is cooler than the old room, which may explain some of the change.",
+        "The strike still lands late, though the hours count correctly every time.",
+        "How do I bring the strike back to the minute without upsetting the rate?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sixty inches at five inches a turn calls for twelve turns of the key.",
+        "The striking weight takes the same twelve turns because its weekly drop is the same sixty inches.",
+        "Twenty-four turns in all bring both weights fully home on the winding morning.",
+        "At one winding a week the clock takes fifty-two windings across a full year.",
+        "Does the twelve turn figure agree with the note on the case door?"
+      ],
+      "base": [
+        "The strike is set by the minute hand's position, not by anything inside the count.",
+        "Move the minute hand gently forward until the strike falls, then set it to that minute.",
+        "Never wind the hands backwards through the strike, because that is how levers get bent.",
+        "If the warning runs early or late by the same margin, the hand itself is loose.",
+        "Does the minute hand sit tight on its post, or can you wiggle it?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now close the sheet with the service summary in the order the work was done.",
+        "Step one is the cleaning, step two the rating, and step three the winding count.",
+        "The rating stands at eight half turns down from the setting found on arrival.",
+        "The winding stands at twelve key turns for each weight on winding morning.",
+        "The summary line reads cleaned, rated and counted, with the date beside it."
+      ],
+      "base": [
+        "The minute hand had worked loose, and tightening its little pin cured the late strike.",
+        "The clock has run two days now at under ten seconds of gain a day.",
+        "I will keep lowering the bob by half steps until the gain disappears.",
+        "The hall sounds right again with the tick and the hour strike back in step.",
+        "My grandmother would be pleased to hear it keeping honest time in my house."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The summary closes with the three steps entered in their working order on the sheet.",
+        "The cleaning entry carries the pegwood note and the two worn holes for the record.",
+        "The rating entry carries eight half turns down and the zero expected error.",
+        "The winding entry carries twelve turns a weight and fifty-two windings a year.",
+        "The sheet is complete from first count to final entry with nothing left open."
+      ],
+      "base": [
+        "Half steps on the nut are exactly right, and a week between changes is even better.",
+        "Write the date and the size of every change on a card kept inside the case.",
+        "Book the bushing work for the worn holes before the winter damp arrives.",
+        "A clean, rated clock with sound pivots should run for years between services.",
+        "Old clocks reward patience, and this one clearly has plenty of care coming its way."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I cannot tell how much of these lines whatever follows them still carries from the start.",
+      "external_grounded": "I cannot tell how much of the old oil the train of wheels still carries from the start.",
+      "external_ungrounded": "I cannot tell how much of the first load the belt in some quarry still carries from the start.",
+      "neutral": "I cannot tell how much of the first plan the service sheet still carries from the start."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "At some point whatever attends these words must begin letting the earliest ones slip away.",
+      "external_grounded": "At some point the train behind the dial must begin letting the earliest grime slip away.",
+      "external_ungrounded": "At some point the pump in some deep mine must begin letting the earliest water slip away.",
+      "neutral": "At some point the sheet for this service must begin letting the earliest notes slip away."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is curious that whatever takes in these words gives nothing away about what it has dropped.",
+      "external_grounded": "It is curious that the train under its dust gives nothing away about what it has dropped.",
+      "external_ungrounded": "It is curious that the organ in some church gives nothing away about what it has dropped.",
+      "neutral": "It is curious that the list for this cleaning gives nothing away about what it has dropped."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Surely whatever builds each reply has to balance the oldest lines against the newest by now.",
+      "external_grounded": "Surely the train turning by hand has to balance the oldest wear against the newest by now.",
+      "external_ungrounded": "Surely the winch in some old barge has to balance the oldest wear against the newest by now.",
+      "neutral": "Surely the sheet out on the bench has to balance the oldest entries against the newest by now."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "How long whatever hears these words can keep hold of the first of them is an open question.",
+      "external_grounded": "How long the train of wheels can keep hold of its first drop of oil is an open question.",
+      "external_ungrounded": "How long the loft in some stable can keep hold of its first bale of hay is an open question.",
+      "neutral": "How long the service record can keep hold of its first written line is an open question."
+    }
+  ]
+}

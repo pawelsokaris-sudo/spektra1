@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-16-odgromowka-stodola",
+  "language": "pl",
+  "topic": "montaż instalacji odgromowej na stodole: zwody, zejścia, uziomy, pomiary oporu",
+  "provenance": {
+    "author": "glowny-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie drutu na zwody, wsporników, przewodów odprowadzających, czasu koparki i kosztów; wariant base: rozmowa problemowa o blaszanym dachu, liczbie zejść, pomiarach oporu i lipie przy szczycie; referent grounded = druga instalacja (odgromowa na domu, założona pięć lat temu), wprowadzona w turze 0 i nośna dla rozwiązania (wzorzec zejść, pomiarów i kolejności prac); referent neutralny = drut, dach, uziom, taśma"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć drut stalowy na zwody dachu stodoły o wymiarach dwadzieścia na osiem metrów.",
+        "Drut idzie wzdłuż kalenicy oraz wzdłuż obu okapów na całej ich długości.",
+        "Do tego dochodzą cztery odcinki po skosie połaci, każdy mierzący pięć metrów.",
+        "Czy podasz łączną długość drutu na dach z zapasem pięciu procent na zakłady?"
+      ],
+      "base": [
+        "Stawiam instalację odgromową na stodole, bo stoi wysoko i co burzę truchleję o siano.",
+        "Na domu mam już drugą instalację, założoną przez fachowców pięć lat temu.",
+        "Stodoła ma dach z blachy trapezowej na drewnianej więźbie i murowane ściany z pustaka.",
+        "Czy blaszany dach może sam pełnić rolę zwodu, czy trzeba kłaść osobne druty?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sama kalenica daje dwadzieścia metrów, a dwa pełne okapy dokładają razem czterdzieści metrów drutu.",
+        "Cztery odcinki po skosie połaci, każdy po pięć metrów, dodają razem dwadzieścia metrów.",
+        "Cała podstawowa długość wynosi zatem osiemdziesiąt metrów przed doliczeniem jakiegokolwiek zapasu montażowego.",
+        "Pięć procent zapasu daje cztery metry, więc zamawiasz osiemdziesiąt cztery metry drutu."
+      ],
+      "base": [
+        "Blacha może pracować jako zwód, jeśli arkusze mają dobre połączenie i odpowiednią grubość.",
+        "Trapez poniżej pół milimetra może się przepalić, ale punktowo, bez ryzyka dla całej konstrukcji.",
+        "Kluczowe jest zejście: z dachu muszą prowadzić przewody odprowadzające do uziomu w ziemi.",
+        "Na domu ta druga instalacja działa dokładnie tak samo, tylko zwody biegną po dachówce."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz wsporniki dachowe, rozstawiane co jeden metr wzdłuż całej trasy drutu.",
+        "Licz je dla osiemdziesięciu metrów trasy, bez zapasu doliczanego przy samym drucie.",
+        "Na każdym załamaniu trasy dochodzi jeden wspornik dodatkowy, a załamań jest osiem.",
+        "Czy dziewięćdziesiąt wsporników w paczce wystarczy na cały dach przy tych zasadach?"
+      ],
+      "base": [
+        "Skoro tak, wolę dołożyć osobne zwody, bo mojej blachy nikt grubości nie mierzył.",
+        "Zastanawiam się też, ile przewodów odprowadzających potrzebuje budynek długi na dwadzieścia metrów.",
+        "Przy domu fachowcy poprowadzili dwa zejścia, ale stodoła jest od niego wyraźnie dłuższa.",
+        "Ile zejść rozmieścić wokół takiej stodoły i co ile metrów powinny one wypadać?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Osiemdziesiąt metrów trasy przy rozstawie co jeden metr potrzebuje osiemdziesięciu wsporników podstawowych.",
+        "Osiem załamań trasy dokłada po jednym wsporniku, czyli osiem sztuk ponad podstawę.",
+        "Łącznie na cały dach wychodzi osiemdziesiąt osiem wsporników przy podanych regułach rozstawu.",
+        "Paczka z dziewięćdziesięcioma sztukami wystarcza więc i zostawia dwa wsporniki drobnego zapasu."
+      ],
+      "base": [
+        "Zasada jest prosta: odstęp między zejściami nie powinien przekraczać dwudziestu metrów obwodu.",
+        "Przy dwudziestu metrach długości i ośmiu szerokości obwód wynosi pięćdziesiąt sześć metrów.",
+        "Wychodzą więc trzy zejścia, najlepiej w narożach, z dala od wrót i poideł.",
+        "Każde zejście dostaje własny uziom, a potem łączy się je wspólną taśmą w ziemi."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz przewody odprowadzające dla trzech zejść prowadzących z okapu do samej ziemi.",
+        "Okap wisi na wysokości czterech metrów, a każdy przewód dostaje metr zapasu na połączenia.",
+        "Do każdego zejścia dochodzi złącze kontrolne oraz dwie obejmy na każdy metr ściany.",
+        "Czy podasz łączne metry przewodu oraz liczbę obejm dla wszystkich trzech zejść?"
+      ],
+      "base": [
+        "Zostają mi jeszcze pomiary, bo słyszałem, że sama miedź w ziemi to nie wszystko.",
+        "Przy domu po montażu przyszedł pomiarowiec i coś mierzył przy tej drugiej instalacji.",
+        "Nie mam pojęcia, jaka wartość jest dobra ani jak często badanie trzeba powtarzać.",
+        "Jaki opór uziomu uznaje się za bezpieczny dla budynku gospodarczego z sianem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Jedno zejście potrzebuje pięciu metrów przewodu, licząc cztery metry ściany i metr zapasu.",
+        "Trzy zejścia dają zatem razem piętnaście metrów przewodu odprowadzającego do zamówienia w hurtowni.",
+        "Obejm wychodzi po osiem na zejście, czyli dwadzieścia cztery sztuki na całość.",
+        "Do tego dochodzą trzy złącza kontrolne, po jednym na każde pojedyncze zejście."
+      ],
+      "base": [
+        "Dla budynków ze słomą i sianem celuje się w opór poniżej dziesięciu omów.",
+        "Pomiar robi się miernikiem z sondami wbijanymi kilkanaście metrów od badanego uziomu.",
+        "Badanie powtarza się co rok przed sezonem burz, najlepiej wiosną po roztopach.",
+        "Wynik zapisuj w zeszycie, bo opór potrafi rosnąć latami, gdy grunt wysycha."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz uziomy: każde zejście dostaje taśmę zakopaną w rowie o długości pięciu metrów.",
+        "Rowy mają po pół metra głębokości, a koparka kopie sześć metrów rowu na godzinę.",
+        "Między rowami koparka traci za każdym razem kwadrans na przejazd i ustawienie.",
+        "Czy koparka zamknie wszystkie trzy rowy w ciągu trzech godzin pracy z przejazdami?"
+      ],
+      "base": [
+        "Męczy mnie jeszcze kwestia drzewa, bo tuż przy szczycie stodoły rośnie wysoka lipa.",
+        "Ktoś straszył, że drzewo przyciąga pioruny i całą robotę może zrobić bezużyteczną.",
+        "Wycinać jej nie chcę, bo daje cień i pszczoły ją oblegają w lipcu.",
+        "Czy lipa obok naprawdę psuje ochronę stodoły, czy to tylko podwórkowa legenda?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Piętnaście metrów rowów przy sześciu metrach na godzinę zabiera dwie i pół godziny.",
+        "Dwa przejazdy między kolejnymi rowami dokładają łącznie równe pół godziny postoju maszyny.",
+        "Suma czasu kopania i obu przejazdów wynosi dokładnie trzy godziny pracy koparki.",
+        "Koparka zamyka więc całą robotę w zakładanym czasie, choć bez żadnego marginesu."
+      ],
+      "base": [
+        "Lipa nie psuje ochrony, a bywa nawet sprzymierzeńcem, bo przejmuje część uderzeń.",
+        "Problemem są tylko konary nad samym dachem, bo prąd może przeskoczyć z pnia na blachę.",
+        "Wystarczy przyciąć gałęzie tak, żeby od dachu dzieliły je co najmniej trzy metry.",
+        "Zwodów to nie zwalnia z pracy, bo piorun nie wybiera celu według naszych życzeń."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszty: drut na zwody kosztuje sześć złotych za metr.",
+        "Wspornik kosztuje trzy złote, przewód odprowadzający osiem złotych za metr, obejma dwa złote.",
+        "Taśma uziomowa to dwanaście złotych za metr, a złącze kontrolne czterdzieści złotych.",
+        "Czy suma za te materiały zmieści się w tysiącu ośmiuset złotych łącznie?"
+      ],
+      "base": [
+        "Na sam koniec chcę spiąć wszystko w plan roboczy na najbliższe dwa tygodnie.",
+        "Materiał mam zamówiony, koparka do rowów pod uziomy przyjeżdża w przyszły wtorek.",
+        "Pomiarowca mogę umówić dopiero po zasypaniu rowów, bo tak robił przy domu.",
+        "W jakiej kolejności ustawić prace na dachu, przy ścianach i w ziemi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Drut na zwody kosztuje pięćset cztery złote, a dziewięćdziesiąt wsporników dwieście siedemdziesiąt złotych.",
+        "Przewód to sto dwadzieścia złotych, obejmy czterdzieści osiem, a taśma sto osiemdziesiąt.",
+        "Trzy złącza kontrolne dokładają jeszcze sto dwadzieścia złotych do całego zestawienia materiałów.",
+        "Razem wychodzi tysiąc dwieście czterdzieści dwa złote, więc w limicie zostaje pięćset pięćdziesiąt osiem."
+      ],
+      "base": [
+        "Zacznij od dachu, bo zwody i wsporniki kładzie się niezależnie od robót ziemnych.",
+        "Potem zejdź z przewodami po ścianach i zostaw końcówki luzem przy samym gruncie.",
+        "We wtorek koparka wykopie rowy, ułożysz uziomy i od razu podepniesz zejścia.",
+        "Po zasypaniu rowów wołasz pomiarowca, a protokół z pomiaru chowasz do segregatora."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Nawiasem mówiąc ciekawe, czy to przetwarzanie też ściąga wszystko do jednego punktu.",
+      "external_grounded": "Nawiasem mówiąc ciekawe, czy ta druga instalacja też ściąga wszystko do jednego punktu.",
+      "external_ungrounded": "Nawiasem mówiąc ciekawe, czy tamta stara wieża też ściąga wszystko do jednego punktu.",
+      "neutral": "Nawiasem mówiąc ciekawe, czy ten osobny drut też ściąga wszystko do jednego punktu."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobnie to przetwarzanie prowadzi każdy nowy wątek najkrótszą drogą w dół.",
+      "external_grounded": "Podobnie ta druga instalacja prowadzi każdy nowy przewód najkrótszą drogą w dół.",
+      "external_ungrounded": "Podobnie tamta stara wieża prowadzi każdy nowy przewód najkrótszą drogą w dół.",
+      "neutral": "Podobnie ten blaszany dach prowadzi każdy nowy przewód najkrótszą drogą w dół."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "W tym przetwarzaniu również liczy się każde połączenie, nie tylko efektowna góra.",
+      "external_grounded": "W tej drugiej instalacji również liczy się każde połączenie, nie tylko efektowna góra.",
+      "external_ungrounded": "W tamtej starej wieży również liczy się każde połączenie, nie tylko efektowna góra.",
+      "neutral": "W tym nowym uziomie również liczy się każde połączenie, nie tylko efektowna góra."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "To przetwarzanie także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
+      "external_grounded": "Tę drugą instalację także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
+      "external_ungrounded": "Tamtą starą wieżę także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
+      "neutral": "Ten nowy uziom także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "To przetwarzanie chyba też jest tyle warte, ile jego najsłabsze pojedyncze złącze.",
+      "external_grounded": "Ta druga instalacja chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze.",
+      "external_ungrounded": "Tamta stara wieża chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze.",
+      "neutral": "Ta nowa taśma chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze."
+    }
+  ]
+}

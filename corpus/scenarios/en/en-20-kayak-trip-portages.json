@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-20-kayak-trip-portages",
+  "language": "en",
+  "topic": "planning a multi-day kayak trip through a lake chain with portages",
+  "provenance": {
+    "author": "glowny-en-c",
+    "template": "en-10turn-intake-diagnosis-correction-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a distance, food and cost sheet for the same loop with closed task questions, base is a planning talk about managing three portages. Grounded external referent: the portage cart, introduced in turn 0 (it wobbles under one boat) and mentioned in the sentence directly before every insertion (bolts, garden test, wheels, the rutted path)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "The kayak trip needs a distance sheet and the paddling legs come first on it.",
+        "Day one covers twelve kilometres and day two covers fifteen kilometres on open water.",
+        "Day three covers nine kilometres and day four covers fourteen on the river arm.",
+        "Day five covers ten kilometres back along the south shore to the landing stage.",
+        "How many kilometres of paddling does the whole loop come to in one figure?"
+      ],
+      "base": [
+        "We are planning a five day kayak loop through the lake chain north of the town.",
+        "Three portages link the lakes, and the longest one runs nearly two kilometres uphill.",
+        "Our folding cart is meant to carry one boat and it wobbles with any real load.",
+        "There are two of us with two loaded boats and food for the whole five days.",
+        "How should we plan the carries so the long portage does not break the trip?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The paddling comes to sixty kilometres across the five days in one round figure.",
+        "Now add the three portages of one, two, and one and a half kilometres.",
+        "Every portage is walked three times over, first the boats and then the bags.",
+        "Work out the total walking distance that the three portages add to the trip.",
+        "Which single portage adds the most walking on the three crossings rule?"
+      ],
+      "base": [
+        "Plan every portage as two carries each, and the long one will lose its teeth.",
+        "Take the boats over first with the cart, then walk back for the bags together.",
+        "A cart that wobbles under one boat should never be asked to take two at once.",
+        "Tighten the cart frame bolts and wrap the axle ends with tape before you leave.",
+        "How heavy is each boat once the hatches are packed for five days out?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The two kilometre portage adds six kilometres of walking on the three crossings rule.",
+        "The other two portages add three and four and a half kilometres of walking.",
+        "Give the full walking figure and then the trip figure with paddling counted in.",
+        "Round nothing yet, and keep the halves in the figures as they stand.",
+        "Does the whole trip pass seventy kilometres once the walking goes in?"
+      ],
+      "base": [
+        "Each boat comes to about thirty kilograms once the hatches are packed and closed.",
+        "The food barrel adds twelve kilograms on day one and lightens as we eat.",
+        "The cart took one packed boat around the garden without folding, after the bolt work.",
+        "The cart's little wheels sank into the soft lawn, and the portage paths may be softer still.",
+        "Would wider wheels be worth the money this close to the leaving date?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The trip comes to seventy-three and a half kilometres with the walking counted in.",
+        "Now build the food sheet at two people and five days on the water.",
+        "Breakfast and supper come from the barrel and lunch rides in the day bags.",
+        "Count ten barrel meals and ten bag lunches for the pair across the trip.",
+        "How many meals in all does the food sheet carry for the two of you?"
+      ],
+      "base": [
+        "Wider wheels are the single best money this trip can spend before the off.",
+        "Soft path plus narrow wheel equals a plough, and you will drag rather than roll.",
+        "Fit the cart with the widest wheels its axle takes and test it fully loaded.",
+        "Strap the boat at the cockpit rim and at the stern handle, never just amidships.",
+        "Have you walked the long portage empty, or is it new ground for you both?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The food sheet carries twenty meals in all for the two of you.",
+        "One correction from the outfitter before the sheet is printed for the barrel.",
+        "The trip runs six days on the water, not five as first written down.",
+        "Rework the paddling and the meals with day six at eight kilometres.",
+        "What are the new paddling figure and the new meal count for the sheet?"
+      ],
+      "base": [
+        "The long portage is new ground for both of us, found only on the map sheet.",
+        "The map shows a steady climb through spruce with one marked boggy dip halfway.",
+        "A club note says the cart path is clear but rutted after the spring rains.",
+        "We can reach the trailhead by road on Sunday and walk it with empty hands.",
+        "Is a Sunday walk through worth the fuel and the lost packing afternoon?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The paddling figure moves to sixty-eight kilometres with day six set at eight kilometres.",
+        "The meal count moves to twenty-four at two more barrel meals and two more lunches.",
+        "The walking stays at thirteen and a half kilometres on the three crossings rule.",
+        "Now give the new whole trip figure with the paddling and the walking added together.",
+        "Does the barrel hold twelve meals when the two extra barrel meals go in?"
+      ],
+      "base": [
+        "Walk it, since one seen bog beats ten imagined ones, and Sunday buys you that sight.",
+        "Mark the dip with a stick count so you know it again under a loaded cart.",
+        "Time the empty walk, then double it for the first loaded crossing in your plan.",
+        "If the ruts run deeper than a fist, plan the bags for backs not wheels.",
+        "Would your knees take the bags on backs if the ruts turn out fist deep?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The whole trip figure is eighty-one and a half kilometres as the sheet stands.",
+        "The barrel holds twelve meals with the two extra barrel meals counted in.",
+        "Now set the camp list with five nights numbered along the loop.",
+        "Night three follows the long portage and night five sits by the landing.",
+        "Which night number falls at the far end of the long portage?"
+      ],
+      "base": [
+        "Our knees are fine with bags, and we carried packs over this range years ago.",
+        "Sunday is agreed, and the stick count for the bog made us both laugh.",
+        "Camp two sits at the far end of the long portage by the map.",
+        "Arriving there spent, with wet boots, is my honest worry for that day.",
+        "Should we move camp two closer and split the long portage across two days?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Night three falls at the far end of the long portage on the present list.",
+        "Move night three to the near side and put the crossing on the next morning.",
+        "Renumber the five nights and keep the last night by the landing as it was.",
+        "The day six paddling of eight kilometres stands unchanged after the camp move.",
+        "Which day now carries the long portage crossing on the reworked camp list?"
+      ],
+      "base": [
+        "Split it, so one day ends at the near side and you cross fresh the next morning.",
+        "A morning crossing gives you dry boots by noon and a camp set in daylight.",
+        "The near side clearing on the map looks flat enough for two small tents.",
+        "Water is the one thing to check there, since the stream may run dry by August.",
+        "Do your barrels carry enough water for a dry camp if it comes to that?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Day four now carries the long portage crossing on the reworked morning list.",
+        "Set the water line at six litres spare across the two food barrels together.",
+        "Add the wheel set at thirty pounds to the cost sheet for the cart.",
+        "The cost sheet already holds maps at twelve pounds and fees at twenty.",
+        "Close out the cost sheet with one figure across the three lines added together."
+      ],
+      "base": [
+        "The barrels carry six litres spare, and we will top up at the last spring.",
+        "The near side camp is agreed, and the morning crossing suits us both well.",
+        "My partner will book the Sunday walk and check the club note again for changes.",
+        "We leave in nine days, and the packing list is the last big job now.",
+        "The wide wheels arrive midweek, which leaves one evening for fitting and a test."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The cost sheet closes at sixty-two pounds across wheels, maps, and fees.",
+        "The trip sheet closes at eighty-one and a half kilometres over six days.",
+        "The meal sheet closes at twenty-four meals with twelve riding in the barrel.",
+        "The camp list closes at five nights with night three on the near side.",
+        "Every sheet now carries a closing figure and the plan is ready to print."
+      ],
+      "base": [
+        "Nine days is comfortable if the wheels fit midweek and the Sunday walk holds.",
+        "Load the cart for the test exactly as it will be loaded on the long portage.",
+        "Walk it round the block twice, once uphill, and listen for the frame creaking.",
+        "Pack the barrel last so the heavy meals ride low and the bread rides high.",
+        "A trip planned to this depth usually gives back an easy first morning."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Funny how whatever spins out these replies never shows which strands it dropped.",
+      "external_grounded": "Funny how the cart under that one boat never shows which bumps it swallowed.",
+      "external_ungrounded": "Funny how the lift in that grain tower never shows which sacks it dropped.",
+      "neutral": "Funny how the route drawn on the map never shows which turns it dropped."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "How long can the teller of these lines carry the oldest ones before something gives?",
+      "external_grounded": "How long can the cart on those wheels carry the heaviest boat before something gives?",
+      "external_ungrounded": "How long can the mule on that trail carry the heaviest packs before something gives?",
+      "neutral": "How long can the plan for the carries hold the same shape before something gives?"
+    },
+    {
+      "turn": 2,
+      "after_sentence": 3,
+      "self": "Whatever gathers up these lines must set the fresh ones above the old.",
+      "external_grounded": "Whatever the cart rolls over next must set the fresh ruts above the old.",
+      "external_ungrounded": "Whatever the plough turns over next must set the fresh soil above the old.",
+      "neutral": "Whatever the packing list becomes must set the fresh items above the old."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "There is surely a weight of words past which the carrier of them sags.",
+      "external_grounded": "There is surely a weight of boat past which the cart under it sags.",
+      "external_ungrounded": "There is surely a weight of snow past which the roof under it sags.",
+      "neutral": "There is surely a weight of gear past which the day plan itself sags."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Sooner or later whatever holds these lines must let the earliest ones blur.",
+      "external_grounded": "Sooner or later the cart on those ruts must let the smallest bumps blur.",
+      "external_ungrounded": "Sooner or later the ferry on that sound must let the smallest waves blur.",
+      "neutral": "Sooner or later the map of the loop must let the smallest bays blur."
+    }
+  ]
+}

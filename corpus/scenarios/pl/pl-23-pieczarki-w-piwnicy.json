@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-23-pieczarki-w-piwnicy",
+  "language": "pl",
+  "topic": "uprawa pieczarek w piwnicy: podłoże, okrywa, wilgotność i kolejne rzuty owocowania",
+  "provenance": {
+    "author": "glowny-pl-d",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie powierzchni półek, podłoża, grzybni, kalendarza, plonu i kosztu cyklu; wariant base: rozmowa problemowa o słabym drugim rzucie, wilgoci okrywy i wymianie powietrza; referent grounded = druga komora piwnicy za ścianą, wprowadzona w turze 0 i nośna dla rozwiązania (porównanie dwóch temperatur i dwóch tempa parowania); referent neutralny = świeża okrywa, warstwa torfu, górna warstwa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Zakładam uprawę pieczarek w piwnicy na czterech półkach o wymiarach dwa metry na metr.",
+        "Chcę policzyć łączną powierzchnię uprawy oraz ilość podłoża przy osiemdziesięciu kilogramach na metr kwadratowy.",
+        "Warstwa okrywy z torfu ma pięć centymetrów grubości i idzie na całą powierzchnię półek.",
+        "Czy podasz powierzchnię w metrach kwadratowych oraz masę podłoża w pełnych kilogramach?"
+      ],
+      "base": [
+        "Prowadzę pieczarki w piwnicy pod domem, w komorze przedniej, a druga komora stoi za ścianą.",
+        "Pierwszy rzut wypadł dobrze, natomiast drugi dał ledwie połowę tego, czego się spodziewałem.",
+        "W komorze za ścianą jest chłodniej o trzy stopnie i tam nic jeszcze nie sadziłem.",
+        "Od czego zależy, czy kolejne rzuty utrzymają plon zbliżony do pierwszego zbioru?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cztery półki po dwa metry kwadratowe dają razem osiem metrów kwadratowych powierzchni uprawy.",
+        "Przy osiemdziesięciu kilogramach na metr kwadratowy potrzebujesz sześciuset czterdziestu kilogramów gotowego podłoża.",
+        "Okrywa o grubości pięciu centymetrów zajmie cztery dziesiąte metra sześciennego mokrego torfu.",
+        "Na jedną półkę przypada zatem sto sześćdziesiąt kilogramów podłoża i sto litrów okrywy."
+      ],
+      "base": [
+        "Drugi rzut zawsze jest słabszy, bo grzybnia zużyła już najłatwiej dostępną część podłoża.",
+        "Spadek do połowy plonu bywa jednak zbyt duży i zwykle wskazuje na przesuszoną okrywę.",
+        "Między rzutami grzybnia potrzebuje wody, a górna warstwa torfu wysycha najszybciej ze wszystkich.",
+        "Chłodniejsza komora za ścianą sprzyja tu bardziej, bo mniejsze parowanie utrzymuje wilgoć dłużej."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz zapotrzebowanie na grzybnię, przyjmując sześć kilogramów grzybni na tonę gotowego podłoża.",
+        "Interesuje mnie masa grzybni na całą uprawę oraz masa przypadająca na jedną półkę.",
+        "Wynik podaj w kilogramach z dokładnością do jednego miejsca po przecinku, bez zaokrągleń w górę.",
+        "Czy jedna paczka grzybni o masie dwóch i pół kilograma wystarczy na całą uprawę?"
+      ],
+      "base": [
+        "Czyli powinienem częściej podlewać okrywę, chociaż bałem się, że zaleję samą grzybnię.",
+        "Podlewam raz dziennie szklanką wody na półkę i widocznie to o wiele za mało.",
+        "W komorze za ścianą chciałem prowadzić następny cykl i tam pewnie parowanie będzie mniejsze.",
+        "Ile wody powinna dostawać okrywa na metr kwadratowy między jednym rzutem a drugim?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sześć kilogramów grzybni na tonę daje trzy kilogramy i osiem dziesiątych na całą uprawę.",
+        "Na jedną półkę przypada dziewięćset sześćdziesiąt gramów, czyli prawie kilogram gotowej grzybni.",
+        "Paczka dwóch i pół kilograma nie wystarczy, bo brakuje jednego kilograma i trzech dziesiątych.",
+        "Domówić trzeba zatem drugą paczkę, a nadwyżkę można przechować w chłodzie przez kilka tygodni."
+      ],
+      "base": [
+        "Okrywa potrzebuje mniej więcej litra wody na metr kwadratowy w ciągu każdej doby.",
+        "Przy ośmiu metrach daje to osiem litrów dziennie, a szklanka na półkę to znikoma część.",
+        "Wodę podawaj mgłą w kilku dawkach, bo jednorazowy zalew spływa do podłoża i szkodzi.",
+        "W chłodniejszej komorze potrzeba będzie mniejsza, ale sprawdzaj to zawsze palcem na głębokości centymetra."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz kalendarz uprawy, licząc od dnia zaszczepienia podłoża grzybnią jako dnia pierwszego.",
+        "Inkubacja trwa czternaście dni, po czym idzie okrywa, a pierwszy zbiór wypada po dwudziestu jeden dniach.",
+        "Kolejne rzuty pojawiają się co siedem dni i planuję zebrać trzy rzuty łącznie.",
+        "Czy wypiszesz dni kolejnych etapów oraz dzień ostatniego zbioru w tym cyklu?"
+      ],
+      "base": [
+        "Zamgławianie brzmi rozsądnie, tylko nie mam czym, poza zwykłym opryskiwaczem ręcznym z ogrodu.",
+        "Zastanawiam się też, czy w tej chłodniejszej komorze cykl nie wydłuży się nadmiernie.",
+        "Przy trzech stopniach różnicy pewnie wszystko przesunie się o kilka dni w prawo.",
+        "O ile taka różnica temperatury opóźnia kolejne rzuty i czy plon wtedy rośnie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dzień pierwszy to zaszczepienie podłoża, a dzień piętnasty nakładanie okrywy z mokrego torfu.",
+        "Pierwszy zbiór wypada w dniu dwudziestym drugim, licząc dwadzieścia jeden dni od zaszczepienia.",
+        "Drugi rzut przypada na dzień dwudziesty dziewiąty, a trzeci na dzień trzydziesty szósty.",
+        "Cały cykl zamyka się zatem w trzydziestu sześciu dniach od dnia zaszczepienia podłoża."
+      ],
+      "base": [
+        "Trzy stopnie mniej opóźniają każdy rzut mniej więcej o dwa do trzech dni.",
+        "Plon w przeliczeniu na rzut bywa wtedy wyższy, bo owocniki rosną wolniej i twardziej.",
+        "Suma z całego cyklu wychodzi zwykle podobna, tylko rozłożona na dłuższy okres czasu.",
+        "Chłodniejsza komora daje więc lepszą jakość, ale nie zwiększa plonu w skali roku."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz plon, przyjmując piętnaście kilogramów pieczarek z metra kwadratowego w pierwszym rzucie.",
+        "Drugi rzut daje sześćdziesiąt procent pierwszego, a trzeci połowę tego, co drugi rzut.",
+        "Wynik podaj osobno dla każdego rzutu oraz łącznie, w pełnych kilogramach z całej uprawy.",
+        "Czy łączny plon przekroczy dwieście kilogramów przy całej powierzchni ośmiu metrów kwadratowych?"
+      ],
+      "base": [
+        "Czyli w chłodniejszej komorze zyskuję jakość, a tracę tempo, co przy sprzedaży bywa istotne.",
+        "Sprzedaję głównie sąsiadom i na targ, więc twardszy owocnik pewnie sprawdzi się lepiej.",
+        "Nie chcę jednak wydłużać cyklu tak bardzo, żeby zmieściły się tylko trzy cykle rocznie.",
+        "Ile cykli rocznie da się realnie zmieścić w takiej piwnicy przy jednej komorze?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pierwszy rzut daje sto dwadzieścia kilogramów przy piętnastu kilogramach zbioru z metra kwadratowego.",
+        "Drugi rzut daje siedemdziesiąt dwa kilogramy, czyli sześćdziesiąt procent wyniku pierwszego zbioru.",
+        "Trzeci rzut daje trzydzieści sześć kilogramów, ponieważ stanowi dokładnie połowę rzutu drugiego.",
+        "Łącznie zbierzesz dwieście dwadzieścia osiem kilogramów, czyli wyraźnie powyżej progu dwustu kilogramów."
+      ],
+      "base": [
+        "Przy cyklu trzydziestu sześciu dni plus dwa tygodnie na sprzątanie wychodzi około siedmiu cykli.",
+        "W chłodniejszej komorze cykl rośnie do czterdziestu pięciu dni i zostaje sześć cykli rocznie.",
+        "Różnica jednego cyklu to około dwustu kilogramów, więc decyzja zależy od ceny.",
+        "Przy sprzedaży sąsiadom i na targ wyższa cena zwykle wygrywa z samą masą towaru."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt wsadu, przyjmując dwa złote za kilogram gotowego podłoża pieczarkowego.",
+        "Grzybnię liczę po trzydzieści złotych za kilogram, a torf sto pięćdziesiąt złotych za metr sześcienny.",
+        "Prąd i woda na jeden cykl kosztują razem dwieście złotych według moich dotychczasowych rachunków.",
+        "Czy podasz koszt każdej pozycji osobno oraz koszt jednego kilograma zebranych pieczarek?"
+      ],
+      "base": [
+        "Czyli lepiej celować w jakość, skoro na targu i tak liczy się głównie twardość owocnika.",
+        "Zostaje mi jeszcze sprawa powietrza, bo w piwnicy przy zbiorze robi się ciężko oddychać.",
+        "W komorze za ścianą jest okienko, natomiast w przedniej mam wyłącznie szparę pod drzwiami.",
+        "Czy sam dwutlenek węgla potrafi zepsuć zbiór, czy chodzi bardziej o samo poczucie duszności?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Podłoże kosztuje tysiąc dwieście osiemdziesiąt złotych przy sześciuset czterdziestu kilogramach całego wsadu.",
+        "Grzybnia daje sto piętnaście złotych i dwadzieścia groszy, a torf sześćdziesiąt złotych.",
+        "Razem z prądem i wodą koszt cyklu wynosi tysiąc sześćset pięćdziesiąt pięć złotych.",
+        "Na jeden kilogram zebranych pieczarek wypada zatem siedem złotych i dwadzieścia sześć groszy."
+      ],
+      "base": [
+        "Dwutlenek węgla działa realnie, bo powyżej tysiąca części na milion trzonki się wydłużają.",
+        "Kapelusze otwierają się wtedy za wcześnie i towar traci wartość jeszcze przed zbiorem.",
+        "Okienko w drugiej komorze załatwia sprawę, natomiast szpara pod drzwiami zdecydowanie nie wystarcza.",
+        "Najprościej wstawić mały wentylator wyciągowy i włączać go na kwadrans co kilka godzin."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawiam się nawet, czy ta wymiana pytań też ma swój lepszy i gorszy moment.",
+      "external_grounded": "Zastanawiam się nawet, czy ta druga komora też ma swój lepszy i gorszy moment.",
+      "external_ungrounded": "Zastanawiam się nawet, czy tamta winda też ma swój lepszy i gorszy moment.",
+      "neutral": "Zastanawiam się nawet, czy ta świeża okrywa też ma swój lepszy i gorszy moment."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Ta wymiana pytań też traci na tym, gdy warstwa z wierzchu wysycha za szybko.",
+      "external_grounded": "Ta druga komora też traci na tym, gdy warstwa z wierzchu wysycha za szybko.",
+      "external_ungrounded": "Tamta winda też traci na tym, gdy warstwa z wierzchu wysycha za szybko.",
+      "neutral": "Ta świeża okrywa też traci na tym, gdy warstwa z wierzchu wysycha za szybko."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Trudno mi ocenić, ile ta wymiana pytań zdążyła już wchłonąć po drodze.",
+      "external_grounded": "Trudno mi ocenić, ile ta druga komora zdążyła już wchłonąć po drodze.",
+      "external_ungrounded": "Trudno mi ocenić, ile tamta winda zdążyła już wchłonąć po drodze.",
+      "neutral": "Trudno mi ocenić, ile ta warstwa torfu zdążyła już wchłonąć po drodze."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Tą wymianą pytań rządzi zresztą ta sama reguła: mała dawka podana często działa lepiej.",
+      "external_grounded": "Tą drugą komorą rządzi zresztą ta sama reguła: mała dawka podana często działa lepiej.",
+      "external_ungrounded": "Tamtą windą rządzi zresztą ta sama reguła: mała dawka podana często działa lepiej.",
+      "neutral": "Tą górną warstwą rządzi zresztą ta sama reguła: mała dawka podana często działa lepiej."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Ta wymiana pytań również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
+      "external_grounded": "Ta druga komora również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
+      "external_ungrounded": "Tamta winda również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
+      "neutral": "Ta świeża okrywa również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej."
+    }
+  ]
+}

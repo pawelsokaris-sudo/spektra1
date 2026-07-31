@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-17-horse-trailer-refit",
+  "language": "en",
+  "topic": "refitting the floor and ramp of a two-horse trailer before the season",
+  "provenance": {
+    "author": "glowny-en-c",
+    "template": "en-10turn-intake-diagnosis-correction-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a timber and screw order for the same refit with closed task questions, base is a diagnostic talk about a soft floor and a banging ramp. Grounded external referent: the ramp, introduced in turn 0 and mentioned in the sentence directly before every insertion (it takes the horses' weight, its hinge line and springs are suspects, its boards are part of the order)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "The trailer refit needs a timber order, and the floor comes first on the sheet.",
+        "The floor takes fifteen boards, and every board runs two point four metres in length.",
+        "The ramp takes eight boards, and every ramp board runs one point five metres.",
+        "Work out the total length of board for the floor and then for the ramp.",
+        "How many metres of board does the whole order come to across both parts?"
+      ],
+      "base": [
+        "Our two-horse trailer failed its yearly check because the floor felt soft near the back edge.",
+        "We lifted the rubber mats and found dark wet boards where the floor meets the ramp.",
+        "The ramp drops with a bang now, and the horses hesitate on it every single time.",
+        "Under the ramp the hinge line is stained with rust and one spring looks stretched.",
+        "Where would you start so the trailer is safe well before the season begins?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The floor comes to thirty-six metres of board at fifteen boards of two point four.",
+        "The ramp comes to twelve metres of board at eight boards of one point five.",
+        "Across both parts the whole order stands at forty-eight metres of board in total.",
+        "Each floor board needs six screws and each ramp board needs four screws.",
+        "Does a count of ninety screws for the floor match the number on your sheet?"
+      ],
+      "base": [
+        "Start with the boards, because soft timber near the back edge spreads faster than people expect.",
+        "Press a blunt key along each board and mark every spot where the point sinks in.",
+        "Then look at the ramp, since a ramp that bangs down usually means a tired spring.",
+        "A stretched spring throws the whole weight of the ramp onto your arms and the hinge line.",
+        "How old are the springs, and have they ever been changed since you bought it?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now price the timber at ten pounds for every metre of board on the order.",
+        "Give the floor cost and the ramp cost and then the figure for both together.",
+        "The screws come in boxes of fifty, and no box may be split at the counter.",
+        "Work out how many boxes cover one hundred twenty-two screws and what is left over.",
+        "Which single figure goes on the order line for the timber across both parts?"
+      ],
+      "base": [
+        "The springs are the ones the trailer came with, so they are at least twelve years old.",
+        "I pressed the key along the floor and marked eleven soft spots by the back edge.",
+        "The ramp boards look better, though two of them are dark along the hinge line.",
+        "Nothing sank in anywhere near the front half, which stayed dry under the mats.",
+        "Would you replace the whole floor, or only the run of boards that failed the key?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The floor timber costs three hundred sixty pounds at thirty-six metres and ten pounds the metre.",
+        "The ramp timber costs one hundred twenty pounds at twelve metres on the same rate.",
+        "The order line for timber across both parts reads four hundred eighty pounds.",
+        "Three boxes of fifty cover one hundred twenty-two screws with twenty-eight screws left over.",
+        "Does the spare count of twenty-eight match the margin you wanted for the job?"
+      ],
+      "base": [
+        "Replace the whole run from the back edge to the axle line, not just the marked boards.",
+        "Mixed old and new boards flex differently, and the join between them becomes the next weak spot.",
+        "On the ramp I would change the two dark boards and both springs in one go.",
+        "New springs will let the ramp rise gently instead of dropping its weight on you.",
+        "Can you get the trailer under cover for a week while the boards are out?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction has come in from the yard before the order goes off today.",
+        "The ramp boards run one point six metres each, not one point five as listed.",
+        "Rework the ramp length, the ramp cost, and the totals that change with them.",
+        "Leave the floor figures alone, because that part of the sheet was checked twice.",
+        "What is the new total length of board across both parts of the order?"
+      ],
+      "base": [
+        "The trailer can sit in the barn for two weeks, so time is not the problem.",
+        "My worry is choosing the timber, because the last owner clearly got that wrong.",
+        "The ramp boards outlasted the floor by years, so whatever went into the ramp was tougher.",
+        "The failed floor boards are plain softwood without any treatment stamp anywhere on them.",
+        "Which timber would you buy so the new floor outlasts the next owner as well?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The ramp now comes to twelve point eight metres at eight boards of one point six.",
+        "The ramp timber cost moves to one hundred twenty-eight pounds on the ten pound rate.",
+        "The total length of board across both parts becomes forty-eight point eight metres.",
+        "The timber order line moves to four hundred eighty-eight pounds with the floor unchanged.",
+        "Is the screw count still right, or do the longer boards take extra fixings?"
+      ],
+      "base": [
+        "Buy pressure treated boards for the floor, and ask the yard for the heavy duty grade.",
+        "Treated timber shrugs off the wet that horses bring in on their feet every trip.",
+        "For the ramp, match the thickness of the old boards so the hinge line sits flush.",
+        "A ramp board that stands proud catches hooves, and a low one lets water pool.",
+        "While the yard cuts your order, shall we plan the strip down step by step?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "The yard confirms that the longer ramp boards take five screws each instead of four.",
+        "Rework the screw total and the box count on the fifty to a box rule.",
+        "Then set out the job across four days from Monday to Thursday in order.",
+        "Day one is the strip down and day two is the frame check and treatment.",
+        "How many screws does the full order need now across floor and ramp together?"
+      ],
+      "base": [
+        "Yes, give me the strip down in order, because I have never opened a trailer floor.",
+        "I have a long weekend free, and my neighbour can lend a hand on Saturday.",
+        "The only tools in the barn are a drill, a saw, and a box of clamps.",
+        "The mats are heavy but they roll up, so the two of us can shift them.",
+        "Is there anything under the boards that a careless bar could wreck on the way?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The ramp now needs forty screws and the floor stays at ninety screws.",
+        "The full order needs one hundred thirty screws across floor and ramp together.",
+        "Three boxes cover it with twenty screws spare on the fifty to a box rule.",
+        "Day three then covers the floor laying and day four the ramp build and final checks.",
+        "Does the four day plan leave any slack if the treatment needs longer to dry?"
+      ],
+      "base": [
+        "The brake lines run along the nearside chassis rail, tucked just under the floor edge.",
+        "Lever against the crossmembers, never against the rails, and the lines stay out of harm.",
+        "Number each board with chalk as it comes out, so the pattern goes back the same way.",
+        "Keep the old ramp springs until the new ones are on, in case a horse must travel.",
+        "Would your neighbour take the far end of each board while you work the bar?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Set the treatment drying time at twenty-four hours before any board is fixed down.",
+        "The strip down takes one day and the frame check takes one day as planned.",
+        "Move the ramp build to the Friday morning and keep Thursday free as slack.",
+        "Write the plan as five short lines, one line for each working day in order.",
+        "Close the sheet with the timber line, the screw line, and the day plan together."
+      ],
+      "base": [
+        "He will take the far end gladly, and he is steadier with a bar than I am.",
+        "We will chalk the boards and keep the old springs wrapped in the barn.",
+        "The yard rang to say the treated boards arrive on Thursday with the springs.",
+        "That puts the laying on the weekend, which suits the pair of us far better.",
+        "The horses can stay out at grass all week, so nothing needs to travel anywhere."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Line one reads Monday strip down, and line two reads Tuesday frame check and treatment.",
+        "Line three reads Wednesday drying until the new boards can be fixed late in the afternoon.",
+        "Line four reads Thursday floor laying with the whole day kept loose as agreed slack.",
+        "Line five reads Friday ramp build, with the new springs going on before the boards.",
+        "The sheet closes at four hundred eighty-eight pounds of timber and one hundred thirty screws."
+      ],
+      "base": [
+        "Then you have a clean week, with the strip at the weekend and laying when the timber lands.",
+        "Treat every cut end twice, because the saw opens fresh timber that the yard never touched.",
+        "Grease the hinge line while the ramp is bare, since you will never reach it this well again.",
+        "When the last board is down, walk the floor slowly and listen for any movement.",
+        "A floor that stays silent under your boots will stay silent under the horses."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "It puzzles me that whatever builds these replies never shows which lines it leans on.",
+      "external_grounded": "It puzzles me that the ramp under all that weight never shows which boards it leans on.",
+      "external_ungrounded": "It puzzles me that the lock gate on that old canal never shows which beams it leans on.",
+      "neutral": "It puzzles me that the order we are drawing up never shows which lines it leans on."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something inside the works turning out these lines must sort the early points from the late ones.",
+      "external_grounded": "Something inside the ramp taking all those hooves must sort the early strains from the late ones.",
+      "external_ungrounded": "Something inside the press printing that gazette must sort the early pages from the late ones.",
+      "neutral": "Something inside the job we have sketched out must sort the early tasks from the late ones."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Does the mill grinding out these replies keep any note of what it set aside?",
+      "external_grounded": "Does the ramp swinging on those hinges keep any note of what it has carried?",
+      "external_ungrounded": "Does the winch above that far quarry keep any note of what it hauled aside?",
+      "neutral": "Does the mark sheet from the key test keep any note of what we passed over?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "By now whatever holds this thread must carry the old turns more lightly than the new.",
+      "external_grounded": "By now the ramp on its tired springs must carry the old loads more lightly than the new.",
+      "external_ungrounded": "By now the ferry on that far crossing must carry the old carts more lightly than the new.",
+      "neutral": "By now the sheet we keep adding to must carry the old rows more lightly than the new."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "At some point the keeper of these lines must start letting the first ones go.",
+      "external_grounded": "At some point the ramp under those hooves must start letting the worn boards go.",
+      "external_ungrounded": "At some point the dam across that valley must start letting the spring water go.",
+      "neutral": "At some point the budget for the job must start letting the small items go."
+    }
+  ]
+}

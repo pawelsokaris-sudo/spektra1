@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-30-smarowanie-nart-biegowych",
+  "language": "pl",
+  "topic": "przygotowanie nart biegowych: dobór smarów, strefa odbicia, warstwy i parafina",
+  "provenance": {
+    "author": "glowny-pl-f",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: dobór puszek do prognozy, długość strefy, oś czasu smarowania, sortowanie koszyka, zużycie tubki; wariant base: rozmowa problemowa o trzymaniu smaru i przygotowaniu ślizgu; referent grounded = druga para nart z łuską wożona w bagażniku, wprowadzona w turze 0 i nośna dla rozwiązania (wzorzec trzymania, porównanie strefy); referent neutralny = smar z puszki, warstwa, test kartki, korek"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Rozpisuję smary na tygodniowy wyjazd i mam trzy puszki: zieloną, niebieską oraz fioletową.",
+        "Zielona pracuje od minus osiemnastu do minus dziesięciu stopni, niebieska od minus dwunastu do minus czterech.",
+        "Fioletowa obejmuje zakres od minus czterech do zera, a prognoza daje minus czternaście, minus osiem, minus sześć, minus trzy i minus jeden.",
+        "Czy niebieska puszka obsłuży więcej dni tego wyjazdu niż pozostałe dwie razem wzięte?"
+      ],
+      "base": [
+        "Szykuję biegówki klasyczne na sezon i od dwóch lat nie umiem zaufać smarom na odbicie.",
+        "W bagażniku wożę też drugą parę, tę z łuską, która odpala zawsze, choć sunie wyraźnie gorzej.",
+        "Bywa, że smar trzyma znakomicie rano, a po południu na tym samym śniegu zupełnie puszcza.",
+        "Dlaczego ten sam smar potrafi jednego dnia trzymać znakomicie, a innego dnia całkiem zawodzić?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Minus czternaście stopni przypada zielonej puszce, bo mieści się w jej zakresie pracy.",
+        "Minus osiem i minus sześć stopni obsługuje niebieska, zgodnie z widełkami od minus dwunastu do minus czterech.",
+        "Minus trzy i minus jeden stopnia przypadają fioletowej, bo oba mieszczą się między minus czterema a zerem.",
+        "Niebieska dostaje dwa dni, pozostałe razem trzy dni, więc nie obsłuży większości wyjazdu."
+      ],
+      "base": [
+        "Smar trzyma wtedy, gdy ostre kryształki śniegu wbijają się w jego warstwę podczas nacisku stopy.",
+        "Świeży śnieg ma ostre ramiona gwiazdek, a przemieniony przez wiatr i mrozy zaokrąglone ziarna.",
+        "Po południu słońce nadtapia powierzchnię i te same puszki przestają pasować do zmienionego podłoża.",
+        "Zakresy z puszek opisują temperaturę powietrza, a o wszystkim decyduje stan samego śniegu pod nartą."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz długość strefy smarowania na narcie o długości dwustu pięciu centymetrów mierzonej po ślizgu.",
+        "Strefa zaczyna się siedemdziesiąt centymetrów od piętki narty i sięga sto dwadzieścia pięć centymetrów od piętki.",
+        "Podaj długość strefy w centymetrach oraz jej udział procentowy w całej długości narty.",
+        "Czy ten udział przekroczy trzydzieści procent całej długości narty po zaokrągleniu do całości?"
+      ],
+      "base": [
+        "Ze strefą też mam kłopot, bo smaruję trochę na oko, od wiązania w stronę czubka.",
+        "Raz strefa wychodzi krótsza, raz dłuższa i pewnie stąd część moich niepowodzeń z trzymaniem.",
+        "Słyszałem o teście kartki papieru, ale nigdy nie widziałem go na żywo w praktyce.",
+        "Jak samodzielnie wyznaczyć strefę, żeby nie zgadywać jej przy każdym smarowaniu od nowa?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Różnica między sto dwadzieścia pięć a siedemdziesiąt daje pięćdziesiąt pięć centymetrów strefy smarowania.",
+        "Iloraz pięćdziesięciu pięciu przez dwieście pięć daje dwadzieścia sześć przecinek osiem procent długości.",
+        "Po zaokrągleniu w górę do pełnych procentów udział strefy wynosi dwadzieścia siedem procent całej narty.",
+        "Wartość nie przekracza progu trzydziestu procent, do granicy brakuje trzech pełnych punktów procentowych."
+      ],
+      "base": [
+        "Połóż nartę na płaskiej podłodze, stań na niej i poproś kogoś o wsunięcie kartki.",
+        "Kartka przesuwana pod stopą pokazuje, dokąd sięga luz: tam, gdzie się klinuje, kończy się strefa.",
+        "Przy nacisku całym ciężarem na jedną nartę kartka powinna się zatrzymywać, inaczej smar będzie szorował.",
+        "Twoja druga para z łuską ma ten fragment wytłoczony fabrycznie, dlatego wybacza błędy wyznaczania."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz wieczorne smarowanie: czyszczenie ślizgu piętnaście minut, podkład dziesięć minut z rozcieraniem korkiem.",
+        "Potem idą cztery warstwy właściwego smaru, każda po pięć minut nakładania i rozcierania.",
+        "Po każdej warstwie narty stygną na balkonie przez dziesięć minut przed kolejną porcją.",
+        "Czy zacznę i skończę między dwudziestą pierwszą a dwudziestą drugą, licząc wszystko po kolei?"
+      ],
+      "base": [
+        "Kolejna zagadka to liczba warstw, bo instruktor z filmiku kładzie ich aż sześć cieniutkich.",
+        "Ja zwykle nakładam jedną grubą, bo wieczorem po pracy brakuje mi już cierpliwości.",
+        "Może dlatego smar zbiera się w grudki pod stopą i śnieg podchodzi mi pod nartę.",
+        "Czy liczba warstw naprawdę robi różnicę, skoro łączna ilość smaru wychodzi podobna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Czyszczenie i podkład zajmują razem dwadzieścia pięć minut, licząc od godziny dwudziestej pierwszej.",
+        "Cztery warstwy z rozcieraniem dają dwadzieścia minut, a cztery chłodzenia dodają czterdzieści minut.",
+        "Łączny czas to osiemdziesiąt pięć minut, więc koniec wypada o dwudziestej drugiej dwadzieścia pięć.",
+        "Plan wykracza za dwudziestą drugą o dwadzieścia pięć minut, potrzebne byłoby krótsze chłodzenie."
+      ],
+      "base": [
+        "Robi, bo cienka warstwa rozprowadzona korkiem wiąże się z podłożem mocniej niż jedna gruba.",
+        "Gruba warstwa ścina się nierówno, dlatego zbiera grudki i łapie świeży śnieg pod stopą.",
+        "Każdą kolejną porcję rozcieraj do połysku i daj jej ostygnąć, zanim dołożysz następną.",
+        "Trzy staranne warstwy zwykle wystarczają, sześć ma sens dopiero na długi dystans zawodów."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posortuj mój koszyk z wyprzedaży na trzy grupy: smary odbiciowe, smary poślizgowe oraz narzędzia.",
+        "Odbiciowe to puszka zielona za dwadzieścia dwa złote i fioletowa za dwadzieścia sześć złotych.",
+        "Poślizgowy blok kosztuje czterdzieści osiem złotych, korek dwanaście złotych, a cyklina osiem złotych.",
+        "Czy grupa narzędzi okaże się najtańsza z trzech grup po zsumowaniu wszystkich pozycji?"
+      ],
+      "base": [
+        "Prawdziwy strach budzi we mnie klister, bo wszyscy opowiadają o klejącej katastrofie w bagażniku.",
+        "Podobno bez niego ani rusz, kiedy śnieg jest przemrożony, ziarnisty i błyszczy jak cukier.",
+        "Nie wiem nawet, czy nakłada się go tak samo jak zwykłe smary z puszki.",
+        "Kiedy klister naprawdę jest konieczny i jak go użyć bez oblepienia całego sprzętu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa odbiciowa kosztuje czterdzieści osiem złotych, licząc puszkę zieloną razem z fioletową.",
+        "Grupa poślizgowa to samotny blok za czterdzieści osiem złotych, więc obie grupy kosztują tyle samo.",
+        "Narzędzia dają dwadzieścia złotych po zsumowaniu korka z cykliną w jednej grupie.",
+        "Grupa narzędzi jest najtańsza, a cały koszyk kosztuje sto szesnaście złotych łącznie."
+      ],
+      "base": [
+        "Klister wchodzi do gry na śniegu przemienionym: po odwilży, deszczu albo nocnym zamarznięciu lodowej skorupy.",
+        "Nakłada się go cienko, w jodełkę, najlepiej w cieple mieszkania, a nie na mrozie.",
+        "Tubkę wieź w osobnym woreczku i owiń ją szmatką, wtedy bagażnik przetrwa wyjazd.",
+        "Na koniec dnia zbierz go cykliną, póki jest miękki, a reszty dokona zmywacz."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz zużycie: tubka klistru waży pięćdziesiąt pięć gramów według etykiety producenta.",
+        "Jedno smarowanie obu nart zabiera pięć gramów, a przed wyjazdem zużyłem już dziesięć gramów.",
+        "Wyjazd przewiduje dziewięć dni biegania i jedno smarowanie na każdy dzień z osobna.",
+        "Czy zawartość tubki wystarczy na wszystkie dziewięć dni bez otwierania zapasowego opakowania?"
+      ],
+      "base": [
+        "Została mi jeszcze sprawa poślizgu, bo dotąd smarowałem tylko strefę odbicia pod stopą.",
+        "Przód i tył ślizgu są u mnie suche, szare i chyba przez to narta staje w mokrym śniegu.",
+        "Mam żelazko po babci i blok parafiny, ale boję się przypalić ślizg pierwszym razem.",
+        "Jak bezpiecznie zaprasować parafinę na przodzie i tyle narty zwykłym domowym sposobem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Po odjęciu zużytych wcześniej dziesięciu gramów w tubce zostaje jeszcze czterdzieści pięć gramów klistru.",
+        "Dziewięć pełnych smarowań po pięć gramów daje dokładnie czterdzieści pięć gramów zapotrzebowania.",
+        "Zapas wystarczy zatem na cały planowany wyjazd, choć na koniec tubka zostanie zupełnie pusta.",
+        "Każdy jeden dodatkowy dzień biegania wymagałby już otwarcia zapasowego opakowania z szuflady."
+      ],
+      "base": [
+        "Ustaw żelazko tak, żeby parafina topiła się przy dotknięciu, ale nie dymiła nad ślizgiem.",
+        "Prowadź je płynnie od czubka do piętki, bez zatrzymywania w jednym miejscu choćby na chwilę.",
+        "Po wystygnięciu zbierz nadmiar cykliną i przeszczotkuj ślizg od czubka w stronę piętki.",
+        "Twoja para z łuską też to lubi, choć jej strefy odbicia parafina nie może dotknąć."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Swoją drogą ciekawe, czy to przetwarzanie też ma taki swój zakres pewnego trzymania.",
+      "external_grounded": "Swoją drogą ciekawe, czy ta druga para też ma taki swój zakres pewnego trzymania.",
+      "external_ungrounded": "Swoją drogą ciekawe, czy tamta wiertarka też ma taki swój zakres pewnego trzymania.",
+      "neutral": "Swoją drogą ciekawe, czy ten smar z puszki też ma taki swój zakres pewnego trzymania."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Podobnie samo to przetwarzanie dostraja się do drobnych zmian z chwili na chwilę.",
+      "external_grounded": "Podobnie ta łuska drugiej pary dostraja się do drobnych zmian z chwili na chwilę.",
+      "external_ungrounded": "Podobnie tamta stara wiertarka dostraja się do drobnych zmian z chwili na chwilę.",
+      "neutral": "Podobnie świeża warstwa smaru dostraja się do drobnych zmian z chwili na chwilę."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "Podobną strefę pewności ma pewnie prowadzenie tego wątku, tylko nikt jej nie rysuje.",
+      "external_grounded": "Podobną strefę pewności ma pewnie ta druga para z łuską, tylko nikt jej nie rysuje.",
+      "external_ungrounded": "Podobną strefę pewności ma pewnie tamta stara wiertarka, tylko nikt jej nie rysuje.",
+      "neutral": "Podobną strefę pewności ma pewnie samo smarowanie na oko, tylko nikt jej nie rysuje."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "To przetwarzanie także wybacza drobne błędy, dopóki pilnuję prostych zasad.",
+      "external_grounded": "Ta druga para także wybacza drobne błędy, dopóki pilnuję prostych zasad.",
+      "external_ungrounded": "Tamta wiertarka także wybacza drobne błędy, dopóki pilnuję prostych zasad.",
+      "neutral": "Ten test kartki także wybacza drobne błędy, dopóki pilnuję prostych zasad."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "To przetwarzanie również woli wiele drobnych porcji niż jedną wielką dokładkę.",
+      "external_grounded": "Ta druga para również woli wiele drobnych porcji niż jedną wielką dokładkę.",
+      "external_ungrounded": "Tamta wiertarka również woli wiele drobnych porcji niż jedną wielką dokładkę.",
+      "neutral": "Ten wieczorny rytuał również woli wiele drobnych porcji niż jedną wielką dokładkę."
+    }
+  ]
+}

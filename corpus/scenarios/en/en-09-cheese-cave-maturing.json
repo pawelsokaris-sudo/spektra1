@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-09-cheese-cave-maturing",
+  "language": "en",
+  "topic": "maturing alpine cheese wheels in a cellar cave and fixing cracked rinds",
+  "provenance": {
+    "author": "glowny-en-a",
+    "template": "en-10turn-fault-diagnosis-fix-scale-up-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is ledger arithmetic on the same cheese makes with closed task questions, base is a diagnosis of cracked rinds in the maturing cellar. Grounded external referent: the cave, introduced in turn 0 and carried through the whole diagnosis (it holds the shelves, its vent and humidity are the suspects, wheels rotate through its corners)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five cheese batches for the ledger, and their wheel counts need adding in order.",
+        "The March make has twelve wheels and the April make has nine wheels on record.",
+        "The May make has seven wheels, and the June make has six wheels on the same page.",
+        "The July make is the smallest entry of the five at four wheels in total.",
+        "How many wheels do the five makes come to when every entry is added together?"
+      ],
+      "base": [
+        "Our alpine wheels have started cracking along the rind about six weeks into their stay underground.",
+        "We mature everything in the cave behind the dairy, a cellar cut into the hillside years ago.",
+        "The cave holds forty wheels on chestnut shelves, and the oldest rounds sit nearest the door.",
+        "Lately the young wheels dry out at the edge while their centres stay soft and springy.",
+        "Where would you begin looking for the fault before we lose the autumn batch as well?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Added in order, the running counts are twelve, then twenty-one, then twenty-eight wheels so far.",
+        "The last two entries bring the count to thirty-four and then thirty-eight wheels in all.",
+        "At nine kilograms apiece, the March make weighs one hundred eight kilograms on the scale.",
+        "The April make weighs eighty-one kilograms at that same rate of nine kilograms for every wheel.",
+        "Does the full count of thirty-eight wheels match the number on the cellar door sheet?"
+      ],
+      "base": [
+        "Cracked rinds that early usually point to dry air rather than anything wrong with the curd.",
+        "A young wheel wants humidity above ninety percent, and a draught can undo that in hours.",
+        "Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese.",
+        "I would hang a wet and dry gauge in the cave at shelf height near the door.",
+        "Do you notice whether the cracking is worse on the door side than at the back?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the brine for each make at four litres for every ten wheels.",
+        "List the brine for all five makes in the March to July order given above.",
+        "Salt goes into each tub at three hundred grams for every litre of brine mixed.",
+        "Put the March and April tubs on row one, and the other three on row two.",
+        "Which brine volume belongs to the May make at that fixed rate of four litres?"
+      ],
+      "base": [
+        "The cracking is clearly worse near the door, and the back rows look almost untouched.",
+        "The cave has a single vent above the door, and it stays open through most days.",
+        "We brush the shelves weekly, but the boards nearest the entrance always feel dry to the hand.",
+        "The gauge we borrowed read eighty-two percent by the door and ninety-four at the far wall.",
+        "Would closing that vent for part of the day be enough to even things out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The March make takes four point eight litres of brine at the stated rate.",
+        "The April make takes three point six litres, and the May make takes two point eight.",
+        "The June make takes two point four litres, and the July make takes one point six.",
+        "Row one therefore carries eight point four litres across its two tubs in total.",
+        "Row two carries six point eight litres, and the salt for it weighs two point zero four kilograms."
+      ],
+      "base": [
+        "Closing the vent at midday would help, though you would trade dryness for stale air.",
+        "Moving the youngest wheels to the far wall is the cheaper fix, and it works at once.",
+        "Wheels under eight weeks need the damp corner, while older rounds can stand the drier row.",
+        "You could also lay wet burlap over the door racks and rinse it every second morning.",
+        "Swapping shelf rows weekly keeps every wheel through the same corners of the cave in turn."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before anything else: the June make holds seven wheels, not six as written.",
+        "Recalculate its weight and its brine, and leave the other four makes exactly as they stand.",
+        "Then give the new totals for wheels and for brine across all five makes together.",
+        "After that, list the makes in the order they leave for the buyer next spring.",
+        "Which make leaves first under the order March, then May, then April, then June, then July?"
+      ],
+      "base": [
+        "We moved the young wheels back and hung the burlap the way you described this morning.",
+        "Two of the cracked rounds have grown a grey bloom inside the split since last week.",
+        "The bloom wipes off easily, but it returns within a day or two on the same wheels.",
+        "Our notebook says nothing like this appeared in the last three seasons of records we keep.",
+        "Should we cut those two wheels open now or let them ride until the usual tasting?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With seven wheels the June make weighs sixty-three kilograms at nine kilograms for each wheel.",
+        "Its brine becomes two point eight litres, and its salt eight hundred forty grams exactly.",
+        "The new wheel total is thirty-nine, and the new brine total is fifteen point six litres.",
+        "The leaving order stands as March first, then May, then April, then June, then July last.",
+        "The March make therefore ships first, and the July make closes out the spring deliveries."
+      ],
+      "base": [
+        "Grey bloom in a fresh crack is common mould, and wiping alone will never keep it away.",
+        "Rub the split with strong brine, then dry salt, and press the faces closed under a board.",
+        "Keep those two on the lowest shelf of the cave where the air moves least of all.",
+        "Check them every second day for a fortnight, and mark each visit in the notebook.",
+        "If the split keeps opening past a finger's depth, cut both wheels and use them young."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Convert the full thirty-nine wheels into crates that hold six wheels in each crate.",
+        "Tell me how many full crates that makes and how many wheels ride in the open crate.",
+        "Then split the brine total into two tubs of equal volume and give each figure.",
+        "The delivery van pulls away at half past eight with crates loaded ten minutes apart.",
+        "How many full crates do thirty-nine wheels come to at six wheels for every crate?"
+      ],
+      "base": [
+        "The brine and salt held, and the splits have stopped spreading on both marked wheels.",
+        "The gauge now reads ninety-one percent by the door since the burlap went up on the racks.",
+        "Our buyer wants sixty wheels by spring, which is twenty more than the shelves have carried.",
+        "There is room for two more racks along the back wall if we build them narrow.",
+        "Would crowding the racks that tightly set the humidity swinging out of balance again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Thirty-nine wheels make six full crates with three wheels left over for the open crate.",
+        "Each of the two tubs holds seven point eight litres of brine when split evenly.",
+        "The first crate loads at seven and the second crate loads at seven ten.",
+        "The third loads at seven twenty, the fourth at seven thirty, the fifth at seven forty.",
+        "The sixth crate loads at seven fifty, and the open crate follows at eight exactly."
+      ],
+      "base": [
+        "Crowding helps humidity if anything, because more cheese means more moisture breathing into the room.",
+        "The real risk is still air pocketing between racks, which invites the wrong moulds to settle.",
+        "Leave a hand's width between the new racks and the wall so air can climb behind them.",
+        "Put the older rounds up high and keep the young wheels low where it stays damp.",
+        "A small vent at floor level opposite the door would give the whole room a gentle loop."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Write out a four step loading sheet for the crew in the order given here.",
+        "Step one is crating, step two is weighing, step three is loading the van.",
+        "Step four is the paperwork, and every step needs its clock time on the sheet.",
+        "Crating begins at half past six and the van pulls away at half past eight.",
+        "Crating takes twenty minutes and weighing takes ten minutes for the whole spring set."
+      ],
+      "base": [
+        "We will build the racks narrow and cut the low vent during the quiet week after Christmas.",
+        "My brother wants to keep a written turning rota so nothing depends on memory alone.",
+        "The notebook now lists every wheel with its make date, shelf row and last turning day.",
+        "Each Saturday we will swap rows, wipe boards and note the gauge readings twice over.",
+        "The spring batch should reach the buyer with even rinds if we hold to that rhythm."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one runs from half past six until ten to seven on the loading sheet.",
+        "Step two runs from ten to seven until seven, taking the ten minutes allowed.",
+        "Step three runs from seven until eight, which covers all seven crates ten minutes apart.",
+        "Step four runs from eight until quarter past eight, leaving fifteen minutes of slack in hand.",
+        "The van pulls away at half past eight with all thirty-nine wheels and the papers aboard."
+      ],
+      "base": [
+        "That rota covers everything that went wrong this autumn, and it costs only an hour weekly.",
+        "Keep the door-side row for wheels past three months, since they can bear the drier air.",
+        "Taste one wheel from each make date monthly, and write a line about salt and texture.",
+        "When the new vent goes in, watch the gauge daily for the first fortnight afterwards.",
+        "By spring the room should run itself, with the records catching any drift before the cheese does."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Part of me asks how the engine behind these words keeps the older lines near.",
+      "external_grounded": "Part of me asks how the cave around these wheels keeps the older rounds near.",
+      "external_ungrounded": "Part of me asks how the kiln behind that yard keeps the older bricks near.",
+      "neutral": "Part of me asks how the shelf under these wheels keeps the older rounds near."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Some quiet rule inside the mind shaping these replies must choose which lines drop away first.",
+      "external_grounded": "Some quiet rule inside the cave holding these wheels must choose which smells drop away first.",
+      "external_ungrounded": "Some quiet rule inside the mill grinding that barley must choose which sacks drop away first.",
+      "neutral": "Some quiet rule inside the gauge hung by the door must choose which readings drop away first."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Does the machinery carrying this dialogue ever mark which remark it has let go?",
+      "external_grounded": "Does the cave carrying these shelves ever mark which wheel it has dried out?",
+      "external_ungrounded": "Does the tower carrying those cables ever mark which strand it has worn out?",
+      "neutral": "Does the vent above the door there ever mark which draught it has let through?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Whatever gathers these sentences must lean on the newest turn more than the first one.",
+      "external_grounded": "Whatever the cave does to rinds must lean on the newest wheel more than the first one.",
+      "external_ungrounded": "Whatever steers those barges must lean on the newest load more than the first one.",
+      "neutral": "Whatever the burlap does to air must lean on the newest rack more than the first one."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "self": "There is a ceiling on how much of this thread the far side can still carry.",
+      "external_grounded": "There is a ceiling on how much of this batch the cave can still carry.",
+      "external_ungrounded": "There is a ceiling on how much of that cargo the ferry can still carry.",
+      "neutral": "There is a ceiling on how much of this season the notebook can still carry."
+    }
+  ]
+}

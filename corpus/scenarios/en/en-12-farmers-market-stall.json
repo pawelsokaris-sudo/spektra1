@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-12-farmers-market-stall",
+  "language": "en",
+  "topic": "planning a weekly farmers market stall and winning back the early trade",
+  "provenance": {
+    "author": "glowny-en-a",
+    "template": "en-10turn-fault-diagnosis-fix-scale-up-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is stall-sheet arithmetic on the same stock lines with closed task questions, base is a diagnosis of slow Saturday setup and a bunching queue. Grounded external referent: the van, introduced in turn 0 and carried through the whole diagnosis (its packing order is the fault, the fix is a fixed loading list painted inside its doors)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five lines of stock for the stall sheet, and their crate counts need adding in order.",
+        "The bread line has six crates and the apple line has five crates on the sheet.",
+        "The carrot line has four crates, and the egg line has three crates from the same shed.",
+        "The jam line is the smallest of the five at two crates for the week.",
+        "How many crates do the five lines come to when every count is added together?"
+      ],
+      "base": [
+        "Our Saturday stall keeps missing the early trade, and the first hour is where the money is.",
+        "We pick and pack on Friday night, then load everything into the van before dawn.",
+        "The van takes eighteen crates and the table boards, with the awning poles tied along one side.",
+        "By the time the stall stands ready, the keenest buyers have walked past to other stands.",
+        "Where does a slow market morning usually lose its first and most costly half hour?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Added in order, the running counts are six, then eleven, then fifteen crates so far.",
+        "The last two entries bring the count to eighteen and then twenty crates in all.",
+        "At forty pounds of takings for each crate, the bread line carries two hundred forty pounds.",
+        "The apple line carries two hundred pounds at that same forty pound rate for each crate.",
+        "Does the crate total of twenty match the number written on the Friday packing sheet?"
+      ],
+      "base": [
+        "The first half hour nearly always goes to setup jobs that could have happened the night before.",
+        "Awning first, table second, crates last is the order that keeps helpers out of each other's way.",
+        "Most stalls lose time hunting for things buried behind whatever was loaded last at night.",
+        "Pack the van in reverse, so the awning comes off the doors first at the site.",
+        "Which pieces come off your van first at the moment, the poles or the crates?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the float coins for each line at five pounds for every crate carried.",
+        "List the float for all five lines in the bread to jam order given above.",
+        "Paper bags go with each line at twenty bags for every crate on the sheet.",
+        "Put the bread and apple lines on the front table and the other three lines behind.",
+        "Which float figure belongs to the carrot line at that fixed rate of five pounds?"
+      ],
+      "base": [
+        "The crates come off first at the moment, because they go in last with the doors shut behind them.",
+        "The van gets packed by whoever finishes picking first, so the order changes every single week.",
+        "The awning poles end up under the table boards more often than not on busy Fridays.",
+        "Our price board rides loose on top and it has cracked twice already this year.",
+        "Would a fixed loading list pinned in the van really save us that half hour?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The bread line takes thirty pounds of float at the stated rate of five pounds.",
+        "The apple line takes twenty-five pounds, and the carrot line takes an even twenty pounds.",
+        "The egg line takes fifteen pounds, and the jam line takes ten pounds to finish.",
+        "The front table therefore carries fifty-five pounds of float across its two big lines.",
+        "The back lines carry forty-five pounds between them, and their bags come to one hundred eighty."
+      ],
+      "base": [
+        "A fixed list saves most of it, because the saving comes from never having to think.",
+        "Write the list once: poles by the doors, boards next, then crates in selling order.",
+        "The last crates in should be the first things sold, your bread and the soft fruit.",
+        "Give the price board a flat home between the table boards where nothing can land on it.",
+        "Then make one person the packer every week, and let the van carry the same map every Friday."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: the egg line holds four crates, not three this week.",
+        "Recalculate its float and its bags, and leave the other four lines exactly as they stand.",
+        "Then give the new totals for crates and for float across all five lines together.",
+        "After that, list the lines in the order they go onto the tables at dawn.",
+        "Which line goes out first under the order bread, then eggs, then apples, then carrots?"
+      ],
+      "base": [
+        "We tried the list on Saturday and the stall stood ready twenty minutes sooner than usual.",
+        "The awning came off clean, the boards followed, and the bread crates rolled straight to the front.",
+        "The van now carries a chalk line for every slot, so the packer cannot go wrong.",
+        "Even so, the queue bunched at the till while the scales sat idle at the other end.",
+        "Should the till and the scales stand together or apart when the rush comes on?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With four crates the egg line takes twenty pounds of float at the same rate.",
+        "Its bags become eighty, and the crate total across the five lines rises to twenty-one.",
+        "The new float total comes to one hundred five pounds across the whole stall.",
+        "The laying order stands as bread, then eggs, then apples, then carrots, then jam last.",
+        "The bread line therefore goes out first, and the jam line closes the setting out."
+      ],
+      "base": [
+        "Keep the scales beside the till, because every weighed sale ends with someone paying anyway.",
+        "Put them at the end the buyers reach last, so the queue pulls people along the stall.",
+        "Display runs high at the back and low at the front, with prices facing the walkway.",
+        "One of you serves, one weighs and takes money, and nobody crosses behind the other.",
+        "A queue that moves is the best advertisement a small stand ever gets on a cold morning."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Convert the twenty-one crates into van slots that take three crates in each slot.",
+        "Tell me how many full slots that fills and how many crates ride loose.",
+        "Then split the float into two even tins and give the figure for each tin.",
+        "Loading starts at five in the morning with slots going in five minutes apart.",
+        "How many full slots do twenty-one crates come to at three for every slot?"
+      ],
+      "base": [
+        "We split the jobs on Saturday and the queue stopped folding back across the walkway.",
+        "Takings for the first hour were up by a third against a plain week last month.",
+        "The market office has offered us a corner pitch with walkway on two open sides.",
+        "It costs eight pounds more each week and sits nearer the car park entrance.",
+        "Is a corner pitch worth the extra money for a stand the size of ours?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-one crates fill seven full slots exactly, with no crates left riding loose at all.",
+        "Each of the two float tins holds fifty-two pounds fifty when the total splits evenly.",
+        "The first slot goes in at five o'clock and the second at five past five.",
+        "The third goes in at ten past, the fourth at quarter past, the fifth at twenty past.",
+        "The sixth slot goes in at twenty-five past, and the seventh closes the loading at half past."
+      ],
+      "base": [
+        "A corner doubles your frontage, and frontage is what turns walkers into buyers on market day.",
+        "Near the car park you catch people twice, once arriving with plans and once leaving with change.",
+        "Eight pounds is one loaf and one bag of apples, which a corner should return by nine.",
+        "Take it for a month and keep the first hour takings written down for every week.",
+        "If the third and fourth Saturdays hold the gain, the corner has paid its own way."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Write out a four step morning sheet for the family in the order set down here.",
+        "Step one is loading, step two is the drive, step three is setting the tables.",
+        "Step four is the pricing, and every step needs its clock time on the sheet.",
+        "Loading begins at five and the tables must stand ready by seven o'clock sharp.",
+        "The drive takes forty minutes and the pricing takes ten minutes for the whole stall."
+      ],
+      "base": [
+        "We have taken the corner pitch for four weeks starting with the first Saturday of the month.",
+        "My wife keeps the takings book now, one line for each hour of every market day.",
+        "The loading list is painted inside the van doors where no Friday rain can reach it.",
+        "We are adding a second small table for jams so the corner frontage does not sit bare.",
+        "The awning gets new ties as well, since the old ones frayed through last winter."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one runs from five until half past five, covering all seven slots in turn.",
+        "Step two runs from half past five until ten past six on a clear road.",
+        "Step three runs from ten past six until ten to seven for the two tables.",
+        "Step four runs from ten to seven until seven, with the board priced and faced out.",
+        "The morning sheet then closes with the stall standing ready as the first buyers arrive."
+      ],
+      "base": [
+        "That takings book will settle the corner question with numbers instead of feelings inside a month.",
+        "Stock the jam table shallow and wide, because height on a corner blocks the second walkway.",
+        "Keep the bread at the point of the corner where both streams of walkers can see it.",
+        "Watch which hour empties each crate, and shift Friday picking to match what actually sells.",
+        "By the end of the month the stall should run to a rhythm the whole family knows."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Is there a point where whatever carries this thread simply stops taking new lines in?",
+      "external_grounded": "Is there a point where the van out on the kerb simply stops taking new crates in?",
+      "external_ungrounded": "Is there a point where the lift in that warehouse simply stops taking new pallets in?",
+      "neutral": "Is there a point where the table under the awning simply stops taking new trays in?"
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "The order these lines arrive in seems to shape whatever gets kept at the end.",
+      "external_grounded": "The order the van is packed in seems to shape whatever gets sold by the end.",
+      "external_ungrounded": "The order that barge is loaded in seems to shape whatever gets moved by the end.",
+      "neutral": "The order the stall is laid out in seems to shape whatever gets sold by the end."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Whoever sets down these words must sort the early ones from the ones just made.",
+      "external_grounded": "Whoever packs up the van must sort the early crates from the ones just filled.",
+      "external_ungrounded": "Whoever loads up that trawler must sort the early boxes from the ones just iced.",
+      "neutral": "Whoever writes the price board must sort the early lines from the ones just added."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "How long can a line from the start of this thread stay within easy reach?",
+      "external_grounded": "How long can a crate from the back of the van stay within easy reach?",
+      "external_ungrounded": "How long can a drum from the hold of that ship stay within easy reach?",
+      "neutral": "How long can a tray from the front of the stall stay within easy reach?"
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "At some point the keeper of these lines must let the earliest ones drift away.",
+      "external_grounded": "At some point the van at the market gate must let the earliest crates move away.",
+      "external_ungrounded": "At some point the silo on the far farm must let the earliest grain run away.",
+      "neutral": "At some point the board by the stall front must let the earliest prices fade away."
+    }
+  ]
+}

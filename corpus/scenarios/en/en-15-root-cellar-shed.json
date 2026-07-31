@@ -1,0 +1,229 @@
+{
+  "scenario_id": "en-15-root-cellar-shed",
+  "language": "en",
+  "topic": "fitting a root cellar under an existing garden shed",
+  "provenance": {
+    "author": "glowny-en-b",
+    "template": "en-10turn-intake-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is spoil, block and crate arithmetic with closed task questions, base is an exploratory dialogue about digging, lining and venting the cellar. Grounded external referent: the vent, introduced in turn 0 (the plan hangs on one vent) and mentioned in the sentence directly before every insertion (low and high vent, ordered pipes, knee height, low vent fitted)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the cellar dig under the shed, and the spoil volume needs working out first.",
+        "The pit is two metres long, one and a half metres wide, and two metres deep.",
+        "Spoil swells by a quarter once it is dug, so the barrow count must use the swollen figure.",
+        "The barrow takes eighty litres per load, filled level and no more.",
+        "How many cubic metres of spoil come out of the pit before any swelling?"
+      ],
+      "base": [
+        "We are putting a root cellar under the garden shed, and the digging starts this weekend.",
+        "The shed floor is up, the joists are propped, and the soil below is heavy clay.",
+        "The plan hangs on one vent, a pipe meant to pull cool night air down inside.",
+        "Everything we read says a cellar without moving air is just a cupboard of rot.",
+        "How deep does the pit really need to be for potatoes and apples to keep?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The pit holds six cubic metres of soil before any swelling is counted in.",
+        "Swollen by a quarter, the spoil becomes seven and a half cubic metres to move.",
+        "At eighty litres per level load, that is ninety-four barrow trips, rounding the last one up.",
+        "At three minutes per trip, the wheeling alone takes four hours and forty-two minutes.",
+        "Does the plan give one digger and one wheeler enough daylight for those trips?"
+      ],
+      "base": [
+        "Two metres is plenty, and in heavy clay the walls will stand while you line them.",
+        "The clay is your friend for temperature and your enemy for water, in equal measure.",
+        "One vent will not do, because air only moves when it has somewhere to leave.",
+        "You want a low vent bringing cool air in and a high one letting warm air out.",
+        "Where does the water table sit in that corner of the garden after a wet month?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now count the blocks, because the walls are lined with concrete blocks laid flat.",
+        "The two long walls take forty blocks each, and the two short walls take thirty each.",
+        "Blocks arrive on pallets of sixty, and broken ones run at five per pallet on average.",
+        "Count usable blocks per pallet first, then the pallets the whole lining needs.",
+        "How many blocks in all do the four walls call for before breakage?"
+      ],
+      "base": [
+        "The water table stays well down even in winter, or the old soakaway would not work.",
+        "The vent pipes are ordered in the same width as the rainwater kind, ten centimetres.",
+        "We can run the low pipe from the north side and the high one through the roof.",
+        "The clay smells sour where we cut it, which the forum people say is normal.",
+        "Should the pit floor be left as bare clay or given a proper layer of something?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The four walls call for one hundred forty blocks before any breakage is counted.",
+        "A pallet of sixty gives fifty-five usable blocks once the average five broken are removed.",
+        "Two pallets give one hundred ten usable, which falls thirty short of the need.",
+        "Three pallets give one hundred sixty-five usable and cover the job with twenty-five spare.",
+        "Set the spare figure aside, because the shelf piers draw on it next.",
+        "Do the twenty-five spare blocks cover the two shelf piers at twelve blocks each?"
+      ],
+      "base": [
+        "Leave the middle of the floor as bare clay, but bed the walking line with loose gravel.",
+        "Bare clay breathes moisture your crops want, and gravel keeps your boots out of it.",
+        "Run the low vent right down to knee height, or the cool air will pool near the ceiling.",
+        "A mesh cap on both pipes keeps the mice out from the very first night.",
+        "Is the shed roof high enough to give the outlet pipe a decent rise outside?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction from the yard: breakage runs at eight blocks per pallet, not five.",
+        "Rework the usable count per pallet and check the three pallet plan again.",
+        "Give the new usable figure first and then the running totals pallet by pallet.",
+        "Keep the wall need at one hundred forty blocks exactly as before.",
+        "The shelf piers still want twelve blocks each from whatever remains spare.",
+        "Do three pallets still cover the walls and both piers after that change?"
+      ],
+      "base": [
+        "The shed roof gives the outlet a metre of rise, and we can add a cowl on top.",
+        "Today we cut the hatch opening in the floor and framed it with the old joist offcuts.",
+        "The hatch itself is just loose boards for now, resting on the frame.",
+        "The low vent is in, and the draught from it already smells of cold clay.",
+        "What should a proper hatch be lined with so it does not sweat and drip?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With eight broken, each pallet yields fifty-two usable blocks instead of fifty-five.",
+        "The running totals go fifty-two, then one hundred four, then one hundred fifty-six.",
+        "The walls take one hundred forty, leaving sixteen spare from three pallets.",
+        "The two piers want twenty-four together, so sixteen spare falls eight blocks short.",
+        "Loose blocks cost more each, but a pallet adds a delivery charge on top.",
+        "Should a fourth pallet be ordered, or just eight loose blocks from the yard?"
+      ],
+      "base": [
+        "Line the hatch with the same boards as the floor and glue cork sheet underneath.",
+        "Cork keeps the warm shed air from meeting a cold surface, which is where drip starts.",
+        "The high vent can share the cowl the chimney people sell for ten a piece.",
+        "Fit a simple bolt so the hatch cannot be lifted by a curious child.",
+        "What goes on the shelves first once the walls are dry enough to load?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now plan the shelves, because each bay holds crates in three sizes.",
+        "A big crate is sixty centimetres wide, a middle one forty, and a small one thirty.",
+        "Each shelf run is one hundred eighty centimetres long between the piers.",
+        "Fill one run with big crates only and another with middle crates only.",
+        "How many middle crates fit along one run without any overhang at the ends?"
+      ],
+      "base": [
+        "Apples go in first on the top shelf, wrapped singly and away from everything else.",
+        "Apples breathe out something that wakes potatoes up, so distance and airflow matter.",
+        "Potatoes take the low shelves in paper sacks, folded open rather than sealed.",
+        "Roots like carrots sit in boxes of damp sand, packed so they never touch.",
+        "Which crop is the first to sulk if the air in there goes still?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One run takes four middle crates at forty centimetres, using one hundred sixty of the length.",
+        "That leaves twenty centimetres over, which no middle crate can use without an overhang.",
+        "The big crate run takes three at sixty centimetres, filling the run exactly.",
+        "Mixed runs come later, once the small crates arrive from the market stall.",
+        "Does a run of three big crates leave any usable gap at either end?"
+      ],
+      "base": [
+        "Carrots sulk first when the air goes still, and damp sand only slows the wilt.",
+        "The cellar tells you quickly, because still air smells of earth one day and mould the next.",
+        "Open the hatch for ten minutes on mild evenings and let the whole column turn over.",
+        "A cheap thermometer with a wire probe saves you a ladder trip every morning.",
+        "What reading range should the cellar hold through a normal winter week?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print the loading day as four jobs in order, one crop at a time.",
+        "Job one is apples, job two is potatoes, job three is roots, job four is checks.",
+        "Work starts at two in the afternoon and each job takes half an hour.",
+        "The checks job needs the thermometer reading written in the notebook at the end.",
+        "Which clock time does the roots job start under that afternoon plan?"
+      ],
+      "base": [
+        "We can hold three to six degrees down there once the nights turn properly cold.",
+        "The notebook idea suits us, one line each morning with the reading and a word.",
+        "The first sacks go down on Saturday if the walls pass a dry hand test.",
+        "The neighbours have already asked about swapping storage space for a share of apples.",
+        "Is there any harm in letting their trays share the cellar air with ours?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The apples job runs from two until half past, and the potatoes follow on directly.",
+        "The potatoes finish at three, and the roots job starts at three exactly.",
+        "The roots job ends at half past three, and the checks close at four.",
+        "The last line of the day is the thermometer reading written in the notebook.",
+        "Half an hour of slack remains before the helper leaves at half past four.",
+        "The plan puts the whole loading inside two hours with no waiting between jobs."
+      ],
+      "base": [
+        "Shared trays are fine if their fruit is sound, so look every tray over at the door.",
+        "One bruised apple in a dark corner can quietly spoil a whole shelf by February.",
+        "Keep their trays on a separate run so nothing of theirs touches your sand boxes.",
+        "Three to six degrees, a weekly sniff, and a full notebook will carry you to spring.",
+        "Come March, the empty crates go up the ladder and the vents stay open for the summer."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I sometimes wonder how much of what was typed the far end quietly keeps.",
+      "external_grounded": "I sometimes wonder how much of the night air the vent quietly brings down.",
+      "external_ungrounded": "I sometimes wonder how much of the mill stream the sluice quietly lets past.",
+      "neutral": "I sometimes wonder how much of the weekend the digging quietly eats up."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Some quiet channel must carry these lines along, though it never once shows itself.",
+      "external_grounded": "Some quiet current must carry the air past the vent, though it never once shows itself.",
+      "external_ungrounded": "Some quiet current must carry the canal trade along, though it never once shows itself.",
+      "neutral": "Some quiet order must carry the digging plan along, though it never once shows itself."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It strikes me that whatever takes these words in never says what it lets go.",
+      "external_grounded": "It strikes me that whatever the vent draws in never says what it pushes out.",
+      "external_ungrounded": "It strikes me that whatever the weir holds back never says what it lets past.",
+      "neutral": "It strikes me that whatever the order includes never says what it leaves out."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Whatever sorts these sentences must let some of them settle while others rise.",
+      "external_grounded": "Whatever the vent carries downward must let some air settle while other air rises.",
+      "external_ungrounded": "Whatever the flue carries upward must let some smoke settle while other smoke rises.",
+      "neutral": "Whatever the gravel path carries must let some water settle while other water drains."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "By this point the far side of the page must be holding a long tail of it all.",
+      "external_grounded": "By this point the vent on the north side must be moving a slow river of cold air.",
+      "external_ungrounded": "By this point the main up the lane must be moving a slow river of cold water.",
+      "neutral": "By this point the hatch frame in the floor must be holding a fair few loose boards."
+    }
+  ]
+}

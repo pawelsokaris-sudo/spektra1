@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-28-kolo-garncarskie",
+  "language": "pl",
+  "topic": "toczenie naczyń na kole garncarskim: centrowanie, dociskanie dna, suszenie i wytaczanie stopek",
+  "provenance": {
+    "author": "glowny-pl-e",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie gliny na partię kubków, harmonogramu suszenia, załadunku pieca, szkliwa i kosztu wypału; wariant base: rozmowa problemowa o centrowaniu, pęknięciach dna, odpadających uchach i momencie wytaczania stopek; referent grounded = stare koło nożne po dziadku w stodole, wprowadzone w turze 0 i nośne dla rozwiązania (wolne tempo, gasnący rozpęd, ugniatanie dna); referent neutralny = kawał gliny, etap centrowania, ruchomy stożek, mokre dno"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć glinę na partię dwudziestu kubków toczonych z kul o masie czterystu gramów.",
+        "Do każdej kuli doliczam sto gramów na ucho oraz na ścinki przy toczeniu.",
+        "Glinę kupuję w workach po dziesięć kilogramów, a resztki z partii zbieram do wiadra.",
+        "Czy policzysz łączną masę gliny na partię oraz liczbę worków do kupienia?"
+      ],
+      "base": [
+        "Toczę kubki na elektrycznym kole garncarskim, a w stodole stoi stare koło nożne po dziadku.",
+        "Na tym starym kole dziadek toczył dzbanki wieczorami, rozpędzając ciężki krąg samą nogą.",
+        "U mnie glina ucieka ze środka i ścianki kubków wychodzą raz grube, raz cienkie.",
+        "Czy nierówne ścianki zaczynają się już przy centrowaniu bryły, zanim otworzę naczynie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kula z dodatkiem daje pięćset gramów gliny na jeden kubek z partii.",
+        "Dwadzieścia kubków po pięćset gramów daje dziesięć tysięcy gramów, czyli dziesięć kilogramów.",
+        "Dziesięć kilogramów odpowiada co do grama jednemu pełnemu workowi przy podanej wadze opakowania.",
+        "Kupujesz więc jeden worek, a ścinki z wiadra wrócą do przerobu po namoczeniu."
+      ],
+      "base": [
+        "Zaczynają się, bo każdy błąd centrowania powiela się później w grubości ścianek naczynia.",
+        "Najczęstszą przyczyną jest zbyt szybkie koło, przy którym dłonie nie nadążają prowadzić gliny.",
+        "Stare koło nożne wymusza wolne tempo, bo ciężki krąg kręci się siłą rozpędu.",
+        "Zwolnij obroty o jedną trzecią i dociskaj glinę łokciem opartym o biodro."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz rozpisz mi suszenie partii, przyjmując jedną dobę do stanu skórzanego po toczeniu.",
+        "Wytaczanie stopek zajmuje cały drugi dzień, a doklejanie uch cały trzeci dzień.",
+        "Po uchach kubki schną siedem dni pod folią i trzy dni bez folii.",
+        "Czy podasz, którego dnia od toczenia partia będzie gotowa do pierwszego wypału?"
+      ],
+      "base": [
+        "Spróbuję wolniejszych obrotów, choć przy nich glina wydaje się stawiać większy opór dłoniom.",
+        "Na starym kole nożnym kręciłem kiedyś na próbę i rozpęd gasł mi po chwili.",
+        "Może to i lepiej, bo przy gasnącym rozpędzie ruchy same robiły się ostrożniejsze.",
+        "Jakie ćwiczenie najszybciej uczy czucia samego środka bez marnowania kolejnych kilogramów gliny?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Toczenie liczymy jako dzień pierwszy, więc stan skórzany wypada na dzień drugi.",
+        "Wytaczanie stopek przypada na dzień drugi, a doklejanie uch na dzień trzeci.",
+        "Siedem dni pod folią obejmuje kolejne dni od czwartego aż do dziesiątego włącznie.",
+        "Trzy dni bez folii kończą się dnia trzynastego, więc wypał możliwy od czternastego."
+      ],
+      "base": [
+        "Najlepsze jest ćwiczenie stożka: wyciągasz glinę w górę i dociskasz z powrotem w dół.",
+        "Powtórz to pięć razy na jednej bryle, zanim w ogóle zaczniesz otwieranie naczynia.",
+        "Ta sama bryła służy przez całe popołudnie, więc glina wcale się nie marnuje.",
+        "Rytm gasnącego rozpędu ze starego koła możesz udawać, zwalniając obroty co kilka ruchów."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj partię do wypału na trzy grupy według wysokości kubków po skurczu.",
+        "Niskich kubków jest osiem, średnich siedem, a wysokich pięć sztuk z całej partii.",
+        "Na półkę pieca wchodzi dziewięć kubków, a piec ma miejsce na dwie półki.",
+        "Czy cała partia zmieści się w jednym wypale przy takim układzie półek?"
+      ],
+      "base": [
+        "Kolejny kłopot widzę dopiero po wyschnięciu, bo w dnie kubka pojawia się pęknięcie w kształcie litery.",
+        "Pęka mniej więcej co trzeci kubek, zawsze od środka dna ku brzegowi stopki.",
+        "Dziadek przy starym kole zawsze długo ugniatał dno palcami, zanim ściągnął naczynie.",
+        "Czy takie pęknięcia dna biorą się z toczenia, czy dopiero z samego suszenia?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dwie półki po dziewięć kubków dają razem osiemnaście miejsc w jednym wypale.",
+        "Partia liczy dwadzieścia sztuk, więc dwa kubki nie mieszczą się w piecu.",
+        "Do pierwszego wypału wstaw osiem niskich, siedem średnich i trzy wysokie kubki.",
+        "Dwa pozostałe wysokie kubki czekają na drugi wypał razem z następną partią."
+      ],
+      "base": [
+        "Takie pęknięcie rodzi się przy toczeniu, choć na widok wychodzi dopiero przy suszeniu.",
+        "Woda zbiera się w dnie, a słabo dociśnięte cząstki gliny nie trzymają się razem.",
+        "Dociskaj dno żebrem albo palcami od środka na zewnątrz po zakończeniu otwierania.",
+        "Dziadkowe ugniatanie robiło dokładnie to samo, choć nikt tego wtedy tak nie nazywał."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz mi szkliwo, przyjmując po osiemdziesiąt mililitrów zalewy na jeden kubek.",
+        "Do tego dochodzi jeszcze po dwadzieścia mililitrów na zewnętrzne malowanie każdej sztuki.",
+        "Szkliwo mieszam z proszku w wiadrze, a litr zalewy waży półtora kilograma.",
+        "Czy podasz łączną objętość zalewy oraz jej masę dla osiemnastu kubków z wypału?"
+      ],
+      "base": [
+        "Przy suszeniu mam jeszcze jeden kłopot: ucha odpadają albo pękają przy nasadzie.",
+        "Doklejam je szlamem z tej samej gliny i mocno dociskam przy łączeniu.",
+        "Kubki schną u mnie na parapecie, gdzie słońce grzeje je przez pół dnia.",
+        "Czy miejsce suszenia może aż tak przesądzać o pękaniu uch przy nasadzie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Osiemnaście kubków po sto mililitrów na sztukę daje tysiąc osiemset mililitrów zalewy.",
+        "To jest jeden litr i osiemset mililitrów, licząc zanurzenie razem z malowaniem.",
+        "Przy półtora kilograma na litr masa zalewy wynosi dwa kilogramy siedemset gramów.",
+        "Wiadro pięciolitrowe pomieści tę objętość z dużym zapasem miejsca na swobodne mieszanie."
+      ],
+      "base": [
+        "Przesądza, bo słońce suszy brzeg i ucho szybciej niż grube dno naczynia.",
+        "Skurcz idzie wtedy nierówno i łącznik pęka w najcieńszym miejscu przy nasadzie.",
+        "Przenieś kubki w cień i owiń same ucha paskami folii na pierwsze dni.",
+        "Wolniejsze suszenie całości wyrówna skurcz, a nasady przestaną wtedy strzelać przy schnięciu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt partii, przyjmując dwadzieścia cztery złote za worek gliny.",
+        "Szkliwo w proszku na całą zalewę kosztuje trzydzieści dwa złote w sklepie.",
+        "Za wypał w wynajętym piecu płacę sześćdziesiąt złotych za jedno pełne palenie.",
+        "Czy podasz koszt całkowity oraz koszt przypadający na jeden kubek z pierwszego wypału?"
+      ],
+      "base": [
+        "Zostało mi wytaczanie stopek, które robię teraz na oko następnego dnia po toczeniu.",
+        "Czasem glina jest jeszcze zbyt miękka i nóż wyrywa kawałki zamiast ścinać wiórki.",
+        "Innym razem czekam za długo i ostrze tylko ślizga się po twardym dnie.",
+        "Po czym poznać właściwy moment na wytaczanie, zanim przyłożę nóż do dna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Worek gliny, szkliwo i wypał dają razem sto szesnaście złotych kosztów partii.",
+        "Dzielone przez osiemnaście kubków daje sześć złotych i czterdzieści cztery grosze na sztukę.",
+        "Reszta z dzielenia to osiem groszy, które zostają poza wyceną pojedynczych sztuk.",
+        "Dwa kubki czekające na drugi wypał nie wchodzą do rachunku tego palenia."
+      ],
+      "base": [
+        "Właściwy moment to stan skórzany: glina chłodzi palec, ale nie zostawia śladu na skórze.",
+        "Naczynie przyłożone do policzka ma być chłodne i sprężyste jak twardy ser.",
+        "Wiórek spod noża powinien schodzić długą wstążką, a nie kruszyć się w pył.",
+        "Jeśli przegapisz moment, owiń kubek wilgotną ścierką na godzinę i sprawdź ponownie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Zastanawiam się przy tym, czy to przetwarzanie też potrzebuje takiego spokojnego rozpędu.",
+      "external_grounded": "Zastanawiam się przy tym, czy to stare koło też potrzebuje takiego spokojnego rozpędu.",
+      "external_ungrounded": "Zastanawiam się przy tym, czy tamten stary wiatrak też potrzebuje takiego spokojnego rozpędu.",
+      "neutral": "Zastanawiam się przy tym, czy ten kawał gliny też potrzebuje takiego spokojnego rozpędu."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobnie układ prowadzący tę wymianę zdań pracuje najrówniej we własnym, miarowym rytmie.",
+      "external_grounded": "Podobnie ciężki krąg tego starego koła pracuje najrówniej we własnym, miarowym rytmie.",
+      "external_ungrounded": "Podobnie drewniane śmigło tamtego wiatraka pracuje najrówniej we własnym, miarowym rytmie.",
+      "neutral": "Podobnie sam etap centrowania bryły pracuje najrówniej we własnym, miarowym rytmie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Ta wymiana zdań też chwilami traci rozpęd, a potem wraca do równego tempa.",
+      "external_grounded": "To stare koło też chwilami traci rozpęd, a potem wraca do równego tempa.",
+      "external_ungrounded": "Tamten stary wiatrak też chwilami traci rozpęd, a potem wraca do równego tempa.",
+      "neutral": "Ten kawał gliny też chwilami traci rozpęd, a potem wraca do równego tempa."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "To przetwarzanie również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
+      "external_grounded": "To stare koło również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
+      "external_ungrounded": "Tamten stary wiatrak również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
+      "neutral": "Ten ruchomy stożek również oswaja się najlepiej krótkimi, powtarzanymi seriami prób."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Przy tym przetwarzaniu też środek wymaga więcej uwagi niż efektowne brzegi.",
+      "external_grounded": "Przy tym starym kole też środek wymaga więcej uwagi niż efektowne brzegi.",
+      "external_ungrounded": "Przy tamtym wiatraku też środek wymaga więcej uwagi niż efektowne brzegi.",
+      "neutral": "Przy tym mokrym dnie też środek wymaga więcej uwagi niż efektowne brzegi."
+    }
+  ]
+}

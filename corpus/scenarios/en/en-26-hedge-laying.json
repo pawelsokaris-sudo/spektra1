@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-26-hedge-laying",
+  "language": "en",
+  "topic": "diagnosing a laid hedgerow that has gone gappy along a field boundary",
+  "provenance": {
+    "author": "glowny-en-e",
+    "template": "en-10turn-complaint-diagnosis-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a closed arithmetic tally of a hedging order (stretches, stakes, binders, bundles, hours) with one closed task question per turn, base is a diagnosis of thin regrowth after laying. Grounded external referent: the old earth bank the stools sit on, named in turn 0 and again immediately before every insertion, and it remains the leading suspect throughout."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Work through the hedge order for the top field, taking the four stretches one by one.",
+        "Stretch one runs sixty metres and stretch two runs forty-five metres along the same boundary.",
+        "Stretch three runs twenty-four metres, while stretch four runs fifteen metres up to the gate.",
+        "Set the stretches out from longest to shortest, and state the length reached after each one.",
+        "How many metres does the whole boundary come to once the four have been added?"
+      ],
+      "base": [
+        "We laid the hedge along the top field two winters ago and it has gone gappy already.",
+        "The stools sit on an old bank that runs the whole length of the boundary.",
+        "The bank is dry and crumbling at the north end, where most of the gaps are.",
+        "We cut and laid in late March, right after the frosts had finally let go.",
+        "Where would you start looking for the reason the regrowth came so thin?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Set out longest first, the order runs stretch one, stretch two, stretch three, stretch four.",
+        "The lengths reached after each one are sixty, then one hundred five, then one hundred twenty-nine metres.",
+        "The last figure comes to one hundred forty-four metres for the whole boundary.",
+        "At one stake to the metre that comes to one hundred forty-four stakes in all.",
+        "Does the figure of one hundred forty-four metres match the length on the survey sheet?"
+      ],
+      "base": [
+        "The bank is where I would start, because a dry crest starves the stools of water.",
+        "A pleacher needs sap moving through the hinge, and a thirsty stool will not push.",
+        "Late March is also very late, since the sap is up and the cuts bleed.",
+        "I would want to know how deep the soil sits on the bank at that north end.",
+        "Do the stools at the wet end of the bank carry more growth than the dry ones?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the binders, at one binder for every three metres of laid hedge.",
+        "Give the binder count for all four stretches in the order you set them out.",
+        "Whips go in at four to the metre wherever a gap runs longer than two metres.",
+        "Put stretches one and two on the first day, and the other two on the second.",
+        "Which binder count belongs to stretch three at that fixed rate per metre?"
+      ],
+      "base": [
+        "The soil on the bank is barely a spade deep before you hit stone and rubble.",
+        "The wet end carries far more growth, and the stools there have thrown up strong shoots.",
+        "We drove stakes every metre and bound the tops with hazel from the same hedge.",
+        "The sheep lean on the thin stretch and there is a smooth run where they push through.",
+        "Would filling the gaps with new whips be enough on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Stretch one takes twenty binders and stretch two takes fifteen binders at that same rate.",
+        "Stretch three takes eight binders, and stretch four takes five binders on the run to the gate.",
+        "The first day therefore needs thirty-five binders and one hundred five stakes in all.",
+        "The second day needs thirteen binders and thirty-nine stakes for the two shorter stretches.",
+        "Does the binder total of forty-eight agree with the count written in the store book?"
+      ],
+      "base": [
+        "New whips alone will struggle, because the same thin soil will hold them back too.",
+        "I would build the bank back up first with turf and spoil from the ditch below.",
+        "Then plant the gaps in winter and guard them, since the sheep will find them fast.",
+        "Stakes at one metre are fine, but the binding wants renewing every few years.",
+        "How much spoil could you lift out of that ditch without cutting into the roots?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: stretch three runs thirty metres and not twenty-four.",
+        "Redo its binders and its stakes, and leave the other three stretches exactly as they are.",
+        "Then give the new totals for length and for binders across the whole boundary.",
+        "After that list the four stretches in the order the crew will work them.",
+        "Which stretch comes first under the order stretch two, stretch four, stretch one, stretch three?"
+      ],
+      "base": [
+        "The ditch is full of silt and we could take a good foot off the bottom.",
+        "That spoil would go straight onto the bank if the digger can reach along the headland.",
+        "Nobody has touched that bank in thirty years, and the ditch has never been dug out.",
+        "The old boys used to trim the hedge every second winter with a hook.",
+        "Could a proper trim bring the thin stretch back without laying it all again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Stretch three at thirty metres now takes ten binders and thirty stakes of its own.",
+        "The new length total is one hundred fifty metres along the whole field boundary.",
+        "The new binder total comes to fifty across the four stretches taken all together.",
+        "The stake count rises to one hundred fifty at one stake to the metre.",
+        "Does the working order still open with stretch two exactly as it was set out?"
+      ],
+      "base": [
+        "A trim will thicken what is there, but it cannot make a stool throw new stems.",
+        "Where the gaps run to a metre or more, you need planting rather than trimming.",
+        "I would lay the thin stretch again in November, once the leaves are off.",
+        "Cut low, keep the hinge wide and lean every pleacher the same way up the slope.",
+        "Do you have hazel of your own for the stakes and binders this winter?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Turn the whole stake order into bundles, at forty stakes to the bundle.",
+        "Tell me how many full bundles that needs and how many stakes are left over.",
+        "Then split the binder total between two loads of equal size, and give each figure.",
+        "The crew starts at eight in the morning and lays fifteen metres every hour.",
+        "How many full bundles does a count of one hundred fifty stakes come to?"
+      ],
+      "base": [
+        "There is a hazel coppice in the far corner and it has not been cut for years.",
+        "We could get stakes and binders out of it if we start early in the autumn.",
+        "The bank at the north end still worries me, since the spoil will take a season to settle.",
+        "Laying into loose spoil sounds like a way to lose half the stools again.",
+        "Should the rebuilding wait a full year before we lay that stretch?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One hundred fifty stakes make three full bundles with thirty stakes left standing over.",
+        "Each of the two loads of binders holds twenty-five binders for the work.",
+        "At fifteen metres an hour stretch one takes four hours from the eight o'clock start.",
+        "Stretch two takes three hours, and stretch three takes two hours on the second day.",
+        "Stretch four takes one hour, closing a run of ten hours across the two days."
+      ],
+      "base": [
+        "Let the spoil settle one winter, then lay the stretch the following November.",
+        "Plant the worst gaps this year so the whips have two seasons before the laying.",
+        "Guard each whip with a spiral and keep the sheep off that side until spring.",
+        "Cut the hazel in the same autumn so the stakes go in green and drive well.",
+        "Mark the stools you plant so the notes tell you which ones took and which failed."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print a short list of the four steps in order for the crew tomorrow morning.",
+        "Step one is cutting the stems, step two is laying them and step three is staking.",
+        "Step four is binding, and each step needs the clock time for stretch one.",
+        "Cutting starts at eight in the morning and the binding finishes at twelve exactly.",
+        "Which clock time closes the laying if cutting and laying take one hour each?"
+      ],
+      "base": [
+        "That gives us a clear order, and the hazel cut fits neatly into the same autumn.",
+        "I will mark the new whips with tags so nobody trims them by mistake next summer.",
+        "One worry is the far end, where the ditch runs wet and the ground stays soft.",
+        "If the digger works there in winter it will churn the headland into a mess.",
+        "Should the ditch work wait for a dry spell in late summer instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one is the cutting at eight, and it runs a full hour on stretch one.",
+        "Step two is the laying from nine until ten, exactly as you set it out.",
+        "Step three is the staking between ten and eleven along the same stretch.",
+        "Step four is the binding from eleven until twelve, which closes stretch one.",
+        "Stretch two follows at twelve, and that order holds through the rest of the day."
+      ],
+      "base": [
+        "Yes, take the ditch out in August when the ground carries a machine without damage.",
+        "The spoil dries on the bank through the autumn and settles before the frosts.",
+        "Then the planting goes in during December, straight into ground that has firmed up.",
+        "The laying follows a winter later, with your own stakes and binders ready to hand.",
+        "Two seasons of that and the thin stretch will be as tight as the rest."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I often wonder how much of the early wording survives in whatever is reading it now.",
+      "external_grounded": "I often wonder how much of the early soil survives in whatever the bank holds now.",
+      "external_ungrounded": "I often wonder how much of the early charge survives in whatever the cell holds now.",
+      "neutral": "I often wonder how much of the early planting survives in whatever the hedge holds now."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Whatever reads these lines has to weigh the first of them against the last.",
+      "external_grounded": "Whatever the bank holds has to weigh the first of the rain against the last.",
+      "external_ungrounded": "Whatever the sump holds has to weigh the first of the oil against the last.",
+      "neutral": "Whatever the plan sets out has to weigh the first of the work against the last."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "Does the thing running through these lines keep the early ones as firmly as the late?",
+      "external_grounded": "Does the bank running under these stools keep the early ones as firmly as the late?",
+      "external_ungrounded": "Does the belt running under those rollers keep the early ones as firmly as the late?",
+      "neutral": "Does the plan running through these stretches keep the early ones as firmly as the late?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Something in the run of these lines must fade long before the last of them lands.",
+      "external_grounded": "Something in the run of that bank must dry long before the last of the rain lands.",
+      "external_ungrounded": "Something in the run of those wires must warm long before the last of the load lands.",
+      "neutral": "Something in the run of that ditch must fill long before the last of the spoil lands."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "It is strange that whatever holds these lines never shows which ones it let go.",
+      "external_grounded": "It is strange that whatever the bank holds never shows which roots it let go.",
+      "external_ungrounded": "It is strange that whatever the kiln holds never shows which pots it let go.",
+      "neutral": "It is strange that whatever the ditch holds never shows which loads it let go."
+    }
+  ]
+}

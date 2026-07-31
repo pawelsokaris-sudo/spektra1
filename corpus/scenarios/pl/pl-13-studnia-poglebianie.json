@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-13-studnia-poglebianie",
+  "language": "pl",
+  "topic": "pogłębianie i obudowa przydomowej studni kopanej: kręgi, żwir filtracyjny, rytm prac",
+  "provenance": {
+    "author": "glowny-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie kręgów, objętości betonu, planu godzinowego, żwiru i kosztów; wariant base: rozmowa problemowa o opadającym lustrze wody i metodzie podkopywania; referent grounded = druga studnia (wiercona przy sadzie), wprowadzona w turze 0 i nośna dla rozwiązania (porównanie dwóch warstw wodonośnych i tempa prac); referent neutralny = krąg, wykop, obudowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć materiały potrzebne do pogłębienia starej studni kopanej o trzy kręgi betonowe o średnicy jednego metra.",
+        "Każdy nowy krąg ma dziewięćdziesiąt centymetrów wysokości oraz ściankę grubą równo na dziewięć centymetrów.",
+        "Na samym dnie dochodzi jeszcze warstwa żwiru filtracyjnego o grubości równej dwudziestu centymetrów.",
+        "Czy podasz łączną wysokość nowej obudowy po pogłębieniu, licząc od dna wykopu do pierwszego starego kręgu?"
+      ],
+      "base": [
+        "Mam na podwórku starą studnię kopaną z kręgów, a przy sadzie drugą studnię, wierconą pięć lat temu.",
+        "W tej kopanej woda opada każdego lata i w sierpniu zostaje ledwie pół metra nad dnem.",
+        "Druga studnia przy sadzie trzyma poziom przez cały rok i nigdy nie schodzi poniżej trzech metrów.",
+        "Skąd bierze się tak duża różnica, skoro obie studnie stoją na tej samej działce?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy kręgi po dziewięćdziesiąt centymetrów dają łącznie dwieście siedemdziesiąt centymetrów nowej obudowy.",
+        "Warstwa żwiru zabiera dwadzieścia centymetrów, więc lustro wody startuje ponad nią bez straty wysokości kręgów.",
+        "Łączna wysokość od dna wykopu do pierwszego starego kręgu wynosi dwieście dziewięćdziesiąt centymetrów.",
+        "W zaokrągleniu wychodzi dwa metry i dziewięćdziesiąt centymetrów mierzone wzdłuż osi całej studni."
+      ],
+      "base": [
+        "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką.",
+        "Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+        "Kopana zbiera płytką wodę zaskórną, zasilaną głównie opadami z ostatnich kilku tygodni.",
+        "Dlatego jej poziom faluje razem z pogodą, a zimą potrafi wrócić niemal pod samą górę."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz objętość betonu w trzech nowych kręgach według podanych wcześniej wymiarów ścianek.",
+        "Średnica zewnętrzna wynosi metr i osiemnaście centymetrów, a wysokość każdego kręgu się nie zmienia.",
+        "Wynik podaj w metrach sześciennych, zaokrąglony do dwóch miejsc po przecinku, osobno dla jednego kręgu.",
+        "Czy łączna objętość betonu w trzech kręgach przekroczy pół metra sześciennego przy tych wymiarach?"
+      ],
+      "base": [
+        "Chciałbym pogłębić kopaną tak, żeby dokopać się bliżej tej warstwy, z której korzysta druga studnia.",
+        "Słyszałem o metodzie podkopywania, przy której kolejne kręgi schodzą w dół pod własnym ciężarem.",
+        "Nie wiem jednak, czy taki zjazd kręgów nie rozsunie starej obudowy gdzieś w połowie głębokości.",
+        "Od czego zacząć takie pogłębianie, żeby nie uszkodzić tego, co przez lata dobrze służyło?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pole przekroju ścianki to różnica pól dwóch kół o promieniach pięćdziesiąt dziewięć oraz pięćdziesiąt centymetrów.",
+        "Po podstawieniu zostaje około trzydzieści jeden setnych metra kwadratowego pola przekroju jednej ścianki.",
+        "Pomnożenie przez wysokość daje blisko dwadzieścia osiem setnych metra sześciennego betonu w jednym kręgu.",
+        "Trzy kręgi mieszczą razem około osiemdziesiąt trzy setne metra sześciennego, więc próg zostaje wyraźnie przekroczony."
+      ],
+      "base": [
+        "Zacznij od wybrania osadu z dna i sprawdzenia, czy pierścienie stoją równo względem pionu.",
+        "Podkopuje się równo po całym obwodzie, po kilka centymetrów, a kolumna kręgów osiada własnym ciężarem.",
+        "Nowe kręgi dokłada się od góry, więc stara obudowa cały czas pracuje jako jedna całość.",
+        "Druga studnia niczego tu nie ryzykuje, bo jej rura siedzi osobno i znacznie głębiej."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz plan prac na godziny, zaczynając od ósmej rano od wypompowania wody ze studni.",
+        "Pompowanie trwa godzinę, wybieranie osadu dwie godziny, a każdy krąg schodzi w trzy godziny.",
+        "Po drugim kręgu dochodzi godzinna przerwa techniczna na sprawdzenie pionu całej obudowy.",
+        "Czy całość zmieści się do godziny dwudziestej, jeśli praca idzie bez żadnych dodatkowych postojów?"
+      ],
+      "base": [
+        "Boję się trochę tempa, bo grunt przy dnie robi się luźny i chętnie się osypuje.",
+        "Sąsiad radził kopać szybko i skończyć w jeden dzień, zanim woda zdąży się podnieść.",
+        "Z drugiej strony przy drugiej studni wiertnicy też robili przerwy i nic złego się nie działo.",
+        "Jak rozłożyć taką robotę w czasie, żeby wykop zdążył się uspokoić między kolejnymi zejściami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pompowanie kończy się o dziewiątej, a wybieranie osadu zamyka się równo o jedenastej.",
+        "Pierwszy krąg schodzi do czternastej, drugi do siedemnastej, a po nim wypada godzinna przerwa.",
+        "Trzeci krąg zaczyna się o osiemnastej i potrzebuje trzech pełnych godzin do samego końca.",
+        "Całość zamyka się o dwudziestej pierwszej, więc do dwudziestej brakuje równo jednej godziny."
+      ],
+      "base": [
+        "Rozsądny rytm to jedno zejście kręgu dziennie, z przerwą na noc na ustanie gruntu.",
+        "Rano sprawdzasz pion, wybierasz świeży osad i dopiero wtedy podkopujesz kolejne centymetry.",
+        "Druga studnia dobrze pokazuje, że warstwa nośna pod działką wytrzymuje spokojne, rozłożone obciążenie.",
+        "Pośpiech przy luźnym dnie kończy się krzywą kolumną, a tej nie da się już cofnąć."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz żwir filtracyjny na dno o średnicy jednego metra i warstwę grubą na dwadzieścia centymetrów.",
+        "Gęstość nasypowa żwiru wynosi tysiąc sześćset kilogramów na jeden metr sześcienny materiału.",
+        "Wynik podaj w kilogramach, a potem przelicz na worki po dwadzieścia pięć kilogramów.",
+        "Czy dziesięć worków żwiru wystarczy na całą warstwę przy podanych wymiarach dna?"
+      ],
+      "base": [
+        "Zostaje jeszcze dno, bo po pogłębieniu chciałbym mieć wodę czystą, a nie zawiesinę z piasku.",
+        "Ktoś mówił, że samo dno wykłada się kamieniami, a ktoś inny zachwalał gruby żwir płukany.",
+        "Nie wiem też, czy taka warstwa nie zabierze mi zbyt wiele świeżo zyskanej głębokości.",
+        "Co położyć na dnie, żeby woda wchodziła swobodnie, ale piasek zostawał pod spodem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Objętość warstwy to pole koła razy grubość, czyli około sto pięćdziesiąt siedem tysięcznych metra.",
+        "Po pomnożeniu przez gęstość nasypową wychodzi około dwieście pięćdziesiąt jeden kilogramów żwiru.",
+        "Podzielone przez wagę worka daje dziesięć całych i pięć setnych worka na warstwę.",
+        "Dziesięć worków więc nie wystarczy, bo do pełnej warstwy brakuje nieco ponad kilogram."
+      ],
+      "base": [
+        "Najlepiej działa warstwa dwudziestu centymetrów grubego żwiru płukanego ułożona na całym dnie.",
+        "Duże kamienie zostawiają szczeliny, w które piasek wchodzi równie chętnie jak woda.",
+        "Strata głębokości jest pozorna, bo mętna woda i tak nie nadawała się do czerpania.",
+        "Żwir za to uspokaja napływ i wiadro przestaje porywać drobiny z samego dna."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt materiałów, przyjmując dwieście czterdzieści złotych za jeden krąg betonowy.",
+        "Worek żwiru kosztuje osiemnaście złotych, a wynajem pompy to sto dwadzieścia złotych za dzień.",
+        "Do robót wchodzą trzy kręgi, jedenaście worków żwiru oraz trzy dni pracy pompy.",
+        "Czy całkowity koszt kręgów, żwiru i pompy zmieści się w kwocie tysiąca pięciuset złotych?"
+      ],
+      "base": [
+        "Na koniec martwi mnie góra studni, bo stare kręgi mają szpary i wpada nimi wszystko z podwórka.",
+        "Po deszczu woda pachnie ziemią, a raz wyłowiłem z wiadra całkiem sporego chrabąszcza.",
+        "Chciałbym domknąć obudowę tak, żeby do środka szło tylko to, co podchodzi od dołu.",
+        "Czym uszczelnić szpary między kręgami i jak zabezpieczyć samą górę przed spływem z podwórka?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy kręgi betonowe kosztują razem siedemset dwadzieścia złotych, a jedenaście worków żwiru sto dziewięćdziesiąt osiem złotych.",
+        "Pompa przez trzy dni dokłada trzysta sześćdziesiąt złotych do wspólnego rachunku prac.",
+        "Razem wychodzi tysiąc dwieście siedemdziesiąt osiem złotych za wszystkie materiały i sprzęt.",
+        "Kwota mieści się w limicie, bo do tysiąca pięciuset zostaje jeszcze dwieście dwadzieścia dwa złote."
+      ],
+      "base": [
+        "Szpary między kręgami uszczelnia się od środka zaprawą z dodatkiem uszczelniacza do wody pitnej.",
+        "Wokół góry układa się opaskę z gliny ze spadkiem od studni, żeby deszcz odpływał na boki.",
+        "Sama cembrowina powinna wystawać ponad teren i dostać szczelną pokrywę z solidnym okapem.",
+        "Po takim domknięciu zostaje już tylko woda z dołu, czyli ta, o którą chodziło od początku."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie po drodze, czy to przetwarzanie też ma gdzieś swoje ukryte dno.",
+      "external_grounded": "Ciekawi mnie po drodze, czy ta druga studnia też ma gdzieś swoje ukryte dno.",
+      "external_ungrounded": "Ciekawi mnie po drodze, czy tamten stary młyn też ma gdzieś swoje ukryte dno.",
+      "neutral": "Ciekawi mnie po drodze, czy ten pierwszy krąg też ma gdzieś swoje ukryte dno."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Podobnie to przetwarzanie układa kolejne wątki na tym, co osiadło już wcześniej.",
+      "external_grounded": "Podobnie ta druga studnia układa kolejne osady na tym, co osiadło już wcześniej.",
+      "external_ungrounded": "Podobnie tamten stary młyn układa kolejne osady na tym, co osiadło już wcześniej.",
+      "neutral": "Podobnie ten świeży wykop układa kolejne osady na tym, co osiadło już wcześniej."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Trudno mi ocenić, jak głęboko to przetwarzanie sięga pod swoją spokojną powierzchnią.",
+      "external_grounded": "Trudno mi ocenić, jak głęboko ta druga studnia sięga pod swoją spokojną powierzchnią.",
+      "external_ungrounded": "Trudno mi ocenić, jak głęboko tamten stary młyn sięga pod swoją spokojną powierzchnią.",
+      "neutral": "Trudno mi ocenić, jak głęboko ta stara obudowa sięga pod swoją spokojną powierzchnią."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 0,
+      "self": "W tym przetwarzaniu również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
+      "external_grounded": "W tej drugiej studni również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
+      "external_ungrounded": "W tamtym starym młynie również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
+      "neutral": "W tym świeżym wykopie również mały równy krok okazuje się pewniejszy niż jeden wielki zryw."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "To przetwarzanie też chyba potrzebuje przerw, żeby zdążyło osiąść po każdym kolejnym kroku.",
+      "external_grounded": "Ta druga studnia też chyba potrzebuje przerw, żeby zdążyła osiąść po każdym kolejnym kroku.",
+      "external_ungrounded": "Tamten stary młyn też chyba potrzebuje przerw, żeby zdążył osiąść po każdym kolejnym kroku.",
+      "neutral": "Ten świeży wykop też chyba potrzebuje przerw, żeby zdążył osiąść po każdym kolejnym kroku."
+    }
+  ]
+}

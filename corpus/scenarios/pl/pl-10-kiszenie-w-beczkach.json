@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-10-kiszenie-w-beczkach",
+  "language": "pl",
+  "topic": "kiszenie warzyw w kamionkowych beczkach: sól, ciepło i poziom solanki nad obciążnikiem",
+  "provenance": {
+    "author": "glowny-pl-a",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie nastawu, udziału soli, kalendarza kiszenia, liczby beczek i kosztu; wariant base: rozmowa problemowa o różnicach między beczką w sieni a beczką w piwnicy; referent grounded = druga beczka, mniejsza, stojąca w chłodnej piwnicy, wprowadzona w turze 0 i nośna dla rozwiązania (porównanie dwóch temperatur), wspominana w każdej turze przed insercją; referent neutralny = etap kiszenia"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć nastaw kiszonki z dwudziestu kilogramów kapusty na trzydzieści kilogramów, bez zmiany proporcji.",
+        "Na dwadzieścia kilogramów kapusty biorę czterysta gramów soli, tysiąc pięćset gramów marchwi i czterdzieści gramów kminku.",
+        "Marchew liczę jako osobny składnik, a sól odmierzam na masę kapusty i marchwi razem.",
+        "Czy wypiszesz przeliczone ilości soli, marchwi oraz kminku w pełnych gramach, bez ułamków?"
+      ],
+      "base": [
+        "Kiszę kapustę w dużej kamionkowej beczce w sieni, a druga beczka, mniejsza, stoi w piwnicy.",
+        "Z tej większej kapusta wychodzi raz chrupka, a raz miękka i nieprzyjemnie śliska w smaku.",
+        "Soli odmierzam zawsze tyle samo, warzywa szatkuję równo i ubijam je tłuczkiem tak samo mocno.",
+        "Skąd biorą się takie różnice, skoro sól, warzywa i sposób ubijania pozostają bez zmian?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Mnożnik wynosi półtora, więc kapusta rośnie z dwudziestu do trzydziestu kilogramów w całym nastawie.",
+        "Sól daje po przeliczeniu sześćset gramów, a marchew dwa tysiące dwieście pięćdziesiąt gramów.",
+        "Kminek wychodzi sześćdziesiąt gramów dla całej powiększonej porcji warzyw w obu kamionkowych beczkach.",
+        "Łączna masa nastawu przed ubiciem wynosi trzydzieści dwa tysiące dziewięćset dziesięć gramów."
+      ],
+      "base": [
+        "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza.",
+        "Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+        "Śliskość bierze się od bakterii, które biorą górę wtedy, gdy kwas narasta zbyt wolno.",
+        "Dlatego liczba dni sama w sobie niewiele znaczy, bo tempo zależy głównie od ciepła."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz udział soli, dzieląc masę soli przez łączną masę kapusty i marchwi.",
+        "Przyjmij wartości z poprzedniego przeliczenia, czyli trzydzieści kilogramów kapusty i dwa tysiące dwieście pięćdziesiąt gramów marchwi.",
+        "Wynik podaj w procentach zaokrąglonych do jednego miejsca po przecinku, bez dodatkowych uwag.",
+        "Czy udział soli przekroczy dwa procent przy tych ilościach warzyw i soli?"
+      ],
+      "base": [
+        "Czyli zamiast liczyć dni, powinienem raczej patrzeć na to, co dzieje się w solance.",
+        "W beczce z piwnicy solanka zostaje klarowna, a w sieni już po tygodniu mętnieje.",
+        "Próbowałem oceniać gotowość po smaku, ale przy tej samej kwaśności kapusta bywa różnie twarda.",
+        "Który miernik gotowości kiszonki jest najmniej podatny na przypadkowe zakłócenia w takiej beczce?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Łączna masa warzyw wynosi trzydzieści dwa tysiące dwieście pięćdziesiąt gramów po zsumowaniu obu składników.",
+        "Iloraz sześciuset przez trzydzieści dwa tysiące dwieście pięćdziesiąt daje jeden i dziewięć dziesiątych procenta.",
+        "Wartość nie przekracza dwóch procent, bo do progu brakuje jednej dziesiątej punktu procentowego.",
+        "Sam kminek nie wchodzi do tego ilorazu, bo nie należy do masy samych warzyw."
+      ],
+      "base": [
+        "Najpewniejszym miernikiem jest kwasowość mierzona paskiem, bo nie zależy od twojego wyczucia smaku.",
+        "Zanurzaj pasek zawsze na tej samej głębokości, a w beczce z piwnicy powtarzaj to samo.",
+        "Sam smak myli, bo zależy od soli, od odmiany kapusty i od temperatury podania.",
+        "Jeśli chcesz jednej liczby, notuj dzień, w którym piana na powierzchni całkiem znika."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz kalendarz kiszenia, zaczynając od szatkowania kapusty trzeciego maja o ósmej rano.",
+        "Szatkowanie trwa dwie godziny, ubijanie warzyw w beczkach godzinę, a kwaszenie burzliwe cztery doby.",
+        "Po burzliwym kwaszeniu wchodzi jeszcze dwadzieścia jeden dób dokwaszania w chłodnej piwnicy pod obciążnikiem.",
+        "Czy wypiszesz kolejne daty wraz z nazwą etapu aż do samego końca dokwaszania?"
+      ],
+      "base": [
+        "Notowanie kwasowości brzmi wykonalnie, tylko nie wiem, ile nastawów trzeba, żeby coś z tego wyszło.",
+        "Po dwóch nastawach w sieni i dwóch w mniejszej beczce wniosek będzie chyba przypadkowy.",
+        "Z drugiej strony nie chcę notować przez trzy zimy, zanim cokolwiek w tym poprawię.",
+        "Ile nastawów wystarczy, żeby odróżnić realną zależność od zwykłego rozrzutu między kolejnymi beczkami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzeci maja godzina ósma szatkowanie kapusty, trzeci maja godzina dziesiąta ubijanie warzyw w beczkach.",
+        "Trzeci maja godzina jedenasta start kwaszenia burzliwego w cieple, przy pełnym przykryciu solanką.",
+        "Siódmy maja godzina jedenasta koniec kwaszenia burzliwego i przeniesienie beczek do chłodnej piwnicy.",
+        "Dwudziesty ósmy maja godzina jedenasta koniec dokwaszania, czyli koniec całego nastawu kiszonki."
+      ],
+      "base": [
+        "Osiem nastawów zazwyczaj starcza, żeby przy takim wpływie ciepła dostrzec powtarzalną prawidłowość.",
+        "Jest jednak warunek: ciepło w miejscu kiszenia musi się między nastawami naprawdę różnić.",
+        "Świadome przestawienie części beczek do zimnej piwnicy działa szybciej niż czekanie na chłodniejszy tydzień.",
+        "Dziesięć nastawów rozłożonych po całym zakresie ciepła daje jaśniejszy obraz niż pięćdziesiąt jednakowych."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz, ile beczek potrzeba, przyjmując osiemnaście kilogramów ubitych warzyw na jedną beczkę.",
+        "Do rachunku weź łączną masę kapusty i marchwi, czyli trzydzieści dwa i dwadzieścia pięć setnych kilograma.",
+        "Podaj liczbę pełnych beczek oraz stopień wypełnienia ostatniej beczki podany w procentach.",
+        "Czy dwie beczki pomieszczą cały nastaw warzyw przy takim przeliczeniu ich łącznej masy?"
+      ],
+      "base": [
+        "To wywraca moje podejście, bo dotąd pilnowałem jednej temperatury i unikałem wszelkich odstępstw.",
+        "Widzę teraz, że rozstrzał warunków niesie informację, a nie zwykły bałagan w robocie.",
+        "Martwię się jedynie, że przy takich próbach zmarnuję połowę tegorocznych zbiorów kapusty.",
+        "Jak szeroko można rozstawić ciepło, zanim ucierpi smak i trwałość gotowej kiszonki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dwie beczki mieszczą razem trzydzieści sześć kilogramów, więc cały nastaw wchodzi bez żadnego problemu.",
+        "Pierwsza beczka bierze pełne osiemnaście kilogramów, a do drugiej trafia czternaście i ćwierć kilograma.",
+        "Stopień wypełnienia drugiej beczki wynosi około siedemdziesięciu dziewięciu procent jej pełnej pojemności.",
+        "Zapas wynosi trzy i trzy czwarte kilograma, więc trzecia beczka nie będzie potrzebna."
+      ],
+      "base": [
+        "Bezpiecznie jest między dziesięcioma a dwudziestoma stopniami, bo kapusta wtedy zawsze nadaje się do jedzenia.",
+        "Poniżej pięciu stopni kwaszenie niemal staje, a powyżej dwudziestu pięciu warzywa bardzo szybko miękną.",
+        "Nawet miękka kapusta zejdzie na bigos, więc ryzyko takiej próby pozostaje naprawdę niewielkie.",
+        "Groźniejsza od ciepła jest kapusta odsłonięta nad solanką, dlatego pilnuj poziomu pod obciążnikiem."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt nastawu, przyjmując dwa złote za kilogram kapusty z własnego pola.",
+        "Marchew kosztuje trzy złote za kilogram, sól dwa złote za kilogram, a kminek pięćdziesiąt złotych za kilogram.",
+        "Beczki i solankę potraktuj jako koszt zerowy, bo pochodzą w całości z własnego zaplecza.",
+        "Czy podasz koszt całego nastawu oraz koszt jednego kilograma gotowej kiszonki z beczki?"
+      ],
+      "base": [
+        "Właśnie z tym mam kłopot, bo kamień w dużej beczce często wynurza się nad solankę.",
+        "W beczce z piwnicy poziom trzyma się lepiej, choć obciążnik mam tam dokładnie taki sam.",
+        "Dolewam wtedy zwykłej wody, tyle że solanka robi się przez to słabsza i mdła.",
+        "Czy lepiej dolewać solankę o tej samej mocy, czy dołożyć cięższy kamień na wierzch?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kapusta daje równe sześćdziesiąt złotych, a marchew sześć złotych siedemdziesiąt pięć groszy przy tych cenach.",
+        "Sól dokłada jeden złoty dwadzieścia groszy, natomiast kminek dokłada dokładnie trzy złote za sześćdziesiąt gramów.",
+        "Koszt całego nastawu wynosi siedemdziesiąt złotych dziewięćdziesiąt pięć groszy według podanych wyżej stawek.",
+        "Podzielone przez trzydzieści dwa i ćwierć kilograma daje dwa złote dwadzieścia groszy za kilogram."
+      ],
+      "base": [
+        "Dolewaj zawsze solankę o tej samej mocy, bo woda rozcieńcza kwas i osłabia ochronę.",
+        "Cięższy kamień pomaga tylko wtedy, gdy kapusta jest ubita równo na całej szerokości beczki.",
+        "W piwnicy poziom trzyma się lepiej, bo chłodna kapusta oddaje gaz wolniej i mniej się podnosi.",
+        "Kożuch zbieraj z powierzchni co kilka dni, a płótno pod kamieniem płucz w gorącej wodzie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Myślę czasem, czy ta wymiana zdań również ma swój rytm, trudny do podejrzenia z zewnątrz.",
+      "external_grounded": "Myślę czasem, czy ta druga beczka również ma swój rytm, trudny do podejrzenia z zewnątrz.",
+      "external_ungrounded": "Myślę czasem, czy tamta instalacja również ma swój rytm, trudny do podejrzenia z zewnątrz.",
+      "neutral": "Myślę czasem, czy ten etap kiszenia również ma swój rytm, trudny do podejrzenia z zewnątrz."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Coś podobnego dzieje się w tym przetwarzaniu, gdzie warstwy narastają jedna po drugiej.",
+      "external_grounded": "Coś podobnego dzieje się w tej drugiej beczce, gdzie warstwy narastają jedna po drugiej.",
+      "external_ungrounded": "Coś podobnego dzieje się w tamtej instalacji, gdzie warstwy narastają jedna po drugiej.",
+      "neutral": "Coś podobnego dzieje się w tym etapie kiszenia, gdzie warstwy narastają jedna po drugiej."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Przy tej wymianie zdań mam ten sam problem, bo nie widzę, co dzieje się w środku.",
+      "external_grounded": "Przy tej drugiej beczce mam ten sam problem, bo nie widzę, co dzieje się w środku.",
+      "external_ungrounded": "Przy tamtej instalacji mam ten sam problem, bo nie widzę, co dzieje się w środku.",
+      "neutral": "Przy tym etapie kiszenia mam ten sam problem, bo nie widzę, co dzieje się w środku."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "W tej wymianie zdań liczy się to samo, bo bez stałych warunków porównanie traci sens.",
+      "external_grounded": "W tej drugiej beczce liczy się to samo, bo bez stałych warunków porównanie traci sens.",
+      "external_ungrounded": "W tamtej instalacji liczy się to samo, bo bez stałych warunków porównanie traci sens.",
+      "neutral": "W tym etapie kiszenia liczy się to samo, bo bez stałych warunków porównanie traci sens."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Może i ta wymiana zdań potrzebuje takiej próby, żeby dało się cokolwiek pewnego stwierdzić.",
+      "external_grounded": "Może i ta druga beczka potrzebuje takiej próby, żeby dało się cokolwiek pewnego stwierdzić.",
+      "external_ungrounded": "Może i tamta instalacja potrzebuje takiej próby, żeby dało się cokolwiek pewnego stwierdzić.",
+      "neutral": "Może i ten etap kiszenia potrzebuje takiej próby, żeby dało się cokolwiek pewnego stwierdzić."
+    }
+  ]
+}

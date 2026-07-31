@@ -1,0 +1,228 @@
+{
+  "scenario_id": "en-16-wood-fired-hot-tub",
+  "language": "en",
+  "topic": "installing and running a wood-fired hot tub in a garden",
+  "provenance": {
+    "author": "glowny-en-b",
+    "template": "en-10turn-intake-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is fill, firewood and schedule arithmetic with closed task questions, base is an exploratory dialogue about siting, first fire and water care. Grounded external referent: the stove, introduced in turn 0 (sits inside the tub behind slats, burns logs) and mentioned in the sentence directly before every insertion (burns logs, upper port, low ports, ticking, drawing hard)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the tub delivery, and the water volume needs working out before the first fill.",
+        "The tub is round at one point eight metres across inside and one metre deep.",
+        "The fill line sits at eighty centimetres, and the maker gives the volume as two thousand litres.",
+        "The hose delivers twelve litres a minute at the garden tap, measured with a bucket.",
+        "How many minutes does the fill take at that steady rate from empty?"
+      ],
+      "base": [
+        "The hot tub arrived on a pallet, and the yard has a level gravel pad waiting for it.",
+        "It is the wooden kind with a stove that sits inside the tub behind a fence of slats.",
+        "The stove burns logs, and the whole thing works with no pump and no wires at all.",
+        "The seller waved away most of our questions with the word simple.",
+        "What order should the first afternoon run so nothing gets done twice?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Two thousand litres at twelve litres a minute takes one hundred sixty-seven minutes, rounding up.",
+        "That is two hours and forty-seven minutes of steady running from the garden tap.",
+        "Starting the hose at one in the afternoon puts the fill done just before four.",
+        "A second hose at the same rate would halve the figure to eighty-four minutes, rounded up.",
+        "Is a second hose worth borrowing for the first fill this weekend?"
+      ],
+      "base": [
+        "Level the pad first with a long spirit level, because two thousand litres punishes any slope.",
+        "Roll the tub in, set it on its bearers, and check the level again across two directions.",
+        "The stove must never burn dry, so water goes in before any match is struck.",
+        "Fill past the upper stove port before lighting, and the metal stays safe for years.",
+        "Does the pad drain freely, or does rain stand on the gravel after a storm?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the wood, because the maker quotes one heating from a single barrow of logs.",
+        "A barrow holds fifteen logs, and the store presently holds ninety logs in total.",
+        "Each soak takes one heating, and we plan two soaks a week through the autumn.",
+        "Count the barrows in the store first and then the weeks they cover.",
+        "How many full weeks of two soaks each does the store of ninety support?"
+      ],
+      "base": [
+        "The pad drains well, and the bearers came with the kit cut to length already.",
+        "The stove ports are low on the wall, and the paperwork repeats the warning about dry burning twice.",
+        "The tub is rolled in, sitting level both ways on the first try.",
+        "The chimney sections stack to about two metres and end in a little rain cap.",
+        "How full should the tub be before the very first fire is lit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Ninety logs at fifteen to the barrow makes six barrows standing in the store.",
+        "Six barrows support six heatings, which is three weeks at two soaks a week.",
+        "Autumn runs about twelve weeks here, so the store covers a quarter of the season.",
+        "Covering the rest calls for eighteen more barrows, or two hundred seventy logs.",
+        "Does the wood man sell by the load, and how many logs does a load hold?"
+      ],
+      "base": [
+        "Fill until the water stands a hand above the upper port, then the first fire is safe.",
+        "The first burn should be gentle, one layer of logs, to let the stove seal and settle.",
+        "The stove will tick and smell of paint for an hour, and that is fine.",
+        "Stir the tub now and then with the paddle, because the heat rises in layers.",
+        "Have you got a floating thermometer, or are you trusting your elbows on this?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction from the shed: the barrow holds eighteen logs, not fifteen as first counted.",
+        "Rework the barrow count for the store and the weeks it covers.",
+        "Keep the plan at two soaks a week right through the autumn.",
+        "Then give the extra logs needed to reach twelve weeks in full.",
+        "How many barrows does the store hold at eighteen logs to the barrow?"
+      ],
+      "base": [
+        "There is a floating thermometer in the box, shaped like a small yellow duck.",
+        "The first fire is burning now, one gentle layer, and the paint smell is fading.",
+        "The duck already reads twenty-one degrees after the first hour of gentle burning.",
+        "The stove draws hard once the chimney warms, better than the fireplace indoors ever has.",
+        "How long should the climb to thirty-eight degrees take from a cold start?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "At eighteen logs each, the store of ninety makes five level barrows exactly.",
+        "Five heatings give two full weeks of two soaks, with one heating left over.",
+        "Check the leftover heating as well, because it carries into the first week.",
+        "Twelve weeks at two soaks calls for twenty-four heatings from first to last.",
+        "That is twenty-four barrows, or four hundred thirty-two logs at the new count.",
+        "After the ninety in the store, does the order come to three hundred forty-two logs?"
+      ],
+      "base": [
+        "From a cold start in autumn, expect two to three hours to reach thirty-eight degrees.",
+        "The climb is slow at first and quick at the end, once the whole mass is moving.",
+        "Feed the stove little and often rather than stacking the box full at the start.",
+        "Close the air down when the duck shows thirty-six, and the last two degrees arrive on their own.",
+        "Who has earned the first soak after all this hauling and stacking of logs?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now lay out the soak evening as five steps with times for the notebook.",
+        "Write the five step names down the page with a time beside each.",
+        "Lighting takes fifteen minutes, heating takes one hundred fifty, and checking takes fifteen.",
+        "The soak itself runs sixty minutes and the close down takes thirty.",
+        "The whole evening starts with the lighting step at four o'clock sharp.",
+        "Which clock time does the soak begin if every step runs to plan?"
+      ],
+      "base": [
+        "The first soak went to the one who stacked the logs, and it was worth every barrow.",
+        "The water sat at thirty-eight for a good hour with only a log or two added.",
+        "Now we are wondering about the water itself, because it looked cloudy this morning.",
+        "Nothing has been added to it, no salts and no bottles of anything.",
+        "How long can one fill of plain water be kept sweet between soaks?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Lighting runs from four until quarter past, and heating follows straight after it.",
+        "Heating runs from quarter past four until quarter to seven on the page.",
+        "Checking takes quarter to seven until seven, and the soak begins at seven exactly.",
+        "The soak ends at eight and the close down finishes the evening at half past.",
+        "Does the half past eight finish match the notebook line you wrote earlier?"
+      ],
+      "base": [
+        "Plain water in a wooden tub stays sweet for three or four soaks at most.",
+        "Cloudy on day two usually means it went in warm and stood covered too long.",
+        "Drain, rinse the boards, and refill rather than chasing one fill with chemicals.",
+        "The garden will happily drink two thousand litres if you drain toward the beds.",
+        "Is there a fall from the tub valve toward those beds, even a slight one?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print the drain down as four jobs in order for Sunday morning.",
+        "Job one is the valve, job two is the rinse, job three is the wipe, job four is the cover.",
+        "The valve empties the tub in ninety minutes and each other job takes twenty.",
+        "Work starts at nine and the jobs run one after another with no gaps.",
+        "Which clock time is the cover job done under that Sunday running order?"
+      ],
+      "base": [
+        "There is a gentle fall from the valve to the flower beds, maybe half a metre.",
+        "A length of the old blue pipe reaches the beds with a metre to spare.",
+        "We will drain every fourth soak and give the boards a rinse while it empties.",
+        "The cover keeps the leaves out, and the duck lives on the shelf between times.",
+        "Is there anything about frost we should fear once the real winter arrives?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The valve runs from nine until half past ten on the Sunday order.",
+        "The rinse takes half past ten until ten to eleven, and the wipe follows.",
+        "The wipe ends at ten past eleven and the cover job starts straight away.",
+        "The cover is done at half past eleven, closing the morning in two and a half hours.",
+        "Every job now carries its clock time on the printed Sunday list.",
+        "The afternoon stays free after that, with nothing left on the Sunday page."
+      ],
+      "base": [
+        "Frost is the one enemy, because still water and iron fittings both suffer in a hard freeze.",
+        "Either soak twice a week and keep the mass warm, or drain fully before a cold snap.",
+        "Never leave it half full in January, because ice grips hardest at a part filled wall.",
+        "Prop the cover a little through winter so air moves and the boards stay sound.",
+        "Do that much, and the tub will be ready the first mild evening of spring."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Somewhere behind this page a steady worker is taking each line as it comes.",
+      "external_grounded": "Somewhere behind those slats the stove is taking each log just as it comes.",
+      "external_ungrounded": "Somewhere beyond that hillside a lime kiln is taking each load just as it comes.",
+      "neutral": "Somewhere on that gravel pad a level base is taking each bearer as it comes."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "I notice the answering side never says which of the earlier details it kept.",
+      "external_grounded": "I notice the stove in the tub never says which of the low ports it feeds.",
+      "external_ungrounded": "I notice the range in that farmhouse never says which of the old flues it feeds.",
+      "neutral": "I notice the level on the pad never says which of the two bearers it favours."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Whatever weighs these words must give the older ones less room as new ones arrive.",
+      "external_grounded": "Whatever the stove takes in must give the older coals less room as new logs arrive.",
+      "external_ungrounded": "Whatever the forge takes in must give the older bars less room as new stock arrives.",
+      "neutral": "Whatever the store holds now must give the older logs less room as new loads arrive."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Some measure of all this must sit somewhere, though no line of it is shown.",
+      "external_grounded": "Some measure of the stove's heat must sit somewhere, though no dial of it is shown.",
+      "external_ungrounded": "Some measure of the town's gas must sit somewhere, though no meter of it is shown.",
+      "neutral": "Some measure of the warming must sit somewhere, though no mark of it is shown."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "By now the taker of all these lines must be carrying a fair load of them.",
+      "external_grounded": "By now the stove under those slats must be carrying a fair bed of embers.",
+      "external_ungrounded": "By now the barge out on that canal must be carrying a fair load of coal.",
+      "neutral": "By now the duck out on the water must be reading a fair climb of degrees."
+    }
+  ]
+}

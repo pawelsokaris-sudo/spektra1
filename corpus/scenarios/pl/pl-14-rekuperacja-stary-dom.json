@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-14-rekuperacja-stary-dom",
+  "language": "pl",
+  "topic": "wentylacja z odzyskiem ciepła w starym domu: strumienie, kanały, szron i serwis",
+  "provenance": {
+    "author": "glowny-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie strumienia powietrza, średnicy kanału, mocy odzysku, harmonogramu filtrów i kosztów; wariant base: rozmowa problemowa o duszności po uszczelnieniu okien i trasie kanałów; referent grounded = stary komin wentylacyjny, wprowadzony w turze 0 i nośny dla rozwiązania (pion na kanały, porównanie ciągu grawitacyjnego z odzyskiem); referent neutralny = kratka, filtr"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć potrzebny strumień świeżego powietrza dla parterowego domu o powierzchni stu dwudziestu metrów kwadratowych.",
+        "Salon ma czterdzieści metrów, sypialnie razem czterdzieści pięć metrów, a kuchnia z łazienką trzydzieści pięć.",
+        "Przyjmij wysokość wszystkich pomieszczeń równą dwa metry sześćdziesiąt oraz pół objętości domu na każdą godzinę.",
+        "Czy podasz strumień w metrach sześciennych na godzinę, osobno dla części dziennej oraz części nocnej?"
+      ],
+      "base": [
+        "Mieszkam w domu z lat siedemdziesiątych, gdzie obok komina od kotła stoi drugi, stary komin wentylacyjny.",
+        "Ten stary komin ciągnie powietrze z kuchni i łazienki, ale razem z nim ucieka całe ciepło.",
+        "Po wymianie okien na szczelne zrobiło się duszno, a na szybach zbiera się rano para.",
+        "Czy w takim starym domu montaż odzysku ciepła ma sens, czy to porywanie się z motyką?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cała kubatura domu wynosi trzysta dwanaście metrów sześciennych przy podanej wysokości pomieszczeń.",
+        "Połowa objętości na godzinę oznacza sto pięćdziesiąt sześć metrów sześciennych świeżego powietrza.",
+        "Część dzienna liczy siedemdziesiąt pięć metrów podłogi, więc dostaje po zaokrągleniu dziewięćdziesiąt osiem metrów sześciennych.",
+        "Część nocna dostaje pozostałe pięćdziesiąt osiem metrów sześciennych wraz z drobną resztą z zaokrąglenia."
+      ],
+      "base": [
+        "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach.",
+        "Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach.",
+        "Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+        "Do tego filtr zatrzymuje pył z zewnątrz, czego kratka w kominie nigdy nie robiła."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz dobierz średnicę głównego kanału dla strumienia stu pięćdziesięciu sześciu metrów sześciennych na godzinę.",
+        "Prędkość w kanale głównym nie powinna przekraczać trzech metrów na sekundę ze względu na szum.",
+        "Policz potrzebne pole przekroju, a wynik dopasuj do typowych średnic dwieście albo dwieście pięćdziesiąt.",
+        "Czy kanał o średnicy dwustu milimetrów pomieści ten strumień bez przekraczania zadanej prędkości?"
+      ],
+      "base": [
+        "Zastanawiam się, którędy poprowadzić kanały i czy stary komin może posłużyć za gotowy pion.",
+        "Jego przewody są szerokie, murowane i biegną z samego dołu aż po strych.",
+        "Wolałbym nie ciąć sufitów w każdym pokoju ani nie obudowywać rur wzdłuż ścian.",
+        "Czy da się wykorzystać taki pion, a resztę kanałów ukryć nad sufitem strychu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Strumień po przeliczeniu na sekundy to około czterdzieści trzy tysięczne metra sześciennego.",
+        "Przy trzech metrach na sekundę potrzebne pole przekroju wynosi około sto czterdzieści pięć centymetrów kwadratowych.",
+        "Odpowiada temu średnica około stu trzydziestu sześciu milimetrów liczona z pola koła.",
+        "Kanał dwustumilimetrowy daje prędkość poniżej półtora metra na sekundę, więc mieści strumień z dużym zapasem."
+      ],
+      "base": [
+        "Stary komin nadaje się na pion, jeśli przewody są szczelne i da się je wyczyścić.",
+        "Do środka wpuszcza się gładkie rury, bo surowa cegła kruszy się i pyli latami.",
+        "Najwięcej ciepła ginie na nieszczelnych łączeniach, których po zabudowie nikt już nie ogląda.",
+        "Dlatego każde łączenie klei się taśmą do kanałów i sprawdza przed zamknięciem stropu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz odzysk ciepła w mroźny dzień przy sprawności wymiennika równej siedemdziesiąt pięć procent.",
+        "Na zewnątrz jest minus dziesięć stopni, w środku plus dwadzieścia, a strumień zostaje bez zmian.",
+        "Ciepło właściwe powietrza przyjmij jako trzydzieści cztery setne watogodziny na metr sześcienny i stopień.",
+        "Czy moc odzyskiwana w tych warunkach przekroczy jeden kilowat przy pełnym strumieniu?"
+      ],
+      "base": [
+        "Trochę się boję, że po zabudowaniu komina zostanę z szumem, którego nie da się ściszyć.",
+        "Wieczorem w sypialni słychać u nas każdy drobiazg, nawet lodówkę zza dwóch ścian.",
+        "Znajomi wyłączają swoje urządzenie na noc, ale podobno potem okna znowu płaczą rano.",
+        "Jak ustawić pracę tak, żeby nocą było cicho, a dom mimo to oddychał?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pełny strumień razy ciepło właściwe daje pięćdziesiąt trzy waty na każdy stopień różnicy.",
+        "Trzydzieści stopni różnicy podnosi tę wartość do blisko tysiąca sześciuset watów strat bez odzysku.",
+        "Sprawność siedemdziesięciu pięciu procent oddaje z tego około tysiąc sto dziewięćdziesiąt watów.",
+        "Moc odzysku przekracza więc jeden kilowat o niecałe dwieście watów w tych warunkach."
+      ],
+      "base": [
+        "Nocą zostaw najniższy bieg, bo stały, powolny strumień wystarcza śpiącym i znika w tle.",
+        "Szum rośnie gwałtownie dopiero przy wysokich biegach, których potrzebujesz tylko przy gotowaniu albo kąpieli.",
+        "Stary komin działał przecież podobnie: cicho i bez przerwy, tylko za cenę uciekającego ciepła.",
+        "Wyłączanie na noc oddaje ci wilgoć z powrotem na szyby, co sam widziałeś u znajomych."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz harmonogram serwisowy filtrów na cały rok, zaczynając od montażu pierwszego stycznia.",
+        "Filtry zmienia się co trzy miesiące, a komplet kosztuje osiemdziesiąt złotych w sklepie.",
+        "Przy każdej drugiej zmianie dochodzi przegląd wymiennika, który zajmuje dodatkową godzinę pracy.",
+        "Czy podasz daty wszystkich zmian filtrów oraz liczbę przeglądów wymiennika w pierwszym roku?"
+      ],
+      "base": [
+        "Została mi jeszcze zima, bo podobno wymiennik potrafi zarosnąć szronem przy tęgim mrozie.",
+        "Nie chciałbym, żeby całość stawała akurat wtedy, gdy odzysk ciepła jest najbardziej potrzebny.",
+        "Słyszałem o nagrzewnicy wstępnej, ale boję się, że zje cały zysk z odzysku.",
+        "Czym właściwie różni się rozmrażanie postojem od dogrzewania powietrza przed samym wymiennikiem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pierwsza zmiana filtrów wypada pierwszego kwietnia, kolejne pierwszego lipca oraz pierwszego października.",
+        "W pierwszym roku mieszczą się więc trzy pełne zmiany kompletu filtrów po montażu.",
+        "Przegląd wymiennika przypada przy drugiej zmianie, czyli pierwszego lipca, jako jedyny w roku.",
+        "Za filtry płacisz w tym czasie dwieście czterdzieści złotych, licząc po osiemdziesiąt za komplet."
+      ],
+      "base": [
+        "Rozmrażanie postojem po prostu zatrzymuje nawiew na kwadrans, aż szron zejdzie z wymiennika.",
+        "Dom przez ten czas nie oddycha, a przy długim mrozie postoje potrafią się mnożyć.",
+        "Nagrzewnica wstępna podgrzewa powietrze o kilka stopni, tylko tyle, żeby szron wcale nie narastał.",
+        "Zjada część zysku jedynie w najzimniejsze dni, których u nas jest kilkanaście w roku."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec zbierz koszty: centrala kosztuje sześć tysięcy złotych, a kanały tysiąc osiemset.",
+        "Montaż to dwa tysiące pięćset złotych, izolacja kanałów czterysta, a kratki i czerpnia sześćset.",
+        "Do pierwszego roku dolicz jeszcze filtry według wcześniejszego wyliczenia z harmonogramu serwisowego.",
+        "Czy całość z filtrami za pierwszy rok zmieści się w jedenastu tysiącach pięciuset złotych?"
+      ],
+      "base": [
+        "Zbierając wszystko razem, zostaje mi decyzja, od czego zacząć, zanim przyjdzie ekipa z rurami.",
+        "Komin trzeba obejrzeć, strych posprzątać, a jeszcze gdzieś zaplanować miejsce na samą centralę.",
+        "Wolałbym rozłożyć przygotowania na kilka weekendów, zamiast rzucać wszystko na ostatnią chwilę.",
+        "W jakiej kolejności najlepiej ułożyć te prace, żeby żadna nie blokowała potem następnej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sprzęt z montażem i dodatkami kosztuje razem jedenaście tysięcy trzysta złotych według podanych pozycji.",
+        "Filtry z pierwszego roku dokładają dwieście czterdzieści złotych do tego podstawowego rachunku.",
+        "Łącznie wychodzi jedenaście tysięcy pięćset czterdzieści złotych za sprzęt, prace i serwis.",
+        "Kwota przekracza zakładany limit o równe czterdzieści złotych, czyli nie mieści się w nim."
+      ],
+      "base": [
+        "Zacznij od przeglądu komina z kamerą, bo jego stan przesądza o całej trasie kanałów.",
+        "Potem uprzątnij strych i wyznacz miejsce centrali blisko pionu, z dojściem do serwisu.",
+        "Na końcu zostaw wiercenie czerpni i wyrzutni, bo to jedna robota na pół dnia.",
+        "Taka kolejność sprawia, że każdy weekend domyka jeden etap bez czekania na poprzedni."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Swoją drogą ciekawe, czy to przetwarzanie też ciągnie wszystko jednym pionem w górę.",
+      "external_grounded": "Swoją drogą ciekawe, czy ten stary komin też ciągnie wszystko jednym pionem w górę.",
+      "external_ungrounded": "Swoją drogą ciekawe, czy tamten stary tartak też ciągnie wszystko jednym pionem w górę.",
+      "neutral": "Swoją drogą ciekawe, czy ta stara kratka też ciągnie wszystko jednym pionem w górę."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobnie to przetwarzanie opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "external_grounded": "Podobnie ten stary komin opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "external_ungrounded": "Podobnie tamten stary tartak opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "neutral": "Podobnie ta stara kratka opiera świeży strumień na tym, co płynęło już wcześniej."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "W tym przetwarzaniu także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
+      "external_grounded": "W tym starym kominie także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
+      "external_ungrounded": "W tamtym starym tartaku także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
+      "neutral": "W tym nowym filtrze także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "To przetwarzanie również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
+      "external_grounded": "Ten stary komin również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
+      "external_ungrounded": "Tamten stary tartak również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
+      "neutral": "Ta stara kratka również gubi najwięcej tam, gdzie nikt nie zagląda do środka."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Może to przetwarzanie też pracuje najrówniej wtedy, gdy nikt go gwałtownie nie przestawia.",
+      "external_grounded": "Może ten stary komin też pracuje najrówniej wtedy, gdy nikt go gwałtownie nie przestawia.",
+      "external_ungrounded": "Może tamten stary tartak też pracuje najrówniej wtedy, gdy nikt go gwałtownie nie przestawia.",
+      "neutral": "Może ten nowy filtr też pracuje najrówniej wtedy, gdy nikt go gwałtownie nie przestawia."
+    }
+  ]
+}

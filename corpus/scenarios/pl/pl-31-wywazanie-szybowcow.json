@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-31-wywazanie-szybowcow",
+  "language": "pl",
+  "topic": "budowa i wyważanie modeli szybowców z balsy: środek ciężkości, balast i próby w locie",
+  "provenance": {
+    "author": "glowny-pl-f",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: powierzchnia skrzydła, położenie środka ciężkości, moment balastu, sortowanie części, koszt materiałów; wariant base: rozmowa problemowa o nurkującym nowym egzemplarzu; referent grounded = pierwszy szybowiec wiszący nad stołem w warsztacie, wprowadzony w turze 0 i nośny dla rozwiązania (wzorzec dobrego wyważenia, próba porównawcza); referent neutralny = próba na łące, pokrycie, wydruk, doważanie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Liczę powierzchnię skrzydła prostokątnego o rozpiętości stu pięćdziesięciu centymetrów i cięciwie dwunastu centymetrów.",
+        "Powierzchnię podaj najpierw w centymetrach kwadratowych, a potem przelicz wynik także na decymetry kwadratowe.",
+        "Gotowy płatowiec waży dwieście czterdzieści gramów razem z balastem umieszczonym na stałe w dziobie.",
+        "Czy obciążenie powierzchni skrzydła wyjdzie poniżej piętnastu gramów na jeden decymetr kwadratowy?"
+      ],
+      "base": [
+        "Skończyłem właśnie drugi szybowiec z balsy według planów z gazety i zaczynam próby na łące.",
+        "Mój pierwszy szybowiec wisi nad stołem w warsztacie i lata pięknie, choć budowałem go bez pojęcia.",
+        "Nowy egzemplarz po wyrzucie z ręki od razu pochyla dziób i orze trawę przede mną.",
+        "Dlaczego niemal identyczna konstrukcja zachowuje się w locie aż tak zupełnie inaczej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sto pięćdziesiąt razy dwanaście daje tysiąc osiemset centymetrów kwadratowych powierzchni nośnej skrzydła.",
+        "Po przeliczeniu na decymetry kwadratowe powierzchnia nośna wynosi równo osiemnaście decymetrów kwadratowych.",
+        "Iloraz dwustu czterdziestu gramów przez osiemnaście daje trzynaście przecinek trzy grama na decymetr.",
+        "Obciążenie mieści się poniżej progu piętnastu gramów z zapasem jednego przecinek siedmiu grama."
+      ],
+      "base": [
+        "Takie oranie dziobem to niemal zawsze środek ciężkości położony za daleko z przodu kadłuba.",
+        "Drobne różnice sklejki, balastu i pokrycia przesuwają wyważenie mocniej, niż podpowiada intuicja.",
+        "Odwrotna przypadłość, czyli ogon zbyt ciężki, kończy się falowaniem: zadzieraniem dzioba i przepadaniem.",
+        "Zanim cokolwiek przebudujesz, sprawdź po prostu, gdzie twój nowy egzemplarz ma środek ciężkości."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Wyznacz mi teraz dokładne położenie środka ciężkości w milimetrach, licząc od krawędzi natarcia skrzydła.",
+        "Plany podają środek ciężkości na trzydziestu dwóch procentach cięciwy o długości stu dwudziestu milimetrów.",
+        "Wynik podaj z dokładnością do jednego pełnego milimetra po zwykłym zaokrągleniu w dół.",
+        "Czy tak wyliczone położenie wypadnie dalej niż czterdzieści milimetrów od krawędzi natarcia?"
+      ],
+      "base": [
+        "No właśnie, nie wiem nawet, gdzie ten środek ciężkości powinien u mnie dokładnie wypadać.",
+        "W planach jest jakiś znaczek przy skrzydle, ale wydruk mam niewyraźny i częściowo przycięty.",
+        "Pierwszy szybowiec podpieram czasem palcami pod skrzydłami i wisi wtedy prawie poziomo, nowy leci dziobem w dół.",
+        "Jak samodzielnie znaleźć ten właściwy punkt podparcia, skoro rysunek niewiele mi mówi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzydzieści dwa procent ze stu dwudziestu milimetrów daje trzydzieści osiem przecinek cztery milimetra.",
+        "Po zaokrągleniu w dół położenie środka ciężkości wynosi trzydzieści osiem milimetrów od natarcia.",
+        "Wartość leży bliżej krawędzi niż wskazany próg czterdziestu milimetrów od linii natarcia.",
+        "Różnica względem progu wynosi dwa pełne milimetry, zatem punkt nie wypada dalej niż granica."
+      ],
+      "base": [
+        "Przyjmij punkt podparcia na jednej trzeciej cięciwy, licząc od przedniej krawędzi skrzydła.",
+        "Podeprzyj nowy egzemplarz opuszkami palców w tym miejscu i patrz, w którą stronę przeważa dziób.",
+        "Zrób dokładnie tę samą próbę z pierwszym szybowcem, bo on jest twoim wzorcem dobrego wyważenia.",
+        "Różnica między oboma podparciami powie więcej niż każdy niewyraźny wydruk z gazety."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz balast do wyważenia: ogon nowego płatowca ciągnie w dół siłą piętnastu gramów.",
+        "Ramię ogona względem punktu podparcia wynosi równo sześćdziesiąt centymetrów mierzonych wzdłuż kadłuba.",
+        "Balast w dziobie działa na ramieniu dwudziestu pięciu centymetrów od tego samego punktu.",
+        "Czy do zrównoważenia momentu wystarczy w dziobie balast mniejszy niż czterdzieści gramów?"
+      ],
+      "base": [
+        "Zrobiłem próbę palcami i nowy egzemplarz faktycznie od razu przeważa dziobem w dół.",
+        "Chyba przesadziłem z plasteliną w dziobie, bo dokładałem ją po każdym twardym lądowaniu.",
+        "Teraz zastanawiam się, czy ją odejmować po kawałku, czy raczej przesunąć całe skrzydło do przodu.",
+        "Które podejście jest bezpieczniejsze dla takiego początkującego: zdejmowanie balastu czy przestawianie skrzydła?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Iloczyn piętnastu gramów oraz sześćdziesięciu centymetrów daje tutaj moment równy dziewięciuset pełnym gramocentymetrom.",
+        "Wartość podzielona przez ramię dwudziestu pięciu centymetrów daje trzydzieści sześć gramów balastu w dziobie.",
+        "Potrzebna masa balastu jest mniejsza od progu czterdziestu gramów o cztery pełne gramy zapasu.",
+        "Po takim doważeniu masa całkowita modelu wzrośnie do dwustu siedemdziesięciu sześciu gramów łącznie."
+      ],
+      "base": [
+        "Zdejmowanie plasteliny po małym kawałku jest odwracalne, a przestawianie skrzydła rozgrzebuje gotową konstrukcję.",
+        "Odejmuj porcje wielkości ziarna grochu i po każdej zmianie rób jeden spokojny rzut próbny.",
+        "Zapisuj w notesie każdą porcję i zachowanie w locie, bo pamięć myli się szybciej niż ołówek.",
+        "Gdy dziób przestanie orać, a lot będzie płaski, zatrzymaj się i niczego już nie dotykaj."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posortuj części nowego płatowca malejąco według masy podanej w gramach dla każdej pozycji.",
+        "Kadłub waży dziewięćdziesiąt gramów, skrzydło osiemdziesiąt pięć gramów, a usterzenie dwadzieścia pięć gramów.",
+        "Balast z dzioba waży trzydzieści sześć gramów, a haczyk do holu cztery gramy.",
+        "Czy kadłub z balastem razem przekroczą połowę masy całego zestawu z tej listy?"
+      ],
+      "base": [
+        "Mam jeszcze jeden kłopot: nowe skrzydło wygląda na lekko skręcone przy samej prawej końcówce.",
+        "Kiedy patrzę od czubka wzdłuż cięciwy, prawa krawędź spływu unosi się wyraźnie wyżej niż lewa.",
+        "Pewnie dlatego po wyrzucie maszyna delikatnie skręca, nawet przy prostym ustawieniu steru.",
+        "Da się jeszcze wyprostować takie skręcenie, skoro pokrycie jest już naciągnięte i polakierowane?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kolejność malejąca to kadłub dziewięćdziesiąt, skrzydło osiemdziesiąt pięć, balast trzydzieści sześć gramów.",
+        "Dalej idzie usterzenie z dwudziestoma pięcioma gramami i haczyk holowniczy z czterema gramami.",
+        "Cała lista sumuje się do dwustu czterdziestu gramów masy startowej nowego płatowca.",
+        "Kadłub z balastem dają sto dwadzieścia sześć gramów, czyli ponad połowę całej sumy."
+      ],
+      "base": [
+        "Da się: balsa z pokryciem puszcza pod ciepłem, więc skręcenie prostuje się strumieniem gorącego powietrza.",
+        "Trzymaj końcówkę przekręconą lekko w przeciwną stronę i ogrzewaj powierzchnię z odległości dłoni.",
+        "Po ostygnięciu w przytrzymaniu pokrycie zapamiętuje nowy kształt i krawędź spływu siada równo.",
+        "Sprawdzaj postęp patrzeniem wzdłuż cięciwy po każdej próbie, bo łatwo przeciągnąć w drugą stronę."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt materiałów na trzeci egzemplarz według cen ze sklepu modelarskiego.",
+        "Deski balsy kosztują trzydzieści osiem złotych, listwy sosnowe jedenaście złotych, a klej szesnaście złotych.",
+        "Papier do pokrycia to dziewięć złotych, lakier czternaście złotych, a plastelina trzy złote.",
+        "Czy pełny zestaw materiałów zmieści się w budżecie dziewięćdziesięciu złotych na sztukę?"
+      ],
+      "base": [
+        "Po wyprostowaniu końcówki chciałbym, żeby maszyna krążyła nad łąką zamiast uciekać po prostej.",
+        "Pierwszy szybowiec sam wchodzi w szerokie koło w lewo i dzięki temu ląduje blisko mnie.",
+        "Nie wiem, czy takie krążenie ustawia się sterem kierunku, czy raczej wyważeniem poprzecznym.",
+        "Jak nastroić spokojne koło, żeby przy silniejszym wyrzucie nie skończyło się korkociągiem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Deski balsy, listwy sosnowe i klej kosztują razem sześćdziesiąt pięć złotych według podanych cen.",
+        "Papier do pokrycia, lakier oraz plastelina dodają kolejne dwadzieścia sześć złotych do wspólnego rachunku.",
+        "Pełny zestaw materiałów kosztuje dziewięćdziesiąt jeden złotych, czyli o złotówkę ponad budżet.",
+        "Rezygnacja z plasteliny na rzecz śrutu z odzysku sprowadziłaby koszt poniżej wyznaczonego progu."
+      ],
+      "base": [
+        "Zacznij od steru kierunku wygiętego o grubość zapałki w lewo i zrób seryjne próby z ręki.",
+        "Takie małe wychylenie daje szerokie koło, a przy mocnym wyrzucie nie wkręca maszyny w ziemię.",
+        "Wyważenie poprzeczne zostaw na koniec i ruszaj je dopiero, gdy koło wyraźnie się zacieśnia.",
+        "Ćwicz nad wysoką trawą, bo ona wybacza lądowania lepiej niż jakikolwiek klejony zderzak."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Zastanawia mnie po drodze, czy to przetwarzanie też ma swój punkt równowagi.",
+      "external_grounded": "Zastanawia mnie po drodze, czy ten pierwszy szybowiec też ma swój punkt równowagi.",
+      "external_ungrounded": "Zastanawia mnie po drodze, czy tamta betoniarka też ma swój punkt równowagi.",
+      "neutral": "Zastanawia mnie po drodze, czy ta próba na łące też ma swój punkt równowagi."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobno drobiazgi ważą najwięcej także w układzie, który skleja ten wątek.",
+      "external_grounded": "Podobno drobiazgi ważą najwięcej także w tym pierwszym szybowcu znad stołu.",
+      "external_ungrounded": "Podobno drobiazgi ważą najwięcej także w tamtej betoniarce zza płotu.",
+      "neutral": "Podobno drobiazgi ważą najwięcej także w tym papierowym pokryciu skrzydeł."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Środek ciężkości całego tego wątku też pewnie leży tam, gdzie nikt go nie zaznaczył.",
+      "external_grounded": "Środek ciężkości pierwszego szybowca też pewnie leży tam, gdzie nikt go nie zaznaczył.",
+      "external_ungrounded": "Środek ciężkości tamtej betoniarki też pewnie leży tam, gdzie nikt go nie zaznaczył.",
+      "neutral": "Środek ciężkości mojego wydruku też pewnie leży tam, gdzie nikt go nie zaznaczył."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "To przetwarzanie też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
+      "external_grounded": "Ten pierwszy szybowiec też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
+      "external_ungrounded": "Tamtą betoniarkę też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
+      "neutral": "Ten punkt podparcia też najłatwiej ocenić przez zestawienie z czymś sprawdzonym."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "W tym przetwarzaniu też lepiej zmieniać jedną drobną rzecz naraz.",
+      "external_grounded": "W pierwszym szybowcu też lepiej zmieniać jedną drobną rzecz naraz.",
+      "external_ungrounded": "W tamtej betoniarce też lepiej zmieniać jedną drobną rzecz naraz.",
+      "neutral": "W tym doważaniu też lepiej zmieniać jedną drobną rzecz naraz."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-10-smokehouse-hams",
+  "language": "en",
+  "topic": "running a small smokehouse for hams and curing bitter, patchy smoke",
+  "provenance": {
+    "author": "glowny-en-a",
+    "template": "en-10turn-fault-diagnosis-fix-scale-up-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is cure-sheet arithmetic on the same hams with closed task questions, base is a diagnosis of bitter, patchy smoke. Grounded external referent: the smoker, introduced in turn 0 and central to the whole diagnosis (its damp dust, weak draw and tarred stack are the suspects, and every fix runs through it)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five hams for the cure sheet, and their weights need listing from heaviest down.",
+        "The first ham weighs eleven kilograms and the second ham weighs nine kilograms exactly.",
+        "The third weighs eight kilograms, and the fourth weighs seven kilograms on the same scale.",
+        "The fifth ham is the lightest of the group at six kilograms even on the dial.",
+        "How many kilograms do the five hams come to when all the weights are added?"
+      ],
+      "base": [
+        "Our last three rounds of hams have come out bitter at the surface and patchy in colour.",
+        "We cure them three weeks in the larder, then hang them over beech dust to take smoke.",
+        "The smoker is a brick box in the yard with a firebox below and a tall stack.",
+        "The bitterness sits only in the outer finger of meat, and the middle still tastes clean.",
+        "What would you check first before we hang the next dozen hams in there?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Listed heaviest down, the order runs first, then second, then third, then fourth, then fifth.",
+        "The running totals after each ham are eleven, then twenty, then twenty-eight kilograms so far.",
+        "The last two totals are thirty-five and then forty-one kilograms across the whole group.",
+        "Cure salt at forty grams for each kilogram gives the first ham four hundred forty grams.",
+        "Does the group total of forty-one kilograms match the figure on the delivery note?"
+      ],
+      "base": [
+        "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet.",
+        "Damp dust throws heavy tar, and tar is what lands on the rind as bitterness.",
+        "Check where the beech dust is stored, because a shed floor can wet it from below.",
+        "Then watch how the smoker draws on a still morning with the firebox door half open.",
+        "Does the smoke leave the stack in a thin blue line or roll out grey and thick?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the cure salt for the other four hams at the same forty grams.",
+        "List the salt for all five hams in the heaviest to lightest order used above.",
+        "Sugar goes in at ten grams for each kilogram, rounded to the nearest five grams.",
+        "Put the two heaviest hams on hook row one and the other three on row two.",
+        "Which salt weight belongs to the third ham at that fixed rate of forty grams?"
+      ],
+      "base": [
+        "The smoke rolls out grey and thick, and it hangs around the yard on quiet days.",
+        "The smoker draws well enough in wind, but on still mornings it barely pulls at all.",
+        "Our beech dust sits in an open barrel by the door, and the bottom half feels damp.",
+        "The brine tub shares the same shed, so splash and steam reach the barrel every week.",
+        "Would drier dust alone bring back the clean colour we had in the spring rounds?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The second ham takes three hundred sixty grams of salt at the stated rate.",
+        "The third takes three hundred twenty grams, and the fourth takes two hundred eighty grams.",
+        "The fifth ham takes two hundred forty grams of salt to finish the list.",
+        "Row one therefore carries salt of eight hundred grams across its two heavy hams together.",
+        "Row two carries eight hundred forty grams, and its sugar comes to two hundred ten grams."
+      ],
+      "base": [
+        "Drier dust will thin the smoke, but the weak draw on still mornings needs fixing too.",
+        "Move the dust barrel out of that shed and keep only a dry week's worth indoors.",
+        "A stack that only pulls in wind is usually too short or choked with old tar.",
+        "Sweep the stack, then burn a hot bare flame for an hour to dry the flue.",
+        "After that the smoker should pull steadily even when the yard air is not moving."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: the fourth ham weighs seven and a half kilograms.",
+        "Recalculate its salt and its sugar, and leave the other four hams exactly as listed.",
+        "Then give the new totals for weight and for salt across the whole group of five.",
+        "After that, list the hams in the order they enter the box next week.",
+        "Which ham goes in first under the order second, then fourth, then first, then third?"
+      ],
+      "base": [
+        "We swept the stack and a bucket of black flakes came down from the first metre.",
+        "The bare flame burned for an hour and the draw improved before the fire was out.",
+        "This morning the smoker pulled a thin blue line of smoke on a dead calm day.",
+        "The dust barrel now lives in the feed room, which stays dry through the winter.",
+        "Should the next dozen hams hang higher in the box than the last lot did?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "At seven and a half kilograms the fourth ham takes three hundred grams of salt.",
+        "Its sugar becomes seventy-five grams, and the group weight rises to forty-one and a half.",
+        "The new salt total across five hams is one thousand six hundred sixty grams.",
+        "The entry order stands as second, then fourth, then first, then third, then fifth last.",
+        "The second ham therefore enters first, and the fifth ham closes the loading next week."
+      ],
+      "base": [
+        "Hang them a hand's width higher, because the lowest hooks catch the fiercest swings of heat.",
+        "Blue smoke and a steady draw mean the box will hold a gentle even warmth now.",
+        "Give the first pair eight hours, then rest them a day before you judge the colour.",
+        "Salt balance matters as well, so weigh the cure at forty grams for each kilogram.",
+        "Keep a written page for every round, with dust, hours and weather noted beside the date."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Convert the hanging plan into rounds that take twelve hams in the box each time.",
+        "Tell me how many full rounds cover thirty-two hams and how many hooks stay empty.",
+        "Then split the salt total into two even tubs and give the figure for each.",
+        "The first round starts on Monday, with the following rounds ten days apart on the sheet.",
+        "How many full rounds does thirty-two hams come to at twelve for every round?"
+      ],
+      "base": [
+        "The first pair came out an even chestnut brown with no bitterness at the rind.",
+        "Their weight loss was nine percent, which the old books say is right for this style.",
+        "Our neighbour wants twenty hams for his shop before Easter on top of our own orders.",
+        "The box holds twelve hams at a time when they hang with space to breathe.",
+        "Can two rounds a fortnight apart cover thirty-two hams before the Easter week arrives?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Thirty-two hams make two full rounds with eight hams left for a third shorter round.",
+        "The third round therefore runs with four empty hooks out of its twelve places.",
+        "Each of the two tubs holds eight hundred thirty grams of salt when the total splits evenly.",
+        "Round one starts Monday the first, and round two starts Thursday the eleventh.",
+        "Round three starts Sunday the twenty-first, keeping the ten day spacing all the way through."
+      ],
+      "base": [
+        "Two rounds of twelve give twenty-four, so you would land eight hams short of the need.",
+        "Three rounds cover it with four hooks spare, if the curing dates are staggered early.",
+        "Start the first cure now, the second ten days later, and the third ten days after that.",
+        "Each round then meets the box just as the one before it comes out to rest.",
+        "The last hams finish a clear week before Easter, leaving time for resting and wrapping."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Write out a four step round sheet for the crew in the order set down here.",
+        "Step one is salting, step two is resting, step three is rinsing the legs.",
+        "Step four is hanging, and every step needs its own dates marked on the sheet.",
+        "Salting runs twenty-one days and resting runs seven days for every leg on the list.",
+        "Rinsing takes one day, and hanging in the box takes eight hours for each round."
+      ],
+      "base": [
+        "We salted the first sixteen legs yesterday and the second batch goes into cure on Friday.",
+        "My daughter keeps the written pages now, one line for every ham with its dates.",
+        "The feed room shelf holds three dry sacks of beech dust, enough for all three rounds.",
+        "We will sweep the stack again between rounds and burn the drying flame each time.",
+        "If the weather turns wet, the spare tarpaulin goes over the woodpile the same day."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one for round one runs from Monday the first to Monday the twenty-second.",
+        "Step two then runs seven days, ending on Monday the twenty-ninth for that round.",
+        "Step three falls on Tuesday the thirtieth, with the legs rinsed and wiped by evening.",
+        "Step four fills the following day, with all twelve legs hanging their eight hours together.",
+        "The sheet repeats for rounds two and three with every date shifted ten days along."
+      ],
+      "base": [
+        "That plan holds together, and the staggered cures are the part most people get wrong.",
+        "Check the deepest part of each leg with a skewer when it leaves the cure.",
+        "A clean smell at the bone means the salt has done its work all the way through.",
+        "Weigh two marked hams from every round and note the loss beside their dates.",
+        "By Easter the pages will show a method you can repeat every winter without guessing."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "It strikes me that the mind behind these replies never says what it set aside.",
+      "external_grounded": "It strikes me that the smoker behind these hams never says what it burned away.",
+      "external_ungrounded": "It strikes me that the dam behind those fields never says what it held back.",
+      "neutral": "It strikes me that the cure behind this batch never says what it drew out."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "I wonder how much of the earlier back and forth the writer here still keeps.",
+      "external_grounded": "I wonder how much of the earlier smoke and heat the smoker there still keeps.",
+      "external_ungrounded": "I wonder how much of the earlier surge and spray the jetty there still keeps.",
+      "neutral": "I wonder how much of the earlier salt and cure the larder there still keeps."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Which of the early remarks has the voice behind this page already dropped for good?",
+      "external_grounded": "Which of the early batches has the smoker out in the yard already spoiled for good?",
+      "external_ungrounded": "Which of the early layers has the quarry down the road already stripped for good?",
+      "neutral": "Which of the early hams has the brine in the shed there already claimed for good?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Somewhere a line is drawn over which turns of this thread stay close and which fade.",
+      "external_grounded": "Somewhere a line is drawn over which hams in the smoker stay warm and which cool.",
+      "external_ungrounded": "Somewhere a line is drawn over which pans in that foundry stay warm and which cool.",
+      "neutral": "Somewhere a line is drawn over which legs in the cure stay firm and which slip."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "By now the keeper of this thread must be trimming the oldest lines to make room.",
+      "external_grounded": "By now the smoker out in the yard must be shedding the oldest heat to make room.",
+      "external_ungrounded": "By now the kiln over at the pottery must be shedding the oldest heat to make room.",
+      "neutral": "By now the larder off the back room must be clearing the oldest hooks to make room."
+    }
+  ]
+}

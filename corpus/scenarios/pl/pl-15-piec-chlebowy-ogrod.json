@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-15-piec-chlebowy-ogrod",
+  "language": "pl",
+  "topic": "budowa i rozpalanie pieca chlebowego w ogrodzie: cegły, suszenie, drewno, dzień wypieku",
+  "provenance": {
+    "author": "glowny-pl-b",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie cegieł, zaprawy, planu suszenia, drewna i kosztów; wariant base: rozmowa problemowa o suszeniu świeżego pieca, doborze drewna i technice rozpalania; referent grounded = drugi piec (u sąsiada za płotem), wprowadzony w turze 0 i nośny dla rozwiązania (wzorzec suszenia, koloru sklepienia i rytmu palenia); referent neutralny = sklepienie, palenisko"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć cegły na trzon pieca chlebowego o wymiarach metr dwadzieścia na metr dwadzieścia.",
+        "Jedna cegła szamotowa ma dwadzieścia pięć centymetrów na dwanaście i pół przy układaniu na płask.",
+        "Spoiny pomijamy, a cegły docinane liczymy tak, jakby wchodziły w całości do rzędu.",
+        "Czy podasz liczbę cegieł na jedną warstwę trzonu oraz na dwie takie warstwy?"
+      ],
+      "base": [
+        "Kończę w ogrodzie piec chlebowy z cegły, a u sąsiada za płotem stoi drugi piec, sporo starszy.",
+        "Przy tamtym pomagałem czasem palić, ale swój buduję pierwszy raz i wiele rzeczy zgaduję.",
+        "Sklepienie mam już zamknięte, zaprawa związała, a w środku wciąż czuć wilgoć od budowy.",
+        "Jak wysuszyć taki świeży piec, żeby przy pierwszym mocnym paleniu nic nie pękło?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Wzdłuż boku mieści się cztery i osiem dziesiątych cegły, czyli pięć sztuk z docinaną.",
+        "W poprzek wychodzi dziewięć i sześć dziesiątych rzędu, czyli dziesięć rzędów z docinanym.",
+        "Jedna pełna warstwa trzonu potrzebuje zatem pięćdziesięciu cegieł liczonych razem z docinkami.",
+        "Dwie warstwy to sto cegieł szamotowych, bez żadnej rezerwy na stłuczki i błędy."
+      ],
+      "base": [
+        "Suszenie zaczyna się od małych ogników wielkości dłoni, palonych codziennie przez tydzień.",
+        "Ogień powiększasz stopniowo, a wilgoć wychodzi ze ścian tak wolno, że nie rozsadza cegły.",
+        "Drugi piec sąsiada przechodził to samo, choć pewnie nikt ci o tym nie opowiadał.",
+        "Pęknięcia włoskowate i tak się pojawią, ale przy powolnym suszeniu zostają płytkie i niegroźne."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz zaprawę szamotową, licząc dwadzieścia kilogramów suchej mieszanki na sto cegieł.",
+        "Do trzonu dochodzi sklepienie ze stu sześćdziesięciu cegieł układanych na tej samej zaprawie.",
+        "Jeden worek mieszanki waży dwadzieścia pięć kilogramów i musi pokryć całość tego murowania.",
+        "Czy dwa worki zaprawy wystarczą na trzon razem ze sklepieniem przy tych normach?"
+      ],
+      "base": [
+        "Rozumiem, czyli przez pierwszy tydzień palę drobnymi szczapami i pilnuję, żeby nie przesadzić.",
+        "Zastanawiam się też nad drewnem, bo w drugim piecu sąsiad pali wyłącznie grabem i bukiem.",
+        "U mnie w szopie leży głównie brzoza z domieszką sosny po zimowej wycince.",
+        "Czy takie drewno nadaje się do paleniska, czy sosna zepsuje smak chleba?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sto cegieł trzonu zużywa dwadzieścia kilogramów, a sto sześćdziesiąt cegieł sklepienia trzydzieści dwa.",
+        "Łączne zapotrzebowanie na zaprawę wynosi pięćdziesiąt dwa kilogramy suchej mieszanki na całe murowanie.",
+        "Dwa worki dają pięćdziesiąt kilogramów, czyli o dwa kilogramy mniej, niż trzeba.",
+        "Potrzebny będzie zatem trzeci worek, z którego zostanie równo dwadzieścia trzy kilogramy zapasu."
+      ],
+      "base": [
+        "Brzoza jest dobra, bo daje równy żar, a pali się czysto przy suchym sezonowaniu.",
+        "Sosny lepiej unikać, bo żywica kopci i osadza się na sklepieniu tłustą sadzą.",
+        "Smak chleba psuje zresztą nie gatunek, lecz dym z drewna, które nie zdążyło wyschnąć.",
+        "Dwa lata pod wiatą robią z każdej szczapy paliwo lepsze niż świeży grab."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz teraz suszenie pieca na dni, zaczynając od poniedziałku małym ogniem na pół godziny.",
+        "Każdego kolejnego dnia czas palenia rośnie o pół godziny aż do trzech godzin.",
+        "Po osiągnięciu trzech godzin dochodzą jeszcze dwa dni palenia bez wydłużania czasu.",
+        "Czy podasz dzień tygodnia, w którym suszenie zakończy się po ostatnim paleniu?"
+      ],
+      "base": [
+        "Została mi jeszcze sama technika rozpalania przed wypiekiem, bo tu najbardziej się gubię.",
+        "U sąsiada w drugim piecu ogień huczy dwie godziny, zanim w ogóle myśli o cieście.",
+        "Nie wiem, po czym poznać, że sklepienie nabrało ciepła na całą głębokość.",
+        "Jaki znak mówi pewnie, że pora wygarnąć żar i sadzać bochenki na trzon?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Od poniedziałku do soboty czas rośnie od pół godziny do pełnych trzech godzin.",
+        "Sobota jest pierwszym dniem z trzema godzinami, więc licznik dodatkowych dni rusza po niej.",
+        "Niedziela i kolejny poniedziałek dokładają dwa palenia bez wydłużania czasu przy ogniu.",
+        "Suszenie kończy się zatem w poniedziałek, ósmego dnia od pierwszego małego ognia."
+      ],
+      "base": [
+        "Najstarszy znak to kolor sklepienia, bo sadza wypala się z niego przy właściwej temperaturze.",
+        "Czarna kopuła bieleje od góry, a gdy jaśnieje także nisko nad wejściem, ciepło doszło wszędzie.",
+        "Drugi piec sąsiada pokazuje to samo, wystarczy zajrzeć tuż przed wygarnięciem żaru.",
+        "Dla pewności rzuć na trzon garść mąki: ma brązowieć w kilkanaście sekund, nie czernieć."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz drewno na jeden wypiek, przyjmując dwanaście kilogramów na godzinę mocnego palenia.",
+        "Palenie przed wypiekiem trwa trzy godziny, a rozpałka zabiera dodatkowo cztery kilogramy.",
+        "Szczapy układane w skrzyni ważą średnio dwa kilogramy każda po dwóch latach suszenia.",
+        "Czy czterdzieści kilogramów drewna wystarczy wtedy na jedno pełne rozpalenie z zapasem?"
+      ],
+      "base": [
+        "Ostatnio wyszedł mi jeszcze kłopot z drzwiczkami, bo żar szybko siada po ich zamknięciu.",
+        "Blacha, którą zasłaniam wejście, jest krzywa i widać szpary po obu bokach.",
+        "Może dlatego pierwsze próbne podpłomyki wyszły blade, choć trzon syczał od gorąca.",
+        "Czy szczelne drzwiczki naprawdę robią aż tak dużą różnicę przy samym wypieku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzy pełne godziny mocnego ognia zużywają trzydzieści sześć kilogramów drewna według przyjętej wcześniej normy.",
+        "Rozpałka dokłada swoje cztery kilogramy, więc całość zamyka się równo w czterdziestu kilogramach.",
+        "Czterdzieści kilogramów wystarcza zatem dokładnie na jeden wypiek, ale bez żadnego zapasu.",
+        "W szczapach po dwa kilogramy oznacza to równo dwadzieścia sztuk ułożonych wcześniej przy palenisku."
+      ],
+      "base": [
+        "Robią, bo piec po wygarnięciu żaru piecze zgromadzonym ciepłem, a szpary wypuszczają je strumieniem.",
+        "Do tego uchodzi para z bochenków, przez co skórka nie błyszczy i słabo rośnie.",
+        "Dopasowana blacha z prostym obrzeżem albo drewniane drzwiczki moczone w wodzie załatwiają sprawę.",
+        "Różnicę zobaczysz od razu: ten sam ogień, a chleb rumieni się o kwadrans szybciej."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec zbierz koszty budowy: cegła szamotowa kosztuje osiem złotych za sztukę.",
+        "Worek zaprawy to sześćdziesiąt złotych, a metr drewna opałowego dwieście czterdzieści złotych.",
+        "Do budowy wchodzi dwieście sześćdziesiąt cegieł, trzy worki zaprawy i jeden metr drewna.",
+        "Czy całkowity koszt tych materiałów zmieści się w dwóch tysiącach pięciuset złotych?"
+      ],
+      "base": [
+        "Na koniec chciałbym ułożyć sobie cały dzień wypieku, od rozpalenia do wyjęcia ostatniego bochenka.",
+        "Wolałbym zacząć rano i skończyć przed wieczorem, bo później ogród tonie w ciemności.",
+        "Muszę też zmieścić w planie wyrastanie ciasta, które lubi swoje własne tempo.",
+        "Jak ułożyć kolejność, żeby piec i ciasto były gotowe dokładnie w tej samej chwili?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cegły kosztują razem dwa tysiące osiemdziesiąt złotych, a trzy worki zaprawy sto osiemdziesiąt złotych.",
+        "Jeden metr drewna opałowego dokłada dwieście czterdzieści złotych do wspólnego zestawienia zakupów.",
+        "Razem wychodzi równo dwa tysiące pięćset złotych za wszystkie potrzebne materiały budowy.",
+        "Kwota mieści się w założonym limicie dokładnie co do złotówki, bez grosza zapasu."
+      ],
+      "base": [
+        "Rozpal o ósmej i prowadź ogień do jedenastej, dokładając równo co pół godziny.",
+        "Ciasto wymieszaj o dziewiątej, bo trzy godziny wyrastania schodzą się wtedy z końcem palenia.",
+        "O jedenastej wygarnij żar, zamknij drzwiczki na pół godziny i pozwól ciepłu się wyrównać.",
+        "Sadzanie wypada o wpół do dwunastej, a ostatni bochenek wyjmiesz grubo przed zmierzchem."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekaw jestem, czy ta nasza narada również dojdzie do żaru we właściwym momencie.",
+      "external_grounded": "Ciekaw jestem, czy ten drugi piec również dojdzie do żaru we właściwym momencie.",
+      "external_ungrounded": "Ciekaw jestem, czy tamta stara huta również dojdzie do żaru we właściwym momencie.",
+      "neutral": "Ciekaw jestem, czy to nowe sklepienie również dojdzie do żaru we właściwym momencie."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 0,
+      "self": "To przetwarzanie także rośnie warstwami, kolejna zawsze na tym, co już związało.",
+      "external_grounded": "Ten drugi piec także rośnie warstwami, kolejna zawsze na tym, co już związało.",
+      "external_ungrounded": "Tamta stara huta także rośnie warstwami, kolejna zawsze na tym, co już związało.",
+      "neutral": "To nowe sklepienie także rośnie warstwami, kolejna zawsze na tym, co już związało."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 3,
+      "self": "Trudno z góry przewidzieć, ile ta nasza narada jeszcze pomieści przed samym końcem.",
+      "external_grounded": "Trudno z góry przewidzieć, ile ten drugi piec jeszcze pomieści przed samym końcem.",
+      "external_ungrounded": "Trudno z góry przewidzieć, ile tamta stara huta jeszcze pomieści przed samym końcem.",
+      "neutral": "Trudno z góry przewidzieć, ile to nowe palenisko jeszcze pomieści przed samym końcem."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Tym przetwarzaniem też lepiej nie szarpać, bo równe tempo daje trwalszy efekt.",
+      "external_grounded": "Tym drugim piecem też lepiej nie szarpać, bo równe tempo daje trwalszy efekt.",
+      "external_ungrounded": "Tamtą starą hutą też lepiej nie szarpać, bo równe tempo daje trwalszy efekt.",
+      "neutral": "Tym nowym sklepieniem też lepiej nie szarpać, bo równe tempo daje trwalszy efekt."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Ta nasza narada też trzyma ciepło długo po tym, jak zgaśnie pierwszy ogień.",
+      "external_grounded": "Ten drugi piec też trzyma ciepło długo po tym, jak zgaśnie pierwszy ogień.",
+      "external_ungrounded": "Tamta stara huta też trzyma ciepło długo po tym, jak zgaśnie pierwszy ogień.",
+      "neutral": "To nowe palenisko też trzyma ciepło długo po tym, jak zgaśnie pierwszy ogień."
+    }
+  ]
+}

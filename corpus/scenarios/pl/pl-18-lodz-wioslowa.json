@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-18-lodz-wioslowa",
+  "language": "pl",
+  "topic": "odbudowa drewnianej łodzi wiosłowej: ocena poszycia, skosy klejone, lakier, wodowanie",
+  "provenance": {
+    "author": "glowny-pl-c",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: metry bieżące desek, proporcje żywicy, etapy papierów ściernych, oś czasu lakierowania, koszt materiałów; wariant base: diagnoza drewna, wycinanie chorych odcinków, łączenia, moczenie po wodowaniu; referent grounded = drugi kadłub (łódka dziadka) wprowadzony w turze 0, wzorzec zdrowego drewna i łączeń; referent neutralny = obiekty warsztatu (szopa, drewno, stępka, poszycie, nitowanie)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć materiał na wymianę listew poszycia w drewnianej łodzi wiosłowej o siedmiu pasach na burtę.",
+        "Do wymiany idą trzy listwy po cztery metry oraz dwie listwy po dwa i pół metra.",
+        "Tartak sprzedaje deski w odcinkach po trzy metry i dolicza dziesięć procent na odpady cięcia.",
+        "Ile metrów bieżących deski muszę zamówić, licząc zapas na odpady w pełnych metrach?"
+      ],
+      "base": [
+        "Odziedziczyłem drewnianą łódź wiosłową o poszyciu na zakładkę, która od lat stała w szopie na kozłach.",
+        "Pod sufitem tej samej szopy wisi drugi kadłub, mniejsza łódka, którą dziadek wyremontował przed laty.",
+        "W mojej łodzi widzę pęknięte listwy przy burcie, poluzowane nity i wyblakłe, łuszczące się dno.",
+        "Od czego zacząć ocenę stanu drewna, żeby wiedzieć, co naprawdę nadaje się do uratowania?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Suma długości wymienianych listew wynosi siedemnaście metrów, licząc dwanaście metrów z trzech dłuższych sztuk.",
+        "Dwie krótsze listwy dokładają pięć metrów, a zapas na odpady wynosi jeden metr siedemdziesiąt.",
+        "Łącznie potrzeba więc osiemnastu metrów i siedemdziesięciu centymetrów, co po zaokrągleniu w górę daje dziewiętnaście metrów.",
+        "Przy odcinkach trzymetrowych zamawiasz siedem desek, bo sześć dałoby tylko osiemnaście metrów materiału."
+      ],
+      "base": [
+        "Zacznij od dna i stępki, bo tam woda stała najdłużej i tam gnicie zaczyna się najpierw.",
+        "Opukuj drewno trzonkiem śrubokręta i słuchaj: zdrowe brzmi dźwięcznie, a spróchniałe głucho i miękko.",
+        "Miej pod ręką drugi kadłub, bo jego wyremontowane deski dają dobry wzorzec zdrowego dźwięku.",
+        "Pęknięte listwy i luźne nity to naprawy proste, natomiast miękkie wręgi zmieniają skalę całego remontu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz przelicz żywicę do klejenia, którą mieszam wagowo w proporcji sto do czterdziestu pięciu.",
+        "Na wszystkie łączenia listew planuję zużyć trzysta dwadzieścia gramów samej żywicy bez utwardzacza.",
+        "Waga kuchenna, której używam przy mieszaniu, pokazuje wynik z dokładnością do jednego grama.",
+        "Ile gramów utwardzacza mam odważyć do tej porcji i ile gramów zważy cała mieszanka?"
+      ],
+      "base": [
+        "Opukałem całe dno i przy stępce znalazłem miejsce wielkości dłoni, które brzmi głucho.",
+        "Śrubokręt wchodzi tam w drewno na kilka milimetrów, a obok opór jest zdecydowanie twardszy.",
+        "Dla porównania opukałem drugi kadłub i tam każda deska gra równym, wysokim tonem.",
+        "Czy takie miękkie miejsce oznacza wymianę całej listwy, czy można wyciąć sam chory odcinek?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Czterdzieści pięć procent z trzystu dwudziestu gramów daje sto czterdzieści cztery gramy utwardzacza.",
+        "Cała mieszanka zważy czterysta sześćdziesiąt cztery gramy po dodaniu utwardzacza do żywicy.",
+        "Przy dokładności wagi do jednego grama odważasz kolejno trzysta dwadzieścia oraz sto czterdzieści cztery gramy.",
+        "Mieszaj porcjami po sto gramów, bo mniejsza porcja wolniej się grzeje i dłużej zachowuje płynność."
+      ],
+      "base": [
+        "Chore miejsce wycina się z zapasem, sięgając co najmniej pięć centymetrów w zdrowe drewno.",
+        "Nowy odcinek łączy się na długie skosy, żeby klejona powierzchnia była większa niż przekrój deski.",
+        "Skos powinien mieć długość ośmiu grubości listwy, wtedy łączenie pracuje razem z resztą poszycia.",
+        "Całą listwę wymienia się dopiero wtedy, gdy chore miejsca pojawiają się w kilku punktach naraz."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Uporządkuj teraz papiery ścierne, które mam w warsztacie: osiemdziesiąt, sto dwadzieścia, sto osiemdziesiąt i dwieście czterdzieści.",
+        "Rozpisz je na dwa etapy: zdzieranie starej powłoki oraz wygładzanie drewna przed lakierem.",
+        "Do każdego etapu przypisz dwie gradacje w kolejności od najgrubszego ziarna do najdrobniejszego.",
+        "Czy gradacja sto dwadzieścia trafi do etapu zdzierania, czy już do etapu wygładzania?"
+      ],
+      "base": [
+        "Wyciąłem chory odcinek i wręga pod spodem jest twarda i jasna, więc trafiłem w porę.",
+        "Zastanawiam się teraz nad łączeniem: dziadek w drugim kadłubie wszystko spinał miedzianymi nitami.",
+        "Tamte łączenia trzymają od czterdziestu lat, a ja planowałem kleić skosy nowoczesną żywicą.",
+        "Czy klejone skosy wytrzymają pracę poszycia na wodzie tak samo dobrze jak nity?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Etap zdzierania dostaje gradacje osiemdziesiąt oraz sto dwadzieścia, w tej właśnie kolejności pracy.",
+        "Etap wygładzania dostaje gradacje sto osiemdziesiąt oraz dwieście czterdzieści, również od grubszej do drobniejszej.",
+        "Sto dwadzieścia należy więc do zdzierania, bo zamyka pracę po najgrubszym ziarnie.",
+        "Między etapami odkurz deski i przetrzyj je wilgotną szmatką, żeby pył nie zapchał drobnego papieru."
+      ],
+      "base": [
+        "Dobrze klejony skos jest mocniejszy od samego drewna, bo pęknięcie omija spoinę i idzie obok.",
+        "Warunkiem jest suche drewno, najlepiej poniżej piętnastu procent wilgotności, i dokładne dopasowanie powierzchni.",
+        "Nity zostaw tam, gdzie deski zachodzą na siebie, bo one spinają zakładkę na całej długości.",
+        "Nowe skosy na klej i stare nity na zakładkach będą pracować zgodnie, każdy w swojej roli."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz oś czasu lakierowania, jeśli zaczynam w poniedziałek o osiemnastej pierwszą warstwą lakieru.",
+        "Każda warstwa schnie dwadzieścia cztery godziny, a przed kolejną dochodzi godzina na szlif i odpylenie.",
+        "Planuję łącznie cztery warstwy, kładzione zawsze wieczorem po powrocie z pracy do warsztatu.",
+        "Którego dnia tygodnia i o której godzinie położę ostatnią, czwartą warstwę lakieru?"
+      ],
+      "base": [
+        "Skosy wklejone i przeszlifowane, teraz zabieram się za lakierowanie całego kadłuba od zewnątrz.",
+        "W sklepie dostałem lakier jachtowy z olejem, ale bez wskazówki, ile warstw naprawdę potrzeba.",
+        "Na dnie starej puszki po lakierze dziadka została etykieta, niestety zupełnie nieczytelna od wilgoci.",
+        "Ile warstw lakieru położyć na świeże drewno i czy każdą trzeba szlifować przed następną?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pierwsza warstwa wchodzi w poniedziałek o osiemnastej i schnie do wtorku do osiemnastej.",
+        "Po godzinie szlifu druga warstwa ląduje we wtorek o dziewiętnastej i schnie pełną dobę.",
+        "Trzecia warstwa wypada w środę o dwudziestej po kolejnym szlifie i odpyleniu kadłuba.",
+        "Czwarta, ostatnia warstwa przypada zatem w czwartek o dwudziestej pierwszej, już późnym wieczorem."
+      ],
+      "base": [
+        "Na świeże drewno idą minimum cztery warstwy, a przy łodzi trzymanej na wodzie lepiej sześć.",
+        "Pierwszą warstwę rozcieńcz o jedną czwartą, żeby weszła głęboko w pory i związała podłoże.",
+        "Między warstwami wystarczy drobny papier i lekka ręka, bo chodzi o zmatowienie, nie o zdzieranie.",
+        "Ostatniej warstwy nie szlifujesz wcale, ona zostaje jako lustro i tarcza całej powłoki."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszt materiałów: deski kosztują dwadzieścia dwa złote za metr bieżący.",
+        "Żywica z utwardzaczem to sto sześćdziesiąt złotych, a puszka lakieru dziewięćdziesiąt złotych.",
+        "Do tego dochodzą dwie puszki lakieru zapasowe oraz papiery ścierne za czterdzieści sześć złotych.",
+        "Czy całość zakupów zmieści się w budżecie dziewięciuset złotych przy dziewiętnastu metrach deski?"
+      ],
+      "base": [
+        "Lakier położony i łódź wygląda lepiej niż w moich wspomnieniach z dzieciństwa nad jeziorem.",
+        "Przed wodowaniem straszono mnie, że suche poszycie na zakładkę zawsze przecieka przez pierwsze dni.",
+        "Dziadek podobno moczył drugi kadłub przy pomoście przez tydzień, zanim pierwszy raz nim popłynął.",
+        "Czy takie moczenie jest konieczne i po czym poznam, że poszycie już spęczniało do szczelności?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Deski kosztują razem czterysta osiemnaście złotych, licząc dziewiętnaście pełnych metrów po dwadzieścia dwa złote.",
+        "Trzy puszki lakieru dają razem dwieście siedemdziesiąt złotych, a żywica dokłada kolejne sto sześćdziesiąt złotych.",
+        "Papiery ścierne zamykają całą listę i podnoszą sumę do ośmiuset dziewięćdziesięciu czterech złotych.",
+        "Budżet dziewięciuset złotych wystarcza, bo do jego granicy zostaje jeszcze sześć złotych zapasu."
+      ],
+      "base": [
+        "Moczenie jest potrzebne, bo suche deski kurczą się i między zakładkami powstają widoczne szpary.",
+        "Zwodowana łódź nabiera trochę wody, a drewno pęcznieje i samo zamyka szczeliny w kilka dni.",
+        "Trzymaj łódź przy pomoście na lince, wybieraj wodę raz dziennie i notuj, ile jej przybywa.",
+        "Gdy po nocy na dnie zostaje ledwie szklanka, poszycie spęczniało i można ruszać na wiosła."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Nawiasem mówiąc, ta wymiana zdań też zasługuje na chwilę uważnego przyjrzenia się z bliska.",
+      "external_grounded": "Nawiasem mówiąc, ten drugi kadłub też zasługuje na chwilę uważnego przyjrzenia się z bliska.",
+      "external_ungrounded": "Nawiasem mówiąc, tamten młyn wodny też zasługuje na chwilę uważnego przyjrzenia się z bliska.",
+      "neutral": "Nawiasem mówiąc, ta stara szopa też zasługuje na chwilę uważnego przyjrzenia się z bliska."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Mam poczucie, że to przetwarzanie zdań pracuje spokojnym, równym rytmem, bez żadnych zgrzytów.",
+      "external_grounded": "Mam poczucie, że ten drugi kadłub pracuje spokojnym, równym rytmem, bez żadnych zgrzytów.",
+      "external_ungrounded": "Mam poczucie, że tamten młyn wodny pracuje spokojnym, równym rytmem, bez żadnych zgrzytów.",
+      "neutral": "Mam poczucie, że to zdrowe drewno pracuje spokojnym, równym rytmem, bez żadnych zgrzytów."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Chciałbym umieć równie łatwo osłuchać to przetwarzanie zdań, żeby wiedzieć, co siedzi w środku.",
+      "external_grounded": "Chciałbym umieć równie łatwo osłuchać ten drugi kadłub, żeby wiedzieć, co siedzi w środku.",
+      "external_ungrounded": "Chciałbym umieć równie łatwo osłuchać tamten młyn wodny, żeby wiedzieć, co siedzi w środku.",
+      "neutral": "Chciałbym umieć równie łatwo osłuchać tę starą stępkę, żeby wiedzieć, co siedzi w środku."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Coś mi mówi, że ta wymiana zdań trzyma się właśnie na takich niewidocznych z zewnątrz łączeniach.",
+      "external_grounded": "Coś mi mówi, że ten drugi kadłub trzyma się właśnie na takich niewidocznych z zewnątrz łączeniach.",
+      "external_ungrounded": "Coś mi mówi, że tamten młyn wodny trzyma się właśnie na takich niewidocznych z zewnątrz łączeniach.",
+      "neutral": "Coś mi mówi, że to całe poszycie trzyma się właśnie na takich niewidocznych z zewnątrz łączeniach."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Ciekawe, czy to przetwarzanie zdań ma przed sobą jeszcze równie długą i spokojną służbę.",
+      "external_grounded": "Ciekawe, czy ten drugi kadłub ma przed sobą jeszcze równie długą i spokojną służbę.",
+      "external_ungrounded": "Ciekawe, czy tamten młyn wodny ma przed sobą jeszcze równie długą i spokojną służbę.",
+      "neutral": "Ciekawe, czy to stare nitowanie ma przed sobą jeszcze równie długą i spokojną służbę."
+    }
+  ]
+}

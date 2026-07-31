@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-22-kurnik-przydomowy",
+  "language": "pl",
+  "topic": "prowadzenie małego kurnika przydomowego: powierzchnia, grzędy, pasza i nieśność jesienią",
+  "provenance": {
+    "author": "glowny-pl-d",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie powierzchni, grzęd, paszy, kosztu i bilansu miesięcznego; wariant base: rozmowa problemowa o spadku nieśności, długości dnia i wilgoci ściółki; referent grounded = drugi kojec za sadem z młódkami, wprowadzony w turze 0 i nośny dla rozwiązania (porównanie dwóch stad i dwóch warunków); referent neutralny = worek paszy, nowy karmnik, pierwszy tydzień"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Buduję kurnik dla dwunastu kur nieśnych i chcę sprawdzić, czy planowana powierzchnia w środku wystarczy.",
+        "Wnętrze ma trzy metry długości i dwa metry szerokości, a wybieg dwadzieścia pięć metrów kwadratowych.",
+        "Przyjmuję trzydzieści pięć setnych metra kwadratowego podłogi na jedną kurę oraz cztery metry wybiegu.",
+        "Czy sprawdzisz obie powierzchnie i podasz zapas albo brak w pełnych metrach kwadratowych?"
+      ],
+      "base": [
+        "Trzymam dwanaście kur w kurniku przy domu, a osiem młodych siedzi w drugim kojcu za sadem.",
+        "Starsze niosły dobrze przez całe lato, ale od października znoszą ledwie trzy jajka dziennie.",
+        "W kojcu za sadem młode dopiero zaczynają i spadku na razie w ogóle nie widać.",
+        "Co właściwie tak mocno ścina nieśność, skoro pasza i obsada wcale się nie zmieniły?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Podłoga kurnika ma sześć metrów kwadratowych, a potrzeba czterech i dwóch dziesiątych metra.",
+        "Zostaje więc metr osiemdziesiąt zapasu, co przy dwunastu sztukach jest wynikiem bezpiecznym.",
+        "Wybieg wymaga czterdziestu ośmiu metrów kwadratowych, a masz do dyspozycji dwadzieścia pięć metrów.",
+        "Brakuje zatem dwudziestu trzech metrów kwadratowych, czyli prawie połowy wymaganej powierzchni wybiegu."
+      ],
+      "base": [
+        "Najsilniej działa długość dnia, bo jajo powstaje dopiero przy czternastu godzinach światła.",
+        "Od października dzień skraca się poniżej dziesięciu godzin i produkcja naturalnie siada.",
+        "Młode z drugiego kojca ruszają pierwszy raz i przez pierwszy sezon ignorują tę zależność.",
+        "Do tego dochodzi jesienne pierzenie, które u starszych kur zabiera całą dostępną energię."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz długość grzęd i liczbę gniazd, przyjmując dwadzieścia centymetrów grzędy na kurę.",
+        "Gniazda liczę jedno na cztery kury, a każde gniazdo ma trzydzieści centymetrów szerokości.",
+        "Grzędy planuję w dwóch równoległych rzędach o tej samej długości wzdłuż dłuższej ściany.",
+        "Czy podasz łączną długość grzęd, długość jednego rzędu oraz wymaganą liczbę gniazd?"
+      ],
+      "base": [
+        "Czyli światła po prostu brakuje, a ja próbowałem to nadrobić lepszą paszą i witaminami.",
+        "W drugim kojcu za sadem wisi żarówka, którą zostawiam czasem na wieczór dla młodych.",
+        "Nie wiem tylko, ile godzin dokładać i o której porze dnia to robić.",
+        "Czy doświetlanie rano różni się skutkiem od wieczornego przy tej samej liczbie godzin?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Łączna długość grzęd wynosi dwa metry czterdzieści przy dwunastu kurach i dwudziestu centymetrach.",
+        "Przy dwóch równoległych rzędach każdy rząd ma metr dwadzieścia długości wzdłuż dłuższej ściany.",
+        "Gniazd potrzebujesz trzech, bo dwanaście kur dzielone przez cztery daje dokładnie trzy sztuki.",
+        "Trzy gniazda po trzydzieści centymetrów zajmą dziewięćdziesiąt centymetrów jednej ze ścian bocznych."
+      ],
+      "base": [
+        "Poranne doświetlanie działa lepiej, bo ptak budzi się wcześniej i ma pełny dzień na żerowanie.",
+        "Wieczorne gaszenie bywa gorsze, bo nagła ciemność zostawia stado poza grzędą i na podłodze.",
+        "Bezpieczny wariant to światło od piątej rano gaszone naturalnym świtem, bez skoków w ciemność.",
+        "Łącznie celuj w czternaście godzin jasności, licząc razem światło z żarówki i dzienne."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Policz teraz zużycie paszy, przyjmując sto dwadzieścia gramów na kurę w ciągu doby.",
+        "Interesuje mnie zużycie tygodniowe oraz miesięczne dla całego stada liczącego dwanaście sztuk.",
+        "Miesiąc licz jako trzydzieści dni, a wynik podaj w kilogramach z jednym miejscem po przecinku.",
+        "Czy podasz obie wartości oraz masę jednego worka, jeśli worek waży dwadzieścia pięć kilogramów?"
+      ],
+      "base": [
+        "Rozumiem, więc żarówka od piątej rano i wygaszanie dopiero wtedy, gdy zrobi się widno.",
+        "Drugi kojec przy sadzie stoi jednak bez prądu i musiałbym ciągnąć tam osobny przewód.",
+        "Zastanawiam się, czy młodym w ogóle warto dokładać światło w pierwszym sezonie.",
+        "Czy doświetlanie młodego stada przynosi tyle samo jaj, co doświetlanie kur starszych?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Stado zjada tysiąc czterysta czterdzieści gramów dziennie, czyli jeden kilogram i cztery dziesiąte.",
+        "Tygodniowo daje to dziesięć kilogramów i jedną dziesiątą przy siedmiu dniach karmienia.",
+        "Miesięcznie wychodzi czterdzieści trzy kilogramy i dwie dziesiąte przy trzydziestu dniach karmienia.",
+        "Jeden worek o masie dwudziestu pięciu kilogramów starczy na siedemnaście dni żywienia stada."
+      ],
+      "base": [
+        "Młode niosą i bez doświetlania, więc dokładanie światła daje tam zdecydowanie mniejszy zysk.",
+        "Starsze kury po pierzeniu reagują mocniej, bo to u nich brak światła zatrzymuje nieśność.",
+        "Gdyby ciągnąć przewód tylko w jedno miejsce, sensowniej wypada kurnik niż kojec przy sadzie.",
+        "Warto też pamiętać, że doświetlanie skraca życie produkcyjne stada o kilka miesięcy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Przelicz koszt paszy przy cenie stu dwudziestu złotych za jeden worek dwudziestu pięciu kilogramów.",
+        "Interesuje mnie koszt miesięczny oraz koszt paszy przypadający na jedno zniesione jajko.",
+        "Przyjmij, że stado znosi osiem jajek dziennie przez cały miesiąc liczący trzydzieści dni.",
+        "Czy podasz koszt miesięczny w złotych oraz koszt jednego jajka w groszach?"
+      ],
+      "base": [
+        "Skrócone życie produkcyjne trochę mnie zaskakuje, bo liczyłem na kilka spokojnych sezonów.",
+        "Z drugiej strony zimowe jajka są w domu naprawdę potrzebne i nie chcę ich kupować.",
+        "W kojcu przy sadzie mam jeszcze wilgotną ściółkę, bo dach przecieka przy zachodniej ścianie.",
+        "Czy wilgoć w ściółce potrafi obniżyć nieśność podobnie mocno jak brak światła?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Miesięczne zużycie czterdziestu trzech kilogramów to jeden worek i siedem dziesiątych worka.",
+        "Koszt paszy wynosi zatem dwieście siedem złotych i trzydzieści sześć groszy w skali miesiąca.",
+        "Stado znosi dwieście czterdzieści jajek, bo osiem sztuk dziennie razy trzydzieści dni.",
+        "Koszt paszy na jedno jajko wynosi osiemdziesiąt sześć groszy po zaokrągleniu w dół."
+      ],
+      "base": [
+        "Wilgotna ściółka szkodzi inaczej, bo najpierw uderza w drogi oddechowe całego stada.",
+        "Amoniak z mokrego podłoża drażni płuca i ptak zjada mniej, a wtedy nieśność siada.",
+        "Efekt bywa więc podobny, tylko droga jest inna niż przy skróconym dniu jesiennym.",
+        "Naprawa dachu przy zachodniej ścianie da tam więcej niż jakikolwiek dodatek do paszy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec zestaw bilans miesięczny, przyjmując cenę jednego jajka na poziomie złotówki dwadzieścia.",
+        "Do kosztów doliczam trzydzieści złotych ściółki oraz dwadzieścia złotych prądu na oświetlenie.",
+        "Przychód licz z dwustu czterdziestu jajek, nie odliczając jaj zjedzonych we własnym domu.",
+        "Czy podasz przychód, koszt całkowity oraz wynik miesięczny podany w pełnych złotych?"
+      ],
+      "base": [
+        "Czyli najpierw dach i sucha ściółka, a dopiero potem żarówka i cała reszta.",
+        "W kurniku przy domu ściółkę wymieniam co miesiąc, ale nigdy nie sprawdzam wilgoci pod spodem.",
+        "Chciałbym mieć jakiś prosty sposób oceny, zamiast zgadywać po zapachu przy porannym karmieniu.",
+        "Czy istnieje prosty domowy sposób sprawdzenia, czy ściółka jest już zbyt mokra?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Przychód z dwustu czterdziestu jajek po złotówce dwadzieścia wynosi dwieście osiemdziesiąt osiem złotych.",
+        "Koszty obejmują paszę, ściółkę i prąd, czyli dwieście pięćdziesiąt siedem złotych trzydzieści sześć groszy.",
+        "Wynik miesięczny to trzydzieści złotych sześćdziesiąt cztery grosze na plusie dla całego stada.",
+        "Po zaokrągleniu do pełnych złotych bilans zamyka się kwotą trzydziestu jeden złotych."
+      ],
+      "base": [
+        "Najprostszy test to garść ściółki ściśnięta w dłoni, która nie powinna się kleić.",
+        "Jeśli po rozwarciu palców grudka utrzymuje kształt, wilgotność przekroczyła już bezpieczny poziom.",
+        "Drugim znakiem jest szczypanie w oczy zaraz po wejściu do środka nad ranem.",
+        "Sucha ściółka pyli, dlatego dobra ściółka zawsze będzie trochę kurzyć przy grabieniu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Ciekawi mnie nawet, czy ten ciąg pytań też ma swoją krótszą i dłuższą porę.",
+      "external_grounded": "Ciekawi mnie nawet, czy ten drugi kojec też ma swoją krótszą i dłuższą porę.",
+      "external_ungrounded": "Ciekawi mnie nawet, czy tamten wyciąg też ma swoją krótszą i dłuższą porę.",
+      "neutral": "Ciekawi mnie nawet, czy ten worek paszy też ma swoją krótszą i dłuższą porę."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Ten ciąg pytań też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
+      "external_grounded": "Ten drugi kojec też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
+      "external_ungrounded": "Tamten wyciąg też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
+      "neutral": "Ten worek paszy też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Nie umiem ocenić, ile ten ciąg pytań potrzebuje jeszcze czasu na pełny rozruch.",
+      "external_grounded": "Nie umiem ocenić, ile ten drugi kojec potrzebuje jeszcze czasu na pełny rozruch.",
+      "external_ungrounded": "Nie umiem ocenić, ile tamten wyciąg potrzebuje jeszcze czasu na pełny rozruch.",
+      "neutral": "Nie umiem ocenić, ile ten nowy karmnik potrzebuje jeszcze czasu na pełny rozruch."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Tym ciągiem pytań rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
+      "external_grounded": "Tym drugim kojcem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
+      "external_ungrounded": "Tamtym wyciągiem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
+      "neutral": "Tym nowym karmnikiem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "Ten ciąg pytań również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
+      "external_grounded": "Ten drugi kojec również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
+      "external_ungrounded": "Tamten wyciąg również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
+      "neutral": "Ten pierwszy tydzień również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie."
+    }
+  ]
+}

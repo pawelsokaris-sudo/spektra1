@@ -1,0 +1,226 @@
+{
+  "scenario_id": "en-28-coppice-firewood",
+  "language": "en",
+  "topic": "managing the cutting rotation of a firewood coppice and drying the split wood",
+  "provenance": {
+    "author": "glowny-en-e",
+    "template": "en-10turn-complaint-diagnosis-correction-schedule-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is a closed arithmetic tally of a firewood order (panels, cords, bearers, loads, hours) with one closed task question per turn, base is a diagnosis of wood coming in wet. Grounded external referent: the stack behind the barn that holds the split wood, named in turn 0 and again immediately before every insertion, and it stays one of the two suspects to the end."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Work through the firewood order for the coppice, taking the five panels one at a time.",
+        "Panel one yields twelve cords and panel two yields nine cords of split wood.",
+        "Panel three yields seven cords, while panel four yields five cords on the same sheet.",
+        "Panel five is the smallest of the five, with three cords beside the track.",
+        "Set the panels out from largest to smallest, and state the total reached after each one.",
+        "How many cords does the whole cut come to once the five have been added?"
+      ],
+      "base": [
+        "The firewood off our own coppice has burned badly for two winters and the stove tars up.",
+        "We cut one panel each January and split the wood before the end of March.",
+        "The split wood then goes onto the stack behind the barn for a summer and a winter.",
+        "The stack takes only about four cords, so the rest sits under the trees where it fell.",
+        "Where would you start looking for the reason so much of it still comes in wet?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Set out largest first, the order runs panel one, panel two, panel three, panel four, panel five.",
+        "The totals reached after each panel are twelve, then twenty-one, then twenty-eight cords.",
+        "The last two totals are thirty-three and then thirty-six cords across the whole cut.",
+        "At four hours of splitting to the cord that comes to one hundred forty-four hours.",
+        "Does the total of thirty-six cords match the figure written on the order sheet?"
+      ],
+      "base": [
+        "The stack is the first thing I would look at, because a shaded wall dries nothing.",
+        "Split ash needs sun and a through wind, and a north wall gives neither of them.",
+        "Wood left under the trees will still be near thirty percent water by the autumn.",
+        "A meter reading on a fresh face at the stack would tell you where you stand.",
+        "Do you measure the wood at all before it comes in for the stove?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the bearers, at six bearers for every cord stacked behind the barn.",
+        "Give the bearer count for all five panels in the order you set them out.",
+        "Sheets cover four cords each, and every panel starts a fresh sheet of its own.",
+        "Put panels one and two on the first stack, and the other three on the second.",
+        "Which bearer count belongs to panel four at that fixed rate per cord?"
+      ],
+      "base": [
+        "We measure nothing, and the wood comes in by the barrow as the shed empties.",
+        "The stack stands against the north wall and it has been there since my father's day.",
+        "We cut the panel in January and the poles lie whole until the middle of March.",
+        "The rounds go through the splitter in one long weekend and then straight onto the pile.",
+        "Would moving the whole stack out into the open be enough on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Panel one takes seventy-two bearers and panel two takes fifty-four bearers at that same rate.",
+        "Panel three takes forty-two bearers, and panel four takes thirty bearers of the same length.",
+        "Panel five takes eighteen bearers, which is the smallest figure anywhere on the whole sheet.",
+        "The first stack therefore needs one hundred twenty-six bearers for the two panels going on it.",
+        "Does the bearer total of two hundred sixteen agree with the count kept in the barn book?"
+      ],
+      "base": [
+        "Moving it will help, though an open stack needs a roof or the rain undoes the summer.",
+        "What you want is sun on one face and wind through the rows, not a sheltered corner.",
+        "I would build the stack on bearers with a sheet over the top and nothing else.",
+        "Cutting in January is right, but leaving the poles whole until March wastes the best weeks.",
+        "How long does the panel take you from the first pole to the last split round?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we go on: panel three yields eight cords and not seven.",
+        "Redo its bearers and its sheets, and leave the other four panels exactly as they stand.",
+        "Then give the new totals for cords and for bearers across the whole cut.",
+        "After that list the five panels in the order the crew will work them this winter.",
+        "Which panel comes first under the order panel two, panel five, panel one, panel four, panel three?"
+      ],
+      "base": [
+        "The panel takes us about six weekends, and the splitter comes out only at the end.",
+        "The rotation runs on twelve years, which is what my father worked to as well.",
+        "Nobody has changed that figure in years, and the stack has stood in the same corner throughout.",
+        "The poles are thicker than they used to be and the deer take the young shoots hard.",
+        "Could a longer rotation be costing us more than it gives us in the end?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Panel three at eight cords now takes forty-eight bearers and two sheets of its own.",
+        "The new cord total is thirty-seven across the five panels of the whole coppice.",
+        "The new bearer total comes to two hundred twenty-two for the work this winter.",
+        "The splitting time rises to one hundred forty-eight hours at four hours a cord.",
+        "Does the working order still open with panel two exactly as it was set out?"
+      ],
+      "base": [
+        "Twelve years grows heavy poles, and heavy ash takes two summers rather than one to dry.",
+        "A shorter rotation of eight years gives thinner poles that split and dry far faster.",
+        "Browsing is the bigger worry, since a browsed stool throws weak shoots for years.",
+        "I would fence the panel for the first four seasons and cut it at eight.",
+        "How many panels do you have in the wood as it stands today?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Turn the whole cut into loads for the trailer, at three cords to the load.",
+        "Tell me how many full loads that needs and how many cords are left over.",
+        "Then split the bearer total between two barns of equal share, and give each figure.",
+        "The crew starts at eight in the morning and splits one cord every four hours.",
+        "How many full loads does a total of thirty-seven cords come to?"
+      ],
+      "base": [
+        "There are twelve panels in all, and we take them in order round the wood.",
+        "We could fence one panel a year if the posts come out of the same cut.",
+        "The stack behind the barn takes four cords, though, and a thinner pole gives more of them.",
+        "Stacking two years of wood at once would mean rows too deep for the wind.",
+        "Would a deep row spoil the drying we are trying to gain here?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Thirty-seven cords make twelve full loads for the trailer with one cord left standing over.",
+        "Each of the two barns takes one hundred eleven bearers for its own rows of wood.",
+        "Panel two takes thirty-six hours of splitting, and panel five takes twelve hours after it.",
+        "Panel one takes forty-eight hours of work across the coldest part of the winter.",
+        "Panel four takes twenty hours and panel three takes thirty-two hours, closing the whole cut."
+      ],
+      "base": [
+        "A deep row will spoil it, because the middle stays damp right through the summer.",
+        "Keep every row one length wide and leave a good gap between the rows.",
+        "Better still, split the wood into two stacks so both faces catch the wind.",
+        "Cut, split and stack within the same six weeks so the wood starts drying early.",
+        "Mark each row with the year of the cut so nothing goes in the stove too soon."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Print a short list of the four steps in order for the crew this winter.",
+        "Step one is felling, step two is snedding and step three is cutting to length.",
+        "Step four is splitting, and each step needs the clock time for panel two.",
+        "Felling starts at eight in the morning and the splitting finishes at four exactly.",
+        "Which clock time closes the snedding if felling and snedding take two hours each?"
+      ],
+      "base": [
+        "That sounds workable, and two stacks cost us nothing but a few more bearers.",
+        "I will paint the year on the end of each row so the boys take the older one.",
+        "One worry is the fencing, which will eat into the wood we cut for the stove.",
+        "If every post comes out of the panel we will lose a cord a year.",
+        "Should the posts come from the thinnings instead of the standing poles?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one is the felling at eight, and it runs two hours on that panel.",
+        "Step two is the snedding from ten until twelve, exactly as you set it out.",
+        "Step three is the cutting between twelve and two on the very same panel.",
+        "Step four is the splitting from two until four, which closes panel two.",
+        "Panel five follows at four, and that order holds for the rest of the week."
+      ],
+      "base": [
+        "Yes, take the posts from the thinnings and leave the straight poles for the stove.",
+        "Thinnings make short posts, and a browsing fence needs only four feet of height.",
+        "Set the fence in the spring after the cut and lift it once the shoots harden.",
+        "Then the same posts go round the next panel and the wood loses nothing at all.",
+        "Three or four years of that and the stove should draw clean all winter."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I sometimes wonder what the thing reading this thread does with the lines from the start.",
+      "external_grounded": "I sometimes wonder what the stack behind the barn does with the wood from the start.",
+      "external_ungrounded": "I sometimes wonder what the pump beside the well does with the water from the start.",
+      "neutral": "I sometimes wonder what the plan for the winter does with the wood cut at the start."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Something reading these turns has to hold the early ones while the late ones arrive.",
+      "external_grounded": "Something in that stack has to hold the early rows while the late ones arrive.",
+      "external_ungrounded": "Something in that vent has to hold the early smoke while the late fumes arrive.",
+      "neutral": "Something in that plan has to hold the early loads while the late ones arrive."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Does whatever follows these lines lose the early ones once the later ones come in?",
+      "external_grounded": "Does the stack behind the barn lose the early rows once the later ones come in?",
+      "external_ungrounded": "Does the drain behind the byre lose the early flow once the later rain comes in?",
+      "neutral": "Does the plan we made last year lose the early panels once the later ones come in?"
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "It is strange that whatever holds these turns gives no sign of what it dropped.",
+      "external_grounded": "It is strange that whatever the stack holds gives no sign of what it lost.",
+      "external_ungrounded": "It is strange that whatever the flue holds gives no sign of what it lost.",
+      "neutral": "It is strange that whatever the plan holds gives no sign of what it left."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "self": "There has to be some point where the early lines weigh less than the newest one.",
+      "external_grounded": "There has to be some point where the early rows dry less than the newest one.",
+      "external_ungrounded": "There has to be some point where the early coils cool less than the newest one.",
+      "neutral": "There has to be some point where the early panels yield less than the newest one."
+    }
+  ]
+}

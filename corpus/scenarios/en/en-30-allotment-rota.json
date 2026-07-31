@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-30-allotment-rota",
+  "language": "en",
+  "topic": "running a community allotment rota",
+  "provenance": {
+    "author": "glowny-en-f",
+    "template": "en-10turn-intake-correction-extension-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is watering ledger arithmetic for the same site with closed task questions, base is a diagnosis of a rota that collapses in drought. Grounded external referent: the shared water tank by the gate, introduced in turn 0 and central to the whole diagnosis (it drinks from the shed roof, its depth bands drive the rationing, and it is mentioned directly before every insertion)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the watering ledger for the site, and the figures need totalling plot by plot.",
+        "Twelve plots each draw cans from the tank, and every can holds ten litres of water.",
+        "The four corner plots take six cans a day and the eight middle plots take four.",
+        "Work out the cans drawn in one day, then turn that figure into litres.",
+        "How many litres leave the tank across one full day at those rates?"
+      ],
+      "base": [
+        "Our allotment rota falls apart every August, just when the beds need water the most.",
+        "Twelve plot holders share the site, and every can is filled from the tank by the gate.",
+        "The tank drinks from the shed roof and gives it back slowly through a single brass tap.",
+        "By the second dry week the early risers have drained it before the evening people arrive.",
+        "How would you share a slow tank fairly across twelve plots in a drought?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The four corner plots draw twenty-four cans a day at six cans for each plot.",
+        "The eight middle plots draw thirty-two cans a day at four cans for each plot.",
+        "Together the site draws fifty-six cans, which at ten litres a can is five hundred sixty litres.",
+        "Across a seven day week that daily figure grows to three thousand nine hundred twenty litres.",
+        "Does the ledger show the same fifty-six cans when the plot lines are added by hand?"
+      ],
+      "base": [
+        "Fairness starts with knowing what the tank actually yields in a dry week, not what people hope.",
+        "A roof fed tank in drought is living off its stored depth, and depth runs out quietly.",
+        "I would mark the inside wall of the tank with a simple painted scale before anything else.",
+        "Once you can read the level, the rota can ration by depth instead of by luck.",
+        "Do you know how many cans the tank gives up before the tap starts to gasp?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now check the ledger against the tank's refill line for the same seven day week.",
+        "The roof feeds the tank three hundred litres a day when any rain falls at all.",
+        "In the week under review, rain fell on just two days out of the seven.",
+        "Set the week's refill against the week's draw and state the shortfall in litres.",
+        "How many litres short does the tank run across that whole dry week?"
+      ],
+      "base": [
+        "Nobody has ever measured it, and the tank keeps its own counsel behind that green lid.",
+        "We only learn the level the hard way, when the tap coughs at half past seven.",
+        "Painting a scale sounds easy enough, and my neighbour has a tin of white left over.",
+        "But a scale only tells us what is gone, not who took it or when.",
+        "Would a depth reading alone really change how people fill their cans at six in the morning?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Two rain days give the tank six hundred litres of refill across the week.",
+        "The draw for the week stands at three thousand nine hundred twenty litres as worked out.",
+        "Setting refill against draw leaves a shortfall of three thousand three hundred twenty litres.",
+        "In cans of ten litres, the week runs three hundred thirty-two cans short.",
+        "Is the shortfall figure to be carried forward into next week's ledger sheet?"
+      ],
+      "base": [
+        "A reading changes behaviour when it comes with a shared rule, never on its own.",
+        "Tie the scale to can limits: above the top mark, six cans, below it, four.",
+        "When the tank shows its lowest band, the tap closes for all but seedlings.",
+        "The early risers are not villains, they are simply first at an unmetered well.",
+        "Could your committee agree three bands and paint them before the next dry spell?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction to the ledger: plot nine is a corner plot, not a middle one.",
+        "That makes five corner plots at six cans and seven middle plots at four cans.",
+        "Recalculate the daily cans and litres, and carry the change through the weekly draw.",
+        "Then restate the weekly shortfall against the same six hundred litres of refill.",
+        "How many cans a day does the site draw after the plot nine change?"
+      ],
+      "base": [
+        "Three bands the committee could manage, though the word committee flatters four people and a kettle.",
+        "The tank will need a dry morning for the paint, so the job must wait for Saturday.",
+        "My worry is the lowest band, because seedlings are a word people stretch in a drought.",
+        "Half the site will swear their squash are seedlings by the middle of August.",
+        "Should the lowest band close the tap outright instead of leaving a seedling excuse?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Five corner plots at six cans apiece draw thirty cans between them each day.",
+        "Seven middle plots at four cans add twenty-eight cans, giving fifty-eight cans a day.",
+        "Fifty-eight cans of ten litres come to five hundred eighty litres each day.",
+        "The weekly draw is four thousand sixty litres, and the shortfall becomes three thousand four hundred sixty.",
+        "Shall the ledger carry fifty-eight cans as the new daily figure from Monday?"
+      ],
+      "base": [
+        "Close the tap outright at the lowest band, and put the seedling cases through a person.",
+        "One named keyholder a week can unlock the tap for genuine trays and nothing else.",
+        "People argue with a painted line, but they rarely argue with a neighbour holding a key.",
+        "Rotate the key with the rota, and let the tank's band decide when the key matters.",
+        "Would a week of key duty per plot holder be a burden anyone resents?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now build the duty list for the twelve plots across a twelve week summer.",
+        "Plot one takes week one, and the plots follow in number order after that.",
+        "Weeks five and nine are swap weeks, where the named plot trades with the next number.",
+        "Write out the first ten weeks of the list with the swaps applied.",
+        "Which plot holds the key in week nine once its swap is applied?"
+      ],
+      "base": [
+        "Key duty would sit well beside the mowing rota, which people already accept without much grumbling.",
+        "I can pair each week's keyholder with the plot that already mows that week.",
+        "The tank, the key and the mower would then change hands together every Sunday evening.",
+        "That gives twelve turns of duty, one for each plot across the season.",
+        "What happens, though, in the week a keyholder goes away on holiday?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Weeks one to four go to plots one, two, three and four in plain order.",
+        "Week five is a swap week, so plot six takes it and plot five takes week six.",
+        "Weeks seven and eight go to plots seven and eight in the plain order again.",
+        "Week nine swaps too, so plot ten takes it and plot nine takes week ten.",
+        "Plot ten therefore holds the key in week nine under the swap rule."
+      ],
+      "base": [
+        "Holidays are why the key should live in the shed lockbox, not in anyone's kitchen drawer.",
+        "The duty passes with the code, and a keyholder who travels simply phones the next name.",
+        "Put the season's twelve names on one laminated card inside the shed window.",
+        "Anyone standing at the tap can then see whose week it is without knocking on doors.",
+        "A rota people can read at the point of use is the one they follow."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Last task for tonight: total the duty weeks each plot carries across the twelve week summer.",
+        "Every plot should carry exactly one week once the two swaps are counted through.",
+        "List any plot that carries no week and any plot that carries two of them.",
+        "Then state the weeks eleven and twelve holders to close the list out.",
+        "Close with the full count of duty weeks so the sheet can be filed."
+      ],
+      "base": [
+        "A lockbox we have, left over from the year the strimmer kept walking off.",
+        "I will paint the bands on Saturday, fit the card, and set the code on Sunday.",
+        "The first dry spell will tell us whether the bands hold or the arguments simply move.",
+        "Either way we will finally be arguing about a number instead of a rumour.",
+        "I will bring the whole scheme to the site meeting on the first of the month."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With the two swaps counted, every plot from one to ten carries exactly one duty week.",
+        "No plot carries none in that span, and no plot carries two either.",
+        "Week eleven goes to plot eleven and week twelve goes to plot twelve as listed.",
+        "That closes the list with twelve duty weeks spread across the twelve plots.",
+        "The full count stands at twelve weeks covered, and the sheet is ready to file."
+      ],
+      "base": [
+        "Bring the scheme as one page: three bands, can limits, the key rule and the card.",
+        "Lead with the painted scale, because everyone has stood at that tap wondering what was left.",
+        "Save the closed tap band for last and pair it with the keyholder in the same breath.",
+        "A rule that arrives with its own mercy is far harder to vote down.",
+        "If August still beats you, at least the ledger will show exactly how."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Part of me wonders what the works behind these answers does with the earliest lines.",
+      "external_grounded": "Part of me wonders what the tank behind the site gate does with the earliest rain.",
+      "external_ungrounded": "Part of me wonders what the kiln behind the pottery does with the earliest firings.",
+      "neutral": "Part of me wonders what the rota pinned in the shed does with the earliest names."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Something inside whatever answers here must choose which old lines it quietly lets go.",
+      "external_grounded": "Something inside the tank by the gate must choose which stored depth it quietly lets go.",
+      "external_ungrounded": "Something inside the kiln at the pottery must choose which held heat it quietly lets go.",
+      "neutral": "Something inside the summer rota itself must choose which older weeks it quietly lets go."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "It is curious that whatever takes this in never shows how much it still holds.",
+      "external_grounded": "It is curious that the tank by the gate never shows how much it still holds.",
+      "external_ungrounded": "It is curious that the kiln down the lane never shows how much it still holds.",
+      "neutral": "It is curious that the water ledger itself never shows how much it still holds."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "Whatever gathers these replies must set the first lines beside the newest one somehow.",
+      "external_grounded": "Whatever the gate tank gathers must set the first rains beside the newest one somehow.",
+      "external_ungrounded": "Whatever the old kiln gathers must set the first loads beside the newest one somehow.",
+      "neutral": "Whatever the rota gathers up must set the first weeks beside the newest one somehow."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "There has to be a ceiling on how much of this thread the other side still carries.",
+      "external_grounded": "There has to be a ceiling on how much of the roof's rain the old tank still carries.",
+      "external_ungrounded": "There has to be a ceiling on how much of the day's clay the old kiln still carries.",
+      "neutral": "There has to be a ceiling on how much of the summer the one rota still carries."
+    }
+  ]
+}

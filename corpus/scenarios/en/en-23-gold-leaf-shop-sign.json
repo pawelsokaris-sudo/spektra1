@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-23-gold-leaf-shop-sign",
+  "language": "en",
+  "topic": "hand-painting a shop sign and gilding its letters with gold leaf",
+  "provenance": {
+    "author": "glowny-en-d",
+    "template": "en-10turn-diagnose-correct-refine-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is sign arithmetic (letters, leaves, books, coats, timings) with closed task questions, base is a dialogue about painting and gilding a bookshop sign. Grounded external referent: the drying rack by the window, introduced in turn 0 (the board rests on it between every stage) and mentioned in the sentence directly before every insertion."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the work sheet for one shop sign, and its figures need going through in order.",
+        "The board measures thirty-six inches across by eighteen inches down on the face.",
+        "Line one carries twelve letters and line two carries eight, with an ornament between the lines.",
+        "Every letter takes two leaves of gold, and leaves come in books of twenty-five.",
+        "How many leaves of gold does the lettering call for across both lines together?"
+      ],
+      "base": [
+        "I am painting a hanging sign for my sister's bookshop, with gilded letters on a dark green field.",
+        "The board is primed, and the lettering is drawn out full size on paper.",
+        "Between coats the board lies on a slatted rack by the window, where the light is even.",
+        "I have never handled gold leaf before, though my brushwork on flat colour is steady.",
+        "What order should the remaining work follow so the gold goes on last and safest?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twelve letters and eight letters make twenty letters across the two lines of the sign.",
+        "At two leaves for every letter the job calls for forty leaves of gold.",
+        "Forty leaves come out of two books of twenty-five, with ten leaves left over.",
+        "The board face is six hundred forty-eight square inches at the stated measurements.",
+        "Does the forty leaf figure match the total pencilled on the work sheet?"
+      ],
+      "base": [
+        "Finish every coat of the field colour first, because leaf sticks to any tacky paint it touches.",
+        "Rub down between coats lightly, and let each one harden well before the next.",
+        "Transfer the drawn letters only when the final field coat has cured hard.",
+        "Keep the board flat on the rack while paint dries, since runs ruin crisp edges.",
+        "Is the sign to hang outdoors in the weather, or inside the shop window?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the paint coats, because the field takes three coats of green.",
+        "Each coat needs twelve hours of drying before the next one can go on.",
+        "The two undercoats before the green each need the same twelve hours as well.",
+        "Painting a coat takes forty minutes of brush time on a board this size.",
+        "How many hours of drying do the five coats need from first to last?"
+      ],
+      "base": [
+        "The sign hangs outdoors on an iron bracket above the door, facing the street.",
+        "The rack by the window keeps each coat dust-free while it dries overnight.",
+        "I have three coats of green on now, and the surface feels glassy under my palm.",
+        "The paper pattern is pricked along every letter, ready for the pounce bag.",
+        "Which gold should an outdoor sign carry, transfer leaf or the loose kind?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Five coats at twelve hours each come to sixty hours of drying across the job.",
+        "The brush time adds two hundred minutes, which is three hours and twenty minutes.",
+        "Together the coats claim sixty-three hours and twenty minutes before any gilding starts.",
+        "Spread over days, that is a coat each morning and evening for two and a half days.",
+        "Is the sixty hour drying figure the one that goes into the calendar?"
+      ],
+      "base": [
+        "Outdoors, use transfer leaf in double thickness, because wind makes loose leaf a misery on a doorstep.",
+        "Twenty-three carat and above weathers well without any varnish over the gold.",
+        "Pounce the pattern, then paint the letters in the size with a steady writer's brush.",
+        "Set the board back on the rack while the size comes up to tack.",
+        "Have you got a soft gilder's mop for pressing the leaf down into the strokes?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the books are ordered, because the wording changed this morning.",
+        "Line one now carries ten letters instead of twelve, and line two stays at eight.",
+        "Recalculate the letter total, the leaves needed and the leaves left over from full books.",
+        "Keep the rule at two leaves for every letter as it stands on the sheet.",
+        "What does the leaf count become with ten letters on the first line?"
+      ],
+      "base": [
+        "I have ordered the double thickness transfer leaf and a mop from the supplier in town.",
+        "A correction to the layout I described, because the wording changed at my sister's request.",
+        "The sign now reads two lines rather than three, with a small ornament between them.",
+        "The rack will hold the board level tonight while the last green coat cures.",
+        "Does the shorter wording change how long the size should sit before the gold goes on?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Ten and eight make eighteen letters, so the lettering now calls for thirty-six leaves.",
+        "Thirty-six leaves still need two books of twenty-five, with fourteen leaves left over.",
+        "The spare margin grows by four leaves compared with the earlier count of forty.",
+        "Nothing else on the sheet moves, because the coats and the board are unchanged.",
+        "Should the fourteen spare leaves be kept against mends, or returned with the order?"
+      ],
+      "base": [
+        "The wording does not change the waiting, since tack depends on the size and the weather.",
+        "Test the tack with a knuckle: it should click softly without leaving any print.",
+        "Gild the top line first, working down so fallen skewings never land on wet size.",
+        "Overlap each leaf slightly, and press it home with the mop in small circles.",
+        "Can you keep the room still while you gild, with windows shut and no draughts?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Keep the spares against mends and move on to the gilding time next.",
+        "Gilding runs at six letters an hour once the size has come to tack.",
+        "The size itself needs ninety minutes from brushing on to being ready for gold.",
+        "The shadow lines afterwards run at ten letters an hour with the fine brush.",
+        "How long does gilding eighteen letters take at six letters an hour?"
+      ],
+      "base": [
+        "The room can be shut up tight, and I will gild early before the street wakes.",
+        "My first test letter on a scrap board came out bright with only two small breaks.",
+        "The breaks sit where my size went thin at the tail of the stroke.",
+        "Mending them with little patches of leaf worked, though the mend shows at an angle.",
+        "Will those faults disappear once the sign hangs high above the door?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Eighteen letters at six letters an hour take three hours of gilding time.",
+        "The ninety minutes of size tack brings the gilding stage to four and a half hours.",
+        "The shadow lines on eighteen letters take one hour and forty-eight minutes at ten an hour.",
+        "Rounded up, the shadow session goes on the sheet as two hours of brush time.",
+        "Is four and a half hours the figure entered for the gilding day?"
+      ],
+      "base": [
+        "Faults that show on the bench vanish at height, because nobody views a sign from a handspan away.",
+        "Even trade work carries small mends, and weather softens the gold's shine within a season.",
+        "Burnish nothing on an outdoor sign, since the matt surface reads better against dark paint.",
+        "Dust the finished letters with a soft cloth once everything has hardened for a week.",
+        "Do you plan an outline or shadow line to lift the letters off the green?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now close the sheet with the full timeline from first undercoat to hanging day.",
+        "Stage one is the five coats, stage two the gilding, and stage three the shadows.",
+        "A week of hardening sits between the gilding and the shadow session on the plan.",
+        "Sealing the back and fitting the rings take one final morning at the end.",
+        "The order runs coats, gilding, hardening week, shadows and then the final morning."
+      ],
+      "base": [
+        "A fine cream shadow line on the lower right of every letter is the plan.",
+        "I will paint the shadows a week after the gold, when the leaf has settled.",
+        "The ornament between the lines stays plain green and cream, without any gold at all.",
+        "My sister wants the sign up before the shop's tenth birthday at the end of the month.",
+        "For the first time I believe the board on that rack will be ready in time."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The five coats span two and a half days at the twelve hour spacing.",
+        "The gilding day adds four and a half hours, and the hardening adds seven days.",
+        "The shadow session adds two hours, and the final morning adds about three more.",
+        "End to end the sheet spans roughly eleven days from first coat to hanging.",
+        "The sign is ready inside the month with days to spare on the calendar."
+      ],
+      "base": [
+        "Leave the shadow paint thin, because a heavy shadow line overpowers gold at street height.",
+        "Seal the back and edges of the board against rain before the bracket goes up.",
+        "Check the fixing rings and the bracket bolts once a year when the ladder is out.",
+        "Gold laid on sound size and left alone will outlast every painted part of that sign.",
+        "The tenth birthday deadline is comfortable if the coats keep drying at their present pace."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "How whatever reads this keeps every earlier line in its place is more than I can say.",
+      "external_grounded": "How the rack by the window keeps every drying coat in its place is more than I can say.",
+      "external_ungrounded": "How the crate in some cellar keeps every stacked jar in its place is more than I can say.",
+      "neutral": "How the work sheet for the sign keeps every listed step in its place is more than I can say."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Sooner or later whatever takes these words must let the earliest ones fade to make room.",
+      "external_grounded": "Sooner or later the rack by the window must let the earliest marks fade to make room.",
+      "external_ungrounded": "Sooner or later the shelf in some archive must let the earliest files fade to make room.",
+      "neutral": "Sooner or later the plan for the sign must let the earliest steps fade to make room."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It strikes me that whatever follows these words never admits how much it is quietly carrying.",
+      "external_grounded": "It strikes me that the rack under the board never admits how much it is quietly carrying.",
+      "external_ungrounded": "It strikes me that the barge on some canal never admits how much it is quietly carrying.",
+      "neutral": "It strikes me that the sheet for this job never admits how much it is quietly carrying."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "By this stage whatever builds each reply has to weigh the old lines against whatever comes next.",
+      "external_grounded": "By this stage the rack by the window has to weigh the old coats against whatever comes next.",
+      "external_ungrounded": "By this stage the lift in some depot has to weigh the old crates against whatever comes next.",
+      "neutral": "By this stage the plan on the bench has to weigh the old stages against whatever comes next."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "Whether whatever hears these words still holds the very first of them is anyone's guess by now.",
+      "external_grounded": "Whether the rack by the window still holds the very first coat's dust is anyone's guess by now.",
+      "external_ungrounded": "Whether the safe in some office still holds the very first ledger is anyone's guess by now.",
+      "neutral": "Whether the sheet for the sign still holds the very first figure is anyone's guess by now."
+    }
+  ]
+}

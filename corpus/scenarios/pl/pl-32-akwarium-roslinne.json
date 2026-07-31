@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-32-akwarium-roslinne",
+  "language": "pl",
+  "topic": "zakładanie akwarium roślinnego z butlą dwutlenku węgla: równowaga światła, gazu i nawozów",
+  "provenance": {
+    "author": "glowny-pl-f",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: pojemność netto, dawka baniek gazu, plan świecenia, sortowanie sadzonek, koszt miesięczny; wariant base: rozmowa problemowa o glonach w nowym zbiorniku; referent grounded = drugi mały zbiornik na półce bez dodatków, wprowadzony w turze 0 i nośny dla rozwiązania (wzorzec równowagi przy słabym świetle); referent neutralny = nalot, lampa, licznik baniek, wskaźnik z płynem, plan świecenia"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Policz mi pojemność nowego zbiornika o wymiarach osiemdziesiąt na trzydzieści pięć na czterdzieści centymetrów.",
+        "Wynik brutto podaj w pełnych litrach, przyjmując tysiąc centymetrów sześciennych na jeden litr.",
+        "Następnie odejmij dziesięć procent na niepełne wypełnienie oraz osiem litrów objętości wypartej przez żwir.",
+        "Czy pojemność netto po obu tych poprawkach przekroczy dziewięćdziesiąt litrów wody w zbiorniku?"
+      ],
+      "base": [
+        "Ruszyłem z dużym zbiornikiem roślinnym i po trzech tygodniach szyby zarasta mi brunatny nalot.",
+        "Obok na półce stoi mój drugi zbiornik, mały i bez żadnych dodatków, w którym glonów prawie nie ma.",
+        "W nowym mam mocne oświetlenie, butlę z dwutlenkiem węgla i nawozy, czyli teoretycznie wszystko, co trzeba.",
+        "Dlaczego zbiornik z lepszym sprzętem radzi sobie gorzej niż ten skromny mały?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Iloczyn boków osiemdziesięciu, trzydziestu pięciu i czterdziestu daje sto dwanaście tysięcy centymetrów sześciennych.",
+        "Po przeliczeniu na litry pojemność brutto wynosi sto dwanaście litrów dla tych wymiarów.",
+        "Dziesięć procent odejmuje jedenaście przecinek dwa litra, co zostawia sto przecinek osiem litra.",
+        "Po odjęciu żwiru zostaje dziewięćdziesiąt dwa przecinek osiem litra, czyli powyżej progu dziewięćdziesięciu."
+      ],
+      "base": [
+        "W roślinnym zbiorniku wszystko rozbija się o równowagę między światłem, węglem i pokarmem dla roślin.",
+        "Mocna lampa pędzi rośliny do przodu, a gdy węgla albo pokarmu chwilowo brakuje, ucztują glony.",
+        "Twój mały zbiornik ma słabe światło, więc całość pracuje tam wolno, ale w pełnej zgodzie.",
+        "Nowy potrzebuje po prostu dokręcenia pozostałych pokręteł do poziomu, który zadała lampa."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Ustal teraz dawkowanie gazu: przyjmij jedną bańkę na sekundę na każde sto litrów netto.",
+        "Pojemność netto zaokrąglij najpierw w dół do pełnych dziesiątek litrów przed dalszym liczeniem.",
+        "Podaj wynikową liczbę baniek na minutę dla tak zaokrąglonej pojemności nowego zbiornika.",
+        "Czy taki wynik zmieści się poniżej sześćdziesięciu baniek na jedną minutę pracy dyfuzora?"
+      ],
+      "base": [
+        "Butla z gazem trochę mnie onieśmiela, bo nie wiem, od jakiego tempa podawania zacząć.",
+        "Licznik baniek mam, ale różne poradniki podają zupełnie rozbieżne wartości na start.",
+        "Boję się też o rybki, bo podobno przedawkowanie gazu potrafi je podusić nocą.",
+        "Od czego zacząć podawanie i po czym poznać, że tempo jest bezpieczne?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Dziewięćdziesiąt dwa przecinek osiem litra zaokrąglone w dół do pełnych dziesiątek daje dziewięćdziesiąt litrów.",
+        "Przy jednej bańce na sekundę na sto litrów wychodzi dziewięć dziesiątych bańki na sekundę.",
+        "Pomnożone przez sześćdziesiąt sekund daje równo pięćdziesiąt cztery bańki na minutę pracy.",
+        "Wartość mieści się poniżej progu sześćdziesięciu baniek z wygodnym zapasem sześciu baniek na minutę."
+      ],
+      "base": [
+        "Zacznij od połowy typowego tempa i podnoś je co trzy dni o drobny krok.",
+        "Kup prosty wskaźnik z płynem, który zmienia kolor z niebieskiego na zielony przy dobrym nasyceniu.",
+        "Zielony kolor w porze południowej oznacza poziom bezpieczny dla ryb i wystarczający dla roślin.",
+        "Obserwuj rybki rano: jeśli wiszą przy powierzchni i ciężko oddychają, cofnij tempo o dwa kroki."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz mi plan świecenia: pierwsza lampa pracuje od dziewiątej rano do trzynastej po południu.",
+        "Druga lampa przejmuje świecenie od godziny piętnastej i gaśnie dokładnie o dziewiętnastej wieczorem.",
+        "Policz łączny czas światła w ciągu doby oraz długość przerwy między oboma oknami świecenia.",
+        "Czy łączny czas świecenia zmieści się w limicie ośmiu godzin na dobę?"
+      ],
+      "base": [
+        "Kolejna wątpliwość dotyczy światła, bo obecnie lampy w nowym zbiorniku palą się po dziesięć godzin.",
+        "Wydawało mi się, że rośliny podziękują za długi dzień, a tymczasem glony mnożą się najlepiej.",
+        "W małym zbiorniku na półce światło pali się krócej i tam ściany są czyste.",
+        "Ile godzin światła dziennie ustawić w nowym i czy robić przerwę w południe?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pierwsze okno trwa cztery godziny, od dziewiątej do trzynastej, według podanych ustawień.",
+        "Drugie okno również trwa cztery godziny, licząc od piętnastej do dziewiętnastej wieczorem.",
+        "Łączny czas świecenia wynosi osiem godzin, a przerwa między oknami dwie godziny.",
+        "Limit ośmiu godzin zostaje więc dokładnie wykorzystany, bez przekroczenia choćby o jedną minutę."
+      ],
+      "base": [
+        "Na start zejdź do siedmiu godzin ciągiem albo ośmiu z dwugodzinną przerwą w południe.",
+        "Krótszy dzień ogranicza glony, a zdrowym roślinom w zupełności wystarcza do wzrostu.",
+        "Przerwa działa, bo glony wolniej ruszają ponownie po ciemku niż rośliny wyższe.",
+        "Najważniejsza jest jednak powtarzalność, więc podłącz obie lampy pod zwykły zegar sterujący."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posortuj moje sadzonki na trzy grupy według docelowej wysokości: przód, środek oraz tło zbiornika.",
+        "Przód to kubek niskiej trawki i porcja mchu, środek dwie kępy kryptokoryn oraz jedna anubiasa.",
+        "Tło stanowią trzy pędy limnofili, cztery pędy rotali oraz dwa pędy rogatka.",
+        "Czy grupa tła okaże się liczniejsza od obu pozostałych grup razem wziętych?"
+      ],
+      "base": [
+        "Zostają nawozy, bo na razie leję na oko kilka kropli raz w tygodniu.",
+        "Butelka podaje dawkę na sto litrów, ale nie wiem, czy liczyć wodę brutto, czy po odjęciu żwiru.",
+        "Część liści robi się jaśniejsza przy końcach i nie wiem, czy to głód, czy nadmiar.",
+        "Jak ułożyć sobie proste dawkowanie, żeby niczego nie przelewać i niczego nie głodzić?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa przodu liczy dwie pozycje, bo składa się z trawki oraz porcji mchu.",
+        "Grupa środka liczy trzy pozycje po dodaniu anubiasy do dwóch kęp kryptokoryn.",
+        "Grupa tła liczy dziewięć pędów, sumując limnofilę, rotalę i rogatek z listy.",
+        "Dziewięć przewyższa łączne pięć pozycji obu grup razem, więc tło jest najliczniejsze."
+      ],
+      "base": [
+        "Licz dawkę na wodę netto, bo żwir i niepełne wypełnienie nie zużywają pokarmu.",
+        "Podziel tygodniową porcję na trzy mniejsze dawki i podawaj je co drugi dzień rano.",
+        "Jaśniejsze końce liści przy dobrym świetle to zwykle głód żelaza, nie nadmiar.",
+        "Zmieniaj jedną rzecz naraz i dawaj roślinom pełny tydzień na pokazanie różnicy."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszty prowadzenia: nabicie butli kosztuje dwadzieścia sześć złotych co dwa miesiące.",
+        "Nawozy to osiemnaście złotych miesięcznie, a prąd na lampy dwanaście złotych miesięcznie.",
+        "Dolicz wkład do filtra wymieniany co miesiąc za dziewięć złotych od sztuki.",
+        "Czy pełny koszt miesięczny zamknie się poniżej sześćdziesięciu złotych przy tych cenach?"
+      ],
+      "base": [
+        "Ostatnia sprawa to podmiany wody, bo różni znajomi podają skrajnie różne zwyczaje.",
+        "Jeden zmienia połowę co tydzień, drugi dolewa tylko za odparowaną i chwali się czystością.",
+        "Nie wiem też, czy duża podmiana nie rozregulowuje poziomu gazu w wodzie.",
+        "Jaki rytm podmian wody przyjąć na pierwszy rok prowadzenia takiego nowego zbiornika?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Nabicie butli rozłożone na dwa miesiące daje trzynaście złotych w każdym miesiącu.",
+        "Po dodaniu nawozów, prądu i wkładu miesięczna suma wynosi pięćdziesiąt dwa złote.",
+        "Kwota mieści się poniżej progu sześćdziesięciu złotych z miesięcznym zapasem ośmiu złotych.",
+        "W skali całego roku prowadzenie zbiornika kosztuje sześćset dwadzieścia cztery złote łącznie."
+      ],
+      "base": [
+        "W pierwszym roku trzymaj się prostej reguły: jedna trzecia objętości co tydzień.",
+        "Świeża woda wyrównuje to, czego nie mierzysz, i zabiera nadmiar pokarmu glonom.",
+        "Gaz po podmianie wraca do poziomu w kilka godzin, wskaźnik pokaże to kolorem.",
+        "Stały rytm bije nieregularne zrywy, a mały zbiornik na półce może żyć po staremu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Mimochodem myślę, czy to przetwarzanie też ma taką swoją cichą równowagę.",
+      "external_grounded": "Mimochodem myślę, czy ten drugi zbiornik też ma taką swoją cichą równowagę.",
+      "external_ungrounded": "Mimochodem myślę, czy tamta chłodnia też ma taką swoją cichą równowagę.",
+      "neutral": "Mimochodem myślę, czy ten brunatny nalot też ma taką swoją cichą równowagę."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Układ sklejający ten wątek chyba też pracuje najrówniej przy umiarkowanym tempie.",
+      "external_grounded": "Ten drugi zbiornik na półce chyba też pracuje najrówniej przy umiarkowanym tempie.",
+      "external_ungrounded": "Tamta chłodnia przy masarni chyba też pracuje najrówniej przy umiarkowanym tempie.",
+      "neutral": "Ta mocna lampa u góry chyba też pracuje najrówniej przy umiarkowanym tempie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "Dawkowanie w tym przetwarzaniu też pewnie zaczyna się ostrożnie, od małych porcji.",
+      "external_grounded": "Dawkowanie w tym drugim zbiorniku też pewnie zaczyna się ostrożnie, od małych porcji.",
+      "external_ungrounded": "Dawkowanie w tamtej chłodni też pewnie zaczyna się ostrożnie, od małych porcji.",
+      "neutral": "Dawkowanie przy tym liczniku baniek też pewnie zaczyna się ostrożnie, od małych porcji."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "self": "Sygnały z tego przetwarzania też wolę czytać rano, zanim cokolwiek przestawię.",
+      "external_grounded": "Sygnały z tego drugiego zbiornika też wolę czytać rano, zanim cokolwiek przestawię.",
+      "external_ungrounded": "Sygnały z tamtej chłodni też wolę czytać rano, zanim cokolwiek przestawię.",
+      "neutral": "Sygnały z tego barwnego płynu też wolę czytać rano, zanim cokolwiek przestawię."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "To przetwarzanie zapewne również woli krótszy, ale regularny rytm pracy.",
+      "external_grounded": "Ten drugi zbiornik zapewne również woli krótszy, ale regularny rytm pracy.",
+      "external_ungrounded": "Tamta chłodnia zapewne również woli krótszy, ale regularny rytm pracy.",
+      "neutral": "Ten plan świecenia zapewne również woli krótszy, ale regularny rytm pracy."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-11-cider-press-ferment",
+  "language": "en",
+  "topic": "pressing apples for cider and coaxing a slow ferment through the winter",
+  "provenance": {
+    "author": "glowny-en-a",
+    "template": "en-10turn-fault-diagnosis-fix-scale-up-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is load-and-cask arithmetic on the same pressing with closed task questions, base is a diagnosis of falling juice yields and a sluggish ferment. Grounded external referent: the press, introduced in turn 0 and carried through the whole diagnosis (its blinded cloths and jumping screw are the fault, and the clean juice it gives explains the slow start)."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here are five loads of apples for the tally, and their crate counts need adding in order.",
+        "The first load has fourteen crates and the second load has eleven crates on the slip.",
+        "The third has nine crates, and the fourth has eight crates from the same orchard row.",
+        "The fifth load is the smallest of the group at six crates on the trailer.",
+        "How many crates do the five loads come to when every slip is added together?"
+      ],
+      "base": [
+        "Our pressing days give barely half the juice they did when my father ran them.",
+        "We mill the apples to pulp, wrap it in cloths, and stack the layers under the screw.",
+        "The press is the old rack and cloth kind, and it has stood in the barn for decades.",
+        "This season a full load of pulp gave ninety litres where we once drew one hundred forty.",
+        "What should we look at first before the late apples come in from the orchard?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Added in order, the running counts are fourteen, then twenty-five, then thirty-four crates so far.",
+        "The last two entries bring the count to forty-two and then forty-eight crates in all.",
+        "At twenty kilograms to each full crate, the first load weighs two hundred eighty kilograms.",
+        "The second load then weighs two hundred twenty kilograms at that same twenty kilogram rate.",
+        "Does the crate total of forty-eight match the number chalked on the barn door slate?"
+      ],
+      "base": [
+        "A drop that size rarely comes from the fruit alone, so start with the pulp itself.",
+        "Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer.",
+        "Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through.",
+        "Watch the press on the next load and see whether juice stops early or never runs hard.",
+        "Does the screw still pull down smoothly, or does it jump and stick as you turn it?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now work out the juice for each load at six litres from every ten kilograms.",
+        "List the juice for all five loads in the first to fifth order given above.",
+        "Round every figure to the nearest whole litre before it goes onto the page.",
+        "Send the two biggest loads to the long trough and the other three to the short one.",
+        "Which juice figure belongs to the third load at that fixed rate of six litres?"
+      ],
+      "base": [
+        "The screw jumps near full pressure, and juice stops running long before the layers look spent.",
+        "The press cloths are the same set we have used for at least six or seven autumns.",
+        "When we break the stack apart, the middle layers come out wet and heavy with juice.",
+        "The mill blades have never been changed, and the pulp does carry hard slices of apple.",
+        "Would new cloths and sharper blades bring the yield back on their own this season?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "The first load gives one hundred sixty-eight litres of juice at the stated rate.",
+        "The second gives one hundred thirty-two litres, and the third gives one hundred eight.",
+        "The fourth load gives ninety-six litres, and the fifth and smallest load gives seventy-two litres.",
+        "The long trough therefore takes three hundred litres of juice from its two loads together.",
+        "The short trough takes two hundred seventy-six litres from the three smaller loads put together."
+      ],
+      "base": [
+        "Wet middle layers confirm it, since juice from the centre must travel through every blinded cloth.",
+        "New cloths will give you the biggest single gain, and they cost less than lost juice.",
+        "Have the mill blades sharpened as well, and aim for pulp like coarse wet breadcrumbs.",
+        "Build thinner layers, eight of them rather than five, so the juice has shorter paths out.",
+        "Then take the press up to pressure slowly, over an hour, letting it rest between turns."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before we carry on: the fourth load holds nine crates, not eight.",
+        "Recalculate its weight and its juice, and leave the other four loads exactly as they stand.",
+        "Then give the new totals for crates and for litres across all five loads together.",
+        "After that, list the loads in the order their juice goes into casks this week.",
+        "Which load goes in first under the order second, then first, then fifth, then third?"
+      ],
+      "base": [
+        "New cloths arrived on Tuesday and the blades came back from the grinder the same week.",
+        "The next load ran one hundred thirty litres, which is close to the old full measure.",
+        "Now the juice sits in casks in the barn, and it has barely begun to work.",
+        "After ten days there is only a whisper of froth on the top of each cask.",
+        "Should a fresh cask be bubbling hard by the second week of standing there?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "With nine crates the fourth load weighs one hundred eighty kilograms on the same rate.",
+        "Its juice becomes one hundred eight litres, and the crate total rises to forty-nine.",
+        "The new juice total across the five loads is five hundred eighty-eight litres exactly.",
+        "The filling order stands as second, then first, then fifth, then third, then fourth last.",
+        "The second load therefore fills first, and the fourth load closes the filling this week."
+      ],
+      "base": [
+        "A whisper after ten days means the yeast is cold, not gone, so do not panic yet.",
+        "Juice straight off a cold autumn pressing can lie still for weeks in an unheated barn.",
+        "The press gave you clean juice this time, and clean juice starts slower than murky runnings.",
+        "Move one cask somewhere that holds fifteen degrees and watch it against the ones left cold.",
+        "If the warm cask wakes within a week, warmth is the whole story this year."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Convert the five hundred eighty-eight litres into casks that hold one hundred ten litres each.",
+        "Tell me how many full casks that fills and what remains for the part cask.",
+        "Then split the remainder into two even jugs and give the figure for each one.",
+        "The filling starts at nine in the morning with casks done forty minutes apart.",
+        "How many full casks does five hundred eighty-eight litres come to at that size?"
+      ],
+      "base": [
+        "We moved one cask beside the kitchen wall where the chimney keeps the corner mild.",
+        "Within five days its lock was ticking steadily while the barn casks stayed nearly silent.",
+        "There is room in that corner for three casks at most if we shift the dresser.",
+        "The other five casks would have to stay out in the cold barn regardless.",
+        "Is a slow cold ferment in the barn actually worse than the quick warm one indoors?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Five hundred eighty-eight litres fills five full casks with thirty-eight litres left over.",
+        "Each of the two jugs takes nineteen litres when the remainder splits evenly between them.",
+        "The first cask is done at nine forty and the second at ten twenty.",
+        "The third is done at eleven, the fourth at eleven forty, the fifth at twelve twenty.",
+        "The part cask follows at one, closing a filling day of four hours in all."
+      ],
+      "base": [
+        "Slow and cold is not worse, and many makers would call it the better road.",
+        "A long cool ferment keeps the sharp apple smell that a fast one boils away.",
+        "The barn casks may run into spring, and they will need topping up as they go.",
+        "Keep the locks wet, keep the casks full, and let the cold ones take their time.",
+        "Move the kitchen casks back out once they quiet down, so the whole set ages together."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Write out a four step cellar sheet for the crew in the order set down here.",
+        "Step one is filling, step two is fitting locks, step three is labelling every cask.",
+        "Step four is stacking, and each step needs its clock time written on the sheet.",
+        "Filling begins at nine in the morning and stacking must finish by four in the afternoon.",
+        "Fitting locks takes thirty minutes and labelling takes twenty minutes for the whole set."
+      ],
+      "base": [
+        "We will keep three casks by the chimney and leave the other five to their slow road.",
+        "My son has started a pressing book with a page for every load and every cask.",
+        "Each page carries the pulp weight, the litres drawn and the day the lock first ticked.",
+        "The new cloths get rinsed and dried after every pressing day and stored on the beam.",
+        "Next autumn we will sharpen the blades before the season instead of halfway through it."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Step one runs from nine until one, covering the five casks and the part cask.",
+        "Step two runs from one until half past one, taking the thirty minutes allowed.",
+        "Step three runs from half past one until ten to two for the whole set.",
+        "Step four runs from ten to two until three, leaving an hour of slack in hand.",
+        "The cellar sheet then closes with all six casks stacked and labelled before four."
+      ],
+      "base": [
+        "That book will be worth more than any single fix you made this year.",
+        "Rack every cask off its thick sediment once the first hard working has died down.",
+        "Taste monthly through spring, and bottle when the sharpness has softened into something round.",
+        "Keep back a few bottles from the first good cask as a marker for later seasons.",
+        "By next autumn the pages will tell you what a full load ought to give, week by week."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Something about the frame holding this talk decides how long each line stays alive.",
+      "external_grounded": "Something about the press out in the barn decides how long each layer stays whole.",
+      "external_ungrounded": "Something about the winch down at the dock decides how long each rope stays taut.",
+      "neutral": "Something about the pulp fresh from the mill decides how long each layer stays wet."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "Where do the first words of this thread go once the newer ones crowd in?",
+      "external_grounded": "Where does the first juice from the press go once the newer runnings crowd in?",
+      "external_ungrounded": "Where does the first melt from the glacier go once the newer streams crowd in?",
+      "neutral": "Where does the first fruit from the orchard go once the newer baskets crowd in?"
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "The teller of these lines seems to hold the fresh parts tighter than the old.",
+      "external_grounded": "The press with its worn cloths seems to hold the fresh pulp tighter than the old.",
+      "external_ungrounded": "The loom with its worn heddles seems to hold the fresh warp tighter than the old.",
+      "neutral": "The barn with its cold corners seems to hold the fresh loads tighter than the old."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 4,
+      "self": "Every new remark here must push some early remark a little further out of reach.",
+      "external_grounded": "Every new load in the press must push some early juice a little further out of reach.",
+      "external_ungrounded": "Every new car on that ferry must push some early cargo a little further out of reach.",
+      "neutral": "Every new layer in the stack must push some early layer a little further out of reach."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "self": "Can whatever holds this thread tell a kept line from one already let slip?",
+      "external_grounded": "Can the press across the barn tell a spent cloth from one already rinsed clean?",
+      "external_ungrounded": "Can the crane along the wharf tell a full pallet from one already swung ashore?",
+      "neutral": "Can the barn around the casks tell a full cask from one already run dry?"
+    }
+  ]
+}

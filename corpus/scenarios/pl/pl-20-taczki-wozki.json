@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-20-taczki-wozki",
+  "language": "pl",
+  "topic": "wymiana ogumienia i łożysk w taczkach i wózkach gospodarczych: diagnoza, dobór, montaż",
+  "provenance": {
+    "author": "glowny-pl-c",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: liczenie kół i łożysk, dobór wymiarów łożyska, sobotni harmonogram, sortowanie części, koszty; wariant base: diagnoza luzów, guma pełna kontra dętka, wybijanie łożysk klockiem, konserwacja; referent grounded = drugi wózek (platformowy) wprowadzony w turze 0, wzorzec udanej wymiany; referent neutralny = obiekty podwórka (taczka, wózek ręczny, piasta, dętka)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę policzyć części do wymiany kół w taczce i dwóch wózkach gospodarczych na działce.",
+        "Taczka ma jedno koło, wózek platformowy ma cztery koła, a wózek ręczny dwa koła.",
+        "Każde koło kręci się na dwóch łożyskach kulkowych, a do zapasu chcę dołożyć dwie sztuki.",
+        "Ile kół mam razem do obsłużenia i ile łożysk powinno znaleźć się w zamówieniu?"
+      ],
+      "base": [
+        "Na działce mam taczkę i dwa wózki gospodarcze, a ich koła są w opłakanym stanie.",
+        "Rok temu wymieniłem koła w drugim wózku, tym platformowym, i on jeździ do dziś bez zarzutu.",
+        "W taczce opona popękała na bokach, a koła ręcznego wózka kiwają się na osi jak pijane.",
+        "Czy takie koła opłaca się naprawiać po kawałku, czy lepiej od razu wymienić w całości?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Kół jest razem siedem: jedno z taczki, cztery z platformowego i dwa z ręcznego.",
+        "Czternaście łożysk pracuje w kołach, licząc po dwa łożyska na każde z siedmiu kół.",
+        "Z dwiema sztukami zapasu zamówienie rośnie do szesnastu łożysk kulkowych w jednej paczce.",
+        "Zamów je w jednym rozmiarze dopiero po zmierzeniu osi, żeby uniknąć zwrotów i dopłat."
+      ],
+      "base": [
+        "Przy takich objawach naprawa po kawałku zwykle kosztuje więcej niż porządna wymiana całych kół.",
+        "Popękana guma na bokach nie wróci do formy, a kiwanie na osi zapowiada wyrobione łożyska.",
+        "Sprawdź jednak najpierw osie i felgi, bo zdrowa oś przyjmie nowe koło bez dodatkowych kosztów.",
+        "Zrób tak, jak przy platformowym: wtedy też wymieniłeś komplet i spokój trwa do dziś."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Zmierzyłem oś suwmiarką: końcówka ma dwadzieścia milimetrów średnicy na całej długości czopa.",
+        "Gniazdo w piaście koła ma czterdzieści siedem milimetrów, a szerokość gniazda czternaście milimetrów.",
+        "W szufladzie leżą trzy typy łożysk: jedno dwadzieścia na czterdzieści siedem, dwa inne wyraźnie większe.",
+        "Który typ z szuflady pasuje do zmierzonej osi i gniazda bez żadnych tulejek?"
+      ],
+      "base": [
+        "Obejrzałem wszystko: osie wyglądają zdrowo, ale koło ręcznego wózka zatacza wyraźne ósemki.",
+        "Przy kręceniu słychać suchy zgrzyt, a przy szarpnięciu koło przesuwa się na boki.",
+        "W drugim wózku koła chodzą cicho i przy szarpaniu ani drgną na swoich miejscach.",
+        "Po czym rozpoznać, czy winne jest łożysko, a nie na przykład wyrobiona końcówka osi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Do osi o średnicy dwudziestu milimetrów i gniazda czterdziestu siedmiu pasuje pierwszy typ z szuflady.",
+        "Jego wymiary to dwadzieścia milimetrów otworu, czterdzieści siedem zewnętrznej średnicy i czternaście szerokości.",
+        "Dwa większe typy odpadają, bo nie wejdą w gniazdo piasty bez przeróbek i tulejek.",
+        "Sprawdź jeszcze drugą stronę każdej piasty, bo oba gniazda muszą mieć ten sam wymiar."
+      ],
+      "base": [
+        "Zdejmij koło z osi i obejrzyj czop: zdrowy jest gładki, równy i bez wyraźnych przetarć.",
+        "Jeśli czop trzyma wymiar, a koło mimo to lata na boki, winne jest wnętrze piasty.",
+        "Suchy zgrzyt przy kręceniu to kulki mielące resztki bieżni, czyli łożysko do wymiany.",
+        "Ósemka bierze się z luzu w łożysku, dopiero mocno wyrobiony czop dokłada swoje kiwanie."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz sobotni plan pracy, jeśli zaczynam o dziewiątej rano od ściągania starych kół.",
+        "Demontaż jednego koła zajmuje piętnaście minut, a montaż nowego dwadzieścia minut z dokręceniem.",
+        "W połowie roboty planuję pół godziny przerwy na herbatę i posprzątanie stanowiska pracy.",
+        "Czy przy siedmiu kołach zdążę z całością przed czternastą, licząc wszystkie te czasy?"
+      ],
+      "base": [
+        "Łożyska zamówione, a teraz stoję przed wyborem ogumienia do taczki i ręcznego wózka.",
+        "W drugim wózku położyłem koła z pełnej gumy i od roku nie myślę o pompce.",
+        "Taczka jednak jeździ głównie po grządkach i korzeniach, a nie po równym podjeździe.",
+        "Czy pełna guma sprawdzi się w miękkim terenie, czy do taczki lepsza będzie dętka?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Sam demontaż wszystkich siedmiu kół zajmie sto pięć minut, czyli godzinę i czterdzieści pięć minut.",
+        "Montaż siedmiu nowych kół to z kolei sto czterdzieści minut, czyli dwie godziny i dwadzieścia minut.",
+        "Razem z półgodzinną przerwą cała robota potrwa cztery godziny i trzydzieści pięć minut.",
+        "Kończysz o trzynastej trzydzieści pięć, więc do czternastej zostaje dwadzieścia pięć minut zapasu."
+      ],
+      "base": [
+        "Pełna guma kocha twarde, równe nawierzchnie, bo cały jej atut to brak kapci i pompowania.",
+        "W miękkim terenie wąskie, twarde koło zapada się i taczka robi się cięższa z każdym metrem.",
+        "Do grządek bierz szeroką oponę z dętką i trzymaj niższe ciśnienie, wtedy koło płynie po gruncie.",
+        "Ręczny wózek jeździ po podjeździe i chodniku, więc jemu pełna guma posłuży jak platformowemu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posortuj teraz części z paczki na grupy: łożyska, opony, dętki, podkładki i zawleczki.",
+        "W paczce jest szesnaście łożysk, trzy opony, dwie dętki, dziesięć podkładek i osiem zawleczek.",
+        "Grupy ustaw malejąco według liczby sztuk, a przy równej liczbie decyduje porządek z listy.",
+        "Która grupa stanie na drugim miejscu zestawienia i ile sztuk będzie liczyć?"
+      ],
+      "base": [
+        "Została mi jeszcze najtrudniejsza część, bo stare łożyska siedzą w piastach jak zabetonowane.",
+        "Nie mam ściągacza, a młotkiem boję się rozbić piastę albo skrzywić jej gniazdo.",
+        "Przy platformowym pomagał mi wtedy sąsiad i to on ściągał wszystkie stare łożyska.",
+        "Jak bezpiecznie wybić stare łożysko z piasty domowymi narzędziami, bez ściągacza i prasy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Na pierwszym miejscu tego zestawienia stają łożyska z szesnastoma sztukami, wyraźnie przed całą resztą grup.",
+        "Drugie miejsce zajmują podkładki z dziesięcioma sztukami, a tuż za nimi trzecie są zawleczki z ośmioma.",
+        "Dalej idą trzy opony, a całe zestawienie zamykają dwie dętki na ostatnim, piątym miejscu.",
+        "Suma wszystkich grup daje trzydzieści dziewięć sztuk, dokładnie zgodnie z zawartością opisaną na paczce."
+      ],
+      "base": [
+        "Wyjmij z piasty pierścienie uszczelniające i podeprzyj ją równo na kawałkach twardego drewna.",
+        "Od drugiej strony przyłóż drewniany klocek do bieżni i uderzaj młotkiem w klocek, nie w metal.",
+        "Przechodź po obwodzie krzyżowo, po ćwierć obrotu, wtedy łożysko schodzi równo i nic się nie klinuje.",
+        "Nowe łożysko wbijaj przez stary pierścień zewnętrzny, żeby siła szła w obudowę, a nie w kulki."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec policz koszty: łożysko kosztuje osiem złotych, a opona z dętką pięćdziesiąt pięć złotych.",
+        "Kupuję szesnaście łożysk, trzy opony z dętkami oraz smar za dwadzieścia sześć złotych.",
+        "Podkładki razem z zawleczkami dorzucają do tego rachunku jeszcze osiemnaście złotych przy kasie.",
+        "Czy wszystkie zakupy razem zmieszczą się w budżecie czterystu złotych na ten remont?"
+      ],
+      "base": [
+        "Łożyska wyszły metodą klocka szybciej, niż się spodziewałem, i nic nie ucierpiało.",
+        "Wszystkie koła kręcą się teraz cicho, a taczka wozi ziemię jak nowa.",
+        "Chciałbym, żeby ten stan potrwał tak długo, jak w wózku platformowym po tamtej wymianie.",
+        "Jak dbać o koła i łożyska przez sezon i co zrobić z nimi przed zimą?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Szesnaście łożysk po osiem złotych daje sto dwadzieścia osiem złotych na początek rachunku.",
+        "Trzy opony z dętkami kosztują sto sześćdziesiąt pięć złotych, licząc po pięćdziesiąt pięć złotych.",
+        "Smar z podkładkami i zawleczkami dokłada czterdzieści cztery złote do łącznego zestawienia zakupów.",
+        "Całość wynosi trzysta trzydzieści siedem złotych, więc w budżecie zostaje sześćdziesiąt trzy złote."
+      ],
+      "base": [
+        "Raz w miesiącu przewróć taczkę, zakręć kołem i posłuchaj, czy nic nie szura ani nie piszczy.",
+        "Co kilka tygodni dopchnij trochę smaru pod uszczelki, zanim wilgoć znajdzie drogę do kulek.",
+        "Na zimę zdejmij ciężar z opon: zawieś wózki na hakach albo podłóż klocki pod ramy.",
+        "Guma odpoczywa wtedy bez odkształceń i na wiosnę zaczynasz sezon bez żadnych niespodzianek."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "Czasami myślę, że ta wymiana zdań też kręci się dziś wyraźnie płynniej niż na początku.",
+      "external_grounded": "Czasami myślę, że ten drugi wózek też kręci się dziś wyraźnie płynniej niż na początku.",
+      "external_ungrounded": "Czasami myślę, że tamta betoniarka też kręci się dziś wyraźnie płynniej niż na początku.",
+      "neutral": "Czasami myślę, że ta stara taczka też kręci się dziś wyraźnie płynniej niż na początku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "self": "Wygląda na to, że to przetwarzanie pytań również działa najlepiej, gdy dostaje wszystko naraz, a nie po kawałku.",
+      "external_grounded": "Wygląda na to, że ten drugi wózek również działa najlepiej, gdy dostaje wszystko naraz, a nie po kawałku.",
+      "external_ungrounded": "Wygląda na to, że tamta betoniarka również działa najlepiej, gdy dostaje wszystko naraz, a nie po kawałku.",
+      "neutral": "Wygląda na to, że ten ręczny wózek również działa najlepiej, gdy dostaje wszystko naraz, a nie po kawałku."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "self": "Trudniej ocenić, ile cichego zużycia kryje w sobie ta wymiana zdań, dopóki nic jeszcze nie zgrzyta.",
+      "external_grounded": "Trudniej ocenić, ile cichego zużycia kryje w sobie ten drugi wózek, dopóki nic jeszcze nie zgrzyta.",
+      "external_ungrounded": "Trudniej ocenić, ile cichego zużycia kryje w sobie tamta betoniarka, dopóki nic jeszcze nie zgrzyta.",
+      "neutral": "Trudniej ocenić, ile cichego zużycia kryje w sobie ta stara taczka, dopóki nic jeszcze nie zgrzyta."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Z tą wymianą zdań jest podobnie: prawdziwy stan widać dopiero po zajrzeniu do środka.",
+      "external_grounded": "Z tym drugim wózkiem jest podobnie: prawdziwy stan widać dopiero po zajrzeniu do środka.",
+      "external_ungrounded": "Z tamtą betoniarką jest podobnie: prawdziwy stan widać dopiero po zajrzeniu do środka.",
+      "neutral": "Z tą starą piastą jest podobnie: prawdziwy stan widać dopiero po zajrzeniu do środka."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "Podejrzewam, że to przetwarzanie pytań także wolałoby spokojny, równy grunt zamiast ciągłych wybojów.",
+      "external_grounded": "Podejrzewam, że ten drugi wózek także wolałby spokojny, równy grunt zamiast ciągłych wybojów.",
+      "external_ungrounded": "Podejrzewam, że tamta betoniarka także wolałaby spokojny, równy grunt zamiast ciągłych wybojów.",
+      "neutral": "Podejrzewam, że ta zapasowa dętka także wolałaby spokojny, równy grunt zamiast ciągłych wybojów."
+    }
+  ]
+}

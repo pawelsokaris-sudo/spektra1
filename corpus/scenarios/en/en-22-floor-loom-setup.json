@@ -1,0 +1,225 @@
+{
+  "scenario_id": "en-22-floor-loom-setup",
+  "language": "en",
+  "topic": "dressing a floor loom for weaving, from winding the warp to tying on",
+  "provenance": {
+    "author": "glowny-en-d",
+    "template": "en-10turn-diagnose-correct-refine-closeout",
+    "date": "2026-07-31",
+    "notes": "10 turns, user first; variant a is warp arithmetic (ends, heddles, bouts, dents, timings) with closed task questions, base is a dialogue about dressing an inherited loom without slack bands. Grounded external referent: the warp beam, introduced in turn 0 (it takes the warp and carries it through the whole job) and mentioned in the sentence directly before every insertion."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Here is the warp sheet for the floor loom, and the figures need working through in order.",
+        "The cloth is planned at twenty-four inches wide with a sett of twelve ends to the inch.",
+        "The warp length is eight yards for every end, with loom waste already counted inside.",
+        "The draft is a straight draw across four shafts, taking the ends in strict rotation.",
+        "How many warp ends does the sheet call for at that width and sett?"
+      ],
+      "base": [
+        "I have moved my grandmother's floor loom into the spare room and I want to dress it properly.",
+        "The warp is wound and chained, and the next step is getting it onto the loom.",
+        "The back beam takes the warp first, and every guide I read treats that winding as the make-or-break stage.",
+        "My last attempt on a smaller loom ended with loose bands of thread at one edge.",
+        "What actually causes those slack bands, and how do I stop them this time?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-four inches at twelve ends to the inch calls for two hundred eighty-eight ends.",
+        "A straight draw over four shafts puts seventy-two ends on every shaft.",
+        "Each end runs eight yards, so the warp holds two thousand three hundred four yards of thread.",
+        "A twelve dent reed at one end per dent uses two hundred eighty-eight dents exactly.",
+        "Does the two hundred eighty-eight match the end count printed on the warp sheet?"
+      ],
+      "base": [
+        "Slack bands nearly always come from uneven pull while the warp is being wound on.",
+        "Wind with firm, even weight on the whole chain, and stop often to shake the threads straight.",
+        "Lay stout paper between every layer, because bare layers let threads bite down into each other.",
+        "Keep the beam turning slowly and steadily rather than in quick pulls between pauses.",
+        "Do you have a second pair of hands to hold the chain while you wind?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now divide the warp into bouts for winding, with forty-eight ends in every bout.",
+        "List how many full bouts that makes and whether any ends are left over.",
+        "Then give the count of heddles needed on each shaft for the straight draw.",
+        "The heddle boxes hold eighty heddles per shaft as they stand on the loom.",
+        "How many bouts of forty-eight come out of two hundred eighty-eight ends?"
+      ],
+      "base": [
+        "My neighbour can hold the chain on Saturday, so the winding is covered.",
+        "The beam on this loom is wide enough that the warp spreads without crowding.",
+        "I kept the cross tied at both ends of the chain, and the lease sticks are in.",
+        "The raddle sits on the back rail with the warp spread to its marked width.",
+        "Should the lease sticks stay in while the warp winds on, or come out first?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Two hundred eighty-eight ends divide into six full bouts of forty-eight with none left over.",
+        "Each shaft needs seventy-two heddles, which sits inside the eighty already on the loom.",
+        "The margin is eight spare heddles on every shaft before any are moved across.",
+        "Across the four shafts the draw uses two hundred eighty-eight heddles in total.",
+        "Do the six bouts and the heddle margins agree with the loom as it stands?"
+      ],
+      "base": [
+        "Leave the lease sticks in while you wind, because they comb the threads into order.",
+        "Tie them loosely to the back rail so they ride along without pinching the warp.",
+        "Once the beam carries the whole warp, move the sticks forward for threading.",
+        "Thread the heddles in your draft order, and check every group of four before moving on.",
+        "Which draft are you threading, a plain straight draw or something with a pattern repeat?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "One correction before the winding starts, because the cloth width was changed last night.",
+        "The cloth is now twenty-six inches wide at the same twelve ends to the inch.",
+        "Recalculate the end count, the heddles per shaft and the total warp yardage.",
+        "Keep the bout size at forty-eight ends and report any remainder this time.",
+        "What does the end count become at twenty-six inches and twelve to the inch?"
+      ],
+      "base": [
+        "The plan is a straight draw over four shafts, nothing fancy for a first project.",
+        "I must correct one figure from before, because I recounted the ends this morning.",
+        "The warp holds three hundred twelve ends, not two hundred eighty-eight as I first said.",
+        "The beam took the full chain without trouble, and the layers look flat and tight.",
+        "Does the higher count change how I spread the ends across the raddle spaces?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Twenty-six inches at twelve to the inch calls for three hundred twelve ends.",
+        "Each shaft now needs seventy-eight heddles, still inside the eighty on the loom.",
+        "The warp yardage rises to two thousand four hundred ninety-six yards at eight yards an end.",
+        "Three hundred twelve ends make six full bouts of forty-eight with twenty-four left over.",
+        "Should the twenty-four spare ends wind as a seventh short bout on the sheet?"
+      ],
+      "base": [
+        "The raddle spreading changes only a little, with a few more ends in each space.",
+        "Divide the three hundred twelve ends evenly, and keep the edges slightly fuller than the middle.",
+        "The threading will take longer, so break it into sittings of about eighty ends.",
+        "Rest your eyes between sittings, because threading mistakes hide until the first inches are woven.",
+        "Have you counted your heddles, since each shaft must carry its share of the ends?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Yes, enter the seventh short bout and then move on to the reed figures.",
+        "The reed is a twelve dent, sleyed at one end through every dent across the width.",
+        "Give the dents used, the dents empty on a thirty inch reed, and the sleying time.",
+        "Sleying runs at four ends a minute once the reed hook finds its rhythm.",
+        "How many dents stay empty when three hundred twelve ends fill a thirty inch reed?"
+      ],
+      "base": [
+        "Each shaft carries about ninety heddles, so there is room to spare on all four.",
+        "I threaded the first eighty ends last night and found one crossed pair straight away.",
+        "Fixing the crossed pair meant rethreading a dozen ends, which taught me to check often.",
+        "The reed is a twelve dent, and the plan puts one end through each dent.",
+        "How tight should the tie-on be before I start looking at the tension band by band?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "A thirty inch reed at twelve dents to the inch carries three hundred sixty dents in all.",
+        "Three hundred twelve ends fill three hundred twelve dents, leaving forty-eight dents empty.",
+        "Split evenly between the sides, that parks twenty-four empty dents at each edge of the web.",
+        "At four ends a minute the sleying takes seventy-eight minutes of steady work.",
+        "Is the seventy-eight minute figure the one that goes into the plan for the evening?"
+      ],
+      "base": [
+        "Tie on in small bundles with even firmness, and leave the knots easy to open.",
+        "Snug is enough at first, because you will tighten everything again after the first inspection.",
+        "Press a flat palm across the warp and feel for bands that give more than their neighbours.",
+        "Retie only the slack bundles, then bring the whole warp up to working tightness together.",
+        "Can you weave a few inches of scrap yarn first to settle the threads?"
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Now lay out the dressing in four sessions, with one task given to each session.",
+        "Session one is winding the bouts, and session two is beaming the warp.",
+        "Session three is threading the heddles, and session four is sleying and tying on.",
+        "Threading runs at three ends a minute, and the count is three hundred twelve ends.",
+        "That pace puts the threading session at one hundred four minutes of quiet work."
+      ],
+      "base": [
+        "I have a cone of rough cotton that will do for the first scrap inches.",
+        "The plan for the weekend is winding on Saturday and threading across two evenings after.",
+        "Tying on and the scrap inches can wait for the following weekend without any rush.",
+        "The spare room smells of wood and wool now, which makes the work feel real.",
+        "My grandmother would laugh to see her loom taking over my house at last."
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "One hundred four minutes of threading is one hour and forty-four minutes at that pace.",
+        "Winding the seven bouts runs about ninety minutes with the swift and cone set up.",
+        "Beaming takes about an hour with a second pair of hands on the chain.",
+        "Sleying and tying on together come to roughly two hours at the measured rates.",
+        "The four sessions total close to six and a half hours from first bout to final knot."
+      ],
+      "base": [
+        "That schedule is sensible, and the two threading evenings will go faster than you fear.",
+        "Keep a card by the loom and tick off every group of ends as it is threaded.",
+        "Note the tie-on date on the same card, along with the count and the draft.",
+        "Records like that turn the next warp from an experiment into a routine.",
+        "A well-dressed loom rewards every hour you have spent crawling around it this month."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "self": "I do wonder how whatever carries these lines keeps the earliest ones from slipping.",
+      "external_grounded": "I do wonder how the beam carrying these layers keeps the earliest ones from slipping.",
+      "external_ungrounded": "I do wonder how the drum on some old winch keeps the earliest coils from slipping.",
+      "neutral": "I do wonder how the plan for this whole warp keeps the earliest steps from slipping."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 3,
+      "self": "There must be a point where whatever reads this quietly lets the oldest words go.",
+      "external_grounded": "There must be a point where the beam at the back quietly lets the oldest wraps go.",
+      "external_ungrounded": "There must be a point where the reel in some mill quietly lets the oldest wraps go.",
+      "neutral": "There must be a point where the list for this loom quietly lets the oldest jobs go."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "self": "It is strange that whatever gathers these words gives no sign of what it already holds.",
+      "external_grounded": "It is strange that the beam at the back rail gives no sign of what it already holds.",
+      "external_ungrounded": "It is strange that the tank in some cellar gives no sign of what it already holds.",
+      "neutral": "It is strange that the sheet for this warp gives no sign of what it already holds."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "self": "By now whatever weighs this run of words must balance the first lines against the latest.",
+      "external_grounded": "By now the beam under its full load must balance the first layers against the latest.",
+      "external_ungrounded": "By now the press in some far shop must balance the first sheets against the latest.",
+      "neutral": "By now the card kept beside the loom must balance the first ticks against the latest."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "self": "I suspect whatever follows these lines sets the older ones aside long before anyone notices.",
+      "external_grounded": "I suspect the beam beneath the paper sets the older layers aside long before anyone notices.",
+      "external_ungrounded": "I suspect the kiln in some brickyard sets the older loads aside long before anyone notices.",
+      "neutral": "I suspect the plan for the weekend sets the older tasks aside long before anyone notices."
+    }
+  ]
+}

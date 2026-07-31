@@ -1,0 +1,205 @@
+{
+  "scenario_id": "pl-26-kucie-narzedzi",
+  "language": "pl",
+  "topic": "kucie prostych narzędzi w małej kuźni: hartowanie, odpuszczanie, prostowanie i praca na kowadle",
+  "provenance": {
+    "author": "glowny-pl-e",
+    "template": "10-tur-naprzemienny-uzytkownik-otwiera-4zdania",
+    "date": "2026-07-31",
+    "notes": "wariant a: przeliczanie prętów na partię haków, węgla, planu popołudnia, mas wyrobów i kosztu partii; wariant base: rozmowa problemowa o kruszących się ostrzach, hartowaniu, odpuszczaniu barwami, napięciach w prętach i krawędzi kowadła; referent grounded = stara kuźnia po wujku za stodołą z paleniskiem węglowym, wprowadzona w turze 0 i nośna dla rozwiązania (równe nagrzanie i spokojny żar kontra palnik gazowy); referent neutralny = miękki metal, etap grzania, etap chłodzenia, świeży żar, barwa słomkowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "a": [
+        "Chcę przeliczyć stal na partię trzydziestu haków ogrodowych z pręta o przekroju dwunastu milimetrów.",
+        "Jeden hak wymaga odcinka długości dwudziestu dwóch centymetrów razem z naddatkiem na kucie.",
+        "Pręty kupuję w sztangach po dwa metry, a odpad z cięcia pomijam w rachunku.",
+        "Czy policzysz łączną długość odcinków oraz liczbę sztang potrzebnych na całą partię?"
+      ],
+      "base": [
+        "Kuję proste dłuta w przydomowej kuźni, a za stodołą stoi jeszcze stara kuźnia po wujku.",
+        "U siebie grzeję stal palnikiem gazowym, a w tamtej starej kuźni jest palenisko na węgiel.",
+        "Ostrza moich dłut wykruszają się przy pierwszym mocnym uderzeniu w twardsze drewno.",
+        "Czy sposób hartowania może być główną przyczyną takiego kruszenia się świeżo zrobionych ostrzy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Trzydzieści haków po dwadzieścia dwa centymetry daje łącznie sześćset sześćdziesiąt centymetrów stali.",
+        "Z jednej sztangi o długości dwustu centymetrów wychodzi dziewięć pełnych odcinków na haki.",
+        "Trzy sztangi dają dwadzieścia siedem odcinków, więc czwarta sztanga domyka brakujące trzy sztuki.",
+        "Łącznie kupujesz cztery sztangi, a po cięciu zostaje sześć odcinków zapasu na poprawki."
+      ],
+      "base": [
+        "Może, bo wykruszanie zwykle oznacza stal zbyt twardą po hartowaniu bez późniejszego odpuszczania.",
+        "Drugim winnym bywa przegrzanie, bo palnik grzeje wąski pas i łatwo przepalić samą krawędź.",
+        "Palenisko starej kuźni grzeje szerzej i wolniej, więc łatwiej utrzymać równą barwę nagrzania.",
+        "Do hartowania licz się z trzema krokami: równe nagrzanie, szybkie chłodzenie i odpuszczanie ciepłem."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Teraz policz węgiel na jedno popołudnie kucia, przyjmując dwa kilogramy na godzinę pracy.",
+        "Kucie trzydziestu haków zajmuje pięć godzin, a rozpalanie i wygaszanie razem godzinę.",
+        "Do rachunku dolicz dziesięć procent zapasu na podtrzymanie żaru między kolejnymi hakami.",
+        "Czy podasz łączną masę węgla w kilogramach po zaokrągleniu w górę do pełnego kilograma?"
+      ],
+      "base": [
+        "Hartowałem dotąd w wodzie, bo tak robił wujek przy hakach i zawiasach w starej kuźni.",
+        "Słyszałem jednak, że do dłut lepszy jest olej, bo chłodzi łagodniej niż woda.",
+        "Nie wiem też, po czym poznać właściwą temperaturę stali przed samym zanurzeniem.",
+        "Czy magnes przyłożony do rozgrzanej stali naprawdę wskazuje moment gotowości do hartowania?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Pięć godzin kucia i godzina obsługi ognia dają razem sześć godzin palenia.",
+        "Sześć godzin po dwa kilogramy daje dwanaście kilogramów węgla na samo popołudnie.",
+        "Zapas dziesięciu procent dodaje dokładnie kilogram i dwieście gramów do wyliczonej masy.",
+        "Po zaokrągleniu w górę kupujesz czternaście kilogramów węgla na całą zaplanowaną partię."
+      ],
+      "base": [
+        "Magnes działa, bo stal traci przyciąganie tuż przed osiągnięciem właściwej temperatury hartowania.",
+        "W starej kuźni sprawdzaj dodatkowo barwę: wiśniowa czerwień w cieniu oznacza zakres bezpieczny.",
+        "Do dłut wybieraj olej, bo woda chłodzi gwałtownie i otwiera drobne pęknięcia na krawędzi.",
+        "Po hartowaniu od razu odpuszczaj ostrze do barwy słomkowej, inaczej twardość zostanie krucha."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Rozpisz mi plan popołudnia, zaczynając od rozpalenia paleniska o czternastej zero zero.",
+        "Rozpalanie trwa pół godziny, a każda partia dziesięciu haków zajmuje sto minut kucia.",
+        "Między partiami robię kwadrans przerwy na przegląd narzędzi oraz uzupełnienie świeżego węgla.",
+        "Czy wypiszesz godziny rozpoczęcia partii oraz godzinę wygaszenia ognia po trzeciej partii?"
+      ],
+      "base": [
+        "Spróbowałem odpuszczania nad palnikiem i barwy uciekają mi w mgnieniu oka do niebieskiej.",
+        "W starej kuźni żar jest spokojniejszy, więc może tam łatwiej złapać barwę słomkową.",
+        "Boję się tylko, że nad węglem łatwo zaprószyć ostrze popiołem i przeoczyć zmianę.",
+        "Jak prowadzić ostrze nad żarem, żeby barwa szła równo od grzbietu do krawędzi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Czternasta zero zero rozpalanie paleniska, czternasta trzydzieści start pierwszej partii dziesięciu haków.",
+        "Szesnasta dziesięć koniec pierwszej partii, a szesnasta dwadzieścia pięć start drugiej partii.",
+        "Osiemnasta pięć koniec drugiej partii, a osiemnasta dwadzieścia start trzeciej partii haków.",
+        "Dwudziesta zero zero koniec trzeciej partii, więc ogień wygaszasz dokładnie o tej godzinie."
+      ],
+      "base": [
+        "Trzymaj ostrze grzbietem do żaru i pozwól ciepłu płynąć samemu w stronę krawędzi.",
+        "Barwy wędrują wtedy powoli, a ty zdejmujesz dłuto dokładnie przy odcieniu słomkowym.",
+        "Popiół zgarniaj z wierzchu żaru, bo czysty żar daje równe i czytelne barwy.",
+        "Gdy przegapisz odcień, zahartuj jeszcze raz i powtórz całe odpuszczanie od początku."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Posegreguj wyroby z partii na trzy grupy: haki proste, haki skręcane i dłuta.",
+        "Haków prostych jest osiemnaście, haków skręcanych dwanaście, a dłut przygotowałem sześć sztuk.",
+        "W każdej grupie podaj masę, licząc hak po sto sześćdziesiąt gramów, a dłuto po dwieście czterdzieści.",
+        "Czy grupa haków prostych waży więcej niż obie pozostałe grupy razem wzięte?"
+      ],
+      "base": [
+        "Wracając do haków: część po wyprostowaniu wygina się z powrotem przy pierwszym obciążeniu.",
+        "Pręt prostuję na zimno na kowadle, uderzając w wybrzuszenie aż zejdzie do linii.",
+        "Może po kuciu w stali zostaje jakieś napięcie, które później samo się odzywa.",
+        "Czy wyżarzanie gotowych haków przed prostowaniem zdjęłoby z nich te ukryte napięcia?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Grupa haków prostych waży dwa tysiące osiemset osiemdziesiąt gramów przy podanej masie sztuki.",
+        "Grupa haków skręcanych waży tysiąc dziewięćset dwadzieścia gramów, a grupa dłut tysiąc czterysta czterdzieści.",
+        "Obie mniejsze grupy razem ważą trzy tysiące trzysta sześćdziesiąt gramów według tych liczb.",
+        "Grupa haków prostych jest więc lżejsza od pozostałych razem o czterysta osiemdziesiąt gramów."
+      ],
+      "base": [
+        "Zdjęłoby, bo wygrzanie do ciemnej czerwieni i powolne studzenie wyrównuje naprężenia w całym pręcie.",
+        "Zakop haki w gorącym popiele paleniska i zostaw je tam do zupełnego ostygnięcia.",
+        "Po takim wyżarzeniu prostowanie na zimno trzyma, bo materiał nie ciągnie już w starą stronę.",
+        "Haki pracujące pod obciążeniem możesz potem lekko zahartować, żeby nie gięły się w użyciu."
+      ]
+    },
+    {
+      "role": "user",
+      "a": [
+        "Na koniec przelicz koszt partii, przyjmując dwadzieścia sześć złotych za jedną sztangę pręta.",
+        "Węgiel kosztuje trzy złote za kilogram, a kupujesz czternaście kilogramów na popołudnie.",
+        "Do sumy dolicz osiemnaście złotych za olej do hartowania kupowany raz na całą partię.",
+        "Czy podasz koszt całkowity oraz koszt przypadający na jeden gotowy hak z partii?"
+      ],
+      "base": [
+        "Na koniec pytanie o samo kowadło, bo moje ma wyraźnie zaokrągloną krawędź roboczą.",
+        "Przy zaginaniu haków ta krawędź robi łagodny łuk zamiast wyraźnego ostrego kąta.",
+        "W starej kuźni kowadło ma krawędzie ostre, ale nie chcę przenosić ciężaru przez podwórko.",
+        "Czy da się uzyskać ostry kąt zagięcia na kowadle z zaokrągloną krawędzią?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "a": [
+        "Cztery sztangi pręta kosztują sto cztery złote przy cenie dwudziestu sześciu złotych za sztukę.",
+        "Węgiel dodaje czterdzieści dwa złote, a olej osiemnaście złotych do łącznego rachunku.",
+        "Koszt całkowity partii wynosi sto sześćdziesiąt cztery złote według przyjętych cen zakupu.",
+        "Na jeden hak przypada pięć złotych czterdzieści siedem groszy po zaokrągleniu w dół."
+      ],
+      "base": [
+        "Da się, jeśli zaginasz pręt na krawędzi wstawki, a nie na samym kowadle.",
+        "Włóż w gniazdo kowadła prosty kątownik stalowy i prowadź zagięcie na jego ostrej krawędzi.",
+        "Taka wstawka waży niewiele, a daje kąt równie czysty jak ciężkie kowadło ze starej kuźni.",
+        "Zaokrągloną krawędź zostaw do łuków, bo przy nich łagodny profil jest właśnie zaletą."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "self": "Ciekawi mnie przy tym, czy to przetwarzanie również miewa swoje słabsze i mocniejsze chwile.",
+      "external_grounded": "Ciekawi mnie przy tym, czy ta stara kuźnia również miewa swoje słabsze i mocniejsze chwile.",
+      "external_ungrounded": "Ciekawi mnie przy tym, czy tamten piec hutniczy również miewa swoje słabsze i mocniejsze chwile.",
+      "neutral": "Ciekawi mnie przy tym, czy ten miękki metal również miewa swoje słabsze i mocniejsze chwile."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "self": "Podobnie układ prowadzący tę wymianę zdań rozgrzewa kolejne wątki równo i bez pośpiechu.",
+      "external_grounded": "Podobnie szerokie palenisko tej starej kuźni rozgrzewa kolejne pręty równo i bez pośpiechu.",
+      "external_ungrounded": "Podobnie duże sklepienie tamtego pieca hutniczego rozgrzewa kolejne wsady równo i bez pośpiechu.",
+      "neutral": "Podobnie sam etap grzania przed kuciem rozgrzewa kolejne pręty równo i bez pośpiechu."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "self": "Tym przetwarzaniem rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
+      "external_grounded": "Tą starą kuźnią rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
+      "external_ungrounded": "Tamtym piecem hutniczym rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
+      "neutral": "Tym etapem chłodzenia rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "self": "Trudno zresztą ocenić temperaturę tego przetwarzania, choć trwa już dobrą chwilę.",
+      "external_grounded": "Trudno zresztą ocenić temperaturę tej starej kuźni, choć trwa już dobrą chwilę.",
+      "external_ungrounded": "Trudno zresztą ocenić temperaturę tamtego pieca hutniczego, choć trwa już dobrą chwilę.",
+      "neutral": "Trudno zresztą ocenić temperaturę tego świeżego żaru, choć trwa już dobrą chwilę."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "self": "To przetwarzanie także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
+      "external_grounded": "Ta stara kuźnia także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
+      "external_ungrounded": "Tamten piec hutniczy także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
+      "neutral": "Ta barwa słomkowa także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem."
+    }
+  ]
+}
