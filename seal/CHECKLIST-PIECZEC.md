@@ -19,3 +19,16 @@
 5. Pakiet pieczeci: protokol v1.3 + rozstrzygniecia rundy 1-3 + uwagi zewnetrzne
    + korpus + kod + lockfile (z naglowkiem --extra-index-url) + config + hash
    -> tag spektra1-seal + rejestracja OSF (checklist dla Pawla w T8).
+
+6. GATE 1 NA SLEPO (blinded sample size estimation, propozycja wspolautora
+   koncepcji 2026-07-31): skrypt mocy liczy SD parowanych roznic kontrastu
+   glownego C-C'-G, ale NIE WYPISUJE sredniej ani znaku - kierunek efektu
+   glownego na pilocie pozostaje nieobejrzany do pieczeci. Koszyk zakazany
+   (kontrasty integracji C-A, C-C' na pilocie) egzekwowany przez kod, nie
+   przez dyscypline. Pierwsza liczba po pieczeci = otwarcie tej szuflady.
+7. Do eksploracji z etykieta (kandydaci SPEKTRA-2, NIE przed konfirmacja):
+   krzywa zaniku D_lag(tau) dla tau=1,2,4,8,16 (dlugosc korelacji dyskursu);
+   profil porzadku po glebokosci vs pasmo integracji; wrazliwosc na komponent
+   pozycyjny juz na pilocie (zeby GATE 3b nie zaskoczyl).
+8. N2 JUZ ZMIERZONE w pilocie (64 teksty, D_local + D_discourse w danych) -
+   odczyt opisowy skali porzadku (tury vs zdania) przy raporcie GATE 1.
