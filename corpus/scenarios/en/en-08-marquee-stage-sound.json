@@ -188,12 +188,12 @@
       "self": "I do wonder what the layer carrying this session does with the earlier parts.",
       "external_grounded": "I do wonder what the rig carrying these mixes does with the earlier parts.",
       "external_ungrounded": "I do wonder what the cable carrying that current does with the earlier parts.",
-      "neutral": "I do wonder what the running order set this year does with the earlier parts."
+      "neutral": "I do wonder what the running order this year does with the earlier parts."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Something must be deciding which of these turns still counts and which can go.",
+      "self": "Something here must be deciding which of these turns still counts and which can go.",
       "external_grounded": "Something in the rig must be deciding which send still counts and which can go.",
       "external_ungrounded": "Something must be deciding which of these leads still counts and which can go.",
       "neutral": "Something in the running order decides which song still counts and which can go."
@@ -218,7 +218,7 @@
       "turn": 4,
       "after_sentence": 3,
       "self": "Whatever follows these turns must be weighing the opening ones against the newest.",
-      "external_grounded": "Whatever the rig sends out must be weighing the opening mixes against the newest.",
+      "external_grounded": "Whatever the rig sends must be weighing the opening mixes against the newest.",
       "external_ungrounded": "Whatever follows these tubes must be weighing the opening ones against the newest.",
       "neutral": "Whatever the running order sets must be weighing the opening songs against the newest."
     }

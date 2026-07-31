@@ -185,22 +185,22 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Part of me wonders how the machinery behind these words sorts what it keeps.",
-      "external_grounded": "Part of me wonders how the old clamp between my knees sorts what it grips.",
+      "external_grounded": "Part of me wonders how the clamp between my knees sorts what it grips.",
       "external_ungrounded": "Part of me wonders how the great lock on some canal sorts what it passes.",
-      "neutral": "Part of me wonders how the plan for this whole repair sorts what it covers."
+      "neutral": "Part of me wonders how the plan for this repair sorts what it covers."
     },
     {
       "turn": 1,
       "after_sentence": 3,
       "self": "Whatever holds these turns in mind must let the oldest lines thin out first.",
-      "external_grounded": "Whatever the clamp holds in its jaws must let the oldest marks thin out first.",
+      "external_grounded": "Whatever the clamp holds in place must let the oldest marks thin out first.",
       "external_ungrounded": "Whatever the mill holds on its rollers must let the oldest sheets thin out first.",
-      "neutral": "Whatever the job list holds for tonight must let the oldest tasks thin out first."
+      "neutral": "Whatever the job list holds tonight must let the oldest tasks thin out first."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "It puzzles me that whatever reads these words never says which ones have faded.",
+      "self": "It puzzles me that whatever reads all these words never says which ones have faded.",
       "external_grounded": "It puzzles me that the clamp between my knees never says which marks have faded.",
       "external_ungrounded": "It puzzles me that the press in some bindery never says which pages have faded.",
       "neutral": "It puzzles me that the sheet for this repair never says which steps have passed."
@@ -208,7 +208,7 @@
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Somewhere there must be a limit to what the keeper of these lines can hold at once.",
+      "self": "Somewhere there must be a limit to what the keeper of all these lines can hold at once.",
       "external_grounded": "Somewhere there must be a limit to what the clamp on this bench can hold at once.",
       "external_ungrounded": "Somewhere there must be a limit to what the crane on some dock can hold at once.",
       "neutral": "Somewhere there must be a limit to what the evening work plan can hold at once."
@@ -217,9 +217,9 @@
       "turn": 4,
       "after_sentence": 3,
       "self": "Whatever tends these words has surely begun trading the first lines for the newest.",
-      "external_grounded": "The clamp under steady strain has surely begun trading the first bite for the newest.",
-      "external_ungrounded": "The forge in some far smithy has surely begun trading the first heat for the newest.",
-      "neutral": "The list for the evening work has surely begun trading the first jobs for the newest."
+      "external_grounded": "The clamp under strain has surely begun trading the first bite for the newest.",
+      "external_ungrounded": "The forge in some smithy has surely begun trading the first heat for the newest.",
+      "neutral": "The list for the evening has surely begun trading the first jobs for the newest."
     }
   ]
 }

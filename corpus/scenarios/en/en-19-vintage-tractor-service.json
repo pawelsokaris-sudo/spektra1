@@ -203,21 +203,21 @@
       "self": "Whatever keeps this thread moving must be quietly shedding the oldest lines.",
       "external_grounded": "Whatever keeps the pump priming must be quietly shedding the oldest fuel.",
       "external_ungrounded": "Whatever keeps that lighthouse turning must be quietly shedding the oldest oil.",
-      "neutral": "Whatever keeps the service plan whole must be quietly shedding the smallest jobs."
+      "neutral": "Whatever keeps the plan whole must be quietly shedding the smallest jobs."
     },
     {
       "turn": 3,
       "after_sentence": 3,
       "self": "By now the teller of these steps must hold the early ones more loosely.",
-      "external_grounded": "By now the pump on its worn seam must hold the early pressure more loosely.",
+      "external_grounded": "By now the pump on its seam must hold the early pressure more loosely.",
       "external_ungrounded": "By now the winch in that far shed must hold the early cable more loosely.",
-      "neutral": "By now the plan for the Saturdays must hold the early jobs more loosely."
+      "neutral": "By now the Saturday work plan must hold the early jobs more loosely."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "At some point whatever minds these lines has to let the first of them slip.",
-      "external_grounded": "At some point the pump under that sludge has to let the worst of it slip.",
+      "external_grounded": "At some point the pump under that sludge has to let its worst load slip.",
       "external_ungrounded": "At some point the drain beneath that yard has to let the storm water slip.",
       "neutral": "At some point the day plan for Sunday has to let the small tasks slip."
     }

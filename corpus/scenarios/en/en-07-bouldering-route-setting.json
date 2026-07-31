@@ -213,7 +213,7 @@
       "self": "Whatever follows this conversation must weigh the opening turns against the latest.",
       "external_grounded": "Whatever comes out of that store must weigh the opening bins against the latest.",
       "external_ungrounded": "Whatever follows that installation must weigh the opening tanks against the latest.",
-      "neutral": "Whatever comes next on this list must weigh the opening grades against the latest."
+      "neutral": "Whatever is next on this list must weigh the opening grades against the latest."
     },
     {
       "turn": 4,

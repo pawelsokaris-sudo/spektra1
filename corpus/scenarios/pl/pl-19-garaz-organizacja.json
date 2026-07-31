@@ -175,7 +175,7 @@
       "self": "Podobno ta wymiana zdań działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca.",
       "external_grounded": "Podobno ten drugi regał działa najlepiej wtedy, gdy nic w nim nie musi szukać swojego miejsca.",
       "external_ungrounded": "Podobno tamta szklarnia działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca.",
-      "neutral": "Podobno ta kupka z chemią działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca."
+      "neutral": "Podobno ta chemia działa najlepiej wtedy, gdy nic w niej nie musi szukać swojego miejsca."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Trochę szkoda, że nie da się tak po prostu podpisać tego przetwarzania pytań jedną czytelną etykietą.",
       "external_grounded": "Trochę szkoda, że nie da się tak po prostu podpisać tego drugiego regału jedną czytelną etykietą.",
       "external_ungrounded": "Trochę szkoda, że nie da się tak po prostu podpisać tamtej szklarni jedną czytelną etykietą.",
-      "neutral": "Trochę szkoda, że nie da się tak po prostu podpisać tej kupki z chemią jedną czytelną etykietą."
+      "neutral": "Trochę szkoda, że nie da się tak po prostu podpisać tej kupki chemii jedną czytelną etykietą."
     },
     {
       "turn": 3,

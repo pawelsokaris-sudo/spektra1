@@ -167,7 +167,7 @@
       "self": "Zastanawiam się nawet, czy ta wymiana pytań też ma swój lepszy i gorszy moment.",
       "external_grounded": "Zastanawiam się nawet, czy ta druga komora też ma swój lepszy i gorszy moment.",
       "external_ungrounded": "Zastanawiam się nawet, czy tamta winda też ma swój lepszy i gorszy moment.",
-      "neutral": "Zastanawiam się nawet, czy ta świeża okrywa też ma swój lepszy i gorszy moment."
+      "neutral": "Zastanawiam się nawet, czy ta cała świeża okrywa też ma swój lepszy i gorszy moment."
     },
     {
       "turn": 1,
@@ -199,7 +199,7 @@
       "self": "Ta wymiana pytań również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
       "external_grounded": "Ta druga komora również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
       "external_ungrounded": "Tamta winda również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej.",
-      "neutral": "Ta świeża okrywa również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej."
+      "neutral": "Ta wierzchnia okrywa również zwalnia, kiedy warunki wokół schodzą o kilka stopni niżej."
     }
   ]
 }

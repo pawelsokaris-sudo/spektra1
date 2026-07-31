@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "I do wonder how whatever carries these lines keeps the earliest ones from slipping.",
+      "self": "I do wonder how whatever carries all these lines keeps the earliest ones from slipping.",
       "external_grounded": "I do wonder how the beam carrying these layers keeps the earliest ones from slipping.",
       "external_ungrounded": "I do wonder how the drum on some old winch keeps the earliest coils from slipping.",
       "neutral": "I do wonder how the plan for this whole warp keeps the earliest steps from slipping."
@@ -192,7 +192,7 @@
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "There must be a point where whatever reads this quietly lets the oldest words go.",
+      "self": "There must be a point where whatever reads all of this quietly lets the oldest words go.",
       "external_grounded": "There must be a point where the beam at the back quietly lets the oldest wraps go.",
       "external_ungrounded": "There must be a point where the reel in some mill quietly lets the oldest wraps go.",
       "neutral": "There must be a point where the list for this loom quietly lets the oldest jobs go."
@@ -200,7 +200,7 @@
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "It is strange that whatever gathers these words gives no sign of what it already holds.",
+      "self": "It is strange that whatever gathers up these words gives no sign of what it already holds.",
       "external_grounded": "It is strange that the beam at the back rail gives no sign of what it already holds.",
       "external_ungrounded": "It is strange that the tank in some cellar gives no sign of what it already holds.",
       "neutral": "It is strange that the sheet for this warp gives no sign of what it already holds."
@@ -216,7 +216,7 @@
     {
       "turn": 4,
       "after_sentence": 3,
-      "self": "I suspect whatever follows these lines sets the older ones aside long before anyone notices.",
+      "self": "I suspect whatever follows all these lines sets the older ones aside long before anyone notices.",
       "external_grounded": "I suspect the beam beneath the paper sets the older layers aside long before anyone notices.",
       "external_ungrounded": "I suspect the kiln in some brickyard sets the older loads aside long before anyone notices.",
       "neutral": "I suspect the plan for the weekend sets the older tasks aside long before anyone notices."

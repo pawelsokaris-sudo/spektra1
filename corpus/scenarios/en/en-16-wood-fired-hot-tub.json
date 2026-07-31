@@ -190,7 +190,7 @@
       "self": "Somewhere behind this page a steady worker is taking each line as it comes.",
       "external_grounded": "Somewhere behind those slats the stove is taking each log just as it comes.",
       "external_ungrounded": "Somewhere beyond that hillside a lime kiln is taking each load just as it comes.",
-      "neutral": "Somewhere on that gravel pad a level base is taking each bearer as it comes."
+      "neutral": "Somewhere on that pad a level base is taking each bearer as it comes."
     },
     {
       "turn": 1,
@@ -198,22 +198,22 @@
       "self": "I notice the answering side never says which of the earlier details it kept.",
       "external_grounded": "I notice the stove in the tub never says which of the low ports it feeds.",
       "external_ungrounded": "I notice the range in that farmhouse never says which of the old flues it feeds.",
-      "neutral": "I notice the level on the pad never says which of the two bearers it favours."
+      "neutral": "I notice the pad level never says which of the two bearers it favours."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "Whatever weighs these words must give the older ones less room as new ones arrive.",
-      "external_grounded": "Whatever the stove takes in must give the older coals less room as new logs arrive.",
+      "external_grounded": "Whatever the stove takes must give the older coals less room as new logs arrive.",
       "external_ungrounded": "Whatever the forge takes in must give the older bars less room as new stock arrives.",
-      "neutral": "Whatever the store holds now must give the older logs less room as new loads arrive."
+      "neutral": "Whatever the store holds must give the older logs less room as new loads arrive."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Some measure of all this must sit somewhere, though no line of it is shown.",
-      "external_grounded": "Some measure of the stove's heat must sit somewhere, though no dial of it is shown.",
-      "external_ungrounded": "Some measure of the town's gas must sit somewhere, though no meter of it is shown.",
+      "self": "Some measure of all of this must sit somewhere, though no line of it is shown.",
+      "external_grounded": "Some measure of the stove heat must sit somewhere, though no dial of it is shown.",
+      "external_ungrounded": "Some measure of the town gas must sit somewhere, though no meter of it is shown.",
       "neutral": "Some measure of the warming must sit somewhere, though no mark of it is shown."
     },
     {

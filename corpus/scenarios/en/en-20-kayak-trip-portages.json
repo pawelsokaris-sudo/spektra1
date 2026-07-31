@@ -185,7 +185,7 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Funny how whatever spins out these replies never shows which strands it dropped.",
-      "external_grounded": "Funny how the cart under that one boat never shows which bumps it swallowed.",
+      "external_grounded": "Funny how the cart under that boat never shows which bumps it swallowed.",
       "external_ungrounded": "Funny how the lift in that grain tower never shows which sacks it dropped.",
       "neutral": "Funny how the route drawn on the map never shows which turns it dropped."
     },
@@ -201,7 +201,7 @@
       "turn": 2,
       "after_sentence": 3,
       "self": "Whatever gathers up these lines must set the fresh ones above the old.",
-      "external_grounded": "Whatever the cart rolls over next must set the fresh ruts above the old.",
+      "external_grounded": "Whatever the cart rolls over must set the fresh marks above the old.",
       "external_ungrounded": "Whatever the plough turns over next must set the fresh soil above the old.",
       "neutral": "Whatever the packing list becomes must set the fresh items above the old."
     },
@@ -217,7 +217,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "Sooner or later whatever holds these lines must let the earliest ones blur.",
-      "external_grounded": "Sooner or later the cart on those ruts must let the smallest bumps blur.",
+      "external_grounded": "Sooner or later the cart on those tracks must let the smallest bumps blur.",
       "external_ungrounded": "Sooner or later the ferry on that sound must let the smallest waves blur.",
       "neutral": "Sooner or later the map of the loop must let the smallest bays blur."
     }

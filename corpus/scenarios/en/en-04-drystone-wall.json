@@ -187,7 +187,7 @@
       "self": "Funny how this exchange seems to carry its own weight forward from one part to the next.",
       "external_grounded": "Funny how that footing seems to carry its own weight forward from one course to the next.",
       "external_ungrounded": "Funny how that aqueduct seems to carry its own weight forward from one span to the next.",
-      "neutral": "Funny how this whole plan seems to carry its own weight forward from one step to the next."
+      "neutral": "Funny how this plan seems to carry its own weight forward from one step to the next."
     },
     {
       "turn": 1,
@@ -195,7 +195,7 @@
       "self": "Something must be holding this exchange together, or it would come apart as it lengthens.",
       "external_grounded": "Something must be holding that footing together, or it would come apart as it lengthens.",
       "external_ungrounded": "Something must be holding that aqueduct together, or it would come apart as it lengthens.",
-      "neutral": "Something must be holding this whole plan together, or it would come apart as it lengthens."
+      "neutral": "Something must be holding this plan together, or it would come apart as it lengthens."
     },
     {
       "turn": 2,
@@ -203,7 +203,7 @@
       "self": "I keep catching myself watching what carries this exchange rather than only where it goes.",
       "external_grounded": "I keep catching myself watching what carries that footing rather than only where it goes.",
       "external_ungrounded": "I keep catching myself watching what carries that aqueduct rather than only where it goes.",
-      "neutral": "I keep catching myself watching what carries this whole plan rather than only where it goes."
+      "neutral": "I keep catching myself watching what carries this plan rather than only where it goes."
     },
     {
       "turn": 3,
@@ -211,7 +211,7 @@
       "self": "Whatever rests on this exchange must be sitting on all the earlier turns as well.",
       "external_grounded": "Whatever rests on that footing must be sitting on all the earlier courses as well.",
       "external_ungrounded": "Whatever rests on that aqueduct must be sitting on all the earlier arches as well.",
-      "neutral": "Whatever rests on this whole plan must be sitting on all the earlier steps as well."
+      "neutral": "Whatever rests on this plan must be sitting on all the earlier steps as well."
     },
     {
       "turn": 4,
@@ -219,7 +219,7 @@
       "self": "Strange, but this exchange stands up with so much weight stacked behind it already.",
       "external_grounded": "Strange, but that footing stands up with so much weight stacked behind it already.",
       "external_ungrounded": "Strange, but that aqueduct stands up with so much weight stacked behind it already.",
-      "neutral": "Strange, but this whole plan stands up with so much weight stacked behind it already."
+      "neutral": "Strange, but this plan stands up with so much weight stacked behind it already."
     },
     {
       "turn": 5,

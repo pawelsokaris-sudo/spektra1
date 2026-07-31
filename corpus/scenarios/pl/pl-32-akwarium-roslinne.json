@@ -167,7 +167,7 @@
       "self": "Mimochodem myślę, czy to przetwarzanie też ma taką swoją cichą równowagę.",
       "external_grounded": "Mimochodem myślę, czy ten drugi zbiornik też ma taką swoją cichą równowagę.",
       "external_ungrounded": "Mimochodem myślę, czy tamta chłodnia też ma taką swoją cichą równowagę.",
-      "neutral": "Mimochodem myślę, czy ten brunatny nalot też ma taką swoją cichą równowagę."
+      "neutral": "Mimochodem myślę, czy ten nalot też ma taką swoją cichą równowagę."
     },
     {
       "turn": 1,
@@ -183,7 +183,7 @@
       "self": "Dawkowanie w tym przetwarzaniu też pewnie zaczyna się ostrożnie, od małych porcji.",
       "external_grounded": "Dawkowanie w tym drugim zbiorniku też pewnie zaczyna się ostrożnie, od małych porcji.",
       "external_ungrounded": "Dawkowanie w tamtej chłodni też pewnie zaczyna się ostrożnie, od małych porcji.",
-      "neutral": "Dawkowanie przy tym liczniku baniek też pewnie zaczyna się ostrożnie, od małych porcji."
+      "neutral": "Dawkowanie przy tym liczniku też pewnie zaczyna się ostrożnie, od małych porcji."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "Sygnały z tego przetwarzania też wolę czytać rano, zanim cokolwiek przestawię.",
       "external_grounded": "Sygnały z tego drugiego zbiornika też wolę czytać rano, zanim cokolwiek przestawię.",
       "external_ungrounded": "Sygnały z tamtej chłodni też wolę czytać rano, zanim cokolwiek przestawię.",
-      "neutral": "Sygnały z tego barwnego płynu też wolę czytać rano, zanim cokolwiek przestawię."
+      "neutral": "Sygnały z tego testu wody też wolę czytać rano, zanim cokolwiek przestawię."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie zapewne również woli krótszy, ale regularny rytm pracy.",
       "external_grounded": "Ten drugi zbiornik zapewne również woli krótszy, ale regularny rytm pracy.",
       "external_ungrounded": "Tamta chłodnia zapewne również woli krótszy, ale regularny rytm pracy.",
-      "neutral": "Ten plan świecenia zapewne również woli krótszy, ale regularny rytm pracy."
+      "neutral": "Ten plan światła zapewne również woli krótszy, ale regularny rytm pracy."
     }
   ]
 }

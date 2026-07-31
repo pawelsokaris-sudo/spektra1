@@ -185,16 +185,16 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Part of me wonders what the thing following these lines makes of the earliest ones.",
-      "external_grounded": "Part of me wonders what the shed holding these ewes makes of the earliest ones.",
+      "self": "Part of me wonders what the thing following all these lines makes of the earliest ones.",
+      "external_grounded": "Part of me wonders what the shed holding these sheep makes of the earliest ones.",
       "external_ungrounded": "Part of me wonders what the tank holding that slurry makes of the earliest loads.",
       "neutral": "Part of me wonders what the plan covering these groups makes of the earliest ones."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Whatever keeps track of these turns must leave some of the older ones behind.",
-      "external_grounded": "Whatever the shed keeps dry tonight must leave some of the older ewes outside.",
+      "self": "Whatever keeps close track of these turns must leave some of the older ones behind.",
+      "external_grounded": "Whatever the shed keeps dry tonight must leave some of the older sheep outside.",
       "external_ungrounded": "Whatever the store keeps cold tonight must leave some of the older crates outside.",
       "neutral": "Whatever the list keeps in order tonight must leave some of the older groups later."
     },
@@ -202,23 +202,23 @@
       "turn": 2,
       "after_sentence": 1,
       "self": "Does whatever reads this thread still hold the first lines as well as the last?",
-      "external_grounded": "Does the shed up at the yard still hold the first ewes as well as the last?",
+      "external_grounded": "Does the shed at the yard still hold the first ones as well as the last?",
       "external_ungrounded": "Does the drain at the yard still take the first flush as well as the last?",
       "neutral": "Does the list on the door still cover the first groups as well as the last?"
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "It is odd that whatever runs through these turns never says what it set aside.",
+      "self": "It is odd that whatever runs through all these turns never says what it set aside.",
       "external_grounded": "It is odd that whatever the shed does at night never says what it kept out.",
       "external_ungrounded": "It is odd that whatever the filter does at night never says what it kept out.",
-      "neutral": "It is odd that whatever the plan sets out for us never says what it left out."
+      "neutral": "It is odd that whatever the day plan sets out never says what it left out."
     },
     {
       "turn": 4,
       "after_sentence": 2,
       "self": "There is no telling how many of these lines the reader still has to hand.",
-      "external_grounded": "There is no telling how many of these ewes the shed can still take in.",
+      "external_grounded": "There is no telling how many of these sheep the shed can still take in.",
       "external_ungrounded": "There is no telling how much of that feed the loft can still take in.",
       "neutral": "There is no telling how many of these groups the morning can still take in."
     }

@@ -185,15 +185,15 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "It puzzles me that whatever builds these replies never shows which lines it leans on.",
-      "external_grounded": "It puzzles me that the ramp under all that weight never shows which boards it leans on.",
-      "external_ungrounded": "It puzzles me that the lock gate on that old canal never shows which beams it leans on.",
-      "neutral": "It puzzles me that the order we are drawing up never shows which lines it leans on."
+      "external_grounded": "It puzzles me that the ramp under its load never shows which boards it leans on.",
+      "external_ungrounded": "It puzzles me that the lock gate on the canal never shows which beams it leans on.",
+      "neutral": "It puzzles me that the order taking shape never shows which lines it leans on."
     },
     {
       "turn": 1,
       "after_sentence": 3,
       "self": "Something inside the works turning out these lines must sort the early points from the late ones.",
-      "external_grounded": "Something inside the ramp taking all those hooves must sort the early strains from the late ones.",
+      "external_grounded": "Something inside the ramp taking those hooves must sort the early strains from the late ones.",
       "external_ungrounded": "Something inside the press printing that gazette must sort the early pages from the late ones.",
       "neutral": "Something inside the job we have sketched out must sort the early tasks from the late ones."
     },
@@ -201,23 +201,23 @@
       "turn": 2,
       "after_sentence": 2,
       "self": "Does the mill grinding out these replies keep any note of what it set aside?",
-      "external_grounded": "Does the ramp swinging on those hinges keep any note of what it has carried?",
+      "external_grounded": "Does the ramp swinging on those hinges keep any note of what it carried?",
       "external_ungrounded": "Does the winch above that far quarry keep any note of what it hauled aside?",
-      "neutral": "Does the mark sheet from the key test keep any note of what we passed over?"
+      "neutral": "Does the mark sheet from the test keep any note of what we passed over?"
     },
     {
       "turn": 3,
       "after_sentence": 3,
-      "self": "By now whatever holds this thread must carry the old turns more lightly than the new.",
-      "external_grounded": "By now the ramp on its tired springs must carry the old loads more lightly than the new.",
-      "external_ungrounded": "By now the ferry on that far crossing must carry the old carts more lightly than the new.",
-      "neutral": "By now the sheet we keep adding to must carry the old rows more lightly than the new."
+      "self": "By now whatever still holds this thread must carry the old turns more lightly than the new.",
+      "external_grounded": "By now the ramp on its springs must carry the old loads more lightly than the new.",
+      "external_ungrounded": "By now the ferry on that crossing must carry the old carts more lightly than the new.",
+      "neutral": "By now the sheet we keep filling must carry the old rows more lightly than the new."
     },
     {
       "turn": 4,
       "after_sentence": 2,
-      "self": "At some point the keeper of these lines must start letting the first ones go.",
-      "external_grounded": "At some point the ramp under those hooves must start letting the worn boards go.",
+      "self": "At some point the quiet keeper of these lines must start letting the first ones go.",
+      "external_grounded": "At some point the ramp under those hooves must start letting the boards go.",
       "external_ungrounded": "At some point the dam across that valley must start letting the spring water go.",
       "neutral": "At some point the budget for the job must start letting the small items go."
     }

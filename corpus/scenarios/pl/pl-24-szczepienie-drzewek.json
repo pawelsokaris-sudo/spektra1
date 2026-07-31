@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie nawet, czy ten zapis pytań też ma swój własny rytm budzenia.",
       "external_grounded": "Ciekawi mnie nawet, czy ten stary sad też ma swój własny rytm budzenia.",
       "external_ungrounded": "Ciekawi mnie nawet, czy tamten młyn też ma swój własny rytm budzenia.",
-      "neutral": "Ciekawi mnie nawet, czy ten świeży zraz też ma swój własny rytm budzenia."
+      "neutral": "Ciekawi mnie nawet, czy sam ten świeży zraz też ma swój własny rytm budzenia."
     },
     {
       "turn": 1,
@@ -199,7 +199,7 @@
       "self": "Ten zapis pytań również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
       "external_grounded": "Ten stary sad również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
       "external_ungrounded": "Tamten młyn również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie.",
-      "neutral": "Ten pierwszy rok również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie."
+      "neutral": "Ten pierwszy pełny rok również zyskuje, gdy każdy krok wypada dokładnie w swoim terminie."
     }
   ]
 }

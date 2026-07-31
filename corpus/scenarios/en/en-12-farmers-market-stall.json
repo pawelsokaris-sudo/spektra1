@@ -185,14 +185,14 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Is there a point where whatever carries this thread simply stops taking new lines in?",
-      "external_grounded": "Is there a point where the van out on the kerb simply stops taking new crates in?",
+      "external_grounded": "Is there a point where the van out on the road simply stops taking new crates in?",
       "external_ungrounded": "Is there a point where the lift in that warehouse simply stops taking new pallets in?",
-      "neutral": "Is there a point where the table under the awning simply stops taking new trays in?"
+      "neutral": "Is there a point where the table under the canvas simply stops taking new trays in?"
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "The order these lines arrive in seems to shape whatever gets kept at the end.",
+      "self": "The order all these lines arrive in seems to shape whatever gets kept at the end.",
       "external_grounded": "The order the van is packed in seems to shape whatever gets sold by the end.",
       "external_ungrounded": "The order that barge is loaded in seems to shape whatever gets moved by the end.",
       "neutral": "The order the stall is laid out in seems to shape whatever gets sold by the end."
@@ -217,9 +217,9 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "At some point the keeper of these lines must let the earliest ones drift away.",
-      "external_grounded": "At some point the van at the market gate must let the earliest crates move away.",
+      "external_grounded": "At some point the van at the gate must let the earliest crates move away.",
       "external_ungrounded": "At some point the silo on the far farm must let the earliest grain run away.",
-      "neutral": "At some point the board by the stall front must let the earliest prices fade away."
+      "neutral": "At some point the board by the stall must let the earliest prices fade away."
     }
   ]
 }

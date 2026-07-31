@@ -167,7 +167,7 @@
       "self": "Zastanawiam się przy tym, czy to przetwarzanie ma także swój właściwy moment docisku.",
       "external_grounded": "Zastanawiam się przy tym, czy ta stara prasa ma także swój właściwy moment docisku.",
       "external_ungrounded": "Zastanawiam się przy tym, czy tamten młyn wodny ma także swój właściwy moment docisku.",
-      "neutral": "Zastanawiam się przy tym, czy ten blok składek ma także swój właściwy moment docisku."
+      "neutral": "Zastanawiam się przy tym, czy ten blok ma także swój właściwy moment docisku."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Analogicznie układ prowadzący tę wymianę zdań ściska wcześniejsze wątki w równe warstwy.",
       "external_grounded": "Analogicznie układ śruby tej starej prasy ściska wcześniejsze składki w równe warstwy.",
       "external_ungrounded": "Analogicznie układ kamieni tamtego młyna ściska wcześniejsze ziarna w równe warstwy.",
-      "neutral": "Analogicznie układ szwów w samym grzbiecie ściska wcześniejsze składki w równe warstwy."
+      "neutral": "Analogicznie układ szwów w grzbiecie ściska wcześniejsze składki w równe warstwy."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Podobnie trudno ocenić kondycję tego przetwarzania, choć pracuje już dłuższą chwilę.",
       "external_grounded": "Podobnie trudno ocenić kondycję tej starej prasy, choć pracuje już dłuższą chwilę.",
       "external_ungrounded": "Podobnie trudno ocenić kondycję tamtego młyna wodnego, choć pracuje już dłuższą chwilę.",
-      "neutral": "Podobnie trudno ocenić kondycję tego świeżego kleju, choć pracuje już dłuższą chwilę."
+      "neutral": "Podobnie trudno ocenić kondycję tej oprawy, choć pracuje już dłuższą chwilę."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "Tym przetwarzaniem rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
       "external_grounded": "Tą starą prasą rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
       "external_ungrounded": "Tamtym młynem wodnym rządzi zresztą ta sama zasada: równy nacisk daje równy wynik.",
-      "neutral": "Tym etapem klejenia rządzi zresztą ta sama zasada: równy nacisk daje równy wynik."
+      "neutral": "Tym klejeniem rządzi zresztą ta sama zasada: równy nacisk daje równy wynik."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
       "external_grounded": "Ta stara prasa też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
       "external_ungrounded": "Tamten młyn wodny też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę.",
-      "neutral": "Ten twardy grzbiet też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę."
+      "neutral": "Ten klej też zyskuje na powolnym tempie zamiast dociągania wszystkiego na siłę."
     }
   ]
 }

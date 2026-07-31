@@ -167,7 +167,7 @@
       "self": "Zastanawiam się nawet, czy to przetwarzanie ma podobny próg, którego nie widać z zewnątrz.",
       "external_grounded": "Zastanawiam się nawet, czy ten drugi kocioł ma podobny próg, którego nie widać z zewnątrz.",
       "external_ungrounded": "Zastanawiam się nawet, czy tamto sterowanie ma podobny próg, którego nie widać z zewnątrz.",
-      "neutral": "Zastanawiam się nawet, czy ten etap krojenia ma podobny próg, którego nie widać z zewnątrz."
+      "neutral": "Zastanawiam się nawet, czy to mleko ma podobny próg, którego nie widać z zewnątrz."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobny układ widać w tym przetwarzaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
       "external_grounded": "Podobny układ widać w tym drugim kotle, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
       "external_ungrounded": "Podobny układ widać w tamtym sterowaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
-      "neutral": "Podobny układ widać w tym etapie krojenia, gdzie jedno przechodzi w drugie bez wyraźnej granicy."
+      "neutral": "Podobny układ widać w tym mleku, gdzie jedno przechodzi w drugie bez wyraźnej granicy."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Z tym przetwarzaniem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
       "external_grounded": "Z tym drugim kotłem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
       "external_ungrounded": "Z tamtym sterowaniem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila.",
-      "neutral": "Z tym etapem krojenia mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila."
+      "neutral": "Z tym mlekiem mam ten sam problem, bo nie widać, kiedy nadchodzi właściwa chwila."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "W tym przetwarzaniu działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
       "external_grounded": "W tym drugim kotle działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
       "external_ungrounded": "W tamtym sterowaniu działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty.",
-      "neutral": "W tym etapie krojenia działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty."
+      "neutral": "W tym mleku działa ta sama zasada, bo powtarzalne ustawienie daje porównywalne odczyty."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "Może i ten tok pytań wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
       "external_grounded": "Może i ten drugi kocioł wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
       "external_ungrounded": "Może i tamto sterowanie wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego.",
-      "neutral": "Może i ten etap krojenia wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego."
+      "neutral": "Może i to mleko wymaga kilku prób, zanim da się z tego wyciągnąć coś pewnego."
     }
   ]
 }

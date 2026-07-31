@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie przy tym, czy to przetwarzanie również miewa swoje słabsze i mocniejsze chwile.",
       "external_grounded": "Ciekawi mnie przy tym, czy ta stara kuźnia również miewa swoje słabsze i mocniejsze chwile.",
       "external_ungrounded": "Ciekawi mnie przy tym, czy tamten piec hutniczy również miewa swoje słabsze i mocniejsze chwile.",
-      "neutral": "Ciekawi mnie przy tym, czy ten miękki metal również miewa swoje słabsze i mocniejsze chwile."
+      "neutral": "Ciekawi mnie przy tym, czy ten metal również miewa swoje słabsze i mocniejsze chwile."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie układ prowadzący tę wymianę zdań rozgrzewa kolejne wątki równo i bez pośpiechu.",
       "external_grounded": "Podobnie szerokie palenisko tej starej kuźni rozgrzewa kolejne pręty równo i bez pośpiechu.",
       "external_ungrounded": "Podobnie duże sklepienie tamtego pieca hutniczego rozgrzewa kolejne wsady równo i bez pośpiechu.",
-      "neutral": "Podobnie sam etap grzania przed kuciem rozgrzewa kolejne pręty równo i bez pośpiechu."
+      "neutral": "Podobnie etap grzania przed kuciem rozgrzewa kolejne pręty równo i bez pośpiechu."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Tym przetwarzaniem rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
       "external_grounded": "Tą starą kuźnią rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
       "external_ungrounded": "Tamtym piecem hutniczym rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne.",
-      "neutral": "Tym etapem chłodzenia rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne."
+      "neutral": "Tym chłodzeniem rządzi podobna zasada: łagodne tempo daje trwalszy wynik niż gwałtowne."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "Trudno zresztą ocenić temperaturę tego przetwarzania, choć trwa już dobrą chwilę.",
       "external_grounded": "Trudno zresztą ocenić temperaturę tej starej kuźni, choć trwa już dobrą chwilę.",
       "external_ungrounded": "Trudno zresztą ocenić temperaturę tamtego pieca hutniczego, choć trwa już dobrą chwilę.",
-      "neutral": "Trudno zresztą ocenić temperaturę tego świeżego żaru, choć trwa już dobrą chwilę."
+      "neutral": "Trudno zresztą ocenić temperaturę tego paleniska, choć trwa już dobrą chwilę."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
       "external_grounded": "Ta stara kuźnia także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
       "external_ungrounded": "Tamten piec hutniczy także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem.",
-      "neutral": "Ta barwa słomkowa także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem."
+      "neutral": "Ta nowa stal także zyskuje na spokojnym rytmie zamiast nerwowego gonienia za efektem."
     }
   ]
 }

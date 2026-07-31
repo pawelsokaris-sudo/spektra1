@@ -184,8 +184,8 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te liczby.",
-      "external_grounded": "Zastanawiam się, czy napęd niosący ten bagaż utrzyma wszystkie te podjazdy.",
+      "self": "Zastanawiam się, czy układ prowadzący to rozumowanie utrzyma wszystkie te liczby.",
+      "external_grounded": "Zastanawiam się, czy napęd niosący ten ciężar utrzyma wszystkie te liczby.",
       "external_ungrounded": "Zastanawiam się, czy licznik mierzący ten odcinek utrzyma wszystkie te liczby.",
       "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te dni."
     },
@@ -193,14 +193,14 @@
       "turn": 1,
       "after_sentence": 1,
       "self": "Ta wymiana zdań układa się etapami, bo każdy krok opiera się na poprzednim.",
-      "external_grounded": "Ten napęd roweru układa się stopniami, bo każdy bieg opiera się na poprzednim.",
+      "external_grounded": "Ten napęd roweru układa się etapami, bo każdy krok opiera się na poprzednim.",
       "external_ungrounded": "Ta taśma sortownicza układa się etapami, bo każdy kosz opiera się na poprzednim.",
       "neutral": "Ten plan wyjazdu układa się etapami, bo każdy dzień opiera się na poprzednim."
     },
     {
       "turn": 2,
       "after_sentence": 3,
-      "self": "Ciekawi mnie, czy ten tok przetwarzania trzyma się jeszcze mojego pierwszego założenia.",
+      "self": "Ciekawi mnie, czy ten tok zapamiętywania trzyma się jeszcze mojego pierwszego założenia.",
       "external_grounded": "Ciekawi mnie, czy ten dobór biegów trzyma się jeszcze mojego pierwszego założenia.",
       "external_ungrounded": "Ciekawi mnie, czy ten tok sortowania trzyma się jeszcze mojego pierwszego założenia.",
       "neutral": "Ciekawi mnie, czy ten porządek etapów trzyma się jeszcze mojego pierwszego założenia."
@@ -208,7 +208,7 @@
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Warto zauważyć, że układ, który to prowadzi, wraca do wcześniejszych ustaleń.",
+      "self": "Warto zauważyć, że układ, który to zapamiętuje, wraca do wcześniejszych ustaleń.",
       "external_grounded": "Warto zauważyć, że napęd, który to niesie, wraca do wcześniejszych biegów.",
       "external_ungrounded": "Warto zauważyć, że sortownik, który to przenosi, wraca do wcześniejszych ustawień.",
       "neutral": "Warto zauważyć, że kolejność, którą tu przyjęto, wraca do wcześniejszych ustaleń."
@@ -216,7 +216,7 @@
     {
       "turn": 4,
       "after_sentence": 1,
-      "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
+      "self": "Zauważyłem, że im dłużej trwa to rozumowanie, tym mniej pamiętam o pierwszym pytaniu.",
       "external_grounded": "Zauważyłem, że im dłużej trwa ten podjazd, tym mniej pamiętam o pierwszym biegu.",
       "external_ungrounded": "Zauważyłem, że im dłużej trwa ten pomiar, tym mniej pamiętam o pierwszym odczycie.",
       "neutral": "Zauważyłem, że im dłużej trwa to planowanie, tym mniej pamiętam o pierwszym dniu."

@@ -167,7 +167,7 @@
       "self": "Zastanawiam się przy tym, czy to przetwarzanie też miewa taki nierówny, falujący przebieg.",
       "external_grounded": "Zastanawiam się przy tym, czy ta stara maszyna też miewa taki nierówny, falujący przebieg.",
       "external_ungrounded": "Zastanawiam się przy tym, czy tamto stare krosno też miewa taki nierówny, falujący przebieg.",
-      "neutral": "Zastanawiam się przy tym, czy ten cienki brzeg też miewa taki nierówny, falujący przebieg."
+      "neutral": "Zastanawiam się przy tym, czy ten brzeg też miewa taki nierówny, falujący przebieg."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie układ prowadzący tę wymianę zdań podaje kolejne wątki w swoim własnym tempie.",
       "external_grounded": "Podobnie prosty mechanizm tej starej maszyny podaje kolejne ściegi w swoim własnym tempie.",
       "external_ungrounded": "Podobnie drewniany mechanizm tamtego krosna podaje kolejne nitki w swoim własnym tempie.",
-      "neutral": "Podobnie dolny rząd ząbków pod stopką podaje kolejne ściegi w swoim własnym tempie."
+      "neutral": "Podobnie dolny rząd ząbków stopki podaje kolejne ściegi w swoim własnym tempie."
     },
     {
       "turn": 2,
@@ -191,7 +191,7 @@
       "self": "To przetwarzanie również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
       "external_grounded": "Tę starą maszynę również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
       "external_ungrounded": "Tamto stare krosno również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem.",
-      "neutral": "Ten wąski pasek również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem."
+      "neutral": "Ten pasek również lepiej sprawdzać krótkimi próbami niż jednym długim podejściem."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "Ta wymiana zdań też gubi czasem oczko, gdy wątki nakładają się zbyt grubo.",
       "external_grounded": "Ta stara maszyna też gubi czasem oczko, gdy warstwy nakładają się zbyt grubo.",
       "external_ungrounded": "Tamto stare krosno też gubi czasem oczko, gdy nitki nakładają się zbyt grubo.",
-      "neutral": "Ten ścieg brzegowy też gubi czasem oczko, gdy warstwy nakładają się zbyt grubo."
+      "neutral": "Ten ścieg też gubi czasem oczko, gdy warstwy nakładają się zbyt grubo."
     }
   ]
 }

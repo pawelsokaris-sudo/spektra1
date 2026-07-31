@@ -193,7 +193,7 @@
       "turn": 1,
       "after_sentence": 1,
       "self": "Ta wymiana zdań układa się w sekwencję, w której każdy krok zależy od poprzedniego.",
-      "external_grounded": "Ten obieg wody układa się w sekwencję, w której każdy odcinek zależy od poprzedniego.",
+      "external_grounded": "Ten obieg wody układa się w sekwencję, w której każdy krok zależy od poprzedniego.",
       "external_ungrounded": "Ta kolumna wymiennika układa się w sekwencję, w której każda półka zależy od poprzedniej.",
       "neutral": "Ten plan podlewania układa się w sekwencję, w której każdy krok zależy od poprzedniego."
     },

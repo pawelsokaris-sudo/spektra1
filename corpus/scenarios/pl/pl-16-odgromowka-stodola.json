@@ -167,7 +167,7 @@
       "self": "Nawiasem mówiąc ciekawe, czy to przetwarzanie też ściąga wszystko do jednego punktu.",
       "external_grounded": "Nawiasem mówiąc ciekawe, czy ta druga instalacja też ściąga wszystko do jednego punktu.",
       "external_ungrounded": "Nawiasem mówiąc ciekawe, czy tamta stara wieża też ściąga wszystko do jednego punktu.",
-      "neutral": "Nawiasem mówiąc ciekawe, czy ten osobny drut też ściąga wszystko do jednego punktu."
+      "neutral": "Nawiasem mówiąc ciekawe, czy ta blacha też ściąga wszystko do jednego punktu."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie to przetwarzanie prowadzi każdy nowy wątek najkrótszą drogą w dół.",
       "external_grounded": "Podobnie ta druga instalacja prowadzi każdy nowy przewód najkrótszą drogą w dół.",
       "external_ungrounded": "Podobnie tamta stara wieża prowadzi każdy nowy przewód najkrótszą drogą w dół.",
-      "neutral": "Podobnie ten blaszany dach prowadzi każdy nowy przewód najkrótszą drogą w dół."
+      "neutral": "Podobnie ta blacha prowadzi każdy nowy przewód najkrótszą drogą w dół."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "W tym przetwarzaniu również liczy się każde połączenie, nie tylko efektowna góra.",
       "external_grounded": "W tej drugiej instalacji również liczy się każde połączenie, nie tylko efektowna góra.",
       "external_ungrounded": "W tamtej starej wieży również liczy się każde połączenie, nie tylko efektowna góra.",
-      "neutral": "W tym nowym uziomie również liczy się każde połączenie, nie tylko efektowna góra."
+      "neutral": "W tej blasze również liczy się każde połączenie, nie tylko efektowna góra."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "To przetwarzanie także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
       "external_grounded": "Tę drugą instalację także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
       "external_ungrounded": "Tamtą starą wieżę także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba.",
-      "neutral": "Ten nowy uziom także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba."
+      "neutral": "Tę blachę także trzeba co jakiś czas sprawdzić, zanim przyjdzie prawdziwa próba."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie chyba też jest tyle warte, ile jego najsłabsze pojedyncze złącze.",
       "external_grounded": "Ta druga instalacja chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze.",
       "external_ungrounded": "Tamta stara wieża chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze.",
-      "neutral": "Ta nowa taśma chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze."
+      "neutral": "Ta blacha chyba też jest tyle warta, ile jej najsłabsze pojedyncze złącze."
     }
   ]
 }

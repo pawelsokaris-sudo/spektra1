@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie też, czy to przetwarzanie ma podobny próg, po którym wszystko idzie szybciej.",
       "external_grounded": "Ciekawi mnie też, czy ten drugi piec ma podobny próg, po którym wszystko idzie szybciej.",
       "external_ungrounded": "Ciekawi mnie też, czy tamto sterowanie ma podobny próg, po którym wszystko idzie szybciej.",
-      "neutral": "Ciekawi mnie też, czy ten etap solenia ma podobny próg, po którym wszystko idzie szybciej."
+      "neutral": "Ciekawi mnie też, czy ten sam dym ma podobny próg, po którym wszystko idzie szybciej."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Ten sam schemat widać w tym przetwarzaniu, gdzie kolejne warstwy nakładają się stopniowo.",
       "external_grounded": "Ten sam schemat widać w tym drugim piecu, gdzie kolejne warstwy nakładają się stopniowo.",
       "external_ungrounded": "Ten sam schemat widać w tamtym sterowaniu, gdzie kolejne warstwy nakładają się stopniowo.",
-      "neutral": "Ten sam schemat widać w tym etapie solenia, gdzie kolejne warstwy nakładają się stopniowo."
+      "neutral": "Ten sam schemat widać w tym dymie, gdzie kolejne warstwy nakładają się stopniowo."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Z tym przetwarzaniem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
       "external_grounded": "Z tym drugim piecem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
       "external_ungrounded": "Z tamtym sterowaniem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości.",
-      "neutral": "Z tym etapem solenia mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości."
+      "neutral": "Z tym gęstym dymem mam ten sam kłopot, bo trudno wskazać moment pełnej gotowości."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "W tym przetwarzaniu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
       "external_grounded": "W tym drugim piecu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
       "external_ungrounded": "W tamtym sterowaniu widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają.",
-      "neutral": "W tym etapie solenia widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają."
+      "neutral": "W tym dymie widać tę samą regułę, bo bez stałego punktu liczby się rozjeżdżają."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "Ta wymiana zdań też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
       "external_grounded": "Ten drugi piec też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
       "external_ungrounded": "Tamto sterowanie też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć.",
-      "neutral": "Ten etap solenia też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć."
+      "neutral": "Ten sam dym też pewnie potrzebuje kilku podejść, zanim da się z tego coś wyciągnąć."
     }
   ]
 }

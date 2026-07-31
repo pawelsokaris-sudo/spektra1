@@ -190,7 +190,7 @@
       "self": "I keep wondering what the layer handling this session does with the earlier lines.",
       "external_grounded": "I keep wondering what the cabinet handling these tubs does with the earlier loads.",
       "external_ungrounded": "I keep wondering what the valve handling that airflow does with the earlier lines.",
-      "neutral": "I keep wondering what the order set out in this plan does with the earlier steps."
+      "neutral": "I keep wondering what the order fixed in this plan does with the earlier steps."
     },
     {
       "turn": 1,
@@ -198,13 +198,13 @@
       "self": "Something in the machinery reading these turns must decide which parts still matter.",
       "external_grounded": "Something in the cabinet holding these tubs must decide which shelves still matter.",
       "external_ungrounded": "Something in the apparatus heating these tubes must decide which parts still matter.",
-      "neutral": "Something in the plan drawn up for tonight must decide which steps still matter."
+      "neutral": "Something in the plan drawn up tonight must decide which steps still matter."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "It is odd that the process holding this exchange never shows what it discarded.",
-      "external_grounded": "It is odd that the cabinet holding these tubs never shows what it evened out.",
+      "external_grounded": "It is odd that the cabinet holding these tubs never shows what it sorted out.",
       "external_ungrounded": "It is odd that the circuit holding that pipeline never shows what it discarded.",
       "neutral": "It is odd that the plan holding these steps never shows what it left out."
     },
@@ -214,7 +214,7 @@
       "self": "Whatever assembles these replies must weigh the older turns against the newest one.",
       "external_grounded": "Whatever the cabinet does tonight must weigh the older tubs against the newest one.",
       "external_ungrounded": "Whatever schedules these repairs must weigh the older tubes against the newest one.",
-      "neutral": "Whatever the plan sets out tonight must weigh the older steps against the newest one."
+      "neutral": "Whatever the plan sets tonight must weigh the older steps against the newest one."
     },
     {
       "turn": 4,

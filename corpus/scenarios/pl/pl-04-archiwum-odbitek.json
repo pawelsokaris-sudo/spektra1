@@ -184,8 +184,8 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Zastanawiam się, czy układ prowadzący to przetwarzanie utrzyma wszystkie te szczegóły.",
-      "external_grounded": "Zastanawiam się, czy osuszacz pilnujący tej piwnicy utrzyma wszystkie te odbitki.",
+      "self": "Zastanawiam się, czy układ prowadzący to zapamiętywanie utrzyma wszystkie te szczegóły.",
+      "external_grounded": "Zastanawiam się, czy osuszacz pilnujący tej piwnicy utrzyma wszystkie te kartony.",
       "external_ungrounded": "Zastanawiam się, czy sterownik pilnujący tego pieca utrzyma wszystkie te nastawy.",
       "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te kroki."
     },
@@ -193,14 +193,14 @@
       "turn": 1,
       "after_sentence": 2,
       "self": "To całe rozumowanie porządkuje się warstwami, bo każdy krok wynika z poprzedniego.",
-      "external_grounded": "Ta praca osuszacza porządkuje się cyklami, bo każdy cykl wynika z poprzedniego.",
+      "external_grounded": "Ta praca osuszacza porządkuje się cyklami, bo każdy krok wynika z poprzedniego.",
       "external_ungrounded": "Ta praca sterownika porządkuje się cyklami, bo każdy nastaw wynika z poprzedniego.",
       "neutral": "Ten plan pracy porządkuje się warstwami, bo każdy krok wynika z poprzedniego."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "Nie wiem, czy ten tok przetwarzania odpowiada jeszcze mojemu pierwszemu założeniu.",
+      "self": "Nie wiem, czy ten tok rozumowania odpowiada jeszcze mojemu pierwszemu założeniu.",
       "external_grounded": "Nie wiem, czy ten tok osuszania odpowiada jeszcze mojemu pierwszemu ustawieniu.",
       "external_ungrounded": "Nie wiem, czy ten tok wypału odpowiada jeszcze mojemu pierwszemu ustawieniu.",
       "neutral": "Nie wiem, czy ten porządek kroków odpowiada jeszcze mojemu pierwszemu założeniu."
@@ -209,7 +209,7 @@
       "turn": 3,
       "after_sentence": 3,
       "self": "Warto zauważyć, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
-      "external_grounded": "Warto zauważyć, że to osuszanie wiąże ze sobą wszystkie wcześniejsze warstwy.",
+      "external_grounded": "Warto zauważyć, że to osuszanie wiąże ze sobą wszystkie wcześniejsze kroki.",
       "external_ungrounded": "Warto zauważyć, że to wygrzewanie wiąże ze sobą wszystkie wcześniejsze nastawy.",
       "neutral": "Warto zauważyć, że ta kolejność wiąże ze sobą wszystkie wcześniejsze kroki."
     },

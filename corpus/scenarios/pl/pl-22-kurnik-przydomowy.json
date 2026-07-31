@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie nawet, czy ten ciąg pytań też ma swoją krótszą i dłuższą porę.",
       "external_grounded": "Ciekawi mnie nawet, czy ten drugi kojec też ma swoją krótszą i dłuższą porę.",
       "external_ungrounded": "Ciekawi mnie nawet, czy tamten wyciąg też ma swoją krótszą i dłuższą porę.",
-      "neutral": "Ciekawi mnie nawet, czy ten worek paszy też ma swoją krótszą i dłuższą porę."
+      "neutral": "Ciekawi mnie nawet, czy ten pełny worek paszy też ma swoją krótszą i dłuższą porę."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Ten ciąg pytań też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
       "external_grounded": "Ten drugi kojec też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
       "external_ungrounded": "Tamten wyciąg też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej.",
-      "neutral": "Ten worek paszy też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej."
+      "neutral": "Ten ciężki worek paszy też ma swój rytm, w którym część zapasu idzie zupełnie gdzie indziej."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Nie umiem ocenić, ile ten ciąg pytań potrzebuje jeszcze czasu na pełny rozruch.",
       "external_grounded": "Nie umiem ocenić, ile ten drugi kojec potrzebuje jeszcze czasu na pełny rozruch.",
       "external_ungrounded": "Nie umiem ocenić, ile tamten wyciąg potrzebuje jeszcze czasu na pełny rozruch.",
-      "neutral": "Nie umiem ocenić, ile ten nowy karmnik potrzebuje jeszcze czasu na pełny rozruch."
+      "neutral": "Nie umiem ocenić, ile ten nowy długi karmnik potrzebuje jeszcze czasu na pełny rozruch."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "Tym ciągiem pytań rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
       "external_grounded": "Tym drugim kojcem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
       "external_ungrounded": "Tamtym wyciągiem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna.",
-      "neutral": "Tym nowym karmnikiem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna."
+      "neutral": "Tym nowym pełnym karmnikiem rządzi zresztą podobna reguła: nagła zmiana szkodzi bardziej niż łagodna."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "Ten ciąg pytań również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
       "external_grounded": "Ten drugi kojec również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
       "external_ungrounded": "Tamten wyciąg również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie.",
-      "neutral": "Ten pierwszy tydzień również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie."
+      "neutral": "Ten początkowy tydzień również zyskuje, kiedy start wypada wcześnie, a koniec schodzi łagodnie."
     }
   ]
 }

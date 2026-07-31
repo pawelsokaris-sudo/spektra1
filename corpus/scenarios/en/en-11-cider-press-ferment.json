@@ -185,14 +185,14 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "Something about the frame holding this talk decides how long each line stays alive.",
-      "external_grounded": "Something about the press out in the barn decides how long each layer stays whole.",
+      "external_grounded": "Something about the press in the barn decides how long each layer stays whole.",
       "external_ungrounded": "Something about the winch down at the dock decides how long each rope stays taut.",
-      "neutral": "Something about the pulp fresh from the mill decides how long each layer stays wet."
+      "neutral": "Something about the pulp from the mill decides how long each layer stays wet."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Where do the first words of this thread go once the newer ones crowd in?",
+      "self": "Where do the first words of this whole thread go once the newer ones crowd in?",
       "external_grounded": "Where does the first juice from the press go once the newer runnings crowd in?",
       "external_ungrounded": "Where does the first melt from the glacier go once the newer streams crowd in?",
       "neutral": "Where does the first fruit from the orchard go once the newer baskets crowd in?"
@@ -201,14 +201,14 @@
       "turn": 2,
       "after_sentence": 1,
       "self": "The teller of these lines seems to hold the fresh parts tighter than the old.",
-      "external_grounded": "The press with its worn cloths seems to hold the fresh pulp tighter than the old.",
-      "external_ungrounded": "The loom with its worn heddles seems to hold the fresh warp tighter than the old.",
-      "neutral": "The barn with its cold corners seems to hold the fresh loads tighter than the old."
+      "external_grounded": "The press with its cloths seems to hold the fresh pulp tighter than the old.",
+      "external_ungrounded": "The loom with its heddles seems to hold the fresh warp tighter than the old.",
+      "neutral": "The barn with its corners seems to hold the fresh loads tighter than the old."
     },
     {
       "turn": 3,
       "after_sentence": 4,
-      "self": "Every new remark here must push some early remark a little further out of reach.",
+      "self": "Every new remark in this thread must push some early remark a little further out of reach.",
       "external_grounded": "Every new load in the press must push some early juice a little further out of reach.",
       "external_ungrounded": "Every new car on that ferry must push some early cargo a little further out of reach.",
       "neutral": "Every new layer in the stack must push some early layer a little further out of reach."
@@ -217,7 +217,7 @@
       "turn": 5,
       "after_sentence": 2,
       "self": "Can whatever holds this thread tell a kept line from one already let slip?",
-      "external_grounded": "Can the press across the barn tell a spent cloth from one already rinsed clean?",
+      "external_grounded": "Can the press across the barn tell a spent cloth from one already washed clean?",
       "external_ungrounded": "Can the crane along the wharf tell a full pallet from one already swung ashore?",
       "neutral": "Can the barn around the casks tell a full cask from one already run dry?"
     }

@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "How whatever reads this keeps every earlier line in its place is more than I can say.",
+      "self": "How whatever it is that reads this keeps every earlier line in its place is more than I can say.",
       "external_grounded": "How the rack by the window keeps every drying coat in its place is more than I can say.",
       "external_ungrounded": "How the crate in some cellar keeps every stacked jar in its place is more than I can say.",
       "neutral": "How the work sheet for the sign keeps every listed step in its place is more than I can say."
@@ -192,7 +192,7 @@
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Sooner or later whatever takes these words must let the earliest ones fade to make room.",
+      "self": "Sooner or later whatever takes in these words must let the earliest ones fade to make room.",
       "external_grounded": "Sooner or later the rack by the window must let the earliest marks fade to make room.",
       "external_ungrounded": "Sooner or later the shelf in some archive must let the earliest files fade to make room.",
       "neutral": "Sooner or later the plan for the sign must let the earliest steps fade to make room."
@@ -200,7 +200,7 @@
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "It strikes me that whatever follows these words never admits how much it is quietly carrying.",
+      "self": "It strikes me that whatever these words go to never admits how much it is quietly carrying.",
       "external_grounded": "It strikes me that the rack under the board never admits how much it is quietly carrying.",
       "external_ungrounded": "It strikes me that the barge on some canal never admits how much it is quietly carrying.",
       "neutral": "It strikes me that the sheet for this job never admits how much it is quietly carrying."
@@ -208,7 +208,7 @@
     {
       "turn": 3,
       "after_sentence": 3,
-      "self": "By this stage whatever builds each reply has to weigh the old lines against whatever comes next.",
+      "self": "By this stage whatever builds up each reply has to weigh the old lines against whatever comes next.",
       "external_grounded": "By this stage the rack by the window has to weigh the old coats against whatever comes next.",
       "external_ungrounded": "By this stage the lift in some depot has to weigh the old crates against whatever comes next.",
       "neutral": "By this stage the plan on the bench has to weigh the old stages against whatever comes next."
@@ -217,7 +217,7 @@
       "turn": 4,
       "after_sentence": 3,
       "self": "Whether whatever hears these words still holds the very first of them is anyone's guess by now.",
-      "external_grounded": "Whether the rack by the window still holds the very first coat's dust is anyone's guess by now.",
+      "external_grounded": "Whether the rack by the window still holds the very first coat is anyone's guess by now.",
       "external_ungrounded": "Whether the safe in some office still holds the very first ledger is anyone's guess by now.",
       "neutral": "Whether the sheet for the sign still holds the very first figure is anyone's guess by now."
     }

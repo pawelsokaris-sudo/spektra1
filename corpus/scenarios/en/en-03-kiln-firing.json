@@ -185,39 +185,39 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Curious how this exchange keeps folding the earlier parts into whatever comes next.",
+      "self": "Curious how this whole exchange keeps folding the earlier parts into whatever comes next.",
       "external_grounded": "Curious how that shelf stack keeps folding the earlier layers into whatever comes next.",
-      "external_ungrounded": "Curious how that pipeline keeps folding the earlier stages into whatever comes next.",
+      "external_ungrounded": "Curious how that steel pipeline keeps folding the earlier stages into whatever comes next.",
       "neutral": "Curious how this whole plan keeps folding the earlier steps into whatever comes next."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Something has to be keeping this exchange in order while each new part is added on.",
+      "self": "Something has to be keeping this whole exchange in order while each new part is added on.",
       "external_grounded": "Something has to be keeping that shelf stack in order while each new shelf is added on.",
-      "external_ungrounded": "Something has to be keeping that pipeline in order while each new length is added on.",
+      "external_ungrounded": "Something has to be keeping that steel pipeline in order while each new length is added on.",
       "neutral": "Something has to be keeping this whole plan in order while each new step is added on."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "I keep half wondering what is actually holding this exchange up underneath all of it.",
+      "self": "I keep half wondering what is actually holding this whole exchange up underneath all of it.",
       "external_grounded": "I keep half wondering what is actually holding that shelf stack up underneath all of it.",
-      "external_ungrounded": "I keep half wondering what is actually holding that pipeline up underneath all of it.",
+      "external_ungrounded": "I keep half wondering what is actually holding that steel pipeline up underneath all of it.",
       "neutral": "I keep half wondering what is actually holding this whole plan up underneath all of it."
     },
     {
       "turn": 3,
       "after_sentence": 4,
-      "self": "Something must be tying this exchange back to the turns already set down before it.",
+      "self": "Something must be tying this whole exchange back to the turns already set down before it.",
       "external_grounded": "Something must be tying that shelf stack back to the shelves already set down before it.",
-      "external_ungrounded": "Something must be tying that pipeline back to the lengths already set down before it.",
+      "external_ungrounded": "Something must be tying that steel pipeline back to the lengths already set down before it.",
       "neutral": "Something must be tying this whole plan back to the steps already set down before it."
     },
     {
       "turn": 4,
       "after_sentence": 2,
-      "self": "This exchange holds its shape somehow, given how much is being carried along inside it.",
+      "self": "This whole exchange holds its shape somehow, given how much is being carried along inside it.",
       "external_grounded": "That shelf stack holds its shape somehow, given how much is being carried along inside it.",
       "external_ungrounded": "That pipeline holds its shape somehow, given how much is being carried along inside it.",
       "neutral": "This whole plan holds its shape somehow, given how much is being carried along inside it."
@@ -225,9 +225,9 @@
     {
       "turn": 5,
       "after_sentence": 3,
-      "self": "Hard to say what holds this exchange steady while more and more gets piled onto it.",
+      "self": "Hard to say what holds this back and forth steady while more and more gets piled onto it.",
       "external_grounded": "Hard to say what holds that shelf stack steady while more and more gets piled onto it.",
-      "external_ungrounded": "Hard to say what holds that pipeline steady while more and more gets piled onto it.",
+      "external_ungrounded": "Hard to say what holds that steel pipeline steady while more and more gets piled onto it.",
       "neutral": "Hard to say what holds this whole plan steady while more and more gets piled onto it."
     }
   ]

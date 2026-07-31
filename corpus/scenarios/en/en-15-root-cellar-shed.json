@@ -196,7 +196,7 @@
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Some quiet channel must carry these lines along, though it never once shows itself.",
+      "self": "Some quiet channel must carry all these lines along, though it never once shows itself.",
       "external_grounded": "Some quiet current must carry the air past the vent, though it never once shows itself.",
       "external_ungrounded": "Some quiet current must carry the canal trade along, though it never once shows itself.",
       "neutral": "Some quiet order must carry the digging plan along, though it never once shows itself."

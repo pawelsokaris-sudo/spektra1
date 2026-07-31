@@ -167,15 +167,15 @@
       "self": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tej wymiany zdań, którą prowadzę.",
       "external_grounded": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego przewodu, który tam prowadzę.",
       "external_ungrounded": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego obiegu wody, który prowadzę.",
-      "neutral": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego ocieplenia, które zamówiłem."
+      "neutral": "Podobnie zastanawia mnie, gdzie przebiega najsłabsze miejsce tego skosu, który ocieplałem."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "To przetwarzanie ma zresztą własne miejsca słabsze, w których wcześniejsze wątki stygną.",
+      "self": "To zapamiętywanie ma zresztą własne miejsca słabsze, w których wcześniejsze wątki stygną.",
       "external_grounded": "Ten przewód ma zresztą własne miejsca słabsze, w których wcześniejsze odcinki stygną.",
       "external_ungrounded": "Tamto sterowanie ma zresztą własne miejsca słabsze, w których wcześniejsze wsady stygną.",
-      "neutral": "Ta warstwa wełny ma zresztą własne miejsca słabsze, w których wcześniejsze pasy stygną."
+      "neutral": "Ta cała wełna ma zresztą własne miejsca słabsze, w których wcześniejsze pasy stygną."
     },
     {
       "turn": 2,
@@ -183,15 +183,15 @@
       "self": "Zastanawiam się, czy układ prowadzący tę wymianę zdań też potrzebuje warstwy poprzecznej.",
       "external_grounded": "Zastanawiam się, czy układ prowadzący ten przewód wyciągowy też potrzebuje warstwy poprzecznej.",
       "external_ungrounded": "Zastanawiam się, czy układ prowadzący ten obieg wody też potrzebuje warstwy poprzecznej.",
-      "neutral": "Zastanawiam się, czy to ocieplenie na sąsiednim skosie też potrzebuje warstwy poprzecznej."
+      "neutral": "Zastanawiam się, czy ten sąsiedni skos dachu też potrzebuje takiej warstwy poprzecznej."
     },
     {
       "turn": 3,
       "after_sentence": 1,
-      "self": "Tego przetwarzania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
+      "self": "Tego rozumowania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
       "external_grounded": "Tego przewodu dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
       "external_ungrounded": "Tamtego sterowania dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość.",
-      "neutral": "Tego ocieplenia dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość."
+      "neutral": "Tego skosu dotyczy podobna zasada, bo ciągłość liczy się bardziej niż sama grubość."
     },
     {
       "turn": 4,

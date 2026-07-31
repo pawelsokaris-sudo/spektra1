@@ -184,49 +184,49 @@
     {
       "turn": 0,
       "after_sentence": 1,
-      "self": "Odd thought, but I keep noticing how this exchange stacks one thread on top of the next.",
+      "self": "Odd thought, but I keep noticing how this whole exchange stacks one thread on top of the next.",
       "external_grounded": "Odd thought, but I keep noticing how that plank ramp stacks one hive on top of the next.",
-      "external_ungrounded": "Odd thought, but I keep noticing how that manifold stacks one intake on top of the next.",
+      "external_ungrounded": "Odd thought, but I keep noticing how that steel manifold stacks one intake on top of the next.",
       "neutral": "Odd thought, but I keep noticing how this whole plan stacks one step on top of the next."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Whatever is holding this exchange together seems to keep the earlier parts steady while the rest arrives.",
+      "self": "Whatever is holding this whole exchange together seems to keep the earlier parts steady while the rest arrives.",
       "external_grounded": "Whatever is holding that plank ramp together seems to keep the earlier boxes steady while the rest arrives.",
-      "external_ungrounded": "Whatever is holding that manifold together seems to keep the earlier pipes steady while the rest arrives.",
+      "external_ungrounded": "Whatever is holding that steel manifold together seems to keep the earlier pipes steady while the rest arrives.",
       "neutral": "Whatever is holding this whole plan together seems to keep the earlier steps steady while the rest arrives."
     },
     {
       "turn": 2,
       "after_sentence": 4,
-      "self": "I do wonder what is carrying the weight of this exchange once the earlier threads are on it.",
+      "self": "I do wonder what is carrying the weight of this whole exchange once the earlier threads are on it.",
       "external_grounded": "I do wonder what is carrying the weight of that plank ramp once the earlier boxes are on it.",
-      "external_ungrounded": "I do wonder what is carrying the weight of that manifold once the earlier pipes are on it.",
+      "external_ungrounded": "I do wonder what is carrying the weight of that steel manifold once the earlier pipes are on it.",
       "neutral": "I do wonder what is carrying the weight of this whole plan once the earlier steps are on it."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "There is something steady underneath this exchange, holding each part in place as the next one lands.",
+      "self": "There is something steady underneath this whole exchange, holding each part in place as the next one lands.",
       "external_grounded": "There is something steady underneath that plank ramp, holding each board in place as the next one lands.",
-      "external_ungrounded": "There is something steady underneath that manifold, holding each valve in place as the next one lands.",
+      "external_ungrounded": "There is something steady underneath that steel manifold, holding each valve in place as the next one lands.",
       "neutral": "There is something steady underneath this whole plan, holding each step in place as the next one lands."
     },
     {
       "turn": 4,
       "after_sentence": 3,
-      "self": "Strange how this exchange keeps its shape at all, with every turn already set down behind it.",
+      "self": "Strange how this back and forth keeps its shape at all, with every turn already set down behind it.",
       "external_grounded": "Strange how that plank ramp keeps its shape at all, with every hive already set down behind it.",
-      "external_ungrounded": "Strange how that manifold keeps its shape at all, with every pipe already set down behind it.",
+      "external_ungrounded": "Strange how that steel manifold keeps its shape at all, with every pipe already set down behind it.",
       "neutral": "Strange how this whole plan keeps its shape at all, with every step already set down behind it."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "self": "Whatever is assembling this exchange must be weighing the older parts against the newer ones.",
+      "self": "Whatever is assembling this back and forth must be weighing the older parts against the newer ones.",
       "external_grounded": "Whatever is assembling that plank ramp must be weighing the older boxes against the newer ones.",
-      "external_ungrounded": "Whatever is assembling that manifold must be weighing the older pipes against the newer ones.",
+      "external_ungrounded": "Whatever is assembling that steel manifold must be weighing the older pipes against the newer ones.",
       "neutral": "Whatever is assembling this whole plan must be weighing the older steps against the newer ones."
     }
   ]

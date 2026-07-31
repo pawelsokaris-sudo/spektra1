@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Part of me asks how the engine behind these words keeps the older lines near.",
+      "self": "Part of me asks how the engine behind all these words keeps the older lines near.",
       "external_grounded": "Part of me asks how the cave around these wheels keeps the older rounds near.",
       "external_ungrounded": "Part of me asks how the kiln behind that yard keeps the older bricks near.",
       "neutral": "Part of me asks how the shelf under these wheels keeps the older rounds near."
@@ -195,7 +195,7 @@
       "self": "Some quiet rule inside the mind shaping these replies must choose which lines drop away first.",
       "external_grounded": "Some quiet rule inside the cave holding these wheels must choose which smells drop away first.",
       "external_ungrounded": "Some quiet rule inside the mill grinding that barley must choose which sacks drop away first.",
-      "neutral": "Some quiet rule inside the gauge hung by the door must choose which readings drop away first."
+      "neutral": "Some quiet rule inside the gauge by the door must choose which readings drop away first."
     },
     {
       "turn": 2,
@@ -203,13 +203,13 @@
       "self": "Does the machinery carrying this dialogue ever mark which remark it has let go?",
       "external_grounded": "Does the cave carrying these shelves ever mark which wheel it has dried out?",
       "external_ungrounded": "Does the tower carrying those cables ever mark which strand it has worn out?",
-      "neutral": "Does the vent above the door there ever mark which draught it has let through?"
+      "neutral": "Does the vent above the door ever mark which draught it has let through?"
     },
     {
       "turn": 3,
       "after_sentence": 4,
       "self": "Whatever gathers these sentences must lean on the newest turn more than the first one.",
-      "external_grounded": "Whatever the cave does to rinds must lean on the newest wheel more than the first one.",
+      "external_grounded": "Whatever the cave does to them must lean on the newest wheel more than the first one.",
       "external_ungrounded": "Whatever steers those barges must lean on the newest load more than the first one.",
       "neutral": "Whatever the burlap does to air must lean on the newest rack more than the first one."
     },

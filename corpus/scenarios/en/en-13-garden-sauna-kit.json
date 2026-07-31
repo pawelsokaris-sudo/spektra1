@@ -197,15 +197,15 @@
       "self": "Something in the machinery shaping these turns must decide which earlier parts still count.",
       "external_grounded": "Something in the heater inside its wooden crate must decide which settings still count.",
       "external_ungrounded": "Something in the furnace across at the foundry must decide which castings still count.",
-      "neutral": "Something in the order set out in the manual must decide which small jobs still count."
+      "neutral": "Something in the order written in the manual must decide which small jobs still count."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "It is odd that whatever reads these lines never shows what it chose to drop.",
-      "external_grounded": "It is odd that the heater out in the shed never shows what it holds inside.",
+      "external_grounded": "It is odd that the heater in the shed never shows what it holds inside.",
       "external_ungrounded": "It is odd that the kiln over at the pottery never shows what it holds inside.",
-      "neutral": "It is odd that the packing list in the crate never shows what it left off."
+      "neutral": "It is odd that the packing list in the crate never shows what it skipped."
     },
     {
       "turn": 3,
@@ -219,7 +219,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "How much of the earlier back and forth the responder still carries is anyone's guess.",
-      "external_grounded": "How much of the whole room's heat the heater in back left carries is anyone's guess.",
+      "external_grounded": "How much of the whole room's heat the heater alone carries is anyone's guess.",
       "external_ungrounded": "How much of the town's whole load the boiler at the baths carries is anyone's guess.",
       "neutral": "How much of the whole weekend's work the Saturday list carries is anyone's guess."
     }

@@ -167,7 +167,7 @@
       "self": "Zastanawiam się przy tym, czy to przetwarzanie też potrzebuje takiego spokojnego rozpędu.",
       "external_grounded": "Zastanawiam się przy tym, czy to stare koło też potrzebuje takiego spokojnego rozpędu.",
       "external_ungrounded": "Zastanawiam się przy tym, czy tamten stary wiatrak też potrzebuje takiego spokojnego rozpędu.",
-      "neutral": "Zastanawiam się przy tym, czy ten kawał gliny też potrzebuje takiego spokojnego rozpędu."
+      "neutral": "Zastanawiam się przy tym, czy ta glina też potrzebuje takiego spokojnego rozpędu."
     },
     {
       "turn": 1,
@@ -191,7 +191,7 @@
       "self": "To przetwarzanie również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
       "external_grounded": "To stare koło również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
       "external_ungrounded": "Tamten stary wiatrak również oswaja się najlepiej krótkimi, powtarzanymi seriami prób.",
-      "neutral": "Ten ruchomy stożek również oswaja się najlepiej krótkimi, powtarzanymi seriami prób."
+      "neutral": "Ten stożek również oswaja się najlepiej krótkimi, powtarzanymi seriami prób."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "Przy tym przetwarzaniu też środek wymaga więcej uwagi niż efektowne brzegi.",
       "external_grounded": "Przy tym starym kole też środek wymaga więcej uwagi niż efektowne brzegi.",
       "external_ungrounded": "Przy tamtym wiatraku też środek wymaga więcej uwagi niż efektowne brzegi.",
-      "neutral": "Przy tym mokrym dnie też środek wymaga więcej uwagi niż efektowne brzegi."
+      "neutral": "Przy samym dnie też środek wymaga więcej uwagi niż efektowne brzegi."
     }
   ]
 }

@@ -189,7 +189,7 @@
       "self": "I keep asking myself what the layer holding this dialogue does with the older marks.",
       "external_grounded": "I keep asking myself what the scaffold holding these boards does with the older marks.",
       "external_ungrounded": "I keep asking myself what the winch holding that scaffold does with the older marks.",
-      "neutral": "I keep asking myself what the order set out in this list does with the older marks."
+      "neutral": "I keep asking myself what the order written in this list does with the older marks."
     },
     {
       "turn": 1,
@@ -197,7 +197,7 @@
       "self": "The mechanism reading these turns must be dropping something to keep the rest usable.",
       "external_grounded": "The scaffold carrying these boards must be dropping something to keep the rest usable.",
       "external_ungrounded": "The regulator venting these tanks must be dropping something to keep the rest usable.",
-      "neutral": "The list drawn up this morning must be dropping something to keep the rest usable."
+      "neutral": "The list made this morning must be dropping something to keep the rest usable."
     },
     {
       "turn": 2,
@@ -219,7 +219,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "Whatever tracks this conversation must be weighing the first turns against the latest.",
-      "external_grounded": "Whatever holds this scaffold together must be weighing the first bays against the latest.",
+      "external_grounded": "Whatever holds this scaffold must be weighing the first bays against the latest.",
       "external_ungrounded": "Whatever tracks that installation must be weighing the first tanks against the latest.",
       "neutral": "Whatever order this list follows must be weighing the first cuts against the latest."
     }

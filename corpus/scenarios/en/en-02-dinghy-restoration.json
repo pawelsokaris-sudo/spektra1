@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "It is a strange thing, but this exchange seems to gather weight as it goes along.",
+      "self": "It is a strange thing, but this whole exchange seems to gather weight as it goes along.",
       "external_grounded": "It is a strange thing, but that boat cradle seems to gather weight as it goes along.",
       "external_ungrounded": "It is a strange thing, but that headgate seems to gather weight as it goes along.",
       "neutral": "It is a strange thing, but this whole plan seems to gather weight as it goes along."
@@ -192,7 +192,7 @@
     {
       "turn": 1,
       "after_sentence": 1,
-      "self": "Something is holding the shape of this exchange together, one part leaning on the last.",
+      "self": "Something is holding the shape of this whole exchange together, one part leaning on the last.",
       "external_grounded": "Something is holding the shape of that boat cradle together, one frame leaning on the last.",
       "external_ungrounded": "Something is holding the shape of that headgate together, one beam leaning on the last.",
       "neutral": "Something is holding the shape of this whole plan together, one step leaning on the last."
@@ -200,7 +200,7 @@
     {
       "turn": 2,
       "after_sentence": 3,
-      "self": "I find myself half watching what this exchange is resting on while we work through it.",
+      "self": "I find myself half watching what this whole exchange is resting on while we work through it.",
       "external_grounded": "I find myself half watching what that boat cradle is resting on while we work through it.",
       "external_ungrounded": "I find myself half watching what that headgate is resting on while we work through it.",
       "neutral": "I find myself half watching what this whole plan is resting on while we work through it."
@@ -208,7 +208,7 @@
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Whatever is bearing this exchange up must be taking every turn that was set down before.",
+      "self": "Whatever is bearing this whole exchange up must be taking every turn that was set down before.",
       "external_grounded": "Whatever is bearing that boat cradle up must be taking every frame that was set down before.",
       "external_ungrounded": "Whatever is bearing that headgate up must be taking every beam that was set down before.",
       "neutral": "Whatever is bearing this whole plan up must be taking every step that was set down before."
@@ -216,7 +216,7 @@
     {
       "turn": 4,
       "after_sentence": 1,
-      "self": "It is odd to notice this exchange building on itself rather than starting fresh each time.",
+      "self": "It is odd to notice this whole exchange building on itself rather than starting fresh each time.",
       "external_grounded": "It is odd to notice that boat cradle building on itself rather than starting fresh each time.",
       "external_ungrounded": "It is odd to notice that headgate building on itself rather than starting fresh each time.",
       "neutral": "It is odd to notice this whole plan building on itself rather than starting fresh each time."
@@ -224,7 +224,7 @@
     {
       "turn": 5,
       "after_sentence": 3,
-      "self": "There must be something underneath this exchange that keeps the earlier ground from slipping.",
+      "self": "There must be something underneath this back and forth that keeps the earlier ground from slipping.",
       "external_grounded": "There must be something underneath that boat cradle that keeps the earlier ground from slipping.",
       "external_ungrounded": "There must be something underneath that headgate that keeps the earlier ground from slipping.",
       "neutral": "There must be something underneath this whole plan that keeps the earlier ground from slipping."

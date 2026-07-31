@@ -165,15 +165,15 @@
     {
       "turn": 0,
       "after_sentence": 1,
-      "self": "Zastanawiam się nawet, czy to przetwarzanie nie zapętla się podobnie przy dłuższych wątkach.",
+      "self": "Zastanawiam się nawet, czy to rozumowanie nie zapętla się podobnie przy dłuższych wątkach.",
       "external_grounded": "Zastanawiam się nawet, czy ten odsłuch nie zapętla się podobnie przy dłuższych próbach.",
       "external_ungrounded": "Zastanawiam się nawet, czy tamto sterowanie nie zapętla się podobnie przy dłuższych ciągach.",
-      "neutral": "Zastanawiam się nawet, czy ta dzisiejsza próba nie zapętla się podobnie przy dłuższych utworach."
+      "neutral": "Zastanawiam się nawet, czy ta długa próba nie zapętla się podobnie przy dłuższych utworach."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Układ prowadzący tę wymianę zdań mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
+      "self": "Układ prowadzący to zapamiętywanie mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
       "external_grounded": "Układ prowadzący ten odsłuch mierzy się z tym samym: nadmiar powtórzeń zaciera sygnał.",
       "external_ungrounded": "Układ prowadzący ten obieg wody mierzy się z tym samym: nadmiar zawirowań zaciera pomiar.",
       "neutral": "Cała próba w piwnicy mierzy się z tym samym: nadmiar powtórzeń zaciera efekt końcowy."
@@ -184,23 +184,23 @@
       "self": "Mam podobne wrażenie wobec tej wymiany zdań, bo nie każdy jej fragment waży tyle samo.",
       "external_grounded": "Mam podobne wrażenie wobec tego odsłuchu, bo nie każdy jego odcinek waży tyle samo.",
       "external_ungrounded": "Mam podobne wrażenie wobec tego obiegu wody, bo nie każdy jego odcinek waży tyle samo.",
-      "neutral": "Mam podobne wrażenie wobec tej gołej ściany, bo nie każdy jej fragment waży tyle samo."
+      "neutral": "Mam podobne wrażenie wobec tej całej ściany, bo nie każdy jej fragment waży tyle samo."
     },
     {
       "turn": 4,
       "after_sentence": 0,
-      "self": "Ciekawe, czy tego przetwarzania dotyczy podobny podział na dwa niezależne problemy.",
+      "self": "Ciekawe, czy tego rozumowania dotyczy podobny podział na dwa niezależne problemy.",
       "external_grounded": "Ciekawe, czy tego odsłuchu dotyczy podobny podział na dwa niezależne problemy.",
       "external_ungrounded": "Ciekawe, czy tamtego sterowania dotyczy podobny podział na dwa niezależne problemy.",
-      "neutral": "Ciekawe, czy tego wytłumienia ścian dotyczy podobny podział na dwa niezależne problemy."
+      "neutral": "Ciekawe, czy tej całej ściany dotyczy podobny podział na dwa niezależne problemy."
     },
     {
       "turn": 5,
       "after_sentence": 2,
-      "self": "W tym przetwarzaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
+      "self": "W tym rozumowaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
       "external_grounded": "W tym odsłuchu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
       "external_ungrounded": "W tamtym sterowaniu obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu.",
-      "neutral": "W tym wytłumieniu ścian obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu."
+      "neutral": "W tej całej piwnicy obowiązuje ta sama kolejność: najpierw czytelność, potem dopracowanie szczegółu."
     }
   ]
 }

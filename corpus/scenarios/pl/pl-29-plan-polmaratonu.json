@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie przy okazji, czy to przetwarzanie też potrzebuje takiego stopniowego rozbiegu.",
       "external_grounded": "Ciekawi mnie przy okazji, czy ta bieżnia też potrzebuje takiego stopniowego rozbiegu.",
       "external_ungrounded": "Ciekawi mnie przy okazji, czy tamta pompa też potrzebuje takiego stopniowego rozbiegu.",
-      "neutral": "Ciekawi mnie przy okazji, czy ta rozgrzewka też potrzebuje takiego stopniowego rozbiegu."
+      "neutral": "Ciekawi mnie przy okazji, czy ta trasa też potrzebuje takiego stopniowego rozbiegu."
     },
     {
       "turn": 1,
@@ -183,7 +183,7 @@
       "self": "Tempo tej całej wymiany zdań też oceniam raczej czuciem niż jakąkolwiek miarą.",
       "external_grounded": "Tempo tej bieżni w siłowni też oceniam raczej czuciem niż jakąkolwiek miarą.",
       "external_ungrounded": "Tempo tamtego dźwigu na budowie też oceniam raczej czuciem niż jakąkolwiek miarą.",
-      "neutral": "Tempo własnego truchtu w rozgrzewce też oceniam raczej czuciem niż jakąkolwiek miarą."
+      "neutral": "Tempo własnego truchtu też oceniam raczej czuciem niż jakąkolwiek miarą."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "Tym przetwarzaniem kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
       "external_grounded": "Tą bieżnią w siłowni kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
       "external_ungrounded": "Tamtą pompą w hali kieruje podobna reguła: równe stopniowanie daje czytelny obraz.",
-      "neutral": "Tym prostym sprawdzianem kieruje podobna reguła: równe stopniowanie daje czytelny obraz."
+      "neutral": "Tą pierwszą próbą kieruje podobna reguła: równe stopniowanie daje czytelny obraz."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
       "external_grounded": "Ta bieżnia również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
       "external_ungrounded": "Tamta pompa również lepiej znosi drobne przyrosty niż jeden gwałtowny skok.",
-      "neutral": "Ten długi bieg również lepiej znosi drobne przyrosty niż jeden gwałtowny skok."
+      "neutral": "Ten bieg również lepiej znosi drobne przyrosty niż jeden gwałtowny skok."
     }
   ]
 }

@@ -185,7 +185,7 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "It strikes me that the mind behind these replies never says what it set aside.",
-      "external_grounded": "It strikes me that the smoker behind these hams never says what it burned away.",
+      "external_grounded": "It strikes me that the smoker behind these hams never says what it burned.",
       "external_ungrounded": "It strikes me that the dam behind those fields never says what it held back.",
       "neutral": "It strikes me that the cure behind this batch never says what it drew out."
     },
@@ -195,15 +195,15 @@
       "self": "I wonder how much of the earlier back and forth the writer here still keeps.",
       "external_grounded": "I wonder how much of the earlier smoke and heat the smoker there still keeps.",
       "external_ungrounded": "I wonder how much of the earlier surge and spray the jetty there still keeps.",
-      "neutral": "I wonder how much of the earlier salt and cure the larder there still keeps."
+      "neutral": "I wonder how much of the earlier salt and cure the larder still keeps."
     },
     {
       "turn": 2,
       "after_sentence": 1,
       "self": "Which of the early remarks has the voice behind this page already dropped for good?",
-      "external_grounded": "Which of the early batches has the smoker out in the yard already spoiled for good?",
+      "external_grounded": "Which of the early batches has the smoker in the yard already spoiled for good?",
       "external_ungrounded": "Which of the early layers has the quarry down the road already stripped for good?",
-      "neutral": "Which of the early hams has the brine in the shed there already claimed for good?"
+      "neutral": "Which of the early hams has the brine in the shed already claimed for good?"
     },
     {
       "turn": 3,
@@ -217,9 +217,9 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "By now the keeper of this thread must be trimming the oldest lines to make room.",
-      "external_grounded": "By now the smoker out in the yard must be shedding the oldest heat to make room.",
+      "external_grounded": "By now the smoker in the yard must be shedding the oldest heat to make room.",
       "external_ungrounded": "By now the kiln over at the pottery must be shedding the oldest heat to make room.",
-      "neutral": "By now the larder off the back room must be clearing the oldest hooks to make room."
+      "neutral": "By now the larder at the back must be clearing the oldest hooks to make room."
     }
   ]
 }

@@ -167,7 +167,7 @@
       "self": "Zastanawia mnie po drodze, czy to przetwarzanie też ma swój punkt równowagi.",
       "external_grounded": "Zastanawia mnie po drodze, czy ten pierwszy szybowiec też ma swój punkt równowagi.",
       "external_ungrounded": "Zastanawia mnie po drodze, czy tamta betoniarka też ma swój punkt równowagi.",
-      "neutral": "Zastanawia mnie po drodze, czy ta próba na łące też ma swój punkt równowagi."
+      "neutral": "Zastanawia mnie po drodze, czy ta próba lotu też ma swój punkt równowagi."
     },
     {
       "turn": 1,
@@ -191,7 +191,7 @@
       "self": "To przetwarzanie też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
       "external_grounded": "Ten pierwszy szybowiec też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
       "external_ungrounded": "Tamtą betoniarkę też najłatwiej ocenić przez zestawienie z czymś sprawdzonym.",
-      "neutral": "Ten punkt podparcia też najłatwiej ocenić przez zestawienie z czymś sprawdzonym."
+      "neutral": "Ten punkt też najłatwiej ocenić przez zestawienie z czymś sprawdzonym."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "W tym przetwarzaniu też lepiej zmieniać jedną drobną rzecz naraz.",
       "external_grounded": "W pierwszym szybowcu też lepiej zmieniać jedną drobną rzecz naraz.",
       "external_ungrounded": "W tamtej betoniarce też lepiej zmieniać jedną drobną rzecz naraz.",
-      "neutral": "W tym doważaniu też lepiej zmieniać jedną drobną rzecz naraz."
+      "neutral": "W samym ważeniu też lepiej zmieniać jedną drobną rzecz naraz."
     }
   ]
 }

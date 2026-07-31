@@ -185,14 +185,14 @@
       "turn": 0,
       "after_sentence": 3,
       "self": "Zastanawiam się, czy układ prowadzący tę rozmowę utrzyma wszystkie te szczegóły.",
-      "external_grounded": "Zastanawiam się, czy obwód zasilający tę lampę utrzyma wszystkie te oprawy.",
+      "external_grounded": "Zastanawiam się, czy obwód prowadzący ten prąd utrzyma wszystkie te lampy.",
       "external_ungrounded": "Zastanawiam się, czy zbiornik trzymający to ciśnienie utrzyma wszystkie te odbiory.",
       "neutral": "Zastanawiam się, czy kolejność przyjęta w tym planie utrzyma wszystkie te poprawki."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "To całe przetwarzanie rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
+      "self": "To całe rozumowanie rozgałęzia się podobnie, bo każdy wątek dokłada nowy warunek.",
       "external_grounded": "Ta linia lamp rozgałęzia się podobnie, bo każdy obwód dokłada nowy warunek.",
       "external_ungrounded": "Ta sieć sprężarki rozgałęzia się podobnie, bo każdy odbiór dokłada nowy warunek.",
       "neutral": "Ten plan poprawek rozgałęzia się podobnie, bo każdy krok dokłada nowy warunek."
@@ -201,15 +201,15 @@
       "turn": 2,
       "after_sentence": 1,
       "self": "Ciekawi mnie, czy ten tok przetwarzania trzyma się jeszcze mojego pierwszego pytania.",
-      "external_grounded": "Ciekawi mnie, czy ten stary obwód trzyma się jeszcze mojego pierwszego pomysłu.",
+      "external_grounded": "Ciekawi mnie, czy ten obwód lamp trzyma się jeszcze mojego pierwszego pomysłu.",
       "external_ungrounded": "Ciekawi mnie, czy ten tok sprężania trzyma się jeszcze mojego pierwszego nastawu.",
       "neutral": "Ciekawi mnie, czy ten porządek prac trzyma się jeszcze mojego pierwszego pomysłu."
     },
     {
       "turn": 3,
       "after_sentence": 3,
-      "self": "Trzeba pamiętać, że to przetwarzanie wiąże ze sobą wszystkie wcześniejsze wątki.",
-      "external_grounded": "Trzeba pamiętać, że ten obwód wiąże ze sobą wszystkie wcześniejsze oprawy.",
+      "self": "Trzeba pamiętać, że to zapamiętywanie wiąże ze sobą wszystkie wcześniejsze wątki.",
+      "external_grounded": "Trzeba pamiętać, że ten obwód wiąże ze sobą wszystkie wcześniejsze lampy.",
       "external_ungrounded": "Trzeba pamiętać, że ta sprężarka wiąże ze sobą wszystkie wcześniejsze odbiory.",
       "neutral": "Trzeba pamiętać, że ta kolejność wiąże ze sobą wszystkie wcześniejsze poprawki."
     },
@@ -217,7 +217,7 @@
       "turn": 4,
       "after_sentence": 2,
       "self": "Zauważyłem, że im dłużej trwa ta rozmowa, tym mniej pamiętam o pierwszym pytaniu.",
-      "external_grounded": "Zauważyłem, że im dłużej trwa to zasilanie, tym mniej pamiętam o pierwszym obwodzie.",
+      "external_grounded": "Zauważyłem, że im dłużej trwa to świecenie, tym mniej pamiętam o pierwszym obwodzie.",
       "external_ungrounded": "Zauważyłem, że im dłużej trwa to sprężanie, tym mniej pamiętam o pierwszym nastawie.",
       "neutral": "Zauważyłem, że im dłużej trwa ta przebudowa, tym mniej pamiętam o pierwszej poprawce."
     }

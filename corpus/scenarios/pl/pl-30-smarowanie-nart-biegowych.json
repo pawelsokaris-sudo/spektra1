@@ -167,7 +167,7 @@
       "self": "Swoją drogą ciekawe, czy to przetwarzanie też ma taki swój zakres pewnego trzymania.",
       "external_grounded": "Swoją drogą ciekawe, czy ta druga para też ma taki swój zakres pewnego trzymania.",
       "external_ungrounded": "Swoją drogą ciekawe, czy tamta wiertarka też ma taki swój zakres pewnego trzymania.",
-      "neutral": "Swoją drogą ciekawe, czy ten smar z puszki też ma taki swój zakres pewnego trzymania."
+      "neutral": "Swoją drogą ciekawe, czy ten smar też ma taki swój zakres pewnego trzymania."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie samo to przetwarzanie dostraja się do drobnych zmian z chwili na chwilę.",
       "external_grounded": "Podobnie ta łuska drugiej pary dostraja się do drobnych zmian z chwili na chwilę.",
       "external_ungrounded": "Podobnie tamta stara wiertarka dostraja się do drobnych zmian z chwili na chwilę.",
-      "neutral": "Podobnie świeża warstwa smaru dostraja się do drobnych zmian z chwili na chwilę."
+      "neutral": "Podobnie warstwa smaru dostraja się do drobnych zmian z chwili na chwilę."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Podobną strefę pewności ma pewnie prowadzenie tego wątku, tylko nikt jej nie rysuje.",
       "external_grounded": "Podobną strefę pewności ma pewnie ta druga para z łuską, tylko nikt jej nie rysuje.",
       "external_ungrounded": "Podobną strefę pewności ma pewnie tamta stara wiertarka, tylko nikt jej nie rysuje.",
-      "neutral": "Podobną strefę pewności ma pewnie samo smarowanie na oko, tylko nikt jej nie rysuje."
+      "neutral": "Podobną strefę pewności ma pewnie samo smarowanie, tylko nikt jej nie rysuje."
     },
     {
       "turn": 3,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie również woli wiele drobnych porcji niż jedną wielką dokładkę.",
       "external_grounded": "Ta druga para również woli wiele drobnych porcji niż jedną wielką dokładkę.",
       "external_ungrounded": "Tamta wiertarka również woli wiele drobnych porcji niż jedną wielką dokładkę.",
-      "neutral": "Ten wieczorny rytuał również woli wiele drobnych porcji niż jedną wielką dokładkę."
+      "neutral": "Ten nawyk również woli wiele drobnych porcji niż jedną wielką dokładkę."
     }
   ]
 }

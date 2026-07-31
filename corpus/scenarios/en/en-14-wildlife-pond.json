@@ -187,17 +187,17 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "It crosses my mind that whatever answers here folds away most of what was said.",
-      "external_grounded": "It crosses my mind that the liner on its pole folds away most of what it hides.",
+      "external_grounded": "It crosses my mind that the rolled liner folds away most of what it hides.",
       "external_ungrounded": "It crosses my mind that the awning on that pier folds away most of what it shades.",
-      "neutral": "It crosses my mind that the plan for this week folds away most of what it lists."
+      "neutral": "It crosses my mind that the weekly plan folds away most of what it lists."
     },
     {
       "turn": 1,
       "after_sentence": 3,
       "self": "Whatever sits behind these answers must keep some record of the steps already gone.",
-      "external_grounded": "Whatever sits inside that rolled liner must keep some memory of the folds already made.",
+      "external_grounded": "Whatever sits inside that liner must keep some memory of the folds already made.",
       "external_ungrounded": "Whatever sits inside that grain silo must keep some measure of the loads already through.",
-      "neutral": "Whatever sits behind the sand bed itself must keep some trace of the rake already used."
+      "neutral": "Whatever sits under the sand bed must keep some trace of the rake already used."
     },
     {
       "turn": 2,

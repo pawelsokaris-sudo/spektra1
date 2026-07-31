@@ -185,14 +185,14 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "I cannot tell how much of these lines whatever follows them still carries from the start.",
-      "external_grounded": "I cannot tell how much of the old oil the train of wheels still carries from the start.",
-      "external_ungrounded": "I cannot tell how much of the first load the belt in some quarry still carries from the start.",
-      "neutral": "I cannot tell how much of the first plan the service sheet still carries from the start."
+      "external_grounded": "I cannot tell how much of the oil the train of wheels still carries from the start.",
+      "external_ungrounded": "I cannot tell how much of the load the belt in some quarry still carries from the start.",
+      "neutral": "I cannot tell how much of the plan the service sheet still carries from the start."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "At some point whatever attends these words must begin letting the earliest ones slip away.",
+      "self": "At some point whatever attends to these words must begin letting the earliest ones slip away.",
       "external_grounded": "At some point the train behind the dial must begin letting the earliest grime slip away.",
       "external_ungrounded": "At some point the pump in some deep mine must begin letting the earliest water slip away.",
       "neutral": "At some point the sheet for this service must begin letting the earliest notes slip away."
@@ -201,24 +201,24 @@
       "turn": 2,
       "after_sentence": 1,
       "self": "It is curious that whatever takes in these words gives nothing away about what it has dropped.",
-      "external_grounded": "It is curious that the train under its dust gives nothing away about what it has dropped.",
+      "external_grounded": "It is curious that the train under dust gives nothing away about what it has dropped.",
       "external_ungrounded": "It is curious that the organ in some church gives nothing away about what it has dropped.",
       "neutral": "It is curious that the list for this cleaning gives nothing away about what it has dropped."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Surely whatever builds each reply has to balance the oldest lines against the newest by now.",
-      "external_grounded": "Surely the train turning by hand has to balance the oldest wear against the newest by now.",
-      "external_ungrounded": "Surely the winch in some old barge has to balance the oldest wear against the newest by now.",
-      "neutral": "Surely the sheet out on the bench has to balance the oldest entries against the newest by now."
+      "self": "Surely whatever builds up each reply has to balance the oldest lines against the newest by now.",
+      "external_grounded": "Surely the train turning slowly has to balance the oldest wear against the newest by now.",
+      "external_ungrounded": "Surely the winch in some barge has to balance the oldest wear against the newest by now.",
+      "neutral": "Surely the sheet on the bench has to balance the oldest entries against the newest by now."
     },
     {
       "turn": 4,
       "after_sentence": 3,
       "self": "How long whatever hears these words can keep hold of the first of them is an open question.",
-      "external_grounded": "How long the train of wheels can keep hold of its first drop of oil is an open question.",
-      "external_ungrounded": "How long the loft in some stable can keep hold of its first bale of hay is an open question.",
+      "external_grounded": "How long the wheel train can keep hold of its first drop of oil is an open question.",
+      "external_ungrounded": "How long the loft in some stable can keep hold of its first hay bale is an open question.",
       "neutral": "How long the service record can keep hold of its first written line is an open question."
     }
   ]

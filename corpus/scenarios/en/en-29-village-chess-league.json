@@ -185,14 +185,14 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "I sometimes wonder how the works behind these replies keeps the older lines in order.",
-      "external_grounded": "I sometimes wonder how the board beside the hall door keeps the older cards in order.",
-      "external_ungrounded": "I sometimes wonder how the pump behind the village well keeps the older pipes in order.",
-      "neutral": "I sometimes wonder how the plan for this whole season keeps the older rounds in order."
+      "external_grounded": "I sometimes wonder how the board beside the door keeps the older cards in order.",
+      "external_ungrounded": "I sometimes wonder how the pump behind the well keeps the older pipes in order.",
+      "neutral": "I sometimes wonder how the plan for this season keeps the older rounds in order."
     },
     {
       "turn": 1,
       "after_sentence": 3,
-      "self": "Whatever builds these answers must have a rule for which early details drop away first.",
+      "self": "Whatever builds these long answers must have a rule for which early details drop away first.",
       "external_grounded": "Whatever fills that fixture board must have a rule for which early cards drop away first.",
       "external_ungrounded": "Whatever drives the old corn mill must have a rule for which early sacks drop away first.",
       "neutral": "Whatever shapes the season sheet must have a rule for which early weeks drop away first."
@@ -201,25 +201,25 @@
       "turn": 2,
       "after_sentence": 1,
       "self": "It is strange that whatever holds this back and forth never says what it left out.",
-      "external_grounded": "It is strange that the board holding those round cards never says what it let slip.",
+      "external_grounded": "It is strange that the board holding those cards never says what it let slip.",
       "external_ungrounded": "It is strange that the pump feeding the village trough never says what it let slip.",
-      "neutral": "It is strange that the sheet holding the season dates never says what it left out."
+      "neutral": "It is strange that the sheet holding the dates never says what it left out."
     },
     {
       "turn": 3,
       "after_sentence": 3,
       "self": "Some part of whatever replies here must weigh my first lines against the newest one.",
-      "external_grounded": "Some part of that board by the door must weigh the first cards against the newest one.",
-      "external_ungrounded": "Some part of that mill by the river must weigh the first sacks against the newest one.",
+      "external_grounded": "Some part of that fixture board must weigh the first cards against the newest one.",
+      "external_ungrounded": "Some part of that river mill must weigh the first sacks against the newest one.",
       "neutral": "Some part of the season calendar must weigh the first weeks against the newest one."
     },
     {
       "turn": 4,
       "after_sentence": 2,
-      "self": "There must be a limit to how much of this long thread stays within easy reach.",
-      "external_grounded": "There must be a limit to how many of the rail's old cards stay within easy reach.",
-      "external_ungrounded": "There must be a limit to how many of the mill's old sacks stay within easy reach.",
-      "neutral": "There must be a limit to how many of the season's spare weeks stay in easy reach."
+      "self": "There must be a limit to how much of this one long thread stays within easy reach.",
+      "external_grounded": "There must be a limit to how many of the round cards stay within easy reach.",
+      "external_ungrounded": "There must be a limit to how many of the old mill sacks stay within easy reach.",
+      "neutral": "There must be a limit to how many of the spare season weeks stay in easy reach."
     }
   ]
 }

@@ -167,7 +167,7 @@
       "self": "Swoją drogą ciekawe, czy to przetwarzanie też ciągnie wszystko jednym pionem w górę.",
       "external_grounded": "Swoją drogą ciekawe, czy ten stary komin też ciągnie wszystko jednym pionem w górę.",
       "external_ungrounded": "Swoją drogą ciekawe, czy tamten stary tartak też ciągnie wszystko jednym pionem w górę.",
-      "neutral": "Swoją drogą ciekawe, czy ta stara kratka też ciągnie wszystko jednym pionem w górę."
+      "neutral": "Swoją drogą ciekawe, czy ta kratka też ciągnie wszystko jednym pionem w górę."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie to przetwarzanie opiera świeży strumień na tym, co płynęło już wcześniej.",
       "external_grounded": "Podobnie ten stary komin opiera świeży strumień na tym, co płynęło już wcześniej.",
       "external_ungrounded": "Podobnie tamten stary tartak opiera świeży strumień na tym, co płynęło już wcześniej.",
-      "neutral": "Podobnie ta stara kratka opiera świeży strumień na tym, co płynęło już wcześniej."
+      "neutral": "Podobnie ta kratka opiera świeży strumień na tym, co płynęło już wcześniej."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "W tym przetwarzaniu także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
       "external_grounded": "W tym starym kominie także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
       "external_ungrounded": "W tamtym starym tartaku także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu.",
-      "neutral": "W tym nowym filtrze także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu."
+      "neutral": "W tym filtrze także wszystko rozstrzyga się na styku ciepłego i chłodnego biegu."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "To przetwarzanie również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
       "external_grounded": "Ten stary komin również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
       "external_ungrounded": "Tamten stary tartak również gubi najwięcej tam, gdzie nikt nie zagląda do środka.",
-      "neutral": "Ta stara kratka również gubi najwięcej tam, gdzie nikt nie zagląda do środka."
+      "neutral": "Ta kratka również gubi najwięcej tam, gdzie nikt nie zagląda do środka."
     },
     {
       "turn": 4,

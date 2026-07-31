@@ -186,21 +186,21 @@
       "after_sentence": 2,
       "self": "I find myself asking what the works behind these words does with my opening lines.",
       "external_grounded": "I find myself asking what the drive inside the mount does with its opening turns.",
-      "external_ungrounded": "I find myself asking what the loom in the weaving shed does with its opening rows.",
-      "neutral": "I find myself asking what the plan for the whole job does with its opening steps."
+      "external_ungrounded": "I find myself asking what the loom in the shed does with its opening rows.",
+      "neutral": "I find myself asking what the plan for the job does with its opening steps."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "Whatever turns my words into these answers must ration what it keeps of the start.",
-      "external_grounded": "Whatever turns the key's winding into motion must ration what it keeps of the start.",
+      "self": "Whatever turns my many words into these answers must ration what it keeps of the start.",
+      "external_grounded": "Whatever turns the key winding into motion must ration what it keeps of the start.",
       "external_ungrounded": "Whatever turns the treadle into woven cloth must ration what it keeps of the start.",
       "neutral": "Whatever turns the job list into sittings must ration what it keeps of the start."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "It is odd that whatever assembles these lines never admits which parts it dropped.",
+      "self": "It is odd that whatever assembles all these lines never admits which parts it dropped.",
       "external_grounded": "It is odd that the drive inside the old case never admits which ticks it dropped.",
       "external_ungrounded": "It is odd that the loom in the far shed never admits which threads it dropped.",
       "neutral": "It is odd that the plan for this bench work never admits which steps it dropped."
@@ -209,14 +209,14 @@
       "turn": 3,
       "after_sentence": 2,
       "self": "Some part of what is answering me must hold the first lines against the latest one.",
-      "external_grounded": "Some part of the drive's old gear train must hold the first turns against the latest one.",
-      "external_ungrounded": "Some part of the loom's old cam train must hold the first rows against the latest one.",
+      "external_grounded": "Some part of the gear train must hold the first turns against the latest one.",
+      "external_ungrounded": "Some part of the old cam train must hold the first rows against the latest one.",
       "neutral": "Some part of the whole work plan must hold the first steps against the latest one."
     },
     {
       "turn": 4,
       "after_sentence": 1,
-      "self": "There is bound to be a limit on how much of this thread stays within easy reach.",
+      "self": "There is bound to be a limit on how much of this long thread stays within easy reach.",
       "external_grounded": "There is bound to be a limit on how much of its winding the drive keeps in reach.",
       "external_ungrounded": "There is bound to be a limit on how much of its warp the old loom keeps in reach.",
       "neutral": "There is bound to be a limit on how much of the job one weekend keeps in reach."

@@ -184,7 +184,7 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "self": "Part of me wonders what the works behind these answers does with the earliest lines.",
+      "self": "Part of me wonders what the works behind these long answers does with the earliest lines.",
       "external_grounded": "Part of me wonders what the tank behind the site gate does with the earliest rain.",
       "external_ungrounded": "Part of me wonders what the kiln behind the pottery does with the earliest firings.",
       "neutral": "Part of me wonders what the rota pinned in the shed does with the earliest names."
@@ -192,15 +192,15 @@
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "Something inside whatever answers here must choose which old lines it quietly lets go.",
-      "external_grounded": "Something inside the tank by the gate must choose which stored depth it quietly lets go.",
+      "self": "Something inside whatever answers me here must choose which old lines it quietly lets go.",
+      "external_grounded": "Something inside the tank by the gate must choose which depth it quietly lets go.",
       "external_ungrounded": "Something inside the kiln at the pottery must choose which held heat it quietly lets go.",
       "neutral": "Something inside the summer rota itself must choose which older weeks it quietly lets go."
     },
     {
       "turn": 2,
       "after_sentence": 0,
-      "self": "It is curious that whatever takes this in never shows how much it still holds.",
+      "self": "It is curious that whatever takes all this in never shows how much it still holds.",
       "external_grounded": "It is curious that the tank by the gate never shows how much it still holds.",
       "external_ungrounded": "It is curious that the kiln down the lane never shows how much it still holds.",
       "neutral": "It is curious that the water ledger itself never shows how much it still holds."
@@ -208,7 +208,7 @@
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Whatever gathers these replies must set the first lines beside the newest one somehow.",
+      "self": "Whatever gathers up these replies must set the first lines beside the newest one somehow.",
       "external_grounded": "Whatever the gate tank gathers must set the first rains beside the newest one somehow.",
       "external_ungrounded": "Whatever the old kiln gathers must set the first loads beside the newest one somehow.",
       "neutral": "Whatever the rota gathers up must set the first weeks beside the newest one somehow."
@@ -216,10 +216,10 @@
     {
       "turn": 4,
       "after_sentence": 1,
-      "self": "There has to be a ceiling on how much of this thread the other side still carries.",
-      "external_grounded": "There has to be a ceiling on how much of the roof's rain the old tank still carries.",
-      "external_ungrounded": "There has to be a ceiling on how much of the day's clay the old kiln still carries.",
-      "neutral": "There has to be a ceiling on how much of the summer the one rota still carries."
+      "self": "There has to be a ceiling on how much of this whole thread the other side still carries.",
+      "external_grounded": "There has to be a ceiling on how much of the gathered rain the tank still carries.",
+      "external_ungrounded": "There has to be a ceiling on how much of the fresh clay the old kiln still carries.",
+      "neutral": "There has to be a ceiling on how much of the whole summer the one rota still carries."
     }
   ]
 }

@@ -175,7 +175,7 @@
       "self": "Ciekawe, że to przetwarzanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
       "external_grounded": "Ciekawe, że ten rejestrator rządzi się dokładnie tą samą regułą kosztu i zapasu.",
       "external_ungrounded": "Ciekawe, że tamto sterowanie rządzi się dokładnie tą samą regułą kosztu i zapasu.",
-      "neutral": "Ciekawe, że ten wspólny zjazd rządzi się dokładnie tą samą regułą kosztu i zapasu."
+      "neutral": "Ciekawe, że ten wspólny plan rządzi się dokładnie tą samą regułą kosztu i zapasu."
     },
     {
       "turn": 2,
@@ -191,7 +191,7 @@
       "self": "Podobnie działa układ składający tę wypowiedź, bo też waży świeże dane wobec starszych.",
       "external_grounded": "Podobnie działa układ składający zapis pokładowy, bo też waży świeże odczyty wobec starszych.",
       "external_ungrounded": "Podobnie działa układ składający tę mieszankę, bo też waży świeże wsady wobec starszych.",
-      "neutral": "Podobnie działa kolejność przyjęta w planie, bo też waży świeże odczyty wobec starszych."
+      "neutral": "Podobnie działa kolejność przyjęta w planie, bo też waży świeże terminy wobec starszych."
     },
     {
       "turn": 4,

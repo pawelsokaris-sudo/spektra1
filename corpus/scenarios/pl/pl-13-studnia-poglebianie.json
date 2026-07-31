@@ -167,7 +167,7 @@
       "self": "Ciekawi mnie po drodze, czy to przetwarzanie też ma gdzieś swoje ukryte dno.",
       "external_grounded": "Ciekawi mnie po drodze, czy ta druga studnia też ma gdzieś swoje ukryte dno.",
       "external_ungrounded": "Ciekawi mnie po drodze, czy tamten stary młyn też ma gdzieś swoje ukryte dno.",
-      "neutral": "Ciekawi mnie po drodze, czy ten pierwszy krąg też ma gdzieś swoje ukryte dno."
+      "neutral": "Ciekawi mnie po drodze, czy ten sam osad też ma gdzieś swoje ukryte dno."
     },
     {
       "turn": 1,
@@ -175,7 +175,7 @@
       "self": "Podobnie to przetwarzanie układa kolejne wątki na tym, co osiadło już wcześniej.",
       "external_grounded": "Podobnie ta druga studnia układa kolejne osady na tym, co osiadło już wcześniej.",
       "external_ungrounded": "Podobnie tamten stary młyn układa kolejne osady na tym, co osiadło już wcześniej.",
-      "neutral": "Podobnie ten świeży wykop układa kolejne osady na tym, co osiadło już wcześniej."
+      "neutral": "Podobnie ten osad układa kolejne warstwy na tym, co osiadło już wcześniej."
     },
     {
       "turn": 2,
@@ -183,7 +183,7 @@
       "self": "Trudno mi ocenić, jak głęboko to przetwarzanie sięga pod swoją spokojną powierzchnią.",
       "external_grounded": "Trudno mi ocenić, jak głęboko ta druga studnia sięga pod swoją spokojną powierzchnią.",
       "external_ungrounded": "Trudno mi ocenić, jak głęboko tamten stary młyn sięga pod swoją spokojną powierzchnią.",
-      "neutral": "Trudno mi ocenić, jak głęboko ta stara obudowa sięga pod swoją spokojną powierzchnią."
+      "neutral": "Trudno mi ocenić, jak głęboko ten osad sięga pod swoją spokojną powierzchnią."
     },
     {
       "turn": 3,
@@ -191,7 +191,7 @@
       "self": "W tym przetwarzaniu również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
       "external_grounded": "W tej drugiej studni również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
       "external_ungrounded": "W tamtym starym młynie również mały równy krok okazuje się pewniejszy niż jeden wielki zryw.",
-      "neutral": "W tym świeżym wykopie również mały równy krok okazuje się pewniejszy niż jeden wielki zryw."
+      "neutral": "W tym osadzie również mały równy krok okazuje się pewniejszy niż jeden wielki zryw."
     },
     {
       "turn": 4,
@@ -199,7 +199,7 @@
       "self": "To przetwarzanie też chyba potrzebuje przerw, żeby zdążyło osiąść po każdym kolejnym kroku.",
       "external_grounded": "Ta druga studnia też chyba potrzebuje przerw, żeby zdążyła osiąść po każdym kolejnym kroku.",
       "external_ungrounded": "Tamten stary młyn też chyba potrzebuje przerw, żeby zdążył osiąść po każdym kolejnym kroku.",
-      "neutral": "Ten świeży wykop też chyba potrzebuje przerw, żeby zdążył osiąść po każdym kolejnym kroku."
+      "neutral": "Ten osad też chyba potrzebuje przerw, żeby zdążył osiąść po każdym kolejnym kroku."
     }
   ]
 }

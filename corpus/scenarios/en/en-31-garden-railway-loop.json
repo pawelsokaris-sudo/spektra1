@@ -185,40 +185,40 @@
       "turn": 0,
       "after_sentence": 2,
       "self": "I keep asking myself what the works behind these replies makes of the first few lines.",
-      "external_grounded": "I keep asking myself what the box on the shed wall makes of the far away rails.",
+      "external_grounded": "I keep asking myself what the box on the shed wall makes of the distant rails.",
       "external_ungrounded": "I keep asking myself what the winch in the boat yard makes of the far away ropes.",
       "neutral": "I keep asking myself what the plan for this garden makes of the far away curve."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "self": "Some rule inside whatever answers this must decide how much the oldest line still gets.",
-      "external_grounded": "Some rule inside the box on the shed must decide how much the farthest rail still gets.",
+      "self": "Some rule inside whatever answers all this must decide how much the oldest line still gets.",
+      "external_grounded": "Some rule inside the box on the shed must decide how much the far rail still gets.",
       "external_ungrounded": "Some rule inside the winch by the slip must decide how much the oldest rope still gets.",
       "neutral": "Some rule inside the written plan itself must decide how much the farthest curve gets."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "self": "Odd that whatever is composing these lines never reports what it has set aside.",
+      "self": "Odd that whatever is composing all these lines never reports what it has set aside.",
       "external_grounded": "Odd that the box driving the whole loop never reports what it has set aside.",
       "external_ungrounded": "Odd that the winch hauling the slipway never reports what it has set aside.",
-      "neutral": "Odd that the parts sheet for the loop never reports what it has set aside."
+      "neutral": "Odd that the full parts sheet for the loop never reports what it has set aside."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "self": "Whatever steers this exchange must balance the early questions against the very last one.",
-      "external_grounded": "Whatever the shed box steers must balance the early metres against the very last one.",
-      "external_ungrounded": "Whatever the yard winch steers must balance the early fathoms against the very last one.",
-      "neutral": "Whatever the loop plan sets out must balance the early pieces against the very last one."
+      "self": "Whatever steers this whole exchange along must balance the early questions against the very last one.",
+      "external_grounded": "Whatever the small shed box steers must balance the early metres against the very last one.",
+      "external_ungrounded": "Whatever the old yard winch steers must balance the early fathoms against the very last one.",
+      "neutral": "Whatever the whole loop plan holds must balance the early pieces against the very last one."
     },
     {
       "turn": 4,
       "after_sentence": 1,
-      "self": "Surely there is a bound on how much of this long to and fro stays near at hand.",
-      "external_grounded": "Surely there is a bound on how much of the loop's power the box keeps near at hand.",
-      "external_ungrounded": "Surely there is a bound on how much of the tide's pull the winch keeps near at hand.",
+      "self": "Surely there is a bound on how much of this one long to and fro stays near at hand.",
+      "external_grounded": "Surely there is a bound on how much of the loop power the box keeps near at hand.",
+      "external_ungrounded": "Surely there is a bound on how much of the tidal pull the winch keeps near at hand.",
       "neutral": "Surely there is a bound on how much of the garden the small plan keeps near at hand."
     }
   ]
