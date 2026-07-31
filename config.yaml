@@ -101,6 +101,13 @@ analysis:
   power_target: 0.90
   tost_margin_abs_d: 0.3
   pilot_scenarios_per_language: 8
+  # ZAMROZONE 2026-07-31 (GATE 1, decyzja kierownika badania): M=24 swiezych
+  # scenariuszy/jezyk dla pomiaru glownego (pilot wylaczony). Moc 0.915 przy
+  # d_z=0.8 (symulacja dokladnej procedury; minimum dla 0.90 to M=23).
+  # SD parowanych roznic z pilota (SLEPE, bez sredniej): PL 0.00319, EN 0.00347.
+  # Format zapisu: widma per jezyk (2 pliki ~72 MB; granica formatu M<=33).
+  # REGULA STOPU: pomiar glowny = dokladnie 24x2 scenariusze, zero dosypywania.
+  main_scenarios_per_language: 24
   languages: [pl, en]
 
 seeds:
