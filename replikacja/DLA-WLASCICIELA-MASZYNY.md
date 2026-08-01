@@ -48,10 +48,10 @@ wersje bibliotek, czasy wykonania, wyniki obliczeń numerycznych.
 
 **Nigdy:** Twoje pliki, kod, dane osobowe, zawartość dysku, wagi modelu.
 
-Wysyłka odbywa się przez pull request do publicznego repozytorium (albo,
-jeśli sieć firmowa to blokuje, przez plik, który przekażesz jak zechcesz).
-**Zawsze możesz obejrzeć, co dokładnie zostanie wysłane** — to zwykłe pliki
-tekstowe.
+Wynik każdego etapu to **plik, który przekazujesz jak Ci wygodnie** —
+wklejony do rozmowy, wysłany mailem, przez dysk, cokolwiek. **Na Twoim koncie
+GitHub ani nigdzie indziej nie powstaje nic**: żadnych repozytoriów, forków
+ani gałęzi. Zawsze możesz obejrzeć, co dokładnie wysyłasz — to zwykły tekst.
 
 ## Jak to prowadzić — trzy komendy, które warto znać
 

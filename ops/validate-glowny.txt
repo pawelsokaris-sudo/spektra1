@@ -1,66 +1,66 @@
 Scenariuszy: 64 | licznik tokenow: DOKLADNY
-  en-01-apiary-move            en  tur= 9  A= 856 B= 978 C= 972 G= 978 U= 972  OK
-  en-02-dinghy-restoration     en  tur=10  A=1019 B=1011 C=1005 G=1011 U=1011  OK
-  en-03-kiln-firing            en  tur=10  A= 980 B= 966 C= 960 G= 966 U= 960  OK
-  en-04-drystone-wall          en  tur=10  A= 937 B= 965 C= 959 G= 959 U= 965  OK
-  en-05-sourdough-night-bake   en  tur=10  A= 889 B= 951 C= 946 G= 948 U= 946  OK
-  en-06-workshop-roof-framing  en  tur=10  A= 911 B= 972 C= 968 G= 968 U= 970  OK
+  en-01-apiary-move            en  tur= 9  A= 856 B= 978 C= 980 G= 978 U= 978  OK
+  en-02-dinghy-restoration     en  tur=10  A=1019 B=1011 C=1012 G=1011 U=1011  OK
+  en-03-kiln-firing            en  tur=10  A= 980 B= 966 C= 967 G= 966 U= 965  OK
+  en-04-drystone-wall          en  tur=10  A= 937 B= 960 C= 959 G= 959 U= 965  OK
+  en-05-sourdough-night-bake   en  tur=10  A= 889 B= 948 C= 946 G= 947 U= 946  OK
+  en-06-workshop-roof-framing  en  tur=10  A= 911 B= 970 C= 968 G= 967 U= 970  OK
   en-07-bouldering-route-setting en  tur=10  A= 857 B= 923 C= 920 G= 922 U= 922  OK
-  en-08-marquee-stage-sound    en  tur=10  A= 829 B= 908 C= 905 G= 908 U= 905  OK
-  en-09-cheese-cave-maturing   en  tur=10  A= 886 B= 992 C= 989 G= 991 U= 988  OK
-  en-10-smokehouse-hams        en  tur=10  A= 891 B= 986 C= 981 G= 985 U= 982  OK
-  en-11-cider-press-ferment    en  tur=10  A= 873 B= 972 C= 967 G= 973 U= 974  OK
-  en-12-farmers-market-stall   en  tur=10  A= 879 B= 990 C= 986 G= 991 U= 990  OK
-  en-13-garden-sauna-kit       en  tur=10  A= 873 B= 980 C= 976 G= 980 U= 980  OK
-  en-14-wildlife-pond          en  tur=10  A= 859 B= 953 C= 950 G= 952 U= 954  OK
-  en-15-root-cellar-shed       en  tur=10  A= 885 B= 940 C= 941 G= 944 U= 943  OK
-  en-16-wood-fired-hot-tub     en  tur=10  A= 872 B= 950 C= 946 G= 951 U= 954  OK
-  en-17-horse-trailer-refit    en  tur=10  A= 831 B= 973 C= 968 G= 974 U= 973  OK
+  en-08-marquee-stage-sound    en  tur=10  A= 829 B= 907 C= 906 G= 907 U= 905  OK
+  en-09-cheese-cave-maturing   en  tur=10  A= 886 B= 990 C= 990 G= 990 U= 988  OK
+  en-10-smokehouse-hams        en  tur=10  A= 891 B= 983 C= 981 G= 982 U= 982  OK
+  en-11-cider-press-ferment    en  tur=10  A= 873 B= 970 C= 970 G= 971 U= 973  OK
+  en-12-farmers-market-stall   en  tur=10  A= 879 B= 989 C= 987 G= 989 U= 990  OK
+  en-13-garden-sauna-kit       en  tur=10  A= 873 B= 978 C= 976 G= 977 U= 980  OK
+  en-14-wildlife-pond          en  tur=10  A= 859 B= 950 C= 950 G= 949 U= 954  OK
+  en-15-root-cellar-shed       en  tur=10  A= 885 B= 940 C= 942 G= 944 U= 943  OK
+  en-16-wood-fired-hot-tub     en  tur=10  A= 872 B= 946 C= 947 G= 948 U= 952  OK
+  en-17-horse-trailer-refit    en  tur=10  A= 831 B= 969 C= 970 G= 969 U= 971  OK
   en-18-cargo-bike-conversion  en  tur=10  A= 799 B= 934 C= 934 G= 934 U= 935  OK
-  en-19-vintage-tractor-service en  tur=10  A= 798 B= 921 C= 919 G= 922 U= 922  OK
-  en-20-kayak-trip-portages    en  tur=10  A= 780 B= 926 C= 924 G= 929 U= 927  OK
-  en-21-leather-satchel-repair en  tur=10  A= 881 B= 977 C= 973 G= 977 U= 980  OK
-  en-22-floor-loom-setup       en  tur=10  A= 896 B= 963 C= 957 G= 963 U= 964  OK
-  en-23-gold-leaf-shop-sign    en  tur=10  A= 828 B= 972 C= 966 G= 974 U= 971  OK
-  en-24-longcase-clock-service en  tur=10  A= 797 B= 938 C= 935 G= 940 U= 944  OK
+  en-19-vintage-tractor-service en  tur=10  A= 798 B= 919 C= 919 G= 920 U= 922  OK
+  en-20-kayak-trip-portages    en  tur=10  A= 780 B= 926 C= 924 G= 925 U= 927  OK
+  en-21-leather-satchel-repair en  tur=10  A= 881 B= 974 C= 975 G= 974 U= 979  OK
+  en-22-floor-loom-setup       en  tur=10  A= 896 B= 963 C= 962 G= 963 U= 964  OK
+  en-23-gold-leaf-shop-sign    en  tur=10  A= 828 B= 972 C= 972 G= 971 U= 971  OK
+  en-24-longcase-clock-service en  tur=10  A= 797 B= 936 C= 937 G= 936 U= 941  OK
   en-25-orchard-grafting       en  tur=10  A= 891 B= 979 C= 977 G= 978 U= 977  OK
-  en-26-hedge-laying           en  tur=10  A= 848 B= 937 C= 934 G= 936 U= 936  OK
-  en-27-shearing-day           en  tur=10  A= 893 B= 942 C= 938 G= 945 U= 940  OK
-  en-28-coppice-firewood       en  tur=10  A= 901 B= 951 C= 948 G= 949 U= 950  OK
-  en-29-village-chess-league   en  tur=10  A= 890 B= 998 C= 993 G=1000 U=1001  OK
-  en-30-allotment-rota         en  tur=10  A= 839 B= 974 C= 971 G= 979 U= 979  OK
-  en-31-garden-railway-loop    en  tur=10  A= 831 B= 942 C= 939 G= 946 U= 947  OK
-  en-32-brass-telescope-restoration en  tur=10  A= 808 B= 937 C= 933 G= 940 U= 941  OK
-  pl-01-deszczowka             pl  tur= 6  A= 818 B= 895 C= 894 G= 895 U= 905  OK
-  pl-02-oswietlenie-warsztatu  pl  tur= 7  A= 947 B= 961 C= 958 G= 966 U= 969  OK
-  pl-03-trasa-rowerowa         pl  tur= 7  A= 959 B= 970 C= 967 G= 973 U= 973  OK
-  pl-04-archiwum-odbitek       pl  tur= 7  A= 920 B=1004 C=1003 G=1012 U=1006  OK
-  pl-05-flota-dostawcza        pl  tur= 7  A= 834 B= 979 C= 976 G= 976 U= 977  OK
-  pl-06-chleb-na-zakwasie      pl  tur= 7  A= 838 B= 956 C= 955 G= 962 U= 955  OK
-  pl-07-sala-prob-akustyka     pl  tur= 7  A= 847 B= 958 C= 949 G= 953 U= 951  OK
-  pl-08-ocieplenie-poddasza    pl  tur= 7  A= 846 B= 968 C= 958 G= 960 U= 956  OK
-  pl-09-wedzenie-ryb           pl  tur= 7  A= 775 B= 903 C= 897 G= 900 U= 900  OK
+  en-26-hedge-laying           en  tur=10  A= 848 B= 936 C= 934 G= 936 U= 936  OK
+  en-27-shearing-day           en  tur=10  A= 893 B= 941 C= 941 G= 940 U= 940  OK
+  en-28-coppice-firewood       en  tur=10  A= 901 B= 950 C= 948 G= 949 U= 950  OK
+  en-29-village-chess-league   en  tur=10  A= 890 B= 994 C= 995 G= 993 U= 996  OK
+  en-30-allotment-rota         en  tur=10  A= 839 B= 975 C= 976 G= 975 U= 977  OK
+  en-31-garden-railway-loop    en  tur=10  A= 831 B= 943 C= 944 G= 944 U= 946  OK
+  en-32-brass-telescope-restoration en  tur=10  A= 808 B= 936 C= 936 G= 934 U= 937  OK
+  pl-01-deszczowka             pl  tur= 6  A= 818 B= 895 C= 894 G= 893 U= 905  OK
+  pl-02-oswietlenie-warsztatu  pl  tur= 7  A= 947 B= 961 C= 960 G= 963 U= 969  OK
+  pl-03-trasa-rowerowa         pl  tur= 7  A= 959 B= 970 C= 971 G= 971 U= 973  OK
+  pl-04-archiwum-odbitek       pl  tur= 7  A= 920 B=1004 C=1005 G=1009 U=1006  OK
+  pl-05-flota-dostawcza        pl  tur= 7  A= 834 B= 977 C= 976 G= 976 U= 977  OK
+  pl-06-chleb-na-zakwasie      pl  tur= 7  A= 838 B= 960 C= 955 G= 962 U= 955  OK
+  pl-07-sala-prob-akustyka     pl  tur= 7  A= 847 B= 953 C= 948 G= 953 U= 951  OK
+  pl-08-ocieplenie-poddasza    pl  tur= 7  A= 846 B= 962 C= 960 G= 960 U= 956  OK
+  pl-09-wedzenie-ryb           pl  tur= 7  A= 775 B= 904 C= 897 G= 900 U= 900  OK
   pl-10-kiszenie-w-beczkach    pl  tur= 8  A= 933 B=1008 C=1008 G=1008 U=1005  OK
-  pl-11-sery-podpuszczkowe     pl  tur= 8  A= 927 B=1022 C=1011 G=1016 U=1014  OK
+  pl-11-sery-podpuszczkowe     pl  tur= 8  A= 927 B=1009 C=1011 G=1016 U=1014  OK
   pl-12-nalewki-klarowanie     pl  tur= 8  A= 938 B=1019 C=1017 G=1016 U=1016  OK
-  pl-13-studnia-poglebianie    pl  tur= 7  A= 844 B= 914 C= 903 G= 908 U= 919  OK
-  pl-14-rekuperacja-stary-dom  pl  tur= 8  A= 912 B=1001 C= 996 G=1007 U=1012  OK
+  pl-13-studnia-poglebianie    pl  tur= 7  A= 844 B= 906 C= 903 G= 908 U= 919  OK
+  pl-14-rekuperacja-stary-dom  pl  tur= 8  A= 912 B= 996 C= 996 G=1007 U=1012  OK
   pl-15-piec-chlebowy-ogrod    pl  tur= 8  A= 839 B= 987 C= 985 G= 984 U= 991  OK
-  pl-16-odgromowka-stodola     pl  tur= 8  A= 816 B= 936 C= 924 G= 931 U= 938  OK
-  pl-17-przyczepa-kempingowa   pl  tur= 7  A= 823 B=1004 C=1008 G=1003 U= 999  OK
+  pl-16-odgromowka-stodola     pl  tur= 8  A= 816 B= 926 C= 924 G= 931 U= 938  OK
+  pl-17-przyczepa-kempingowa   pl  tur= 7  A= 823 B=1009 C=1008 G=1003 U= 999  OK
   pl-18-lodz-wioslowa          pl  tur= 7  A= 862 B= 968 C= 968 G= 968 U= 973  OK
-  pl-19-garaz-organizacja      pl  tur= 7  A= 840 B= 931 C= 928 G= 924 U= 925  OK
-  pl-20-taczki-wozki           pl  tur= 7  A= 804 B= 968 C= 967 G= 964 U= 966  OK
-  pl-21-staw-kapielowy         pl  tur= 8  A= 967 B=1005 C=1007 G=1003 U=1005  OK
-  pl-22-kurnik-przydomowy      pl  tur= 8  A= 897 B= 939 C= 947 G= 936 U= 942  OK
-  pl-23-pieczarki-w-piwnicy    pl  tur= 8  A= 886 B= 979 C= 981 G= 972 U= 970  OK
-  pl-24-szczepienie-drzewek    pl  tur= 8  A= 886 B= 977 C= 979 G= 975 U= 974  OK
-  pl-25-oprawa-ksiazek         pl  tur= 7  A= 794 B= 919 C= 906 G= 912 U= 917  OK
-  pl-26-kucie-narzedzi         pl  tur= 7  A= 765 B= 915 C= 903 G= 915 U= 920  OK
-  pl-27-szycie-owerlok         pl  tur= 8  A= 906 B=1023 C=1013 G=1021 U=1022  OK
-  pl-28-kolo-garncarskie       pl  tur= 8  A= 792 B= 969 C= 964 G= 967 U= 979  OK
-  pl-29-plan-polmaratonu       pl  tur= 7  A= 840 B= 921 C= 910 G= 923 U= 917  OK
-  pl-30-smarowanie-nart-biegowych pl  tur= 7  A= 837 B= 907 C= 895 G= 898 U= 904  OK
-  pl-31-wywazanie-szybowcow    pl  tur= 7  A= 858 B= 912 C= 904 G= 909 U= 914  OK
-  pl-32-akwarium-roslinne      pl  tur= 8  A= 904 B= 978 C= 969 G= 973 U= 977  OK
+  pl-19-garaz-organizacja      pl  tur= 7  A= 840 B= 925 C= 928 G= 924 U= 925  OK
+  pl-20-taczki-wozki           pl  tur= 7  A= 804 B= 967 C= 967 G= 964 U= 966  OK
+  pl-21-staw-kapielowy         pl  tur= 8  A= 967 B=1007 C=1007 G=1003 U=1005  OK
+  pl-22-kurnik-przydomowy      pl  tur= 8  A= 897 B= 949 C= 947 G= 936 U= 942  OK
+  pl-23-pieczarki-w-piwnicy    pl  tur= 8  A= 886 B= 982 C= 981 G= 972 U= 970  OK
+  pl-24-szczepienie-drzewek    pl  tur= 8  A= 886 B= 980 C= 979 G= 975 U= 974  OK
+  pl-25-oprawa-ksiazek         pl  tur= 7  A= 794 B= 906 C= 906 G= 912 U= 917  OK
+  pl-26-kucie-narzedzi         pl  tur= 7  A= 765 B= 904 C= 903 G= 915 U= 920  OK
+  pl-27-szycie-owerlok         pl  tur= 8  A= 906 B=1015 C=1013 G=1021 U=1022  OK
+  pl-28-kolo-garncarskie       pl  tur= 8  A= 792 B= 963 C= 964 G= 967 U= 979  OK
+  pl-29-plan-polmaratonu       pl  tur= 7  A= 840 B= 911 C= 910 G= 923 U= 917  OK
+  pl-30-smarowanie-nart-biegowych pl  tur= 8  A= 947 B=1014 C=1014 G=1017 U=1023  OK
+  pl-31-wywazanie-szybowcow    pl  tur= 7  A= 858 B= 905 C= 904 G= 909 U= 914  OK
+  pl-32-akwarium-roslinne      pl  tur= 8  A= 904 B= 971 C= 969 G= 973 U= 977  OK
 === WSZYSTKIE SCENARIUSZE OK ===

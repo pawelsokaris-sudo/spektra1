@@ -1,8 +1,9 @@
 # Etapy replikacji i co wraca do repo
 
 Dokument dla agenta prowadzącego replikację, dla zespołu badawczego i dla
-osób trzecich chcących powtórzyć badanie. Każdy etap kończy się **jednym
-pull requestem** z artefaktami wymienionymi niżej.
+osób trzecich chcących powtórzyć badanie. Każdy etap kończy się **jednym plikiem wyników** przekazanym dowolnym kanałem.
+**Na koncie właściciela maszyny nie powstaje nic** — żadnych forków, repozytoriów
+ani gałęzi. Wyniki dołącza do repozytorium zespół badawczy.
 
 **Zasada przepływu:** z maszyny replikującej wychodzą **wyłącznie wyniki
 liczbowe i raporty**. Nigdy: wagi modelu, pliki tokenizera, dane operatora,
@@ -75,4 +76,5 @@ raport replikacji. Maszyna replikująca jest już wtedy wolna.
 | nigdy z maszyny | wagi, tokenizer, dane operatora, cokolwiek prywatnego | — |
 
 Każdy etap jest **niezależnie przerywalny i wznawialny**. Zakończenie etapu
-= jeden pull request = punkt, w którym można przerwać współpracę bez straty.
+= jeden plik wyników = punkt, w którym można przerwać współpracę bez straty.
+Duże pliki (widma) przekazywane kanałem wskazanym przez właściciela maszyny.

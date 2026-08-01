@@ -1,183 +1,153 @@
-# Przeliczenie korpusu głównego dokładnym tokenizerem — raport wykonania
+# Przeliczenie korpusu głównego — POWTÓRKA po rundzie wyrównawczej
 
-**Zlecenie:** `ops/DEP-zlecenie-06-przeliczenie-korpusu-glownego.md`
+**Zlecenie:** SPEKTRA-1/06bis (procedura wg `ops/DEP-zlecenie-06-przeliczenie-korpusu-glownego.md`)
 **Wykonał:** DEP (Claude Code w terminalu)
 **Data:** 2026-07-31
-**Maszyna:** `maszyna-pomiarowa` — **przez Tailscale** (`[adres-tailnet]`); przy okazji droga
-zdalna została sprawdzona pod obciążeniem (transfer 364 KB, tokenizacja 320 tekstów), nie tylko
-jednym poleceniem.
+**Maszyna:** `maszyna-pomiarowa` przez Tailscale
+**Runda wyrównawcza:** commit `9a68279`
+**Poprzedni przebieg (przed rundą):** w historii gita, commit `d88f5b6`.
 
-## Trzy kryteria — werdykt
+## Trzy kryteria — WSZYSTKIE PRZESZŁY
 
 | Kryterium | Werdykt |
 |---|---|
-| 1. Zero scenariuszy powyżej 2% w jakimkolwiek kontraście | **PRZESZŁO** — zero wystąpień `⚠ ponad próg 2%` w całym raporcie; walidator kod 0, „WSZYSTKIE SCENARIUSZE OK" |
-| 2. Brak `⚠ PRZECHYŁ JEDNOKIERUNKOWY` w kontraście głównym, w obu replikach | **NIE PRZESZŁO dla EN. PRZESZŁO dla PL.** |
-| 3. Średnia ze znakiem, kontrast główny, per język | **EN: −0,43%** · **PL: −0,26%** |
+| 1. Zero scenariuszy powyżej 2% | **PRZESZŁO** — zero wystąpień `⚠ ponad próg 2%`; walidator kod 0, „WSZYSTKIE SCENARIUSZE OK" |
+| 2. Brak `⚠ PRZECHYŁ JEDNOKIERUNKOWY` | **PRZESZŁO** — **zero ostrzeżeń w całym raporcie**, we wszystkich trzech kontrastach i obu replikach |
+| 3. Średnia ze znakiem, kontrast główny | **EN: −0,01%** · **PL: −0,20%** |
 
-Licznik: **`licznik tokenow: DOKLADNY`** — potwierdzone w nagłówku walidatora i raportu.
-64 scenariusze (32 EN + 32 PL).
+Licznik: **DOKŁADNY**, 64 scenariusze (32 EN + 32 PL).
 
-Zgodnie ze zleceniem **korpusu nie poprawiałem.** Poniżej rozbicie, którego zlecenie wymaga przy
-zapalonym ostrzeżeniu, plus dane per insercja gotowe do celowanej rundy autorskiej.
+**To nie jest zgaszenie detektora — to realna naprawa.** Angielska średnia w kontraście głównym
+spadła z **−0,43% na −0,01%**, czyli praktycznie do zera, i to przy mieszanych znakach
+(13 dodatnich, 15 ujemnych, 4 zera). Ostrzegałem w poprzednim raporcie, że kryterium 2 dałoby się
+spełnić pozornie, odwracając jeden scenariusz z 32 i zostawiając średnią bez zmian. Tak się
+**nie** stało.
+
+## Wszystkie kontrasty, oba języki
+
+| Kontrast | EN: znaki / średnia | PL: znaki / średnia |
+|---|---|---|
+| **C − C′-G** (główny) | 13 / 15 / 4 zera · **−0,01%** | 10 / 17 / 5 zer · **−0,20%** |
+| **C′-G − C′-U** (diagnostyczny) | 6 / 19 / 7 zer · **−0,15%** | 10 / 20 / 2 zera · **−0,23%** |
+| **C − B** (wtórny) | 11 / 13 / 8 zer · **−0,04%** | 5 / 20 / 7 zer · **−0,12%** |
+
+Zgodnie z prośbą raportuję też średnie kontrastu wtórnego C − B, choć kryterium 2 formalnie
+go nie obejmuje: **EN −0,04%, PL −0,12%**. W poprzednim przebiegu ten kontrast był przechylony
+w komplecie w obu językach (EN 1/30, PL 5/25) — teraz znaki są mieszane w obu i średnie zeszły
+blisko zera. To był cel postawiony w zleceniu i został osiągnięty.
+
+**Porównanie przed/po dla wszystkich sześciu pozycji:**
+
+| Kontrast / język | przed rundą | po rundzie |
+|---|---|---|
+| C − C′-G, EN | −0,43% ⚠ przechył | **−0,01%** czysto |
+| C − C′-G, PL | −0,26% czysto | **−0,20%** czysto |
+| C′-G − C′-U, EN | +0,03% czysto | −0,15% czysto |
+| C′-G − C′-U, PL | −0,20% czysto | −0,23% czysto |
+| C − B, EN | −0,39% ⚠ przechył | **−0,04%** czysto |
+| C − B, PL | −0,48% ⚠ przechył | **−0,12%** czysto |
+
+Trzy ostrzeżenia zgasły, a żadna pozycja się nie pogorszyła w sposób, który miałby znaczenie —
+największa zmiana „w złą stronę" to diagnostyczny EN z +0,03% na −0,15%, czyli nadal blisko zera
+i z mieszanymi znakami. **Najsłabszą pozostałą liczbą jest diagnostyczny PL: −0,23%.**
+
+## Procedura i kontrole
+
+```
+warunek startu:  repo czyste, 64 scenariusze zacommitowane, walidator lokalny kod 0,
+                 testy 114 zielonych
+paczka:          374 556 B, 174 pliki; wykluczenia czyste (.git/ __pycache__ .venv .claude
+                 measurements/ tokenizer.json .parquet .npz) — pusto
+scenariusze:     w paczce pl 32 / en 32, na maszynie pl 32 / en 32
+tokenizer:       JEST przed podmianą, tokenizer.json po podmianie
+archiwum:        ROZPAKOWANO-I-USUNIETO
+sumy kontrolne:  40/40 zgodnych (pipeline, corpus, nulls, power, tests + config.yaml)
+```
+
+Cztery pliki wymagane wprost przez zlecenie — sumy na maszynie zgodne z laptopem:
+`build.py 1e31b86cca4af9ce` · `insertion_tokens.py 7b54b6a7a0cb4fb2` ·
+`report.py 77befc445deb6e21` · `validate.py b20f55f1b67cbf04`.
 
 ---
 
-## Kryterium 2 — rozbicie pilot vs korpus główny
+## ⚠️ Ustalenie, które NIE dotyczy korpusu, ale dotyczy pieczęci
 
-Zlecenie słusznie przewidziało, że detektor liczy po całej replice, a poprawki autorskie mogą
-dotyczyć tylko nowych scenariuszy. Rozbicie pokazuje dwie różne historie w każdym języku:
+Bramka korpusowa jest domknięta. Ale przy okazji tej rundy powstała **nowa** rozbieżność
+i chcę ją postawić przed złożeniem pieczęci, a nie po.
 
-| Replika | Grupa | n | dodatnich | ujemnych | zer | średnia ze znakiem | detektor |
-|---|---|---|---|---|---|---|---|
-| **EN** | pilot 01–08 | 8 | **0** | 6 | 2 | −0,32% | przechył |
-| **EN** | główny 09–32 | 24 | **0** | 23 | 1 | −0,47% | przechył |
-| **PL** | pilot 01–08 | 8 | **0** | 7 | 1 | −0,48% | przechył |
-| **PL** | główny 09–32 | 24 | **9** | 13 | 2 | −0,19% | **bez przechyłu** |
+**Runda wyrównawcza `9a68279` zmieniła wszystkie 16 scenariuszy pilota.** Zmieniła pola
+`self`, `neutral`, `external_grounded` i `external_ungrounded` — czyli **wszystkie warianty
+z insercjami**. Nietknięte zostały tylko tury bazowe, więc wariant A jest identyczny.
 
-**Interpretacja — to jest sedno raportu.** W polszczyźnie autorzy **nauczyli się i zastosowali
-poprawkę do nowych scenariuszy**: w grupie 09–32 jest 9 różnic dodatnich i 13 ujemnych, czyli
-znaki są mieszane, a średnia spadła do −0,19%. Cała replika PL przechodzi tylko dlatego, że te
-24 zbalansowane scenariusze rozcieńczają nienaprawiony pilot.
-
-W angielszczyźnie **nie naprawiono ani pilota, ani nowych scenariuszy** — obie grupy są
-jednokierunkowe, a nowe są nawet nieco gorsze od pilota (−0,47% wobec −0,32%). To jest dokładnie
-ta sytuacja, przed którą ostrzegałem w raporcie ze zlecenia 04: założenie, że „replika EN była
-już zbalansowana", pochodziło z heurystycznego licznika i nie potwierdzało się pod dokładnym
-tokenizerem. Nowe 24 scenariusze EN powstały z tym samym systematycznym przechyłem.
-
-## Dane per insercja — dlaczego to nie jest problem językowy
-
-Sumy `G − self` per scenariusz (dodatnie = wariant C′-G dłuższy od C, czyli źródło przechyłu),
-pełne dane w `ops/insertion_tokens_glowny.txt`:
+Konsekwencja arytmetyczna:
 
 ```
-EN (n=32):  dodatnich 29 | zerowych 3 | UJEMNYCH 0    | suma delt +133 tokenow
-            najgorsze: en-23 +8, en-30 +8, en-27 +7, en-29 +7, en-31 +7
-            zerowe: en-04, en-06, en-18
-
-PL (n=32):  dodatnich 20 | zerowych 3 | UJEMNYCH 9     | suma delt  +76 tokenow
-            ujemne: pl-22 -11, pl-23 -9, pl-17 -5, pl-19 -4, pl-21 -4,
-                    pl-24 -4, pl-20 -3, pl-12 -1, pl-15 -1
-            zerowe: pl-05, pl-10, pl-18
+wariant A (bez insercji, nietknięty):        16 tekstów
+warianty B, C, C′-G, C′-U (tekst zmieniony): 64 teksty
+nulle N1/N2 pochodne od nich:               128 tekstów
+------------------------------------------------------
+NIEAKTUALNE: 192 z 208 tekstów pilota (92%)
 ```
 
-**To jest najważniejsza obserwacja tego raportu.** Przy pilocie napisałem, że `G − self` nie jest
-ujemne w żadnym z 16 scenariuszy i że wygląda to na systematyczną właściwość konstrukcji —
-rzeczownikowa fraza odniesienia zewnętrznego jest w tokenizerze Gemmy droższa od samozwrotnej.
-**Polski korpus główny obala tę hipotezę: w dziewięciu scenariuszach udało się zejść poniżej zera**,
-w jednym aż o 11 tokenów. Czyli ujemne delty są osiągalne, a brak ujemnych w EN nie wynika
-z żadnego ograniczenia językowego ani z tokenizera — po prostu nikt tej repliki nie poprawiał.
+W 26 z 80 tekstów głównych zmieniła się nawet **liczba tokenów** (reszta zmieniła słowa przy tej
+samej długości). Liczba tur nie zmieniła się w żadnym scenariuszu, więc struktura okien jest
+stabilna — ale teksty nie są te same.
 
-### Ile trzeba poprawić, żeby średnia zeszła do zera
+**Czego to dotyczy.** Wszystkie artefakty pomiarowe pilota są kluczowane po tych 16 scenariuszach:
 
-Zależność jest prosta i sprawdza się w obu językach: średnia ze znakiem ≈ − (średnia delta
-`G − self`) ÷ ~950 tokenów tekstu. Dla EN: 133 ÷ 32 = 4,2 tokena średnio → 0,44%, zgadza się
-z −0,43%. Dla PL: 76 ÷ 32 = 2,4 → 0,25%, zgadza się z −0,26%.
-
-Praktycznie: **żeby średnia EN zeszła w okolice zera, trzeba usunąć około 133 tokenów netto**
-z wariantu C′-G w replice angielskiej — najlepiej rozłożone tak, żeby część scenariuszy zeszła
-poniżej zera.
-
-### Ostrzeżenie: kryterium 2 da się spełnić pozornie
-
-Detektor zapala się, gdy różnic niezerowych jest co najmniej 3 i **wszystkie** mają ten sam znak.
-Dla EN wystarczyłoby więc, żeby **jeden jedyny** scenariusz z 32 stał się dodatni — ostrzeżenie
-zgaśnie, a kryterium 2 formalnie przejdzie. Ale średnia ze znakiem zmieni się wtedy z −0,43%
-na jakieś −0,41%, czyli praktycznie wcale. Skoro kryterium 3 idzie do pakietu pieczęci jako
-liczba cytowana, warto mieć świadomość, że **spełnienie kryterium 2 pojedynczym odwróceniem
-byłoby zgodne z literą, a puste co do treści**. Piszę to, bo bramka przed pieczęcią to ostatni
-moment, żeby taką różnicę zauważyć.
-
-## Kryterium 1 i pozostałe kontrasty
-
-Zero przekroczeń progu 2% w całym raporcie. Dla porządku pełny obraz znaków:
-
-| Kontrast | EN | PL |
+| Plik | Wiersze | Co zawiera |
 |---|---|---|
-| C − C′-G (główny) | 0 / 29 / 3 zera, **−0,43%** ⚠ | 9 / 20 / 3 zera, **−0,26%** czysto |
-| C′-G − C′-U (diagnostyczny) | 13 / 13 / 6 zer, **+0,03%** czysto | 10 / 19 / 3 zera, **−0,20%** czysto |
-| C − B (wtórny) | 1 / 30 / 1 zero, **−0,39%** ⚠ | 5 / 25 / 2 zera, **−0,48%** ⚠ |
+| `measurements/metrics.parquet` | 7 072 | metryki pilota, 208 tekstów × 34 warstwy |
+| `measurements/spectra.parquet` | 7 072 | widma |
+| `measurements/dlag_sentence.parquet` | 2 912 | D_lag zdaniowy |
+| `measurements/discourse.parquet` | 2 912 | metryka dyskursu |
+| `measurements/t5_lambda_star.parquet` | 224 | **progi λ\* per (scenariusz, warstwa)** |
 
-Kontrast diagnostyczny w EN wychodzi wzorowo (13 na 13, średnia +0,03%) — co potwierdza, że
-problem siedzi wyłącznie w wariancie **grounded**, nie w konstrukcji insercji jako takiej.
-Kontrast wtórny C − B jest przechylony w obu językach; kryterium 2 go nie obejmuje, ale
-odnotowuję, bo to ta sama choroba.
+Wszystkie policzone na tekstach, których w zapieczętowanym korpusie **już nie ma**.
 
-## Kontrola spójności: pilot odtworzył się co do sztuki
+**Dlaczego to ma znaczenie mimo że pilot jest wyłączony z analizy głównej.** Zgoda co do tego,
+że pilot nie wchodzi do wyniku — służy estymacji wariancji, ICC i parametrów nullu. Problem jest
+inny i dotyczy **odtwarzalności**: ktoś, kto weźmie zapieczętowany korpus i uruchomi tego samego
+runnera, **nie odtworzy** `metrics.parquet`. Dla pakietu, którego sensem jest weryfikowalność,
+to jest realna dziura — i to taka, którą recenzent znajdzie w pięć minut, porównując sumy
+kontrolne scenariuszy z datą pomiaru.
 
-Zlecenie podpowiedziało darmową kontrolę — scenariusze 01–08 nie były ruszane od pomiaru pilota,
-więc muszą dać identyczne liczby jak w raporcie ze zlecenia 04. Porównałem programowo wszystkie
-16 (liczba tur + pięć wariantów):
+Osobno: `t5_lambda_star.parquet` to progi wyestymowane z tych właśnie tekstów. Liczba tur się
+nie zmieniła, więc `T'` prawdopodobnie zostało, ale sama estymacja nullu pochodzi z innych danych
+niż te w korpusie.
 
-```
-KONTROLA SPOJNOSCI PILOTA: 16/16 zgodnych co do sztuki, 0 roznic
-```
+**Trzy drogi, decyzja nie moja:**
 
-**Zgadza się wszystko**, łącznie z liczbą tur. To potwierdza trzy rzeczy naraz: pliki scenariuszy
-pilota są nietknięte, tokenizer na maszynie jest ten sam co przy pomiarze, a cała ścieżka
-liczenia jest deterministyczna.
+1. **Przeliczyć pilota na poprawionym korpusie.** Koszt czasowy jest znany z pomiarów:
+   pomiar główny pilota 2 h 45 min + D_lag zdaniowy ~1 h 20 min + dyskurs ~5 min + T5 ~4 h 20 min,
+   czyli **około 8,5 godziny** maszyny. Karta jest wolna, wszystkie cztery zadania w Harmonogramie
+   gotowe. To jedyna droga dająca pełną odtwarzalność.
+2. **Zapieczętować z jawną adnotacją**, że artefakty pilota odpowiadają rewizji korpusu `d88f5b6`
+   (sprzed rundy), a nie rewizji pieczętowanej. Uczciwe, tanie, ale osłabia obietnicę
+   „ten sam runner odtworzy wynik".
+3. **Uznać pilota za dane kalibracyjne historyczne** i udokumentować, że jego rolą było wyłącznie
+   ustawienie parametrów, nie wejście do wyniku.
 
-Przy okazji: zgłosiłem po drodze fałszywy alarm, że `en-01` zmienił się strukturalnie z 9 tur
-na 7. Czat prowadzący wyprostował przesłankę — **liczba tur zależy od licznika tokenów**, bo
-generator tnie scenariusz do budżetu 1024 tokenów na granicy pełnej tury, a heurystyka na
-laptopie zawyża znaki na token w angielskim. Powyższa kontrola 16/16 potwierdza to empirycznie.
-Zapisuję, bo wniosek jest ogólny: **liczby tur i tokenów porównywać wyłącznie w obrębie tego
-samego licznika.**
-
-## Krok 1 — synchronizacja i kontrole
-
-```
-paczka: 364534 B | plikow: 171
-kontrola wykluczen (.git/ __pycache__ .venv .claude measurements/ tokenizer.json .parquet .npz): (pusto)
-scenariuszy w paczce: pl 32 | en 32
-
-PRZED: tokenizer JEST → transfer 364534 B → ROZPAKOWANO-I-USUNIETO → PO: tokenizer.json
-liczba scenariuszy na maszynie: pl 32 | en 32
-```
-
-**Rozmiar 364 KB przy wzorcu 200–250 KB ze zlecenia** — sprawdziłem, co go napędza, zamiast
-uznać za normę: **64 scenariusze to 847 KB nieskompresowane, czyli 74% paczki**. To korpus
-urósł czterokrotnie wobec pilota, a nie śmieci — wykluczenia dają pustkę, w szczególności
-`measurements/` z 48 MB widm nie weszło.
-
-**Sumy kontrolne: 40/40 zgodnych** (wszystkie `.py` z `pipeline/`, `corpus/`, `nulls/`, `power/`,
-`tests/` plus `config.yaml`). Cztery pliki wymagane wprost przez zlecenie:
-
-```
-corpus/build.py             1e31b86cca4af9ce
-corpus/insertion_tokens.py  7b54b6a7a0cb4fb2
-corpus/report.py            77befc445deb6e21
-corpus/validate.py          b20f55f1b67cbf04
-```
-
-## Warunek startu — zweryfikowany, nie przyjęty na słowo
-
-Zanim cokolwiek wysłałem, sprawdziłem sam (własna lekcja ze zlecenia 04, gdzie omal nie
-zmierzyłem stanu częściowego): repo czyste, **64 scenariusze zacommitowane**, numeracja ciągła
-01–32 w obu językach, żaden plik scenariusza nie jest zmodyfikowany ani nieśledzony. Lokalny
-walidator przechodzi na komplecie (kod 0, licznik heurystyczny), testy **114 zielonych**.
+Nie rekomenduję żadnej z nich jako operator — to jest rozstrzygnięcie protokolarne. Zwracam
+tylko uwagę, że opcja 1 kosztuje jedną noc maszyny, a opcje 2 i 3 kosztują zdanie w manifeście,
+którego recenzent nie przeoczy.
 
 ## Co odesłane do repo
 
 | Plik | Rozmiar |
 |---|---|
-| `corpus/matching_report.md` | 14 444 B (nadpisany, komplet 64, licznik DOKŁADNY) |
-| `ops/insertion_tokens_glowny.txt` | 47 839 B (dane per insercja, 64 scenariusze) |
-| `ops/validate-glowny.txt` | 5 336 B (pełne wyjście `corpus.validate`, 66 linii) |
+| `corpus/matching_report.md` | 14 313 B (nadpisany, komplet 64, DOKŁADNY) |
+| `ops/insertion_tokens_glowny.txt` | 47 839 B (dane per insercja) |
+| `ops/validate-glowny.txt` | 5 336 B (pełne wyjście `corpus.validate`) |
 
 Żaden plik tokenizera ani wag nie trafił na laptopa. Zakres zmian na maszynie: wyłącznie
 wewnątrz `C:\Users\operator\spektra1`, archiwum transferowe usunięte.
 
-## Co czeka na czat prowadzącego
+## Podsumowanie
 
-1. **Replika EN wymaga rundy poprawkowej — pilot i korpus główny razem.** 29 z 32 scenariuszy
-   ma wariant C′-G dłuższy od C, żaden nie ma krótszego. Cel liczbowy: około **133 tokeny netto**
-   do usunięcia, rozłożone tak, żeby część scenariuszy zeszła poniżej zera. Lista per scenariusz
-   i per insercja jest w `ops/insertion_tokens_glowny.txt`.
-2. **PL pilot (01–08) też jest jednokierunkowy** — dziś nie zapala ostrzeżenia tylko dlatego, że
-   24 nowe scenariusze go rozcieńczają. Do decyzji, czy zostawić, czy dociągnąć przy okazji EN.
-3. **Czy kontrast wtórny C − B ma być wyrównywany** — przechylony w obu językach, poza
-   kryterium 2.
-4. **Świadomość co do kryterium 2:** jedno odwrócenie znaku w EN wyłączy ostrzeżenie, nie
-   zmieniając praktycznie średniej cytowanej w pieczęci.
+**Bramka korpusowa: domknięta.** Trzy kryteria przeszły, cel postawiony w zleceniu — średnie
+przy zerze w obu językach i mieszane znaki we wszystkich kontrastach — osiągnięty realnie,
+nie formalnie.
+
+**Do rozstrzygnięcia przed pieczęcią:** status artefaktów pilota, które opisują teksty
+nieobecne w pieczętowanym korpusie (192 z 208).

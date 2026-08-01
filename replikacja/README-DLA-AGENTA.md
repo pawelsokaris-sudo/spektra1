@@ -75,19 +75,22 @@ instaluj niczego globalnie; nie wyłączaj żadnej kontroli, żeby „przeszło"
 
 ## Jak odesłać wynik
 
-Najprościej, bez żadnych naszych danych dostępowych:
+**ZASADA NADRZĘDNA: nie twórz NICZEGO na koncie operatora.** Żadnych forków,
+repozytoriów, gałęzi, wydań ani innych trwałych śladów na jego profilu — to
+jego zawodowa tożsamość, nie miejsce na artefakty cudzego projektu. Nawet jeśli
+technicznie potrafisz i masz uprawnienia: **nie rób tego.**
 
-1. Zrób fork publicznego repo `pawelsokaris-sudo/spektra1` na konto operatora
-   (albo swoje, jeśli masz uprawnienia `gh`).
-2. Nowa gałąź, np. `kwalifikacja-<nazwa-maszyny>`.
-3. Zacommituj **wyłącznie** `replikacja/RAPORT-KWALIFIKACJA.md` i `.json`.
-4. `gh pr create` z tytułem „Kwalifikacja sprzętu: <chip>, <pamięć>" i treścią
-   = pierwsza sekcja raportu.
+Domyślna droga — plik, zero kont:
 
-Jeśli sieć firmowa blokuje `gh` lub push: spakuj oba pliki raportu do
-`kwalifikacja.zip`, policz jego sumę SHA-256, podaj obie rzeczy operatorowi
-i **poinformuj go jednym zdaniem**, że ma to przekazać zespołowi dowolnym
-kanałem. To jedyny przypadek, gdy dokładasz mu pracy.
+1. Spakuj `replikacja/RAPORT-KWALIFIKACJA.md` i `.json` do `kwalifikacja.zip`.
+2. Policz `sha256` archiwum.
+3. Pokaż operatorowi ścieżkę do pliku i sumę kontrolną, jednym zdaniem: „to jest
+   cały wynik, przekaż zespołowi dowolnym kanałem". Możesz też wkleić treść
+   raportu wprost do rozmowy — ma ~10 KB, to zwykły tekst.
+
+**Nie zakładaj forka ani nie otwieraj pull requesta**, chyba że operator sam
+o to poprosi i sam wskaże, gdzie. Ta droga była w poprzedniej wersji instrukcji
+domyślna — to był błąd zespołu badawczego, nie Twój.
 
 ## Co wychodzi z tej maszyny (dla ewentualnych pytań o bezpieczeństwo)
 

@@ -16,6 +16,7 @@ zespolu. Obie odpowiedzi sa poprawnym wynikiem.
 """
 
 import json
+import os
 import platform
 import sys
 import time
@@ -28,6 +29,11 @@ sys.path.insert(0, str(REPO))
 
 from pipeline.preprocess import mask_tokens, zscore_channels
 from pipeline.spectrum import gram_eigenvalues
+
+# hf-xet wywraca snapshot_download na Apple Silicon (zgloszone z maszyny M5 Max,
+# 2026-08-01): "Unable to parse string as hex hash value". Zwykly HTTPS przechodzi,
+# bajty identyczne (test F to potwierdza). Ustawiane zanim cokolwiek pobierzemy.
+os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 
 MODEL = "google/gemma-3-4b-it"
 REVISION = "093f9f388b31de276ce2de164bdc2081324b9767"
