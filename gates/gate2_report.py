@@ -67,7 +67,7 @@ def render_replica(r):
         elif h4.get("margin_attainable") is False:
             L.append(f"Równoważności **nie da się orzec** przy tej liczności — "
                      f"margines |d_z| < {h4['margin_dz']} jest nieosiągalny "
-                     f"(najmniejszy osiągalny: {h4.get('min_attainable_margin_dz')}). "
+                     f"(najmniejszy osiągalny: {h4.get('min_attainable_margin_dz'):.2f}). "
                      "Patrz ANEKS-4. To NIE znaczy, że efekt jest.")
         else:
             L.append("Równoważności nie wykazano (TOST niezaliczony).")
@@ -93,9 +93,9 @@ def render(results):
          "łączenia w pulę, z osobnym α. Porównanie między nimi jest wyłącznie "
          "opisowe.", "",
          "> **Zakres werdyktów (ANEKS-4, decyzja z 2026-08-01).** Zbiór możliwych "
-         "> werdyktów SPEKTRA-1 to {efekt wykryty, wynik niekonkluzywny}. Werdykt "
-         "> „efekt praktycznie wykluczony" jest przy M = 24 nieosiągalny i został "
-         "> z badania wycofany jawnym aneksem — nie po zobaczeniu wyników.", ""]
+         "werdyktów SPEKTRA-1 to {efekt wykryty, wynik niekonkluzywny}. Werdykt "
+         "„efekt praktycznie wykluczony” jest przy M = 24 nieosiągalny i został "
+         "z badania wycofany jawnym aneksem — nie po zobaczeniu wyników.", ""]
     for r in results["replicas"]:
         L += render_replica(r)
 

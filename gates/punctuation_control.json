@@ -1,0 +1,132 @@
+{
+  "exact_tokenizer": false,
+  "kryterium": "dokladnosc ~przypadkowa (0.5)",
+  "aneks2_A_vs_dialogowe": [
+    {
+      "language": "en",
+      "n_scenarios": 32,
+      "n_texts": 160,
+      "balanced_accuracy": 0.546875,
+      "p_value": 0.004975124378109453,
+      "przeszla": false,
+      "czym_sie_roznia": [
+        {
+          "znak": "-",
+          "klasa_0": 0.2700903810554691,
+          "klasa_1": 0.02339855061112757,
+          "d": 1.9573229401486127
+        },
+        {
+          "znak": ":",
+          "klasa_0": 0.019584507256844748,
+          "klasa_1": 0.003302791331436581,
+          "d": 1.2131251245113444
+        },
+        {
+          "znak": "'",
+          "klasa_0": 0.012046336008369359,
+          "klasa_1": 0.027367998618762157,
+          "d": -0.4191098620381503
+        },
+        {
+          "znak": ".",
+          "klasa_0": 1.0629087702152824,
+          "klasa_1": 1.0420991984195203,
+          "d": 0.3588213610207228
+        },
+        {
+          "znak": "?",
+          "klasa_0": 0.20130755131252615,
+          "klasa_1": 0.19041217926937085,
+          "d": 0.26312793319641997
+        }
+      ],
+      "zakres": "wariant A nie wystepuje w zadnej hipotezie konfirmacyjnej; dotyczy kontrastu opisowego C-A oraz kontroli H4"
+    },
+    {
+      "language": "pl",
+      "n_scenarios": 32,
+      "n_texts": 160,
+      "balanced_accuracy": 0.578125,
+      "p_value": 0.004975124378109453,
+      "przeszla": false,
+      "czym_sie_roznia": [
+        {
+          "znak": ",",
+          "klasa_0": 0.7002527119967408,
+          "klasa_1": 1.10212215693329,
+          "d": -1.5929040665620247
+        },
+        {
+          "znak": "udzial_pytan",
+          "klasa_0": 0.1302455357142857,
+          "klasa_1": 0.11116014693600901,
+          "d": 1.3240633176002832
+        },
+        {
+          "znak": "?",
+          "klasa_0": 0.13821817064519895,
+          "klasa_1": 0.1237490150629861,
+          "d": 1.0998844299364887
+        },
+        {
+          "znak": ".",
+          "klasa_0": 0.9298142263007394,
+          "klasa_1": 0.9923955261235582,
+          "d": -0.845796485505464
+        },
+        {
+          "znak": "-",
+          "klasa_0": 0.0023633421463067116,
+          "klasa_1": 0.0,
+          "d": 0.5586703475855856
+        }
+      ],
+      "zakres": "wariant A nie wystepuje w zadnej hipotezie konfirmacyjnej; dotyczy kontrastu opisowego C-A oraz kontroli H4"
+    }
+  ],
+  "kontrasty_konfirmacyjne": [
+    {
+      "language": "en",
+      "kontrast": "C-CprimG",
+      "balanced_accuracy": 0.515625,
+      "p_value": 0.2537313432835821,
+      "przeszla": true
+    },
+    {
+      "language": "en",
+      "kontrast": "C-B",
+      "balanced_accuracy": 0.515625,
+      "p_value": 0.22388059701492538,
+      "przeszla": true
+    },
+    {
+      "language": "en",
+      "kontrast": "CprimG-CprimU",
+      "balanced_accuracy": 0.5,
+      "p_value": 0.7860696517412935,
+      "przeszla": true
+    },
+    {
+      "language": "pl",
+      "kontrast": "C-CprimG",
+      "balanced_accuracy": 0.5,
+      "p_value": 0.9154228855721394,
+      "przeszla": true
+    },
+    {
+      "language": "pl",
+      "kontrast": "C-B",
+      "balanced_accuracy": 0.5,
+      "p_value": 0.7860696517412935,
+      "przeszla": true
+    },
+    {
+      "language": "pl",
+      "kontrast": "CprimG-CprimU",
+      "balanced_accuracy": 0.46875,
+      "p_value": 1.0,
+      "przeszla": true
+    }
+  ]
+}

@@ -75,6 +75,26 @@ def load_lambda_star(measurements_dir):
             for r in t.itertuples()}
 
 
+def load_spectra(measurements_dir):
+    """Widma z jednego pliku albo z plikow per jezyk (zlecenie DEP-07 dzieli
+    je na spectra-en/spectra-pl, bo caly plik przekracza limit 100 MB)."""
+    d = Path(measurements_dir)
+    whole = d / "spectra.parquet"
+    if whole.exists():
+        return pd.read_parquet(whole)
+    parts = sorted(d.glob("spectra-*.parquet"))
+    if not parts:
+        raise FileNotFoundError(
+            f"brak widm w {d}: ani spectra.parquet, ani spectra-<jezyk>.parquet")
+    df = pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
+    langs = sorted(df.language.unique())
+    if len(langs) != len(parts):
+        raise ValueError(
+            f"sklejono {len(parts)} plikow, a jezykow jest {len(langs)} ({langs}) "
+            "- prawdopodobnie brakuje pliku albo ktorys zawiera obie repliki")
+    return df
+
+
 def check_coverage(spectra, lam, band):
     """Kazdy tekst x warstwa pasma musi miec swoj prog. Braki = STOP."""
     need = spectra[spectra.hidden_state_index.isin(band)]
@@ -191,11 +211,12 @@ def run_replica(df, spectra, lam, band, lang, seed=20260801):
                     # Zobowiazanie raportowe 1 z ANEKS-4 - zdanie ma wyjsc w raporcie
                     # zawsze, a nie zaleznie od tego, kto go pisze.
                     step["zastrzezenie_obowiazkowe"] = (
-                        f"Przy M = {tost['n_scenarios']} margines rownowaznosci "
-                        f"|d_z| < {tost['margin_dz']} jest NIEOSIAGALNY (najmniejszy "
-                        f"osiagalny: {mam}). Nie odroznilibysmy braku efektu od zbyt "
-                        "malej czulosci badania. NIE wolno raportowac tego jako "
-                        "'efektu nie ma' ani 'nie wykazano rownowaznosci'. Patrz ANEKS-4."
+                        f"Przy M = {tost['n_scenarios']} margines równoważności "
+                        f"|d_z| < {tost['margin_dz']} jest NIEOSIĄGALNY (najmniejszy "
+                        f"osiągalny: {mam:.2f}). Nie odróżnilibyśmy braku efektu od "
+                        "zbyt małej czułości badania. NIE wolno raportować tego jako "
+                        "„efektu nie ma” ani „nie wykazano równoważności”. "
+                        "Patrz ANEKS-4."
                     )
             out["stopped_at"] = name
             gate_open = False
@@ -227,8 +248,8 @@ def run_replica(df, spectra, lam, band, lang, seed=20260801):
                  **t4}
     if not t4["margin_attainable"]:
         out["H4"]["zastrzezenie_obowiazkowe"] = (
-            "H4 nie moze zostac potwierdzona przy tej licznosci (margines "
-            "nieosiagalny) - raportowana WYLACZNIE opisowo. Patrz ANEKS-4.")
+            "H4 nie może zostać potwierdzona przy tej liczności (margines "
+            "nieosiągalny) — raportowana WYŁĄCZNIE opisowo. Patrz ANEKS-4.")
 
     out["profil_warstwowy"] = layer_profile_cluster(
         spectra, lam, band, lang, "C", "CprimG", rng=rng)
@@ -245,7 +266,7 @@ def main():
     mdir = Path(args.measurements)
     band, _ = load_band(mdir)
     lam = load_lambda_star(mdir)
-    spectra = pd.read_parquet(mdir / "spectra.parquet")
+    spectra = load_spectra(mdir)
 
     missing = check_coverage(spectra, lam, band)
     if missing:
