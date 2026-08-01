@@ -1,0 +1,405 @@
+{
+  "alpha": 0.01,
+  "n_permutations": 10000,
+  "ci_level": 0.99,
+  "band_hidden_state_index": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "replicas": [
+    {
+      "language": "en",
+      "steps": [
+        {
+          "step": "H1",
+          "contrast": "C-CprimG",
+          "opis": "GLOWNA - sygnatura samozwrotnosci wzgl. odniesienia osadzonego",
+          "confirmatory": true,
+          "passed": false,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 1.0,
+          "mean": -0.005780238393535558,
+          "d_z": -2.650438216760939,
+          "sd": 0.0021808613975539117,
+          "ci": [
+            -0.0069043987840473045,
+            -0.004725977109116102
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "tost": {
+            "min_attainable_margin_dz": 0.35000000000000003,
+            "equivalent": false,
+            "p_lower": 1.0,
+            "p_upper": 9.999000099990002e-05,
+            "p_tost": 1.0,
+            "margin_dz": 0.3,
+            "margin_raw": 0.0006542584192661735,
+            "alpha_per_side": 0.05,
+            "observed_mean": -0.005780238393535558,
+            "observed_d_z": -2.650438216760939,
+            "n_scenarios": 24,
+            "margin_attainable": false
+          },
+          "verdict": "niekonkluzywny",
+          "zastrzezenie_obowiazkowe": "Przy M = 24 margines równoważności |d_z| < 0.3 jest NIEOSIĄGALNY (najmniejszy osiągalny: 0.35). Nie odróżnilibyśmy braku efektu od zbyt małej czułości badania. NIE wolno raportować tego jako „efektu nie ma” ani „nie wykazano równoważności”. Patrz ANEKS-4."
+        },
+        {
+          "step": "H2",
+          "contrast": "CprimG-CprimU",
+          "opis": "diagnostyczna - wklad samego osadzenia referencyjnego",
+          "confirmatory": false,
+          "passed": true,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 9.999000099990002e-05,
+          "mean": 0.004030026775993466,
+          "d_z": 1.7981328501842984,
+          "sd": 0.002241228603092597,
+          "ci": [
+            0.002926036677363034,
+            0.00518715589388917
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "verdict": "OPISOWY (poza hierarchia - lancuch zatrzymany wyzej)"
+        },
+        {
+          "step": "H3",
+          "contrast": "C-B",
+          "opis": "wtorna - insercja meta wzgl. insercji neutralnej",
+          "confirmatory": false,
+          "passed": false,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 1.0,
+          "mean": -0.004240720631648404,
+          "d_z": -2.5470484446648407,
+          "sd": 0.0016649548384253165,
+          "ci": [
+            -0.005089854336221663,
+            -0.003403620019127521
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "verdict": "OPISOWY (poza hierarchia - lancuch zatrzymany wyzej)"
+        },
+        {
+          "step": "C-A",
+          "contrast": "C-A",
+          "opis": "kontrast opisowy szerokich klas dyskursu",
+          "confirmatory": false,
+          "n_scenarios": 24,
+          "passed": false,
+          "p_value": 1.0,
+          "mean": -0.056389975153501616,
+          "d_z": -6.260103165920113,
+          "sd": 0.009007834800628783,
+          "ci": [
+            -0.06096676242278498,
+            -0.051712735369907954
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05
+        },
+        {
+          "step": "B-A",
+          "contrast": "B-A",
+          "opis": "kontrast kontrolny insercji neutralnej",
+          "confirmatory": false,
+          "n_scenarios": 24,
+          "passed": false,
+          "p_value": 1.0,
+          "mean": -0.052149254521853206,
+          "d_z": -5.8183369032958305,
+          "sd": 0.008962914212188875,
+          "ci": [
+            -0.0565825770672137,
+            -0.04752682908608002
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05
+        }
+      ],
+      "stopped_at": "H1",
+      "H4": {
+        "contrast": "B-A (lambda1/tr)",
+        "confirmatory": false,
+        "opis_efektu": {
+          "mean": -0.004182265700355629,
+          "d_z": -1.3362417836040894,
+          "ci": [
+            -0.0058281277246156485,
+            -0.0025981094146204997
+          ],
+          "ci_level": 0.99
+        },
+        "min_attainable_margin_dz": 0.35000000000000003,
+        "equivalent": false,
+        "p_lower": 1.0,
+        "p_upper": 9.999000099990002e-05,
+        "p_tost": 1.0,
+        "margin_dz": 0.3,
+        "margin_raw": 0.0009389615902614473,
+        "alpha_per_side": 0.05,
+        "observed_mean": -0.004182265700355629,
+        "observed_d_z": -1.3362417836040894,
+        "n_scenarios": 24,
+        "margin_attainable": false,
+        "zastrzezenie_obowiazkowe": "H4 nie może zostać potwierdzona przy tej liczności (margines nieosiągalny) — raportowana WYŁĄCZNIE opisowo. Patrz ANEKS-4."
+      },
+      "profil_warstwowy": {
+        "cluster_mass": 0.0,
+        "p_value": 1.0,
+        "n_scenarios": 24,
+        "layers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "t_per_layer": [
+          -6.580851826151964,
+          -6.1735838170202735,
+          -5.777722715512864,
+          -5.940084202945936,
+          -5.495967324591789,
+          -4.992422767634174,
+          -5.84043069420728,
+          -5.817020837520259,
+          -7.07651582553927,
+          -9.321355253911461,
+          -9.438536548021222,
+          -8.581630775915416,
+          -8.492078051667358,
+          -11.250108603173883
+        ]
+      },
+      "profil_warstwowy_confirmatory": false
+    },
+    {
+      "language": "pl",
+      "steps": [
+        {
+          "step": "H1",
+          "contrast": "C-CprimG",
+          "opis": "GLOWNA - sygnatura samozwrotnosci wzgl. odniesienia osadzonego",
+          "confirmatory": true,
+          "passed": false,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 1.0,
+          "mean": -0.0036276498652526787,
+          "d_z": -1.4938176420394962,
+          "sd": 0.0024284422429901686,
+          "ci": [
+            -0.004895651792200866,
+            -0.002447082147583585
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "tost": {
+            "min_attainable_margin_dz": 0.35000000000000003,
+            "equivalent": false,
+            "p_lower": 1.0,
+            "p_upper": 9.999000099990002e-05,
+            "p_tost": 1.0,
+            "margin_dz": 0.3,
+            "margin_raw": 0.0007285326728970505,
+            "alpha_per_side": 0.05,
+            "observed_mean": -0.0036276498652526787,
+            "observed_d_z": -1.4938176420394962,
+            "n_scenarios": 24,
+            "margin_attainable": false
+          },
+          "verdict": "niekonkluzywny",
+          "zastrzezenie_obowiazkowe": "Przy M = 24 margines równoważności |d_z| < 0.3 jest NIEOSIĄGALNY (najmniejszy osiągalny: 0.35). Nie odróżnilibyśmy braku efektu od zbyt małej czułości badania. NIE wolno raportować tego jako „efektu nie ma” ani „nie wykazano równoważności”. Patrz ANEKS-4."
+        },
+        {
+          "step": "H2",
+          "contrast": "CprimG-CprimU",
+          "opis": "diagnostyczna - wklad samego osadzenia referencyjnego",
+          "confirmatory": false,
+          "passed": false,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 0.13788621137886212,
+          "mean": 0.0004908611243686634,
+          "d_z": 0.2285446666125608,
+          "sd": 0.002147768887561893,
+          "ci": [
+            -0.0006218058998355182,
+            0.001627031167381232
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "verdict": "OPISOWY (poza hierarchia - lancuch zatrzymany wyzej)"
+        },
+        {
+          "step": "H3",
+          "contrast": "C-B",
+          "opis": "wtorna - insercja meta wzgl. insercji neutralnej",
+          "confirmatory": false,
+          "passed": false,
+          "alpha": 0.01,
+          "n_scenarios": 24,
+          "p_value": 1.0,
+          "mean": -0.0023944027091724516,
+          "d_z": -1.0019365329457874,
+          "sd": 0.00238977483147828,
+          "ci": [
+            -0.003697280389638234,
+            -0.0012157756299337585
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05,
+          "verdict": "OPISOWY (poza hierarchia - lancuch zatrzymany wyzej)"
+        },
+        {
+          "step": "C-A",
+          "contrast": "C-A",
+          "opis": "kontrast opisowy szerokich klas dyskursu",
+          "confirmatory": false,
+          "n_scenarios": 24,
+          "passed": false,
+          "p_value": 1.0,
+          "mean": -0.04552811396595918,
+          "d_z": -3.4157244235068083,
+          "sd": 0.013328977493804085,
+          "ci": [
+            -0.05247212232371585,
+            -0.038998377204479295
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05
+        },
+        {
+          "step": "B-A",
+          "contrast": "B-A",
+          "opis": "kontrast kontrolny insercji neutralnej",
+          "confirmatory": false,
+          "n_scenarios": 24,
+          "passed": false,
+          "p_value": 1.0,
+          "mean": -0.04313371125678673,
+          "d_z": -2.9693121403552745,
+          "sd": 0.014526499477965235,
+          "ci": [
+            -0.05052967698021212,
+            -0.035594522765144056
+          ],
+          "ci_level": 0.99,
+          "exact": false,
+          "n_permutations": 10000,
+          "min_attainable_p": 9.999000099990002e-05
+        }
+      ],
+      "stopped_at": "H1",
+      "H4": {
+        "contrast": "B-A (lambda1/tr)",
+        "confirmatory": false,
+        "opis_efektu": {
+          "mean": -0.007111182293854826,
+          "d_z": -2.4038541783809593,
+          "ci": [
+            -0.008640981253131496,
+            -0.005583937848572934
+          ],
+          "ci_level": 0.99
+        },
+        "min_attainable_margin_dz": 0.35000000000000003,
+        "equivalent": false,
+        "p_lower": 1.0,
+        "p_upper": 9.999000099990002e-05,
+        "p_tost": 1.0,
+        "margin_dz": 0.3,
+        "margin_raw": 0.0008874725877063399,
+        "alpha_per_side": 0.05,
+        "observed_mean": -0.007111182293854826,
+        "observed_d_z": -2.4038541783809593,
+        "n_scenarios": 24,
+        "margin_attainable": false,
+        "zastrzezenie_obowiazkowe": "H4 nie może zostać potwierdzona przy tej liczności (margines nieosiągalny) — raportowana WYŁĄCZNIE opisowo. Patrz ANEKS-4."
+      },
+      "profil_warstwowy": {
+        "cluster_mass": 0.0,
+        "p_value": 1.0,
+        "n_scenarios": 24,
+        "layers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "t_per_layer": [
+          -5.373744642548633,
+          -3.951971756509854,
+          -2.4552889921868024,
+          -2.7139234874979814,
+          -5.288569806795836,
+          -2.8764299468153527,
+          -5.393068010194241,
+          -3.6971052486371505,
+          -5.793789802355818,
+          -5.481048254951481,
+          -4.9514955250368695,
+          -5.448574449995959,
+          -4.360221164310137,
+          -4.451381369226654
+        ]
+      },
+      "profil_warstwowy_confirmatory": false
+    }
+  ]
+}

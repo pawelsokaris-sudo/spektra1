@@ -17,3 +17,8 @@ __pycache__/
 # GitHuba 100 MB na plik - wtedy LFS albo release assets, nie usuwanie wyjatku.
 !measurements/*.parquet
 !measurements/positional_mu.npz
+# 2026-08-01: ta sama pulapka zadzialala DRUGI RAZ - regula katalogowa objela
+# measurements/, ale pomiar glowny leży w measurements-glowny/ i wpadl z powrotem
+# w *.parquet. Wykryte przy commitowaniu wynikow GATE 2, nie przez procedure.
+# Wniosek: przy KAZDYM nowym katalogu wynikowym dopisac wyjatek w tej samej chwili.
+!measurements-glowny/*.parquet
