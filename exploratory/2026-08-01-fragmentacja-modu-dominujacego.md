@@ -60,3 +60,58 @@ Wariant A ma najwyższe I_total i najniższe H_s, co ładnie pasuje do odczytani
 interpunkcyjna wykazała, że odróżnia się od wariantów dialogowych samym stylem
 zapisu (55% EN, 58% PL przy przypadku 50%). Jego wartości nie mogą być
 argumentem za niczym.
+
+---
+
+# Dopisek: dwie rzeczy sprawdzone na prośbę rozmowy źródłowej
+
+## 1. Czy k jest hałaśliwe? TAK, i to rozstrzygająco
+
+W pasie 5% nad progiem λ\* siedzi **średnio 3,68 modu na warstwę** (mediana 4,
+maksimum 8). Obserwowana różnica k między C i C′-G to **0,16–0,24**.
+
+Czyli: przesunięcie progu o 5% zmienia k o rząd wielkości bardziej niż wynosi
+mierzony efekt. **Sygnatura (b) nie jest „mniej wiarygodna" — jest
+nieinformatywna.** Nie świadczy ani za hipotezą, ani przeciw niej, w żadnym
+z języków. Rozjazd EN/PL na k nie wymaga wyjaśnienia, bo nie jest zjawiskiem.
+
+## 2. Czy dysocjacja λ₁/tr wobec I₋₁ jest obecna w danych?
+
+Test: parowany bootstrap różnicy |d_z(λ₁/tr)| − |d_z(I₋₁)|, 10 000 losowań
+po scenariuszach, CI 99%.
+
+| Replika | d_z(λ₁/tr) | d_z(I₋₁) | d_z(I_total) | Różnica | CI 99% | Wynik |
+|---|---:|---:|---:|---:|---|---|
+| EN | −0,704 | −2,574 | −2,650 | **−1,870** | [−3,658; −0,662] | **dysocjacja obecna** |
+| PL | −1,478 | −1,307 | −1,494 | +0,171 | [−0,509; +0,953] | brak rozstrzygnięcia |
+
+**W angielskim dysocjacja jest wyraźna i przedział wyklucza zero.** Mod czołowy
+uczestniczy w efekcie znacznie słabiej niż reszta widma — dokładnie tak, jak
+przewiduje obraz rozproszenia, a wbrew obrazowi pęknięcia.
+
+**W polskim jej nie ma** — oba efekty są tej samej siły, różnica nieodróżnialna
+od zera i z przeciwnym znakiem. To jest **ten sam rozjazd między replikami**,
+który już zaklasyfikował wynik główny jako niestabilny.
+
+## Konsekwencja dla prerejestracji 1b — ostrzeżenie z ANEKSU 4
+
+Zanim ten test zostanie zamrożony, trzeba **policzyć, jaką różnicę da się przy
+planowanym M w ogóle wykryć.** Przy M = 24 przedział ufności miał tu połowę
+szerokości około **1,5 jednostki d_z**. Czyli:
+
+- dysocjacja rzędu obserwowanej w EN (1,87) — wykrywalna;
+- dysocjacja umiarkowana, rzędu 0,5 — **niewykrywalna**; potrzeba około
+  **9× więcej scenariuszy** (M ≈ 216 na język), bo przedział zwęża się jak
+  pierwiastek z liczności.
+
+To jest **dokładnie ta sama pułapka co margines równoważności z ANEKSU 4**:
+kryterium zamrożone bez sprawdzenia, czy istnieją dane, które je spełnią.
+Drugi raz w tym projekcie nie powinien się zdarzyć.
+
+## Uwaga do porządku endpointów
+
+Zgoda, że H_s nie może stać obok I_total. Ale **I₋₁ też nie może** — z tego
+samego powodu, bo to znowu funkcja tego samego widma. Endpointem dysocjacyjnym
+musi być **różnica efektów** (λ₁/tr wobec I₋₁), nie I₋₁ samo w sobie.
+Sformułowanie z rozmowy źródłowej już to robi poprawnie; zapisuję to wprost,
+żeby przy redakcji nikt tego nie uprościł.
