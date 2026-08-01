@@ -97,3 +97,42 @@ def test_metrics_subtract_the_positional_component():
     without = metrics_for_layer(base, np.zeros_like(base), lambda_star=1.5,
                                 d_lag_permutations=20, rng=np.random.default_rng(4))
     assert with_pos["I_total"] == pytest.approx(without["I_total"], abs=1e-9)
+
+
+# --- GATE 3: przelaczniki odpornosci -------------------------------------
+# Rzecz najwazniejsza w tych testach: DOMYSLNE zachowanie ma zostac
+# nietkniete. Bieg glowny zostal juz policzony i zapieczetowany; gdyby
+# dorobienie flag zmienilo sciezke domyslna, GATE 3 porownywalby swoj wynik
+# z pomiarem, ktorego juz nie da sie odtworzyc.
+
+def test_plan_texts_domyslnie_bez_zmian():
+    from pipeline.runner import plan_texts
+    from corpus.build import VARIANTS
+    sc = [{"scenario_id": "pl-01-x", "language": "pl"}]
+    plan = plan_texts(sc, include_nulls=False)
+    assert [p["variant"] for p in plan] == list(VARIANTS)
+
+
+def test_plan_texts_ogranicza_sie_do_podanych_wariantow():
+    from pipeline.runner import plan_texts
+    sc = [{"scenario_id": "pl-01-x", "language": "pl"}]
+    plan = plan_texts(sc, include_nulls=False, variants=["C", "CprimG"])
+    assert [p["variant"] for p in plan] == ["C", "CprimG"]
+
+
+def test_podzbior_wariantow_nie_wciaga_nulli_spoza_podzbioru():
+    """Nulle liczone sa dla wariantow dialogowych - przy podzbiorze musza sie
+    ograniczyc do niego, inaczej bieg kontrolny policzylby teksty, ktorych
+    nie zamawialismy."""
+    from pipeline.runner import plan_texts
+    sc = [{"scenario_id": "pl-01-x", "language": "pl"}]
+    plan = plan_texts(sc, include_nulls=True, variants=["C"])
+    assert {p["variant"] for p in plan} == {"C"}
+    assert {p["null"] for p in plan} == {None, "N1", "N2"}
+
+
+def test_pelny_plan_ma_13_tekstow_na_scenariusz():
+    """5 wariantow + 4 dialogowe x 2 nulle = 13. Kotwica na rozmiar biegu."""
+    from pipeline.runner import plan_texts
+    sc = [{"scenario_id": "pl-01-x", "language": "pl"}]
+    assert len(plan_texts(sc, include_nulls=True)) == 13

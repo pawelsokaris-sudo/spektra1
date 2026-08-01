@@ -47,15 +47,16 @@ OUT_DIR = REPO / "measurements"
 NULL_VARIANTS = ["B", "C", "CprimG", "CprimU"]   # A nie ma insercji, nulle go nie dotycza
 
 
-def plan_texts(scenarios, include_nulls=True):
+def plan_texts(scenarios, include_nulls=True, variants=None):
     """Lista tekstow do zmierzenia: (scenariusz, wariant, null)."""
+    variants = list(variants) if variants else VARIANTS
     plan = []
     for sc in scenarios:
-        for v in VARIANTS:
+        for v in variants:
             plan.append({"scenario_id": sc["scenario_id"], "language": sc["language"],
                          "variant": v, "null": None})
         if include_nulls:
-            for v in NULL_VARIANTS:
+            for v in [x for x in NULL_VARIANTS if x in variants]:
                 for null in ("N1", "N2"):
                     plan.append({"scenario_id": sc["scenario_id"],
                                  "language": sc["language"],
@@ -172,7 +173,29 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nulls", action="store_true", help="policz takze nulle N1 i N2")
     ap.add_argument("--limit", type=int, default=None, help="tylko N pierwszych scenariuszy")
+    # --- przelaczniki GATE 3 (odpornosc, protokol par. 7). Domyslne wartosci
+    # odtwarzaja sciezke pomiaru glownego CO DO ZACHOWANIA - zadna z tych opcji
+    # nie zmienia biegu uruchomionego bez flag.
+    ap.add_argument("--dtype", choices=("bf16", "fp32"), default="bf16",
+                    help="GATE 3a: precyzja forwardu (kontrola bf16 vs fp32)")
+    ap.add_argument("--no-positional", action="store_true",
+                    help="GATE 3b: NIE odejmuj komponentu pozycyjnego")
+    ap.add_argument("--variants", default=None,
+                    help="GATE 3: podzbior wariantow po przecinku, np. C,CprimG. "
+                         "WYMAGA gotowego windows.json (patrz nizej)")
+    ap.add_argument("--out", default=None,
+                    help="katalog wynikowy (domyslnie measurements/)")
     args = ap.parse_args()
+
+    global OUT_DIR
+    if args.out:
+        OUT_DIR = Path(args.out)
+    variants = [v.strip() for v in args.variants.split(",")] if args.variants else None
+    if variants:
+        unknown = [v for v in variants if v not in VARIANTS]
+        if unknown:
+            print(f"[runner] STOP: nieznane warianty {unknown}; dozwolone {VARIANTS}")
+            return 1
 
     cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
     if str(cfg["measurement"]["token_window_mode"]).startswith("TBD"):
@@ -186,7 +209,9 @@ def main():
     print(f"[runner] {name} @ {rev[:12]}", flush=True)
     tok = AutoTokenizer.from_pretrained(name, revision=rev)
     model = AutoModelForCausalLM.from_pretrained(name, revision=rev,
-                                                 dtype=torch.bfloat16, device_map="cuda:0")
+                                                 dtype=(torch.float32 if args.dtype == "fp32"
+                                                        else torch.bfloat16),
+                                                 device_map="cuda:0")
     model.eval()
 
     tc = TokenCounter.load()
@@ -206,6 +231,17 @@ def main():
     mu_file = OUT_DIR / "positional_mu.npz"
     win_file = OUT_DIR / "windows.json"
     OUT_DIR.mkdir(exist_ok=True)
+    # ZABEZPIECZENIE GATE 3: okno pomiarowe to minimum po WSZYSTKICH wariantach,
+    # a komponent pozycyjny liczy sie ze wszystkich. Bieg ograniczony do podzbioru
+    # wariantow policzylby INNE okno i INNE mu, czyli porownywalby dwa rozne
+    # pomiary zamiast izolowac badana zmiane. Dlatego podzbior jest dozwolony
+    # WYLACZNIE na gotowych plikach z biegu pelnego (skopiowac do --out).
+    if (variants or args.no_positional) and not (mu_file.exists() and win_file.exists()):
+        print(f"[runner] STOP: bieg kontrolny GATE 3 wymaga windows.json ORAZ "
+              f"positional_mu.npz z biegu glownego w {OUT_DIR}. Inaczej okno i "
+              f"komponent pozycyjny policzylyby sie od nowa z podzbioru i wynik "
+              f"nie bylby porownywalny z pomiarem glownym.")
+        return 1
     if mu_file.exists() and win_file.exists():
         data = np.load(mu_file, allow_pickle=False)
         langs = sorted({k.split("|")[0] for k in data.files})
@@ -265,7 +301,12 @@ def main():
         print(f"[runner] wznowienie: {len(done)} tekstow juz policzonych", flush=True)
 
     band_lo, band_hi = cfg["measurement"]["layer_indexing"]["band_block_indices"]
-    plan = plan_texts(scenarios, include_nulls=args.nulls)
+    plan = plan_texts(scenarios, include_nulls=args.nulls, variants=variants)
+    if args.no_positional:
+        print("[runner] GATE 3b: komponent pozycyjny NIE jest odejmowany", flush=True)
+    if args.dtype == "fp32":
+        print("[runner] GATE 3a: forward w fp32 (przelewa sie do RAM - zgodnie "
+              "z protokolem kontrola zostaje na TYM SAMYM urzadzeniu)", flush=True)
     for item in plan:
         key = (item["scenario_id"], item["variant"], item["null"])
         if key in done:
@@ -281,7 +322,9 @@ def main():
             arr = arr[:n]
             block = keep[li] - 1
             in_band = band_lo <= block <= band_hi
-            m = metrics_for_layer(arr, mu[lang][li][:n], lambda_star=float("inf"),
+            mu_li = (np.zeros_like(mu[lang][li][:n]) if args.no_positional
+                     else mu[lang][li][:n])
+            m = metrics_for_layer(arr, mu_li, lambda_star=float("inf"),
                                   d_lag_permutations=cfg["analysis"]["d_lag_permutations"],
                                   rng=np.random.default_rng([seed, li]),
                                   compute_d_lag=in_band)
