@@ -5,11 +5,10 @@ jeśli już je wykonałeś, po prostu dopisz to niżej.
 
 ## 1. Gdzie mają trafić pliki
 
-Na laptopa kierownika badania, do:
-
-```
-C:\Users\pawel\projects\spektra1\measurements-glowny\
-```
+Na laptopa kierownika badania, do katalogu **`measurements-glowny\`** wewnątrz
+katalogu repozytorium (dokładna ścieżka przekazana przy zleceniu — dokumenty
+operacyjne nie zawierają nazw kont, żeby anonimizacja nie psuła instrukcji;
+patrz ANEKS-3).
 
 Nazwy plików **bez zmian** (`spectra-en.parquet`, `spectra-pl.parquet`,
 `t5_lambda_star.parquet`, `t5_phi.json`). Analiza szuka ich dokładnie tam
