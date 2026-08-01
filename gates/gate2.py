@@ -177,9 +177,26 @@ def run_replica(df, spectra, lam, band, lang, seed=20260801):
                 "alpha": ALPHA, "n_scenarios": len(scen), **res}
         if gate_open and not passed:
             # Werdykt "praktycznie wykluczony" wymaga zaliczonego TOST (ANEKS-2).
-            step["tost"] = paired_tost_equivalence(diffs, rng=rng)
-            step["verdict"] = ("efekt praktycznie wykluczony"
-                               if step["tost"]["equivalent"] else "niekonkluzywny")
+            # ANEKS-4 (decyzja kierownika badania, opcja A, 2026-08-01): margines
+            # zostaje niezmieniony mimo ustalonej nieosiagalnosci przy M = 24.
+            tost = paired_tost_equivalence(diffs, rng=rng)
+            mam = tost.get("min_attainable_margin_dz")
+            tost["margin_attainable"] = bool(mam is not None and mam <= tost["margin_dz"])
+            step["tost"] = tost
+            if tost["equivalent"]:
+                step["verdict"] = "efekt praktycznie wykluczony"
+            else:
+                step["verdict"] = "niekonkluzywny"
+                if not tost["margin_attainable"]:
+                    # Zobowiazanie raportowe 1 z ANEKS-4 - zdanie ma wyjsc w raporcie
+                    # zawsze, a nie zaleznie od tego, kto go pisze.
+                    step["zastrzezenie_obowiazkowe"] = (
+                        f"Przy M = {tost['n_scenarios']} margines rownowaznosci "
+                        f"|d_z| < {tost['margin_dz']} jest NIEOSIAGALNY (najmniejszy "
+                        f"osiagalny: {mam}). Nie odroznilibysmy braku efektu od zbyt "
+                        "malej czulosci badania. NIE wolno raportowac tego jako "
+                        "'efektu nie ma' ani 'nie wykazano rownowaznosci'. Patrz ANEKS-4."
+                    )
             out["stopped_at"] = name
             gate_open = False
         elif gate_open:
@@ -197,9 +214,21 @@ def run_replica(df, spectra, lam, band, lang, seed=20260801):
                              "passed": bool(res["p_value"] < ALPHA), **res})
 
     # H4: rownowaznosc B-A na udziale modu glownego lambda1/tr.
+    # ANEKS-4 zobowiazanie 2: przy M = 24 H4 nie moze zostac POTWIERDZONA -
+    # raportujemy wielkosc efektu i CI opisowo, bez orzeczenia o rownowaznosci.
     d4, _ = paired_diffs(df, lang, "B", "A", column="lambda1_share")
+    t4 = paired_tost_equivalence(d4, rng=rng)
+    mam4 = t4.get("min_attainable_margin_dz")
+    t4["margin_attainable"] = bool(mam4 is not None and mam4 <= t4["margin_dz"])
+    opis4 = paired_permutation_test(d4, n_permutations=N_PERM, ci_level=CI_LEVEL, rng=rng)
     out["H4"] = {"contrast": "B-A (lambda1/tr)", "confirmatory": gate_open,
-                 **paired_tost_equivalence(d4, rng=rng)}
+                 "opis_efektu": {"mean": opis4["mean"], "d_z": opis4["d_z"],
+                                 "ci": opis4["ci"], "ci_level": CI_LEVEL},
+                 **t4}
+    if not t4["margin_attainable"]:
+        out["H4"]["zastrzezenie_obowiazkowe"] = (
+            "H4 nie moze zostac potwierdzona przy tej licznosci (margines "
+            "nieosiagalny) - raportowana WYLACZNIE opisowo. Patrz ANEKS-4.")
 
     out["profil_warstwowy"] = layer_profile_cluster(
         spectra, lam, band, lang, "C", "CprimG", rng=rng)

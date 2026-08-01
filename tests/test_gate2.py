@@ -217,3 +217,18 @@ def test_gate2_odmawia_startu_bez_t5(tmp_path):
     from gates.gate2 import load_lambda_star
     with pytest.raises(FileNotFoundError, match="T5"):
         load_lambda_star(tmp_path)
+
+
+def test_aneks4_wymusza_zastrzezenie_gdy_margines_nieosiagalny():
+    """ANEKS-4 opcja A: raport nie moze wyjsc bez zdania o nieosiagalnym marginesie."""
+    s = make_spectra(effect=0.0, n_scen=24)
+    lam = make_lambda(s)
+    df = per_text_endpoints(s, lam, BAND)
+    res = run_replica(df, s, lam, BAND, "pl")
+    h1 = res["steps"][0]
+    assert h1["verdict"] == "niekonkluzywny"
+    assert h1["tost"]["margin_attainable"] is False
+    assert "NIEOSIAGALNY" in h1["zastrzezenie_obowiazkowe"]
+    assert "ANEKS-4" in res["H4"]["zastrzezenie_obowiazkowe"]
+    # H4 mimo braku orzeczenia musi podac wielkosc efektu i przedzial
+    assert res["H4"]["opis_efektu"]["ci"] is not None
