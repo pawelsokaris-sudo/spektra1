@@ -15,12 +15,12 @@ plus pobranie 8 GB modelu.
 Wklej to swojemu Claude Code i zatwierdzaj, o co poprosi:
 
 > Sklonuj https://github.com/pawelsokaris-sudo/spektra1 i przeczytaj plik
-> `replikacja/README-DLA-AGENTA.md`. Pokaż mi też
-> `replikacja/DLA-WLASCICIELA-MASZYNY.md` — chcę wiedzieć, co się będzie liczyć. To instrukcja napisana dla Ciebie —
-> wykonaj kwalifikację sprzętu według niej, samodzielnie rozstrzygając
-> wszystko, co jest w Twoim zakresie. Angażuj mnie wyłącznie tam, gdzie
-> instrukcja to wyraźnie przewiduje. Na końcu odeślij wynik tak, jak
-> opisuje sekcja o odsyłaniu.
+> `replikacja/README-DLA-AGENTA.md` — to instrukcja napisana dla Ciebie.
+> Najpierw pokaż mi `replikacja/DLA-WLASCICIELA-MASZYNY.md`, bo chcę wiedzieć,
+> co będzie się liczyć na moim komputerze. Potem wykonaj kwalifikację sprzętu
+> według instrukcji, samodzielnie rozstrzygając wszystko, co jest w Twoim
+> zakresie. Angażuj mnie wyłącznie tam, gdzie instrukcja to wyraźnie
+> przewiduje. Na końcu odeślij wynik tak, jak opisuje sekcja o odsyłaniu.
 
 Twój Claude może poprosić Cię o dwie rzeczy: zgodę na zajęcie ~10 GB dysku
 oraz — jeśli tak wyjdzie — o jedno kliknięcie akceptacji licencji modelu
