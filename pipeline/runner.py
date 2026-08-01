@@ -150,7 +150,7 @@ def variant_turns(built, variant, null, seed):
     return turns
 
 
-def forward_masked(model, tok, turns, cfg, device="cuda:0"):
+def forward_masked(model, tok, turns, cfg, device="cuda:0", context="bf16"):
     """Forward + maskowanie; zwraca liste (T', D) per warstwa oraz szczyt pamieci."""
     import torch
 
@@ -169,7 +169,11 @@ def forward_masked(model, tok, turns, cfg, device="cuda:0"):
     with torch.no_grad():
         out = model(**enc, output_hidden_states=True)
     peak = torch.cuda.max_memory_allocated()
-    check_peak_memory(peak, cfg["compute"]["memory_guard_limit_gb"], "bf16",
+    # context decyduje, KTORY prog obowiazuje. Bramka od poczatku miala osobny,
+    # wyzszy prog dla kontroli fp32 (protokol par. 2: kontrola zostaje na GPU mimo
+    # przelewania do RAM), ale przelacznik --dtype nie byl do niej podlaczony -
+    # bieg fp32 sprawdzal sie progiem dla bf16 i zatrzymywal sie bez powodu.
+    check_peak_memory(peak, cfg["compute"]["memory_guard_limit_gb"], context,
                       cfg["compute"]["fp32_control_limit_gb"])
 
     idx = cfg["measurement"]["layer_indexing"]
@@ -210,6 +214,7 @@ def main():
     global OUT_DIR
     if args.out:
         OUT_DIR = Path(args.out)
+    mem_context = "fp32_control" if args.dtype == "fp32" else "bf16"
     variants = [v.strip() for v in args.variants.split(",")] if args.variants else None
     if variants:
         unknown = [v for v in variants if v not in VARIANTS]
@@ -269,6 +274,21 @@ def main():
             sum(1 for k in data.files if k.startswith(lang + "|")))] for lang in langs}
         saved = json.loads(win_file.read_text(encoding="utf-8"))
         windows, dropped_log = saved["windows"], saved["dropped"]
+        # PULAPKA ZGLOSZONA PRZEZ DEP (2026-08-01): paczka synchronizacyjna
+        # zawiera pelny korpus, wiec rozpakowanie przywraca na maszynie
+        # scenariusze pilota wylaczone przed biegiem glownym. Skutek: bieg
+        # kontrolny leci na innym zestawie albo wywala sie na KeyError.
+        # windows.json jest jedynym wiarygodnym spisem tego, co realnie
+        # weszlo do pomiaru - filtrujemy po nim, zamiast liczyc na procedure.
+        przed = len(scenarios)
+        scenarios = [s for s in scenarios if s["scenario_id"] in windows]
+        if len(scenarios) < przed:
+            print(f"[runner] pominieto {przed - len(scenarios)} scenariuszy spoza "
+                  f"biegu glownego (nie ma ich w windows.json) - zostaje "
+                  f"{len(scenarios)}", flush=True)
+        if not scenarios:
+            print("[runner] STOP: zaden scenariusz nie wystepuje w windows.json")
+            return 1
         print(f"[runner] przebieg 1/2: wczytany z checkpointu ({', '.join(langs)})",
               flush=True)
     else:
@@ -280,7 +300,8 @@ def main():
         acts = {}
         for v in VARIANTS:
             layers, keep, _ = forward_masked(model, tok,
-                                             variant_turns(built, v, None, seed), cfg)
+                                             variant_turns(built, v, None, seed), cfg,
+                                             context=mem_context)
             acts[v] = layers
         # wyrownanie okna liczone na pierwszej warstwie (wszystkie maja to samo T')
         lengths = {v: acts[v][0].shape[0] for v in VARIANTS}
@@ -334,7 +355,8 @@ def main():
         sc = next(s for s in scenarios if s["scenario_id"] == item["scenario_id"])
         built = build_scenario(sc, tc, budget=budget)
         turns = variant_turns(built, item["variant"], item["null"], seed)
-        layers, keep, peak = forward_masked(model, tok, turns, cfg)
+        layers, keep, peak = forward_masked(model, tok, turns, cfg,
+                                            context=mem_context)
         n = windows[sc["scenario_id"]]
         lang = sc["language"]
         text_rows, text_spectra = [], []

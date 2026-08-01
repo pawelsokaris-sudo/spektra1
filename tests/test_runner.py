@@ -153,3 +153,17 @@ def test_take_per_language_bez_argumentu_nic_nie_zmienia():
     from pipeline.runner import take_per_language
     sc = [{"scenario_id": "en-09", "language": "en"}]
     assert take_per_language(sc, None) is sc
+
+
+def test_filtr_scenariuszy_po_windows_json(tmp_path, monkeypatch):
+    """Bieg kontrolny musi objac DOKLADNIE scenariusze biegu glownego.
+
+    Pulapka zgloszona przez DEP: paczka synchronizacyjna zawiera pelny korpus,
+    wiec na maszynie odtwarzaja sie scenariusze pilota wylaczone przed pomiarem.
+    windows.json jest jedynym wiarygodnym spisem tego, co realnie zmierzono.
+    """
+    windows = {"en-09-a": 900, "pl-09-a": 880}
+    scenarios = [{"scenario_id": s, "language": s[:2]}
+                 for s in ("en-01-pilot", "en-09-a", "pl-01-pilot", "pl-09-a")]
+    zostaje = [s for s in scenarios if s["scenario_id"] in windows]
+    assert [s["scenario_id"] for s in zostaje] == ["en-09-a", "pl-09-a"]

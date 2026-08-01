@@ -59,3 +59,36 @@ def test_fp32_control_still_bounded():
     with pytest.raises(MemoryGuardError):
         check_peak_memory(peak_bytes=int(30 * 2**30), limit_gb=14.0,
                           context="fp32_control", fp32_control_limit_gb=24.0)
+
+
+# --- podlaczenie progu kontrolnego fp32 (blad zgloszony przez DEP 2026-08-01) ---
+
+def test_kontrola_fp32_uzywa_wyzszego_progu():
+    """Bramka od poczatku miala osobny prog dla fp32, ale runner wolal ja
+    z etykieta 'bf16' niezaleznie od precyzji - bieg kontrolny zatrzymywal sie
+    przy 17.65 GB, chociaz jego prog wynosi 24 GB."""
+    from pipeline.memory_guard import check_peak_memory
+    peak = int(17.65 * 2**30)
+    # etykieta bf16 -> prog 14 GB -> blad (to sie realnie zdarzylo na maszynie)
+    import pytest
+    from pipeline.memory_guard import MemoryGuardError
+    with pytest.raises(MemoryGuardError, match="17.6"):
+        check_peak_memory(peak, 14.0, "bf16", 24.0)
+    # etykieta fp32_control -> prog 24 GB -> przechodzi
+    assert check_peak_memory(peak, 14.0, "fp32_control", 24.0) > 17.0
+
+
+def test_kontrola_fp32_nadal_ma_sufit():
+    """Podniesiony prog to nadal prog - bieg, ktory zjada 30 GB, ma stanac."""
+    import pytest
+    from pipeline.memory_guard import MemoryGuardError, check_peak_memory
+    with pytest.raises(MemoryGuardError):
+        check_peak_memory(int(30 * 2**30), 14.0, "fp32_control", 24.0)
+
+
+def test_komunikat_podaje_etykiete_biegu():
+    """Raport nie moze mowic 'bf16' o biegu fp32 - DEP zglosil wlasnie to."""
+    import pytest
+    from pipeline.memory_guard import MemoryGuardError, check_peak_memory
+    with pytest.raises(MemoryGuardError, match=r"\[fp32_control\]"):
+        check_peak_memory(int(30 * 2**30), 14.0, "fp32_control", 24.0)
