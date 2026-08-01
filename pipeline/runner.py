@@ -124,6 +124,26 @@ def load_scenarios():
             for p in sorted(SCENARIOS_DIR.glob("*/*.json"))]
 
 
+def filter_to_windows(scenarios, out_dir):
+    """Zawez korpus do scenariuszy, ktore realnie weszly do biegu glownego.
+
+    windows.json jest jedynym wiarygodnym spisem pomiaru. Paczka
+    synchronizacyjna zawiera pelny korpus, wiec na maszynie odtwarzaja sie
+    scenariusze pilota wylaczone przed biegiem.
+
+    KOLEJNOSC MA ZNACZENIE (znalezisko DEP 2026-08-01): filtr MUSI zadzialac
+    PRZED wyborem --limit/--per-language. Odwrotnie 'pierwszych 12 na jezyk'
+    lapie najpierw piloty, a filtr zostawia z tego garstke - bieg liczy jedna
+    trzecia zamowienia i wyglada na poprawny.
+    """
+    win = Path(out_dir) / "windows.json"
+    if not win.is_file():
+        return scenarios, 0
+    windows = json.loads(win.read_text(encoding="utf-8"))["windows"]
+    zostaje = [s for s in scenarios if s["scenario_id"] in windows]
+    return zostaje, len(scenarios) - len(zostaje)
+
+
 def take_per_language(scenarios, n):
     """Pierwsze n scenariuszy KAZDEGO jezyka, kolejnosc zachowana.
 
@@ -244,7 +264,14 @@ def main():
         print("[runner] STOP: brak tokenizera w corpus/.tokenizer - licznik heurystyczny")
         return 1
 
-    scenarios = take_per_language(load_scenarios()[: args.limit], args.per_language)
+    wszystkie, odsiane = filter_to_windows(load_scenarios(), OUT_DIR)
+    if odsiane:
+        print(f"[runner] pominieto {odsiane} scenariuszy spoza biegu glownego "
+              f"(brak w windows.json) - zostaje {len(wszystkie)}", flush=True)
+    scenarios = take_per_language(wszystkie[: args.limit], args.per_language)
+    if not scenarios:
+        print("[runner] STOP: po filtrze nie zostal zaden scenariusz")
+        return 1
     budget = cfg["measurement"]["token_budget"]
     seed = cfg["seeds"]["permutation_tests"]
     OUT_DIR.mkdir(exist_ok=True)
@@ -274,21 +301,8 @@ def main():
             sum(1 for k in data.files if k.startswith(lang + "|")))] for lang in langs}
         saved = json.loads(win_file.read_text(encoding="utf-8"))
         windows, dropped_log = saved["windows"], saved["dropped"]
-        # PULAPKA ZGLOSZONA PRZEZ DEP (2026-08-01): paczka synchronizacyjna
-        # zawiera pelny korpus, wiec rozpakowanie przywraca na maszynie
-        # scenariusze pilota wylaczone przed biegiem glownym. Skutek: bieg
-        # kontrolny leci na innym zestawie albo wywala sie na KeyError.
-        # windows.json jest jedynym wiarygodnym spisem tego, co realnie
-        # weszlo do pomiaru - filtrujemy po nim, zamiast liczyc na procedure.
-        przed = len(scenarios)
-        scenarios = [s for s in scenarios if s["scenario_id"] in windows]
-        if len(scenarios) < przed:
-            print(f"[runner] pominieto {przed - len(scenarios)} scenariuszy spoza "
-                  f"biegu glownego (nie ma ich w windows.json) - zostaje "
-                  f"{len(scenarios)}", flush=True)
-        if not scenarios:
-            print("[runner] STOP: zaden scenariusz nie wystepuje w windows.json")
-            return 1
+        # Filtrowanie korpusu po windows.json odbylo sie juz przy wyborze
+        # scenariuszy (filter_to_windows) - PRZED --limit i --per-language.
         print(f"[runner] przebieg 1/2: wczytany z checkpointu ({', '.join(langs)})",
               flush=True)
     else:

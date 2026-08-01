@@ -167,3 +167,36 @@ def test_filtr_scenariuszy_po_windows_json(tmp_path, monkeypatch):
                  for s in ("en-01-pilot", "en-09-a", "pl-01-pilot", "pl-09-a")]
     zostaje = [s for s in scenarios if s["scenario_id"] in windows]
     assert [s["scenario_id"] for s in zostaje] == ["en-09-a", "pl-09-a"]
+
+
+def test_filtr_okna_dziala_przed_wyborem_per_language(tmp_path):
+    """DOKLADNY przypadek zgloszony przez DEP 2026-08-01.
+
+    Korpus z pilotami (01-08) i scenariuszami glownymi (09-32). Przy zlej
+    kolejnosci 'pierwszych 12 na jezyk' lapie 8 pilotow + 4 glowne, filtr
+    zostawia 4 na jezyk i bieg liczy 8 scenariuszy zamiast 24 - wygladajac
+    przy tym na poprawny.
+    """
+    import json as _json
+    from pipeline.runner import filter_to_windows, take_per_language
+
+    korpus = [{"scenario_id": f"{l}-{i:02d}-x", "language": l}
+              for l in ("en", "pl") for i in range(1, 33)]
+    windows = {f"{l}-{i:02d}-x": 900 for l in ("en", "pl") for i in range(9, 33)}
+    (tmp_path / "windows.json").write_text(
+        _json.dumps({"windows": windows, "dropped": []}), encoding="utf-8")
+
+    zostaje, odsiane = filter_to_windows(korpus, tmp_path)
+    assert odsiane == 16 and len(zostaje) == 48
+    wybrane = take_per_language(zostaje, 12)
+    assert len(wybrane) == 24
+    assert sum(s["language"] == "en" for s in wybrane) == 12
+    assert all(int(s["scenario_id"].split("-")[1]) >= 9 for s in wybrane)
+
+
+def test_filtr_okna_bez_pliku_nie_rusza_korpusu(tmp_path):
+    """Bieg glowny startuje bez windows.json - nie wolno mu niczego odsiac."""
+    from pipeline.runner import filter_to_windows
+    korpus = [{"scenario_id": "en-09-x", "language": "en"}]
+    zostaje, odsiane = filter_to_windows(korpus, tmp_path)
+    assert zostaje is korpus and odsiane == 0
