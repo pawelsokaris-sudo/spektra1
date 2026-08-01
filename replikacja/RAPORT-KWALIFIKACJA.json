@@ -1,0 +1,61 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+  "A_srodowisko": {
+    "system": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.14.6",
+    "torch": "2.9.1",
+    "device": "mps",
+    "transformers": "5.14.1",
+    "gpu": "Apple M5 Max",
+    "pamiec_gb": 128.0
+  },
+  "B_gate0": {
+    "pass": true,
+    "krawedzie_teoria": [
+      0.33772233983162075,
+      6.662277660168381
+    ],
+    "krawedzie_pomiar": [
+      0.3704985663207928,
+      6.497593137114163
+    ],
+    "slad_vs_D": 1.0
+  },
+  "F_wagi": {
+    "pass": true,
+    "snapshot": "models--google--gemma-3-4b-it/snapshots/093f9f388b31de276ce2de164bdc2081324b9767",
+    "pliki": {
+      "model-00001-of-00002.safetensors": "zgodna",
+      "model-00002-of-00002.safetensors": "zgodna",
+      "model.safetensors.index.json": "zgodna",
+      "tokenizer.json": "zgodna",
+      "tokenizer_config.json": "zgodna",
+      "special_tokens_map.json": "zgodna",
+      "added_tokens.json": "zgodna"
+    }
+  },
+  "C_powtarzalnosc": {
+    "pass": true,
+    "max_abs_diff": 0.0,
+    "uwaga": "powtarzalnosc CO DO BITU"
+  },
+  "D_struktura": {
+    "pass": true,
+    "n_hidden_states": 35,
+    "hidden_size": 2560,
+    "dtype": "torch.bfloat16",
+    "n_tokenow": 1024,
+    "oczekiwane": {
+      "n_hidden_states": 35,
+      "hidden_size": 2560
+    }
+  },
+  "E_tempo": {
+    "sekundy_pierwszy_forward": 2.57,
+    "sekundy_kolejny_forward": 0.26,
+    "szacunek_godzin_624_teksty": 0.1
+  },
+  "werdykt": "KWALIFIKUJE SIE"
+}
