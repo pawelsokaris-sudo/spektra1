@@ -15,7 +15,8 @@ plus pobranie 8 GB modelu.
 Wklej to swojemu Claude Code i zatwierdzaj, o co poprosi:
 
 > Sklonuj https://github.com/pawelsokaris-sudo/spektra1 i przeczytaj plik
-> `replikacja/README-DLA-AGENTA.md`. To instrukcja napisana dla Ciebie —
+> `replikacja/README-DLA-AGENTA.md`. Pokaż mi też
+> `replikacja/DLA-WLASCICIELA-MASZYNY.md` — chcę wiedzieć, co się będzie liczyć. To instrukcja napisana dla Ciebie —
 > wykonaj kwalifikację sprzętu według niej, samodzielnie rozstrzygając
 > wszystko, co jest w Twoim zakresie. Angażuj mnie wyłącznie tam, gdzie
 > instrukcja to wyraźnie przewiduje. Na końcu odeślij wynik tak, jak
@@ -30,5 +31,12 @@ Z Twojej maszyny wychodzi wyłącznie raport techniczny: model procesora, iloś�
 pamięci, wersje bibliotek, czasy i wyniki testów numerycznych. Żadnego kodu,
 żadnych plików, żadnych danych osobowych. Repozytorium jest publiczne, badanie
 też — możesz wszystko podejrzeć przed uruchomieniem.
+
+Jeśli chcesz sam sprawdzić, co to właściwie robi — wszystko jest opisane
+po ludzku w `replikacja/DLA-WLASCICIELA-MASZYNY.md` w tym repo: co badamy,
+co liczy Twój komputer, co z niego wychodzi, jak zatrzymać, jak odinstalować.
+W dowolnej chwili `python -m replikacja.stan` pokaże, na jakim etapie jesteśmy.
+
+Nic nie startuje samo, nic nie działa w tle, nic nie wysyła się bez komendy.
 
 Jeśli test wypadnie negatywnie, to też jest dobry wynik — o to w nim chodzi.

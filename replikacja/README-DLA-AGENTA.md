@@ -24,11 +24,13 @@ w raporcie i zakończ**, zamiast angażować człowieka.
 
 ## Co masz zrobić (kolejno)
 
-1. **Środowisko.** Utwórz wirtualne środowisko Pythona (3.11+) w katalogu
-   `.venv-spektra` obok tego repo. Zainstaluj: `torch`, `transformers`,
-   `accelerate`, `numpy`, `scipy`, `pandas`, `pyarrow`, `safetensors`, `pyyaml`,
-   `tokenizers`. Na Apple Silicon standardowe koła z PyPI mają wsparcie MPS —
-   nie kombinuj z wersjami CUDA.
+1. **Środowisko — uruchom NASZ instalator, nie instaluj po swojemu:**
+   `python replikacja/instaluj.py`
+   Tworzy środowisko i instaluje **zamrożone wersje** z
+   `replikacja/requirements-replikacja.txt`. **Nie dobieraj wersji sam i nie
+   podmieniaj ich, gdy coś nie wchodzi** — różnica w bibliotekach oznacza inne
+   narzędzie, a wtedy replikacja porównywałaby dwa różne pomiary zamiast dwóch
+   maszyn. Konflikt wersji na tej platformie = zapisz w raporcie i zakończ.
 1a. **Pobranie modelu — jedyne miejsce, gdzie możesz potrzebować człowieka.**
    Model `google/gemma-3-4b-it` jest na HuggingFace za bramką licencyjną Google.
    Jeśli pobieranie zwróci błąd 401/403 („gated repo"), zrób dokładnie tyle:
@@ -51,6 +53,14 @@ w raporcie i zakończ**, zamiast angażować człowieka.
    kwalifikuje się albo wymaga decyzji zespołu badawczego. **Obie odpowiedzi
    są dobrym wynikiem** — celem jest prawda o sprzęcie, nie zaliczenie.
 4. **Odeślij wynik** (patrz sekcja niżej). To wszystko.
+
+W dowolnym momencie `python -m replikacja.stan` pokaże, na jakim etapie
+jesteście i jaka komenda jest następna. Używaj tego zamiast zgadywania —
+i pokaż operatorowi, gdyby pytał o postęp.
+
+**Przed pierwszą wysyłką upewnij się, że operator przeczytał
+`replikacja/DLA-WLASCICIELA-MASZYNY.md`** — to jego jedyny dokument; opisuje,
+co się liczy, co wychodzi z maszyny, jak zatrzymać i jak odinstalować.
 
 ## Zakres Twojej samodzielności
 

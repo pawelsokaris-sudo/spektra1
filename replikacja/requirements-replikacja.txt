@@ -1,0 +1,18 @@
+# SPEKTRA-1 — zamrozone wersje dla maszyn replikujacych.
+# NIE zmieniac. Rozne wersje bibliotek = rozne narzedzie = replikacja
+# porownywalaby dwa rozne pomiary zamiast dwoch maszyn.
+#
+# torch bez sufiksu platformowego: pip dobierze budowe wlasciwa dla systemu
+# (CUDA na Windows/Linux z NVIDIA, MPS/CPU na Apple Silicon) przy tej samej
+# wersji biblioteki. Wersja pomiaru pierwotnego: 2.9.1+cu128 (RTX 5080).
+torch==2.9.1
+transformers==5.14.1
+accelerate==1.14.0
+tokenizers==0.22.2
+huggingface_hub==1.25.1
+safetensors==0.8.0
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+pyarrow==25.0.0
+PyYAML==6.0.3
