@@ -136,3 +136,20 @@ def test_pelny_plan_ma_13_tekstow_na_scenariusz():
     from pipeline.runner import plan_texts
     sc = [{"scenario_id": "pl-01-x", "language": "pl"}]
     assert len(plan_texts(sc, include_nulls=True)) == 13
+
+
+def test_take_per_language_bierze_z_obu_replik():
+    from pipeline.runner import take_per_language
+    sc = ([{"scenario_id": f"en-{i:02d}", "language": "en"} for i in range(9, 33)]
+          + [{"scenario_id": f"pl-{i:02d}", "language": "pl"} for i in range(9, 33)])
+    out = take_per_language(sc, 12)
+    assert len(out) == 24
+    assert sum(s["language"] == "en" for s in out) == 12
+    assert sum(s["language"] == "pl" for s in out) == 12
+    assert out[0]["scenario_id"] == "en-09"
+
+
+def test_take_per_language_bez_argumentu_nic_nie_zmienia():
+    from pipeline.runner import take_per_language
+    sc = [{"scenario_id": "en-09", "language": "en"}]
+    assert take_per_language(sc, None) is sc

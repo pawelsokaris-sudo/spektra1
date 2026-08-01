@@ -124,6 +124,23 @@ def load_scenarios():
             for p in sorted(SCENARIOS_DIR.glob("*/*.json"))]
 
 
+def take_per_language(scenarios, n):
+    """Pierwsze n scenariuszy KAZDEGO jezyka, kolejnosc zachowana.
+
+    Scenariusze sortuja sie po katalogu, wiec zwykle uciecie do N wzieloby
+    najpierw caly jeden jezyk. Bieg kontrolny GATE 3 musi objac obie repliki,
+    bo kryterium mowi o zgodnosci znaku MIEDZY nimi."""
+    if not n:
+        return scenarios
+    seen, out = {}, []
+    for sc in scenarios:
+        lang = sc["language"]
+        if seen.get(lang, 0) < n:
+            seen[lang] = seen.get(lang, 0) + 1
+            out.append(sc)
+    return out
+
+
 def variant_turns(built, variant, null, seed):
     turns = built["variants"][variant]
     if null == "N1":
@@ -183,6 +200,9 @@ def main():
     ap.add_argument("--variants", default=None,
                     help="GATE 3: podzbior wariantow po przecinku, np. C,CprimG. "
                          "WYMAGA gotowego windows.json (patrz nizej)")
+    ap.add_argument("--per-language", type=int, default=None,
+                    help="GATE 3: pierwsze N scenariuszy KAZDEGO jezyka "
+                         "(zwykly --limit wzialby najpierw caly jeden jezyk)")
     ap.add_argument("--out", default=None,
                     help="katalog wynikowy (domyslnie measurements/)")
     args = ap.parse_args()
@@ -219,7 +239,7 @@ def main():
         print("[runner] STOP: brak tokenizera w corpus/.tokenizer - licznik heurystyczny")
         return 1
 
-    scenarios = load_scenarios()[: args.limit]
+    scenarios = take_per_language(load_scenarios()[: args.limit], args.per_language)
     budget = cfg["measurement"]["token_budget"]
     seed = cfg["seeds"]["permutation_tests"]
     OUT_DIR.mkdir(exist_ok=True)
