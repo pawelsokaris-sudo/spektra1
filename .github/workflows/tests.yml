@@ -1,0 +1,31 @@
+name: testy
+
+# Uwaga o zakresie: to NIE jest replikacja pomiaru. CI sprawdza wylacznie
+# warstwe analityczna (korpus, metryki, bramki, testy permutacyjne), ktora
+# nie wymaga karty graficznej ani wag modelu. Sam pomiar aktywacji jest
+# odtwarzalny wylacznie na maszynie z GPU wg zapieczetowanego lockfile.
+#
+# Wersje bibliotek sa zgodne z requirements-lock.txt: rozne wersje = rozne
+# narzedzie, a caly sens pieczeci polega na tym, ze narzedzie jest jedno.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: instalacja (bez torch - testy go nie dotykaja)
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy==2.5.1 scipy==1.18.0 pandas==3.0.5 pyarrow==25.0.0 \
+                      PyYAML==6.0.3 tokenizers==0.22.2 pytest
+      - name: testy
+        run: python -m pytest -q
