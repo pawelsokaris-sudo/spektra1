@@ -26,6 +26,19 @@ w raporcie i zakończ**, zamiast angażować człowieka.
    `accelerate`, `numpy`, `scipy`, `pandas`, `pyarrow`, `safetensors`, `pyyaml`,
    `tokenizers`. Na Apple Silicon standardowe koła z PyPI mają wsparcie MPS —
    nie kombinuj z wersjami CUDA.
+1a. **Pobranie modelu — jedyne miejsce, gdzie możesz potrzebować człowieka.**
+   Model `google/gemma-3-4b-it` jest na HuggingFace za bramką licencyjną Google.
+   Jeśli pobieranie zwróci błąd 401/403 („gated repo"), zrób dokładnie tyle:
+   poproś operatora o **dwie rzeczy naraz, w jednej wiadomości** — (a) wejście
+   na `https://huggingface.co/google/gemma-3-4b-it` i kliknięcie akceptacji
+   licencji (darmowe, wymaga konta HF), (b) wklejenie tokenu odczytu z
+   `https://huggingface.co/settings/tokens`. Potem `huggingface-cli login`
+   wykonaj sam. **Nie rozbijaj tego na kilka pytań w odstępach** — to jest
+   cała jego rola w pobieraniu.
+   Pobranie to ~8 GB do `~/.cache/huggingface`. Przerwane wznawia się samo —
+   po prostu powtórz. Jeśli sieć firmowa tnie połączenie, ponawiaj; nie proś
+   operatora o pomoc z siecią, opisz to w raporcie.
+
 2. **Uruchom kwalifikację:**
    `.venv-spektra/bin/python -m replikacja.kwalifikacja`
    (z katalogu głównego repo). Skrypt sam pobierze model `google/gemma-3-4b-it`

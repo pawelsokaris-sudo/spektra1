@@ -95,6 +95,39 @@ def test_b_gate0():
             "slad_vs_D": round(float(eigs.sum()) / d, 4)}
 
 
+def test_f_wagi():
+    """Czy pobrane wagi to CO DO BAJTU te, na ktorych zmierzono badanie glowne.
+
+    Sumy kontrolne pochodza z zapieczetowanego config.yaml. To zamienia
+    'ten sam model wg nazwy' w 'te same bajty' - bez tego replikacja
+    opierala by sie na zaufaniu do nazwy katalogu.
+    """
+    import hashlib
+    import yaml
+    from huggingface_hub import snapshot_download
+
+    cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
+    oczekiwane = dict(cfg["model"]["weights_sha256"])
+    oczekiwane.update(cfg["model"]["tokenizer_files_sha256"])
+    snap = Path(snapshot_download(MODEL, revision=REVISION,
+                                  allow_patterns=list(oczekiwane)))
+    wyniki, zgodne = {}, True
+    for nazwa, oczek in oczekiwane.items():
+        plik = snap / nazwa
+        if not plik.is_file():
+            wyniki[nazwa] = "BRAK PLIKU"
+            zgodne = False
+            continue
+        h = hashlib.sha256()
+        with plik.open("rb") as f:
+            for blok in iter(lambda: f.read(8 * 1024 * 1024), b""):
+                h.update(blok)
+        ok = h.hexdigest() == oczek
+        wyniki[nazwa] = "zgodna" if ok else f"ROZNI SIE ({h.hexdigest()[:16]}...)"
+        zgodne &= ok
+    return {"pass": bool(zgodne), "snapshot": str(snap), "pliki": wyniki}
+
+
 def test_cde_model(torch, device, dtype):
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -156,6 +189,14 @@ def main():
           f"{'PASS' if wynik['B_gate0']['pass'] else 'FAIL'}", flush=True)
 
     try:
+        wynik["F_wagi"] = test_f_wagi()
+        print(f"[kwalifikacja] F: sumy kontrolne wag -> "
+              f"{'PASS' if wynik['F_wagi']['pass'] else 'FAIL'}", flush=True)
+    except Exception as exc:
+        wynik["F_wagi"] = {"pass": False, "blad": f"{type(exc).__name__}: {exc}"}
+        print(f"[kwalifikacja] F: nie udalo sie zweryfikowac wag: {exc}", flush=True)
+
+    try:
         c, d, e = test_cde_model(torch, device, dtype)
         wynik["C_powtarzalnosc"], wynik["D_struktura"], wynik["E_tempo"] = c, d, e
         print(f"[kwalifikacja] C: powtarzalnosc -> {'PASS' if c['pass'] else 'FAIL'}", flush=True)
@@ -168,7 +209,8 @@ def main():
 
     kwalifikuje = (wynik.get("B_gate0", {}).get("pass")
                    and wynik.get("C_powtarzalnosc", {}).get("pass")
-                   and wynik.get("D_struktura", {}).get("pass"))
+                   and wynik.get("D_struktura", {}).get("pass")
+                   and wynik.get("F_wagi", {}).get("pass"))
     wynik["werdykt"] = "KWALIFIKUJE SIE" if kwalifikuje else "WYMAGA DECYZJI ZESPOLU"
 
     OUT_JSON.write_text(json.dumps(wynik, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -196,6 +238,13 @@ def zapisz_md(w):
     if c:
         L.append(f"| C. Powtarzalność forwardu | {'PASS' if c['pass'] else 'FAIL'} — "
                  f"max różnica {c['max_abs_diff']:.2e}; {c['uwaga']} |")
+    f = w.get("F_wagi")
+    if f:
+        szczegol = (f"wszystkie {len(f.get('pliki',{}))} plików zgodnych co do bajtu"
+                    if f["pass"] else f.get("blad") or
+                    "; ".join(f"{k}: {v}" for k, v in f.get("pliki", {}).items() if v != "zgodna"))
+        L.append(f"| F. Sumy kontrolne wag i tokenizera | "
+                 f"{'PASS' if f['pass'] else 'FAIL'} — {szczegol} |")
     d = w.get("D_struktura")
     if d:
         L.append(f"| D. Struktura modelu | {'PASS' if d['pass'] else 'FAIL'} — "
