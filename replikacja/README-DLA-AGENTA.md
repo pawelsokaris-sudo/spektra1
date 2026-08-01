@@ -19,6 +19,9 @@ w tym pliku albo do rozstrzygnięcia przez Ciebie. Jeśli coś padnie — zdiagn
 napraw jeśli mieści się w zakresie niżej, a jeśli nie mieści: **zapisz to
 w raporcie i zakończ**, zamiast angażować człowieka.
 
+**Pełna mapa etapów replikacji i tego, co po każdym wraca do repo:**
+`replikacja/ETAPY.md`. Ten plik dotyczy wyłącznie ETAPU 0.
+
 ## Co masz zrobić (kolejno)
 
 1. **Środowisko.** Utwórz wirtualne środowisko Pythona (3.11+) w katalogu
