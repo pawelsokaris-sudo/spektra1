@@ -84,3 +84,38 @@ def test_zgodne_repliki_przechodza():
 
 def test_zerowa_baza_nie_wywraca_rachunku():
     assert relative_change(0.0, 0.001) == float("inf")
+
+
+# --- werdykt: brak danych NIE jest wynikiem pozytywnym --------------------
+
+def test_brak_biegu_kontrolnego_nie_daje_stabilnosci():
+    """Blad wykryty przed danymi: przy dwoch brakujacych biegach i jednym
+    spelnionym kryterium naiwny rachunek oglaszal STABILNY."""
+    from gates.gate3 import werdykt
+    k = {"a_dtype": {"brak_danych": "x"}, "b_pozycyjny": {"brak_danych": "y"},
+         "c_repliki": {"spelnione": True}}
+    assert werdykt(k) == "NIEKOMPLETNY"
+
+
+def test_jedno_niespelnione_kryterium_wystarcza_do_niestabilnosci():
+    """Dalsze biegi tego nie odwroca, wiec nie czekamy na komplet."""
+    from gates.gate3 import werdykt
+    k = {"a_dtype": {"brak_danych": "x"}, "b_pozycyjny": {"brak_danych": "y"},
+         "c_repliki": {"spelnione": False}}
+    assert werdykt(k) == "NIESTABILNY"
+
+
+def test_komplet_spelnionych_daje_stabilny():
+    from gates.gate3 import werdykt
+    k = {"a_dtype": {"kryterium_spelnione": True},
+         "b_pozycyjny": {"kryterium_spelnione": True},
+         "c_repliki": {"spelnione": True}}
+    assert werdykt(k) == "STABILNY"
+
+
+def test_komplet_z_jednym_bledem_daje_niestabilny():
+    from gates.gate3 import werdykt
+    k = {"a_dtype": {"kryterium_spelnione": True},
+         "b_pozycyjny": {"kryterium_spelnione": False},
+         "c_repliki": {"spelnione": True}}
+    assert werdykt(k) == "NIESTABILNY"

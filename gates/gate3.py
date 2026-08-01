@@ -108,6 +108,24 @@ def replica_agreement(main_df):
             "spelnione": bool(same_sign and rel <= MAX_REL_CHANGE)}
 
 
+def werdykt(kryteria, wymagane=("a_dtype", "b_pozycyjny", "c_repliki")):
+    """STABILNY tylko przy KOMPLECIE spelnionych kryteriow.
+
+    Rzecz, ktora latwo przeoczyc: jesli brakuje biegu kontrolnego, a te obecne
+    przechodza, naiwny rachunek oglasza stabilnosc na podstawie czesci sprawdzen.
+    Brak danych NIE jest wynikiem pozytywnym. Odwrotnie jest dozwolone: jedno
+    niespelnione kryterium wystarcza, zeby orzec niestabilnosc - dalsze biegi
+    juz tego nie odwroca.
+    """
+    obecne = {k: v for k, v in kryteria.items() if "brak_danych" not in (v or {})}
+    wyniki = [v.get("spelnione", v.get("kryterium_spelnione")) for v in obecne.values()]
+    if any(w is False for w in wyniki):
+        return "NIESTABILNY"
+    if set(wymagane) - set(obecne):
+        return "NIEKOMPLETNY"
+    return "STABILNY" if all(wyniki) else "NIESTABILNY"
+
+
 def endpoints_for(measurements_dir, lam, band):
     return per_text_endpoints(load_spectra(measurements_dir), lam, band)
 
@@ -143,10 +161,7 @@ def main():
             res["kryteria"][klucz]["tolerancja_per_tekst"] = \
                 dtype_tolerance_check(main_df, ctrl)
 
-    spelnione = [v.get("spelnione", v.get("kryterium_spelnione"))
-                 for v in res["kryteria"].values() if "brak_danych" not in v]
-    res["werdykt"] = ("STABILNY" if spelnione and all(spelnione)
-                      else "NIESTABILNY" if spelnione else "NIEKOMPLETNY")
+    res["werdykt"] = werdykt(res["kryteria"])
 
     Path(args.out).write_text(json.dumps(res, indent=2, ensure_ascii=False),
                               encoding="utf-8")
