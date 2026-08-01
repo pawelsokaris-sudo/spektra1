@@ -228,7 +228,7 @@ def test_aneks4_wymusza_zastrzezenie_gdy_margines_nieosiagalny():
     h1 = res["steps"][0]
     assert h1["verdict"] == "niekonkluzywny"
     assert h1["tost"]["margin_attainable"] is False
-    assert "NIEOSIAGALNY" in h1["zastrzezenie_obowiazkowe"]
+    assert "NIEOSIĄGALNY" in h1["zastrzezenie_obowiazkowe"]
     assert "ANEKS-4" in res["H4"]["zastrzezenie_obowiazkowe"]
     # H4 mimo braku orzeczenia musi podac wielkosc efektu i przedzial
     assert res["H4"]["opis_efektu"]["ci"] is not None
