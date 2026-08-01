@@ -2,6 +2,12 @@
 
 Badanie prerejestrowane. **Opis popularny: [docs/OPIS-DOSWIADCZENIA.md](docs/OPIS-DOSWIADCZENIA.md).** Źródło prawdy: [docs/SPEKTRA-1-protokol-FINAL.md](docs/SPEKTRA-1-protokol-FINAL.md) (v1.3-FINAL).
 
+> **Weryfikujesz sumę kontrolną pieczęci?** Tag `spektra1-seal` podaje
+> `7ca4870a…`, a repozytorium daje dziś `93c55ea9…`. To nie jest niespójność
+> ukryta — powód, pełną listę zmienionych plików (3, wszystkie administracyjne)
+> i dowód, że treść naukowa jest nietknięta, opisuje
+> [seal/ANEKS-3.md](seal/ANEKS-3.md).
+
 **Role:**
 - Paweł (Sokaris / ActProof) — kierownik badania, decyzje, sprzęt, wykonanie
 - Claude (chat prowadzący) — protokół, kod, statystyka, zlecenia
@@ -17,7 +23,7 @@ pipeline/     pomiar widma: maskowanie → z-score → Gram → eigh → metryki
 nulls/        null symulacyjny λ* + nulle interwencyjne N1–N2 (T5–T6)
 power/        pilot, symulacja mocy, wybór M (GATE 1, T7)
 gates/        testy bramek: GATE 0 sanity (MP na białym szumie), replikacja
-seal/         pakiet pieczęci: hash, tag, checklist OSF (T8)
+seal/         pakiet pieczęci: hash, tag, aneksy 1-3, checklist OSF (T8)
 exploratory/  WYŁĄCZNIE analizy eksploracyjne z etykietą, nigdy przed konfirmacją
 ops/          zlecenia dla DEP i raporty z maszyny pomiarowej
 ```

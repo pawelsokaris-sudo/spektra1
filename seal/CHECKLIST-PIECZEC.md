@@ -14,6 +14,12 @@
    I O FORMACIE ZAPISU MUSZA ZAPASC RAZEM w GATE 1, nie jedna po drugiej.
 3. Anonimizacja: wykonana 2026-07-30 (filter-repo, bloby+opisy); przy kazdym
    nowym raporcie ops/ pilnowac konwencji (operator maszyny / maszyna-pomiarowa).
+   LEKCJA 2026-08-01 (ANEKS-3): audyt danych osobowych NALEZY WYKONAC PRZED
+   nadaniem tagu, nie po. Druga anonimizacja ruszyla TRESC 3 plikow ops/seal,
+   przez co suma archiwum zapisana w tagu przestala sie zgadzac. Koszt: jawny
+   aneks rozspojniajacy plombe. Pozycja obowiazkowa listy: "grep po nazwiskach,
+   loginach, adresach e-mail, hostach i adresach IP w calym drzewie ORAZ
+   w metadanych autorskich commitow (git log --format='%an %ae' | sort -u)".
 4. Rollback maszyny obejmuje TAKZE 2 zadania Harmonogramu:
    schtasks /delete /tn SPEKTRA1-pomiar-pilota /f oraz SPEKTRA1-dlag-sentence.
 5. Pakiet pieczeci: protokol v1.3 + rozstrzygniecia rundy 1-3 + uwagi zewnetrzne
