@@ -48,6 +48,20 @@ anonimizacji — **identyczne bajt w bajt**:
 analizy nie została ruszona. Zmiana jest kosmetyczna wobec treści badania
 i została wykonana **przed** poznaniem wyniku pomiaru głównego.
 
+## Skutek uboczny wykryty po fakcie (2026-08-01, zgłoszony przez operatora DEP)
+
+Podmiana nazwy konta objęła **treść plików**, a w dokumentach operacyjnych
+(`ops/`) ta nazwa była częścią **wykonywalnych komend**, nie tylko opisem.
+Ścieżki w zleceniach 02–06 są więc dziś poprawne jako zapis historyczny,
+ale **nie są dosłownie wykonywalne**. Żadne z tych zleceń nie jest już do
+uruchomienia (wszystkie wykonane i zaraportowane), a ich wyniki są nietknięte.
+
+Wniosek na przyszłość, wpisany do `seal/CHECKLIST-PIECZEC.md`: dokumenty
+operacyjne nie powinny zawierać nazw kont ani hostów — należy je pisać przez
+wejście do katalogu roboczego i ścieżki względne. Anonimizacja nie może wtedy
+zepsuć instrukcji, bo nie ma czego podmieniać. Zlecenie 07 jest napisane
+w tej konwencji.
+
 ## Weryfikowalność
 
 Anonimizacja historii git jest z natury nieodwracalna publicznie — stare

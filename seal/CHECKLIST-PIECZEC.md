@@ -20,6 +20,11 @@
    aneks rozspojniajacy plombe. Pozycja obowiazkowa listy: "grep po nazwiskach,
    loginach, adresach e-mail, hostach i adresach IP w calym drzewie ORAZ
    w metadanych autorskich commitow (git log --format='%an %ae' | sort -u)".
+   LEKCJA 2 (zgloszona przez DEP tego samego dnia): dokumenty operacyjne NIE
+   moga zawierac nazw kont ani hostow w komendach - anonimizacja podmienia
+   tresc plikow i psuje wykonywalnosc instrukcji. Konwencja: wejscie do
+   katalogu roboczego przez cd + wylacznie sciezki wzgledne, interpreter jako
+   ..\spektra1-env\Scripts\python.exe. Wzorzec: ops/DEP-zlecenie-07.
 4. Rollback maszyny obejmuje TAKZE 2 zadania Harmonogramu:
    schtasks /delete /tn SPEKTRA1-pomiar-pilota /f oraz SPEKTRA1-dlag-sentence.
 5. Pakiet pieczeci: protokol v1.3 + rozstrzygniecia rundy 1-3 + uwagi zewnetrzne
