@@ -32,6 +32,27 @@ OUT_MD = REPO / "docs" / "layer_semantics.md"
 OUT_JSON = REPO / "docs" / "layer_semantics.json"
 
 PROBE_TEXT_PL = "Zbiornik na deszczowke stoi przy scianie i zbiera wode z polaci dachu."
+
+
+def model_slug(name):
+    """Nazwa modelu na fragment nazwy pliku: tylko litery, cyfry i myslniki."""
+    return "".join(c if c.isalnum() or c in "-_" else "-" for c in name.split("/")[-1])
+
+
+def output_paths(model_name, config_model):
+    """Sciezki raportu. Model INNY niz z config.yaml pisze pod wlasna nazwa.
+
+    Bez tego uruchomienie na drugim modelu NADPISALOBY raport modelu glownego,
+    ktory jest czescia pakietu pieczeci. Domyslne sciezki zostaja nietkniete,
+    zeby nie zmienic zachowania biegu bez przelacznika.
+    """
+    if model_name == config_model:
+        return OUT_MD, OUT_JSON
+    s = model_slug(model_name)
+    return (OUT_MD.with_name(f"layer_semantics-{s}.md"),
+            OUT_JSON.with_name(f"layer_semantics-{s}.json"))
+
+
 BAND = (0.4, 0.8)          # pasmo z protokolu par. 6
 TOLERANCE_BF16 = 1e-2      # bf16 ma ~3 cyfry znaczace; luzna tolerancja identycznosci
 
@@ -197,26 +218,57 @@ def band_composition(types, n_blocks):
 
 
 def main():
+    import argparse
+
     import yaml
 
+    ap = argparse.ArgumentParser(description="T2 - semantyka i indeksacja warstw")
+    ap.add_argument("--model", default=None,
+                    help="model do sprawdzenia; domyslnie model.hf_name z config.yaml. "
+                         "Model INNY niz z configu pisze raport pod wlasna nazwa, "
+                         "zeby nie nadpisac raportu modelu glownego")
+    ap.add_argument("--revision", default=None,
+                    help="rewizja; domyslnie z config.yaml, a przy --model: domyslna HF")
+    ap.add_argument("--text-file", default=None,
+                    help="plik z tekstem sondujacym; domyslnie krotki tekst wbudowany. "
+                         "Do pomiaru szczytu pamieci podac tekst REALNEJ dlugosci")
+    args = ap.parse_args()
+
     cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
-    name = cfg["model"]["hf_name"]
-    revision = cfg["model"].get("hf_revision")
+    config_model = cfg["model"]["hf_name"]
+    name = args.model or config_model
+    if args.model:
+        revision = args.revision            # inny model: rewizja z configu nie obowiazuje
+    else:
+        revision = args.revision or cfg["model"].get("hf_revision")
     if str(name).startswith("TBD"):
         print("config.yaml: model.hf_name to nadal TBD-RECON. Uzupelnij przed T2.")
         return 1
-    if str(revision).startswith("TBD"):
+    if revision is not None and str(revision).startswith("TBD"):
         revision = None
+
+    out_md, out_json = output_paths(name, config_model)
+    if name != config_model:
+        print(f"[T2] model spoza configu -> raport: {out_md.name}", flush=True)
+
+    probe = PROBE_TEXT_PL
+    if args.text_file:
+        probe = Path(args.text_file).read_text(encoding="utf-8")
+        print(f"[T2] tekst sondujacy z pliku: {len(probe)} znakow", flush=True)
 
     print(f"[T2] ladowanie {name} (rewizja: {revision or 'domyslna'})...", flush=True)
     tok, model = load_model(name, revision)
     layers = find_decoder_layers(model)
-    inputs = tok(PROBE_TEXT_PL, return_tensors="pt").to("cuda:0")
+    inputs = tok(probe, return_tensors="pt").to("cuda:0")
+
+    import torch
+    torch.cuda.reset_peak_memory_stats()
 
     print(f"[T2] blokow dekodera: {len(layers)}", flush=True)
     results = {
         "model": name,
         "revision": revision,
+        "probe_tokens": int(inputs["input_ids"].shape[1]),
         "n_blocks": len(layers),
         "hidden_states": verify_hidden_states(model, layers, inputs),
         "final_norm": check_final_norm(model, layers, inputs),
@@ -224,17 +276,20 @@ def main():
         "attention_types": block_attention_types(layers),
     }
     results["band"] = band_composition(results["attention_types"], len(layers))
+    results["peak_gb"] = float(torch.cuda.max_memory_allocated() / 2**30)
 
-    OUT_JSON.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
-    write_report(results)
+    out_json.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    write_report(results, out_md)
     hs = results["hidden_states"]
     ok = hs["all_blocks_match"] and hs["hidden_state_0_is_embedding"]
     print(f"[T2] {'INDEKSACJA POTWIERDZONA' if ok else 'INDEKSACJA WYMAGA DECYZJI'}", flush=True)
-    print(f"[T2] raport: {OUT_MD}", flush=True)
+    print(f"[T2] szczyt pamieci: {results['peak_gb']:.2f} GB "
+          f"({results['probe_tokens']} tokenow sondy)", flush=True)
+    print(f"[T2] raport: {out_md}", flush=True)
     return 0 if ok else 1
 
 
-def write_report(r):
+def write_report(r, out_md=None):
     hs, fn, ct, band = r["hidden_states"], r["final_norm"], r["chat_template"], r["band"]
     lines = [
         "# T2 — semantyka warstw ukrytych (protokół §2)", "",
