@@ -323,7 +323,7 @@ def write_report(r, out_md=None):
         lines += ["## Bloki niezgodne", "", "| Blok | max |Δ| |", "|---|---|"]
         lines += [f"| {b['block']} | {b['max_abs_diff']:.6f} |"
                   for b in hs["blocks"] if not b["identical"]]
-    OUT_MD.write_text("\n".join(lines), encoding="utf-8")
+    (out_md or OUT_MD).write_text("\n".join(lines), encoding="utf-8")
 
 
 if __name__ == "__main__":
