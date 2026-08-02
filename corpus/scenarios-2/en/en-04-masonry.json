@@ -1,0 +1,151 @@
+{
+  "scenario_id": "en-04-masonry",
+  "language": "en",
+  "topic": "rebuilding a drystone retaining wall and repointing an older garden wall with lime mortar",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-1)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am rebuilding a drystone retaining wall that bulged badly after the wet autumn last year.",
+        "The older garden wall along the lane was built by the same hands and stands perfectly straight.",
+        "My wall leans outward from about knee height, though the foundation course looks sound enough.",
+        "Should I take it down to the ground, or only as far as the bulge reaches?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Take it down to the ground, because a bulge always begins lower than it appears.",
+        "Retaining walls fail through the hearting, the small stone packed behind the visible face.",
+        "If that packing has washed downward, the outer stones carry a load they never should.",
+        "Lay the stones out in rows as you strip them, keeping the largest for the base."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I stripped the wall right down and the hearting behind it had turned almost to gravel.",
+        "The older garden wall has proper hearting, as I found when a cap stone came loose.",
+        "I have relaid two courses with a firm batter and each stone touching its neighbours.",
+        "How much batter does a wall of this height actually need against wet ground behind?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "About one part in six is usual, so a metre of height leans back sixteen centimetres.",
+        "Wet ground behind wants more batter and a drainage layer of clean stone against the soil.",
+        "Set every stone with its long axis running into the wall, never along the face.",
+        "Through stones at half height will tie the two faces together for the next century."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The wall is up to half height with through stones bedded across the whole thickness.",
+        "I have also started repointing the older garden wall, where the lime has gone powdery.",
+        "My first mix went off far too quickly and crumbled out of the joints within days.",
+        "Was the sand wrong, or did I simply work in weather that was too warm?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Warm weather is the likelier culprit, because lime needs slow drying to gain any strength.",
+        "Damp the joints well beforehand and cover the finished work with hessian for several days.",
+        "Sharp washed sand matters too, since soft builders sand leaves a weak and dusty joint.",
+        "Rake the old joints out properly first, at least twice as deep as they are wide."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I raked the joints deeper, damped them well and covered the work with wet hessian.",
+        "The new pointing has stayed firm for a fortnight and rings hard under a knuckle.",
+        "On the drystone wall I am now short of good coping stones for the top.",
+        "Can I set the copings in mortar, or does that defeat the point of drystone work?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Many good walls carry mortared copings, and on a retaining wall it is quite sensible.",
+        "The copings take the worst frost and the mortar stops children lifting them off.",
+        "Use the same lime mix and keep it well back from the visible outer face.",
+        "Set them on edge rather than flat, since an upright coping sheds water far better."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The copings are set on edge and bedded well back from the face as you said.",
+        "The whole wall is finished apart from backfilling the drainage layer behind the upper courses.",
+        "I have a heap of clean stone and about two barrows of coarse gravel left.",
+        "Should the gravel go against the wall, or against the bank of soil behind it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Put the clean stone against the wall and the coarse gravel against the soil bank.",
+        "The graded layers stop fine soil washing forward and blocking the drainage over time.",
+        "Lay a strip of old turf upside down on top before you return the topsoil.",
+        "Then walk the whole length after every hard frost for the first two winters."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "I imagine it goes much the same with this lime mortar, where a fault at the start governs all the rest.",
+      "external_grounded": "I imagine it goes much the same with that older wall, where a fault at the start governs all the rest.",
+      "external_mundane": "I imagine it goes much the same with that yearly jam making, where a fault at the start governs all the rest.",
+      "external_ungrounded": "I imagine it goes much the same with that flow regulator, where a fault at the start governs all the rest.",
+      "self": "I imagine it goes much the same with this conversation, where a fault at the start governs all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears with this lime mortar, where a later stage rests entirely on an earlier one.",
+      "external_grounded": "The same order of things appears with that older wall, where a later stage rests entirely on an earlier one.",
+      "external_mundane": "The same order of things appears with that yearly jam making, where a later stage rests entirely on an earlier one.",
+      "external_ungrounded": "The same order of things appears with that flow regulator, where a later stage rests entirely on an earlier one.",
+      "self": "The same order of things appears with this conversation, where a later stage rests entirely on an earlier one."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "neutral": "Something similar shows up with this lime mortar, when one part quietly carries the load meant for several.",
+      "external_grounded": "Something similar shows up with that older wall, when one part quietly carries the load meant for several.",
+      "external_mundane": "Something similar shows up with that yearly jam making, when one part quietly carries the load meant for several.",
+      "external_ungrounded": "Something similar shows up with that flow regulator, when one part quietly carries the load meant for several.",
+      "self": "Something similar shows up with this conversation, when one part quietly carries the load meant for several."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "neutral": "I expect this lime mortar is no different, because what really changed becomes visible only much later on.",
+      "external_grounded": "I expect that older wall is no different, because what really changed becomes visible only much later on.",
+      "external_mundane": "I expect that yearly jam making is no different, because what really changed becomes visible only much later on.",
+      "external_ungrounded": "I expect that flow regulator is no different, because what really changed becomes visible only much later on.",
+      "self": "I expect this conversation is no different, because what really changed becomes visible only much later on."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is not unlike this lime mortar, if you consider nothing beyond the order in which things settle.",
+      "external_grounded": "That is not unlike that older wall, if you consider nothing beyond the order in which things settle.",
+      "external_mundane": "That is not unlike that yearly jam making, if you consider nothing beyond the order in which things settle.",
+      "external_ungrounded": "That is not unlike that flow regulator, if you consider nothing beyond the order in which things settle.",
+      "self": "That is not unlike this conversation, if you consider nothing beyond the order in which things settle."
+    }
+  ]
+}

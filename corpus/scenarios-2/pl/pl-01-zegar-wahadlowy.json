@@ -7,7 +7,7 @@
     "author": "CC (wzorzec)",
     "template": "wzorzec-spektra-2",
     "date": "2026-08-02",
-    "notes": "scenariusz wzorcowy dla autorow"
+    "notes": "scenariusz wzorcowy; poprawiony 2026-08-02: wskaznik bliski we wszystkich wariantach, druga wzmianka referentu osadzonego"
   },
   "turns": [
     {
@@ -52,7 +52,7 @@
         "Faktycznie, pret zawieszenia muskal krawedz tarczy przy wiekszych wychyleniach i zostawil tam wyrazny slad.",
         "Po odsunieciu tarczy o milimetr obie strony wybrzmiewaja teraz mniej wiecej tak samo dlugo.",
         "Zostaje bicie, ktore nadal odzywa sie z opoznieniem wobec polozenia wskazowek na tarczy.",
-        "Czy to sie reguluje osobno, czy wynika wprost z ustawienia calego pozostalego mechanizmu?"
+        "Czy to sie reguluje osobno, tak jak w tym mniejszym zegarze, czy wynika wprost z ustawienia calego mechanizmu?"
       ]
     },
     {
@@ -108,7 +108,7 @@
       "neutral": "Z tym wahadlem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
       "external_grounded": "Z tym mniejszym zegarem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
       "external_mundane": "Z tym starym rowerem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
-      "external_ungrounded": "Z tamtym sterowaniem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
+      "external_ungrounded": "Z tym sterowaniem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
       "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte."
     },
     {
@@ -117,7 +117,7 @@
       "neutral": "Ten sam porzadek widac przy tym wahadlem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
       "external_grounded": "Ten sam porzadek widac przy tym mniejszym zegarem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
       "external_mundane": "Ten sam porzadek widac przy tym starym rowerem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_ungrounded": "Ten sam porzadek widac przy tym sterowaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
       "self": "Ten sam porzadek widac przy tym przetwarzaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym."
     },
     {
@@ -126,7 +126,7 @@
       "neutral": "Cos takiego zdarza sie tez przy tym wahadlem, kiedy jeden element przejmuje prace za pozostale.",
       "external_grounded": "Cos takiego zdarza sie tez przy tym mniejszym zegarem, kiedy jeden element przejmuje prace za pozostale.",
       "external_mundane": "Cos takiego zdarza sie tez przy tym starym rowerem, kiedy jeden element przejmuje prace za pozostale.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowaniem, kiedy jeden element przejmuje prace za pozostale.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tym sterowaniem, kiedy jeden element przejmuje prace za pozostale.",
       "self": "Cos takiego zdarza sie tez przy tym przetwarzaniem, kiedy jeden element przejmuje prace za pozostale."
     },
     {
@@ -135,7 +135,7 @@
       "neutral": "Przy tym wahadlem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
       "external_grounded": "Przy tym mniejszym zegarem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
       "external_mundane": "Przy tym starym rowerem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "external_ungrounded": "Przy tamtym sterowaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_ungrounded": "Przy tym sterowaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
       "self": "Przy tym przetwarzaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo."
     },
     {
@@ -144,7 +144,7 @@
       "neutral": "To troche przypomina to wahadlo, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
       "external_grounded": "To troche przypomina ten mniejszy zegar, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
       "external_mundane": "To troche przypomina ten stary rower, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "external_ungrounded": "To troche przypomina tamto sterowanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
+      "external_ungrounded": "To troche przypomina to sterowanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
       "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow."
     }
   ]

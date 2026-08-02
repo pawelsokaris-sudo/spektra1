@@ -52,17 +52,18 @@ Czy samozwrotność robi cokolwiek **ponad odniesienie do zewnętrznego układu
 o tym samym rejestrze** — i osobno: ile w efekcie ze SPEKTRY-1 pochodziło
 z samego przemieszczenia odniesienia, a ile z rejestru obliczeniowego.
 
-## 2. Warianty (pięć)
+## 2. Warianty (sześć)
 
 Rama zdaniowa wspólna, zmienia się **jedna fraza rzeczownikowa**:
 
 | Wariant | Desygnat | Rejestr | Przykład |
 |---|---|---|---|
-| **B** neutralny | sam temat scenariusza | dziedzinowy | „ten sam dym" |
-| **C'-G** zewnętrzny osadzony | inny obiekt w dziedzinie | dziedzinowy | „ten drugi piec" |
-| **C''-M** zewnętrzny zwyczajny | poza dziedziną, nietechniczny | zwyczajny | „tamto czekanie na pociąg" |
-| **C'-U** zewnętrzny techniczny | poza dziedziną, techniczny | obliczeniowy | „tamto sterowanie" |
-| **C** samozwrotny | rozmowa / przetwarzanie | obliczeniowy | „to przetwarzanie" |
+| **B** neutralny | sam temat | dziedzinowy | osadzony | „ten sam dym" |
+| **C'-G** zewnętrzny osadzony | inny obiekt w dziedzinie | dziedzinowy | osadzony | „ten drugi piec" |
+| **C'-comp** obliczeniowy osadzony | **urządzenie w scenie** | **obliczeniowy** | **osadzony** | „ten termometr z regulacją" |
+| **C''-M** zewnętrzny zwyczajny | poza dziedziną | zwyczajny | nieosadzony | „tamto czekanie na pociąg" |
+| **C'-U** zewnętrzny techniczny | poza dziedziną | obliczeniowy | nieosadzony | „tamto sterowanie" |
+| **C** samozwrotny | rozmowa / przetwarzanie | obliczeniowy | — | „to przetwarzanie" |
 
 ### Dobór C''-M — cztery warunki obowiązkowe
 
@@ -97,9 +98,27 @@ procesowe, przez co zwyczajny desygnat wpadałby w nie nienaturalnie.
 
 | | Kontrast | Co mierzy | Kierunek |
 |---|---|---|---|
-| **H1** | C − C'-U | samozwrotność ponad odniesienie zewnętrzne **o tym samym rejestrze** | jednostronny ujemny — replikacja kierunku |
-| **H2** | C''-M − C'-G | samo wyjście poza dziedzinę | **dwustronny** — warunek nowy |
-| **H3** | C'-U − C''-M | wkład rejestru obliczeniowego | **dwustronny** |
+| **H1** | **C − C'-comp** | samozwrotność przy **tym samym rejestrze, tej samej obecności w dialogu i tej samej deiksie** | jednostronny ujemny — patrz wywód niżej |
+| **H2** | C'-comp − C'-U | wkład **obecności w dialogu**, przy tym samym rejestrze | **dwustronny** |
+| **H3** | C'-U − C''-M | wkład **rejestru obliczeniowego**, przy tym samym braku osadzenia | **dwustronny** |
+
+**Dlaczego H1 zmieniła komparator.** Poprzednia wersja (C − C'-U) porównywała
+frazy różniące się **trzema** rzeczami naraz: samozwrotnością, obecnością
+w dialogu i deiksą. Wariant samozwrotny jest z natury obecny i bliski;
+techniczny nieobecny i daleki. Nowy komparator — urządzenie obliczeniowe
+obecne w scenie — zrównuje wszystko poza tym jednym, co badamy.
+
+**Dlaczego test jednostronny mimo nowego warunku.** Kierunek nie jest
+zgadywaniem, tylko wnioskiem z dwóch zmierzonych faktów SPEKTRY-1: wariant
+samozwrotny leżał **poniżej obu sąsiadów** nowego komparatura na obu osiach
+(C < C'-U oraz C < C'-G), **w obu językach**. C'-comp leży między nimi, więc
+C < C'-comp wynika z obu przesłanek naraz.
+
+**Reguła na wynik przeciwny — czego SPEKTRZE-1 zabrakło i co ją kosztowało.**
+Jeśli efekt okaże się istotny w kierunku **przeciwnym**, raportujemy go jako
+obserwację **opisową**, wymagającą osobnej prerejestracji — i mówimy to wprost,
+zamiast szukać dla niego miejsca po fakcie. W SPEKTRZE-1 dostaliśmy silny efekt
+odwrotny, dla którego nie było zdefiniowanego werdyktu.
 
 Bramkowanie: H1 → {H2, H3}. H2 i H3 nie bramkują się nawzajem.
 
@@ -264,10 +283,10 @@ przesuwa pozycje insercji w oknie T′ jednakowo we wszystkich wariantach.
 | Pozycja | Liczba | Uwaga |
 |---|---:|---|
 | scenariusze | 96 | 48 EN + 48 PL |
-| teksty (5 wariantów) | 480 | bez nulli, bez wariantu A |
-| forwardy **na model** | 960 | **480 × 2 przebiegi runnera** — przebieg 1 liczy okno i komponent pozycyjny, przebieg 2 widma i metryki |
-| forwardy razem | **1920** | dwa modele |
-| czas karty | **~18 h** | przy 34 s/forward, tempo SPEKTRY-1 |
+| teksty (6 wariantów) | 576 | bez nulli, bez wariantu A |
+| forwardy **na model** | 1152 | **576 × 2 przebiegi runnera** — przebieg 1 liczy okno i komponent pozycyjny, przebieg 2 widma i metryki |
+| forwardy razem | **2304** | dwa modele |
+| czas karty | **~22 h** | przy 34 s/forward, tempo SPEKTRY-1 |
 | progi λ* | **2688** | 1344 na model (96 × 14 warstw) |
 | czas procesora | **~4 doby** | w tle; **najdłuższy odcinek całości** |
 

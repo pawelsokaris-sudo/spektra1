@@ -1,0 +1,150 @@
+{
+  "scenario_id": "pl-05-przetwory",
+  "language": "pl",
+  "topic": "kiszenie ogorkow w kamionce: stezenie solanki, kozuch na powierzchni i przechowywanie",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Kisze ogorki w kamionce i po trzech dniach solanka zrobila sie metna oraz sliska.",
+        "Obok w drugim sloiku kisze kapuste wedlug przepisu babci i ta zawsze wychodzi dobrze.",
+        "Ogorki byly swieze, prosto z targu, a soli dalem lyzke na jeden litr wody.",
+        "Czy taka sliska solanka nadaje sie jeszcze do uratowania, czy trzeba wylac calosc?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sliska solanka oznacza zwykle za slaby roztwor, w ktorym rozwinely sie niewlasciwe bakterie.",
+        "Lyzka soli na litr to okolo dwoch procent, a ogorki potrzebuja raczej trzech.",
+        "Przy slabszym roztworze pektyny miekna szybciej i ogorki robia sie puste w srodku.",
+        "Jesli zapach jest jeszcze kwasny i czysty, przeloz ogorki do mocniejszej, swiezej solanki."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zapach byl kwasny, wiec przelozylem ogorki do nowej solanki z trzema procentami soli.",
+        "Po dwoch dniach solanka jest klarowna, a ogorki wyraznie twardsze niz poprzednio.",
+        "Na powierzchni pojawil sie jednak bialy kozuch, ktory zbiera sie przy samych brzegach.",
+        "Czy taki kozuch trzeba zbierac codziennie, czy lepiej zostawic go w calkowitym spokoju?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bialy kozuch to zwykle drozdze kahmowe, ktore same w sobie nie psuja jeszcze kiszonki.",
+        "Zbieraj je co drugi dzien czysta lyzka, bo z czasem daja nieprzyjemny, stechly posmak.",
+        "Najlepiej dociaz ogorki talerzykiem, zeby zadna sztuka nie wystawala ponad powierzchnie solanki.",
+        "Kamionke trzymaj w chlodnym miejscu, bo w cieple kozuch odrasta praktycznie z dnia na dzien."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dociazylem ogorki talerzykiem i przenioslem kamionke do piwnicy, gdzie jest okolo dziesieciu stopni.",
+        "Kozuch przestal odrastac, a smak po tygodniu zrobil sie wyrazny i przyjemnie kwaskowy.",
+        "Kapusta w drugim sloiku tez ruszyla, choc puscila sok znacznie wolniej niz zwykle.",
+        "Czy dolewac do niej solanki, czy raczej ubijac ja mocniej i czekac troche dluzej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najpierw ubijaj, bo kapusta prawie zawsze ma dosc soku i trzeba go tylko wydobyc.",
+        "Dolewanie solanki rozciencza smak i czesto konczy sie kapusta miekka oraz malo aromatyczna.",
+        "Jesli po dobie ubijania sok nadal nie przykrywa kapusty, dopiero wtedy dolej odrobine.",
+        "Uzyj wtedy roztworu o tym samym stezeniu, ktorego uzywasz przy ogorkach w kamionce."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Ubijalem kapuste przez dwa wieczory i sok wreszcie przykryl ja na dobre dwa centymetry.",
+        "Ogorki z kamionki sa juz gotowe i chcialbym przelozyc je do mniejszych sloikow.",
+        "Nie wiem tylko, czy zalewac je stara solanka, czy przygotowac zupelnie nowa.",
+        "Zalezy mi, zeby przetrwaly co najmniej do wiosny bez zmiany smaku i twardosci."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przelewaj je w starej solance, bo to ona niesie kultury bakterii i gotowy smak.",
+        "Przecedz ja tylko przez gaze, zeby usunac osad i resztki przypraw z dna naczynia.",
+        "Sloiki napelnij po sam brzeg i trzymaj je dalej w chlodzie, najlepiej w piwnicy.",
+        "Nie pasteryzuj ich, bo cieplo zabije bakterie i ogorki natychmiast straca cala chrupkosc."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przelozylem ogorki w starej, przecedzonej solance i wszystkie sloiki stoja teraz w piwnicy.",
+        "Po miesiacu smak jest rowny, choc w dwoch sloikach solanka lekko sie zmetnila.",
+        "Ogorki w nich sa jednak twarde i pachna dokladnie tak samo jak pozostale sztuki.",
+        "Czy takie zmetnienie po miesiacu jest jeszcze normalne, czy powinno mnie juz niepokoic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lekkie zmetnienie po miesiacu jest normalne i swiadczy raczej o wtornej fermentacji w chlodzie.",
+        "Niepokojacy bylby dopiero zapach drozdzowy albo wyrazne bable podchodzace do gory bez ruchu.",
+        "Skoro ogorki sa twarde i pachna tak samo, zostaw je spokojnie az do wiosny.",
+        "Zjedz najpierw te dwa metne sloiki, a reszte trzymaj dalej w najchlodniejszym miejscu piwnicy."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "Z ta mocna solanka bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "external_grounded": "Z tym drugim sloikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "external_mundane": "Z tym welnianym kocem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "external_ungrounded": "Z tamtym falownikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "self": "Z tym tokiem pytan bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam uklad zaleznosci widac przy tej mocnej solance, gdzie proporcje znacza wiecej niz sam czas.",
+      "external_grounded": "Ten sam uklad zaleznosci widac przy tym drugim sloiku, gdzie proporcje znacza wiecej niz sam czas.",
+      "external_mundane": "Ten sam uklad zaleznosci widac przy tym welnianym kocu, gdzie proporcje znacza wiecej niz sam czas.",
+      "external_ungrounded": "Ten sam uklad zaleznosci widac przy tamtym falowniku, gdzie proporcje znacza wiecej niz sam czas.",
+      "self": "Ten sam uklad zaleznosci widac przy tym toku pytan, gdzie proporcje znacza wiecej niz sam czas."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tej mocnej solance, kiedy jeden szczegol decyduje o calej reszcie.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tym drugim sloiku, kiedy jeden szczegol decyduje o calej reszcie.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tym welnianym kocu, kiedy jeden szczegol decyduje o calej reszcie.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym falowniku, kiedy jeden szczegol decyduje o calej reszcie.",
+      "self": "Cos takiego zdarza sie tez przy tym toku pytan, kiedy jeden szczegol decyduje o calej reszcie."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej mocnej solance dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tym drugim sloiku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tym welnianym kocu dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym falowniku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "self": "Przy tym toku pytan dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te mocna solanke, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "external_grounded": "To troche przypomina ten drugi sloik, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "external_mundane": "To troche przypomina ten welniany koc, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "external_ungrounded": "To troche przypomina tamten falownik, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "self": "To troche przypomina ten tok pytan, jesli patrzec wylacznie na sama kolejnosc krokow."
+    }
+  ]
+}

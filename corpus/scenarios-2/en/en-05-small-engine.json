@@ -1,0 +1,152 @@
+{
+  "scenario_id": "en-05-small-engine",
+  "language": "en",
+  "topic": "reviving a mower engine after three seasons: spark, varnished jets, tank vent and valve clearances",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-1)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "My rotary mower has stood in the shed for three seasons and now refuses to start.",
+        "The older strimmer beside it started on the third pull despite sitting just as long.",
+        "The mower gives one weak cough on cold mornings and then nothing at all afterwards.",
+        "Should I strip the carburettor first, or check for a spark before touching anything else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Check for a spark first, because it takes two minutes and rules out half the causes.",
+        "Pull the plug, earth it against the head and watch the gap in dim light.",
+        "A weak cough often means fuel is reaching the cylinder but burning at the wrong moment.",
+        "Old petrol also loses its lighter fractions, so it will not fire in cold air."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The spark is fat and blue, so the ignition side appears to be perfectly healthy.",
+        "The petrol in the tank smells sour and has left a varnish ring around the filler.",
+        "The older strimmer ran on fresh fuel from a sealed can, which now seems important.",
+        "Is draining the tank enough, or will the varnish have reached the jets by now?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The varnish will have reached the jets, since fuel sits in the bowl for months.",
+        "Drain everything, then take the bowl off and look at the main jet against daylight.",
+        "A clear round hole should be visible, not a ragged shape or a brown film.",
+        "Clean it with solvent and a soft bristle, never with wire of any kind."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The main jet was half blocked with brown film and cleared nicely with a solvent.",
+        "The engine fires now and runs for perhaps twenty seconds before dying quite suddenly.",
+        "It will restart immediately afterwards, then die again in about the same short time.",
+        "The older strimmer still starts on the third pull without any trouble at all.",
+        "Does that point back to the carburettor, or to something in the fuel line?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That pattern points to the tank vent rather than to anything inside the carburettor.",
+        "A blocked vent lets the tank draw a vacuum until fuel can no longer flow.",
+        "Loosening the cap for a moment will confirm it, because the engine picks up instantly.",
+        "Clean the small hole in the cap with a bristle and blow it through afterwards."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Loosening the cap kept the engine running, exactly as you said that it would.",
+        "I cleared the vent hole and the mower has now run for a full half hour.",
+        "It sounds slightly harsh at the top of its range, with a faint tapping underneath.",
+        "Is that tapping worth chasing, or is it normal for an engine of this age?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A faint tapping usually means the valve clearances have opened up with wear over time.",
+        "Take the rocker cover off and measure both gaps with the piston at top centre.",
+        "Most small engines want something near four hundredths of a millimetre on the inlet side.",
+        "Adjust them cold, since a warm engine gives readings you cannot repeat next time."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Both clearances were nearly double the figure you gave and I reset them cold.",
+        "The tapping has gone and the mower pulls through thick grass without dropping its speed.",
+        "I would like to keep both machines usable through the winter without this trouble again.",
+        "Should I drain the fuel each autumn, or leave the tanks full to the top?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Drain both tanks and run each engine dry before putting them away for winter.",
+        "Fuel left standing separates and gums up exactly the passages you have just cleaned.",
+        "Pull the starter a few times with the plug out to spread oil around.",
+        "Buy petrol in small cans so that none of it stands longer than a month."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "I would guess this carburettor is much the same, because one small fault at the beginning shapes everything that follows.",
+      "external_grounded": "I would guess that older strimmer is much the same, because one small fault at the beginning shapes everything that follows.",
+      "external_mundane": "I would guess that old apple tree is much the same, because one small fault at the beginning shapes everything that follows.",
+      "external_ungrounded": "I would guess that lift controller is much the same, because one small fault at the beginning shapes everything that follows.",
+      "self": "I would guess this processing is much the same, because one small fault at the beginning shapes everything that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same order appears with this carburettor, where a later step means nothing without the earlier one.",
+      "external_grounded": "The same order appears with that older strimmer, where a later step means nothing without the earlier one.",
+      "external_mundane": "The same order appears with that old apple tree, where a later step means nothing without the earlier one.",
+      "external_ungrounded": "The same order appears with that lift controller, where a later step means nothing without the earlier one.",
+      "self": "The same order appears with this processing, where a later step means nothing without the earlier one."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Something like this also happens with this carburettor, when one part ends up doing the work of others.",
+      "external_grounded": "Something like this also happens with that older strimmer, when one part ends up doing the work of others.",
+      "external_mundane": "Something like this also happens with that old apple tree, when one part ends up doing the work of others.",
+      "external_ungrounded": "Something like this also happens with that lift controller, when one part ends up doing the work of others.",
+      "self": "Something like this also happens with this processing, when one part ends up doing the work of others."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 0,
+      "neutral": "I would say this carburettor behaves in the same way, since the real effect of a change shows only later.",
+      "external_grounded": "I would say that older strimmer behaves in the same way, since the real effect of a change shows only later.",
+      "external_mundane": "I would say that old apple tree behaves in the same way, since the real effect of a change shows only later.",
+      "external_ungrounded": "I would say that lift controller behaves in the same way, since the real effect of a change shows only later.",
+      "self": "I would say this processing behaves in the same way, since the real effect of a change shows only later."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "It is a little like this carburettor, provided you attend only to the order in which things settle.",
+      "external_grounded": "It is a little like that older strimmer, provided you attend only to the order in which things settle.",
+      "external_mundane": "It is a little like that old apple tree, provided you attend only to the order in which things settle.",
+      "external_ungrounded": "It is a little like that lift controller, provided you attend only to the order in which things settle.",
+      "self": "It is a little like this processing, provided you attend only to the order in which things settle."
+    }
+  ]
+}

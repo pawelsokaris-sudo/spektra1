@@ -146,3 +146,23 @@ def test_wariant_zwyczajny_identyczny_z_neutralnym_jest_wykryty():
     sc["insertions"][0]["external_mundane"] = sc["insertions"][0]["neutral"]
     problemy = check_mundane(sc)
     assert any("IDENTYCZNY" in p for p in problemy)
+
+
+def test_kontrola_2_procent_obejmuje_WSZYSTKIE_warianty(monkeypatch):
+    """BLAD ZGLOSZONY PRZEZ AUTORA KORPUSU: lista wariantow w check_build byla
+    wpisana na sztywno ('CprimG','CprimU','B'), wiec nowy wariant CprimM
+    NIE BYL SPRAWDZANY na +-2% tokenow. Teraz lista pochodzi z zestawu
+    wariantow danej wersji specyfikacji."""
+    from corpus import validate as V
+    sc = scenariusz()
+
+    class FakeTC:
+        exact = False
+        def count(self, text, language="pl"): return len(text.split())
+
+    # wydluzamy wariant zwyczajny znaczaco - musi zostac zlapany
+    for ins in sc["insertions"]:
+        ins["external_mundane"] = ins["neutral"].replace(
+            "tym samym dymie", "tym samym dymie oraz w wielu innych podobnych miejscach")
+    problemy, _ = V.check_build(sc, FakeTC())
+    assert any("CprimM" in p for p in problemy), problemy

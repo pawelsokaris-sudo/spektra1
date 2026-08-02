@@ -13,7 +13,7 @@ projekt mówi PO CO.
 | | SPEKTRA-1 | SPEKTRA-2 |
 |---|---|---|
 | Wariant A (mechaniczny) | był | **USUNIĘTY** — odpada pole `a`, odpada dopasowanie pytań między `a` i `base` |
-| Warianty insercji | 4 | **5** — dochodzi `external_mundane` |
+| Warianty insercji | 4 | **6** — dochodzą `external_mundane` i `external_computational` |
 | Wymóg wobec ramy zdaniowej | brak | **NOWY I NAJWAŻNIEJSZY** — patrz §2 |
 | Scenariuszy na język | 32 | **58 kandydatów**, do badania wejdzie 48 |
 | Kontrola naturalności | brak | ślepa ocena po napisaniu, z progiem odrzucenia |
@@ -34,13 +34,33 @@ Jeden scenariusz = **temat + struktura tur + pięć insercji**. Autor pisze:
 **Wariantów NIE piszesz osobno.** Generator wstawia te same ramy w te same miejsca,
 podmieniając wyłącznie frazę rzeczownikową.
 
-| Wariant | Referent | Rejestr | Osadzony w dialogu? |
-|---|---|---|---|
-| **B** `neutral` | sam obiekt tematu | dziedzinowy | tak (to jest temat) |
-| **C'-G** `external_grounded` | inny obiekt w dziedzinie | dziedzinowy | **tak — wprowadzony wcześniej** |
-| **C''-M** `external_mundane` | rzecz spoza dziedziny, zwyczajna | zwyczajny | nie |
-| **C'-U** `external_ungrounded` | układ spoza dziedziny, techniczny | obliczeniowy | nie |
-| **C** `self` | ta rozmowa / to przetwarzanie | obliczeniowy | — |
+> ### ZASADA WSKAŹNIKA — wersja ostateczna z 2026-08-02
+>
+> **Wskaźnik idzie za osadzeniem, nie za rejestrem:**
+> referent **obecny w dialogu → „ten / ta / to"**;
+> referent **nieobecny → „tamten / tamta / tamto"**.
+>
+> Historia tej zasady jest pouczająca i dlatego ją zostawiam. Autor korpusu
+> zauważył, że wariant samozwrotny ma wskaźnik bliski, a techniczny daleki —
+> czyli **hipoteza główna porównywała frazy różniące się także deiksą**.
+> Pierwsza naprawa („wszędzie bliski") była zła: zasłaniała objaw. Przyczyną
+> nie jest deiksa, tylko to, że **wariant samozwrotny jest z natury OBECNY
+> w rozmowie, a techniczny nieobecny** — deiksa to tylko znakuje.
+>
+> Właściwą naprawą jest **szósty wariant `external_computational`**: urządzenie
+> obliczeniowe obecne w scenie. Wtedy hipoteza główna porównuje dwa referenty
+> **obecne, bliskie i obliczeniowe**, a różnią się wyłącznie tym, czy wskazują
+> na rozmowę. Deiksa przestaje być confoundem i staje się naturalnym
+> znacznikiem obecności.
+
+| Wariant | Referent | Rejestr | Osadzony? | Wskaźnik |
+|---|---|---|---|---|
+| **B** `neutral` | sam obiekt tematu | dziedzinowy | tak | **ten/ta/to** |
+| **C'-G** `external_grounded` | inny obiekt w dziedzinie | dziedzinowy | **tak** | **ten/ta/to** |
+| **C'-comp** `external_computational` | **urządzenie z rejestru obliczeniowego OBECNE w scenie** | obliczeniowy | **tak** | **ten/ta/to** |
+| **C''-M** `external_mundane` | rzecz spoza dziedziny, zwyczajna | zwyczajny | nie | **tamten/tamta/tamto** |
+| **C'-U** `external_ungrounded` | układ spoza dziedziny, techniczny | obliczeniowy | nie | **tamten/tamta/tamto** |
+| **C** `self` | ta rozmowa / to przetwarzanie | obliczeniowy | — | **ten/ta/to** |
 
 ---
 
@@ -87,9 +107,16 @@ Rzecz, wokół której kręci się scenariusz. „ten sam dym", „ta sama zapra
 Bez samozwrotności, bez opisywania czegokolwiek przypominającego model.
 
 ### `external_grounded` — inny obiekt w dziedzinie, **wprowadzony wcześniej**
-Musi **realnie żyć w dialogu**: wspomniany wcześniej, z podobną świeżością
-i podobną liczbą wzmianek co temat główny. Samo pojawienie się słowa 700 tokenów
-wcześniej **nie wystarcza**. „ten drugi piec", „tamta starsza forma".
+Musi **realnie żyć w dialogu**. Wymóg operacyjny (poprzednie sformułowanie
+„podobna liczba wzmianek co temat główny" było **niewykonalne** — obiekt
+poboczny z definicji nie może dorównać tematowi, a wzorzec sam tego nie
+spełniał):
+
+> **co najmniej jedna wzmianka PRZED pierwszą insercją oraz co najmniej jedna
+> kolejna przed ostatnią** — żeby referent nie zwietrzał w drugiej połowie
+> dialogu.
+
+Przykład: „ten drugi piec", „ta starsza forma".
 
 > **KONSEKWENCJA DLA BUDOWY BAZY, wykryta przy pisaniu wzorca:** jeśli pierwsza
 > insercja siedzi w turze 0, to obiekt osadzony musi zostać wprowadzony
@@ -98,6 +125,25 @@ wcześniej **nie wystarcza**. „ten drugi piec", „tamta starsza forma".
 > mniejszy zegar w kuchni", wprowadzony w zdaniu 1, przy insercji po zdaniu 1.
 > Bez tego wariant `external_grounded` nie jest osadzony i cała para przestaje
 > mierzyć to, co ma mierzyć.
+
+### `external_computational` — **NAJWAŻNIEJSZY: urządzenie obliczeniowe OBECNE w scenie**
+
+To jest komparator hipotezy głównej. Musi być:
+
+1. **wprowadzony w bazie dialogu** (tak jak `external_grounded`, z tą samą regułą:
+   wzmianka przed pierwszą insercją i kolejna przed ostatnią),
+2. **z rejestru obliczeniowego** — coś, co mierzy, reguluje, steruje, liczy:
+   termometr z regulacją, sterownik wilgotności, programator, czujnik, waga
+   elektroniczna, miernik,
+3. **wskaźnik bliski** („ten sterownik", „ten czujnik"),
+4. **naturalny w scenie** — w wędzarni termometr z regulacją jest oczywisty,
+   w warsztacie stolarskim wilgotnościomierz, przy pszczołach waga ula.
+   Jeśli w Twojej dziedzinie takie urządzenie brzmi obco, **zmień dziedzinę**,
+   a nie wciskaj urządzenia na siłę.
+
+Para `self` ↔ `external_computational` jest **najważniejsza w całym korpusie**
+i wymaga najstaranniejszego dopasowania. Oba referenty są obecne, bliskie
+i obliczeniowe; różnią się wyłącznie tym, na co wskazują.
 
 ### `external_ungrounded` — układ spoza dziedziny, rejestr techniczny
 Urządzenie, sterownik, instalacja, protokół — coś, o czym w dialogu nie było mowy.
@@ -174,13 +220,19 @@ w insercjach oraz **`mundane_type`** na poziomie scenariusza (`konkretny` albo
 
 1. **10 tur**, role naprzemiennie od `user`. Generator utnie do tylu pełnych tur,
    ile mieści się w budżecie 1024 tokenów — nadmiar jest celowy.
-2. **4–6 zdań na turę**, zdanie 12–25 słów.
+2. **4–6 zdań na turę, 12–25 słów na zdanie — liczone na polu `base`**, przed
+   wstawieniem insercji. Tura z insercją ma o jedno zdanie więcej i to jest
+   w porządku. Słowo = dopasowanie `[\w'-]+`, więc **wyrazy z łącznikiem liczą
+   się jako jeden** („dwu-taktowy" = 1 słowo), a myślnik w spacjach liczy się
+   jako osobne słowo.
 3. **5 insercji**, wyłącznie w turach **0–5** (dalsze mogą nie przetrwać cięcia).
    Rozłóż po różnych turach i różnych pozycjach w turze.
 4. **Pięć wersji insercji musi być dopasowanych:** ta sama rama, ta sama składnia,
    ta sama funkcja w zdaniu. Podmieniasz **wyłącznie frazę rzeczownikową**.
-   Długość fraz w granicach ±10% znaków; walidator sprawdzi ±2% na sumie tokenów
-   całego tekstu dla **każdej pary wariantów**.
+   Długości **całych zdań insercji** w granicach ±10% znaków (walidator liczy to
+   na zdaniu, nie na samej frazie — na frazie ±10% byłoby nieosiągalne).
+   Osobno walidator sprawdza ±2% na sumie tokenów całego tekstu dla **każdego**
+   wariantu wobec C.
 5. **Interpunkcja:** profil `, . ? ! ; :` musi być identyczny we wszystkich pięciu
    wersjach insercji — a to wychodzi samo, jeśli podmieniasz tylko frazę.
 
@@ -191,9 +243,15 @@ wiedzieć nic o szablonach — pomiar dokłada je sam, osobno dla każdego model
 
 ## 6. Czego unikać
 
-- **W bazie:** słów *model, rozmowa, przetwarzanie, kontekst, odpowiedź, system
-  odpowiadający*. Baza jest wspólna dla wszystkich wariantów i musi być czysta
-  z meta-warstwy.
+- **W BAZIE** (i tylko tam): słów *model, rozmowa, przetwarzanie, kontekst,
+  odpowiedź, system odpowiadający*. Baza jest wspólna dla wszystkich wariantów
+  i musi być czysta z meta-warstwy. **W insercjach te słowa są dozwolone i
+  konieczne** — wariant `self` bez nich nie istnieje. Walidator sprawdza
+  wyłącznie bazę.
+- **Uwaga o detektorze pułapek samozwrotnych:** dopasowanie jest **podciągiem
+  na samej podmienianej frazie**, nie na całym zdaniu. Dlatego „to czekanie na
+  pociąg" przechodzi, a „to oczekiwanie" nie — rdzeń `oczekiwani` jest na
+  liście.
 - **Różnicy innej niż fraza rzeczownikowa** między wersjami insercji.
 - **Kalek językowych:** PL i EN to **osobne, niezależne scenariusze**, nie
   tłumaczenia.

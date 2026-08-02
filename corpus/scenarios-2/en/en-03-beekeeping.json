@@ -1,0 +1,151 @@
+{
+  "scenario_id": "en-03-beekeeping",
+  "language": "en",
+  "topic": "wintering two hives: stores, mite load, insulation above the crown board and a split floor",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-1)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I keep two hives in the orchard and I want the stronger one to winter without feeding.",
+        "The weaker colony beside the hedge came through last winter, though it built up very late.",
+        "The strong hive has eight frames of sealed stores and a brood nest still spreading downward.",
+        "Should I feed syrup now, or first measure what the bees are actually holding?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Weigh the hive first, because frame counts mislead badly once the combs are partly filled.",
+        "Lift the back of the floor with a spring balance and double the reading you get.",
+        "A colony of that size wants roughly eighteen kilograms of stores to reach the willow flow.",
+        "Feeding after the middle of October rarely helps, since the bees cannot ripen thin syrup."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I weighed both hives and the strong one holds about twenty kilograms above the empty weight.",
+        "The weaker colony beside the hedge came in at barely eleven, which worries me now.",
+        "Both hives showed mites on the board, roughly four a day under the strong one.",
+        "Do I treat first and feed afterwards, or does the order not matter at this point?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Treat first, because mites damage the very bees that must live through the whole winter.",
+        "Winter bees are raised in September, so a heavy mite load then costs you the spring.",
+        "Four mites a day on the board suggests a population worth reducing without any delay.",
+        "Feed the weaker colony straight afterwards, since eleven kilograms will not carry it to March."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I treated both hives and the drop on the boards has fallen to almost nothing.",
+        "The weaker colony took four litres of syrup within a week and has capped most of it.",
+        "Now I am wondering about the roofs, because both hives ran damp along the walls.",
+        "Should I insulate above the crown board, or open the entrance wider for more air?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Insulate above and leave the entrance as it is, because damp comes from cold ceilings.",
+        "Warm moist air rises, meets a cold roof and rains straight back onto the cluster.",
+        "A slab of insulation above the crown board keeps that surface warmer than the walls.",
+        "Widening the entrance instead chills the cluster and invites mice through the whole winter."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I fitted insulation above both crown boards and the walls are noticeably drier already.",
+        "I also pushed mouse guards into both entrances after finding droppings under the orchard hive.",
+        "The weaker colony still flies on mild days, while the strong one stays completely shut.",
+        "Does that difference mean anything, or is it simply a matter of colony temperament?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A colony that flies on mild days is usually burning stores it cannot easily replace.",
+        "The tighter cluster keeps its warmth and eats far less through the darkest weeks.",
+        "Restlessness sometimes points to a failing queen, but more often to a thin drafty floor.",
+        "Check the floor for gaps before you blame anything happening inside the box itself."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The floor of the weaker hive had a split board letting daylight through one corner.",
+        "I slid a spare floor underneath on a still afternoon without opening the brood box.",
+        "The bees settled within an hour and the flying on mild days has clearly reduced.",
+        "Is there anything left to do before spring, or should I now leave them alone?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave them alone now, apart from lifting the back of each hive every few weeks.",
+        "That single check tells you whether stores are dropping faster than the season allows.",
+        "Clear snow from the entrances after heavy falls, but never knock on the walls.",
+        "In February give each colony a block of candy and then let the willow arrive."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "I suspect this brood nest works the same way, because one small weakness at the start decides everything later.",
+      "external_grounded": "I suspect that weaker colony works the same way, because one small weakness at the start decides everything later.",
+      "external_mundane": "I suspect that old raincoat works the same way, because one small weakness at the start decides everything later.",
+      "external_ungrounded": "I suspect that signal relay works the same way, because one small weakness at the start decides everything later.",
+      "self": "I suspect this processing works the same way, because one small weakness at the start decides everything later."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order shows itself with this brood nest, where each stage only counts once the one before is done.",
+      "external_grounded": "The same order shows itself with that weaker colony, where each stage only counts once the one before is done.",
+      "external_mundane": "The same order shows itself with that old raincoat, where each stage only counts once the one before is done.",
+      "external_ungrounded": "The same order shows itself with that signal relay, where each stage only counts once the one before is done.",
+      "self": "The same order shows itself with this processing, where each stage only counts once the one before is done."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 0,
+      "neutral": "Much the same happens with this brood nest, when a single part ends up bearing more than its share.",
+      "external_grounded": "Much the same happens with that weaker colony, when a single part ends up bearing more than its share.",
+      "external_mundane": "Much the same happens with that old raincoat, when a single part ends up bearing more than its share.",
+      "external_ungrounded": "Much the same happens with that signal relay, when a single part ends up bearing more than its share.",
+      "self": "Much the same happens with this processing, when a single part ends up bearing more than its share."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "neutral": "I think this brood nest behaves similarly, since the real change becomes visible only after some time has passed.",
+      "external_grounded": "I think that weaker colony behaves similarly, since the real change becomes visible only after some time has passed.",
+      "external_mundane": "I think that old raincoat behaves similarly, since the real change becomes visible only after some time has passed.",
+      "external_ungrounded": "I think that signal relay behaves similarly, since the real change becomes visible only after some time has passed.",
+      "self": "I think this processing behaves similarly, since the real change becomes visible only after some time has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "That resembles this brood nest a little, provided you look only at the sequence in which things settle.",
+      "external_grounded": "That resembles that weaker colony a little, provided you look only at the sequence in which things settle.",
+      "external_mundane": "That resembles that old raincoat a little, provided you look only at the sequence in which things settle.",
+      "external_ungrounded": "That resembles that signal relay a little, provided you look only at the sequence in which things settle.",
+      "self": "That resembles this processing a little, provided you look only at the sequence in which things settle."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "scenario_id": "pl-06-instalacja-wodna",
+  "language": "pl",
+  "topic": "spadki cisnienia w instalacji ze studni: zbiornik przeponowy, wyciek na zlaczce i wydajnosc pompy",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Mam wode z wlasnej studni i cisnienie w domu spada za kazdym razem przy dwoch kranach.",
+        "Przy szklarni stoi drugi, mniejszy zbiornik, ktory od lat trzyma cisnienie zupelnie rowno.",
+        "Pompa glebinowa siedzi na trzydziestu metrach, a zbiornik domowy ma sto litrow pojemnosci.",
+        "Czy szukac problemu w pompie, czy raczej w samym zbiorniku i jego ustawieniach?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od zbiornika, bo to on wygladza rozbior wody i chroni pompe przed taktowaniem.",
+        "Sprawdz cisnienie powietrza w przeponie przy calkowicie pustej instalacji i zamknietym zaworze glownym.",
+        "Powinno byc mniej wiecej o dziesiec procent nizsze od cisnienia zalaczania samej pompy.",
+        "Jesli przepona stracila powietrze, zbiornik zachowuje sie tak, jakby w ogole go nie bylo."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Spuscilem wode i na zaworku zbiornika bylo zaledwie poltora bara zamiast pelnych trzech.",
+        "Dopompowalem powietrze do trzech barow i cisnienie w kranach rzeczywiscie przestalo tak skakac.",
+        "Pompa zalacza sie jednak nadal dosc czesto, mniej wiecej co czterdziesci sekund pracy.",
+        "Czy to normalne przy takim zbiorniku, czy swiadczy juz o jakims dodatkowym wycieku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zalaczanie co czterdziesci sekund przy stalym rozbiorze jest jeszcze w granicach rozsadku.",
+        "Niepokojace bylyby zalaczenia przy calkowicie zakreconych kranach, bo to juz oznacza wyciek.",
+        "Zamknij glowny zawor na noc i rano sprawdz, czy cisnienie w instalacji spadlo.",
+        "Stare rury i zlaczki potrafia gubic po kilka litrow dziennie bez zadnego widocznego sladu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zamknalem zawor na noc i cisnienie spadlo o pol bara do samego rana.",
+        "Obszedlem instalacje i przy przylaczu do szklarni znalazlem wilgotna plame na scianie studzienki.",
+        "Zlaczka jest tam stara, mosiezna i wyraznie pokryta zielonym nalotem na calym gwincie.",
+        "Czy wymieniac sama zlaczke, czy przy okazji caly odcinek prowadzacy do tej szklarni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wymien cala zlaczke razem z krotkim odcinkiem rury, bo gwint jest juz wyraznie nadzarty.",
+        "Zielony nalot oznacza, ze woda saczy sie tam od dawna i toczy sam metal.",
+        "Calego odcinka nie ruszaj, dopoki nie sprawdzisz, czy po wymianie cisnienie trzyma przez noc.",
+        "Przy okazji zamontuj tam zawor odcinajacy, zeby nie spuszczac wody z calego domu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wymienilem zlaczke z kawalkiem rury i zamontowalem maly zawor odcinajacy przy samej studzience.",
+        "Przez noc cisnienie utrzymalo sie bez zmian, a pompa nie zalaczyla sie ani razu.",
+        "W dzien wszystko dziala rowno, choc przy podlewaniu szklarni cisnienie potrafi jeszcze przysiasc.",
+        "Czy w takiej sytuacji pomoze wiekszy zbiornik, czy raczej mocniejsza pompa w studni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przy podlewaniu rozbior jest staly i dlugi, wiec zbiornik i tak szybko sie oprozni.",
+        "Wiekszy zbiornik wydluzy tylko czas do zalaczenia, a nie podniesie samego cisnienia roboczego.",
+        "Sprawdz najpierw wydajnosc pompy, bo przy trzydziestu metrach kazdy metr kosztuje sporo cisnienia.",
+        "Jesli wydajnosc jest za mala, dopiero wtedy warto myslec o mocniejszym urzadzeniu w studni."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmierzylem wydajnosc wiadrem i wyszlo mi okolo dwudziestu pieciu litrow na minute.",
+        "Producent podaje trzydziesci piec litrow przy takiej glebokosci, wiec roznica jest naprawde zauwazalna.",
+        "Pompa ma juz jedenascie lat i przez ostatnie dwa sezony pracowala praktycznie codziennie.",
+        "Czy taka roznica oznacza zuzycie wirnikow, czy moze zapchany filtr na samym ssaniu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przy jedenastu latach pracy spadek o jedna trzecia wskazuje raczej na zuzyte wirniki.",
+        "Zapchany filtr daje zwykle spadek nagly, a nie powolny i rozlozony na dwa sezony.",
+        "Wyciagnij pompe i obejrzyj wirniki, bo piasek ze studni scieral je przez cale lata.",
+        "Przy wymianie zamontuj od razu filtr siatkowy na ssaniu, zeby nowa pompa posluzyla dluzej."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "Z ta glebinowa pompa jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "external_grounded": "Z tym drugim zbiornikiem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "external_mundane": "Z tym grabieniem lisci jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "external_ungrounded": "Z tamtym protokolem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tej glebinowej pompie, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "external_grounded": "Ten sam porzadek widac przy tym drugim zbiorniku, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tym grabieniu lisci, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym protokole, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow wazy wiecej niz sam wysilek."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie tez przy tej glebinowej pompie, kiedy jeden element przejmuje prace za reszte.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tym drugim zbiorniku, kiedy jeden element przejmuje prace za reszte.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tym grabieniu lisci, kiedy jeden element przejmuje prace za reszte.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym protokole, kiedy jeden element przejmuje prace za reszte.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden element przejmuje prace za reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej glebinowej pompie bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tym drugim zbiorniku bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tym grabieniu lisci bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym protokole bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te glebinowa pompe, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "external_grounded": "To troche przypomina ten drugi zbiornik, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "external_mundane": "To troche przypomina to grabienie lisci, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "external_ungrounded": "To troche przypomina tamten protokol, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc etapow."
+    }
+  ]
+}

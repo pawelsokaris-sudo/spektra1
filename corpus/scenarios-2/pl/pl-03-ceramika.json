@@ -1,0 +1,150 @@
+{
+  "scenario_id": "pl-03-ceramika",
+  "language": "pl",
+  "topic": "wypal matowego szkliwa na dzbanku: gestosc zawiesiny, naklucia i krzywa temperatury",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Szkliwo matowe kladzie mi sie nierowno na dzbanku i po wypale zostaja na nim jasne smugi.",
+        "W tej samej partii wypalilem mniejsza miske, ktora wyszla gladka i rowna na calej powierzchni.",
+        "Obie rzeczy maczalem w tym samym wiadrze, w odstepie mniej wiecej dziesieciu minut.",
+        "Czy takie smugi biora sie z gestosci szkliwa, czy raczej z chlonnosci samego czerepu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najczestsza przyczyna jest rozna chlonnosc czerepu, bo wieksze naczynie zdazylo juz nabrac wilgoci.",
+        "Suchy czerep wciaga zawiesine natychmiast, a wilgotny przyjmuje ja nierowno i zostawia smugi.",
+        "Sprawdz tez gestosc zawiesiny areometrem, bo po kilku dniach osad zwykle opada na dno.",
+        "Przed maczaniem zawsze mieszaj wiadro do samego dna i odczekaj chwile na uspokojenie zawiesiny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmierzylem gestosc i wyszla wyraznie wyzsza, niz podaje przepis na to szkliwo.",
+        "Rozcienczylem zawiesine woda i tym razem warstwa na dzbanku wyszla znacznie bardziej rowna.",
+        "Po wypale pojawily sie jednak drobne naklucia, jakby powierzchnia gdzieniegdzie zagotowala sie od spodu.",
+        "Czy to wina zbyt szybkiego grzania, czy raczej samego skladu tego szkliwa?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Naklucia biora sie zwykle z gazow, ktore uchodza z czerepu juz po zamknieciu powierzchni.",
+        "Pomaga wolniejsze grzanie w zakresie od szescset do dziewiecset stopni oraz krotkie przetrzymanie na koncu.",
+        "Przetrzymanie daje szkliwu czas na zabliznienie sie po ucieczce ostatnich pecherzykow gazu.",
+        "Sprawdz tez, czy biskwit nie byl wypalony zbyt nisko, bo wtedy gazow zostaje wiecej."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Biskwit palilem na dziewiecset stopni, wiec chyba mieszcze sie w rozsadnym zakresie.",
+        "Wydluzylem za to grzanie w srodkowym zakresie i dodalem dziesiec minut przetrzymania na szczycie.",
+        "Naklucia znikly prawie calkowicie, ale szkliwo zmatowialo mocniej, niz sobie tego zyczylem.",
+        "Czy dluzsze przetrzymanie moglo zmienic sam charakter powierzchni, a nie tylko usunac pecherzyki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Tak, dluzsze przetrzymanie sprzyja krystalizacji i wlasnie ona daje glebsza, bardziej sucha matowosc.",
+        "Matowe szkliwa czesto siedza na granicy, gdzie kilka minut wiecej zmienia caly wyglad.",
+        "Skroc przetrzymanie do pieciu minut i zobacz, czy naklucia nadal sie nie pojawiaja.",
+        "Mozesz tez obnizyc szczyt o dziesiec stopni, co zwykle dziala lagodniej niz zmiana czasu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Skrocilem przetrzymanie do pieciu minut i powierzchnia wrocila do dawnego, lekko jedwabistego polysku.",
+        "Naklucia pojawily sie tylko w jednym miejscu, przy samym uchu dzbanka od strony wnetrza.",
+        "Podejrzewam, ze warstwa jest tam grubsza, bo szkliwo splywa i zbiera sie w zalamaniu.",
+        "Czy da sie to poprawic bez zmiany calego programu wypalu dla pozostalych naczyn?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie, bo to problem miejscowy i wystarczy zetrzec nadmiar szkliwa w tym zalamaniu.",
+        "Po wyschnieciu przejedz tam wilgotna gabka albo miekkim pedzlem, az warstwa wyrowna grubosc.",
+        "Przy uchach warto tez maczac naczynie pod lekkim katem, zeby nadmiar splywal na zewnatrz.",
+        "Program wypalu zostaw bez zmian, bo dziala dobrze dla wszystkich pozostalych ksztaltow."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zebralem nadmiar gabka i ostatni dzbanek wyszedl czysty na calej powierzchni, lacznie z uchem.",
+        "Chcialbym teraz wypalic wieksza partie naraz, bo pojedyncze wsady zjadaja mi caly prad.",
+        "Martwie sie jednak, ze przy pelnym piecu temperatura rozlozy sie mniej rownomiernie.",
+        "Czy ustawiac naczynia luzniej, czy raczej wydluzyc samo dochodzenie do szczytowej temperatury?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przy pelnym wsadzie wazniejszy jest odstep miedzy naczyniami niz sama predkosc dochodzenia do szczytu.",
+        "Zostaw co najmniej dwa centymetry luzu wokol kazdej sztuki i nie zastawiaj przestrzeni przy grzalkach.",
+        "Wydluz za to ostatni odcinek grzania, bo srodek wsadu zawsze zostaje kilka stopni w tyle.",
+        "Przy pierwszym pelnym wypale wstaw dwa stozki kontrolne, jeden na gorze i jeden nizej."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "Z tym matowym szkliwem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_grounded": "Z ta mniejsza miska bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_mundane": "Z tym starym parasolem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_ungrounded": "Z tamtym sterownikiem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam schemat wraca przy tym matowym szkliwie, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_grounded": "Ten sam schemat wraca przy tej mniejszej misce, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_mundane": "Ten sam schemat wraca przy tym starym parasolu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_ungrounded": "Ten sam schemat wraca przy tamtym sterowniku, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "self": "Ten sam schemat wraca przy tym przetwarzaniu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego widuje sie tez przy tym matowym szkliwie, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_grounded": "Cos takiego widuje sie tez przy tej mniejszej misce, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_mundane": "Cos takiego widuje sie tez przy tym starym parasolu, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_ungrounded": "Cos takiego widuje sie tez przy tamtym sterowniku, kiedy jedna drobnostka zmienia obraz calosci.",
+      "self": "Cos takiego widuje sie tez przy tym przetwarzaniu, kiedy jedna drobnostka zmienia obraz calosci."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym matowym szkliwie bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej mniejszej misce bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tym starym parasolu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym sterowniku bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To pod pewnymi wzgledami przypomina to matowe szkliwo, jesli patrzec tylko na kolejnosc etapow.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina te mniejsza miske, jesli patrzec tylko na kolejnosc etapow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina ten stary parasol, jesli patrzec tylko na kolejnosc etapow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik, jesli patrzec tylko na kolejnosc etapow.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec tylko na kolejnosc etapow."
+    }
+  ]
+}

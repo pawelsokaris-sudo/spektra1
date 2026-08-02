@@ -1,0 +1,150 @@
+{
+  "scenario_id": "pl-02-stolarka",
+  "language": "pl",
+  "topic": "sklejanie debowego blatu kuchennego: wilgotnosc desek, spoiny i wyrownywanie powierzchni",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Sklejam blat kuchenny z szesciu debowych desek i chcialbym uniknac wybrzuszenia juz po pierwszej zimie.",
+        "W warsztacie wisi jeszcze starsza polka z tego samego debu, ktora sklejalem dwa lata temu.",
+        "Deski maja rozny uklad slojow, a dwie z nich wyraznie ciagna w strone lica.",
+        "Czy ustawiac je naprzemiennie slojami, czy raczej dobierac deski o mozliwie podobnym rysunku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Naprzemienny uklad slojow rzeczywiscie ogranicza wypaczanie, ale sam w sobie nie wystarczy przy szerokim blacie.",
+        "Wazniejsze jest, zeby wszystkie deski mialy identyczna wilgotnosc, bo to ona decyduje o pozniejszej pracy drewna.",
+        "Zmierz wilgotnosciomierzem kazda deske osobno i odloz te, ktore odstaja od reszty o kilka procent.",
+        "Dopiero potem dobieraj rysunek slojow, bo estetyka jest tu sprawa wtorna wobec samej stabilnosci."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmierzylem wilgotnosc i dwie deski mialy o cztery procent wiecej niz pozostale cztery sztuki.",
+        "Odlozylem je na bok i zostawilem w warsztacie na dwa tygodnie do wyrownania.",
+        "Reszte skleilem na wpusty, ale spoina przy jednej desce wyszla ciemniejsza i lekko wklesla.",
+        "Czy taka spoina oznacza za maly docisk, czy raczej nadmiar kleju w tym miejscu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciemniejsza i wklesla spoina to zwykle znak, ze klej wsiakl w drewno przed dociskiem.",
+        "Przy debie liczy sie czas otwarty kleju, bo pory chlona go szybciej niz w miekkim drewnie.",
+        "Nakladaj cieniej, ale rownomiernie, i sciskaj najpozniej pare minut po rozprowadzeniu warstwy.",
+        "Docisk ma byc rowny na calej dlugosci, inaczej srodek blatu zawsze wyjdzie slabszy."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przekleilem wadliwa spoine cieniej rozprowadzonym klejem i tym razem wyszla rowna na calej dlugosci.",
+        "Blat lezy teraz plasko, ale przy krawedziach czuc delikatne uskoki miedzy sasiednimi deskami.",
+        "Chcialbym wyrownac powierzchnie recznie, bo nie mam dostepu do szerokiej szlifierki tasmowej.",
+        "Od czego zaczac, zeby nie zebrac zbyt wiele materialu z samego srodka blatu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od zaznaczenia olowkiem calej powierzchni, bo dzieki temu zobaczysz, gdzie faktycznie zbierasz material.",
+        "Pracuj strugiem w poprzek slojow, a dopiero na koniec wzdluz, delikatnymi i plytkimi ruchami.",
+        "Uskoki znikna szybciej, niz sadzisz, bo maja zwykle mniej niz dziesiata czesc milimetra.",
+        "Kontroluj plaskosc dluga listwa, przykladajac ja co jakis czas w kilku roznych kierunkach."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Struganie poszlo lepiej, niz sie spodziewalem, i uskoki zeszly juz po kilkunastu minutach pracy.",
+        "Listwa pokazuje jednak lekkie zaglebienie mniej wiecej w polowie szerokosci calego blatu.",
+        "Boje sie, ze przy dalszym struganiu zrobie z tego wyrazna niecke na srodku blatu.",
+        "Czy w takim wypadku lepiej odpuscic i przejsc od razu do szlifowania papierem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zaglebienie w polowie szerokosci to typowy skutek pracy strugiem od srodka ku brzegom.",
+        "Odpusc struganie srodka i skup sie wylacznie na obnizeniu obszarow wokol niego.",
+        "Papier scierny wyrownuje wolniej i chetnie kopiuje istniejacy ksztalt, wiec sam niecki nie usunie.",
+        "Uzyj dlugiej packi z papierem, bo tylko dluga baza wyrownuje powierzchnie zamiast ja odwzorowywac."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zrobilem dluga packe z prostej listwy i po kwadransie zaglebienie praktycznie przestalo byc wyczuwalne.",
+        "Blat wyglada teraz rowno, choc drewno w kilku miejscach chlonie olej wyraznie szybciej.",
+        "Zastanawiam sie, czy olejowac go ciepla warstwa, czy raczej kilkoma cienkimi na zimno.",
+        "Blat bedzie codziennie mokry, wiec zalezy mi na trwalosci bardziej niz na wygladzie."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przy blacie kuchennym lepiej sprawdza sie kilka cienkich warstw oleju nakladanych w odstepach.",
+        "Kazda warstwa ma wsiaknac i wyschnac do konca, zanim polozysz na niej nastepna.",
+        "Miejsca, ktore chlona szybciej, po prostu przyjma wiecej oleju przy pierwszych dwoch przejsciach.",
+        "Po tygodniu powtorz jedna warstwe i potem odswiezaj powloke mniej wiecej dwa razy w roku."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "Z tym debowym blatem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "external_grounded": "Z ta starsza polka jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "external_mundane": "Z tym sprzataniem strychu jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym debowym blacie, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "external_grounded": "Ten sam porzadek widac przy tej starszej polce, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "external_mundane": "Ten sam porzadek widac przy tym sprzataniu strychu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym regulatorze, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Cos podobnego zdarza sie tez przy tym debowym blacie, kiedy jeden szczegol przesadza o calym efekcie.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tej starszej polce, kiedy jeden szczegol przesadza o calym efekcie.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tym sprzataniu strychu, kiedy jeden szczegol przesadza o calym efekcie.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym regulatorze, kiedy jeden szczegol przesadza o calym efekcie.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden szczegol przesadza o calym efekcie."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 1,
+      "neutral": "Przy tym debowym blacie bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej starszej polce bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tym sprzataniu strychu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym regulatorze bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten debowy blat, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "external_grounded": "To troche przypomina te starsza polke, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "external_mundane": "To troche przypomina to sprzatanie strychu, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "external_ungrounded": "To troche przypomina tamten regulator, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych krokow."
+    }
+  ]
+}

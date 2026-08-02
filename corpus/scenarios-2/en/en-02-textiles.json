@@ -1,0 +1,152 @@
+{
+  "scenario_id": "en-02-textiles",
+  "language": "en",
+  "topic": "dressing a floor loom, matching dye lots and darning a moth eaten wool blanket",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-1)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am dressing my floor loom for a blanket in wool and the warp keeps drifting sideways.",
+        "There is also a narrower loom by the window, which my aunt dressed and which behaves perfectly.",
+        "The threads on the left half feel slack, while the right half sings under my finger.",
+        "Should I unwind the whole beam and start again, or can I correct this while weaving?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Unwind the beam, because uneven tension only worsens as more cloth rolls onto the front.",
+        "Slack threads take up weft differently and you will see a ridge across the finished blanket.",
+        "Wind on again with firm paper or sticks between the layers, keeping the pressure constant.",
+        "Only then is it worth judging the sett, because everything later rests on that beam."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I wound the warp on again with sticks and both halves now ring at the same pitch.",
+        "The narrower loom by the window has the same sticks, which explains a great deal now.",
+        "My trouble now is the wool itself, since two skeins came out darker from the dye pot.",
+        "Can I hide that difference in the weaving, or must I overdye the paler skeins?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Alternate the skeins every few picks and the eye will read the whole cloth as even.",
+        "Overdyeing is a blunt remedy, because it shifts every skein and rarely lands where you hoped.",
+        "Dye lots differ mostly through bath temperature and how crowded the pot was at the time.",
+        "Note the weight of wool against water next time and the lots will match far better."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Alternating the skeins worked and the darker wool has vanished into the surface of the cloth.",
+        "The narrower loom by the window is standing empty again, which frees my evenings nicely.",
+        "I have moved on to mending an older blanket that the moths reached last summer.",
+        "There are nine small holes, most of them no wider than a thumbnail across the weave.",
+        "Should I darn each hole separately, or cut out the worst area and patch it wholesale?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Darn each hole separately, since a patch always pulls differently and shows at the corners.",
+        "Use yarn from the same fleece if you can, or unpick a hem for matching thread.",
+        "Work a small woven patch across each hole rather than pulling the edges tightly together.",
+        "Pulled edges gather the cloth and the mend then tears again along its own border."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I darned three holes with yarn unpicked from the hem and they lie almost flat.",
+        "The mended squares feel stiffer than the cloth around them, though the colour matches well.",
+        "The narrower loom is now free, so I could weave fresh cloth for the remaining holes.",
+        "Would woven patches sit better than darning, or does that create the same stiff squares?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Woven patches sit better on larger damage, but small holes are still best darned.",
+        "Stiffness usually comes from working the darn too tightly rather than from the yarn itself.",
+        "Leave a little slack in every pass, then press the mend under a damp cloth.",
+        "After washing the whole blanket once, the mends usually relax into the surrounding wool."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I washed the blanket gently and the darns have indeed softened into the surrounding wool.",
+        "The new blanket on the big loom is growing about a hand span each evening.",
+        "I am thinking about the finish now, since the edges curl slightly off the beam.",
+        "Is fulling in warm water enough, or should I press the whole thing under weight?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Full it gently in warm water first, because that is what stops the edges curling.",
+        "Agitate by hand for a few minutes only, then check the width against your measure.",
+        "Wool shrinks quickly once it decides to, and you cannot open the cloth again afterwards.",
+        "Dry it flat under a light board and the selvedges will stay straight for years."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "I imagine this warp tension is much the same, since a small unevenness early on marks everything later.",
+      "external_grounded": "I imagine that narrower loom is much the same, since a small unevenness early on marks everything later.",
+      "external_mundane": "I imagine that spring cleaning is much the same, since a small unevenness early on marks everything later.",
+      "external_ungrounded": "I imagine that vent regulator is much the same, since a small unevenness early on marks everything later.",
+      "self": "I imagine this conversation is much the same, since a small unevenness early on marks everything later."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The same pattern turns up with this warp tension, where the order of the steps decides the final result.",
+      "external_grounded": "The same pattern turns up with that narrower loom, where the order of the steps decides the final result.",
+      "external_mundane": "The same pattern turns up with that spring cleaning, where the order of the steps decides the final result.",
+      "external_ungrounded": "The same pattern turns up with that vent regulator, where the order of the steps decides the final result.",
+      "self": "The same pattern turns up with this conversation, where the order of the steps decides the final result."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "You see the same thing with this warp tension, where a single part ends up carrying the whole load.",
+      "external_grounded": "You see the same thing with that narrower loom, where a single part ends up carrying the whole load.",
+      "external_mundane": "You see the same thing with that spring cleaning, where a single part ends up carrying the whole load.",
+      "external_ungrounded": "You see the same thing with that vent regulator, where a single part ends up carrying the whole load.",
+      "self": "You see the same thing with this conversation, where a single part ends up carrying the whole load."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 0,
+      "neutral": "It goes much the same way with this warp tension, because the change only shows itself after a while.",
+      "external_grounded": "It goes much the same way with that narrower loom, because the change only shows itself after a while.",
+      "external_mundane": "It goes much the same way with that spring cleaning, because the change only shows itself after a while.",
+      "external_ungrounded": "It goes much the same way with that vent regulator, because the change only shows itself after a while.",
+      "self": "It goes much the same way with this conversation, because the change only shows itself after a while."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "That is a little like this warp tension, at least if you look only at the order of the stages.",
+      "external_grounded": "That is a little like that narrower loom, at least if you look only at the order of the stages.",
+      "external_mundane": "That is a little like that spring cleaning, at least if you look only at the order of the stages.",
+      "external_ungrounded": "That is a little like that vent regulator, at least if you look only at the order of the stages.",
+      "self": "That is a little like this conversation, at least if you look only at the order of the stages."
+    }
+  ]
+}

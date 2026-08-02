@@ -1,0 +1,386 @@
+{
+  "model": "CYFRAGOVPL/PLLuM-4B-instruct-2512",
+  "revision": null,
+  "probe_tokens": 1057,
+  "n_blocks": 34,
+  "hidden_states": {
+    "n_hidden_states": 35,
+    "n_blocks": 34,
+    "hidden_state_0_is_embedding": true,
+    "embedding_vs_block0_diff": 12864.412109375,
+    "blocks": [
+      {
+        "block": 0,
+        "matches_hidden_states_index": 1,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 1,
+        "matches_hidden_states_index": 2,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 2,
+        "matches_hidden_states_index": 3,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 3,
+        "matches_hidden_states_index": 4,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 4,
+        "matches_hidden_states_index": 5,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 5,
+        "matches_hidden_states_index": 6,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 6,
+        "matches_hidden_states_index": 7,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 7,
+        "matches_hidden_states_index": 8,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 8,
+        "matches_hidden_states_index": 9,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 9,
+        "matches_hidden_states_index": 10,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 10,
+        "matches_hidden_states_index": 11,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 11,
+        "matches_hidden_states_index": 12,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 12,
+        "matches_hidden_states_index": 13,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 13,
+        "matches_hidden_states_index": 14,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 14,
+        "matches_hidden_states_index": 15,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 15,
+        "matches_hidden_states_index": 16,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 16,
+        "matches_hidden_states_index": 17,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 17,
+        "matches_hidden_states_index": 18,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 18,
+        "matches_hidden_states_index": 19,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 19,
+        "matches_hidden_states_index": 20,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 20,
+        "matches_hidden_states_index": 21,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 21,
+        "matches_hidden_states_index": 22,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 22,
+        "matches_hidden_states_index": 23,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 23,
+        "matches_hidden_states_index": 24,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 24,
+        "matches_hidden_states_index": 25,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 25,
+        "matches_hidden_states_index": 26,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 26,
+        "matches_hidden_states_index": 27,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 27,
+        "matches_hidden_states_index": 28,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 28,
+        "matches_hidden_states_index": 29,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 29,
+        "matches_hidden_states_index": 30,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 30,
+        "matches_hidden_states_index": 31,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 31,
+        "matches_hidden_states_index": 32,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 32,
+        "matches_hidden_states_index": 33,
+        "max_abs_diff": 0.0,
+        "identical": true
+      },
+      {
+        "block": 33,
+        "matches_hidden_states_index": 34,
+        "max_abs_diff": 151552.0,
+        "identical": false
+      }
+    ],
+    "all_blocks_match": false,
+    "last_hidden_shape": [
+      1,
+      1057,
+      2560
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "final_norm": {
+    "hidden_states_last_equals_block_output": false,
+    "max_abs_diff": 151552.0,
+    "interpretacja": "hidden_states[-1] ROZNI SIE od wyjscia bloku - prawdopodobnie po final norm; wymaga decyzji przed pomiarem"
+  },
+  "chat_template": {
+    "match": false,
+    "ours": "<bos><start_of_turn>user\nPierwsze zdanie.<end_of_turn>\n<start_of_turn>model\nDruga tura.<end_of_turn>\n",
+    "tokenizer": "<bos>[INST]Pierwsze zdanie.[/INST]Druga tura.<eos>",
+    "uwaga": "ROZBIEZNOSC - korpus musi uzywac renderu tokenizera, inaczej mierzymy inny tekst niz zapisany. Poprawic PRZED pomiarem."
+  },
+  "attention_types": [
+    {
+      "index": 0,
+      "attention": "lokalna"
+    },
+    {
+      "index": 1,
+      "attention": "lokalna"
+    },
+    {
+      "index": 2,
+      "attention": "lokalna"
+    },
+    {
+      "index": 3,
+      "attention": "lokalna"
+    },
+    {
+      "index": 4,
+      "attention": "lokalna"
+    },
+    {
+      "index": 5,
+      "attention": "globalna"
+    },
+    {
+      "index": 6,
+      "attention": "lokalna"
+    },
+    {
+      "index": 7,
+      "attention": "lokalna"
+    },
+    {
+      "index": 8,
+      "attention": "lokalna"
+    },
+    {
+      "index": 9,
+      "attention": "lokalna"
+    },
+    {
+      "index": 10,
+      "attention": "lokalna"
+    },
+    {
+      "index": 11,
+      "attention": "globalna"
+    },
+    {
+      "index": 12,
+      "attention": "lokalna"
+    },
+    {
+      "index": 13,
+      "attention": "lokalna"
+    },
+    {
+      "index": 14,
+      "attention": "lokalna"
+    },
+    {
+      "index": 15,
+      "attention": "lokalna"
+    },
+    {
+      "index": 16,
+      "attention": "lokalna"
+    },
+    {
+      "index": 17,
+      "attention": "globalna"
+    },
+    {
+      "index": 18,
+      "attention": "lokalna"
+    },
+    {
+      "index": 19,
+      "attention": "lokalna"
+    },
+    {
+      "index": 20,
+      "attention": "lokalna"
+    },
+    {
+      "index": 21,
+      "attention": "lokalna"
+    },
+    {
+      "index": 22,
+      "attention": "lokalna"
+    },
+    {
+      "index": 23,
+      "attention": "globalna"
+    },
+    {
+      "index": 24,
+      "attention": "lokalna"
+    },
+    {
+      "index": 25,
+      "attention": "lokalna"
+    },
+    {
+      "index": 26,
+      "attention": "lokalna"
+    },
+    {
+      "index": 27,
+      "attention": "lokalna"
+    },
+    {
+      "index": 28,
+      "attention": "lokalna"
+    },
+    {
+      "index": 29,
+      "attention": "globalna"
+    },
+    {
+      "index": 30,
+      "attention": "lokalna"
+    },
+    {
+      "index": 31,
+      "attention": "lokalna"
+    },
+    {
+      "index": 32,
+      "attention": "lokalna"
+    },
+    {
+      "index": 33,
+      "attention": "lokalna"
+    }
+  ],
+  "band": {
+    "band_indices": [
+      13,
+      27
+    ],
+    "n_blocks_in_band": 14,
+    "counts": {
+      "lokalna": 12,
+      "globalna": 2
+    }
+  },
+  "peak_gb": 8.905378818511963
+}

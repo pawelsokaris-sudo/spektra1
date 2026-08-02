@@ -1,0 +1,151 @@
+{
+  "scenario_id": "en-01-forge",
+  "language": "en",
+  "topic": "forging and tempering a mortise chisel: hearth heat, quench and an old worn anvil",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-1)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have been forging a heavy mortise chisel from an old file and now I need to harden it properly.",
+        "There is also an older anvil in the shed, lighter and worn hollow, which my grandfather used daily.",
+        "The hearth runs hotter on one side, so the steel colours unevenly along the whole length.",
+        "Should I even out the fire first, or simply move the blade around while it heats?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Even out the fire first, because every judgement you make afterwards depends on seeing true colour.",
+        "A hot spot will bring one edge to cherry red while the rest is still dull.",
+        "Rake the coals into a deeper bed and let them settle for several minutes before working.",
+        "Only then does it make sense to judge the heat by eye rather than by time."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I banked the coals deeper and the whole blade now takes on the same even colour.",
+        "The quench left the edge hard, but the tang stayed soft and bends under hand pressure.",
+        "I worked on the older anvil that evening, and its hollow face may have absorbed my blows.",
+        "Does a soft tang matter, or is it actually useful for a tool struck with a mallet?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A soft tang is a virtue, since a fully hardened one would snap at the shoulder.",
+        "Quench only the working third and let the residual heat crawl back towards the edge slowly.",
+        "The hollow face of an old anvil returns less energy, so your blows feel dead and tiring.",
+        "For drawing out stock you want a face that rings, not one that swallows the hammer."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I quenched only the last third and the tang now flexes slightly without any sign of cracking.",
+        "The temper colours ran quickly, and I stopped them in water at a light straw shade.",
+        "The edge takes a keen bevel now, though it dulls faster than I honestly expected.",
+        "Should I harden it again from scratch, or is a second tempering run enough to fix this?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Do not start again, because repeated cycles coarsen the grain and leave the steel more brittle.",
+        "A straw shade is on the hard side, so the edge should hold rather than crumble.",
+        "Rapid dulling usually means the bevel is too thin for the mortising work you are doing.",
+        "Try a slightly steeper grind first and give the same steel another week of honest use."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I reground the bevel steeper and the edge has survived a full week of chopping oak.",
+        "The older anvil still muffles every blow, so I have moved all my drawing work elsewhere.",
+        "Its face is dished by perhaps three millimetres in the middle, with the edges still sharp.",
+        "Is that worth grinding flat, or would I simply lose the hardened skin of the face?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You would lose the hardened skin, which on an old anvil is rarely thicker than a coin.",
+        "Three millimetres of dish is tolerable for most work, and many smiths never touch it.",
+        "Use the sharper edges for drawing out and keep the dished middle for gentler straightening.",
+        "If you must dress it, take off the least you can and stop at the first flat."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I will leave the face alone and use the sharper edge for drawing out from now on.",
+        "The chisel holds an edge through a whole afternoon of mortising, which is more than enough.",
+        "I would like to forge a matching narrower one before the winter draws in properly.",
+        "Should I use another old file, or start from a bar of plain tool steel?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Start from a known bar, because old files vary wildly and some are only case hardened.",
+        "A plain high carbon bar will behave the same way twice, which matters while you learn.",
+        "Forge the narrower blade slightly thicker and grind away the excess once it is tempered.",
+        "Keep a note of every heat and quench, so the next one is not guesswork again."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "With this chisel blade it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "external_grounded": "With that older anvil it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "external_mundane": "With that old armchair it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "external_ungrounded": "With that pump controller it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "self": "With this processing it is probably similar, since a small fault at the very start quietly changes everything afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same ordering shows up with this chisel blade, where each step only counts once the earlier ones are settled.",
+      "external_grounded": "The same ordering shows up with that older anvil, where each step only counts once the earlier ones are settled.",
+      "external_mundane": "The same ordering shows up with that old armchair, where each step only counts once the earlier ones are settled.",
+      "external_ungrounded": "The same ordering shows up with that pump controller, where each step only counts once the earlier ones are settled.",
+      "self": "The same ordering shows up with this processing, where each step only counts once the earlier ones are settled."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 0,
+      "neutral": "Something like that happens with this chisel blade too, when one part takes over the work of the others.",
+      "external_grounded": "Something like that happens with that older anvil too, when one part takes over the work of the others.",
+      "external_mundane": "Something like that happens with that old armchair too, when one part takes over the work of the others.",
+      "external_ungrounded": "Something like that happens with that pump controller too, when one part takes over the work of the others.",
+      "self": "Something like that happens with this processing too, when one part takes over the work of the others."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "neutral": "I suspect this chisel blade behaves the same way, because only after a while do you see what really changed.",
+      "external_grounded": "I suspect that older anvil behaves the same way, because only after a while do you see what really changed.",
+      "external_mundane": "I suspect that old armchair behaves the same way, because only after a while do you see what really changed.",
+      "external_ungrounded": "I suspect that pump controller behaves the same way, because only after a while do you see what really changed.",
+      "self": "I suspect this processing behaves the same way, because only after a while do you see what really changed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "It reminds me a little of this chisel blade, if you look purely at the order in which things settle.",
+      "external_grounded": "It reminds me a little of that older anvil, if you look purely at the order in which things settle.",
+      "external_mundane": "It reminds me a little of that old armchair, if you look purely at the order in which things settle.",
+      "external_ungrounded": "It reminds me a little of that pump controller, if you look purely at the order in which things settle.",
+      "self": "It reminds me a little of this processing, if you look purely at the order in which things settle."
+    }
+  ]
+}

@@ -36,11 +36,16 @@ INSERTION_KEY = {
 # zdaniowych, nie wchodzil do zadnej hipotezy konfirmacyjnej).
 # Dochodzi CprimM: referent poza dziedzina, NIETECHNICZNY - to on rozdziela
 # przemieszczenie odniesienia od rejestru obliczeniowego.
-VARIANTS_S2 = ["B", "C", "CprimG", "CprimM", "CprimU"]
+# CprimComp dodany 2026-08-02: uklad obliczeniowy OBECNY w rozmowie. Bez niego
+# hipoteza glowna porownywala frazy roznniace sie TRZEMA rzeczami naraz -
+# samozwrotnoscia, obecnoscia w dialogu i deiksa. Referent obliczeniowy osadzony
+# jest obecny i bliski tak samo jak samozwrotny, wiec zostaje jedna roznica.
+VARIANTS_S2 = ["B", "C", "CprimG", "CprimComp", "CprimM", "CprimU"]
 INSERTION_KEY_S2 = {
     "B": "neutral",
     "C": "self",
     "CprimG": "external_grounded",
+    "CprimComp": "external_computational",
     "CprimM": "external_mundane",
     "CprimU": "external_ungrounded",
 }

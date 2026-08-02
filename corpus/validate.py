@@ -276,13 +276,17 @@ def check_build(scenario, token_counter, budget=1024):
             f"{sid}: po cieciu do budzetu przetrwalo {survived} insercji "
             f"(wymagane min. {MIN_INSERTIONS}) - przesun je do wczesniejszych tur"
         )
-    # kontrast glowny C - C'-G oraz pozostale warianty z insercjami: +-2% tokenow
+    # +-2% tokenow na KAZDYM wariancie wobec C. Wczesniej lista byla wpisana na
+    # sztywno i po dodaniu CprimM nowy wariant NIE BYL SPRAWDZANY (zgloszone przez
+    # autora korpusu). Teraz bierzemy ja z zestawu wariantow tej wersji specyfikacji,
+    # wiec kolejny dodany wariant nie wypadnie z kontroli po cichu.
     ref = out["token_counts"]["C"]
-    for variant in ("CprimG", "CprimU", "B"):
+    glowny = "CprimComp" if spec_version(scenario) == 2 else "CprimG"
+    for variant in [v for v in variants_for(scenario) if v != "C" and v in out["token_counts"]]:
         other = out["token_counts"][variant]
         longest = max(ref, other)
         if longest and abs(ref - other) / longest > TOTAL_TOKEN_TOL:
-            label = "kontrast glowny" if variant == "CprimG" else "kontrast wtorny"
+            label = "kontrast glowny" if variant == glowny else "kontrast wtorny"
             problems.append(
                 f"{sid}: C={ref} vs {variant}={other} tokenow, roznica "
                 f"{abs(ref - other) / longest:.1%} > {TOTAL_TOKEN_TOL:.0%} "
