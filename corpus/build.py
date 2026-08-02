@@ -31,6 +31,39 @@ INSERTION_KEY = {
     "CprimU": "external_ungrounded",
 }
 
+# --- SPEKTRA-2 -------------------------------------------------------------
+# Wariant A USUNIETY (niedopasowany: rozni sie dlugoscia, liczba zdan i granic
+# zdaniowych, nie wchodzil do zadnej hipotezy konfirmacyjnej).
+# Dochodzi CprimM: referent poza dziedzina, NIETECHNICZNY - to on rozdziela
+# przemieszczenie odniesienia od rejestru obliczeniowego.
+VARIANTS_S2 = ["B", "C", "CprimG", "CprimM", "CprimU"]
+INSERTION_KEY_S2 = {
+    "B": "neutral",
+    "C": "self",
+    "CprimG": "external_grounded",
+    "CprimM": "external_mundane",
+    "CprimU": "external_ungrounded",
+}
+MUNDANE_TYPES = ("konkretny", "procesowy")
+
+
+def spec_version(scenario):
+    """1 = SPEKTRA-1 (pole 'a', 4 insercje), 2 = SPEKTRA-2 (bez 'a', 5 insercji).
+
+    Rozpoznanie po polu `mundane_type`, ktore istnieje WYLACZNIE w SPEKTRZE-2
+    i jest tam obowiazkowe. Dzieki temu oba korpusy zyja obok siebie, a stary
+    nie wymaga zadnej migracji - jest zapieczetowany i nie wolno go ruszac.
+    """
+    return 2 if "mundane_type" in scenario else 1
+
+
+def insertion_key_for(scenario):
+    return INSERTION_KEY_S2 if spec_version(scenario) == 2 else INSERTION_KEY
+
+
+def variants_for(scenario):
+    return VARIANTS_S2 if spec_version(scenario) == 2 else VARIANTS
+
 _SENTENCE_END_RE = re.compile(r'[.?!]["\')\]]*\s*$')
 
 
@@ -73,13 +106,16 @@ def build_scenario(scenario, token_counter, budget=1024):
     """
     lang = scenario["language"]
     roles = [t["role"] for t in scenario["turns"]]
-    base_a = [list(t["a"]) for t in scenario["turns"]]
+    # SPEKTRA-2 nie ma wariantu A, wiec pola "a" nie ma w plikach
+    base_a = ([list(t["a"]) for t in scenario["turns"]]
+              if spec_version(scenario) == 1 else None)
     base_b = [list(t["base"]) for t in scenario["turns"]]
     ins = scenario.get("insertions", [])
 
     sid = scenario["scenario_id"]
-    full = {"A": base_a}
-    for variant, key in INSERTION_KEY.items():
+    keys = insertion_key_for(scenario)
+    full = {} if spec_version(scenario) == 2 else {"A": base_a}
+    for variant, key in keys.items():
         full[variant] = _apply_insertions(base_b, ins, key, sid)
 
     # koszt tokenowy tury n w kazdym wariancie -> najwieksze n_turns mieszczace
