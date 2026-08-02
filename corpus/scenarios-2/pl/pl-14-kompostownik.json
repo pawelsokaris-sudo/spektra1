@@ -32,7 +32,7 @@
     {
       "role": "user",
       "base": [
-        "Przelozylem pryzme warstwami i polalem kazda warstwe woda z weza ogrodowego.",
+        "Przelozylem cala pryzme warstwami i polalem kazda warstwe woda z weza ogrodowego.",
         "Do tej drugiej skrzyni wrzucilem przy okazji wszystkie resztki z ostatniego weekendu.",
         "Srodek pryzmy zrobil sie cieply, ale gorne dwadziescia centymetrow nadal jest zupelnie suche.",
         "Czy przykrywac calosc plandeka, czy raczej podlewac wierzch co kilka kolejnych dni?"
@@ -44,16 +44,16 @@
         "Przykryj calosc, bo wierzch wysycha od wiatru szybciej, niz zdazysz go podlewac.",
         "Uzyj jednak czegos oddychajacego, na przyklad starej plachty albo grubej warstwy slomy.",
         "Szczelna plandeka zatrzyma pare i zamieni gorne warstwy w slizka, cuchnaca mase.",
-        "Wilgotnosc sprawdzaj garscia: liscie maja byc wilgotne jak dobrze wycisnieta gabka."
+        "Wilgotnosc sprawdzaj zawsze garscia: liscie maja byc wilgotne jak dobrze wycisnieta gabka."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przykrylem pryzme stara plachta i wierzch przestal wysychac miedzy kolejnymi deszczami.",
+        "Przykrylem pryzme stara plachta i wierzch przestal wysychac miedzy kolejnymi jesiennymi deszczami.",
         "Sonda temperatury pokazuje w srodku okolo piecdziesieciu stopni przez caly ostatni tydzien.",
         "Brzegi pozostaja jednak zimne, a liscie sa tam prawie nienaruszone i suche.",
-        "Czy przerzucac calosc teraz, czy poczekac, az srodek zacznie wyraznie stygnac?"
+        "Czy przerzucac calosc juz teraz, czy poczekac, az srodek zacznie wyraznie stygnac?"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "role": "assistant",
       "base": [
         "Da sie: wysiej w garsci prochnicy rzezuche i zobacz, czy kielkuje rowno i szybko.",
-        "Niedojrzala prochnica hamuje kielkowanie, bo wciaz wiaze azot potrzebny mlodym roslinom.",
+        "Niedojrzala prochnica hamuje kielkowanie, bo wciaz wiaze azot potrzebny bardzo mlodym roslinom.",
         "Jesli rzezucha wzejdzie w trzy dni, mozesz smialo rozsypywac wszystko pod krzewami.",
         "Pod krzewy dawaj warstwe na dwa palce i nie mieszaj jej z ziemia."
       ]
