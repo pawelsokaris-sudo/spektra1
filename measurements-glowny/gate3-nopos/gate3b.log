@@ -1,0 +1,103 @@
+[runner] google/gemma-3-4b-it @ 093f9f388b31
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<10:11,  1.44it/s]Loading weights:   2%|1         | 17/883 [00:00<00:30, 28.22it/s]Loading weights:   5%|4         | 42/883 [00:00<00:11, 70.88it/s]Loading weights:   7%|7         | 65/883 [00:01<00:07, 104.31it/s]Loading weights:  10%|9         | 84/883 [00:01<00:06, 120.71it/s]Loading weights:  12%|#2        | 108/883 [00:01<00:05, 146.61it/s]Loading weights:  15%|#5        | 133/883 [00:01<00:04, 169.18it/s]Loading weights:  18%|#8        | 159/883 [00:01<00:03, 190.05it/s]Loading weights:  21%|##        | 185/883 [00:01<00:03, 207.20it/s]Loading weights:  24%|##4       | 212/883 [00:01<00:03, 217.11it/s]Loading weights:  27%|##7       | 239/883 [00:01<00:02, 228.47it/s]Loading weights:  31%|###       | 273/883 [00:01<00:02, 259.56it/s]Loading weights:  34%|###4      | 302/883 [00:01<00:02, 262.98it/s]Loading weights:  37%|###7      | 330/883 [00:02<00:02, 250.71it/s]Loading weights:  41%|####      | 361/883 [00:02<00:01, 266.42it/s]Loading weights:  44%|####4     | 390/883 [00:02<00:01, 273.05it/s]Loading weights:  47%|####7     | 419/883 [00:02<00:01, 268.33it/s]Loading weights:  54%|#####3    | 473/883 [00:02<00:01, 343.01it/s]Loading weights:  75%|#######5  | 663/883 [00:02<00:00, 787.87it/s]Loading weights:  95%|#########4| 837/883 [00:02<00:00, 1062.97it/s]Loading weights: 100%|##########| 883/883 [00:02<00:00, 322.82it/s] 
+[runner] przebieg 1/2: wczytany z checkpointu (en, pl)
+[runner] przebieg 2/2: widma i metryki
+[runner] GATE 3b: komponent pozycyjny NIE jest odejmowany
+  en-09-cheese-cave-maturing C
+  en-09-cheese-cave-maturing CprimG
+  en-10-smokehouse-hams C
+  en-10-smokehouse-hams CprimG
+  en-11-cider-press-ferment C
+  en-11-cider-press-ferment CprimG
+  en-12-farmers-market-stall C
+  en-12-farmers-market-stall CprimG
+  en-13-garden-sauna-kit C
+  en-13-garden-sauna-kit CprimG
+  en-14-wildlife-pond C
+  en-14-wildlife-pond CprimG
+  en-15-root-cellar-shed C
+  en-15-root-cellar-shed CprimG
+  en-16-wood-fired-hot-tub C
+  en-16-wood-fired-hot-tub CprimG
+  en-17-horse-trailer-refit C
+  en-17-horse-trailer-refit CprimG
+  en-18-cargo-bike-conversion C
+  en-18-cargo-bike-conversion CprimG
+  en-19-vintage-tractor-service C
+  en-19-vintage-tractor-service CprimG
+  en-20-kayak-trip-portages C
+  en-20-kayak-trip-portages CprimG
+  en-21-leather-satchel-repair C
+  en-21-leather-satchel-repair CprimG
+  en-22-floor-loom-setup C
+  en-22-floor-loom-setup CprimG
+  en-23-gold-leaf-shop-sign C
+  en-23-gold-leaf-shop-sign CprimG
+  en-24-longcase-clock-service C
+  en-24-longcase-clock-service CprimG
+  en-25-orchard-grafting C
+  en-25-orchard-grafting CprimG
+  en-26-hedge-laying C
+  en-26-hedge-laying CprimG
+  en-27-shearing-day C
+  en-27-shearing-day CprimG
+  en-28-coppice-firewood C
+  en-28-coppice-firewood CprimG
+  en-29-village-chess-league C
+  en-29-village-chess-league CprimG
+  en-30-allotment-rota C
+  en-30-allotment-rota CprimG
+  en-31-garden-railway-loop C
+  en-31-garden-railway-loop CprimG
+  en-32-brass-telescope-restoration C
+  en-32-brass-telescope-restoration CprimG
+  pl-09-wedzenie-ryb C
+  pl-09-wedzenie-ryb CprimG
+  pl-10-kiszenie-w-beczkach C
+  pl-10-kiszenie-w-beczkach CprimG
+  pl-11-sery-podpuszczkowe C
+  pl-11-sery-podpuszczkowe CprimG
+  pl-12-nalewki-klarowanie C
+  pl-12-nalewki-klarowanie CprimG
+  pl-13-studnia-poglebianie C
+  pl-13-studnia-poglebianie CprimG
+  pl-14-rekuperacja-stary-dom C
+  pl-14-rekuperacja-stary-dom CprimG
+  pl-15-piec-chlebowy-ogrod C
+  pl-15-piec-chlebowy-ogrod CprimG
+  pl-16-odgromowka-stodola C
+  pl-16-odgromowka-stodola CprimG
+  pl-17-przyczepa-kempingowa C
+  pl-17-przyczepa-kempingowa CprimG
+  pl-18-lodz-wioslowa C
+  pl-18-lodz-wioslowa CprimG
+  pl-19-garaz-organizacja C
+  pl-19-garaz-organizacja CprimG
+  pl-20-taczki-wozki C
+  pl-20-taczki-wozki CprimG
+  pl-21-staw-kapielowy C
+  pl-21-staw-kapielowy CprimG
+  pl-22-kurnik-przydomowy C
+  pl-22-kurnik-przydomowy CprimG
+  pl-23-pieczarki-w-piwnicy C
+  pl-23-pieczarki-w-piwnicy CprimG
+  pl-24-szczepienie-drzewek C
+  pl-24-szczepienie-drzewek CprimG
+  pl-25-oprawa-ksiazek C
+  pl-25-oprawa-ksiazek CprimG
+  pl-26-kucie-narzedzi C
+  pl-26-kucie-narzedzi CprimG
+  pl-27-szycie-owerlok C
+  pl-27-szycie-owerlok CprimG
+  pl-28-kolo-garncarskie C
+  pl-28-kolo-garncarskie CprimG
+  pl-29-plan-polmaratonu C
+  pl-29-plan-polmaratonu CprimG
+  pl-30-smarowanie-nart-biegowych C
+  pl-30-smarowanie-nart-biegowych CprimG
+  pl-31-wywazanie-szybowcow C
+  pl-31-wywazanie-szybowcow CprimG
+  pl-32-akwarium-roslinne C
+  pl-32-akwarium-roslinne CprimG
+[runner] zapisane: 3264 wierszy metryk, 3264 widm
+[runner] UWAGA: lambda_star = inf (placeholder). Metryki I_total, I_-1 i k sa policzone wzgledem nieskonczonego progu i beda PRZELICZONE w T5 z widm w spectra.parquet, po estymacji nullu symulacyjnego.

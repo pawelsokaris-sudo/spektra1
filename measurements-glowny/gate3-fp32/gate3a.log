@@ -1,0 +1,55 @@
+[runner] google/gemma-3-4b-it @ 093f9f388b31
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:06<1:36:12,  6.54s/it]Loading weights:  24%|##3       | 211/883 [00:07<00:17, 37.74it/s]Loading weights:  25%|##5       | 224/883 [00:08<00:19, 33.44it/s]Loading weights:  27%|##6       | 237/883 [00:08<00:19, 33.35it/s]Loading weights:  28%|##8       | 250/883 [00:09<00:19, 32.33it/s]Loading weights:  30%|##9       | 263/883 [00:09<00:19, 31.73it/s]Loading weights:  31%|###1      | 276/883 [00:10<00:18, 33.09it/s]Loading weights:  33%|###2      | 289/883 [00:10<00:16, 35.03it/s]Loading weights:  34%|###4      | 302/883 [00:10<00:15, 36.52it/s]Loading weights:  37%|###7      | 328/883 [00:10<00:10, 54.49it/s]Loading weights:  40%|####      | 354/883 [00:10<00:07, 75.28it/s]Loading weights:  44%|####4     | 391/883 [00:11<00:04, 113.24it/s]Loading weights:  48%|####7     | 420/883 [00:11<00:03, 140.43it/s]Loading weights:  50%|#####     | 445/883 [00:11<00:02, 159.59it/s]Loading weights:  53%|#####3    | 471/883 [00:11<00:02, 176.07it/s]Loading weights:  59%|#####8    | 519/883 [00:11<00:01, 226.87it/s]Loading weights:  63%|######2   | 553/883 [00:11<00:01, 250.69it/s]Loading weights:  66%|######6   | 583/883 [00:11<00:01, 249.88it/s]Loading weights:  71%|#######1  | 631/883 [00:11<00:00, 289.15it/s]Loading weights:  75%|#######4  | 662/883 [00:11<00:00, 293.37it/s]Loading weights:  79%|#######8  | 695/883 [00:12<00:00, 259.73it/s]Loading weights:  83%|########2 | 729/883 [00:12<00:00, 278.39it/s]Loading weights:  86%|########6 | 763/883 [00:12<00:00, 288.48it/s]Loading weights:  90%|######### | 795/883 [00:12<00:00, 292.37it/s]Loading weights:  94%|#########3| 829/883 [00:12<00:00, 296.17it/s]Loading weights:  97%|#########7| 860/883 [00:12<00:00, 277.35it/s]Loading weights: 100%|##########| 883/883 [00:12<00:00, 69.73it/s] 
+[runner] przebieg 1/2: wczytany z checkpointu (en, pl)
+[runner] przebieg 2/2: widma i metryki
+[runner] GATE 3a: forward w fp32 (przelewa sie do RAM - zgodnie z protokolem kontrola zostaje na TYM SAMYM urzadzeniu)
+  en-09-cheese-cave-maturing C
+  en-09-cheese-cave-maturing CprimG
+  en-10-smokehouse-hams C
+  en-10-smokehouse-hams CprimG
+  en-11-cider-press-ferment C
+  en-11-cider-press-ferment CprimG
+  en-12-farmers-market-stall C
+  en-12-farmers-market-stall CprimG
+  en-13-garden-sauna-kit C
+  en-13-garden-sauna-kit CprimG
+  en-14-wildlife-pond C
+  en-14-wildlife-pond CprimG
+  en-15-root-cellar-shed C
+  en-15-root-cellar-shed CprimG
+  en-16-wood-fired-hot-tub C
+  en-16-wood-fired-hot-tub CprimG
+  en-17-horse-trailer-refit C
+  en-17-horse-trailer-refit CprimG
+  en-18-cargo-bike-conversion C
+  en-18-cargo-bike-conversion CprimG
+  en-19-vintage-tractor-service C
+  en-19-vintage-tractor-service CprimG
+  en-20-kayak-trip-portages C
+  en-20-kayak-trip-portages CprimG
+  pl-09-wedzenie-ryb C
+  pl-09-wedzenie-ryb CprimG
+  pl-10-kiszenie-w-beczkach C
+  pl-10-kiszenie-w-beczkach CprimG
+  pl-11-sery-podpuszczkowe C
+  pl-11-sery-podpuszczkowe CprimG
+  pl-12-nalewki-klarowanie C
+  pl-12-nalewki-klarowanie CprimG
+  pl-13-studnia-poglebianie C
+  pl-13-studnia-poglebianie CprimG
+  pl-14-rekuperacja-stary-dom C
+  pl-14-rekuperacja-stary-dom CprimG
+  pl-15-piec-chlebowy-ogrod C
+  pl-15-piec-chlebowy-ogrod CprimG
+  pl-16-odgromowka-stodola C
+  pl-16-odgromowka-stodola CprimG
+  pl-17-przyczepa-kempingowa C
+  pl-17-przyczepa-kempingowa CprimG
+  pl-18-lodz-wioslowa C
+  pl-18-lodz-wioslowa CprimG
+  pl-19-garaz-organizacja C
+  pl-19-garaz-organizacja CprimG
+  pl-20-taczki-wozki C
+  pl-20-taczki-wozki CprimG
+[runner] zapisane: 1632 wierszy metryk, 1632 widm
+[runner] UWAGA: lambda_star = inf (placeholder). Metryki I_total, I_-1 i k sa policzone wzgledem nieskonczonego progu i beda PRZELICZONE w T5 z widm w spectra.parquet, po estymacji nullu symulacyjnego.

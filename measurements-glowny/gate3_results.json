@@ -1,0 +1,74 @@
+{
+  "tolerancja_dtype": 0.005,
+  "max_zmiana_wzgledna": 0.25,
+  "lambda_star": "z biegu glownego (progi NIE przeliczane - DEP-08)",
+  "kryteria": {
+    "c_repliki": {
+      "repliki": {
+        "en": -0.005780238393535558,
+        "pl": -0.0036276498652526787
+      },
+      "znak_ten_sam": true,
+      "zmiana_wzgledna": 0.37240480093178663,
+      "spelnione": false
+    },
+    "a_dtype": {
+      "bieg": "fp32 wobec bf16",
+      "repliki": [
+        {
+          "language": "en",
+          "n_scenarios": 12,
+          "delta1_glowny": -0.005614367177410919,
+          "delta1_kontrolny": -0.005440438674372235,
+          "zmiana_wzgledna": 0.030979182077452143,
+          "znak_ten_sam": true,
+          "spelnione": true
+        },
+        {
+          "language": "pl",
+          "n_scenarios": 12,
+          "delta1_glowny": -0.003154094114846684,
+          "delta1_kontrolny": -0.0032645791765675697,
+          "zmiana_wzgledna": 0.035029094788522605,
+          "znak_ten_sam": true,
+          "spelnione": true
+        }
+      ],
+      "kryterium_spelnione": true,
+      "tolerancja_per_tekst": {
+        "n_tekstow": 48,
+        "max_delta": 0.0006600744328570385,
+        "srednia_delta": 0.00021227225899586472,
+        "tolerancja": 0.005,
+        "n_przekroczen": 0,
+        "przekroczenia": [],
+        "spelnione": true
+      }
+    },
+    "b_pozycyjny": {
+      "bieg": "bez komponentu pozycyjnego",
+      "repliki": [
+        {
+          "language": "en",
+          "n_scenarios": 24,
+          "delta1_glowny": -0.005780238393535558,
+          "delta1_kontrolny": -0.005321924185556437,
+          "zmiana_wzgledna": 0.07928984529283185,
+          "znak_ten_sam": true,
+          "spelnione": true
+        },
+        {
+          "language": "pl",
+          "n_scenarios": 24,
+          "delta1_glowny": -0.0036276498652526787,
+          "delta1_kontrolny": -0.003306625375805126,
+          "zmiana_wzgledna": 0.08849379112424136,
+          "znak_ten_sam": true,
+          "spelnione": true
+        }
+      ],
+      "kryterium_spelnione": true
+    }
+  },
+  "werdykt": "NIESTABILNY"
+}
