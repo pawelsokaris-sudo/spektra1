@@ -103,6 +103,25 @@ procesowe, przez co zwyczajny desygnat wpadałby w nie nienaturalnie.
 
 Bramkowanie: H1 → {H2, H3}. H2 i H3 nie bramkują się nawzajem.
 
+
+### Ograniczenie resztkowe: H2 miesza osadzenie z rejestrem
+
+Trzy warianty zewnętrzne różnią się na **dwóch osiach naraz** — osadzenia
+(czy referent był wcześniej w dialogu) i rejestru (dziedzinowy / zwyczajny /
+techniczny). Pełne skrzyżowanie dwóch osi wymagałoby **czterech** wariantów
+zewnętrznych; mamy trzy.
+
+| Kontrast | Co różni | Czystość |
+|---|---|---|
+| **H1** C − C'-U | tylko samozwrotność (oba techniczne, oba nieosadzone) | **czysty** |
+| **H3** C'-U − C''-M | tylko rejestr (oba nieosadzone) | **czysty** |
+| **H2** C''-M − C'-G | osadzenie **oraz** rejestr | **mieszany** |
+
+Świadoma decyzja: H2 jest hipotezą diagnostyczną, a szósty wariant (nieosadzony
+o rejestrze dziedzinowym) kosztowałby 20% pomiaru na obu modelach. Zostaje jako
+zadeklarowane ograniczenie i jako oczywisty kandydat na rozszerzenie, gdyby H2
+okazała się interesująca.
+
 ### Gałąź replikacyjna (PLLuM) — osobna, **nie bramkuje głównej**
 
 | | Test | Roszczenie |
