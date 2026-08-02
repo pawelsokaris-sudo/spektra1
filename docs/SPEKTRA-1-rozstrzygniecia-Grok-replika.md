@@ -58,3 +58,60 @@ ani jednego scenariusza.
 1. Czy robimy replikę modelową (koszt: ~doba maszyny + dzień przygotowania).
 2. Czy M=32 z użyciem pilotów, czy M=24 bez nich.
 3. Czy hipoteza główna = odwrócenie kierunkowe, czy zestaw werdyktów.
+
+---
+
+# ZMIANA WYBORU MODELU (2026-08-02, po weryfikacji źródeł)
+
+Recenzent wspomniał mimochodem, że PLLuM 4B może być oparty o Gemmę, i sam
+oznaczył to jako niezweryfikowane. **Sprawdziliśmy. Jest prawdą.**
+
+Karta modelu `CYFRAGOVPL/PLLuM-4B-instruct-2512` podaje wprost:
+**„Based On: gemma-3-4b-pt"** — czyli ta sama podstawa co `gemma-3-4b-it`
+użyta w SPEKTRZE-1, dotrenowana na polskim (z domieszką angielskiego).
+Licencja Apache 2.0. Trzy warianty: base, instruct, chat.
+
+## Dlaczego to jest lepszy model niż Bielik
+
+| | PLLuM-4B-instruct | Bielik-4.5B-Instruct |
+|---|---|---|
+| Architektura | **identyczna z Gemmą** | Qwen2.5 przez Depth Up-Scaling |
+| Liczba warstw / wymiar | **te same co w SPEKTRZE-1** | 60 / 2048 — inne |
+| Tokenizer | **prawdopodobnie ten sam** (do sprawdzenia) | APT4, inny |
+| Szablon rozmowy | pochodna Gemmy (do sprawdzenia) | własny |
+| Pasmo warstw | **przenosi się** — weryfikacja zamiast wyprowadzania | do wyprowadzenia od zera |
+| Wyrównanie korpusu ±0,2% | **przenosi się**, jeśli tokenizer ten sam | do przeliczenia, ryzyko rundy poprawek |
+
+**Trzy warstwy nierównoważności, które recenzent słusznie nazwał — szablon,
+tokenizer, architektura — przy PLLuM-ie w dużej mierze znikają.** Zostaje
+dokładnie ta jedna zmienna, którą chcemy izolować: **dotrenowanie na polskim.**
+
+To unieważnia jego własny zarzut z punktu 1 (splątanie architektura × język)
+w stopniu, w jakim żaden inny dostępny model tego nie robi.
+
+## Uczciwy kontrargument: siła manipulacji
+
+Ta sama podstawa to zaleta dla czystości i **ryzyko dla siły efektu**. Bielik
+jest modelem zbudowanym wokół polskiego; PLLuM-4B to Gemma **dotrenowana**.
+Jeśli dotrenowanie było lekkie, manipulacja może być za słaba, żeby cokolwiek
+odwrócić — i dostaniemy brak efektu z powodu, który nie ma nic wspólnego
+z hipotezą.
+
+**Do sprawdzenia przed pieczęcią:** ile tokenów polskiego wchłonął PLLuM-4B
+i jak bardzo wagi odbiegły od `gemma-3-4b-pt`. Bez tej liczby nie wiadomo,
+czy badanie w ogóle manipuluje tym, co ma manipulować.
+
+## Rekomendacja
+
+**PLLuM-4B-instruct jako model podstawowy** — czysty kontrast, przenoszalny
+korpus i pasmo, drastycznie tańsze przygotowanie. **Bielik-4.5B-Instruct jako
+opcjonalny drugi model**: mocna manipulacja przy splątanej architekturze.
+Razem obejmują pytanie z dwóch stron — czysto ale słabo, oraz mocno ale brudno.
+Jeśli budżet pozwala tylko na jeden: PLLuM.
+
+## Nadal wymaga sprawdzenia (nie przyjmować z karty modelu)
+1. Czy tokenizer jest **identyczny** z Gemmą (suma pliku), czy rozszerzony.
+2. Czy szablon rozmowy PLLuM-instruct różni się od szablonu Gemmy.
+3. Indeksacja warstw hookami — weryfikacja, nie założenie.
+4. Liczba tokenów dotrenowania (siła manipulacji).
+5. Szczyt pamięci na karcie 16 GB z tą samą bramką co w SPEKTRZE-1.
