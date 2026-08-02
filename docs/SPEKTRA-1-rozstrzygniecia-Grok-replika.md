@@ -115,3 +115,47 @@ Jeśli budżet pozwala tylko na jeden: PLLuM.
 3. Indeksacja warstw hookami — weryfikacja, nie założenie.
 4. Liczba tokenów dotrenowania (siła manipulacji).
 5. Szczyt pamięci na karcie 16 GB z tą samą bramką co w SPEKTRZE-1.
+
+---
+
+# ETAP 0 — WYNIKI WERYFIKACJI (2026-08-02) + KOREKTA WŁASNEJ OBIETNICY
+
+Sprawdzone z publicznych plików `CYFRAGOVPL/PLLuM-4B-instruct-2512` wobec
+naszych **zapieczętowanych** sum z `config.yaml`.
+
+| Element | PLLuM | SPEKTRA-1 (Gemma) | Wynik |
+|---|---|---|---|
+| klasa architektury | `Gemma3ForConditionalGeneration` | ta sama | **identyczna** |
+| liczba bloków | 34 | 34 | **identyczna** |
+| hidden_size | 2560 | 2560 | **identyczna** |
+| `tokenizer.json` sha256 | `86ff7e6e…` | `4667f208…` | **różni się** |
+| `tokenizer_config.json` | `cfbb540f…` | `bfe25c27…` | **różni się** |
+| szablon rozmowy sha256 | `b3f59621…` (1046 zn.) | `7de1c58e…` | **różni się** |
+| vocab_size | 262147 | (niezapisane w naszym configu) | do porównania |
+| tokeny dotrenowania | **karta nie podaje** | — | ryzyko otwarte |
+
+## Korekta
+
+W poprzedniej sekcji napisałem, że przy PLLuM-ie „trzy warstwy
+nierównoważności w dużej mierze znikają". **To było za optymistyczne i tego
+nie potwierdzam.** Znika **jedna** — architektura, i to całkowicie. Tokenizer
+i szablon rozmowy **zostają** jako realne różnice bodźca.
+
+Co nadal zyskujemy wobec Bielika: pasmo warstw, indeksacja i budżet pamięci
+przenoszą się, bo architektura jest tożsama. Weryfikacja hookami staje się
+sprawdzeniem znanej odpowiedzi, nie wyprowadzaniem od zera. To jest realna
+oszczędność, ale mniejsza, niż zapowiadałem.
+
+## Otwarte i rozstrzygające
+
+1. **Czy tokenizer PLLuM tokenizuje NASZ korpus tak samo jak Gemma.** Różnica
+   sumy pliku nie przesądza: 262147 może być słownikiem Gemmy plus kilka
+   tokenów specjalnych, których w korpusie nie ma. Jeśli liczby tokenów wyjdą
+   identyczne, wyrównanie ±0,2% przenosi się mimo innej sumy. Nie da się tego
+   sprawdzić z laptopa (brak tokenizera Gemmy lokalnie) — zlecone DEP.
+2. **Liczba tokenów dotrenowania.** Karta modelu jej nie podaje. Bez niej nie
+   wiadomo, czy manipulacja jest wystarczająco silna, żeby cokolwiek odwrócić.
+   Szukać w raporcie technicznym / u konsorcjum.
+3. **Perplexity jako bramka manipulacji jest warunkowa** wobec punktu 1: przy
+   różnej tokenizacji strata na token nie jest porównywalna między modelami
+   i trzeba przejść na miarę na znak albo na słowo.
