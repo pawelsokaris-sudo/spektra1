@@ -156,14 +156,33 @@ tego projektu.** Zapisujemy to jako świadomy kompromis, nie jako przeoczenie.
    fraza niedopasowana ontologicznie. Jeśli bramka nie odrzuca znanych błędów —
    skala albo instrukcja nie działa.
 
-### Dwa progi (sam względny ma lukę — wszystkie warianty mogą być równie złe)
+### Progi — **przeliczone, wersja na medianach ODRZUCONA**
 
-Scenariusz przechodzi, gdy:
-- mediana naturalności **każdego** wariantu ≥ 5/7,
-- mediana jasności referenta **każdego** wariantu ≥ 5/7,
-- rozstęp median naturalności między wariantami ≤ 1 punkt,
+Pierwotna specyfikacja (7 ocen, mediany, rozstęp ≤ 1) **nie przechodzi rachunku
+osiągalności**:
+
+| Reguła | Fałszywe odrzucenie dobrego scenariusza | Wykrycie uszkodzenia 1,5 pkt |
+|---|---:|---:|
+| mediany, n=7, rozstęp ≤1 | **24%** | 73% |
+| **średnie, n=9, rozstęp ≤1,0** | **9%** | **96%** |
+
+Powód porażki wersji medianowej jest konstrukcyjny: **mediana nieparzystej
+liczby ocen całkowitych jest liczbą całkowitą**, więc rozstęp też. Reguła
+„więcej niż 1" znaczy w praktyce „co najmniej 2" — czyli z definicji przepuszcza
+uszkodzenie o dokładnie ten rozmiar, który miała łapać (wykrywalność
+uszkodzenia 1,0 pkt spada z rosnącym n: 0,49 przy n=7, 0,25 przy n=15).
+
+**Specyfikacja zamrażana:**
+- **9 ocen na element**, statystyka: **średnia**, nie mediana;
+- średnia naturalności **każdego** wariantu ≥ 5,0 / 7;
+- średnia jasności referenta **każdego** wariantu ≥ 5,0 / 7;
+- **rozstęp średnich naturalności między wariantami ≤ 1,0 punktu**;
 - żaden referent zwyczajny nie daje się rozsądnie odczytać jako odniesienie
   do rozmowy albo do czynności właśnie wykonywanej.
+
+Charakterystyka reguły przy założeniu SD ocen = 1,0 i prawdziwej średniej 6,0:
+fałszywe odrzucenie **9%**, wykrycie uszkodzenia 1,0 pkt **70%**,
+1,5 pkt **96%**, 2,0 pkt **100%**.
 
 Niezaliczenie → poprawa albo odrzucenie **całego scenariusza**, nie
 pojedynczego wariantu. Maksymalnie **dwie** rundy poprawek, ocenia świeży panel.
@@ -246,13 +265,45 @@ przekracza 0,94 w obu replikach.
 2. ✅ Moc R2 z krzywą ρ — policzona.
 3. ✅ MDE — policzone, z podanym poziomem mocy.
 4. ✅ Brak testu równoważności — nie zamrażamy żadnego.
-5. ⬜ **Bramka manipulacji PLLuM z liczbami** — kryteria, testy, reguła
-   odrzucenia. Niezaliczenie → R2 wypada, zostaje R1.
-6. ⬜ Weryfikacja warstw PLLuM hookami (DEP).
-7. ⬜ Bramka pamięci PLLuM na 16 GB (DEP).
+5. ✅ **Bramka manipulacji PLLuM** — specyfikacja niżej.
+6. ⬜ Weryfikacja warstw PLLuM hookami — **zlecenie DEP-09**.
+7. ⬜ Bramka pamięci PLLuM na 16 GB — **zlecenie DEP-09**.
 8. ✅ Budżet — policzony (§9).
-9. ⬜ **Progi naturalności (5/7 i 1 punkt) sprawdzone na materiale SPEKTRY-1**
-   z celowo uszkodzonymi wariantami.
+9. ✅ **Progi naturalności — przeliczone i ZMIENIONE** (§6): wersja medianowa
+   odrzuca 24% dobrych scenariuszy i nie wykrywa uszkodzenia, dla którego
+   powstała. Zastąpiona wersją na średnich z 9 ocenami.
+
+### Bramka manipulacji PLLuM — specyfikacja
+
+**Konstrukcja:** manipulacja ma być **specyficzna dla polskiego**, nie ogólna.
+Sam spadek perplexity nic nie mówi — dwa modele różnią się całą ścieżką
+dostrajania. Pytanie brzmi, czy PLLuM zyskuje **po polsku bardziej niż po
+angielsku**.
+
+**Statystyka:** dla każdego scenariusza poprawa log-perplexity PLLuM wobec
+Gemmy, liczona na wariantach neutralnych. Porównanie dwóch prób (48 scenariuszy
+polskich wobec 48 angielskich — repliki są rozłączne), jednostronnie, α = 0,01.
+
+**Moc, policzona:**
+
+| Efekt (w SD) | n=24 | n=32 | **n=48** | n=64 |
+|---:|---:|---:|---:|---:|
+| 0,50 | 0,26 | 0,37 | 0,54 | 0,67 |
+| 0,60 | 0,38 | 0,51 | 0,72 | 0,85 |
+| 0,80 | 0,64 | 0,79 | **0,93** | 0,98 |
+
+**MDE przy n = 48 i mocy 0,90: d = 0,75 odchylenia standardowego.**
+
+**Interpretacja i świadoma decyzja:** bramka jest **konserwatywna** — zażąda
+wyraźnej, specyficznej dla polskiego poprawy. Manipulacja umiarkowana
+(d ≈ 0,5) przejdzie tylko w 54% przypadków. Zostawiamy to tak celowo:
+**fałszywe zaliczenie bramki jest gorsze niż fałszywe niezaliczenie**, bo
+pierwsze pozwala twierdzić coś o interakcji przy manipulacji, której nie ma.
+Niezaliczenie tylko zawęża roszczenie do R1.
+
+**Próg bezwzględny w jednostkach log-PPL wymaga zmierzenia rozrzutu** — ale
+kryterium jest zamrożone **w jednostkach standaryzowanych już teraz**, więc
+zmierzenie rozrzutu nie jest decyzją po wyniku.
 
 ## 11. Rejestracja
 
