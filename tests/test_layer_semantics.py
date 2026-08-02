@@ -50,3 +50,37 @@ def test_write_report_ZAPISUJE_TAM_GDZIE_KAZANO(tmp_path):
     assert cel.exists(), "raport nie powstal pod przekazana sciezka"
     po = OUT_MD.read_text(encoding="utf-8") if OUT_MD.exists() else None
     assert po == przed, "raport modelu glownego zostal NADPISANY - dokladnie ten blad"
+
+
+# --- znaczenie kontroli szablonu po przejsciu na render uniwersalny ---------
+
+class _TokGemma:
+    def apply_chat_template(self, msgs, tokenize=False, add_generation_prompt=False):
+        from corpus.stats import render_gemma_chat
+        return render_gemma_chat([{"role": m["role"], "text": m["content"]} for m in msgs])
+
+
+class _TokMistral:
+    def apply_chat_template(self, msgs, tokenize=False, add_generation_prompt=False):
+        return "".join(f"[INST]{m['content']}[/INST]" for m in msgs)
+
+
+def test_niezgodnosc_szablonu_MODELU_GLOWNEGO_jest_blokujaca():
+    """Dla modelu z configu zgodnosc gwarantuje, ze SPEKTRA-1 sie nie zmienia."""
+    from pipeline.layer_semantics import check_chat_template
+    r = check_chat_template(_TokMistral(), is_config_model=True)
+    assert r["match"] is False and r["blokujace"] is True
+
+
+def test_niezgodnosc_szablonu_DRUGIEGO_MODELU_nie_jest_blokujaca():
+    """PLLuM ma szablon Mistralowy - to oczekiwane, nie usterka."""
+    from pipeline.layer_semantics import check_chat_template
+    r = check_chat_template(_TokMistral(), is_config_model=False)
+    assert r["match"] is False and r["blokujace"] is False
+    assert "OCZEKIWANE" in r["uwaga"]
+
+
+def test_zgodnosc_dla_modelu_glownego_potwierdza_odtwarzalnosc_spektry_1():
+    from pipeline.layer_semantics import check_chat_template
+    r = check_chat_template(_TokGemma(), is_config_model=True)
+    assert r["match"] is True and r["blokujace"] is False

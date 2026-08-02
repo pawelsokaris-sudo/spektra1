@@ -33,7 +33,7 @@ REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
 from corpus.build import VARIANTS, build_scenario
-from corpus.stats import render_gemma_chat
+from corpus.stats import render_chat
 from corpus.tokens import TokenCounter
 from corpus.validate import SCENARIOS_DIR
 from nulls.interventional import permute_sentences, permute_turns
@@ -179,8 +179,12 @@ def forward_masked(model, tok, turns, cfg, device="cuda:0", context="bf16"):
     free_b, total_b = torch.cuda.mem_get_info()
     check_foreign_vram(total_b, free_b, torch.cuda.memory_allocated())
 
-    text = render_gemma_chat([{"role": t["role"], "text": " ".join(t["sentences"])}
-                              for t in turns])
+    # Szablon WLASNY modelu, nie nasz render Gemmy (ustalenie DEP, zlecenie 09):
+    # PLLuM oczekuje stylu Mistrala, wiec jeden render dla obu modeli oznaczalby
+    # mierzenie tekstu, ktorego drugi model nie uznaje za rozmowe. Dla Gemmy
+    # wynik jest identyczny - zweryfikowane w T2 - wiec SPEKTRA-1 sie nie zmienia.
+    text = render_chat(tok, [{"role": t["role"], "text": " ".join(t["sentences"])}
+                             for t in turns])
     enc = tok(text, return_tensors="pt", add_special_tokens=False).to(device)
     ids = enc["input_ids"][0]
     special = np.isin(ids.cpu().numpy(), tok.all_special_ids)

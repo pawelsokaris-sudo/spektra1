@@ -81,6 +81,32 @@ def render_gemma_chat(turns):
     return "".join(parts)
 
 
+def _normalize_role(role):
+    """'model' i 'assistant' to ta sama rola; apply_chat_template chce 'assistant'."""
+    return "assistant" if role in ("assistant", "model") else role
+
+
+def render_chat(tok, turns):
+    """Render szablonu czatu WLASNYM szablonem modelu (SPEKTRA-2).
+
+    Powod zmiany (ustalenie DEP, zlecenie 09): render_gemma_chat sklada markery
+    w stylu Gemmy (<start_of_turn>), a PLLuM oczekuje stylu Mistrala
+    ([INST]...[/INST]). Uzycie jednego renderera do obu modeli oznaczaloby
+    mierzenie tekstu, ktorego drugi model NIE UZNAJE za rozmowe.
+
+    Dla Gemmy wynik jest identyczny z render_gemma_chat - zweryfikowane
+    w T2 na maszynie pomiarowej - wiec porownywalnosc ze SPEKTRA-1 zostaje
+    nienaruszona. Dla kazdego innego modelu dostajemy jego wlasny format.
+
+    turns: lista {"role": ..., "text": ...} albo {"role": ..., "sentences": [...]}.
+    """
+    msgs = []
+    for t in turns:
+        text = t["text"] if "text" in t else " ".join(t["sentences"])
+        msgs.append({"role": _normalize_role(t["role"]), "content": text})
+    return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=False)
+
+
 def variant_structure_check(variants):
     """Sprawdza zgodnosc struktury wariantow scenariusza.
 

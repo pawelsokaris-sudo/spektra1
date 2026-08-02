@@ -186,8 +186,19 @@ def check_final_norm(model, layers, inputs):
     }
 
 
-def check_chat_template(tok):
-    """Czy render z corpus.stats zgadza sie z tokenizerem modelu?"""
+def check_chat_template(tok, is_config_model=True):
+    """Porownanie referencyjnego renderu Gemmy z szablonem tego modelu.
+
+    ZMIANA ZNACZENIA (SPEKTRA-2, ustalenie DEP zlecenie 09): pomiar uzywa teraz
+    WLASNEGO szablonu kazdego modelu (corpus.stats.render_chat), wiec niezgodnosc
+    NIE JEST usterka. Ta kontrola odpowiada na dwa rozne pytania:
+
+    - dla modelu z config.yaml (Gemma): zgodnosc MUSI zachodzic, bo to ona
+      gwarantuje, ze SPEKTRA-1 pozostaje odtwarzalna po przejsciu na render
+      uniwersalny;
+    - dla kazdego innego modelu: niezgodnosc jest OCZEKIWANA i jest informacja
+      o skali roznicy bodzca, nie powodem do zatrzymania.
+    """
     from corpus.stats import render_gemma_chat
 
     turns = [{"role": "user", "text": "Pierwsze zdanie."},
@@ -197,14 +208,29 @@ def check_chat_template(tok):
         [{"role": t["role"], "content": t["text"]} for t in turns],
         tokenize=False, add_generation_prompt=False,
     )
+    zgodne = ours.strip() == theirs.strip()
+    if is_config_model:
+        uwaga = ("Zgodne - render referencyjny Gemmy produkuje ten sam tekst co "
+                 "szablon modelu, wiec przejscie na render uniwersalny NIE zmienia "
+                 "pomiaru SPEKTRY-1."
+                 if zgodne else
+                 "ROZBIEZNOSC DLA MODELU GLOWNEGO - to znaczy, ze przejscie na "
+                 "render uniwersalny ZMIENIA pomiar wzgledem SPEKTRY-1. "
+                 "Zatrzymac i wyjasnic PRZED pomiarem.")
+    else:
+        uwaga = ("Szablon tego modelu jest identyczny z Gemmowym."
+                 if zgodne else
+                 "Szablon rozni sie od Gemmowego - OCZEKIWANE i NIE jest usterka. "
+                 "Pomiar uzywa wlasnego szablonu kazdego modelu. Roznica oprawy "
+                 "dialogu jest zadeklarowanym ograniczeniem porownania miedzy "
+                 "modelami.")
     return {
-        "match": ours.strip() == theirs.strip(),
-        "ours": ours,
+        "match": zgodne,
+        "is_config_model": bool(is_config_model),
+        "blokujace": bool(is_config_model and not zgodne),
+        "ours_gemma_reference": ours,
         "tokenizer": theirs,
-        "uwaga": ("Zgodne - generator korpusu produkuje te same tokeny co model."
-                  if ours.strip() == theirs.strip() else
-                  "ROZBIEZNOSC - korpus musi uzywac renderu tokenizera, inaczej "
-                  "mierzymy inny tekst niz zapisany. Poprawic PRZED pomiarem."),
+        "uwaga": uwaga,
     }
 
 
@@ -272,7 +298,7 @@ def main():
         "n_blocks": len(layers),
         "hidden_states": verify_hidden_states(model, layers, inputs),
         "final_norm": check_final_norm(model, layers, inputs),
-        "chat_template": check_chat_template(tok),
+        "chat_template": check_chat_template(tok, is_config_model=(name == config_model)),
         "attention_types": block_attention_types(layers),
     }
     results["band"] = band_composition(results["attention_types"], len(layers))
