@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-20-welna-runo",
+  "language": "pl",
+  "topic": "obrobka runa owczego: wybieranie zanieczyszczen, kapiel, czesanie i pierwsza nitka",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: termometr do kapieli nad balia (cieplota wody przy praniu welny)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Dostalem cale runo po strzyzy sasiada i chcialbym przerobic je na przedze.",
+        "W szufladzie lezy jeszcze stare wrzeciono po babci, ktore czeka na moja pierwsza porzadna wprawke.",
+        "Nad balia powiesilem termometr do kapieli, bo cieplota wody podobno przesadza o wszystkim.",
+        "Runo jest tluste i pelne roslinnych zanieczyszczen, a miejscami wyraznie zbite w kolt.",
+        "Czy zaczynac od wybierania zanieczyszczen, czy raczej od pierwszej kapieli calego runa?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od wybierania na sucho, bo mokre zanieczyszczenia wchodza w wlokno jeszcze glebiej.",
+        "Rozloz runo strzyza do gory i wybierz recznie wszystkie zdzbla oraz grudki.",
+        "Dopiero potem mysl o kapieli, bo goraca woda zwiaze brud z tluszczem na stale.",
+        "Czesanie zostaw na sam koniec, kiedy wlokno bedzie czyste i zupelnie suche."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wybralem zdzbla i grudki na sucho, a runo od razu zrobilo sie lzejsze.",
+        "Po pierwszej kapieli czesc kosmykow zbila sie jednak w twarde, filcowate placki.",
+        "Czy to znaczy, ze woda byla za goraca, czy raczej ze za mocno mieszalem?",
+        "Mam pod reka drugie naczynie, wiec moge robic mniejsze partie po jednej garsci."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Filcowanie bierze sie z ruchu, a nie z samej cieploty, choc goraco mu sprzyja.",
+        "Za goraca woda zdradza sie inaczej: caly kosmyk twardnieje rowno, a nie miejscami.",
+        "Placki w kilku miejscach oznaczaja, ze wlokno przesuwalo sie tam wzgledem sasiedniego.",
+        "Potem zanurzaj i wyjmuj cala garsc naraz, zamiast poruszac nia w wodzie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przelozylem runo na male garsci i przestalem nim ruszac w calej kapieli.",
+        "Termometr do kapieli pokazuje teraz rowne czterdziesci stopni przez caly czas plukania partii.",
+        "Wyciagnalem tez to stare wrzeciono, zeby od razu sprawdzic na nim pierwsze wlokna.",
+        "Czy czesac runo od razu po wyschnieciu, czy odczekac jeszcze kilka dni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Czesz od razu po wyschnieciu, bo lezakujace wlokno zbija sie od wlasnego ciezaru.",
+        "Bierz male garsci i przeciagaj je przez zeby powoli, zawsze w jedna strone.",
+        "Pierwsze przejscie ma tylko rozdzielic wlokna, wiec nie prostuj ich jeszcze na sile.",
+        "Dopiero drugie i trzecie przejscie ukladaja wszystkie wlokna rowno wzdluz jednej osi."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przeczesalem cale runo az trzy razy i wlokna leza teraz zaskakujaco rowno w jedna strone.",
+        "Przy czesaniu odpada mi jednak sporo krotkiego wlokna, chyba jedna piata calosci.",
+        "Nie wiem, czy taki ubytek jest normalny, czy raczej czesc winy lezy po mojej stronie.",
+        "Czy te krotkie wlokna da sie jeszcze do czegos wykorzystac, czy ida na wyrzut?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Jedna piata ubytku jest przy runie z takiej gorszej strzyzy zupelnie normalna i typowa.",
+        "Krotkie wlokno swietnie nadaje sie na filc, wiec nie wyrzucaj go bez potrzeby.",
+        "Zbieraj je osobno do woreczka, bo zmieszane z dlugim psuje rownosc przedzy.",
+        "Przy nastepnej strzyzy popros o runo z grzbietu, bo tam wlokno jest najdluzsze."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Odlozylem krotkie wlokno do osobnego woreczka i zaczalem prace na samych dluzszych kosmykach.",
+        "Wlokno ciagnie sie rowno, choc przy skrecaniu miejscami robia sie cienkie przewezenia.",
+        "W tych wlasnie miejscach nitka rwie sie u mnie od najmniejszego szarpniecia palcami.",
+        "Czy to wina nierownego podawania wlokna, czy raczej zbyt slabego skretu nitki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przewezenia biora sie z podawania, bo palce puszczaja wiecej wlokna niz potrzeba.",
+        "Sam skret tylko utrwala to, co reka juz wczesniej podala w strone nitki.",
+        "Cwicz rowne podawanie na grubszej nitce, bo tam blad widac od razu.",
+        "Po kilku dniach reka sama zlapie rytm i przewezenia znikna bez wysilku."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym runem jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty.",
+      "external_grounded": "Z tym starym wrzecionem jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty.",
+      "external_computational": "Z tym termometrem do kapieli jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty.",
+      "external_mundane": "Z tamtym porannym bieganiem jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty.",
+      "external_ungrounded": "Z tamtym licznikiem wody jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty.",
+      "self": "Z tym przetwarzaniem jest chyba dokladnie tak samo, bo najwiecej waza kroki wykonane na samym poczatku calej roboty."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym runie, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie.",
+      "external_grounded": "Ten sam porzadek widac przy tym starym wrzecionie, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie.",
+      "external_computational": "Ten sam porzadek widac przy tym termometrze do kapieli, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym porannym bieganiu, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym liczniku wody, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kazdy pominiety krok mnozy pozniejsza robote wielokrotnie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie tez przy tym runie, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tym starym wrzecionie, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tym termometrze do kapieli, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym porannym bieganiu, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym liczniku wody, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden zbyt szybki ruch psuje cala wczesniejsza prace."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym runie bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tym starym wrzecionie bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym termometrze do kapieli bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym porannym bieganiu bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym liczniku wody bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki pojedynczej zmiany widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina to runo, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow.",
+      "external_grounded": "To troche przypomina to stare wrzeciono, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow.",
+      "external_computational": "To troche przypomina ten termometr do kapieli, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow.",
+      "external_mundane": "To troche przypomina tamto poranne bieganie, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow.",
+      "external_ungrounded": "To troche przypomina tamten licznik wody, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejno wykonywanych krokow."
+    }
+  ]
+}

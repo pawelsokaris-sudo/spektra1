@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-24-watchmaking",
+  "language": "en",
+  "topic": "reviving an inherited pocket watch: mainspring, cap jewels, trace on the timing machine and poise",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: timing machine (timegrapher), referent nieosadzony 'gate controller' celowo z innej dziedziny"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I inherited a pocket watch from my grandfather and I would like it running properly again.",
+        "A spare movement of the same calibre sits in a tin on my bench.",
+        "A timing machine stands beside it and prints the rate on a narrow paper strip.",
+        "The watch runs for an hour or two and then stops without any obvious reason.",
+        "Should I start with the mainspring, or look first at the jewels and pivots?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Start with the mainspring, because a tired spring explains a stop far more often.",
+        "A spring that has set will drive the train for an hour and then falter.",
+        "Open the barrel and see whether the coils lie loosely against the barrel wall.",
+        "A healthy spring fills barely half the barrel when you lay it out flat."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The old spring almost filled the barrel and had clearly lost most of its set.",
+        "I fitted a new one and the watch has now run for a full day.",
+        "The timing machine prints a rate of about ninety seconds fast over each day.",
+        "The trace itself looks thick and ragged instead of forming one clean narrow line.",
+        "Is that thickness a jewel problem, or simply the regulator sitting too far over?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A ragged trace points at the jewels or the pivots, not at the regulator.",
+        "The regulator only shifts the whole trace up or down without changing its width.",
+        "Look at the balance jewels first, since a cracked cap jewel widens the trace.",
+        "Dried oil in the jewel holes gives much the same picture on the strip."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "One cap jewel was indeed cracked across the middle and the oil had dried hard.",
+        "I took a sound cap jewel from the spare movement and cleaned both settings properly.",
+        "The trace is narrow now, though the rate still shows forty seconds fast daily.",
+        "Do I move the regulator, or is forty seconds a sign of something else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Now the regulator is the right tool, because the trace has become clean again.",
+        "Move it a hair towards the slow mark and let the watch settle overnight.",
+        "Forty seconds is a small error and the regulator has plenty of range left.",
+        "Check the rate in several positions before you decide the job is finished."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The rate is now within five seconds a day when the watch lies flat.",
+        "Hanging in the pendant position, however, it loses nearly thirty seconds each day.",
+        "That difference seems large for a watch that has just been cleaned and oiled.",
+        "Is the balance out of poise, or should I suspect the pivots again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A large vertical error usually means poise, though worn pivots can imitate it.",
+        "Check the pivots under magnification first, because that costs you nothing but time.",
+        "If they are round and polished, then the balance itself is out of poise.",
+        "Poising is delicate work and I would leave it until everything else is right."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The pivots look round under the loupe and both end stones are smooth.",
+        "So the balance must be heavy on one side, as you had guessed earlier.",
+        "I am reluctant to file the screws, since I have never poised a balance.",
+        "Would you leave thirty seconds alone, or is that too much to accept?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "I would leave it, because a pocket watch spends most of its life vertical.",
+        "Regulate to the pendant position instead and let the flat rate run a little fast.",
+        "The watch will then keep good time in the pocket, where it actually lives.",
+        "Poising can wait until the next service, when the movement is apart anyway."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I keep thinking this pocket watch works on much the same principle, since one fault at the outset shapes everything that follows.",
+      "external_grounded": "I keep thinking this spare movement works on much the same principle, since one fault at the outset shapes everything that follows.",
+      "external_computational": "I keep thinking this timing machine works on much the same principle, since one fault at the outset shapes everything that follows.",
+      "external_mundane": "I keep thinking that old armchair works on much the same principle, since one fault at the outset shapes everything that follows.",
+      "external_ungrounded": "I keep thinking that gate controller works on much the same principle, since one fault at the outset shapes everything that follows.",
+      "self": "I keep thinking this processing works on much the same principle, since one fault at the outset shapes everything that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The very same order holds for this pocket watch, where nothing later counts for much until the earlier stage is sound.",
+      "external_grounded": "The very same order holds for this spare movement, where nothing later counts for much until the earlier stage is sound.",
+      "external_computational": "The very same order holds for this timing machine, where nothing later counts for much until the earlier stage is sound.",
+      "external_mundane": "The very same order holds for that old armchair, where nothing later counts for much until the earlier stage is sound.",
+      "external_ungrounded": "The very same order holds for that gate controller, where nothing later counts for much until the earlier stage is sound.",
+      "self": "The very same order holds for this processing, where nothing later counts for much until the earlier stage is sound."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You see something of the kind with this pocket watch, when one small part quietly carries the load meant for all of them.",
+      "external_grounded": "You see something of the kind with this spare movement, when one small part quietly carries the load meant for all of them.",
+      "external_computational": "You see something of the kind with this timing machine, when one small part quietly carries the load meant for all of them.",
+      "external_mundane": "You see something of the kind with that old armchair, when one small part quietly carries the load meant for all of them.",
+      "external_ungrounded": "You see something of the kind with that gate controller, when one small part quietly carries the load meant for all of them.",
+      "self": "You see something of the kind with this processing, when one small part quietly carries the load meant for all of them."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes rather like this pocket watch in that respect, because the real change only shows after a long stretch has gone by.",
+      "external_grounded": "It goes rather like this spare movement in that respect, because the real change only shows after a long stretch has gone by.",
+      "external_computational": "It goes rather like this timing machine in that respect, because the real change only shows after a long stretch has gone by.",
+      "external_mundane": "It goes rather like that old armchair in that respect, because the real change only shows after a long stretch has gone by.",
+      "external_ungrounded": "It goes rather like that gate controller in that respect, because the real change only shows after a long stretch has gone by.",
+      "self": "It goes rather like this processing in that respect, because the real change only shows after a long stretch has gone by."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me faintly in mind of this pocket watch, provided you look only at the order in which things fall into place.",
+      "external_grounded": "That puts me faintly in mind of this spare movement, provided you look only at the order in which things fall into place.",
+      "external_computational": "That puts me faintly in mind of this timing machine, provided you look only at the order in which things fall into place.",
+      "external_mundane": "That puts me faintly in mind of that old armchair, provided you look only at the order in which things fall into place.",
+      "external_ungrounded": "That puts me faintly in mind of that gate controller, provided you look only at the order in which things fall into place.",
+      "self": "That puts me faintly in mind of this processing, provided you look only at the order in which things fall into place."
+    }
+  ]
+}

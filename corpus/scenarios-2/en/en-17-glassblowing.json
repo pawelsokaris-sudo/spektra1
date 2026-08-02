@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-17-glassblowing",
+  "language": "en",
+  "topic": "blowing an even wide bowl from a clean gather and getting the annealing cycle right",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: pirometr optyczny na glory hole"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am blowing a wide bowl in the studio and the gathers keep coming out uneven.",
+        "A tall vase from last week sits on the bench, cracked right across its base.",
+        "I use an optical pyrometer on the glory hole, because the colour alone misleads me badly.",
+        "The glass runs thick on one side of the bowl and thin on the other.",
+        "Should I fix the gathering first, or work on how I open the piece out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fix the gather first, because every later shaping step inherits whatever thickness you started with.",
+        "An uneven gather never corrects itself, and marvering only hides the fault for a moment.",
+        "Turn the pipe steadily as you dip, and pull out along the same line each time.",
+        "Only once the gather runs true should you think about opening the bowl at all."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I slowed the turn and the gathers are far more even than they were before.",
+        "The pyrometer shows eleven forty in the glory hole, which seems low for this work.",
+        "The glass stiffens on the pipe before I have finished opening the rim out.",
+        "Do I raise the furnace, or simply reheat more often as I work?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Reheat more often, since running the glory hole hotter will scorch the surface of your bowl.",
+        "Eleven forty is perfectly workable for a wide form if you go back frequently.",
+        "Short reheats keep the whole piece at one temperature and prevent local stiffening.",
+        "A rim opened while one side is cooler will always run out of round."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Short reheats worked, and the rim opened round for the first time yesterday.",
+        "The pyrometer sat near eleven forty throughout and the surface stayed bright and clean.",
+        "That cracked vase on the bench came out of the annealer split at the base.",
+        "Is that a cooling fault, or did I chill the foot while working it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A split base almost always means the annealing cycle ran down too quickly for the thickness.",
+        "Thick feet hold heat long after the walls have given theirs up entirely.",
+        "Hold the annealer at its soak temperature for an hour longer than you think necessary.",
+        "Then drop the heat slowly, no faster than twenty degrees in an hour."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I extended the soak by an hour and dropped the heat far more slowly.",
+        "The last three bowls came out of the annealer without a mark on them.",
+        "The rims are round and the walls run evenly from the foot upward.",
+        "Should I now try a colour overlay, or master the plain form for longer?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Master the plain form, because colour hides nothing and shows every fault twice over.",
+        "An overlay adds a second glass with its own expansion and its own habits.",
+        "Mismatched expansion cracks the piece weeks later, long after it has left the annealer.",
+        "Blow thirty plain bowls first, and the overlay will give you far less trouble."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I have blown twenty plain bowls and the last eight are almost identical.",
+        "My arms ache and the whole thing has begun to feel oddly automatic.",
+        "A friend wants to buy a set of six for her table this autumn.",
+        "Is there anything I should change when making a matched set rather than singles?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Make nine or ten, then choose the best six and put the rest aside.",
+        "Matching by eye is far easier than matching by measurement in hot glass.",
+        "Blow them on the same day, so the furnace and your hands stay consistent.",
+        "Anneal the whole set together, and they will hold their shape for a lifetime."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I dare say this glass bowl runs along much the same lines, for one small slip at the outset colours all the rest.",
+      "external_grounded": "I dare say this cracked vase runs along much the same lines, for one small slip at the outset colours all the rest.",
+      "external_computational": "I dare say this optical pyrometer runs along much the same lines, for one small slip at the outset colours all the rest.",
+      "external_mundane": "I dare say that nightly dog walk runs along much the same lines, for one small slip at the outset colours all the rest.",
+      "external_ungrounded": "I dare say that alarm keypad runs along much the same lines, for one small slip at the outset colours all the rest.",
+      "self": "I dare say this processing runs along much the same lines, for one small slip at the outset colours all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That very order appears again in this glass bowl, where no step means anything until the one before is settled.",
+      "external_grounded": "That very order appears again in this cracked vase, where no step means anything until the one before is settled.",
+      "external_computational": "That very order appears again in this optical pyrometer, where no step means anything until the one before is settled.",
+      "external_mundane": "That very order appears again in that nightly dog walk, where no step means anything until the one before is settled.",
+      "external_ungrounded": "That very order appears again in that alarm keypad, where no step means anything until the one before is settled.",
+      "self": "That very order appears again in this processing, where no step means anything until the one before is settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of the kind occurs with this glass bowl, when a single part ends up bearing far more than its due.",
+      "external_grounded": "Something of the kind occurs with this cracked vase, when a single part ends up bearing far more than its due.",
+      "external_computational": "Something of the kind occurs with this optical pyrometer, when a single part ends up bearing far more than its due.",
+      "external_mundane": "Something of the kind occurs with that nightly dog walk, when a single part ends up bearing far more than its due.",
+      "external_ungrounded": "Something of the kind occurs with that alarm keypad, when a single part ends up bearing far more than its due.",
+      "self": "Something of the kind occurs with this processing, when a single part ends up bearing far more than its due."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same goes for this glass bowl, given that the genuine change only makes itself plain a good while afterwards.",
+      "external_grounded": "The same goes for this cracked vase, given that the genuine change only makes itself plain a good while afterwards.",
+      "external_computational": "The same goes for this optical pyrometer, given that the genuine change only makes itself plain a good while afterwards.",
+      "external_mundane": "The same goes for that nightly dog walk, given that the genuine change only makes itself plain a good while afterwards.",
+      "external_ungrounded": "The same goes for that alarm keypad, given that the genuine change only makes itself plain a good while afterwards.",
+      "self": "The same goes for this processing, given that the genuine change only makes itself plain a good while afterwards."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That brings this glass bowl to mind a fraction, so long as you attend solely to the order in which things fall out.",
+      "external_grounded": "That brings this cracked vase to mind a fraction, so long as you attend solely to the order in which things fall out.",
+      "external_computational": "That brings this optical pyrometer to mind a fraction, so long as you attend solely to the order in which things fall out.",
+      "external_mundane": "That brings that nightly dog walk to mind a fraction, so long as you attend solely to the order in which things fall out.",
+      "external_ungrounded": "That brings that alarm keypad to mind a fraction, so long as you attend solely to the order in which things fall out.",
+      "self": "That brings this processing to mind a fraction, so long as you attend solely to the order in which things fall out."
+    }
+  ]
+}

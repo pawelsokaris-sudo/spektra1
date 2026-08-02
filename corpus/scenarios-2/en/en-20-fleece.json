@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-20-fleece",
+  "language": "en",
+  "topic": "skirting, scouring and carding a raw Jacob fleece before spinning it over winter",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr do kapieli pluczacej"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have a raw Jacob fleece from a neighbour and want to spin it this winter.",
+        "A hogget fleece from the same flock lies in the other sack, much finer throughout.",
+        "I keep a bath thermometer by the sink, since hot water once felted a whole fleece.",
+        "The wool is heavy with grease and full of hay seed near the britch.",
+        "Should I skirt and pick it dry first, or wash the whole fleece straight away?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Skirt it dry first, because grease holds the dirt and washing simply spreads it about.",
+        "Lay the whole fleece out cut side down and pull away the soiled edges.",
+        "Britch wool is coarse and seedy, and no amount of washing will improve it.",
+        "Only when the fleece is clean of vegetable matter should any water touch it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I skirted the fleece and threw out nearly a fifth of the weight.",
+        "The bath thermometer read sixty degrees when I lowered the first batch in.",
+        "The locks came out clean but they feel slightly harsh and squeaky now.",
+        "Did I strip too much grease, or is that simply how scoured wool feels?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You stripped rather too much, since sixty degrees with detergent takes out nearly all the lanolin.",
+        "Wool wants a little grease left in it to card and draft kindly.",
+        "Drop the next bath to fifty and use rather less detergent than before.",
+        "Never stir the wool while it soaks, or the fibres will lock together."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I scoured the rest at fifty degrees and the locks came out far softer.",
+        "The bath thermometer barely moved, and I left the wool completely still throughout.",
+        "That hogget fleece in the other sack has much shorter locks than this one.",
+        "Will such short wool card properly, or should I comb it instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Card the short wool, because combs throw away everything below about three inches long.",
+        "Carding keeps the fibres crossed and gives a light, airy yarn when spun.",
+        "Combing lays them parallel and suits only the longest, strongest staple you have.",
+        "Match the tool to the fibre and the yarn will follow of itself."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I carded the short wool into rolags and they draft beautifully off the wheel.",
+        "The longer Jacob staple I combed instead, and the top is glossy and smooth.",
+        "My rolags keep breaking up when I try to card too much at once.",
+        "How much wool belongs on a pair of hand carders at one loading?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Load far less than you think, because a thin charge cards evenly and a thick one tangles.",
+        "The teeth should just show through the wool when you look across the carder.",
+        "Three light passes give a better rolag than one heavy pass ever will.",
+        "Keep the strokes long and let the carders do the work for you."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Lighter loading fixed it and my rolags now roll off whole every time.",
+        "I have spun about half a pound and the yarn is fairly even.",
+        "The Jacob colours have blended into a soft grey I did not expect.",
+        "Should I separate the colours next time, or is the blend worth keeping?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Separate them next time, because a Jacob fleece gives you three natural colours free.",
+        "Sort the locks as you skirt, while the pattern is still plain to see.",
+        "Once they are carded together the colours can never be pulled apart again.",
+        "Keep this grey though, since blended Jacob makes a very handsome plain sweater."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this raw fleece works in very much the same way, since a small fault at the start decides all that follows.",
+      "external_grounded": "I imagine this hogget fleece works in very much the same way, since a small fault at the start decides all that follows.",
+      "external_computational": "I imagine this bath thermometer works in very much the same way, since a small fault at the start decides all that follows.",
+      "external_mundane": "I imagine that brass doorknob works in very much the same way, since a small fault at the start decides all that follows.",
+      "external_ungrounded": "I imagine that network switch works in very much the same way, since a small fault at the start decides all that follows.",
+      "self": "I imagine this processing works in very much the same way, since a small fault at the start decides all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That same sequence appears in this raw fleece, where a stage counts for nothing until the one before it is settled.",
+      "external_grounded": "That same sequence appears in this hogget fleece, where a stage counts for nothing until the one before it is settled.",
+      "external_computational": "That same sequence appears in this bath thermometer, where a stage counts for nothing until the one before it is settled.",
+      "external_mundane": "That same sequence appears in that brass doorknob, where a stage counts for nothing until the one before it is settled.",
+      "external_ungrounded": "That same sequence appears in that network switch, where a stage counts for nothing until the one before it is settled.",
+      "self": "That same sequence appears in this processing, where a stage counts for nothing until the one before it is settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something much like that happens with this raw fleece, when one part quietly takes on more than it was ever meant to.",
+      "external_grounded": "Something much like that happens with this hogget fleece, when one part quietly takes on more than it was ever meant to.",
+      "external_computational": "Something much like that happens with this bath thermometer, when one part quietly takes on more than it was ever meant to.",
+      "external_mundane": "Something much like that happens with that brass doorknob, when one part quietly takes on more than it was ever meant to.",
+      "external_ungrounded": "Something much like that happens with that network switch, when one part quietly takes on more than it was ever meant to.",
+      "self": "Something much like that happens with this processing, when one part quietly takes on more than it was ever meant to."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same is true of this raw fleece, because the actual change only becomes visible a fair while after the event.",
+      "external_grounded": "The same is true of this hogget fleece, because the actual change only becomes visible a fair while after the event.",
+      "external_computational": "The same is true of this bath thermometer, because the actual change only becomes visible a fair while after the event.",
+      "external_mundane": "The same is true of that brass doorknob, because the actual change only becomes visible a fair while after the event.",
+      "external_ungrounded": "The same is true of that network switch, because the actual change only becomes visible a fair while after the event.",
+      "self": "The same is true of this processing, because the actual change only becomes visible a fair while after the event."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls this raw fleece to mind a little, provided you consider only the order in which the stages settle down.",
+      "external_grounded": "That calls this hogget fleece to mind a little, provided you consider only the order in which the stages settle down.",
+      "external_computational": "That calls this bath thermometer to mind a little, provided you consider only the order in which the stages settle down.",
+      "external_mundane": "That calls that brass doorknob to mind a little, provided you consider only the order in which the stages settle down.",
+      "external_ungrounded": "That calls that network switch to mind a little, provided you consider only the order in which the stages settle down.",
+      "self": "That calls this processing to mind a little, provided you consider only the order in which the stages settle down."
+    }
+  ]
+}

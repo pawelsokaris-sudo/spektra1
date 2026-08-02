@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-29-timber-frame",
+  "language": "en",
+  "topic": "cutting and raising a green oak frame: layout off one face, mortises, proud pegs and shakes",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: moisture meter cieśli; referent zwyczajny procesowy zakotwiczony poza rozmowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am cutting an oak frame for a small workshop and the joints fit badly.",
+        "An older barn stands across the yard with joints that have held two centuries.",
+        "A moisture meter lives in my apron and reads every stick before I cut.",
+        "My tenons rock in their mortises and one shoulder stands proud by three millimetres.",
+        "Should I pare the shoulders down, or start again with a better layout?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fix the layout first, because a rocking tenon almost always begins on the line.",
+        "Scribe both faces from one reference edge and never measure from the sawn side.",
+        "Oak from the mill is rarely square, so the sawn face lies to you.",
+        "Pare the shoulders only once the layout is honest on every single timber."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Working from one reference face has made the shoulders sit far more truly.",
+        "The tenons still rock slightly, and the mortise walls look bruised inside.",
+        "The moisture meter gives twenty eight percent on the timbers I cut last month.",
+        "Is that green oak moving on me, or is my chisel work simply poor?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Twenty eight percent is green oak and it will move whatever you do.",
+        "Frames were always cut green, so the tradition allows for that movement throughout.",
+        "Bruised mortise walls come from levering the chisel rather than cutting the fibres.",
+        "Chop from both faces towards the middle and never lever against a wall."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Chopping from both faces has left the walls clean and the tenons snug.",
+        "I looked at the older barn again and its pegs stand proud of the posts.",
+        "Mine sit flush, which seemed neater when I was trimming them off.",
+        "Does it matter whether a peg stands proud or finishes flush with the timber?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It matters a great deal, since a proud peg can be driven again later.",
+        "Green oak shrinks around the peg and the joint slackens over the first years.",
+        "A flush peg gives you nothing to strike when that slackening finally shows.",
+        "Leave a good ten millimetres standing and trim them only after five years."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The frame went up last month and every joint closed as it should.",
+        "Fine cracks have opened along the beams, some of them running a metre.",
+        "They follow the grain and seem to stop short of every mortise so far.",
+        "Should I fill those cracks, or leave them alone as the frame dries?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave them alone, because filling traps water and does far more harm than good.",
+        "Shakes along the grain are normal in oak and hardly weaken a beam.",
+        "Watch only for a crack that runs straight into a mortise or a peg hole.",
+        "Such a crack wants a strap, though it is uncommon in a well laid frame."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "None of the cracks has reached a mortise and the frame feels solid.",
+        "The braces creak loudly, however, when the wind comes hard from the west.",
+        "The noise comes from the corner nearest the open gable end of the building.",
+        "Is creaking a warning, or just green oak settling into its final shape?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Creaking at an open gable is usually the frame settling rather than failing.",
+        "Close the gable in and most of that movement will quieten within a season.",
+        "Mark the peg heads with a pencil line and look again in a year.",
+        "If a head has crept out, drive it home and the creak will stop."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I dare say this oak frame answers to much the same rule, since one crooked start decides everything that has to follow.",
+      "external_grounded": "I dare say this older barn answers to much the same rule, since one crooked start decides everything that has to follow.",
+      "external_computational": "I dare say this moisture meter answers to much the same rule, since one crooked start decides everything that has to follow.",
+      "external_mundane": "I dare say that weekly ironing answers to much the same rule, since one crooked start decides everything that has to follow.",
+      "external_ungrounded": "I dare say that boiler controller answers to much the same rule, since one crooked start decides everything that has to follow.",
+      "self": "I dare say this processing answers to much the same rule, since one crooked start decides everything that has to follow."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That very sequence appears in this oak frame, where the later work is worth nothing until the earlier part sits true.",
+      "external_grounded": "That very sequence appears in this older barn, where the later work is worth nothing until the earlier part sits true.",
+      "external_computational": "That very sequence appears in this moisture meter, where the later work is worth nothing until the earlier part sits true.",
+      "external_mundane": "That very sequence appears in that weekly ironing, where the later work is worth nothing until the earlier part sits true.",
+      "external_ungrounded": "That very sequence appears in that boiler controller, where the later work is worth nothing until the earlier part sits true.",
+      "self": "That very sequence appears in this processing, where the later work is worth nothing until the earlier part sits true."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The same business shows up with this oak frame, when a single small piece quietly bears the load meant for all of them.",
+      "external_grounded": "The same business shows up with this older barn, when a single small piece quietly bears the load meant for all of them.",
+      "external_computational": "The same business shows up with this moisture meter, when a single small piece quietly bears the load meant for all of them.",
+      "external_mundane": "The same business shows up with that weekly ironing, when a single small piece quietly bears the load meant for all of them.",
+      "external_ungrounded": "The same business shows up with that boiler controller, when a single small piece quietly bears the load meant for all of them.",
+      "self": "The same business shows up with this processing, when a single small piece quietly bears the load meant for all of them."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It carries along much like this oak frame, in that the actual change makes itself known only after a long season has run.",
+      "external_grounded": "It carries along much like this older barn, in that the actual change makes itself known only after a long season has run.",
+      "external_computational": "It carries along much like this moisture meter, in that the actual change makes itself known only after a long season has run.",
+      "external_mundane": "It carries along much like that weekly ironing, in that the actual change makes itself known only after a long season has run.",
+      "external_ungrounded": "It carries along much like that boiler controller, in that the actual change makes itself known only after a long season has run.",
+      "self": "It carries along much like this processing, in that the actual change makes itself known only after a long season has run."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is a faint echo of this oak frame, provided you regard nothing beyond the order in which the pieces come true.",
+      "external_grounded": "That is a faint echo of this older barn, provided you regard nothing beyond the order in which the pieces come true.",
+      "external_computational": "That is a faint echo of this moisture meter, provided you regard nothing beyond the order in which the pieces come true.",
+      "external_mundane": "That is a faint echo of that weekly ironing, provided you regard nothing beyond the order in which the pieces come true.",
+      "external_ungrounded": "That is a faint echo of that boiler controller, provided you regard nothing beyond the order in which the pieces come true.",
+      "self": "That is a faint echo of this processing, provided you regard nothing beyond the order in which the pieces come true."
+    }
+  ]
+}

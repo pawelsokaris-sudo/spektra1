@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-27-soapmaking",
+  "language": "en",
+  "topic": "cold process soap: lye weighing, trace, gel phase in the mould, curing on the rack and lather",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: probe thermometer zapisujacy temperature wsadu; referent zwyczajny procesowy zakotwiczony poza rozmowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I made my first cold process soap last week and the bars came out crumbly.",
+        "An older batch from the spring sits on the curing rack and looks fine.",
+        "A probe thermometer clipped to the pot logs the temperature right through the pour.",
+        "The new bars crumble at the edges and show white streaks inside the cut.",
+        "Is that too much lye, or did the batch simply seize in the pot?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "White streaks usually mean the lye never mixed evenly into the oils.",
+        "Crumbly edges point the same way, since the outside sets before the centre does.",
+        "Blend with a stick blender until the batter traces evenly across the whole surface.",
+        "Weigh the lye again as well, because a scale error shows up exactly like this."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I reweighed everything and the lye was about twelve grams over the recipe.",
+        "The second batch traced properly and poured like thin custard into the mould.",
+        "The probe thermometer showed the batter climbing to sixty degrees inside the mould.",
+        "Is sixty degrees too warm, or is that the gel phase everyone mentions?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sixty is the gel phase and it does no harm to the finished bar.",
+        "Gelled soap goes darker in the middle and often looks slightly translucent when cut.",
+        "Worry only above about seventy degrees, where the batter can crack or volcano.",
+        "Cover the mould with a board and leave it undisturbed for a full day."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The bars cut cleanly after a day and the colour is even throughout.",
+        "They feel soft, though, and my thumbnail marks them without any real effort.",
+        "The older batch on the rack is hard and rings when I tap it.",
+        "How long should these cure before they harden up like the older ones?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Give them six weeks on a rack with air moving freely around every bar.",
+        "Water leaves slowly, and a bar loses most of its softness in the first month.",
+        "Turn them onto a fresh face every week so no side stays damp underneath.",
+        "A bar that rings has cured properly and will last twice as long in use."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Six weeks on the rack and the bars now ring exactly as you said.",
+        "A few of them have developed orange spots scattered across the cut faces.",
+        "The spots smell faintly rancid when I hold a bar close to my nose.",
+        "Are those spots dangerous, or merely ugly on an otherwise usable bar?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "They are harmless but they spread, and the smell grows stronger over the months.",
+        "Rancid spots come from oils that were already old when they went in.",
+        "Buy oils in small quantities and keep them dark and cool between batches.",
+        "Use the spotted bars for washing floors and let the clean ones age on."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I bought fresh oils and the last two batches have stayed completely clean.",
+        "The lather is thin, though, and disappears almost as soon as it forms.",
+        "My recipe is mostly olive oil with a little coconut and some tallow.",
+        "Should I raise the coconut, or will that make the bar too drying?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Raise the coconut to about a fifth and the lather will thicken noticeably.",
+        "Beyond a quarter it does dry the skin, especially in hard winter water.",
+        "Adding castor oil at five percent will hold the bubbles far longer as well.",
+        "Change one thing at a time and label every batch with its date."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this soap batch runs on much the same footing, because a single early slip governs everything that comes afterwards.",
+      "external_grounded": "I imagine this older batch runs on much the same footing, because a single early slip governs everything that comes afterwards.",
+      "external_computational": "I imagine this probe thermometer runs on much the same footing, because a single early slip governs everything that comes afterwards.",
+      "external_mundane": "I imagine that weekly shopping runs on much the same footing, because a single early slip governs everything that comes afterwards.",
+      "external_ungrounded": "I imagine that electricity meter runs on much the same footing, because a single early slip governs everything that comes afterwards.",
+      "self": "I imagine this processing runs on much the same footing, because a single early slip governs everything that comes afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That very order appears with this soap batch, where a later stage amounts to little until the earlier one is settled.",
+      "external_grounded": "That very order appears with this older batch, where a later stage amounts to little until the earlier one is settled.",
+      "external_computational": "That very order appears with this probe thermometer, where a later stage amounts to little until the earlier one is settled.",
+      "external_mundane": "That very order appears with that weekly shopping, where a later stage amounts to little until the earlier one is settled.",
+      "external_ungrounded": "That very order appears with that electricity meter, where a later stage amounts to little until the earlier one is settled.",
+      "self": "That very order appears with this processing, where a later stage amounts to little until the earlier one is settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something similar happens with this soap batch, when one small piece quietly takes on the work meant for the whole of it.",
+      "external_grounded": "Something similar happens with this older batch, when one small piece quietly takes on the work meant for the whole of it.",
+      "external_computational": "Something similar happens with this probe thermometer, when one small piece quietly takes on the work meant for the whole of it.",
+      "external_mundane": "Something similar happens with that weekly shopping, when one small piece quietly takes on the work meant for the whole of it.",
+      "external_ungrounded": "Something similar happens with that electricity meter, when one small piece quietly takes on the work meant for the whole of it.",
+      "self": "Something similar happens with this processing, when one small piece quietly takes on the work meant for the whole of it."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It works out rather like this soap batch, given that the real change only makes itself plain after a long while has gone.",
+      "external_grounded": "It works out rather like this older batch, given that the real change only makes itself plain after a long while has gone.",
+      "external_computational": "It works out rather like this probe thermometer, given that the real change only makes itself plain after a long while has gone.",
+      "external_mundane": "It works out rather like that weekly shopping, given that the real change only makes itself plain after a long while has gone.",
+      "external_ungrounded": "It works out rather like that electricity meter, given that the real change only makes itself plain after a long while has gone.",
+      "self": "It works out rather like this processing, given that the real change only makes itself plain after a long while has gone."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That reminds me distantly of this soap batch, provided you attend solely to the order in which the parts come right.",
+      "external_grounded": "That reminds me distantly of this older batch, provided you attend solely to the order in which the parts come right.",
+      "external_computational": "That reminds me distantly of this probe thermometer, provided you attend solely to the order in which the parts come right.",
+      "external_mundane": "That reminds me distantly of that weekly shopping, provided you attend solely to the order in which the parts come right.",
+      "external_ungrounded": "That reminds me distantly of that electricity meter, provided you attend solely to the order in which the parts come right.",
+      "self": "That reminds me distantly of this processing, provided you attend solely to the order in which the parts come right."
+    }
+  ]
+}

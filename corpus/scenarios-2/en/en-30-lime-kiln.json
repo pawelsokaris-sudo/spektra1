@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-30-lime-kiln",
+  "language": "en",
+  "topic": "burning lime in a small field kiln: stone size, draught, burn temperature and slaking to putty",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: kiln pyrometer z sonda; referent nieosadzony 'signal relay' z innej dziedziny technicznej"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have rebuilt a small field kiln and want to burn my own lime.",
+        "An older kiln sits half collapsed in the next field and burned well once.",
+        "A kiln pyrometer with a long probe now reads the burn every ten minutes.",
+        "My first burn left a lot of raw stone in the middle of the charge.",
+        "Is my stone too large, or did the draught never reach the centre?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Raw stone in the middle nearly always means the draught failed to get through.",
+        "Break the stone to an even size, roughly a fist across at most.",
+        "Mixed sizes pack together and close the gaps that carry heat upward.",
+        "Build the charge in layers with the fuel spread evenly through each one."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Breaking the stone evenly has changed everything and the last burn ran hot.",
+        "The charge glowed right through and very little raw stone came out.",
+        "The kiln pyrometer showed eleven hundred degrees for most of the second night.",
+        "Is that hotter than I need, or about right for burning good lime?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Eleven hundred is a shade hot, since nine hundred will drive the stone.",
+        "Too much heat starts to sinter the surface and the lime slakes badly afterwards.",
+        "Hold the burn nearer a thousand and simply carry it on for longer.",
+        "Time at heat matters far more than the highest number you ever reach."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Holding a thousand degrees for two days gave a much softer and chalkier lump.",
+        "The lump fizzes hard in water and throws off a great deal of heat.",
+        "The older kiln in the next field had a much narrower throat than mine.",
+        "Should I narrow my own throat, or leave the kiln exactly as it stands?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave the throat alone, because a narrow one suits coal rather than wood.",
+        "Wood needs a wider opening to carry the flame up through the charge.",
+        "Turn now to the slaking, which decides more about your lime than the burn.",
+        "Add the lump to water, never water to the lump, and stand well back."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Slaking into a butt of water gave a thick and creamy putty.",
+        "Some lumps sank to the bottom and sat there without breaking down at all.",
+        "The putty smells sharp and warms the side of the butt for hours.",
+        "Are those sunken lumps wasted, or will they slake given enough time?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sunken lumps are usually overburned and they will never slake properly at all.",
+        "Screen the putty through a coarse sieve before you store it in the butt.",
+        "A lump left in the putty will blow a hole in your plaster later.",
+        "Keep the putty under two inches of water and let it mature quietly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I screened the whole butt and the putty is smooth right through now.",
+        "It has stood three months under water and feels stiffer than at first.",
+        "A skin has formed on the surface wherever the water level dropped.",
+        "Is that skin a loss, or can I stir it back into the putty?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Skim the skin off and throw it away, because it has already carbonated.",
+        "Stirred back in, it leaves hard specks that show up badly in fine work.",
+        "Top the water up every month and the skin will hardly form again.",
+        "Putty kept a full year under water works far sweeter under the trowel."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I rather think this lime kiln holds to much the same rule, because one early failing settles all the work that follows.",
+      "external_grounded": "I rather think this older kiln holds to much the same rule, because one early failing settles all the work that follows.",
+      "external_computational": "I rather think this kiln pyrometer holds to much the same rule, because one early failing settles all the work that follows.",
+      "external_mundane": "I rather think that old bicycle holds to much the same rule, because one early failing settles all the work that follows.",
+      "external_ungrounded": "I rather think that signal relay holds to much the same rule, because one early failing settles all the work that follows.",
+      "self": "I rather think this processing holds to much the same rule, because one early failing settles all the work that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "One meets the same ordering in this lime kiln, where nothing later signifies much until the earlier part is sound.",
+      "external_grounded": "One meets the same ordering in this older kiln, where nothing later signifies much until the earlier part is sound.",
+      "external_computational": "One meets the same ordering in this kiln pyrometer, where nothing later signifies much until the earlier part is sound.",
+      "external_mundane": "One meets the same ordering in that old bicycle, where nothing later signifies much until the earlier part is sound.",
+      "external_ungrounded": "One meets the same ordering in that signal relay, where nothing later signifies much until the earlier part is sound.",
+      "self": "One meets the same ordering in this processing, where nothing later signifies much until the earlier part is sound."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You find much the same thing in this lime kiln, when a single small part quietly carries what all of them should carry.",
+      "external_grounded": "You find much the same thing in this older kiln, when a single small part quietly carries what all of them should carry.",
+      "external_computational": "You find much the same thing in this kiln pyrometer, when a single small part quietly carries what all of them should carry.",
+      "external_mundane": "You find much the same thing in that old bicycle, when a single small part quietly carries what all of them should carry.",
+      "external_ungrounded": "You find much the same thing in that signal relay, when a single small part quietly carries what all of them should carry.",
+      "self": "You find much the same thing in this processing, when a single small part quietly carries what all of them should carry."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It behaves a good deal like this lime kiln, because the true change only declares itself after a long spell has gone by.",
+      "external_grounded": "It behaves a good deal like this older kiln, because the true change only declares itself after a long spell has gone by.",
+      "external_computational": "It behaves a good deal like this kiln pyrometer, because the true change only declares itself after a long spell has gone by.",
+      "external_mundane": "It behaves a good deal like that old bicycle, because the true change only declares itself after a long spell has gone by.",
+      "external_ungrounded": "It behaves a good deal like that signal relay, because the true change only declares itself after a long spell has gone by.",
+      "self": "It behaves a good deal like this processing, because the true change only declares itself after a long spell has gone by."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me dimly in mind of this lime kiln, if one attends to nothing but the order in which the stages come right.",
+      "external_grounded": "That puts me dimly in mind of this older kiln, if one attends to nothing but the order in which the stages come right.",
+      "external_computational": "That puts me dimly in mind of this kiln pyrometer, if one attends to nothing but the order in which the stages come right.",
+      "external_mundane": "That puts me dimly in mind of that old bicycle, if one attends to nothing but the order in which the stages come right.",
+      "external_ungrounded": "That puts me dimly in mind of that signal relay, if one attends to nothing but the order in which the stages come right.",
+      "self": "That puts me dimly in mind of this processing, if one attends to nothing but the order in which the stages come right."
+    }
+  ]
+}

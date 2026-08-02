@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-39-windpump",
+  "language": "en",
+  "topic": "keeping a marsh wind pump at work: scoop wheel depth, a leaking sluice and how much cloth to set",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: rejestrator poziomu wody w rowie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I look after a small wind pump on the marsh and it lifts water far too slowly.",
+        "An old sluice at the far end of the dyke still holds back the tide well.",
+        "A level recorder stands in the dyke and marks the water height every hour.",
+        "The sails turn steadily in a good breeze, yet the scoop wheel barely moves water.",
+        "Should I look first at the sails, or at the gearing down in the pit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Look at the scoop wheel first, because a wheel set too deep swallows all your power.",
+        "Depth of immersion decides everything, and a few inches too far is enough to stall it.",
+        "Measure how far the paddles enter the water when the wheel stands still.",
+        "Only then judge the sails, since they can do nothing about a drowned wheel."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The paddles enter nearly two feet, which sounds a great deal more than it should.",
+        "The level recorder shows the dyke has risen four inches since the autumn rain.",
+        "The old sluice may be letting a little water back at every high tide.",
+        "Do I raise the wheel, or bring the water down before anything else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bring the water down first, since raising a scoop wheel is heavy work in a pit.",
+        "Four inches on the dyke will drown any wheel set for a normal season.",
+        "Check the sluice doors on a falling tide and watch for water creeping back.",
+        "A door that fails to seat will undo a whole night of pumping by morning."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "One sluice door had a baulk of timber jammed under it, holding it open.",
+        "We cleared it and the level recorder shows the dyke down five inches in two days.",
+        "The scoop wheel now turns freely and throws water properly at every revolution.",
+        "Should I still raise the wheel for the summer, or leave it where it sits?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it, because a wheel set right for winter will manage the summer easily.",
+        "Summer water is low anyway and the pump has little to do until autumn.",
+        "Spend the quiet months on the sails and the brake, which both wear unseen.",
+        "Walk the sluice every month as well, since timber and weed collect there constantly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I stripped the sails and found two of the cloth frames badly split at the heel.",
+        "The brake band is thin in one place and squeals whenever I set it hard.",
+        "The mill has stood idle for three weeks while I work through the repairs.",
+        "Which of the two should be finished first, and can the mill run meanwhile?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The brake comes first, always, because a mill you cannot stop is worth nothing.",
+        "Fit a new band and dress the wheel rim smooth before you touch the sails.",
+        "Two split frames will carry cloth for a season if you bind them with iron.",
+        "Run the mill on the two sound sails until the frames are properly rebuilt."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The new brake band is on and the mill stops cleanly from a good speed.",
+        "I ran it on two sails for a fortnight and the dyke held its level.",
+        "Both frames are rebuilt now and I hope to set full cloth next week.",
+        "How much cloth should go on in an ordinary autumn wind off the sea?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "In an ordinary breeze, sword point is plenty and leaves you room to shorten.",
+        "Full cloth belongs to light airs only, whatever the old millers used to boast.",
+        "A marsh wind rises fast and you cannot always get up to take cloth off.",
+        "Set less than you think and let the mill run all night without worry."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I take this wind pump to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "external_grounded": "I take this old sluice to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "external_computational": "I take this level recorder to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "external_mundane": "I take that weekly stair sweeping to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "external_ungrounded": "I take that mains breaker to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "self": "I take this processing to run along much the same lines, since one early unevenness settles everything afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same succession of stages holds with this wind pump, where a later step is worth nothing until the first one has settled.",
+      "external_grounded": "The same succession of stages holds with this old sluice, where a later step is worth nothing until the first one has settled.",
+      "external_computational": "The same succession of stages holds with this level recorder, where a later step is worth nothing until the first one has settled.",
+      "external_mundane": "The same succession of stages holds with that weekly stair sweeping, where a later step is worth nothing until the first one has settled.",
+      "external_ungrounded": "The same succession of stages holds with that mains breaker, where a later step is worth nothing until the first one has settled.",
+      "self": "The same succession of stages holds with this processing, where a later step is worth nothing until the first one has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same thing occurs with this wind pump as well, whenever a single part quietly assumes the work meant for the whole.",
+      "external_grounded": "Much the same thing occurs with this old sluice as well, whenever a single part quietly assumes the work meant for the whole.",
+      "external_computational": "Much the same thing occurs with this level recorder as well, whenever a single part quietly assumes the work meant for the whole.",
+      "external_mundane": "Much the same thing occurs with that weekly stair sweeping as well, whenever a single part quietly assumes the work meant for the whole.",
+      "external_ungrounded": "Much the same thing occurs with that mains breaker as well, whenever a single part quietly assumes the work meant for the whole.",
+      "self": "Much the same thing occurs with this processing as well, whenever a single part quietly assumes the work meant for the whole."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It carries on rather as this wind pump does, in that any real difference becomes plain only after a long period has run.",
+      "external_grounded": "It carries on rather as this old sluice does, in that any real difference becomes plain only after a long period has run.",
+      "external_computational": "It carries on rather as this level recorder does, in that any real difference becomes plain only after a long period has run.",
+      "external_mundane": "It carries on rather as that weekly stair sweeping does, in that any real difference becomes plain only after a long period has run.",
+      "external_ungrounded": "It carries on rather as that mains breaker does, in that any real difference becomes plain only after a long period has run.",
+      "self": "It carries on rather as this processing does, in that any real difference becomes plain only after a long period has run."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That brings this wind pump to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "external_grounded": "That brings this old sluice to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "external_computational": "That brings this level recorder to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "external_mundane": "That brings that weekly stair sweeping to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "external_ungrounded": "That brings that mains breaker to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "self": "That brings this processing to mind, at any rate if one attends solely to the order in which the several stages arrive."
+    }
+  ]
+}

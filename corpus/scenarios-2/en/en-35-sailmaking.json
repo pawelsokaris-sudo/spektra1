@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-35-sailmaking",
+  "language": "en",
+  "topic": "hand roping a new gaff mainsail: bolt rope ease, luff length and a fluttering leech",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: dalmierz laserowy zapisujacy wymiary"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am hand roping a new mainsail for a gaff cutter and the luff is drawing badly.",
+        "An old storm jib in the locker was roped by the same loft thirty years ago.",
+        "A laser measure sits in my pocket and stores each luff and leech reading.",
+        "The rope seems to be pulling the cloth into small puckers every foot or so.",
+        "Have I sewn the rope too tight, or is the cloth simply gathering as it should?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Some gathering is wanted, but puckers every foot mean the rope was stretched while you sewed.",
+        "Bolt rope must be marked against the cloth first, then eased into place mark by mark.",
+        "Sewing a rope under tension shortens the luff and the sail sets in a hard curve.",
+        "Unpick a fathom, let the rope relax overnight and mark both rope and cloth again."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I unpicked two fathoms and the rope shortened by nearly three inches once it relaxed.",
+        "The laser measure gives the luff as eight point four metres along the mast track.",
+        "The old storm jib has the rope eased far more than mine, almost an inch a foot.",
+        "Is that much ease usual, or was the jib built for a much softer cloth?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "An inch a foot suits old flax, which stretches under load far more than modern cloth.",
+        "Your cloth wants perhaps half that, spread evenly rather than concentrated at the head.",
+        "Mark the rope in fathoms and the cloth to match, then work from the tack upward.",
+        "Ease belongs mostly in the lower third, where the sail takes the hardest pull."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I roped it again from the tack with half an inch of ease to the foot.",
+        "The luff now lies flat and the puckers have gone entirely from the lower panels.",
+        "The laser measure shows the luff has grown by five centimetres since the first try.",
+        "Does that extra length matter on a track, or will the sail simply ride higher?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It matters, because five centimetres will put the headboard against the sheave at full hoist.",
+        "Take the difference out at the head rather than disturbing the roping you have just done.",
+        "Shorten the headboard tabling by the same amount and resew the top two seams.",
+        "Then hoist the sail dry and mark where the head actually sits against the mast."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I shortened the tabling and the head now stops two fingers below the sheave.",
+        "The sail set beautifully on a light day, with the draught well forward in the cloth.",
+        "In a fresh breeze, though, the leech began to flutter along its whole length.",
+        "Is that a fault of the tabling, or should I fit a leech line?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fit a leech line, but only after checking that the tabling itself lies perfectly flat.",
+        "A leech that flutters everywhere usually has a tabling sewn slightly tighter than the cloth.",
+        "Lay the sail out and see whether the edge cups towards the weather side.",
+        "A line will quiet a good leech, but it cannot cure a badly sewn edge."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The tabling did cup slightly, so I unpicked it and resewed with a looser stitch.",
+        "With a leech line fitted the flutter has gone even in a good working breeze.",
+        "The sail has now had a season of use and the stitching still looks sound.",
+        "What should I watch for over the winter, and how ought the sail be stored?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wash the salt out with fresh water and dry the sail fully before it goes away.",
+        "Roll it rather than fold it, since creases wear the cloth exactly where it bends.",
+        "Check the stitching at every corner in spring, because chafe shows there long before elsewhere.",
+        "Store it dry and off the floor, and the sail will outlast the boat's rigging."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I would guess this new mainsail unfolds in much the same manner, because one early unevenness governs all that follows.",
+      "external_grounded": "I would guess this old storm jib unfolds in much the same manner, because one early unevenness governs all that follows.",
+      "external_computational": "I would guess this laser measure unfolds in much the same manner, because one early unevenness governs all that follows.",
+      "external_mundane": "I would guess that monthly bread baking unfolds in much the same manner, because one early unevenness governs all that follows.",
+      "external_ungrounded": "I would guess that electricity meter unfolds in much the same manner, because one early unevenness governs all that follows.",
+      "self": "I would guess this processing unfolds in much the same manner, because one early unevenness governs all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same succession appears with this new mainsail, where the later step is worth little until the earlier one has settled.",
+      "external_grounded": "The same succession appears with this old storm jib, where the later step is worth little until the earlier one has settled.",
+      "external_computational": "The same succession appears with this laser measure, where the later step is worth little until the earlier one has settled.",
+      "external_mundane": "The same succession appears with that monthly bread baking, where the later step is worth little until the earlier one has settled.",
+      "external_ungrounded": "The same succession appears with that electricity meter, where the later step is worth little until the earlier one has settled.",
+      "self": "The same succession appears with this processing, where the later step is worth little until the earlier one has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same occurs with this new mainsail as well, whenever one part silently assumes the work intended for many.",
+      "external_grounded": "Much the same occurs with this old storm jib as well, whenever one part silently assumes the work intended for many.",
+      "external_computational": "Much the same occurs with this laser measure as well, whenever one part silently assumes the work intended for many.",
+      "external_mundane": "Much the same occurs with that monthly bread baking as well, whenever one part silently assumes the work intended for many.",
+      "external_ungrounded": "Much the same occurs with that electricity meter as well, whenever one part silently assumes the work intended for many.",
+      "self": "Much the same occurs with this processing as well, whenever one part silently assumes the work intended for many."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It carries on rather like this new mainsail, in that any real change becomes plain only after a long period has run.",
+      "external_grounded": "It carries on rather like this old storm jib, in that any real change becomes plain only after a long period has run.",
+      "external_computational": "It carries on rather like this laser measure, in that any real change becomes plain only after a long period has run.",
+      "external_mundane": "It carries on rather like that monthly bread baking, in that any real change becomes plain only after a long period has run.",
+      "external_ungrounded": "It carries on rather like that electricity meter, in that any real change becomes plain only after a long period has run.",
+      "self": "It carries on rather like this processing, in that any real change becomes plain only after a long period has run."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That brings this new mainsail to mind, at any rate if you attend solely to the order in which the stages present themselves.",
+      "external_grounded": "That brings this old storm jib to mind, at any rate if you attend solely to the order in which the stages present themselves.",
+      "external_computational": "That brings this laser measure to mind, at any rate if you attend solely to the order in which the stages present themselves.",
+      "external_mundane": "That brings that monthly bread baking to mind, at any rate if you attend solely to the order in which the stages present themselves.",
+      "external_ungrounded": "That brings that electricity meter to mind, at any rate if you attend solely to the order in which the stages present themselves.",
+      "self": "That brings this processing to mind, at any rate if you attend solely to the order in which the stages present themselves."
+    }
+  ]
+}

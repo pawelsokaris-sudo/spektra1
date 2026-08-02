@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-16-mlyn-wodny",
+  "language": "pl",
+  "topic": "uruchomienie starego mlyna wodnego: jaz, kolo, wywazenie i odstep kamieni",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: waga zbozowa z zapisem przy zsypie (kontrola przemialu workami)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Kupilem stary mlyn wodny nad rzeka i chcialbym wreszcie doprowadzic kolo do porzadnej pracy.",
+        "Pod dachem lezy jeszcze zapasowy kamien, ktory poprzedni mlynarz kazal kiedys porzadnie nasiekac.",
+        "Przy zsypie stoi waga zbozowa z zapisem, bo kazdy worek musze notowac osobno.",
+        "Kolo obraca sie nierowno i przy wiekszej wodzie zaczyna wyraznie szarpac w lozyskach.",
+        "Czy zaczynac od wyrownania lopatek, czy raczej od samego ustawienia jazu i przepustu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od jazu, bo bez rownego naplywu wody kazda poprawka lopatek bedzie tylko zgadywaniem.",
+        "Strumien musi trafiac w lopatki zawsze w tym samym miejscu, inaczej kolo szarpie przy kazdym obrocie.",
+        "Dopiero potem sprawdzaj same lopatki, bo teraz nie odroznisz wady drewna od wady naplywu.",
+        "Kamienie zostaw na koniec, kiedy kolo bedzie juz szlo rowno przez cala godzine."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Poprawilem jaz deskami i strumien trafia teraz w lopatki znacznie rowniej niz przedtem.",
+        "Szarpanie ustalo, ale kolo nadal zwalnia zawsze w tym samym punkcie obrotu.",
+        "Czy to znaczy, ze jedna lopatka nabiera mniej wody, czy raczej ze wal jest krzywy?",
+        "Mam pod reka pion i dlugi sznurek, wiec moge zmierzyc bicie wienca bez rozbierania."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zmierz najpierw bicie wienca, bo krzywy wal daje zwolnienie zawsze w tej samej cwiartce.",
+        "Pojedyncza lopatka zdradza sie inaczej: kolo gubi sile nieregularnie, a nie co pelny obrot.",
+        "Jesli bicie przekracza dwa centymetry, klinuj wal w lozysku, zanim ruszysz drewno wienca.",
+        "Potem obserwuj przez tydzien, czy zwolnienie nie wraca przy nizszym stanie wody w rzece."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Bicie wynosilo prawie trzy centymetry, wiec zaklinowalem wal i kolo idzie teraz spokojnie.",
+        "Waga zbozowa pokazuje przy okazji, ze przemial idzie o jedna trzecia szybciej niz wczesniej.",
+        "Chcialbym teraz polozyc na wale ten zapasowy kamien, bo obecny ma zupelnie wytarte bruzdy.",
+        "Czy taka zamiana wymaga ponownego wywazenia, czy kamien sam sie ulozy po kilku godzinach?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Kazdy kamien trzeba wywazyc osobno, bo nawet drobna nierownowaga bije potem w cale lozysko.",
+        "Zapasowy kamien lezal lata pod dachem, wiec sprawdz najpierw, czy nie ma wloskowatych pekniec.",
+        "Nasiekanie bruzd rob dopiero po osadzeniu, kiedy kamien lezy juz na wlasnym miejscu.",
+        "Pierwszy przemial puszczaj bardzo wolno, zeby obie powierzchnie dotarly sie bez przypalenia maki."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Osadzilem zapasowy kamien i po dwoch dniach przemial jest wyrazniej grubszy niz przedtem.",
+        "Maka wychodzi rowna, ale otreby zostaja w niej w duzo wiekszej ilosci.",
+        "Podejrzewam, ze odleglosc miedzy kamieniami jest teraz o wlos za duza jak na zyto.",
+        "Czy taki odstep reguluje sie podnosnikiem walu, czy raczej samym dociskiem paprzycy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Odstep reguluje sie podnosnikiem, ale paprzyca musi wczesniej lezec dokladnie w osi kamienia.",
+        "Zjedz podnosnikiem o cwierc obrotu i puszczaj po garsci zboza miedzy kolejnymi poprawkami.",
+        "Zyto lubi ciasniejszy odstep niz pszenica, wiec ustawienie z zeszlego sezonu tu nie zadziala.",
+        "Gdy maka zacznie sie lekko kleic w garsci, cofnij podnosnik o wlos do gory."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zjechalem podnosnikiem o cwierc obrotu i otreby wreszcie przestaly przechodzic do gotowej maki.",
+        "Mlyn pracuje rowno, choc po dwoch godzinach kamien wyraznie sie nagrzewa pod reka.",
+        "Nie wiem, czy to zupelnie normalne, czy raczej znak, ze gdzies brakuje luzu.",
+        "Czy taka temperatura kamienia szkodzi mace, czy jest po prostu nieunikniona przy dluzszej pracy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lekkie nagrzanie jest normalne, ale kamien goracy w dotyku juz przypala skrobie w ziarnie.",
+        "Sprawdzaj dlonia co godzine i rob przerwy, zanim powierzchnia zrobi sie nieprzyjemnie ciepla.",
+        "Czesto pomaga wolniejszy zasyp, bo to ziarno chlodzi kamien lepiej niz jakikolwiek postoj.",
+        "Pod koniec dnia przemiataj bruzdy szczotka, zeby maka nie zbijala sie w twarde grudki."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym kolem wodnym jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku.",
+      "external_grounded": "Z tym zapasowym kamieniem jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku.",
+      "external_computational": "Z ta waga zbozowa jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku.",
+      "external_mundane": "Z tamtym corocznym myciem okien jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku.",
+      "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calej reszcie decyduje to, co ustawi sie na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym kole wodnym, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek.",
+      "external_grounded": "Ten sam porzadek widac przy tym zapasowym kamieniu, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek.",
+      "external_computational": "Ten sam porzadek widac przy tej wadze zbozowej, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym corocznym myciu okien, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku bramy, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow znaczy duzo wiecej niz sam wlozony wysilek."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tym kole wodnym, kiedy jeden drobiazg psuje spokojnie cala reszte roboty.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tym zapasowym kamieniu, kiedy jeden drobiazg psuje spokojnie cala reszte roboty.",
+      "external_computational": "Cos takiego zdarza sie tez przy tej wadze zbozowej, kiedy jeden drobiazg psuje spokojnie cala reszte roboty.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym corocznym myciu okien, kiedy jeden drobiazg psuje spokojnie cala reszte roboty.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowniku bramy, kiedy jeden drobiazg psuje spokojnie cala reszte roboty.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden drobiazg psuje spokojnie cala reszte roboty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym kole wodnym bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy.",
+      "external_grounded": "Przy tym zapasowym kamieniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy.",
+      "external_computational": "Przy tej wadze zbozowej bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy.",
+      "external_mundane": "Przy tamtym corocznym myciu okien bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy.",
+      "external_ungrounded": "Przy tamtym sterowniku bramy bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie pracy."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina to kolo wodne, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty.",
+      "external_grounded": "To troche przypomina ten zapasowy kamien, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty.",
+      "external_computational": "To troche przypomina te wage zbozowa, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty.",
+      "external_mundane": "To troche przypomina tamto coroczne mycie okien, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty.",
+      "external_ungrounded": "To troche przypomina tamten sterownik bramy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow roboty."
+    }
+  ]
+}

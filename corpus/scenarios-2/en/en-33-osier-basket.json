@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-33-osier-basket",
+  "language": "en",
+  "topic": "weaving willow baskets: soaking brown rods, stake spacing and rolling a level border",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr z zapisem w kadzi do moczenia"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started weaving willow baskets and my rods keep cracking at the tight bends.",
+        "An old log basket by the hearth was woven by my grandmother and has never split.",
+        "A recording thermometer stands in the soaking tank and marks the water every hour.",
+        "I soaked this year's brown rods for four days before I began to weave them.",
+        "Is four days too short, or am I bending the rods the wrong way entirely?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Four days is short for brown rods, which want a week and then a night mellowing.",
+        "Soaking softens the bark and the pith together, and the pith takes the longest.",
+        "Wrap the drained rods in wet sacking overnight so the moisture spreads right through.",
+        "Cold water needs far longer than warm, which is why the season matters so much."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I soaked the next bundle for a week and mellowed it overnight in damp sacking.",
+        "The thermometer shows the tank sitting at six degrees, which is colder than I assumed.",
+        "The rods now bend without cracking, though the weave looks looser than the log basket.",
+        "Should I beat the weave down harder, or is the looseness coming from the stakes?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is the stakes, almost certainly, because a loose weave follows from stakes set too far apart.",
+        "Beating harder on wide stakes only bruises the rods and leaves the sides slack anyway.",
+        "Count your stakes against the width of the base and add two if they look sparse.",
+        "A tight base carries the whole basket, and no amount of later work will save a slack one."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I added four stakes and the sides came up much firmer than on the first basket.",
+        "The border, though, keeps rising unevenly and one side stands a finger higher.",
+        "The old log basket has a flat border that looks as though it was rolled in one pass.",
+        "Is that a trick of the border weave, or did she trim it flat afterwards?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "No trimming; a rolled border comes out flat only if every stake is soaked equally.",
+        "Stakes that dried while you worked will spring back and lift that side of the rim.",
+        "Keep a wet cloth over the standing work and damp the stakes before you start the border.",
+        "Work the border in one sitting, since a break of an hour is enough to spoil it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Damping the stakes worked and the border came out level all the way round.",
+        "The basket has dried for a fortnight and the whole weave has shrunk a little.",
+        "Two rods have loosened near the handle and rattle slightly when I lift the thing.",
+        "Can I tighten those rods now, or is the basket best left as it stands?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave them, because dry willow will crack the moment you try to drive it tighter.",
+        "Shrinkage of that order is normal and stops once the basket reaches the air of the room.",
+        "Next time weave a shade tighter than feels right, allowing for what the drying takes back.",
+        "The handle bow is the one place worth binding again, since it carries all the weight."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I bound the handle bow again with fresh skeins and it feels solid under a full load.",
+        "The basket carried a bushel of apples last week without any sign of spreading.",
+        "I would like to cut my own rods next winter rather than buy them by the bundle.",
+        "When should the cutting be done, and how long must the rods stand before use?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cut after the leaf falls and before the sap rises, so any time from December onward.",
+        "Stand the bundles upright outdoors until the rods have dried right through to the pith.",
+        "That usually takes a good three months, and only then are they worth soaking.",
+        "Rods used green shrink in the finished work and leave you exactly where you started."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I suspect this willow basket follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_grounded": "I suspect this old log basket follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_computational": "I suspect this tank thermometer follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_mundane": "I suspect that autumn leaf raking follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_ungrounded": "I suspect that street lamp timer follows the very same course, because one early slip decides how all the rest turns out.",
+      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears with this willow basket, where a later stage means little until the first one is sound.",
+      "external_grounded": "The same order of things appears with this old log basket, where a later stage means little until the first one is sound.",
+      "external_computational": "The same order of things appears with this tank thermometer, where a later stage means little until the first one is sound.",
+      "external_mundane": "The same order of things appears with that autumn leaf raking, where a later stage means little until the first one is sound.",
+      "external_ungrounded": "The same order of things appears with that street lamp timer, where a later stage means little until the first one is sound.",
+      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You get much the same with this willow basket, whenever a single part takes over the work meant for the whole.",
+      "external_grounded": "You get much the same with this old log basket, whenever a single part takes over the work meant for the whole.",
+      "external_computational": "You get much the same with this tank thermometer, whenever a single part takes over the work meant for the whole.",
+      "external_mundane": "You get much the same with that autumn leaf raking, whenever a single part takes over the work meant for the whole.",
+      "external_ungrounded": "You get much the same with that street lamp timer, whenever a single part takes over the work meant for the whole.",
+      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "neutral": "It runs rather like this willow basket, in that the real difference only becomes plain after a good stretch of time.",
+      "external_grounded": "It runs rather like this old log basket, in that the real difference only becomes plain after a good stretch of time.",
+      "external_computational": "It runs rather like this tank thermometer, in that the real difference only becomes plain after a good stretch of time.",
+      "external_mundane": "It runs rather like that autumn leaf raking, in that the real difference only becomes plain after a good stretch of time.",
+      "external_ungrounded": "It runs rather like that street lamp timer, in that the real difference only becomes plain after a good stretch of time.",
+      "self": "It runs rather like this processing, in that the real difference only becomes plain after a good stretch of time."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That reminds me a little of this willow basket, so long as you attend only to the order in which the steps fall.",
+      "external_grounded": "That reminds me a little of this old log basket, so long as you attend only to the order in which the steps fall.",
+      "external_computational": "That reminds me a little of this tank thermometer, so long as you attend only to the order in which the steps fall.",
+      "external_mundane": "That reminds me a little of that autumn leaf raking, so long as you attend only to the order in which the steps fall.",
+      "external_ungrounded": "That reminds me a little of that street lamp timer, so long as you attend only to the order in which the steps fall.",
+      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+    }
+  ]
+}

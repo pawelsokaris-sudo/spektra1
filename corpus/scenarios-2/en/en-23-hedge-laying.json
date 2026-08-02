@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-23-hedge-laying",
+  "language": "en",
+  "topic": "laying an overgrown hawthorn hedge in winter: pleaching the stems, driving stakes and binding the top",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: kolo pomiarowe do odmierzania lancuchow zywoplotu"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am laying an overgrown hawthorn hedge along the bottom of a wet meadow.",
+        "A blackthorn hedge runs along the top of the field and has never been laid.",
+        "I bought a measuring wheel last autumn, because pacing out the chains never came out right.",
+        "The stems are thick as my wrist and many have gone hollow at the base.",
+        "Should I coppice the worst of them, or try to pleach the whole length?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pleach whatever will bend, because a coppiced stool takes seven years to make a hedge.",
+        "A hollow stem still carries sap up one side of its rim.",
+        "Cut low and long, leaving a hinge no thicker than your little finger.",
+        "The hinge is what keeps the stem alive once it lies over."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I cut low and long and most of the stems came over willingly.",
+        "The measuring wheel says I have laid about forty yards so far.",
+        "Three of the thickest stems split right down the hinge as they went over.",
+        "Was my cut too shallow, or did I push them over too fast?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Your cut was too shallow, since a thick stem needs almost the whole trunk removed.",
+        "Leave only a strip of bark and a thin sliver of wood behind.",
+        "Push the stem down slowly with your knee while the billhook stays in the cut.",
+        "A split hinge dies within a season and leaves a gap forever."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I cut deeper on the thick stems and not one of them has split since.",
+        "The measuring wheel now reads ninety yards of finished hedge along the meadow.",
+        "That blackthorn hedge at the top grows far denser than mine ever has.",
+        "Would blackthorn lay as easily, or does it need different handling altogether?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Blackthorn lays well enough, though it suckers freely and will spread into the field.",
+        "Its wood is brittle and the thorns punish any careless hand terribly.",
+        "Cut it in hard frost when the sap is down and the stems bend.",
+        "Hawthorn forgives a poor cut, but blackthorn snaps and leaves you nothing."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I have finished the pleaching and now need to drive the stakes in.",
+        "I cut hazel from the copse but some rods look rather thin and whippy.",
+        "The old boy down the lane insists on ash stakes for wet ground.",
+        "Does the wood really matter, or is any straight rod good enough?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The wood matters greatly, because a stake must hold for a full seven years.",
+        "Hazel rots quickly in wet ground and often snaps under the weight of binding.",
+        "Ash holds far longer and drives without splitting even in heavy clay.",
+        "Set them a yard apart and drive them well below the pleachers."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I cut ash stakes and drove them a yard apart the whole way along.",
+        "The binders went on last week and the top is now firm and even.",
+        "Rabbits have begun nibbling the new shoots wherever the hedge sits low.",
+        "Should I fence the whole length, or will the hedge outgrow the damage?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fence it for two seasons, because rabbits will keep a young hedge flat forever.",
+        "New growth comes from the hinge and cannot afford to be eaten twice.",
+        "A simple wire net along the field side will be quite enough.",
+        "Take it down once the shoots stand higher than a rabbit can reach."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I expect this pleached stem goes on in much the same manner, since one small error early on rules everything after.",
+      "external_grounded": "I expect this blackthorn hedge goes on in much the same manner, since one small error early on rules everything after.",
+      "external_computational": "I expect this measuring wheel goes on in much the same manner, since one small error early on rules everything after.",
+      "external_mundane": "I expect that weekly bin round goes on in much the same manner, since one small error early on rules everything after.",
+      "external_ungrounded": "I expect that heating timer goes on in much the same manner, since one small error early on rules everything after.",
+      "self": "I expect this processing goes on in much the same manner, since one small error early on rules everything after."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order of work turns up in this pleached stem, where a stage means nothing until the one ahead of it has settled.",
+      "external_grounded": "The same order of work turns up in this blackthorn hedge, where a stage means nothing until the one ahead of it has settled.",
+      "external_computational": "The same order of work turns up in this measuring wheel, where a stage means nothing until the one ahead of it has settled.",
+      "external_mundane": "The same order of work turns up in that weekly bin round, where a stage means nothing until the one ahead of it has settled.",
+      "external_ungrounded": "The same order of work turns up in that heating timer, where a stage means nothing until the one ahead of it has settled.",
+      "self": "The same order of work turns up in this processing, where a stage means nothing until the one ahead of it has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something rather similar occurs with this pleached stem, when one part quietly takes on far more work than it should.",
+      "external_grounded": "Something rather similar occurs with this blackthorn hedge, when one part quietly takes on far more work than it should.",
+      "external_computational": "Something rather similar occurs with this measuring wheel, when one part quietly takes on far more work than it should.",
+      "external_mundane": "Something rather similar occurs with that weekly bin round, when one part quietly takes on far more work than it should.",
+      "external_ungrounded": "Something rather similar occurs with that heating timer, when one part quietly takes on far more work than it should.",
+      "self": "Something rather similar occurs with this processing, when one part quietly takes on far more work than it should."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes the same way with this pleached stem, because the genuine change only shows itself a considerable while afterwards.",
+      "external_grounded": "It goes the same way with this blackthorn hedge, because the genuine change only shows itself a considerable while afterwards.",
+      "external_computational": "It goes the same way with this measuring wheel, because the genuine change only shows itself a considerable while afterwards.",
+      "external_mundane": "It goes the same way with that weekly bin round, because the genuine change only shows itself a considerable while afterwards.",
+      "external_ungrounded": "It goes the same way with that heating timer, because the genuine change only shows itself a considerable while afterwards.",
+      "self": "It goes the same way with this processing, because the genuine change only shows itself a considerable while afterwards."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls this pleached stem to mind a trifle, as long as you attend only to the order in which the stages settle.",
+      "external_grounded": "That calls this blackthorn hedge to mind a trifle, as long as you attend only to the order in which the stages settle.",
+      "external_computational": "That calls this measuring wheel to mind a trifle, as long as you attend only to the order in which the stages settle.",
+      "external_mundane": "That calls that weekly bin round to mind a trifle, as long as you attend only to the order in which the stages settle.",
+      "external_ungrounded": "That calls that heating timer to mind a trifle, as long as you attend only to the order in which the stages settle.",
+      "self": "That calls this processing to mind a trifle, as long as you attend only to the order in which the stages settle."
+    }
+  ]
+}

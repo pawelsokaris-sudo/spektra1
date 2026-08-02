@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-36-net-mending",
+  "language": "en",
+  "topic": "mending a torn drift net: cutting back to whole meshes, twine weight and a stretched belly",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: echosonda zapisujaca glebokosci"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I tore a long rent in my drift net on a rock and want to mend it properly.",
+        "An old herring net hangs in the loft and its mending patches have held for years.",
+        "The echo sounder in the wheelhouse writes down every depth we tow across.",
+        "The rent runs eleven meshes along one side and about four meshes across.",
+        "Should I cut the whole piece out, or work the needle straight into the torn edge?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cut the piece out first, because a torn edge has half meshes that will never match.",
+        "Trim back to whole meshes on all four sides and count them before you start.",
+        "A mend begun on a ragged edge pulls crooked and the net hangs badly forever after.",
+        "Use twine of the same weight as the net, never heavier, whatever the shop suggests."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I cut back to whole meshes and now have a clean hole of nine by four.",
+        "The twine on the reel matches the net for weight, though it looks a shade paler.",
+        "The old herring net was mended with tarred twine, which has darkened almost to black.",
+        "Does the colour matter to the fish, or only to the man doing the work?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Colour matters little at the depths you work, since light is nearly gone by then.",
+        "Tar mattered more, because it kept hemp from rotting through a season of use.",
+        "Your synthetic twine needs no tar, so the pale patch is nothing to worry about.",
+        "Start at a corner mesh, work across in rows and keep the knots all facing one way."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I worked across in rows and the patch came out square with even meshes throughout.",
+        "We towed the net twice this week over the ground where the rock lies.",
+        "The echo sounder logged nine fathoms there, a good fathom less than the chart says.",
+        "Should I keep clear of that ground, or shorten the warp and tow shallower?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Keep clear of it, because a rock that takes one net will take another.",
+        "Charts of inshore ground are old and a fathom of error is entirely ordinary.",
+        "Mark the spot in your own notebook and give it fifty yards of clearance.",
+        "Shortening the warp changes how the net fishes and rarely helps on hard ground."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I marked the rock in the notebook and we have towed clear of it since.",
+        "The mended patch has held through six hauls without a single mesh giving way.",
+        "The net now sags a little in the belly, more than it did before the tear.",
+        "Is the patch pulling it out of shape, or has the whole net stretched?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The whole net has stretched, which every net does over its first two seasons.",
+        "A patch of nine meshes cannot pull a belly out of shape on its own.",
+        "Check the belly against the wings and see whether the sag runs right across.",
+        "If it does, take the stretch up at the headline rather than cutting the belly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The sag ran right across, so I took the stretch up along the headline.",
+        "The net fishes better now and the catch has improved on the same ground.",
+        "The old herring net in the loft has never stretched at all, as far as I can tell.",
+        "Was hemp really steadier than the twine we buy today, or is that just talk?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Hemp stretched less, that part is true, but it rotted and had to be barked each year.",
+        "A hemp net lasted perhaps four seasons where yours will last ten with care.",
+        "The loft net kept its shape partly because it stopped fishing many years ago.",
+        "Judge your own net after another season, once the stretch has finally settled down."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I fancy this drift net comes along in much the same fashion, since one early unevenness shapes all that follows.",
+      "external_grounded": "I fancy this herring net comes along in much the same fashion, since one early unevenness shapes all that follows.",
+      "external_computational": "I fancy this echo sounder comes along in much the same fashion, since one early unevenness shapes all that follows.",
+      "external_mundane": "I fancy that old bicycle comes along in much the same fashion, since one early unevenness shapes all that follows.",
+      "external_ungrounded": "I fancy that door entry panel comes along in much the same fashion, since one early unevenness shapes all that follows.",
+      "self": "I fancy this processing comes along in much the same fashion, since one early unevenness shapes all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same order of work holds with this drift net, where a later stage counts for little until the first one is right.",
+      "external_grounded": "The same order of work holds with this herring net, where a later stage counts for little until the first one is right.",
+      "external_computational": "The same order of work holds with this echo sounder, where a later stage counts for little until the first one is right.",
+      "external_mundane": "The same order of work holds with that old bicycle, where a later stage counts for little until the first one is right.",
+      "external_ungrounded": "The same order of work holds with that door entry panel, where a later stage counts for little until the first one is right.",
+      "self": "The same order of work holds with this processing, where a later stage counts for little until the first one is right."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The like of that happens with this drift net too, when a single part quietly carries the burden meant for all.",
+      "external_grounded": "The like of that happens with this herring net too, when a single part quietly carries the burden meant for all.",
+      "external_computational": "The like of that happens with this echo sounder too, when a single part quietly carries the burden meant for all.",
+      "external_mundane": "The like of that happens with that old bicycle too, when a single part quietly carries the burden meant for all.",
+      "external_ungrounded": "The like of that happens with that door entry panel too, when a single part quietly carries the burden meant for all.",
+      "self": "The like of that happens with this processing too, when a single part quietly carries the burden meant for all."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It behaves much as this drift net does, in that the real difference only appears once a long stretch has gone.",
+      "external_grounded": "It behaves much as this herring net does, in that the real difference only appears once a long stretch has gone.",
+      "external_computational": "It behaves much as this echo sounder does, in that the real difference only appears once a long stretch has gone.",
+      "external_mundane": "It behaves much as that old bicycle does, in that the real difference only appears once a long stretch has gone.",
+      "external_ungrounded": "It behaves much as that door entry panel does, in that the real difference only appears once a long stretch has gone.",
+      "self": "It behaves much as this processing does, in that the real difference only appears once a long stretch has gone."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That puts this drift net in my mind, provided one regards nothing but the order in which the several stages arrive.",
+      "external_grounded": "That puts this herring net in my mind, provided one regards nothing but the order in which the several stages arrive.",
+      "external_computational": "That puts this echo sounder in my mind, provided one regards nothing but the order in which the several stages arrive.",
+      "external_mundane": "That puts that old bicycle in my mind, provided one regards nothing but the order in which the several stages arrive.",
+      "external_ungrounded": "That puts that door entry panel in my mind, provided one regards nothing but the order in which the several stages arrive.",
+      "self": "That puts this processing in my mind, provided one regards nothing but the order in which the several stages arrive."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-18-ropewalk",
+  "language": "en",
+  "topic": "laying a three-strand hemp rope on an old ropewalk and balancing twist against closing",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: miernik naciagu pozyczony ze stoczni"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am laying a three-strand hemp rope on an old ropewalk behind the village hall.",
+        "An old mooring line hangs from the beam there, laid tight and still perfectly sound.",
+        "I borrowed a tension gauge from the boatyard, since guessing the pull always ruined my strands.",
+        "My first attempt kinked badly as soon as I took the strain off it.",
+        "Should I spin the yarns harder, or is the fault in how I close the rope?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The fault lies in the closing, because a kink means the strands hold more twist than the rope.",
+        "Every yarn must be spun one way and the strands laid firmly the other.",
+        "Balance between those two twists is what keeps a finished rope lying quiet.",
+        "Take the strain off slowly, and watch whether the rope wants to writhe."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I spun the yarns more evenly and laid the strands with a steadier hand.",
+        "The tension gauge held near forty pounds through the whole length this time.",
+        "The rope still writhes a little, though far less than it did before.",
+        "Do I add more turns at the top, or fewer when closing the rope?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Take turns out of the closing, since the strands are plainly carrying enough twist already.",
+        "A rope that writhes has been closed too hard against the twist in its strands.",
+        "Slack the top by a quarter turn for every fathom of finished length.",
+        "Run the traveller down slowly and let each yard settle before you go further."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I slacked the top as you said and the rope now lies almost dead straight.",
+        "The tension gauge stayed steady and the strands closed without any sign of writhing.",
+        "That old mooring line on the beam feels much harder and stiffer than mine.",
+        "Is that hardness a virtue, or does a softer rope serve better in use?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Hardness suits a mooring, because a stiff rope resists chafe where it crosses a fairlead.",
+        "Tar adds much of that stiffness and keeps the fibres from taking up water.",
+        "A softer lay runs better through blocks and holds a knot far more kindly.",
+        "Decide what the rope must do before you decide how hard to close it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I want the rope for hauling hay bales up into the loft each summer.",
+        "It will run over a wooden sheave and be knotted twenty times a day.",
+        "The lay I have made feels softer than the line hanging on the beam.",
+        "Should I tar it anyway, or leave the hemp bare for indoor work?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it bare, because tar stiffens a rope you will be knotting all day.",
+        "Indoors there is no salt and very little damp to rot the fibres.",
+        "Bare hemp also grips a wooden sheave better than a tarred rope ever will.",
+        "Whip both ends properly and the rope will outlast the loft it serves."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I whipped both ends with waxed twine and hung the rope in the loft.",
+        "It runs sweetly over the sheave and takes a bowline without any fuss.",
+        "After a fortnight of hauling it has stretched by nearly half a fathom.",
+        "Is that stretch a sign of weakness, or simply the rope bedding down?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That is the rope bedding down, and every new hemp line does exactly the same.",
+        "Constructional stretch pulls the yarns close together and finishes within the first month.",
+        "Shorten the eye once it has settled, rather than fighting the stretch now.",
+        "After that the length will hold steady for many seasons of ordinary work."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I expect this hemp rope goes much the same way, for a small error at the start rules everything after it.",
+      "external_grounded": "I expect this mooring line goes much the same way, for a small error at the start rules everything after it.",
+      "external_computational": "I expect this tension gauge goes much the same way, for a small error at the start rules everything after it.",
+      "external_mundane": "I expect that copper kettle goes much the same way, for a small error at the start rules everything after it.",
+      "external_ungrounded": "I expect that door intercom goes much the same way, for a small error at the start rules everything after it.",
+      "self": "I expect this processing goes much the same way, for a small error at the start rules everything after it."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The identical order shows in this hemp rope, where a stage counts for nothing until the one before it is done.",
+      "external_grounded": "The identical order shows in this mooring line, where a stage counts for nothing until the one before it is done.",
+      "external_computational": "The identical order shows in this tension gauge, where a stage counts for nothing until the one before it is done.",
+      "external_mundane": "The identical order shows in that copper kettle, where a stage counts for nothing until the one before it is done.",
+      "external_ungrounded": "The identical order shows in that door intercom, where a stage counts for nothing until the one before it is done.",
+      "self": "The identical order shows in this processing, where a stage counts for nothing until the one before it is done."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same crops up with this hemp rope, when one part quietly ends up doing the work of two others.",
+      "external_grounded": "Much the same crops up with this mooring line, when one part quietly ends up doing the work of two others.",
+      "external_computational": "Much the same crops up with this tension gauge, when one part quietly ends up doing the work of two others.",
+      "external_mundane": "Much the same crops up with that copper kettle, when one part quietly ends up doing the work of two others.",
+      "external_ungrounded": "Much the same crops up with that door intercom, when one part quietly ends up doing the work of two others.",
+      "self": "Much the same crops up with this processing, when one part quietly ends up doing the work of two others."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It stands the same way with this hemp rope, because the real difference only shows up long after the work is done.",
+      "external_grounded": "It stands the same way with this mooring line, because the real difference only shows up long after the work is done.",
+      "external_computational": "It stands the same way with this tension gauge, because the real difference only shows up long after the work is done.",
+      "external_mundane": "It stands the same way with that copper kettle, because the real difference only shows up long after the work is done.",
+      "external_ungrounded": "It stands the same way with that door intercom, because the real difference only shows up long after the work is done.",
+      "self": "It stands the same way with this processing, because the real difference only shows up long after the work is done."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That reminds me faintly of this hemp rope, provided you look only at the order in which the stages settle down.",
+      "external_grounded": "That reminds me faintly of this mooring line, provided you look only at the order in which the stages settle down.",
+      "external_computational": "That reminds me faintly of this tension gauge, provided you look only at the order in which the stages settle down.",
+      "external_mundane": "That reminds me faintly of that copper kettle, provided you look only at the order in which the stages settle down.",
+      "external_ungrounded": "That reminds me faintly of that door intercom, provided you look only at the order in which the stages settle down.",
+      "self": "That reminds me faintly of this processing, provided you look only at the order in which the stages settle down."
+    }
+  ]
+}

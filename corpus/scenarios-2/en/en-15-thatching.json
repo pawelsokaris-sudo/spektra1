@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-15-thatching",
+  "language": "en",
+  "topic": "stripping and re-coating a thatched cottage roof in water reed, then forming the ridge",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz do trzciny i krokwi"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am stripping the old thatch from a cottage roof and laying a fresh coat of water reed.",
+        "A smaller barn stands behind the cottage, and its straw thatch was renewed only three winters ago.",
+        "I keep a moisture meter in the workshop, because reed cut in a wet season never dries evenly.",
+        "The rafters look sound, though the ridge has slumped badly along the eastern half of the run.",
+        "Should I strip the whole roof down to the battens, or work in courses from the eaves upward?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Strip only what is spent, because sound underthatch left in place saves both time and reed.",
+        "A slumped ridge usually means the fixings beneath have rotted rather than the reed itself failing.",
+        "Work upward in courses from the eaves, and never begin the ridge until the coat is complete.",
+        "Each course must be dressed home hard before the next one is laid above it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I stripped back to the underthatch and found the eastern rafters damp but not yet soft.",
+        "The moisture meter reads twenty-four percent up there and only fifteen along the western slope.",
+        "Rain has been driving against that gable for years, and the eaves course sits low there.",
+        "Do I let the timber dry first, or can I thatch straight over it now?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Let it dry, because reed laid over damp oak traps the wet against the rafter.",
+        "Twenty-four percent will fall within a fortnight if you sheet the roof and leave the gable open.",
+        "Meanwhile lift the eaves course on that side with a fillet, so rain sheds clear.",
+        "A roof that throws water off its edge will outlast one that merely holds it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The moisture meter fell to sixteen percent in ten days, and the fillet lifted the eaves.",
+        "I have laid four courses of reed and dressed each one home with the leggett.",
+        "The straw barn behind the cottage has a much shallower pitch than this roof does.",
+        "Should the courses lie at a different angle here, or does the pitch not matter?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pitch governs everything in thatch, and a shallow roof needs a longer overlap between courses.",
+        "On a steep roof like yours the water leaves quickly, so the courses may lie thinner.",
+        "Keep the butts even and the angle steady, and the coat will weather at one rate.",
+        "Uneven dressing shows up after five winters as hollows that gather moss and then hold water."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The coat is finished and the butts run level from the eaves to the ridge line.",
+        "Now I must form the ridge, and I have both sedge and split hazel to hand.",
+        "The old ridge was a flush one, but the neighbours all seem to prefer block ridges.",
+        "Which holds better on a cottage that stands open to the weather from every side?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A flush ridge sheds better on an exposed site, whatever the fashion in your village.",
+        "Block ridges look handsome but catch wind along the cut edge and lift in gales.",
+        "Use sedge for the ridge itself, since it bends over the apex without cracking.",
+        "Peg it down with split hazel liggers, spaced close enough to hold in hard weather."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I laid a flush ridge in sedge and pegged it with hazel every nine inches.",
+        "The whole roof looks even now, though the sedge sits paler than the reed beneath.",
+        "Winter comes in a month and the cottage stands on a very windy rise.",
+        "Is there anything worth doing before the gales, or should I simply leave it alone?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it alone, but walk round the eaves after the first hard blow of winter.",
+        "New reed settles in its first season, and a peg or two always works loose.",
+        "Netting is worth fitting only if gulls or crows start pulling at the ridge sedge.",
+        "By the second spring the coat will have bedded down and need nothing for years."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this reed thatch behaves in much the same way, since one small error at the outset governs all that follows.",
+      "external_grounded": "I imagine this straw barn behaves in much the same way, since one small error at the outset governs all that follows.",
+      "external_computational": "I imagine this moisture meter behaves in much the same way, since one small error at the outset governs all that follows.",
+      "external_mundane": "I imagine that weekly ironing behaves in much the same way, since one small error at the outset governs all that follows.",
+      "external_ungrounded": "I imagine that gate controller behaves in much the same way, since one small error at the outset governs all that follows.",
+      "self": "I imagine this processing behaves in much the same way, since one small error at the outset governs all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same ordering turns up with this reed thatch, where a stage only counts once the one before it has settled.",
+      "external_grounded": "The same ordering turns up with this straw barn, where a stage only counts once the one before it has settled.",
+      "external_computational": "The same ordering turns up with this moisture meter, where a stage only counts once the one before it has settled.",
+      "external_mundane": "The same ordering turns up with that weekly ironing, where a stage only counts once the one before it has settled.",
+      "external_ungrounded": "The same ordering turns up with that gate controller, where a stage only counts once the one before it has settled.",
+      "self": "The same ordering turns up with this processing, where a stage only counts once the one before it has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something very similar happens with this reed thatch, when one part quietly takes on more work than it was meant to.",
+      "external_grounded": "Something very similar happens with this straw barn, when one part quietly takes on more work than it was meant to.",
+      "external_computational": "Something very similar happens with this moisture meter, when one part quietly takes on more work than it was meant to.",
+      "external_mundane": "Something very similar happens with that weekly ironing, when one part quietly takes on more work than it was meant to.",
+      "external_ungrounded": "Something very similar happens with that gate controller, when one part quietly takes on more work than it was meant to.",
+      "self": "Something very similar happens with this processing, when one part quietly takes on more work than it was meant to."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Much the same is true of this reed thatch, because the real change becomes visible only after a good while has passed.",
+      "external_grounded": "Much the same is true of this straw barn, because the real change becomes visible only after a good while has passed.",
+      "external_computational": "Much the same is true of this moisture meter, because the real change becomes visible only after a good while has passed.",
+      "external_mundane": "Much the same is true of that weekly ironing, because the real change becomes visible only after a good while has passed.",
+      "external_ungrounded": "Much the same is true of that gate controller, because the real change becomes visible only after a good while has passed.",
+      "self": "Much the same is true of this processing, because the real change becomes visible only after a good while has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me in mind of this reed thatch a little, provided you look purely at the order in which things settle.",
+      "external_grounded": "That puts me in mind of this straw barn a little, provided you look purely at the order in which things settle.",
+      "external_computational": "That puts me in mind of this moisture meter a little, provided you look purely at the order in which things settle.",
+      "external_mundane": "That puts me in mind of that weekly ironing a little, provided you look purely at the order in which things settle.",
+      "external_ungrounded": "That puts me in mind of that gate controller a little, provided you look purely at the order in which things settle.",
+      "self": "That puts me in mind of this processing a little, provided you look purely at the order in which things settle."
+    }
+  ]
+}

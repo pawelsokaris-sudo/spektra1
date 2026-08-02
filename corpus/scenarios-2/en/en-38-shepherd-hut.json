@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-38-shepherd-hut",
+  "language": "en",
+  "topic": "restoring a shepherd's hut: rotten floor bearers, the stove flue and moving it on its old axles",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: cyfrowa waga pod osiami"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am restoring an old shepherd's hut and the floor has rotted along one side.",
+        "The small stove inside is original and still draws well once the flue warms up.",
+        "A digital axle scale sits under each wheel and shows how the weight is spread.",
+        "The rot runs from the door corner back about four feet along the bearer.",
+        "Should I patch that corner, or lift the whole floor and start again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lift the whole floor, because rot in a bearer never stops where you can see it.",
+        "The bearers carry everything, and a patched one will drop again within two winters.",
+        "Take the boards up whole where you can, since old floorboards are worth relaying.",
+        "Look hard at the chassis timbers underneath before you order any new stock."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I lifted the floor and found the door side bearer soft for its whole length.",
+        "The axle scale reads three hundred kilos on that side and two forty on the other.",
+        "The small stove stands on the heavy side, which may explain some of the difference.",
+        "Is that much difference a worry, or do these huts always sit unevenly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sixty kilos across a hut of that size is ordinary and nothing to correct.",
+        "The stove, the water can and the bunk were always set to one side.",
+        "What matters is that both axles carry their share when the hut stands level.",
+        "Replace the soft bearer in oak and bed it on the iron chassis with felt."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The new oak bearer is in and the floorboards went back with only three replaced.",
+        "The axle scale now shows the two sides within twenty kilos of each other.",
+        "The small stove is back on its plate, though the flue leaks smoke at the collar.",
+        "Should I seal that collar with rope and cement, or fit a new one?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fit a new collar, since rope and cement will crack again by the second winter.",
+        "A leaking collar drives smoke into the roof space where you will never see it.",
+        "Set the new one on fire cement while the stove is cold and leave it a week.",
+        "Check the roof sheet around the collar too, because rain follows the same path down."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The new collar went on and the smoke now goes straight up the flue.",
+        "The roof sheet around it had rusted through in two places, exactly as you said.",
+        "I patched the sheet, but the whole roof is thin and rattles in any wind.",
+        "Is a whole new roof worth it, or will patching see the hut through?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A new roof is worth it, because everything below a leaking roof rots in turn.",
+        "Corrugated sheet is cheap and a hut of this size takes very few lengths.",
+        "Keep the old sheets for the sides, where they still have years of life.",
+        "Fix the new sheet with hook bolts and wool washers rather than nails."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The new sheets are on with hook bolts and the roof has stopped rattling entirely.",
+        "The hut feels sound now and stands square when I lower it onto its wheels.",
+        "I would like to move it two fields over before the ground turns soft.",
+        "Can it be towed slowly behind a tractor, or is that asking for trouble?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Tow it slowly, at walking pace, and only over ground that is firm throughout.",
+        "The old axles run on plain bearings and will heat badly at any real speed.",
+        "Grease them the day before and feel the hubs after the first few hundred yards.",
+        "Chock the wheels as soon as it stands, since these huts run away on a slope."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I dare say this shepherd's hut works out much the same way, since one early fault settles all that comes after.",
+      "external_grounded": "I dare say this small stove works out much the same way, since one early fault settles all that comes after.",
+      "external_computational": "I dare say this axle scale works out much the same way, since one early fault settles all that comes after.",
+      "external_mundane": "I dare say that stone birdbath works out much the same way, since one early fault settles all that comes after.",
+      "external_ungrounded": "I dare say that traffic signal box works out much the same way, since one early fault settles all that comes after.",
+      "self": "I dare say this processing works out much the same way, since one early fault settles all that comes after."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same order shows itself with this shepherd's hut, where a later stage means nothing until the earlier one is sound.",
+      "external_grounded": "The same order shows itself with this small stove, where a later stage means nothing until the earlier one is sound.",
+      "external_computational": "The same order shows itself with this axle scale, where a later stage means nothing until the earlier one is sound.",
+      "external_mundane": "The same order shows itself with that stone birdbath, where a later stage means nothing until the earlier one is sound.",
+      "external_ungrounded": "The same order shows itself with that traffic signal box, where a later stage means nothing until the earlier one is sound.",
+      "self": "The same order shows itself with this processing, where a later stage means nothing until the earlier one is sound."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of that sort happens with this shepherd's hut too, when one part quietly takes on the work meant for several.",
+      "external_grounded": "Something of that sort happens with this small stove too, when one part quietly takes on the work meant for several.",
+      "external_computational": "Something of that sort happens with this axle scale too, when one part quietly takes on the work meant for several.",
+      "external_mundane": "Something of that sort happens with that stone birdbath too, when one part quietly takes on the work meant for several.",
+      "external_ungrounded": "Something of that sort happens with that traffic signal box too, when one part quietly takes on the work meant for several.",
+      "self": "Something of that sort happens with this processing too, when one part quietly takes on the work meant for several."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It carries on much like this shepherd's hut, in that the real change becomes visible only after a long spell has passed.",
+      "external_grounded": "It carries on much like this small stove, in that the real change becomes visible only after a long spell has passed.",
+      "external_computational": "It carries on much like this axle scale, in that the real change becomes visible only after a long spell has passed.",
+      "external_mundane": "It carries on much like that stone birdbath, in that the real change becomes visible only after a long spell has passed.",
+      "external_ungrounded": "It carries on much like that traffic signal box, in that the real change becomes visible only after a long spell has passed.",
+      "self": "It carries on much like this processing, in that the real change becomes visible only after a long spell has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That reminds me of this shepherd's hut a little, provided you look only at the order in which the stages come round.",
+      "external_grounded": "That reminds me of this small stove a little, provided you look only at the order in which the stages come round.",
+      "external_computational": "That reminds me of this axle scale a little, provided you look only at the order in which the stages come round.",
+      "external_mundane": "That reminds me of that stone birdbath a little, provided you look only at the order in which the stages come round.",
+      "external_ungrounded": "That reminds me of that traffic signal box a little, provided you look only at the order in which the stages come round.",
+      "self": "That reminds me of this processing a little, provided you look only at the order in which the stages come round."
+    }
+  ]
+}

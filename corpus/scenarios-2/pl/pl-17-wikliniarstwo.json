@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-17-wikliniarstwo",
+  "language": "pl",
+  "topic": "nauka wikliniarstwa: dobor pretow, moczenie w kadzi i wyplatanie kosza",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: wilgotnosciomierz przy kadzi (ocena gotowosci pretow)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Zaczalem uczyc sie wikliniarstwa i chcialbym wyplesc pierwszy porzadny kosz na ziemniaki.",
+        "W warsztacie stoi jeszcze drewniana forma po dziadku, na ktorej plotl on wszystkie kosze.",
+        "Przy kadzi powiesilem wilgotnosciomierz, bo bez niego nie umiem ocenic gotowosci pretow.",
+        "Moja wiklina po moczeniu ciagle peka przy zaginaniu, choc trzymam ja w wodzie tydzien.",
+        "Czy zaczynac od zmiany czasu moczenia, czy raczej od doboru samych pretow?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od pretow, bo najdluzsze nawet moczenie nie naprawi drewna zbieranego o zlej porze.",
+        "Wiklina cieta zima gnie sie miekko, a cieta latem lamie sie prawie zawsze.",
+        "Dopiero przy dobrym surowcu ma sens liczenie dni w kadzi i pilnowanie temperatury wody.",
+        "Forme zostaw na koniec, kiedy bedziesz juz pewny, ze prety trzymaja luk bez pekania."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Kupilem prety ciete w styczniu i rzeczywiscie gna sie duzo lagodniej niz poprzednie.",
+        "Nadal jednak grubsze sztuki bieleja w miejscu zgiecia, jakby wlokna tam sie rozrywaly.",
+        "Czy to znaczy, ze moczenie bylo za krotkie, czy raczej ze prety sa po prostu za grube?",
+        "Mam pod reka ostry nozyk, wiec moge rozlupac jeden pret i obejrzec jego przekroj."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rozlup pret i popatrz na rdzen, bo suchy srodek bieleje przy kazdym mocniejszym zgieciu.",
+        "Za krotkie moczenie zdradza sie inaczej: pret peka od razu, a nie dopiero bieleje.",
+        "Grubsze sztuki potrzebuja po prostu wiecej dni, wiec trzymaj je w osobnej wiazce.",
+        "Potem sprawdzaj co dzien jeden pret z wiazki, zamiast wyjmowac od razu cala partie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozdzielilem prety na dwie wiazki i grubsze zostawilem w kadzi jeszcze cztery dni.",
+        "Wilgotnosciomierz pokazuje teraz to samo wskazanie na obu koncach kazdego grubszego preta.",
+        "Zaczalem juz wyplatac dno na tej drewnianej formie po dziadku i idzie zaskakujaco gladko.",
+        "Czy krawedzie boczne stawia sie od razu, czy dopiero po wyschnieciu calego dna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Boki stawiaj na mokrym dnie, bo wyschniete wiazania nie przyjma juz nowych pretow.",
+        "Wbijaj zebra pojedynczo szydlem i dociskaj kazde do sasiedniego, zanim przejdziesz dalej.",
+        "Pierwszy okrazajacy splot rob bardzo ciasno, bo on ustala ksztalt calej gornej czesci.",
+        "Potem mozesz plesc luzniej, ale co kilka rzedow wracaj i dobijaj sploty bijakiem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Postawilem zebra i pierwszy splot wyszedl ciasno, ale kosz lekko rozchodzi sie ku gorze.",
+        "Boki nie stoja pionowo, tylko rozkladaja sie na zewnatrz jak plytka misa.",
+        "Podejrzewam, ze za slabo sciagalem sploty przy samym przejsciu z dna na boki.",
+        "Czy da sie to jeszcze uratowac obrecza, czy trzeba rozplesc kilka gornych rzedow?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rozchodzenie sie bokow bierze sie z przejscia, wiec obrecz zalatwi objaw, a nie przyczyne.",
+        "Rozplec trzy gorne rzedy i zacisnij sploty mocniej tuz nad linia zagiecia zeber.",
+        "Przy plecionce bokow trzymaj zebra dloniami w pionie, zamiast ufac samemu splotowi.",
+        "Wielu plotkarzy wiaze zebra u gory sznurkiem, dopoki nie skoncza pierwszej dloni wysokosci."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozplotlem trzy rzedy i zwiazalem zebra sznurkiem, a boki stoja teraz calkiem pionowo.",
+        "Kosz wyglada zupelnie rowno, choc po wyschnieciu sploty zrobily sie wyraznie luzniejsze.",
+        "Miedzy pretami widac teraz waskie szczeliny, ktorych zaraz po plecionce w ogole nie bylo.",
+        "Czy takie luzy da sie jakos scisnac, czy to zwykla kolej rzeczy przy schnieciu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wiklina zawsze kurczy sie przy schnieciu, wiec drobne szczeliny sa naturalne i nieuniknione.",
+        "Ratunkiem jest dobijanie splotow bijakiem jeszcze na mokro, znacznie mocniej niz sie wydaje.",
+        "Przy nastepnym koszu bij co drugi rzad, az plecionka przestanie ustepowac pod palcem.",
+        "Ten kosz mozesz jeszcze zmoczyc i dobic, choc czesc szczelin i tak zostanie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta wiklina bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem.",
+      "external_grounded": "Z ta drewniana forma bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem.",
+      "external_computational": "Z tym wilgotnosciomierzem bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem.",
+      "external_mundane": "Z tamtym starym fotelem bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem.",
+      "external_ungrounded": "Z tamtym licznikiem pradu bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem.",
+      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo najwiecej znaczy to, co zrobi sie jeszcze przed samym poczatkiem."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Podobnie rzecz ma sie przy tej wiklinie, gdzie wczesniejszy krok ustawia caly nastepny etap roboty.",
+      "external_grounded": "Podobnie rzecz ma sie przy tej drewnianej formie, gdzie wczesniejszy krok ustawia caly nastepny etap roboty.",
+      "external_computational": "Podobnie rzecz ma sie przy tym wilgotnosciomierzu, gdzie wczesniejszy krok ustawia caly nastepny etap roboty.",
+      "external_mundane": "Podobnie rzecz ma sie przy tamtym starym fotelu, gdzie wczesniejszy krok ustawia caly nastepny etap roboty.",
+      "external_ungrounded": "Podobnie rzecz ma sie przy tamtym liczniku pradu, gdzie wczesniejszy krok ustawia caly nastepny etap roboty.",
+      "self": "Podobnie rzecz ma sie przy tym przetwarzaniu, gdzie wczesniejszy krok ustawia caly nastepny etap roboty."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie przy tej wiklinie, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie.",
+      "external_grounded": "Cos podobnego zdarza sie przy tej drewnianej formie, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie.",
+      "external_computational": "Cos podobnego zdarza sie przy tym wilgotnosciomierzu, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie.",
+      "external_mundane": "Cos podobnego zdarza sie przy tamtym starym fotelu, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie.",
+      "external_ungrounded": "Cos podobnego zdarza sie przy tamtym liczniku pradu, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie.",
+      "self": "Cos podobnego zdarza sie przy tym przetwarzaniu, kiedy jeden pominiety szczegol mnozy sie potem wielokrotnie."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej wiklinie wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej drewnianej formie wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym wilgotnosciomierzu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym starym fotelu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym liczniku pradu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te wikline, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow.",
+      "external_grounded": "To troche przypomina te drewniana forme, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow.",
+      "external_computational": "To troche przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow.",
+      "external_mundane": "To troche przypomina tamten stary fotel, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow.",
+      "external_ungrounded": "To troche przypomina tamten licznik pradu, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc drobnych, kolejno wykonywanych krokow."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-21-watermill",
+  "language": "en",
+  "topic": "bringing a derelict overshot watermill back into work: leat, wheel bearings and dressing the stones",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: licznik obrotow na wale glownym"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am putting an old overshot watermill back to work after thirty years standing idle.",
+        "A sawmill downstream still runs an undershot wheel off the very same leat.",
+        "I fitted a revolution counter to the main shaft, because guessing the speed proved hopeless.",
+        "Several buckets on the wheel have rotted away and the rim is badly worn.",
+        "Should I rebuild the wheel first, or clear the leat and see what water arrives?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Clear the leat first, because the wheel you build depends entirely on the water you have.",
+        "Thirty years of silt will have halved the flow reaching your launder.",
+        "Measure the head and the flow before you cut a single new bucket.",
+        "A wheel built for water that never comes will disappoint you for years."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I cleared the leat over three weekends and the flow has more than doubled.",
+        "The revolution counter shows nine turns a minute with the sluice fully open.",
+        "The wheel groans badly on the upstroke and the shaft seems to lift slightly.",
+        "Is that the bearings, or has the whole wheel gone out of true?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That is the bearings, since a shaft that lifts is riding on worn brasses underneath.",
+        "Nine turns a minute is right for an overshot wheel of that diameter.",
+        "Lift the shaft, scrape the brasses to a true bearing and pack them again.",
+        "A groaning wheel wears its own gudgeons away within a single working season."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I scraped and repacked both brasses and the groaning has gone completely away.",
+        "The revolution counter now holds steady at nine turns even under load.",
+        "That sawmill wheel downstream runs much faster, though its stream looks no larger.",
+        "Why should an undershot wheel turn quicker on apparently the same water?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "An undershot wheel takes its power from speed, while yours takes power from weight.",
+        "Water falling into your buckets does its work by simply being heavy there.",
+        "A fast wheel needs a fast stream and gives far less power for it.",
+        "Your nine turns will drive a pair of stones better than his thirty ever could."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I coupled the stones up and ran them empty for about an hour yesterday.",
+        "The runner stone rides evenly but the meal comes out coarse and uneven.",
+        "The furrows look shallow and the lands are polished almost smooth in places.",
+        "Do I dress the stones now, or try adjusting the tentering first?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dress the stones, because no amount of tentering will cure a polished, worn-out land.",
+        "The furrows do the cutting and the lands do the final grinding.",
+        "Once both are worn flat the meal comes through in coarse, ragged flakes.",
+        "Deepen the furrows with a mill bill and crack the lands lightly all over."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I dressed both stones with a mill bill over the best part of a week.",
+        "The meal now comes through fine and cool, exactly as the old miller described.",
+        "My arms have never ached so much in the whole of my life.",
+        "How often must a working pair of stones be dressed like this?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Every three weeks of steady work, though soft wheat will let you go longer.",
+        "Watch the meal rather than the calendar, since the flour tells you first.",
+        "Warm meal at the spout always means the lands have begun to rub.",
+        "Keep the bill sharp and the dressing itself grows lighter every time."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I dare say this mill wheel goes along in much the same fashion, where one small error early on governs all the rest.",
+      "external_grounded": "I dare say this sawmill wheel goes along in much the same fashion, where one small error early on governs all the rest.",
+      "external_computational": "I dare say this revolution counter goes along in much the same fashion, where one small error early on governs all the rest.",
+      "external_mundane": "I dare say that weekly shopping trip goes along in much the same fashion, where one small error early on governs all the rest.",
+      "external_ungrounded": "I dare say that boiler controller goes along in much the same fashion, where one small error early on governs all the rest.",
+      "self": "I dare say this processing goes along in much the same fashion, where one small error early on governs all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The very same order shows up in this mill wheel, where no stage counts until the one ahead of it has settled properly.",
+      "external_grounded": "The very same order shows up in this sawmill wheel, where no stage counts until the one ahead of it has settled properly.",
+      "external_computational": "The very same order shows up in this revolution counter, where no stage counts until the one ahead of it has settled properly.",
+      "external_mundane": "The very same order shows up in that weekly shopping trip, where no stage counts until the one ahead of it has settled properly.",
+      "external_ungrounded": "The very same order shows up in that boiler controller, where no stage counts until the one ahead of it has settled properly.",
+      "self": "The very same order shows up in this processing, where no stage counts until the one ahead of it has settled properly."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of this kind arises with this mill wheel, when one part quietly ends up bearing far more than its proper share.",
+      "external_grounded": "Something of this kind arises with this sawmill wheel, when one part quietly ends up bearing far more than its proper share.",
+      "external_computational": "Something of this kind arises with this revolution counter, when one part quietly ends up bearing far more than its proper share.",
+      "external_mundane": "Something of this kind arises with that weekly shopping trip, when one part quietly ends up bearing far more than its proper share.",
+      "external_ungrounded": "Something of this kind arises with that boiler controller, when one part quietly ends up bearing far more than its proper share.",
+      "self": "Something of this kind arises with this processing, when one part quietly ends up bearing far more than its proper share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same applies to this mill wheel, seeing that the genuine change only makes itself plain a considerable time afterwards.",
+      "external_grounded": "The same applies to this sawmill wheel, seeing that the genuine change only makes itself plain a considerable time afterwards.",
+      "external_computational": "The same applies to this revolution counter, seeing that the genuine change only makes itself plain a considerable time afterwards.",
+      "external_mundane": "The same applies to that weekly shopping trip, seeing that the genuine change only makes itself plain a considerable time afterwards.",
+      "external_ungrounded": "The same applies to that boiler controller, seeing that the genuine change only makes itself plain a considerable time afterwards.",
+      "self": "The same applies to this processing, seeing that the genuine change only makes itself plain a considerable time afterwards."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That brings this mill wheel to mind a trifle, so long as you regard only the order in which the various stages settle.",
+      "external_grounded": "That brings this sawmill wheel to mind a trifle, so long as you regard only the order in which the various stages settle.",
+      "external_computational": "That brings this revolution counter to mind a trifle, so long as you regard only the order in which the various stages settle.",
+      "external_mundane": "That brings that weekly shopping trip to mind a trifle, so long as you regard only the order in which the various stages settle.",
+      "external_ungrounded": "That brings that boiler controller to mind a trifle, so long as you regard only the order in which the various stages settle.",
+      "self": "That brings this processing to mind a trifle, so long as you regard only the order in which the various stages settle."
+    }
+  ]
+}

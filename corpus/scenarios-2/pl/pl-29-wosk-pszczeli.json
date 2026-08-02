@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-29-wosk-pszczeli",
+  "language": "pl",
+  "topic": "odlewanie swiec z pszczelego wosku: dobor knota, formy i skurcz przy stygnieciu",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: termometr kuchenny do temperatury wosku w kociolku"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Wytopilem wosk z zeszlorocznych ramek i chcialbym odlac z niego pierwsze swiece.",
+        "Mam po dziadku miedziany kociolek z dziobkiem, ktory grzeje sie bardzo rowno.",
+        "Kupilem termometr kuchenny, bo bez niego zgaduje temperature wosku w calym kociolku.",
+        "Formy silikonowe stoja gotowe, a knoty splotlem sam z surowej bawelnianej nici.",
+        "Czy zaczynac od dobrania grubosci knota, czy raczej od samego wytapiania wosku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od knota, bo cala reszta pracy liczy sie wzgledem jego grubosci.",
+        "Za cienki knot topi wosk tylko w srodku i swieca wypala sie tunelem.",
+        "Za gruby kopci i zostawia czarny slad na scianie tuz nad swiecznikiem.",
+        "Dopiero po dobraniu knota ma sens odlewanie, inaczej poprawiasz skutek zamiast przyczyny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Splotlem trzy knoty o roznej grubosci i zalalem je woskiem w probnych formach.",
+        "Najcienszy wypala tunel, a najgrubszy mocno kopci, wiec zostal mi tylko ten srodkowy.",
+        "Czy to znaczy, ze mam dobra grubosc, czy raczej ze wosk jest za miekki?",
+        "Mam pod reka nozyczki i linijke, wiec moge poprawic kazdy knot przed zalaniem."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Srodkowy knot brzmi dobrze, choc ostateczna proba wypada dopiero przy pelnej wysokosci swiecy.",
+        "Miekki wosk poznasz inaczej: swieca ugina sie w cieple i traci pionowy ksztalt.",
+        "Pszczeli wosk jest twardy sam z siebie, wiec raczej nie masz tego problemu.",
+        "Sprawdz jeszcze, czy w wosku nie zostaly resztki pierzgi, bo one zatykaja knot."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przecedzilem wosk przez plotno i rzeczywiscie zostalo na nim sporo ciemnego osadu.",
+        "Miedziany kociolek grzeje bardzo rowno, wiec wosk topi sie bez zadnych przypalonych miejsc.",
+        "Termometr kuchenny pokazuje rowne siedemdziesiat stopni, wiec chyba trafilem w dobry zakres odlewania.",
+        "Pierwsze swiece wyszly gladkie, ale przy samym dnie widac drobne, bialawe zaglebienia.",
+        "Czy takie zaglebienia to blad przy zalewaniu, czy zwykla cecha powoli stygnacego wosku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zaglebienia biora sie ze skurczu, bo wosk kurczy sie mocno podczas stygniecia.",
+        "Zostaw troche wosku w kubku i dolej go, gdy srodek swiecy juz zapadnie.",
+        "Dolewaj cienkim strumieniem i tylko raz, bo kazda kolejna warstwa zostawia widoczna kreske.",
+        "Formy wygrzewaj wczesniej w cieplej wodzie, a powierzchnia wyjdzie gladsza i rowniejsza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wygrzalem formy i dolalem wosku po pierwszym zapadnieciu, wiec dno wyszlo rowne.",
+        "Swiece pala sie teraz spokojnie, ale plomien lekko sie chwieje i syczy.",
+        "Podejrzewam wilgoc w knocie, bo trzymalem te nici w zupelnie nieogrzewanej komorce.",
+        "Czy da sie taki knot uratowac, czy trzeba splesc go zupelnie od nowa?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wilgotny knot rzeczywiscie syczy i strzela drobnymi iskrami podczas kazdego dluzszego palenia.",
+        "Wysusz nici w cieple przez dobe, a potem zanurz je w plynnym wosku.",
+        "Nasycony knot pali sie rownie spokojnie i znacznie latwiej wchodzi do formy.",
+        "Gotowych swiec juz nie poprawisz, wiec potraktuj te partie jako wlasna nauke."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wysuszylem nici i nasycilem je woskiem, a nowa partia pali sie zupelnie cicho.",
+        "Po miesiacu na powierzchni tych swiec pojawil sie jednak jasny, szarawy nalot.",
+        "Nalot schodzi pod palcem, ale wraca po kilku dniach lezenia w szufladzie.",
+        "Czy to jakas oznaka zepsucia wosku, czy zwykla cecha domowych wyrobow z pasieki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "To zwykly nalot woskowy, czyli naturalny wykwit skladnikow wychodzacych powoli na powierzchnie.",
+        "Uchodzi wrecz za znak prawdziwego wosku i wielu kupujacych ceni go bardziej.",
+        "Jesli wolisz polysk, przetrzyj swiece miekka szmatka albo ogrzej je krotko suszarka.",
+        "Trzymaj je w chlodzie i bez swiatla, a nalot bedzie narastal wolniej."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym pszczelim woskiem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku.",
+      "external_grounded": "Z tym miedzianym kociolkiem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku.",
+      "external_computational": "Z tym termometrem kuchennym jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku.",
+      "external_mundane": "Z tamta plocienna torba jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku.",
+      "external_ungrounded": "Z tamtym domofonem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgow ustawionych na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tym pszczelim wosku, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej.",
+      "external_grounded": "Ten sam porzadek widac przy tym miedzianym kociolku, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej.",
+      "external_computational": "Ten sam porzadek widac przy tym termometrze kuchennym, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej.",
+      "external_mundane": "Ten sam porzadek widac przy tamtej plociennej torbie, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym domofonie, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kazdy krok trzeba domknac, zanim ruszy sie dalej."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego widuje sie tez przy tym pszczelim wosku, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_grounded": "Cos takiego widuje sie tez przy tym miedzianym kociolku, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_computational": "Cos takiego widuje sie tez przy tym termometrze kuchennym, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_mundane": "Cos takiego widuje sie tez przy tamtej plociennej torbie, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_ungrounded": "Cos takiego widuje sie tez przy tamtym domofonie, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "self": "Cos takiego widuje sie tez przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "neutral": "Przy tym pszczelim wosku bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tym miedzianym kociolku bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym termometrze kuchennym bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtej plociennej torbie bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym domofonie bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "To pod pewnymi wzgledami przypomina ten pszczeli wosk, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina ten miedziany kociolek, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_computational": "To pod pewnymi wzgledami przypomina ten termometr kuchenny, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamte plocienna torbe, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten domofon, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+    }
+  ]
+}

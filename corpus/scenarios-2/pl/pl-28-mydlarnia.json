@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-28-mydlarnia",
+  "language": "pl",
+  "topic": "pierwsza partia mydla oliwkowego: odwazanie lugu, wiazanie masy i dojrzewanie kostek",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: waga jubilerska do odwazania lugu (setne czesci grama)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Chcialbym zrobic pierwsza partie mydla oliwkowego i doprowadzic ja do porzadnego dojrzenia.",
+        "W spizarni stoi drewniana forma po babci, w ktorej odciskala kiedys twarogi.",
+        "Kupilem wage jubilerska, bo lug trzeba odwazac z dokladnoscia do setnych czesci grama.",
+        "Oliwa mam z zeszlorocznego tloczenia, a soda kaustyczna lezy w szczelnym sloiku.",
+        "Czy zaczynac od dokladnego odwazenia lugu, czy raczej od powolnego podgrzania calej oliwy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od lugu, bo caly przepis liczy sie wzgledem tej jednej odwazonej porcji.",
+        "Sode wsypuj zawsze do wody, nigdy odwrotnie, i rob to na wolnym powietrzu.",
+        "Roztwor rozgrzeje sie sam do osiemdziesieciu stopni, wiec odstaw go i pozwol ostygnac.",
+        "Dopiero potem grzej oliwe, zeby oba plyny spotkaly sie w podobnej temperaturze."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Odwazylem lug, ostudzilem oba plyny i polaczylem je mniej wiecej przy czterdziestu stopniach.",
+        "Masa zgestniala po kwadransie mieszania, ale w jednym miejscu zostal jasny kozuch.",
+        "Czy to znaczy, ze lugu bylo za duzo, czy raczej ze mieszalem zbyt krotko?",
+        "Mam pod reka lopatke i mikser, wiec moge jeszcze poprawic cala mase w garnku."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Jasny kozuch to zwykle nierozprowadzony lug, ktory zostal przy samej sciance garnka.",
+        "Mieszaj jeszcze chwile mikserem, prowadzac go tuz przy dnie i wokol calego brzegu.",
+        "Nadmiar lugu poznasz inaczej: masa rozwarstwia sie i wyplywa z niej wolna woda.",
+        "Jesli kozuch znika po mieszaniu, to kwestia rozprowadzenia, a nie samych proporcji."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Domieszalem mase mikserem i kozuch zniknal, a calosc zgestniala jak rzadki budyn.",
+        "Przelalem wszystko do drewnianej formy po babci i przykrylem ja welniana chusta.",
+        "Waga jubilerska pokazala, ze mydla wyszlo o dwiescie gramow wiecej niz liczylem.",
+        "Po dobie masa jest twarda, ale przy brzegach formy widac ciemniejszy, tlusty rant.",
+        "Czy taki rant trzeba obciac, czy zejdzie sam podczas kilku tygodni dojrzewania?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciemniejszy rant to zwykle nadmiar oliwy, ktora nie zwiazala sie z lugiem.",
+        "Nie zejdzie sam, wiec obetnij go ostrym nozem, gdy kostki beda juz twarde.",
+        "Reszte pokroj na kostki juz po dobie, bo pozniej mydlo kruszy sie przy krojeniu.",
+        "Potem uloz kostki luzno na kracie i zostaw je na szesc pelnych tygodni."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Pokroilem kostki i ulozylem je na kracie w chlodnej spizarni przy oknie.",
+        "Po trzech tygodniach kostki sa lzejsze i wyraznie twardsze niz na samym poczatku.",
+        "Na kilku z nich pojawil sie jednak bialy, proszkowy nalot na gornej powierzchni.",
+        "Czy taki nalot trzeba od razu zetrzec, czy to zupelnie normalny objaw dojrzewania mydla?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bialy nalot to soda, ktora wyszla na wierzch razem z odparowujaca woda.",
+        "Nie jest szkodliwy, ale zbiera brud i wyraznie psuje wyglad gotowej kostki.",
+        "Zetrzyj go wilgotna szmatka albo scienij cienka warstwe zwyklym obieraczkiem do warzyw.",
+        "Nastepnym razem przykryj forme szczelniej, a nalot w ogole sie nie pojawi."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zetarlem nalot wilgotna szmatka i kostki wygladaja teraz rowno oraz calkiem gladko.",
+        "Po szesciu tygodniach mydlo pieni sie obficie i nie szczypie mnie w skore.",
+        "Jedna kostka z samego rogu formy jest jednak wyraznie mieksza od pozostalych.",
+        "Czy taka kostka jest zepsuta, czy po prostu potrzebuje jeszcze kilku tygodni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rog formy stygnie najszybciej, wiec tam wiazanie przebiega wolniej niz w srodku.",
+        "Odloz te kostke osobno i daj jej jeszcze trzy albo cztery tygodnie.",
+        "Jesli po tym czasie nadal bedzie miekka, znaczy, ze zostal w niej nadmiar oliwy.",
+        "Takiego mydla mozna spokojnie uzywac, tylko rozejdzie sie szybciej niz reszta partii."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym oliwkowym mydlem jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku.",
+      "external_grounded": "Z ta drewniana forma jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku.",
+      "external_computational": "Z ta waga jubilerska jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku.",
+      "external_mundane": "Z tamtym koszeniem trawnika jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku.",
+      "external_ungrounded": "Z tamtym modemem kablowym jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co zrobi sie na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam wzorzec widac przy tym oliwkowym mydle, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie.",
+      "external_grounded": "Ten sam wzorzec widac przy tej drewnianej formie, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie.",
+      "external_computational": "Ten sam wzorzec widac przy tej wadze jubilerskiej, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie.",
+      "external_mundane": "Ten sam wzorzec widac przy tamtym koszeniu trawnika, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie.",
+      "external_ungrounded": "Ten sam wzorzec widac przy tamtym modemie kablowym, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie.",
+      "self": "Ten sam wzorzec widac przy tym przetwarzaniu, gdzie cierpliwosc daje wiecej niz kazde pospieszne poprawianie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Cos podobnego zdarza sie tez przy tym oliwkowym mydle, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tej drewnianej formie, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tej wadze jubilerskiej, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym koszeniu trawnika, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym modemie kablowym, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden drobiazg zostawiony bez uwagi psuje calosc."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "neutral": "Przy tym oliwkowym mydle bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach.",
+      "external_grounded": "Przy tej drewnianej formie bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach.",
+      "external_computational": "Przy tej wadze jubilerskiej bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach.",
+      "external_mundane": "Przy tamtym koszeniu trawnika bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach.",
+      "external_ungrounded": "Przy tamtym modemie kablowym bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu tygodniach."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "To pod pewnymi wzgledami przypomina to oliwkowe mydlo, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina te drewniana forme, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_computational": "To pod pewnymi wzgledami przypomina te wage jubilerska, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamto koszenie trawnika, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten modem kablowy, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-34-tanning",
+  "language": "en",
+  "topic": "bark tanning a heavy cowhide: pit liquors, substance through the butt and dressing the dried leather",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: cyfrowy grubosciomierz na warsztacie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am bark tanning a heavy cowhide in pits behind the shed and progress seems slow.",
+        "A calf skin went into the weakest pit at the same time and has coloured right through.",
+        "A digital thickness gauge lives on the bench and I read each hide in three places.",
+        "The cowhide still shows a pale streak down the middle when I cut a test corner.",
+        "Should I move it to a stronger liquor, or simply leave it where it is?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it, because a stronger liquor now will case harden the outside and seal the middle.",
+        "Thick hides must start weak and climb slowly, over months rather than weeks.",
+        "The pale streak simply means the tan has not yet reached the centre of the substance.",
+        "Handle the hide every few days so fresh liquor reaches the folds and the belly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I have handled it twice a week and moved it up through three stronger pits.",
+        "The thickness gauge shows four millimetres at the butt and barely two at the flank.",
+        "The calf skin came out weeks ago and has already been oiled and hung to dry.",
+        "Does the thin flank finish long before the butt, and will it suffer for that?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The flank does finish first, though it takes no harm from the extra time in liquor.",
+        "Vegetable tan fills a hide rather than burning it, so weeks of overlap are harmless.",
+        "Judge the butt by cutting a corner and looking for an even colour right through.",
+        "A pale core at four millimetres usually wants another two months in the strongest pit."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Two more months have passed and the test corner now shows one even brown colour.",
+        "I lifted the hide out, rinsed it briefly and hung it in the loft to drain.",
+        "The thickness gauge now reads a shade under four at the butt, which surprised me.",
+        "Should I oil it wet, or wait until the hide has dried to the touch?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Oil it while it is still damp, at about the stage the leather feels cool but not wet.",
+        "Dry leather will not take the dubbin and you end up with a greasy surface only.",
+        "Work the mixture in warm, a little at a time, and give the flesh side most.",
+        "The calf skin will have taken far less, since thin leather needs only a light dressing."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I dressed it damp with warm tallow and cod oil and the hide drank it steadily.",
+        "After a week the surface feels supple, though one shoulder has stayed noticeably stiffer.",
+        "That shoulder is also the part that hung nearest the loft window in the sun.",
+        "Can a stiff shoulder be brought back, or has the sun spoiled it for good?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It can usually be brought back, provided the leather never grew hot to the hand.",
+        "Damp that shoulder with a sponge, let it stand overnight and dress it a second time.",
+        "Then work it over a stake, drawing the flesh side across the edge again and again.",
+        "Sun struck leather that has gone hard and horny will not answer to any of this."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The shoulder softened after a second dressing and an hour of staking on the beam.",
+        "The whole hide now bends without cracking and shows a close, even grain throughout.",
+        "I would like to start another hide in autumn and run the pits through the winter.",
+        "Does cold weather slow the tanning badly, or can the pits work all year round?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cold slows it a great deal, and below five degrees the liquor works hardly at all.",
+        "Old yards started hides in autumn all the same, accepting that winter was a resting time.",
+        "Keep the pits covered and topped up, since frost on the surface does real harm.",
+        "Then count on the work waking again in March and finishing by the following autumn."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I imagine this thick hide takes much the same road, since one uneven beginning marks everything that comes later.",
+      "external_grounded": "I imagine this calf skin takes much the same road, since one uneven beginning marks everything that comes later.",
+      "external_computational": "I imagine this thickness gauge takes much the same road, since one uneven beginning marks everything that comes later.",
+      "external_mundane": "I imagine that kitchen dresser takes much the same road, since one uneven beginning marks everything that comes later.",
+      "external_ungrounded": "I imagine that ticket machine takes much the same road, since one uneven beginning marks everything that comes later.",
+      "self": "I imagine this processing takes much the same road, since one uneven beginning marks everything that comes later."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same run of stages holds for this thick hide, where the later work counts for nothing until the first part settles.",
+      "external_grounded": "The same run of stages holds for this calf skin, where the later work counts for nothing until the first part settles.",
+      "external_computational": "The same run of stages holds for this thickness gauge, where the later work counts for nothing until the first part settles.",
+      "external_mundane": "The same run of stages holds for that kitchen dresser, where the later work counts for nothing until the first part settles.",
+      "external_ungrounded": "The same run of stages holds for that ticket machine, where the later work counts for nothing until the first part settles.",
+      "self": "The same run of stages holds for this processing, where the later work counts for nothing until the first part settles."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of the kind occurs with this thick hide as well, when one portion quietly shoulders the work of the others.",
+      "external_grounded": "Something of the kind occurs with this calf skin as well, when one portion quietly shoulders the work of the others.",
+      "external_computational": "Something of the kind occurs with this thickness gauge as well, when one portion quietly shoulders the work of the others.",
+      "external_mundane": "Something of the kind occurs with that kitchen dresser as well, when one portion quietly shoulders the work of the others.",
+      "external_ungrounded": "Something of the kind occurs with that ticket machine as well, when one portion quietly shoulders the work of the others.",
+      "self": "Something of the kind occurs with this processing as well, when one portion quietly shoulders the work of the others."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes rather like this thick hide, in that the true change shows itself only once a long spell has gone by.",
+      "external_grounded": "It goes rather like this calf skin, in that the true change shows itself only once a long spell has gone by.",
+      "external_computational": "It goes rather like this thickness gauge, in that the true change shows itself only once a long spell has gone by.",
+      "external_mundane": "It goes rather like that kitchen dresser, in that the true change shows itself only once a long spell has gone by.",
+      "external_ungrounded": "It goes rather like that ticket machine, in that the true change shows itself only once a long spell has gone by.",
+      "self": "It goes rather like this processing, in that the true change shows itself only once a long spell has gone by."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls to mind this thick hide, at least if you look purely at the order in which the stages come round.",
+      "external_grounded": "That calls to mind this calf skin, at least if you look purely at the order in which the stages come round.",
+      "external_computational": "That calls to mind this thickness gauge, at least if you look purely at the order in which the stages come round.",
+      "external_mundane": "That calls to mind that kitchen dresser, at least if you look purely at the order in which the stages come round.",
+      "external_ungrounded": "That calls to mind that ticket machine, at least if you look purely at the order in which the stages come round.",
+      "self": "That calls to mind this processing, at least if you look purely at the order in which the stages come round."
+    }
+  ]
+}

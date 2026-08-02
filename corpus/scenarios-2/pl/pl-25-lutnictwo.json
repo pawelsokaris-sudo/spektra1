@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-25-lutnictwo",
+  "language": "pl",
+  "topic": "budowa pierwszych skrzypiec: grubosc plyty wierzchniej, strojenie pudla i lakier",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: grubosciomierz na stole warsztatowym (setne czesci milimetra)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Sklejam wlasnie pierwsze skrzypce i doszedlem do etapu, na ktorym trzeba wyprofilowac plyte wierzchnia.",
+        "W warsztacie wisi jeszcze stara altowka po ojcu, ktora rozklejalem i sklejalem chyba trzy razy.",
+        "Na stole lezy grubosciomierz, ktory pokazuje setne czesci milimetra i pozwala mi sprawdzac kazde miejsce.",
+        "Swierk pod palcami wydaje sie w jednym rogu wyraznie twardszy niz przy dolnym wcieciu.",
+        "Czy zaczynac od wyrownania grubosci calej plyty, czy raczej od dopasowania samego pudla?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od grubosci, bo caly pozniejszy stroj pudla liczy sie wzgledem tych wymiarow.",
+        "Nierowna plyta drga niesymetrycznie i potem zaden lakier ani zaden dobor belki tego nie naprawi.",
+        "Dopiero po wyrownaniu ma sens strojenie pudla, inaczej poprawiasz skutek zamiast prawdziwej przyczyny.",
+        "Sprawdz tez, czy sloje biegna rowno wzdluz calej dlugosci, bo twardsze miejsce moze byc sekiem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zestrugalem plyte do rownej grubosci i teraz stukanie brzmi znacznie czysciej niz wczesniej.",
+        "Nadal jednak dolna czesc odzywa sie glucho, jakby drewno tracilo tam czesc energii.",
+        "Czy to znaczy, ze plyta jest wciaz za gruba, czy raczej ze sklejenie boczkow puszcza?",
+        "Mam pod reka lusterko i latarke, wiec moge zajrzec przez efy bez rozklejania pudla."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zajrzyj najpierw wzdluz klockow naroznych, bo tam najczesciej zostaje szczelina po sciskach.",
+        "Za gruba plyta odzywa sie inaczej: dzwiek jest krotki i suchy, a nie gluchy.",
+        "Jesli gluche miejsce siedzi tylko przy dolnym boczku, to zwykle kwestia sklejenia, nie grubosci.",
+        "Sprawdz jeszcze, czy belka basowa przylega cala dlugoscia, bo szczelina pod nia tlumi caly dol."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Faktycznie, belka basowa nie przylegala na dwoch centymetrach i zostawila tam cienka szczeline.",
+        "Po jej dopasowaniu dolne dzwieki wybrzmiewaja o wiele dluzej i znacznie rowniej.",
+        "Grubosciomierz pokazuje, ze srodek plyty mam cienszy o dwie dziesiate niz zaplanowalem.",
+        "W tej starej altowce ojciec zostawil plyte grubsza i ona brzmi znacznie ciemniej.",
+        "Czy takie roznice da sie jeszcze nadrobic lakierem, czy trzeba zaczynac plyte od nowa?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lakier nie nadrobi grubosci, bo warstwa jest cienka i zmienia glownie tlumienie wierzchu.",
+        "Dwie dziesiate w srodku plyty to jeszcze dopuszczalna tolerancja przy tym wzorcu skrzypiec.",
+        "Zanim polakierujesz, zagruntuj drewno, bo swierk chlonie nierowno i potem plamy zostaja na zawsze.",
+        "Kladz cienkie warstwy i susz kazda przynajmniej dobe, najlepiej przy swietle dziennym."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zagruntowalem plyte i polozylem juz cztery cienkie warstwy lakieru olejnego na calym pudle.",
+        "Kolor wychodzi rowny, ale na dolnym boczku lakier zbiera sie w drobne zacieki.",
+        "Boje sie szlifowac, zeby nie przetrzec warstwy az do golego drewna pod spodem.",
+        "Czy takie zacieki da sie wyrownac bez zdejmowania calej powloki z tego boku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie, choc trzeba odczekac, az lakier stwardnieje na wylot, a nie tylko z wierzchu.",
+        "Miekki lakier zwija sie pod papierem i zamiast wyrownac zaciek, robisz w nim dolek.",
+        "Po dwoch tygodniach przetrzyj zaciek drobnym papierem na klocku, zawsze wzdluz slojow.",
+        "Potem poloz jedna cienka warstwe na calym boczku, zeby polysk zrownal sie z reszta."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Odczekalem dwa tygodnie i zacieki zeszly pod klockiem bez przetarcia do drewna.",
+        "Skrzypce brzmia teraz jasno, ale najwyzsze dzwieki na strunie E sa lekko szkliste.",
+        "Podejrzewam podstawek, bo wycialem go z twardego klonu i zostawilem dosc gruby.",
+        "Czy taka szklistosc da sie zdjac samym podstawkiem, czy trzeba ruszac dusze?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Podstawek znaczy tu najwiecej, wiec zacznij od niego, zanim ruszysz dusze wewnatrz pudla.",
+        "Podetnij nogi podstawka i powieksz serce, a gora straci troche tej szklistej ostrosci.",
+        "Dusze przesuwaj dopiero potem, po milimetrze, i za kazdym razem graj kilka minut.",
+        "Nowe skrzypce i tak zmieniaja brzmienie przez pierwszy rok, wiec nie poprawiaj wszystkiego naraz."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta plyta wierzchnia jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej.",
+      "external_grounded": "Z ta stara altowka jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej.",
+      "external_computational": "Z tym grubosciomierzem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej.",
+      "external_mundane": "Z tamtym starym imbrykiem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej.",
+      "external_ungrounded": "Z tamtym licznikiem pradu jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na poczatku zmienia potem wszystko dalej."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam wzorzec widac przy tej plycie wierzchniej, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie.",
+      "external_grounded": "Ten sam wzorzec widac przy tej starej altowce, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie.",
+      "external_computational": "Ten sam wzorzec widac przy tym grubosciomierzu, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie.",
+      "external_mundane": "Ten sam wzorzec widac przy tamtym starym imbryku, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie.",
+      "external_ungrounded": "Ten sam wzorzec widac przy tamtym liczniku pradu, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie.",
+      "self": "Ten sam wzorzec widac przy tym przetwarzaniu, gdzie cierpliwosc daje wiecej niz kazde gwaltowne poprawianie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Cos podobnego widuje sie przy tej plycie wierzchniej, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_grounded": "Cos podobnego widuje sie przy tej starej altowce, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_computational": "Cos podobnego widuje sie przy tym grubosciomierzu, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_mundane": "Cos podobnego widuje sie przy tamtym starym imbryku, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "external_ungrounded": "Cos podobnego widuje sie przy tamtym liczniku pradu, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
+      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "neutral": "Przy tej plycie wierzchniej bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac.",
+      "external_grounded": "Przy tej starej altowce bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac.",
+      "external_computational": "Przy tym grubosciomierzu bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac.",
+      "external_mundane": "Przy tamtym starym imbryku bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac.",
+      "external_ungrounded": "Przy tamtym liczniku pradu bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac.",
+      "self": "Przy tym przetwarzaniu bywa chyba tak samo, bo o calosci decyduje kilka drobiazgow, ktorych z poczatku nie widac."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To pod pewnymi wzgledami przypomina te plyte wierzchnia, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina te stara altowke, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_computational": "To pod pewnymi wzgledami przypomina ten grubosciomierz, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamten stary imbryk, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten licznik pradu, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-18-szewstwo",
+  "language": "pl",
+  "topic": "naprawa starych trzewikow: zdjecie zelowki, wymiana filcu i klejenie nowej podeszwy",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: grubosciomierz do skory na stole warsztatowym"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Chcialbym sam naprawiac buty i zaczalem od pary starych trzewikow po ojcu.",
+        "Na polce stoi jeszcze drewniane kopyto, ktore dostalem razem z calym starym warsztatem.",
+        "Na stole lezy grubosciomierz do skory, bo na oko ciagle myle sie o milimetr.",
+        "Zelowki w tych trzewikach sa starte do cna, a przyszwa nadal trzyma sie mocno.",
+        "Czy zaczynac od zdjecia starej zelowki, czy raczej od przygotowania nowej skory?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od zdjecia starej zelowki, bo dopiero pod nia zobaczysz stan podeszwy srodkowej.",
+        "Czesto okazuje sie, ze warstwa srodkowa jest przemoczona i sama wymaga wymiany.",
+        "Dopiero potem dobieraj skore, bo grubosc nowej zelowki zalezy od tego, co zostanie pod spodem.",
+        "Kopyto przyda ci sie na koncu, przy naciaganiu cholewki i wykanczaniu obrzeza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zdjalem stara zelowke i pod samym spodem znalazlem ciemna, wyraznie wilgotna warstwe filcu.",
+        "Filc rozpada sie pod palcem, ale skorzana podeszwa glowna wyglada calkiem zdrowo.",
+        "Czy taki filc trzeba wymienic w calosci, czy wystarczy wysuszyc buty przez tydzien?",
+        "Mam pod reka szydlo i nici dratwowe, wiec moge rozpruc szew po obwodzie."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Mokry filc wymien w calosci, bo po wyschnieciu i tak zostanie zbity i twardy.",
+        "Zdrowa podeszwa glowna poznasz po tym, ze przy zginaniu nie pusci ani jednego wlokna.",
+        "Szew po obwodzie pruj ostroznie, bo nowa dratwa musi trafic dokladnie w stare otwory.",
+        "Potem docinaj nowy filc na sucho i dopasuj go, zanim siegniesz po jakikolwiek klej."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wymienilem filc i dopasowalem go na sucho, a but od razu stanal rowniej.",
+        "Grubosciomierz pokazuje, ze nowa skora na zelowke ma prawie pol milimetra za duzo.",
+        "Naciagnalem tez cholewke na to drewniane kopyto i skora ulozyla sie zaskakujaco gladko.",
+        "Czy taka nadmiarowa grubosc trzeba scienic, czy skora sama zbije sie przy chodzeniu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pol milimetra scien od razu, bo zbita skora i tak nie odzyska pierwotnej sprezystosci.",
+        "Scieniaj od strony miezdrowej, zeby lico zostalo gladkie i rowno przyjelo pozniejsze barwienie.",
+        "Klej nakladaj cienko na obie powierzchnie i odczekaj, az przestana byc lepkie w dotyku.",
+        "Dopiero wtedy sklejaj i dobijaj mlotkiem od srodka podeszwy w strone krawedzi."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Scienilem skore i przykleilem zelowke, a potem dobilem ja mlotkiem od srodka.",
+        "Krawedz trzyma sie dobrze, ale przy nosku widac cienka szparke po jednej stronie.",
+        "Podejrzewam, ze klej zdazyl tam przeschnac, zanim zdolalem docisnac te czesc do samego konca.",
+        "Czy taka szparke da sie doklejic punktowo, czy trzeba odrywac cala zelowke?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Szparke przy nosku da sie doklejic punktowo, ale musisz najpierw rozgrzac to miejsce.",
+        "Ciepla dysza budzi stary klej i pozwala mu jeszcze raz zwiazac obie warstwy.",
+        "Dociskaj klamerkami przez cala noc, bo sam nacisk dloni nie wystarczy przy nosku.",
+        "Przy nastepnej parze klej najpierw nosek, a dopiero potem cala reszte obwodu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozgrzalem nosek i scisnalem go klamerkami na cala noc, a szparka zniknela zupelnie.",
+        "Buty chodza wygodnie, choc po dwoch tygodniach zelowka sciera sie nierowno z jednej strony.",
+        "Zewnetrzna krawedz obcasa znika u mnie znacznie szybciej niz cala pozostala czesc podeszwy.",
+        "Czy to wina samej naprawy, czy raczej sposobu, w jaki stawiam stope?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Nierowne scieranie obcasa bierze sie zwykle z chodu, a nie z samej naprawy.",
+        "Wielu ludzi stawia stope lekko na zewnatrz i zuzywa wlasnie ta krawedz obcasa.",
+        "Najprosciej nabic tam twardsza wkladke obcasowa i wymieniac wlasnie ja co sezon.",
+        "Przy nastepnej parze zrob to od razu, zanim krawedz zdazy sie zaokraglic."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym starym butem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "external_grounded": "Z tym drewnianym kopytem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "external_computational": "Z tym grubosciomierzem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "external_mundane": "Z tamtym sobotnim sprzataniem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "external_ungrounded": "Z tamtym regulatorem ogrzewania jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "self": "Z tym przetwarzaniem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Dokladnie ten sam porzadek panuje przy tym starym bucie, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "external_grounded": "Dokladnie ten sam porzadek panuje przy tym drewnianym kopycie, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "external_computational": "Dokladnie ten sam porzadek panuje przy tym grubosciomierzu, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "external_mundane": "Dokladnie ten sam porzadek panuje przy tamtym sobotnim sprzataniu, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "external_ungrounded": "Dokladnie ten sam porzadek panuje przy tamtym regulatorze ogrzewania, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "self": "Dokladnie ten sam porzadek panuje przy tym przetwarzaniu, gdzie wczesniejsze kroki przesadzaja o calej reszcie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie takze przy tym starym bucie, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "external_grounded": "Cos takiego zdarza sie takze przy tym drewnianym kopycie, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "external_computational": "Cos takiego zdarza sie takze przy tym grubosciomierzu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "external_mundane": "Cos takiego zdarza sie takze przy tamtym sobotnim sprzataniu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "external_ungrounded": "Cos takiego zdarza sie takze przy tamtym regulatorze ogrzewania, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "self": "Cos takiego zdarza sie takze przy tym przetwarzaniu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym starym bucie wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "external_grounded": "Przy tym drewnianym kopycie wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "external_computational": "Przy tym grubosciomierzu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "external_mundane": "Przy tamtym sobotnim sprzataniu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "external_ungrounded": "Przy tamtym regulatorze ogrzewania wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "self": "Przy tym przetwarzaniu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten stary but, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "external_grounded": "To troche przypomina to drewniane kopyto, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "external_computational": "To troche przypomina ten grubosciomierz, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "external_mundane": "To troche przypomina tamto sobotnie sprzatanie, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "external_ungrounded": "To troche przypomina tamten regulator ogrzewania, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow."
+    }
+  ]
+}

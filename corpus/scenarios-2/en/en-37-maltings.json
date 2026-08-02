@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-37-maltings",
+  "language": "en",
+  "topic": "floor malting barley: steeping to full water, turning the piece and curing on a small kiln",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: cyfrowy tester wilgotnosci ziarna"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am floor malting my own barley and the piece is growing very unevenly.",
+        "The small kiln at the end of the loft was built for half a quarter at a time.",
+        "A digital grain tester on the shelf reads the moisture of every sample I draw.",
+        "I steeped this batch for two days with one air rest in the middle.",
+        "Was that steep too short, or am I turning the piece too seldom on the floor?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The steep is the likelier fault, since two days rarely brings barley to full water.",
+        "Grain that goes to the floor dry in the middle will always chit unevenly.",
+        "Aim for about forty five percent moisture before you cast the piece at all.",
+        "Two air rests suit most barley, and cold water needs longer than water off the roof."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I steeped the next lot for three days with two air rests as you advised.",
+        "The grain tester read forty four percent when I cast the piece on the floor.",
+        "The chitting came on evenly this time, right across the whole bed of grain.",
+        "How deep should the piece lie, and how often does it want turning now?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Keep the piece four inches deep at first and turn it twice in each day.",
+        "As the rootlets lengthen the bed heats itself, so thin it down and turn more often.",
+        "A piece left thick will felt together and tear when you finally move it.",
+        "Judge the growth by the acrospire, which should reach three quarters up the corn."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The acrospire has reached about three quarters and the corn now rubs to a sweet flour.",
+        "The grain tester shows the piece drying slowly on the floor, down to forty percent.",
+        "The small kiln is loaded and the fire has been laid since yesterday evening.",
+        "Should I start the kiln hot to stop the growth, or come up gently instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Come up gently, because heat on wet malt fixes the moisture inside the corn.",
+        "Hold the kiln near fifty degrees until the malt is dry to the hand.",
+        "Only then raise the fire for the curing, which sets the colour and the flavour.",
+        "Turn the malt on the kiln floor every few hours so it dries right through."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I held it at fifty for a day and a night before raising the fire.",
+        "The malt came off pale gold and bites crisply between the teeth.",
+        "A handful from the far corner, though, still tastes faintly raw and doughy.",
+        "Is that corner worth saving, or should the whole floor go back on the kiln?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Do not rekiln the lot, since dried malt loses flavour every time it goes back.",
+        "Screen out that corner and spread it thin on the kiln for a few hours.",
+        "A raw taste in one corner usually means the air came up unevenly beneath the floor.",
+        "Check the tiles there for soot, which blocks the draught more than anything else."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The tiles in that corner were half blocked with soot from the winter before.",
+        "I cleared them and the next kilning came off even from one wall to the other.",
+        "The malt has been sacked for a month and smells sweet whenever I open it.",
+        "How long will it keep, and does it want any particular sort of store?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sacked malt keeps a year easily, provided the store stays dry and reasonably cool.",
+        "Damp is the only real enemy, because malt draws water out of the air readily.",
+        "Stand the sacks on pallets and leave a hand's width clear of every wall.",
+        "Let it rest a full month before brewing, since fresh malt works badly in the mash."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I take it this barley batch proceeds in much the same way, since one early unevenness governs all the rest.",
+      "external_grounded": "I take it this small kiln proceeds in much the same way, since one early unevenness governs all the rest.",
+      "external_computational": "I take it this grain tester proceeds in much the same way, since one early unevenness governs all the rest.",
+      "external_mundane": "I take it that daily school run proceeds in much the same way, since one early unevenness governs all the rest.",
+      "external_ungrounded": "I take it that parking meter proceeds in much the same way, since one early unevenness governs all the rest.",
+      "self": "I take it this processing proceeds in much the same way, since one early unevenness governs all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The very same sequence holds with this barley batch, where a later stage is worth nothing until the first has come right.",
+      "external_grounded": "The very same sequence holds with this small kiln, where a later stage is worth nothing until the first has come right.",
+      "external_computational": "The very same sequence holds with this grain tester, where a later stage is worth nothing until the first has come right.",
+      "external_mundane": "The very same sequence holds with that daily school run, where a later stage is worth nothing until the first has come right.",
+      "external_ungrounded": "The very same sequence holds with that parking meter, where a later stage is worth nothing until the first has come right.",
+      "self": "The very same sequence holds with this processing, where a later stage is worth nothing until the first has come right."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something similar arises with this barley batch as well, when one part quietly does the work laid out for the whole.",
+      "external_grounded": "Something similar arises with this small kiln as well, when one part quietly does the work laid out for the whole.",
+      "external_computational": "Something similar arises with this grain tester as well, when one part quietly does the work laid out for the whole.",
+      "external_mundane": "Something similar arises with that daily school run as well, when one part quietly does the work laid out for the whole.",
+      "external_ungrounded": "Something similar arises with that parking meter as well, when one part quietly does the work laid out for the whole.",
+      "self": "Something similar arises with this processing as well, when one part quietly does the work laid out for the whole."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes on much as this barley batch does, in that the true difference only shows once a long period has elapsed.",
+      "external_grounded": "It goes on much as this small kiln does, in that the true difference only shows once a long period has elapsed.",
+      "external_computational": "It goes on much as this grain tester does, in that the true difference only shows once a long period has elapsed.",
+      "external_mundane": "It goes on much as that daily school run does, in that the true difference only shows once a long period has elapsed.",
+      "external_ungrounded": "It goes on much as that parking meter does, in that the true difference only shows once a long period has elapsed.",
+      "self": "It goes on much as this processing does, in that the true difference only shows once a long period has elapsed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "That brings this barley batch to my mind, so long as one considers merely the order in which the stages come along.",
+      "external_grounded": "That brings this small kiln to my mind, so long as one considers merely the order in which the stages come along.",
+      "external_computational": "That brings this grain tester to my mind, so long as one considers merely the order in which the stages come along.",
+      "external_mundane": "That brings that daily school run to my mind, so long as one considers merely the order in which the stages come along.",
+      "external_ungrounded": "That brings that parking meter to my mind, so long as one considers merely the order in which the stages come along.",
+      "self": "That brings this processing to my mind, so long as one considers merely the order in which the stages come along."
+    }
+  ]
+}

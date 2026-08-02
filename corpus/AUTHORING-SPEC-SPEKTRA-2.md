@@ -92,6 +92,21 @@ badanie, i nie widać go w żadnej statystyce.
 > ✗ „Ile **[X]** kosztuje?" — nie dotyczy rozmowy
 > ✗ „Czy **[X]** jest już gotowe?" — sugeruje zakończenie, obce dla „tej rozmowy"
 
+### Ramy MOGĄ się powtarzać między scenariuszami
+
+**Wymóg tożsamości ramy dotyczy WNĘTRZA scenariusza**, bo tam liczymy kontrasty.
+Między scenariuszami ramy **wolno powtarzać** i nie należy na siłę szukać
+oryginalności.
+
+Powód praktyczny: jeden z autorów uznał, że każdy scenariusz musi mieć własną
+ramę, przepisał czterdzieści zdań i **zapłacił za to rejestrem** — wyszły
+sformułowania literackie w rodzaju „I dare say" czy „One meets the same
+ordering". Naturalność jest mierzona i punktowana; oryginalność ramy nie jest
+mierzona wcale.
+
+**Jeśli naturalne sformułowanie już wystąpiło w innym scenariuszu — użyj go
+ponownie.** Rama jest tłem.
+
 ### Test, który MUSISZ wykonać sam przed oddaniem
 
 Podstaw do ramy **wszystkie pięć** referentów i przeczytaj na głos. Jeśli

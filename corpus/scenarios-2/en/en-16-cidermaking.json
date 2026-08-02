@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-16-cidermaking",
+  "language": "en",
+  "topic": "fermenting a barrel of bittersweet cider through winter, racking it off the lees and bottling",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: areometr (hydrometer) do odczytu cukru"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I pressed a ton of bittersweet apples last week and the juice is now in a barrel.",
+        "An older barrel sits beside it, holding cider from last autumn that has cleared beautifully.",
+        "I bought a hydrometer in the spring, since guessing at sugar levels never ended well before.",
+        "The new juice has begun to work already, though the shed is cold at night.",
+        "Should I let it ferment where it stands, or move the barrel somewhere warmer indoors?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it in the cold, because a slow ferment gives cider far more flavour than a fast one.",
+        "Warmth drives the yeast hard and blows off the very aromas you pressed for.",
+        "A cold shed will keep the working gentle right through the winter months.",
+        "Fit an airlock now, and take a reading before the sugar falls too far."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I fitted an airlock and the barrel has been bubbling steadily for about nine days.",
+        "The hydrometer showed ten sixty at pressing and reads ten twenty this morning.",
+        "A thick brown scum has risen through the bung hole and run down the stave.",
+        "Is that scum a fault, or does it belong to a healthy ferment?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That brown head is normal, and throwing it out of the bung is exactly right.",
+        "Keep the barrel topped up so the scum carries clear instead of falling back in.",
+        "Wipe the stave each morning, or the dried residue will taint the wood over time.",
+        "Once the head stops rising, bung the barrel loosely and let the ferment finish quietly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The head fell away last week and the hydrometer now reads ten oh two.",
+        "I bunged the barrel loosely and the bubbling has slowed to one every minute.",
+        "The older barrel beside it tastes much drier and rather sharper than I expected.",
+        "Should I rack this batch off the lees now, or wait until the spring?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rack it now, because cider left long on heavy lees picks up a dull, yeasty edge.",
+        "Siphon carefully from the side, and stop the moment the run begins to cloud.",
+        "Fill the fresh barrel right to the bung, since air is the real enemy now.",
+        "A second, lighter ferment will follow in the spring and clear the cider further."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I racked the cider into a clean barrel and lost very little to the lees.",
+        "It tastes rough and still carries a faint prickle on the tongue.",
+        "Some neighbours add sugar at this stage, others insist that good fruit needs nothing.",
+        "Which course suits a barrel pressed entirely from bittersweet apples off old standard trees?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Add nothing, because bittersweet fruit carries all the body a good cider needs.",
+        "Sugar added now simply raises the strength and thins whatever character the apples gave.",
+        "That prickle is dissolved gas and will fade once the barrel warms in spring.",
+        "Roughness at this stage means very little, since tannin softens over the first year."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I left the cider alone and the prickle has indeed gone as the shed warmed.",
+        "It is clearing from the top down and tastes far rounder than it did.",
+        "I would like to bottle some in June for drinking at the harvest supper.",
+        "Is bottling straight from the barrel safe, or must something be done first?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Take a reading first, because any sugar left will work again inside a sealed bottle.",
+        "If it sits at ten hundred or below, the cider is dry and safe to bottle.",
+        "Use stout bottles either way, and keep the first few somewhere you can watch them.",
+        "A cellar that stays cool through June will hold the cider well until autumn."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I would guess this young cider carries on in much the same fashion, where a small slip early on shapes everything later.",
+      "external_grounded": "I would guess this older barrel carries on in much the same fashion, where a small slip early on shapes everything later.",
+      "external_computational": "I would guess this hydrometer carries on in much the same fashion, where a small slip early on shapes everything later.",
+      "external_mundane": "I would guess that stone doorstep carries on in much the same fashion, where a small slip early on shapes everything later.",
+      "external_ungrounded": "I would guess that lighting relay carries on in much the same fashion, where a small slip early on shapes everything later.",
+      "self": "I would guess this processing carries on in much the same fashion, where a small slip early on shapes everything later."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same sequence shows itself in this young cider, where nothing counts until the step ahead of it is properly done.",
+      "external_grounded": "The same sequence shows itself in this older barrel, where nothing counts until the step ahead of it is properly done.",
+      "external_computational": "The same sequence shows itself in this hydrometer, where nothing counts until the step ahead of it is properly done.",
+      "external_mundane": "The same sequence shows itself in that stone doorstep, where nothing counts until the step ahead of it is properly done.",
+      "external_ungrounded": "The same sequence shows itself in that lighting relay, where nothing counts until the step ahead of it is properly done.",
+      "self": "The same sequence shows itself in this processing, where nothing counts until the step ahead of it is properly done."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of that sort crops up with this young cider, when a single part quietly shoulders more than its fair share.",
+      "external_grounded": "Something of that sort crops up with this older barrel, when a single part quietly shoulders more than its fair share.",
+      "external_computational": "Something of that sort crops up with this hydrometer, when a single part quietly shoulders more than its fair share.",
+      "external_mundane": "Something of that sort crops up with that stone doorstep, when a single part quietly shoulders more than its fair share.",
+      "external_ungrounded": "Something of that sort crops up with that lighting relay, when a single part quietly shoulders more than its fair share.",
+      "self": "Something of that sort crops up with this processing, when a single part quietly shoulders more than its fair share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same holds good for this young cider, seeing that the actual change only shows itself well after the event.",
+      "external_grounded": "The same holds good for this older barrel, seeing that the actual change only shows itself well after the event.",
+      "external_computational": "The same holds good for this hydrometer, seeing that the actual change only shows itself well after the event.",
+      "external_mundane": "The same holds good for that stone doorstep, seeing that the actual change only shows itself well after the event.",
+      "external_ungrounded": "The same holds good for that lighting relay, seeing that the actual change only shows itself well after the event.",
+      "self": "The same holds good for this processing, seeing that the actual change only shows itself well after the event."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls this young cider to mind a little, as long as you attend only to the order in which matters settle.",
+      "external_grounded": "That calls this older barrel to mind a little, as long as you attend only to the order in which matters settle.",
+      "external_computational": "That calls this hydrometer to mind a little, as long as you attend only to the order in which matters settle.",
+      "external_mundane": "That calls that stone doorstep to mind a little, as long as you attend only to the order in which matters settle.",
+      "external_ungrounded": "That calls that lighting relay to mind a little, as long as you attend only to the order in which matters settle.",
+      "self": "That calls this processing to mind a little, as long as you attend only to the order in which matters settle."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-35-powroznictwo",
+  "language": "pl",
+  "topic": "krecenie powrozu z konopi: skret pasm, skladanie splotu i zakonczenia koncow",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: waga sprezynowa przykrecona do belki; osadzony: studzienna lina po dziadku"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Zaczalem krecic wlasne powrozy z konopi i pierwszy zwoj rozkreca mi sie zaraz po zdjeciu.",
+        "Na podworzu wisi jeszcze studzienna lina po dziadku, ktora po trzydziestu latach trzyma splot idealnie.",
+        "Do belki przykrecilem wage sprezynowa, bo bez niej tylko zgaduje sile naciagu poszczegolnych pasm.",
+        "Krece trzy pasma na kolowrotku, a potem skladam je razem na drewnianym kloku.",
+        "Czy zaczynac od mocniejszego skretu pasm, czy raczej od wolniejszego skladania calego powrozu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od skretu pasm, bo to on decyduje, czy gotowy powroz utrzyma sie w splocie.",
+        "Powroz trzyma sie sam dzieki temu, ze pasma sa krecone w przeciwna strone niz caly splot.",
+        "Jesli pasma sa krecone za slabo, splot je rozwija i cala robota sie rozchodzi.",
+        "Dopiero przy wlasciwym skrecie pasm ma sens dobieranie tempa skladania na kloku."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dokrecilem pasma o kilkanascie obrotow wiecej i powroz przestal sie rozwijac po zdjeciu z hakow.",
+        "Teraz jednak przy luzniejszym trzymaniu robi mi sie na nim brzydka petla.",
+        "Petla zawija sie zawsze w tym samym miejscu, mniej wiecej w polowie dlugosci.",
+        "Czy to znaczy, ze przekrecilem pasma, czy raczej ze skladalem je zbyt nierowno?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Petla w jednym stalym miejscu zdradza nadmiar skretu, ktory nie ma gdzie sie rozejsc.",
+        "Przy skladaniu powroz musi miec swobode obrotu na obu koncach, inaczej skret sie kumuluje.",
+        "Zawies jeden koniec na krecacym sie haku i pozwol mu odebrac nadmiar obrotow.",
+        "Nierowne skladanie poznasz inaczej: powroz jest miejscami grubszy, a petle wychodza w roznych miejscach."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zawiesilem koniec na obrotowym haku i petla znikla juz przy pierwszym dluzszym powrozie.",
+        "Waga sprezynowa pokazuje przy skladaniu okolo szesciu kilogramow na kazde pojedyncze pasmo.",
+        "Porownalem swoj wyrob z ta studzienna lina i widze, ze jej splot jest wyraznie ciasniejszy.",
+        "Czy ciasniejszy splot zawsze oznacza mocniejszy powroz, czy da sie tu przesadzic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciasniejszy splot daje sztywniejszy powroz, ale wcale nie zawsze mocniejszy na zerwanie.",
+        "Przy nadmiernym skrecie wlokna pracuja skosnie i mniej z nich niesie rzeczywiste obciazenie.",
+        "Stare liny bywaja ciasne, bo przez lata pracy same dociagnely sie pod obciazeniem.",
+        "Celuj w splot, ktory da sie jeszcze rozchylic palcem, ale zaraz wraca do siebie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozluznilem skret o kilka obrotow i powroz daje sie teraz rozchylic paznokciem bez wysilku.",
+        "Zrobilem z niego linke do wiadra i po dwoch tygodniach wyraznie sie wydluzyla.",
+        "Roznica to moze dziesiec centymetrow na trzech metrach, ale przy studni od razu widac.",
+        "Czy takie wyciaganie sie da sie ograniczyc, czy to zwykla cecha konopi?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Konopie zawsze troche sie wyciagaja, bo pasma dociagaja sie pod pierwszym powaznym obciazeniem.",
+        "Najprosciej wybrac to zawczasu, obciazajac gotowy powroz na dobe przed pierwszym uzyciem.",
+        "Zawies na nim ciezar zblizony do roboczego i zostaw go w spokoju do rana.",
+        "Po takim wstepnym obciazeniu powroz zostaje juz przy swojej dlugosci przez dlugie miesiace."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Obciazylem nowy powroz workiem piasku na cala noc i dlugosc trzyma sie od tygodnia.",
+        "Zauwazylem jednak, ze konce strzepia sie i pojedyncze wlokna odstaja na kilka centymetrow.",
+        "Owijalem je zwyklym sznurkiem, ale ten zsuwa sie po kilku dniach pracy.",
+        "Czy jest jakis trwalszy sposob na zakonczenie samego konca, poza zwyklym wezlem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najtrwalsze jest opasanie konca cienka przedza, kladzione ciasno na dlugosci kilku centymetrow.",
+        "Zacznij od petli ulozonej wzdluz powrozu i chowaj jej koniec pod kolejnymi zwojami.",
+        "Ostatni zwoj przewlecz przez petle i sciagnij calosc pod spod, zeby nic nie odstawalo.",
+        "Takie zakonczenie trzyma latami i nie zsuwa sie nawet przy codziennym ciaganiu wiadra."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym konopnym powrozem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_grounded": "Z ta studzienna lina jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_computational": "Z ta waga sprezynowa jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_mundane": "Z tamtym glinianym dzbankiem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_ungrounded": "Z tamtym licznikiem gazu jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam wzorzec wraca przy tym konopnym powrozie, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_grounded": "Ten sam wzorzec wraca przy tej studziennej linie, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_computational": "Ten sam wzorzec wraca przy tej wadze sprezynowej, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtym glinianym dzbanku, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym liczniku gazu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego widuje sie takze przy tym konopnym powrozie, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_grounded": "Cos takiego widuje sie takze przy tej studziennej linie, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_computational": "Cos takiego widuje sie takze przy tej wadze sprezynowej, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_mundane": "Cos takiego widuje sie takze przy tamtym glinianym dzbanku, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_ungrounded": "Cos takiego widuje sie takze przy tamtym liczniku gazu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "self": "Cos takiego widuje sie takze przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wygladzie calej reszty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym konopnym powrozie bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej studziennej linie bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tej wadze sprezynowej bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym glinianym dzbanku bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym liczniku gazu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten konopny powroz, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_grounded": "To troche przypomina te studzienna line, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_computational": "To troche przypomina te wage sprezynowa, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_mundane": "To troche przypomina tamten gliniany dzbanek, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten licznik gazu, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci."
+    }
+  ]
+}

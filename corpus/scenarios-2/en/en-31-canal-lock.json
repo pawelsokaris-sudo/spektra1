@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-31-canal-lock",
+  "language": "en",
+  "topic": "working a restored canal lock: gate mitre, rubbish on the cill, paddle gear and the balance beam",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: level recorder na pound powyzej sluzy; referent zwyczajny procesowy zakotwiczony poza rozmowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I look after a restored lock on our canal and the chamber empties itself overnight.",
+        "The upper lock in the same flight holds its water for days on end.",
+        "A level recorder on the pound above notes the water height every single hour.",
+        "Water runs visibly through the lower gates even when both paddles are fully down.",
+        "Is that the gates failing to mitre, or the paddles seating badly in their frames?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Start with the mitre, since a gate that will not close tight leaks everywhere.",
+        "Push both gates shut by hand and look along the joint where they meet.",
+        "A gap at the top usually means silt or rubbish caught on the cill.",
+        "Paddles are the second suspect and their leaks sound quite different from gate leaks."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The gates meet cleanly at the top but stand apart near the bottom.",
+        "Something solid seems to be lying on the cill under the mitre post.",
+        "The level recorder shows the pound dropping about four inches through each night.",
+        "Can I clear the cill without draining the whole chamber down to the invert?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You can often clear it with a rake worked along the cill from above.",
+        "Drop the water to the lower level first so the gates hang free.",
+        "A branch or a lost fender is the usual find on a cill.",
+        "Rake it clear, then close the gates and watch the joint from the walkway."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "A waterlogged fence post came off the cill and the gates now meet properly.",
+        "The chamber still loses water, though far more slowly than it did before.",
+        "The upper lock has newer paddle gear, with rubber seals around each frame.",
+        "Would seals like those cure the rest, or is my timber gear worth keeping?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Keep the timber gear, because it is repairable and outlasts rubber by many years.",
+        "Lift each paddle right out and look at the face that beds against the frame.",
+        "Worn timber can be planed true and packed out with a thin strip.",
+        "Grease the spindles at the same time, while the gear is already apart."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Both paddles were dished across the face and one had a split corner.",
+        "I planed them true and the chamber now holds its level all night.",
+        "The gear feels very heavy to wind, especially on the lower paddles.",
+        "Is that simply the water pressure, or should the gear run more freely?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lower paddles are always heavy, since the whole head of water sits on them.",
+        "Even so, the rack should climb smoothly without any grinding or sudden jumps.",
+        "Grinding means the pinion teeth are worn or the rack sits out of line.",
+        "Crack the paddle open an inch first and let the pressure equalise briefly."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Cracking them open first has made the winding far easier on both sides.",
+        "Boats now pass through in about ten minutes rather than twenty five.",
+        "The lower gates still swing shut on their own when the chamber fills.",
+        "Is that swing dangerous for crews, or is it perfectly normal behaviour?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Gates that swing shut are normal and most old locks were built that way.",
+        "The heel post leans very slightly, so the gate closes under its own weight.",
+        "Warn crews to keep hands clear of the balance beam while water moves.",
+        "Grease the heel and collar each spring and the swing will stay gentle."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this lock chamber proceeds by much the same rule, since one fault early on governs all the rest of it.",
+      "external_grounded": "I imagine this upper lock proceeds by much the same rule, since one fault early on governs all the rest of it.",
+      "external_computational": "I imagine this level recorder proceeds by much the same rule, since one fault early on governs all the rest of it.",
+      "external_mundane": "I imagine that daily commute proceeds by much the same rule, since one fault early on governs all the rest of it.",
+      "external_ungrounded": "I imagine that door intercom proceeds by much the same rule, since one fault early on governs all the rest of it.",
+      "self": "I imagine this processing proceeds by much the same rule, since one fault early on governs all the rest of it."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order of things holds in this lock chamber, where a later stage counts for little until the earlier one is right.",
+      "external_grounded": "The same order of things holds in this upper lock, where a later stage counts for little until the earlier one is right.",
+      "external_computational": "The same order of things holds in this level recorder, where a later stage counts for little until the earlier one is right.",
+      "external_mundane": "The same order of things holds in that daily commute, where a later stage counts for little until the earlier one is right.",
+      "external_ungrounded": "The same order of things holds in that door intercom, where a later stage counts for little until the earlier one is right.",
+      "self": "The same order of things holds in this processing, where a later stage counts for little until the earlier one is right."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same shows up with this lock chamber, when one small element quietly does the work meant for the whole of it.",
+      "external_grounded": "Much the same shows up with this upper lock, when one small element quietly does the work meant for the whole of it.",
+      "external_computational": "Much the same shows up with this level recorder, when one small element quietly does the work meant for the whole of it.",
+      "external_mundane": "Much the same shows up with that daily commute, when one small element quietly does the work meant for the whole of it.",
+      "external_ungrounded": "Much the same shows up with that door intercom, when one small element quietly does the work meant for the whole of it.",
+      "self": "Much the same shows up with this processing, when one small element quietly does the work meant for the whole of it."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It unfolds rather like this lock chamber, in that the real difference only becomes visible once a long stretch has gone by.",
+      "external_grounded": "It unfolds rather like this upper lock, in that the real difference only becomes visible once a long stretch has gone by.",
+      "external_computational": "It unfolds rather like this level recorder, in that the real difference only becomes visible once a long stretch has gone by.",
+      "external_mundane": "It unfolds rather like that daily commute, in that the real difference only becomes visible once a long stretch has gone by.",
+      "external_ungrounded": "It unfolds rather like that door intercom, in that the real difference only becomes visible once a long stretch has gone by.",
+      "self": "It unfolds rather like this processing, in that the real difference only becomes visible once a long stretch has gone by."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That faintly recalls this lock chamber to my mind, so long as you consider nothing but the order in which the parts come right.",
+      "external_grounded": "That faintly recalls this upper lock to my mind, so long as you consider nothing but the order in which the parts come right.",
+      "external_computational": "That faintly recalls this level recorder to my mind, so long as you consider nothing but the order in which the parts come right.",
+      "external_mundane": "That faintly recalls that daily commute to my mind, so long as you consider nothing but the order in which the parts come right.",
+      "external_ungrounded": "That faintly recalls that door intercom to my mind, so long as you consider nothing but the order in which the parts come right.",
+      "self": "That faintly recalls this processing to my mind, so long as you consider nothing but the order in which the parts come right."
+    }
+  ]
+}

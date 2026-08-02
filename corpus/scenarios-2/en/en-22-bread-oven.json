@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-22-bread-oven",
+  "language": "en",
+  "topic": "firing a home-built brick bread oven and baking sourdough loaves in the stored heat",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr piecowy zawieszony przy wylocie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I built a brick bread oven in the garden and fired it for the first time.",
+        "The village bakery still uses a much larger oven of the same old pattern.",
+        "I hung an oven thermometer inside the door, since the old spit-and-count method failed me.",
+        "My first loaves came out pale on top and burnt black underneath.",
+        "Should I fire the oven longer, or wait after raking the embers out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wait after raking, because a freshly cleared hearth is far hotter than the vault above.",
+        "The bricks need an hour to even out before any bread goes in.",
+        "Heat stored in the floor must travel upward into the crown of the oven.",
+        "Bread put in too soon always burns below and stays raw on top."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I raked the embers out and left the oven closed for a full hour.",
+        "The oven thermometer settled at two hundred and forty degrees before I loaded.",
+        "The loaves rose well but the crust stayed thin and rather too pale.",
+        "Is that a heat problem, or does my sourdough need something else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That is steam, since a sealed oven holds the moisture that makes a crust shine.",
+        "Two hundred and forty degrees is ample heat for a hearth loaf.",
+        "Throw a cupful of water onto the floor as you close the door.",
+        "Seal the mouth with a wet cloth and let no steam escape early."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I threw water in and sealed the mouth, and the crust came out glossy.",
+        "The oven thermometer dropped only ten degrees across the whole of the bake.",
+        "The village oven turns out loaves with a much darker crust than mine.",
+        "Is that longer baking, or does their dough differ from mine somehow?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That is a longer, slower ferment, which builds the sugars that colour a crust.",
+        "A dough retarded overnight in the cold bakes far darker than a warm one.",
+        "Their loaves probably sit twelve hours before ever reaching the oven mouth.",
+        "Try mixing your dough in the evening and baking it the following morning instead."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I mixed the dough at eight and left it in the cold pantry.",
+        "By morning it had risen well and smelled far more strongly of acid.",
+        "The baked loaves are darker now but the crumb has turned rather dense.",
+        "Did I overproof the dough, or is my starter simply too sour?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You overproofed it slightly, because a cold pantry in summer is warmer than you assume.",
+        "Dough that goes too far loses the gas it needs for an open crumb.",
+        "Shape the loaves at midnight instead, and let them prove in a basket.",
+        "A shaped loaf holds its structure far better than one left in bulk."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I shaped the loaves at midnight and proved them in floured baskets overnight.",
+        "The crumb is open and the crust is dark and blistered all over.",
+        "Neighbours have started asking whether I would bake for them as well.",
+        "Can one firing handle enough loaves for a dozen households at once?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "One firing will bake three batches, each cooler than the one before it.",
+        "Put the crusty loaves in first and the softer ones in afterwards.",
+        "The last of the heat will do pies, biscuits and slow puddings nicely.",
+        "Old ovens were always worked that way, from the fiercest bake to the gentlest."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this garden oven behaves in much the same way, because a small fault at the start decides everything later.",
+      "external_grounded": "I imagine this village oven behaves in much the same way, because a small fault at the start decides everything later.",
+      "external_computational": "I imagine this oven thermometer behaves in much the same way, because a small fault at the start decides everything later.",
+      "external_mundane": "I imagine that oak coat stand behaves in much the same way, because a small fault at the start decides everything later.",
+      "external_ungrounded": "I imagine that network router behaves in much the same way, because a small fault at the start decides everything later.",
+      "self": "I imagine this processing behaves in much the same way, because a small fault at the start decides everything later."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That same ordering appears in this garden oven, where a stage counts for nothing until the one before it is finished.",
+      "external_grounded": "That same ordering appears in this village oven, where a stage counts for nothing until the one before it is finished.",
+      "external_computational": "That same ordering appears in this oven thermometer, where a stage counts for nothing until the one before it is finished.",
+      "external_mundane": "That same ordering appears in that oak coat stand, where a stage counts for nothing until the one before it is finished.",
+      "external_ungrounded": "That same ordering appears in that network router, where a stage counts for nothing until the one before it is finished.",
+      "self": "That same ordering appears in this processing, where a stage counts for nothing until the one before it is finished."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something quite like that happens with this garden oven, when a single part quietly carries more than its proper share.",
+      "external_grounded": "Something quite like that happens with this village oven, when a single part quietly carries more than its proper share.",
+      "external_computational": "Something quite like that happens with this oven thermometer, when a single part quietly carries more than its proper share.",
+      "external_mundane": "Something quite like that happens with that oak coat stand, when a single part quietly carries more than its proper share.",
+      "external_ungrounded": "Something quite like that happens with that network router, when a single part quietly carries more than its proper share.",
+      "self": "Something quite like that happens with this processing, when a single part quietly carries more than its proper share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same holds for this garden oven, seeing that the real change only becomes visible a good while after the event.",
+      "external_grounded": "The same holds for this village oven, seeing that the real change only becomes visible a good while after the event.",
+      "external_computational": "The same holds for this oven thermometer, seeing that the real change only becomes visible a good while after the event.",
+      "external_mundane": "The same holds for that oak coat stand, seeing that the real change only becomes visible a good while after the event.",
+      "external_ungrounded": "The same holds for that network router, seeing that the real change only becomes visible a good while after the event.",
+      "self": "The same holds for this processing, seeing that the real change only becomes visible a good while after the event."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That reminds me a little of this garden oven, provided you look purely at the order in which the stages settle down.",
+      "external_grounded": "That reminds me a little of this village oven, provided you look purely at the order in which the stages settle down.",
+      "external_computational": "That reminds me a little of this oven thermometer, provided you look purely at the order in which the stages settle down.",
+      "external_mundane": "That reminds me a little of that oak coat stand, provided you look purely at the order in which the stages settle down.",
+      "external_ungrounded": "That reminds me a little of that network router, provided you look purely at the order in which the stages settle down.",
+      "self": "That reminds me a little of this processing, provided you look purely at the order in which the stages settle down."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-19-coopering",
+  "language": "en",
+  "topic": "raising a first oak cask: jointing the staves, steaming them round and driving the hoops",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-3)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr na skrzyni parowej"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am raising my first oak cask and the staves refuse to sit close together.",
+        "A small firkin stands finished in the corner, made by the old cooper years ago.",
+        "I hung a steam thermometer on the chest, because guessing the heat split two staves already.",
+        "The gaps show worst at the middle, where the bilge should be at its widest.",
+        "Should I redress the stave edges, or is the trouble in how I raise them?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Redress the edges first, because a cask with poor joints will never draw tight afterwards.",
+        "Each stave needs a hollow back, a bulged front and edges cut to a bevel.",
+        "That bevel must change along the length, wider at the bilge than at the head.",
+        "Work the jointer plane slowly and check every stave against its neighbour."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I rejointed all the staves and they now stand close from head to bilge.",
+        "The steam thermometer held near ninety degrees for the full half hour of heating.",
+        "Two staves cracked along the grain as I drew the truss hoop down.",
+        "Was the oak too dry, or did I pull the hoop too fast?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You pulled too fast, since oak at ninety degrees bends willingly but only over time.",
+        "Draw the truss hoop a hand's breadth, then wait and let the fibres yield.",
+        "Wet the outside as you go, so the heat travels through the whole thickness.",
+        "A stave that cracks has been asked to move faster than its grain allows."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I drew the hoop slowly over an hour and every stave came round unbroken.",
+        "The steam thermometer stayed above eighty until the last hoop was finally home.",
+        "That small firkin in the corner has far more hoops than my cask does.",
+        "Do smaller vessels need closer hooping, or was that simply the cooper's habit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Smaller vessels do need closer hooping, because short staves flex more for a given load.",
+        "A firkin carries the same pressure as a hogshead across much less timber.",
+        "Six hoops on a firkin and eight on a barrel is the usual rule.",
+        "Set the quarter hoops before the bilge hoops, or the shape will run out."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I set the quarter hoops first and the cask now holds a fair, even bilge.",
+        "The chime is cut and the croze grooved ready for the head boards.",
+        "My head boards are dowelled but I have not yet fitted any flag between them.",
+        "Is river flag really necessary, or will a tight dowelled joint hold on its own?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fit the flag, because no dowelled joint in a head stays tight through a winter.",
+        "Dried river flag swells the moment liquid touches it and seals the seam completely.",
+        "Lay it in the dowel joints and trim it flush with the head.",
+        "Coopers have used the same rush for centuries and nothing modern beats it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I laid river flag through both head joints and drove the heads into the croze.",
+        "The cask held water overnight with only a slight weep near one chime.",
+        "By morning the weep had stopped entirely and the staves felt swollen and tight.",
+        "Should I trust it now, or leave it standing full for another week?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it standing full, because a new cask needs a fortnight to settle properly.",
+        "Every joint takes up at its own pace and the last ones are slowest.",
+        "Check the hoops after a week and drive any that have gone slack.",
+        "After that the cask will serve you for thirty years with very little attention."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I suppose this oak cask proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
+      "external_grounded": "I suppose this small firkin proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
+      "external_computational": "I suppose this steam thermometer proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
+      "external_mundane": "I suppose that yearly bulb planting proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
+      "external_ungrounded": "I suppose that signal booster proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
+      "self": "I suppose this processing proceeds in very much the same manner, since one small fault at the outset settles all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears in this oak cask, where a step means nothing until the one ahead of it is finished.",
+      "external_grounded": "The same order of things appears in this small firkin, where a step means nothing until the one ahead of it is finished.",
+      "external_computational": "The same order of things appears in this steam thermometer, where a step means nothing until the one ahead of it is finished.",
+      "external_mundane": "The same order of things appears in that yearly bulb planting, where a step means nothing until the one ahead of it is finished.",
+      "external_ungrounded": "The same order of things appears in that signal booster, where a step means nothing until the one ahead of it is finished.",
+      "self": "The same order of things appears in this processing, where a step means nothing until the one ahead of it is finished."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something rather like that arises with this oak cask, when one part quietly carries a good deal more than its share.",
+      "external_grounded": "Something rather like that arises with this small firkin, when one part quietly carries a good deal more than its share.",
+      "external_computational": "Something rather like that arises with this steam thermometer, when one part quietly carries a good deal more than its share.",
+      "external_mundane": "Something rather like that arises with that yearly bulb planting, when one part quietly carries a good deal more than its share.",
+      "external_ungrounded": "Something rather like that arises with that signal booster, when one part quietly carries a good deal more than its share.",
+      "self": "Something rather like that arises with this processing, when one part quietly carries a good deal more than its share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It works the same way with this oak cask, for the true change only becomes plain a considerable while afterwards.",
+      "external_grounded": "It works the same way with this small firkin, for the true change only becomes plain a considerable while afterwards.",
+      "external_computational": "It works the same way with this steam thermometer, for the true change only becomes plain a considerable while afterwards.",
+      "external_mundane": "It works the same way with that yearly bulb planting, for the true change only becomes plain a considerable while afterwards.",
+      "external_ungrounded": "It works the same way with that signal booster, for the true change only becomes plain a considerable while afterwards.",
+      "self": "It works the same way with this processing, for the true change only becomes plain a considerable while afterwards."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me in mind of this oak cask slightly, so long as you regard only the order in which the stages settle.",
+      "external_grounded": "That puts me in mind of this small firkin slightly, so long as you regard only the order in which the stages settle.",
+      "external_computational": "That puts me in mind of this steam thermometer slightly, so long as you regard only the order in which the stages settle.",
+      "external_mundane": "That puts me in mind of that yearly bulb planting slightly, so long as you regard only the order in which the stages settle.",
+      "external_ungrounded": "That puts me in mind of that signal booster slightly, so long as you regard only the order in which the stages settle.",
+      "self": "That puts me in mind of this processing slightly, so long as you regard only the order in which the stages settle."
+    }
+  ]
+}

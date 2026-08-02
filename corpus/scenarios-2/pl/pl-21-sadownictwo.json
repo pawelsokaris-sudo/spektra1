@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-21-sadownictwo",
+  "language": "pl",
+  "topic": "ratowanie starej jabloni w sadzie: przeswietlenie korony, rany po cieciu i szczepienie zrazow",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: deszczomierz przy szopie (pomiar opadow w dolinie)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Przejalem po dziadku maly sad i chcialbym uratowac stara jablon przy plocie.",
+        "Obok rosnie mloda antonowka, ktora dziadek szczepil ledwie dwa lata przed moim przyjazdem.",
+        "Przy szopie stoi deszczomierz, bo w tej dolinie opady bywaja zupelnie nierowne.",
+        "Jablon ma gesta, zaplatana korone i od kilku lat rodzi coraz drobniejsze owoce.",
+        "Czy zaczynac od mocnego przeciecia korony, czy raczej od poprawy gleby wokol pnia?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od korony, bo drobne owoce biora sie najczesciej z braku swiatla w srodku.",
+        "Nawozenie zageszczonego drzewa daje tylko wiecej nowych pedow i jeszcze glebszy cien w srodku.",
+        "Tnij jednak stopniowo, bo zdjecie polowy korony naraz wypuszcza caly las pionowych wilkow.",
+        "Szczepienie zostaw na wiosne, kiedy bedziesz juz dokladnie wiedzial, ktore konary tu zostaja."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wycialem trzy najgrubsze konary ze srodka i do korony wchodzi teraz duzo swiatla.",
+        "Rany po cieciu zabliznily sie rowno, ale przy jednej wyciekla ciemna, lepka smuga.",
+        "Czy to znaczy, ze ciecie bylo za glebokie, czy raczej ze drzewo ma jakas chorobe?",
+        "Mam pod reka ostry noz i wapno, wiec moge oczyscic to miejsce jeszcze dzis."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciemny wyciek przy jednej ranie wskazuje raczej na stare uszkodzenie pod kora.",
+        "Za glebokie ciecie zdradza sie inaczej: rana schnie i pyli, a nie saczy.",
+        "Oczysc brzegi do zdrowego drewna i zostaw je otwarte na kilka suchych dni.",
+        "Potem obserwuj przez miesiac, czy smuga nie wraca po pierwszym dluzszym deszczu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Oczyscilem rane do zdrowego drewna i smuga nie wrocila przez caly miesiac.",
+        "Deszczomierz pokazal przy okazji, ze przez trzy tygodnie spadlo ledwie kilka milimetrow.",
+        "Chcialbym na wiosne przeszczepic dwa konary zrazami wzietymi wprost z tej mlodej antonowki.",
+        "Czy takie zrazy tnie sie od razu, czy dopiero tuz przed samym szczepieniem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zrazy tnij zima, kiedy drzewo spi, i przechowuj je w wilgotnym piasku.",
+        "Do szczepienia musza byc jeszcze spiace, a sama podkladka juz wyraznie ruszona sokiem.",
+        "Kore nacinaj ostrym nozem jednym ruchem, bo szarpana rana nigdy dobrze nie zrosnie.",
+        "Miejsce laczenia obwiaz bardzo mocno i zabezpiecz woskiem przed wysychaniem oraz deszczem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przeszczepilem dwa konary wiosna i oba zrazy wypuscily po kilka mocnych pedow.",
+        "Jeden zraz rosnie jednak duzo slabiej i jego liscie sa wyraznie jasniejsze.",
+        "Podejrzewam, ze obwiazanie na tym konarze poluzowalo sie zaraz po pierwszych letnich upalach.",
+        "Czy taki slabszy zraz da sie jeszcze uratowac, czy lepiej powtorzyc szczepienie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Jasne liscie przy tak slabym wzroscie oznaczaja zwykle nieszczelne polaczenie zraza z podkladka.",
+        "Rozwin obwiazanie i sprawdz, czy warstwy lyka stykaja sie na calej dlugosci.",
+        "Jesli styka sie tylko na dole, dowiaz go jeszcze raz i posmaruj woskiem.",
+        "Powtarzac szczepienie warto dopiero nastepnej wiosny, jesli te pedy do samej jesieni zaschna."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozwinalem obwiazanie i lyko stykalo sie faktycznie tylko na samym dole polaczenia.",
+        "Dowiazalem ten zraz duzo mocniej i po dwoch tygodniach liscie wyraznie sie zazielenily.",
+        "Cala jablon wyglada zdrowo, choc tej jesieni znowu wypuscila mnostwo pionowych wilkow.",
+        "Czy takie wilki wycinac od razu, czy zostawic je do konca zimy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wilki wycinaj latem, bo zimowe ciecie tylko pobudza drzewo do kolejnych pedow.",
+        "Najlepiej wylamywac je zupelnie zielone, kiedy maja jeszcze miekka i nieodrewniala nasade.",
+        "Kilka najlepiej ustawionych pedow zostaw jednak, bo z czasem zastapia stare, zmeczone konary.",
+        "Przez trzy sezony korona przebuduje sie sama i owoce wroca do dawnej wielkosci."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta stara jablonia jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok.",
+      "external_grounded": "Z ta mloda antonowka jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok.",
+      "external_computational": "Z tym deszczomierzem jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok.",
+      "external_mundane": "Z tamtym starym parasolem jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok.",
+      "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calej reszcie przesadza zwykle pierwszy wykonany krok."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tej starej jabloni, gdzie wczesniejszy krok ustawia wszystkie nastepne.",
+      "external_grounded": "Ten sam porzadek widac przy tej mlodej antonowce, gdzie wczesniejszy krok ustawia wszystkie nastepne.",
+      "external_computational": "Ten sam porzadek widac przy tym deszczomierzu, gdzie wczesniejszy krok ustawia wszystkie nastepne.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym starym parasolu, gdzie wczesniejszy krok ustawia wszystkie nastepne.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku windy, gdzie wczesniejszy krok ustawia wszystkie nastepne.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie wczesniejszy krok ustawia wszystkie nastepne."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tej starej jabloni, kiedy jeden drobiazg odzywa sie po dluzszym czasie.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tej mlodej antonowce, kiedy jeden drobiazg odzywa sie po dluzszym czasie.",
+      "external_computational": "Cos takiego zdarza sie tez przy tym deszczomierzu, kiedy jeden drobiazg odzywa sie po dluzszym czasie.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym starym parasolu, kiedy jeden drobiazg odzywa sie po dluzszym czasie.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowniku windy, kiedy jeden drobiazg odzywa sie po dluzszym czasie.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden drobiazg odzywa sie po dluzszym czasie."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej starej jabloni bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie.",
+      "external_grounded": "Przy tej mlodej antonowce bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie.",
+      "external_computational": "Przy tym deszczomierzu bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie.",
+      "external_mundane": "Przy tamtym starym parasolu bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie.",
+      "external_ungrounded": "Przy tamtym sterowniku windy bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutek jednej poprawki widac dopiero po sezonie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te stara jablon, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
+      "external_grounded": "To troche przypomina te mloda antonowke, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
+      "external_computational": "To troche przypomina ten deszczomierz, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
+      "external_mundane": "To troche przypomina tamten stary parasol, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
+      "external_ungrounded": "To troche przypomina tamten sterownik windy, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych krokow."
+    }
+  ]
+}

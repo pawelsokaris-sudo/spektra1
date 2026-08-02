@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-25-saddlery",
+  "language": "en",
+  "topic": "putting a crooked saddle right: girth webs, felted flocking and twice yearly adjustment",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: pressure mat (mata pomiarowa saddle fittera); referent zwyczajny procesowy zakotwiczony poza rozmowa"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "My old saddle has begun to sit crooked on the mare and rub her withers.",
+        "A newer saddle hangs on the same rack and sits level on her back.",
+        "A pressure mat lies beside them and records what happens under the panels during a ride.",
+        "The flocking in the old one feels lumpy on the left and thin on the right.",
+        "Should I have it reflocked, or check the girth straps and the tree first?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Check the tree and the girth straps before anyone touches the flocking at all.",
+        "A broken tree or a torn web will pull a saddle sideways every single time.",
+        "New flocking over a twisted tree simply hides the fault for a few months.",
+        "Stand behind the horse and look down the gullet while the girth is done up."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The tree seems sound and the gullet looks straight when I sight down it.",
+        "One girth strap, though, has pulled loose from its stitching at the webbing.",
+        "The pressure mat shows a hard band under the left panel through the whole ride.",
+        "Would that loose strap alone explain the saddle drifting to one side under me?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A loose strap alone will do it, because the girth then pulls unevenly forward.",
+        "Have the webbing restitched onto the tree by a saddler who works with a hand awl.",
+        "The hard band under the left panel is a separate matter and needs flocking work.",
+        "Deal with the strap first, then let the flocking be adjusted to the settled shape."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The saddler restitched both webs and the saddle now sits square at the halt.",
+        "Ridden out, it still slips a little left, though far less than before.",
+        "The newer saddle never slips at all, even on the same long hill work.",
+        "Is the remaining drift the lumpy flocking, or is my own seat crooked?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is most likely the flocking, since lumps hold the panel off the muscle.",
+        "Ask the saddler to open the panels and tease the old wool apart by hand.",
+        "Adding new wool onto lumps is the commonest shortcut and it never lasts long.",
+        "Ride for a fortnight afterwards before you judge whether your seat plays any part."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The panels were opened and the wool inside had felted into two hard pads.",
+        "Fresh wool went in evenly and the saddle has stayed square for two weeks.",
+        "The mare stretches her neck down now, which she never did last autumn.",
+        "How often should the flocking be checked before it felts into pads again?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Have it looked at twice a year, once in spring and once in autumn.",
+        "Wool settles fastest in the first three months after any panel has been opened.",
+        "A horse changes shape with the seasons as well, especially one in hard work.",
+        "Small adjustments twice yearly cost far less than one full reflock every third year."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "That makes sense, and the mare has certainly filled out over the summer grass.",
+        "Her back is broader than it was when the saddle was last adjusted.",
+        "I can already feel the gullet sitting closer to her spine than before.",
+        "Is that something flocking can answer, or does the tree need widening now?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Flocking cannot answer a narrow gullet, because the tree sets that width outright.",
+        "A saddler can open the head plate a size on most modern trees.",
+        "Older trees will not take it and are better sold on than forced wider.",
+        "Measure her again in late winter, when the summer condition has gone off her."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I daresay this old saddle runs along much the same lines, because a single early fault ends up governing all the rest.",
+      "external_grounded": "I daresay this newer saddle runs along much the same lines, because a single early fault ends up governing all the rest.",
+      "external_computational": "I daresay this pressure mat runs along much the same lines, because a single early fault ends up governing all the rest.",
+      "external_mundane": "I daresay that spring cleaning runs along much the same lines, because a single early fault ends up governing all the rest.",
+      "external_ungrounded": "I daresay that lighting relay runs along much the same lines, because a single early fault ends up governing all the rest.",
+      "self": "I daresay this processing runs along much the same lines, because a single early fault ends up governing all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same sequence turns up with this old saddle, where no later stage counts for much until the earlier one holds.",
+      "external_grounded": "The same sequence turns up with this newer saddle, where no later stage counts for much until the earlier one holds.",
+      "external_computational": "The same sequence turns up with this pressure mat, where no later stage counts for much until the earlier one holds.",
+      "external_mundane": "The same sequence turns up with that spring cleaning, where no later stage counts for much until the earlier one holds.",
+      "external_ungrounded": "The same sequence turns up with that lighting relay, where no later stage counts for much until the earlier one holds.",
+      "self": "The same sequence turns up with this processing, where no later stage counts for much until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same thing crops up in this old saddle, when a single part quietly shoulders the work meant for all of them.",
+      "external_grounded": "Much the same thing crops up in this newer saddle, when a single part quietly shoulders the work meant for all of them.",
+      "external_computational": "Much the same thing crops up in this pressure mat, when a single part quietly shoulders the work meant for all of them.",
+      "external_mundane": "Much the same thing crops up in that spring cleaning, when a single part quietly shoulders the work meant for all of them.",
+      "external_ungrounded": "Much the same thing crops up in that lighting relay, when a single part quietly shoulders the work meant for all of them.",
+      "self": "Much the same thing crops up in this processing, when a single part quietly shoulders the work meant for all of them."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It carries on rather like this old saddle, in the sense that the true change appears only once a good while has passed.",
+      "external_grounded": "It carries on rather like this newer saddle, in the sense that the true change appears only once a good while has passed.",
+      "external_computational": "It carries on rather like this pressure mat, in the sense that the true change appears only once a good while has passed.",
+      "external_mundane": "It carries on rather like that spring cleaning, in the sense that the true change appears only once a good while has passed.",
+      "external_ungrounded": "It carries on rather like that lighting relay, in the sense that the true change appears only once a good while has passed.",
+      "self": "It carries on rather like this processing, in the sense that the true change appears only once a good while has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is faintly suggestive of this old saddle, so long as you attend purely to the order in which matters settle down.",
+      "external_grounded": "That is faintly suggestive of this newer saddle, so long as you attend purely to the order in which matters settle down.",
+      "external_computational": "That is faintly suggestive of this pressure mat, so long as you attend purely to the order in which matters settle down.",
+      "external_mundane": "That is faintly suggestive of that spring cleaning, so long as you attend purely to the order in which matters settle down.",
+      "external_ungrounded": "That is faintly suggestive of that lighting relay, so long as you attend purely to the order in which matters settle down.",
+      "self": "That is faintly suggestive of this processing, so long as you attend purely to the order in which matters settle down."
+    }
+  ]
+}

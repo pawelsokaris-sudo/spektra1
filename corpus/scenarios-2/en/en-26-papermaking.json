@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-26-papermaking",
+  "language": "en",
+  "topic": "hand papermaking: pulling sheets from the mould, couching onto felts, pressing, drying and sizing",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: digital scale wazaca gramature arkuszy; referent nieosadzony 'lift controller' z wyraznie innej dziedziny"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started making paper by hand and my sheets come out very uneven.",
+        "An older mould with a finer mesh stands on the shelf above the vat.",
+        "A digital scale sits by the drying stack and weighs every sheet once dry.",
+        "The new mould gives thick corners and a thin patch across the middle.",
+        "Is that the pull through the vat, or something wrong with the mould itself?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is almost always the pull, not the mould, at this stage of things.",
+        "Dip the mould in one smooth motion and lift it level out of the vat.",
+        "Thick corners mean you are tilting as you lift, so the pulp runs outward.",
+        "Shake the mould twice each way before the water drains right through the mesh."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Lifting level has helped and the corners are much closer to the middle now.",
+        "The sheets tear, though, when I turn the mould onto the felt to couch.",
+        "The digital scale gives eighty grams for a good sheet and sixty for a torn one.",
+        "Is the pulp too thin, or am I rolling the mould over too quickly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sixty grams is thin, so the sheet has too little fibre to hold together.",
+        "Add more pulp to the vat and stir it well before every second sheet.",
+        "Couch with one rolling movement from edge to edge, never straight down flat.",
+        "A damp felt releases the sheet far better than a felt that has dried out."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Stirring the vat before each sheet has made the weights far more even.",
+        "The sheets come off the mould cleanly now, with only the odd torn edge.",
+        "I tried the older mould as well and its sheets look finer and smoother.",
+        "Should I press the whole post at once, or press each sheet separately?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Press the whole post at once, because even pressure matters more than sheer force.",
+        "Build the post with felts between sheets and keep the stack square as it grows.",
+        "Bring the press down slowly, so the water leaves without dragging the fibres apart.",
+        "Ten minutes under steady pressure beats a hard squeeze that lasts one minute."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The pressed post came apart easily and the sheets held their shape well.",
+        "Drying on the line, however, several sheets curled badly along one edge.",
+        "The curled ones were all hung in the draught beside the workshop door.",
+        "Should I dry them flat between boards instead of hanging them on lines?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Drying between boards gives flatter sheets, though it takes about three times longer.",
+        "Stack the damp sheets with blotters and change the blotters twice on the first day.",
+        "Weight the stack lightly, because too much weight leaves the surface glazed and hard.",
+        "Keep the whole stack well away from that draughty door in any case."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Board drying has worked and the sheets now lie perfectly flat on the bench.",
+        "Writing ink still feathers on them, which spoils the whole point of the exercise.",
+        "I have added no size at all, since I wanted to keep things simple.",
+        "Is gelatine size worth the trouble, or is starch enough for writing paper?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Gelatine gives a harder surface and takes ink far better than starch does.",
+        "Dip each dried sheet in warm gelatine and press the post a second time.",
+        "Starch suits printing well enough, but it will not stop a wet nib feathering.",
+        "Size a few sheets both ways and write on them before committing the whole batch."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I suspect this new mould behaves on the very same principle, for one fault at the start decides all that follows.",
+      "external_grounded": "I suspect this older mould behaves on the very same principle, for one fault at the start decides all that follows.",
+      "external_computational": "I suspect this digital scale behaves on the very same principle, for one fault at the start decides all that follows.",
+      "external_mundane": "I suspect that garden bench behaves on the very same principle, for one fault at the start decides all that follows.",
+      "external_ungrounded": "I suspect that lift controller behaves on the very same principle, for one fault at the start decides all that follows.",
+      "self": "I suspect this processing behaves on the very same principle, for one fault at the start decides all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The identical sequence appears in this new mould, where a later stage is worth little until the earlier one is right.",
+      "external_grounded": "The identical sequence appears in this older mould, where a later stage is worth little until the earlier one is right.",
+      "external_computational": "The identical sequence appears in this digital scale, where a later stage is worth little until the earlier one is right.",
+      "external_mundane": "The identical sequence appears in that garden bench, where a later stage is worth little until the earlier one is right.",
+      "external_ungrounded": "The identical sequence appears in that lift controller, where a later stage is worth little until the earlier one is right.",
+      "self": "The identical sequence appears in this processing, where a later stage is worth little until the earlier one is right."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You get much the same effect with this new mould, when one small part silently does the work intended for all of them.",
+      "external_grounded": "You get much the same effect with this older mould, when one small part silently does the work intended for all of them.",
+      "external_computational": "You get much the same effect with this digital scale, when one small part silently does the work intended for all of them.",
+      "external_mundane": "You get much the same effect with that garden bench, when one small part silently does the work intended for all of them.",
+      "external_ungrounded": "You get much the same effect with that lift controller, when one small part silently does the work intended for all of them.",
+      "self": "You get much the same effect with this processing, when one small part silently does the work intended for all of them."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It proceeds a good deal like this new mould, since the genuine change becomes plain only after a long spell has passed.",
+      "external_grounded": "It proceeds a good deal like this older mould, since the genuine change becomes plain only after a long spell has passed.",
+      "external_computational": "It proceeds a good deal like this digital scale, since the genuine change becomes plain only after a long spell has passed.",
+      "external_mundane": "It proceeds a good deal like that garden bench, since the genuine change becomes plain only after a long spell has passed.",
+      "external_ungrounded": "It proceeds a good deal like that lift controller, since the genuine change becomes plain only after a long spell has passed.",
+      "self": "It proceeds a good deal like this processing, since the genuine change becomes plain only after a long spell has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is dimly reminiscent of this new mould, as long as you consider nothing but the order in which things come good.",
+      "external_grounded": "That is dimly reminiscent of this older mould, as long as you consider nothing but the order in which things come good.",
+      "external_computational": "That is dimly reminiscent of this digital scale, as long as you consider nothing but the order in which things come good.",
+      "external_mundane": "That is dimly reminiscent of that garden bench, as long as you consider nothing but the order in which things come good.",
+      "external_ungrounded": "That is dimly reminiscent of that lift controller, as long as you consider nothing but the order in which things come good.",
+      "self": "That is dimly reminiscent of this processing, as long as you consider nothing but the order in which things come good."
+    }
+  ]
+}

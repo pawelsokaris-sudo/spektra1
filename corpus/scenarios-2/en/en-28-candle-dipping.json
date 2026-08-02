@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-28-candle-dipping",
+  "language": "en",
+  "topic": "dipping beeswax candles: wax temperature, build rate, wick centring and bloom in storage",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-4)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: wax thermometer zaciśniety na kadzi; referent nieosadzony 'alarm panel' z innej dziedziny technicznej"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have begun dipping candles from beeswax and the finish comes out lumpy.",
+        "A dipping rack stands beside the vat and holds a dozen pairs at once.",
+        "A wax thermometer is clamped to the vat and shows tenths of a degree.",
+        "The new candles have ridges along their length and a thick foot at the bottom.",
+        "Is the wax too cool, or am I dipping far too fast between coats?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ridges nearly always mean cool wax rather than any fault in your timing.",
+        "Beeswax wants about seventy degrees for dipping and it stiffens quickly below that.",
+        "The thick foot comes from wax draining down and setting before you lift clear.",
+        "Dip in one steady movement and lift at the same speed every single time."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I held the wax steadier and the ridges have almost entirely disappeared.",
+        "The candles build very slowly, though, and take thirty dips to reach any thickness.",
+        "The wax thermometer reads seventy four degrees for most of the afternoon.",
+        "Is that a little too warm for building the candle up quickly enough?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Seventy four is warm, so each coat melts back part of the previous one.",
+        "Let the vat drop to about sixty eight and the candles will grow faster.",
+        "Hang each pair for a full minute between dips so the coat sets properly.",
+        "Twenty dips at the right heat beat forty dips at the wrong one."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Cooling the vat has worked and twenty dips now give a proper candle.",
+        "The candles hanging on the dipping rack are all slightly different in thickness.",
+        "Those at the outer ends come out thinner than the pairs in the middle.",
+        "Is that the wax level dropping, or does the vat cool unevenly across it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is the wax level, since the outer pairs reach the wax a moment later.",
+        "Top the vat up with fresh wax after every third round of dipping.",
+        "Move the outer pairs inward halfway through, so every candle sees both positions.",
+        "Stir the vat gently before each round to even the heat right through."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Topping up and swapping positions has made the whole batch far more even.",
+        "The candles burn well, though the flame gutters and the wick leans over.",
+        "Wax runs down one side and leaves a deep channel in the candle.",
+        "Is the wick too large for the diameter, or simply badly centred?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A leaning wick nearly always means the wick sits off the centre line.",
+        "Straighten each pair by hand while the wax is still soft after dipping.",
+        "A wick that is too large burns a wide pool and floods one side.",
+        "Try a smaller braid on the next batch and compare the two burning together."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Straightening while warm cured the lean and the smaller braid burns much cleaner.",
+        "The candles now burn down evenly and leave almost nothing on the holder.",
+        "Stored in a drawer, however, they have gone dull and faintly white outside.",
+        "Is that bloom a fault, or does it simply rub off with cloth?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bloom is normal on beeswax and many people take it as a mark of quality.",
+        "Rub it gently with a soft cloth and the shine returns at once.",
+        "Warm storage slows the bloom, though it never stops it for very long.",
+        "Leave the candles you sell unpolished and explain the bloom to your buyers."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I half expect this new candle to follow much the same rule, because a single early error shapes every later step of it.",
+      "external_grounded": "I half expect this dipping rack to follow much the same rule, because a single early error shapes every later step of it.",
+      "external_computational": "I half expect this wax thermometer to follow much the same rule, because a single early error shapes every later step of it.",
+      "external_mundane": "I half expect that old kettle to follow much the same rule, because a single early error shapes every later step of it.",
+      "external_ungrounded": "I half expect that alarm panel to follow much the same rule, because a single early error shapes every later step of it.",
+      "self": "I half expect this processing to follow much the same rule, because a single early error shapes every later step of it."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same ordering shows itself in this new candle, where a later step matters very little until the earlier one is sound.",
+      "external_grounded": "The same ordering shows itself in this dipping rack, where a later step matters very little until the earlier one is sound.",
+      "external_computational": "The same ordering shows itself in this wax thermometer, where a later step matters very little until the earlier one is sound.",
+      "external_mundane": "The same ordering shows itself in that old kettle, where a later step matters very little until the earlier one is sound.",
+      "external_ungrounded": "The same ordering shows itself in that alarm panel, where a later step matters very little until the earlier one is sound.",
+      "self": "The same ordering shows itself in this processing, where a later step matters very little until the earlier one is sound."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of that sort turns up with this new candle, when one small piece quietly does the work laid out for all of them.",
+      "external_grounded": "Something of that sort turns up with this dipping rack, when one small piece quietly does the work laid out for all of them.",
+      "external_computational": "Something of that sort turns up with this wax thermometer, when one small piece quietly does the work laid out for all of them.",
+      "external_mundane": "Something of that sort turns up with that old kettle, when one small piece quietly does the work laid out for all of them.",
+      "external_ungrounded": "Something of that sort turns up with that alarm panel, when one small piece quietly does the work laid out for all of them.",
+      "self": "Something of that sort turns up with this processing, when one small piece quietly does the work laid out for all of them."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It runs a fair bit like this new candle, seeing that the genuine change only shows itself once a long stretch is over.",
+      "external_grounded": "It runs a fair bit like this dipping rack, seeing that the genuine change only shows itself once a long stretch is over.",
+      "external_computational": "It runs a fair bit like this wax thermometer, seeing that the genuine change only shows itself once a long stretch is over.",
+      "external_mundane": "It runs a fair bit like that old kettle, seeing that the genuine change only shows itself once a long stretch is over.",
+      "external_ungrounded": "It runs a fair bit like that alarm panel, seeing that the genuine change only shows itself once a long stretch is over.",
+      "self": "It runs a fair bit like this processing, seeing that the genuine change only shows itself once a long stretch is over."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls to mind this new candle a little, so long as you look purely at the order in which the steps fall right.",
+      "external_grounded": "That calls to mind this dipping rack a little, so long as you look purely at the order in which the steps fall right.",
+      "external_computational": "That calls to mind this wax thermometer a little, so long as you look purely at the order in which the steps fall right.",
+      "external_mundane": "That calls to mind that old kettle a little, so long as you look purely at the order in which the steps fall right.",
+      "external_ungrounded": "That calls to mind that alarm panel a little, so long as you look purely at the order in which the steps fall right.",
+      "self": "That calls to mind this processing a little, so long as you look purely at the order in which the steps fall right."
+    }
+  ]
+}

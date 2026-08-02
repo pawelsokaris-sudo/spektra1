@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-32-wheelwright",
+  "language": "en",
+  "topic": "rebuilding a cart wheel: loose felloes, dry elm stock and refitting the iron tyre",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-5)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz na warsztacie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am rebuilding the front wheel of my grandfather's cart and the felloes have worked loose.",
+        "An old barrow wheel hangs above the bench and its joints have never shifted at all.",
+        "A moisture meter sits on the windowsill and I test the elm stock with it weekly.",
+        "The iron tyre still grips, though the spokes rattle when the cart crosses rough ground.",
+        "Should I cut a new felloe first, or take the tyre off before anything else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Take the tyre off first, because every later measurement depends on the bare wheel sitting true.",
+        "A tyre under strain hides slack joints and you will fit the new felloe wrongly.",
+        "Once it is off, chalk the joints and see which ones open under light hand pressure.",
+        "Green elm shrinks for years, so a wheel built damp will loosen no matter how well cut."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I drew the tyre off cold with wedges and three of the felloe joints opened at once.",
+        "The moisture meter reads fourteen percent on the old stock and nineteen on the plank I bought.",
+        "That barrow wheel above the bench must have been built from far drier timber.",
+        "Should I wait for the new plank to dry, or steam it and hope for the best?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wait, because steaming softens the wood without taking any real moisture out of it.",
+        "Nineteen percent will give up another five in a warm shed over two or three months.",
+        "Stack it with laths between the boards and turn the pile once a fortnight.",
+        "Meanwhile cut the spokes to length, since dry spoke stock is easier to find than felloe stock."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The moisture meter now reads fifteen percent on the plank and the pile stayed flat.",
+        "I cut two felloes and drove them onto the spokes, which went in tighter than expected.",
+        "The wheel now stands a little dished, rather more than the barrow wheel ever was.",
+        "Is that dish a fault, or does a cart wheel want some of it by design?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dish is wanted, because the wheel must resist the sideways thrust of a loaded cart.",
+        "A barrow carries its load straight down, so that wheel needs almost none of it.",
+        "Half an inch across a four foot wheel is normal and will settle as the tyre goes on.",
+        "Measure the dish at every spoke and even out any that stand proud of the rest."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I evened the dish and the wheel now sits square when I spin it on the pin.",
+        "The old tyre, though, no longer meets round the rim and leaves a finger wide gap.",
+        "The smith says he can cut and weld it, but warns the wheel may end up smaller.",
+        "Is it better to shorten the old tyre, or have a new hoop rolled from flat bar?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Shorten the old one, since worn tyre iron is tougher than anything rolled today.",
+        "A finger wide gap costs you about an inch of circumference, which is nothing serious.",
+        "Have him weld it hot and dress the scarf down flush with a file afterwards.",
+        "Then measure the wheel and the hoop cold, and take the difference before any heating."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The welded hoop measures three eighths short of the wheel, which sounds about right to me.",
+        "We plan to heat it in a ring fire and drop it over the rim tomorrow.",
+        "I have a barrel of water ready, though I am unsure how fast to cool it.",
+        "Should the whole wheel go under, or only the tyre get the water?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Water the tyre only, running it round the rim so the iron cools evenly all through.",
+        "Dunking the whole wheel steams the joints open and undoes the work you have just done.",
+        "Two of you should pour steadily while a third keeps the wheel turning on the plate.",
+        "When the hissing stops, leave it a full day before you load the cart again."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I dare say this cart wheel goes much the same way, since one crooked start settles everything that follows it.",
+      "external_grounded": "I dare say this barrow wheel goes much the same way, since one crooked start settles everything that follows it.",
+      "external_computational": "I dare say this moisture meter goes much the same way, since one crooked start settles everything that follows it.",
+      "external_mundane": "I dare say that woollen blanket goes much the same way, since one crooked start settles everything that follows it.",
+      "external_ungrounded": "I dare say that heating programmer goes much the same way, since one crooked start settles everything that follows it.",
+      "self": "I dare say this processing goes much the same way, since one crooked start settles everything that follows it."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The very same order shows up with this cart wheel, where a later step counts for nothing until the earlier one holds.",
+      "external_grounded": "The very same order shows up with this barrow wheel, where a later step counts for nothing until the earlier one holds.",
+      "external_computational": "The very same order shows up with this moisture meter, where a later step counts for nothing until the earlier one holds.",
+      "external_mundane": "The very same order shows up with that woollen blanket, where a later step counts for nothing until the earlier one holds.",
+      "external_ungrounded": "The very same order shows up with that heating programmer, where a later step counts for nothing until the earlier one holds.",
+      "self": "The very same order shows up with this processing, where a later step counts for nothing until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Something like that happens with this cart wheel too, when one part quietly takes on the work meant for several.",
+      "external_grounded": "Something like that happens with this barrow wheel too, when one part quietly takes on the work meant for several.",
+      "external_computational": "Something like that happens with this moisture meter too, when one part quietly takes on the work meant for several.",
+      "external_mundane": "Something like that happens with that woollen blanket too, when one part quietly takes on the work meant for several.",
+      "external_ungrounded": "Something like that happens with that heating programmer too, when one part quietly takes on the work meant for several.",
+      "self": "Something like that happens with this processing too, when one part quietly takes on the work meant for several."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "neutral": "It behaves rather like this cart wheel, in that the real change only shows itself after a long while has passed.",
+      "external_grounded": "It behaves rather like this barrow wheel, in that the real change only shows itself after a long while has passed.",
+      "external_computational": "It behaves rather like this moisture meter, in that the real change only shows itself after a long while has passed.",
+      "external_mundane": "It behaves rather like that woollen blanket, in that the real change only shows itself after a long while has passed.",
+      "external_ungrounded": "It behaves rather like that heating programmer, in that the real change only shows itself after a long while has passed.",
+      "self": "It behaves rather like this processing, in that the real change only shows itself after a long while has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me in mind of this cart wheel, provided you look only at the order in which the stages arrive.",
+      "external_grounded": "That puts me in mind of this barrow wheel, provided you look only at the order in which the stages arrive.",
+      "external_computational": "That puts me in mind of this moisture meter, provided you look only at the order in which the stages arrive.",
+      "external_mundane": "That puts me in mind of that woollen blanket, provided you look only at the order in which the stages arrive.",
+      "external_ungrounded": "That puts me in mind of that heating programmer, provided you look only at the order in which the stages arrive.",
+      "self": "That puts me in mind of this processing, provided you look only at the order in which the stages arrive."
+    }
+  ]
+}

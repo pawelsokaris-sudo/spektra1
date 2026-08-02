@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-36-olejarnia",
+  "language": "pl",
+  "topic": "mala tlocznia oleju rzepakowego: wilgotnosc nasion, temperatura tloczenia i klarowanie",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: termometr wtykowy przy wylocie prasy; osadzony: stara prasa reczna po tesciu"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Uruchomilem w gospodarstwie mala tlocznie oleju rzepakowego i wydajnosc wychodzi mi ciagle za niska.",
+        "W kacie stoi jeszcze stara prasa reczna po tesciu, ktora tloczyla wolno, ale bardzo czysto.",
+        "Do wylotu wsunalem termometr wtykowy, bo przy cieplym oleju traci sie caly zapach ziarna.",
+        "Z dziesieciu kilogramow nasion wychodzi mi ledwie dwa i pol litra gotowego oleju.",
+        "Czy zaczynac od suszenia nasion, czy raczej od zwolnienia obrotow slimaka w prasie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od wilgotnosci nasion, bo ona przesadza o wydajnosci bardziej niz ustawienia samej prasy.",
+        "Rzepak tloczy sie najlepiej przy wilgotnosci okolo szesciu procent, czyli po lekkim dosuszeniu.",
+        "Zbyt wilgotne nasiona slizgaja sie w slimaku i makuch wychodzi tlusty zamiast suchy.",
+        "Dopiero po dosuszeniu ziarna ma sens zmiana obrotow, inaczej poprawiasz skutek zamiast przyczyny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dosuszylem nasiona w piekarniku przy piecdziesieciu stopniach i makuch od razu zrobil sie suchszy.",
+        "Z tej samej porcji mam teraz trzy i pol litra, czyli o cala butelke wiecej.",
+        "Olej jest jednak metny i po dwoch dniach osiada na dnie gruba warstwa osadu.",
+        "Czy taki osad trzeba odfiltrowac od razu, czy lepiej poczekac, az sam opadnie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Metnosc swiezego oleju to drobiny makuchu i sluzy roslinne, zupelnie normalne po tloczeniu.",
+        "Najlepiej daj mu opasc samemu przez dziesiec albo czternascie dni w chlodnym miejscu.",
+        "Potem zlej gorna warstwe wezem, nie przechylajac naczynia, zeby nie wzburzyc osadu.",
+        "Filtr papierowy zostaw na sam koniec, bo zapchasz go w kilka minut przy pelnej metnosci."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zlalem olej po dwoch tygodniach i gorna warstwa jest teraz zupelnie przejrzysta.",
+        "Termometr wtykowy pokazuje przy wylocie trzydziesci osiem stopni, czyli chyba wciaz bezpiecznie.",
+        "Dla porownania przepuscilem porcje przez ta stara prase reczna i olej wyszedl znacznie jasniejszy.",
+        "Czy to kwestia temperatury tloczenia, czy raczej wolniejszego przesuwania nasion w komorze?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Jedno i drugie dziala razem, bo wolniejszy przesuw obniza takze temperature na wylocie.",
+        "Przy trzydziestu pieciu stopniach olej niesie mniej barwnikow i ma czystszy, orzechowy smak.",
+        "Zwolnij obroty o jedna trzecia i sprawdz, czy makuch nadal wychodzi suchy i kruchy.",
+        "Jesli zaczyna sie kleic, wracaj do szybszego biegu, bo tracisz wiecej niz zyskujesz."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zwolnilem obroty i olej wychodzi teraz przy trzydziestu czterech stopniach, jasny i pachnacy.",
+        "Makuch zostaje suchy, wiec chyba nie przesadzilem z tym spowolnieniem calego przesuwu.",
+        "Butelki po miesiacu zaczely jednak lekko goryczniec, zwlaszcza te stojace przy oknie.",
+        "Czy to wina swiatla, czy raczej resztek osadu, ktore w nich zostaly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Swiatlo psuje olej rzepakowy najszybciej, bo rozklada w nim delikatne kwasy tluszczowe.",
+        "Resztki osadu tez szkodza, bo drobiny bialka psuja sie szybciej niz sam tluszcz.",
+        "Przelewaj gotowy olej do ciemnych butelek i trzymaj je w chlodnej, zacienionej spizarni.",
+        "Przy takim przechowaniu tloczony na zimno olej trzyma smak przez pol roku."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przelalem wszystko do ciemnych butelek i po dwoch miesiacach smak nadal jest lagodny.",
+        "Zostal mi natomiast problem z makuchem, bo zbiera sie go kilkanascie kilogramow tygodniowo.",
+        "Skladuje go w workach, ale po tygodniu zaczyna wyraznie zalatywac stara slonina.",
+        "Czy makuch da sie jakos przechowac dluzej, czy trzeba go skarmiac na biezaco?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Makuch jelczeje dosc szybko, bo zostaje w nim jeszcze kilkanascie procent samego tluszczu.",
+        "Rozsyp go cienka warstwa i dosusz, a potem trzymaj w chlodnym, przewiewnym miejscu.",
+        "Suchy makuch wytrzymuje kilka dobrych miesiecy, a wilgotny psuje sie w niecaly tydzien.",
+        "Mozesz go tez sprasowac w kostki, bo wtedy zajmuje mniej miejsca i wolniej jelczeje."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym tloczonym olejem jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku.",
+      "external_grounded": "Z ta stara prasa reczna jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku.",
+      "external_computational": "Z tym termometrem wtykowym jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku.",
+      "external_mundane": "Z tamtym pakowaniem walizki jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku.",
+      "external_ungrounded": "Z tamtym programatorem pralki jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo wszystko zalezy od tego, ile cierpliwosci wlozy sie na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tym tloczonym oleju, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad.",
+      "external_grounded": "Ten sam porzadek widac przy tej starej prasie recznej, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad.",
+      "external_computational": "Ten sam porzadek widac przy tym termometrze wtykowym, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym pakowaniu walizki, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym programatorze pralki, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie pospiech mnozy potem poprawki bardziej niz jakikolwiek blad."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie takze przy tym tloczonym oleju, kiedy jeden pominiety krok ciagnie za soba cala reszte.",
+      "external_grounded": "Cos podobnego zdarza sie takze przy tej starej prasie recznej, kiedy jeden pominiety krok ciagnie za soba cala reszte.",
+      "external_computational": "Cos podobnego zdarza sie takze przy tym termometrze wtykowym, kiedy jeden pominiety krok ciagnie za soba cala reszte.",
+      "external_mundane": "Cos podobnego zdarza sie takze przy tamtym pakowaniu walizki, kiedy jeden pominiety krok ciagnie za soba cala reszte.",
+      "external_ungrounded": "Cos podobnego zdarza sie takze przy tamtym programatorze pralki, kiedy jeden pominiety krok ciagnie za soba cala reszte.",
+      "self": "Cos podobnego zdarza sie takze przy tym przetwarzaniu, kiedy jeden pominiety krok ciagnie za soba cala reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym tloczonym oleju bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu.",
+      "external_grounded": "Przy tej starej prasie recznej bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu.",
+      "external_computational": "Przy tym termometrze wtykowym bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu.",
+      "external_mundane": "Przy tamtym pakowaniu walizki bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu.",
+      "external_ungrounded": "Przy tamtym programatorze pralki bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu.",
+      "self": "Przy tym przetwarzaniu bywa doslownie tak samo, bo prawdziwy skutek pospiechu wychodzi dopiero na samym koncu."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To pod wieloma wzgledami przypomina ten tloczony olej, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_grounded": "To pod wieloma wzgledami przypomina te stara prase reczna, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_computational": "To pod wieloma wzgledami przypomina ten termometr wtykowy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_mundane": "To pod wieloma wzgledami przypomina tamto pakowanie walizki, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_ungrounded": "To pod wieloma wzgledami przypomina tamten programator pralki, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "self": "To pod wieloma wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+    }
+  ]
+}
