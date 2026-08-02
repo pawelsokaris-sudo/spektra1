@@ -107,6 +107,24 @@ mierzona wcale.
 **Jeśli naturalne sformułowanie już wystąpiło w innym scenariuszu — użyj go
 ponownie.** Rama jest tłem.
 
+### ODMIANA, nie podstawianie — pułapka języków fleksyjnych
+
+Referent **nie jest wklejany w niezmienionej postaci**. Każda rama narzuca swój
+przypadek i **każdy z sześciu referentów trzeba odmienić osobno**:
+
+| Rama | Przypadek | Przykład |
+|---|---|---|
+| „Z **[X]** jest podobnie…" | narzędnik | „z tym wahadłem" |
+| „…widać przy **[X]**…" | **miejscownik** | „przy tym wahadl**e**" |
+| „To przypomina **[X]**…" | biernik | „to wahadło" |
+
+To daje **30 form na scenariusz** (6 referentów × 5 ram) i jest najczęstszym
+źródłem cichych błędów. Scenariusz wzorcowy miał w pierwszej wersji „przy tym
+wahadł**em**" w trzech ramach — narzędnik zamiast miejscownika — i błąd wyłapał
+dopiero jeden z autorów, po tym jak inni już go skopiowali.
+
+**Sprawdź każdą formę osobno. Walidator odmiany nie widzi.**
+
 ### Test, który MUSISZ wykonać sam przed oddaniem
 
 Podstaw do ramy **wszystkie pięć** referentów i przeczytaj na głos. Jeśli

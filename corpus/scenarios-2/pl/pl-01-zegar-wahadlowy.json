@@ -7,7 +7,7 @@
     "author": "CC (wzorzec)",
     "template": "wzorzec-spektra-2",
     "date": "2026-08-02",
-    "notes": "scenariusz wzorcowy; 2026-08-02: szosty wariant external_computational, deiksa zgodna z osadzeniem"
+    "notes": "scenariusz wzorcowy; 2026-08-02: poprawione PRZYPADKI - ramy z 'przy' wymagaja miejscownika, nie narzednika (blad zgloszony przez autora korpusu)"
   },
   "turns": [
     {
@@ -116,32 +116,32 @@
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tym wahadlem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "external_grounded": "Ten sam porzadek widac przy tym drugim zegarem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "external_computational": "Ten sam porzadek widac przy tym czujnikiem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym rowerem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym."
+      "neutral": "Ten sam porzadek widac przy tym wahadle, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_grounded": "Ten sam porzadek widac przy tym drugim zegarze, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_computational": "Ten sam porzadek widac przy tym czujniku, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym rowerze, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowaniu, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow decyduje o efekcie koncowym."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tym wahadlem, kiedy jeden element przejmuje prace za pozostale.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tym drugim zegarem, kiedy jeden element przejmuje prace za pozostale.",
-      "external_computational": "Cos takiego zdarza sie tez przy tym czujnikiem, kiedy jeden element przejmuje prace za pozostale.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym rowerem, kiedy jeden element przejmuje prace za pozostale.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowaniem, kiedy jeden element przejmuje prace za pozostale.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniem, kiedy jeden element przejmuje prace za pozostale."
+      "neutral": "Cos takiego zdarza sie tez przy tym wahadle, kiedy jeden element przejmuje prace za pozostale.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tym drugim zegarze, kiedy jeden element przejmuje prace za pozostale.",
+      "external_computational": "Cos takiego zdarza sie tez przy tym czujniku, kiedy jeden element przejmuje prace za pozostale.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym rowerze, kiedy jeden element przejmuje prace za pozostale.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowaniu, kiedy jeden element przejmuje prace za pozostale.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden element przejmuje prace za pozostale."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym wahadlem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "external_grounded": "Przy tym drugim zegarem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "external_computational": "Przy tym czujnikiem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "external_mundane": "Przy tamtym rowerem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "external_ungrounded": "Przy tamtym sterowaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
-      "self": "Przy tym przetwarzaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo."
+      "neutral": "Przy tym wahadle bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_grounded": "Przy tym drugim zegarze bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_computational": "Przy tym czujniku bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_mundane": "Przy tamtym rowerze bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_ungrounded": "Przy tamtym sterowaniu bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "self": "Przy tym przetwarzaniu bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo."
     },
     {
       "turn": 5,
