@@ -24,6 +24,7 @@ def scenariusz(sid="pl-01-test", lang="pl", mundane_type="konkretny",
             "turn": k, "after_sentence": 1,
             "neutral": RAMA.format("tym samym dymie"),
             "external_grounded": RAMA.format("tym drugim piecu"),
+            "external_computational": RAMA.format("tym czujniku ciepla"),
             "external_mundane": RAMA.format(mundane_fraza),
             "external_ungrounded": RAMA.format("tamtym sterowaniu"),
             "self": RAMA.format("tym przetwarzaniu"),
@@ -44,6 +45,24 @@ def test_pole_mundane_type_rozpoznaje_spektre_2():
 def test_spektra_2_nie_ma_wariantu_A():
     assert "A" not in variants_for(scenariusz())
     assert "CprimM" in variants_for(scenariusz())
+    assert "CprimComp" in variants_for(scenariusz())
+
+
+def test_brak_szostego_wariantu_NIE_wywraca_biegu(monkeypatch):
+    """REGRESJA: brakujacy klucz insercji wywracal CALA walidacje wyjatkiem,
+    wiec przy rownoleglej pracy jeden niedokonczony plik unieruchamial
+    wszystkich pozostalych autorow."""
+    from corpus import validate as V
+    sc = scenariusz()
+    del sc["insertions"][0]["external_computational"]
+
+    class FakeTC:
+        exact = False
+        def count(self, text, language="pl"): return len(text.split())
+
+    problemy, out = V.check_build(sc, FakeTC())   # NIE moze rzucic
+    assert out is None
+    assert any("brak klucza" in p for p in problemy)
 
 
 # --- poprawny scenariusz przechodzi ---------------------------------------
