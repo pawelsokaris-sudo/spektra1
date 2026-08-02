@@ -1,0 +1,37 @@
+# Licencja korpusu, dokumentacji i danych pomiarowych
+
+Copyright (C) 2026 Paweł (Sokaris / ActProof)
+
+Materiały nieprogramistyczne w tym repozytorium — **korpus scenariuszy**
+(`corpus/scenarios/`), **dokumentacja** (`docs/`, `seal/`, `ops/`,
+`exploratory/`) oraz **dane pomiarowe** (`measurements/`,
+`measurements-glowny/`) — są udostępnione na licencji:
+
+**Creative Commons Uznanie autorstwa – Na tych samych warunkach 4.0
+Międzynarodowe (CC BY-SA 4.0)**
+
+Pełny tekst: https://creativecommons.org/licenses/by-sa/4.0/legalcode.pl
+Skrót: https://creativecommons.org/licenses/by-sa/4.0/deed.pl
+
+## Co to znaczy w praktyce
+
+**Wolno**, także zarobkowo: kopiować, rozpowszechniać, cytować, przerabiać,
+budować na tym własne korpusy i analizy.
+
+**Pod dwoma warunkami:**
+1. **Uznanie autorstwa** — podaj źródło i zaznacz, czy wprowadzono zmiany.
+2. **Na tych samych warunkach** — jeśli rozpowszechniasz przeróbkę, robisz to
+   na tej samej licencji.
+
+**Powtórzenie badania nie wymaga niczego.** Pobranie danych, przeliczenie ich
+i sprawdzenie naszych wyników nie jest rozpowszechnianiem przeróbki i nie
+uruchamia żadnego obowiązku.
+
+## Czego ta licencja NIE obejmuje
+
+- **Kod** (`pipeline/`, `corpus/*.py`, `gates/`, `power/`, `nulls/`, `tests/`)
+  — osobno, na **AGPL-3.0**, patrz `LICENSE`.
+- **Wagi modelu Gemma 3** — własność Google, podlegają licencji Google.
+  W tym repozytorium ich nie ma i nie możemy ich udostępnić; publikujemy
+  wyłącznie ich sumy kontrolne w `config.yaml`.
+- **Pliki tokenizera** — z tego samego powodu wyłączone z repozytorium.

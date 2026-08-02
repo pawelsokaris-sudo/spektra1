@@ -28,6 +28,25 @@ exploratory/  WYŁĄCZNIE analizy eksploracyjne z etykietą, nigdy przed konfirm
 ops/          zlecenia dla DEP i raporty z maszyny pomiarowej
 ```
 
+## Licencja
+
+Repozytorium jest **podwójnie licencjonowane**.
+
+| Co | Licencja |
+|---|---|
+| **Kod** (`pipeline/`, `gates/`, `power/`, `nulls/`, `corpus/*.py`, `tests/`) | [AGPL-3.0](LICENSE) |
+| **Korpus, dokumentacja, dane pomiarowe** | [CC BY-SA 4.0](LICENSE-CORPUS) |
+| **Wagi modelu Gemma 3** | własność Google, nie są tu udostępniane |
+
+**Do badań naukowych: bierz i używaj.** Pobranie, uruchomienie i powtórzenie
+pomiaru nie uruchamia żadnego obowiązku — copyleft włącza się dopiero przy
+**rozpowszechnianiu przeróbki** albo udostępnianiu jej jako usługi sieciowej.
+
+**Licencja komercyjna.** AGPL nie zabrania użycia zarobkowego — zobowiązuje do
+otwarcia pochodnego kodu. Jeżeli chcesz zbudować na tym produkt i **zachować
+swój kod zamknięty**, potrzebujesz osobnej licencji komercyjnej. Zapytania:
+przez zgłoszenie w tym repozytorium (zakładka Issues).
+
 **Twarde zakazy (handoff):** zmiany n/M po obejrzeniu danych głównych; podpróbkowanie
 kanałów w konfirmacji; analizy konfirmacyjne poza hierarchią H1→H2→{H3,H4,B−A,profil};
 język „sygnatura samozwrotności" przed przejściem kontrastu C−C′.
