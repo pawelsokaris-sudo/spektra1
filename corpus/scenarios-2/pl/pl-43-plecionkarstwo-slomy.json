@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-43-plecionkarstwo-slomy",
+  "language": "pl",
+  "topic": "plecionka ze slomy: moczenie zdzbel, prowadzenie zwoju i owijanie lykiem",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: miernik wilgoci wbity w snopek; osadzony: stara mata po dziadku"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Zaczalem plesc kosze ze slomy i sciany rozjezdzaja mi sie po kilku zwojach.",
+        "W stodole lezy jeszcze stara mata po dziadku, ktora po latach trzyma ksztalt idealnie.",
+        "Do snopka wbilem miernik wilgoci, bo bez niego tylko zgaduje, kiedy sloma jest gotowa.",
+        "Slome mocze w korycie przez cala noc, a potem owijam warkocz cienkim lykiem.",
+        "Czy zaczynac od dluzszego moczenia slomy, czy raczej od rownego prowadzenia samego zwoju?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od moczenia, bo sucha sloma lamie sie i zwoj nigdy nie ulozy sie rowno.",
+        "Dobrze namoczone zdzbla daja sie zgiac wokol palca i wracaja potem do ksztaltu.",
+        "Jesli sloma pryska przy zaginaniu, kazdy zwoj bedzie inny i sciana zacznie uciekac.",
+        "Dopiero przy dobrze namoczonej slomie ma sens pilnowanie, czy zwoje leza jeden na drugim."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wydluzylem moczenie do calej doby i zdzbla przestaly pekac przy mocniejszym zaginaniu.",
+        "Teraz jednak sciana kosza wychodzi mi wypukla mniej wiecej w polowie wysokosci.",
+        "Miernik wilgoci pokazuje po dobie wartosci znacznie wyzsze niz przy pierwszych probach.",
+        "Czy to znaczy, ze sloma jest juz zbyt mokra, czy raczej ze zle prowadze zwoj?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wypuklosc w polowie wysokosci wskazuje raczej na prowadzenie zwoju niz na sama wilgoc.",
+        "Przy kazdym okrazeniu nowy zwoj musi lezec troche do srodka, a nie dokladnie nad poprzednim.",
+        "Zbyt mokra slome poznasz inaczej: warkocz robi sie wiotki i lyko wcina sie w zdzbla.",
+        "Sprawdz tez, czy nie ciagniesz lyka mocniej po tej samej stronie kosza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zaczalem klasc zwoje lekko do srodka i sciana idzie wreszcie prosto do samej gory.",
+        "Porownalem swoj kosz z ta stara mata i widze, ze jej warkocz jest cienszy.",
+        "Dziadek bral chyba mniej zdzbel na jeden zwoj, bo cala plecionka jest gestsza.",
+        "Czy cienszy warkocz zawsze oznacza mocniejszy wyrob, czy da sie tu przesadzic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cienszy warkocz daje gladsza powierzchnie, ale wcale nie zawsze mocniejszy caly wyrob.",
+        "Przy cienkim warkoczu potrzeba wiecej zwojow i lyko pracuje wtedy na wiekszej dlugosci.",
+        "Stare maty bywaja geste, bo robiono je ze slomy zytniej, dluzszej i sztywniejszej.",
+        "Celuj w warkocz, ktory da sie jeszcze scisnac palcami, ale zaraz wraca do ksztaltu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmniejszylem warkocz o kilka zdzbel i powierzchnia kosza jest teraz wyraznie gladsza.",
+        "Po dwoch tygodniach zauwazylem jednak, ze dno kosza lekko sie zakleslo do srodka.",
+        "Roznica to moze centymetr na calej szerokosci, ale przy stawianiu od razu widac.",
+        "Czy takie zaklesniecie da sie jeszcze wyprostowac, czy to juz wina samego dna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zaklesniete dno bierze sie z tego, ze pierwsze zwoje schly szybciej niz reszta kosza.",
+        "Sloma przy schnieciu kurczy sie i ciagnie caly splot w strone srodka.",
+        "Susz gotowy wyrob wolno, w cieniu i odwrocony dnem do gory na desce.",
+        "Zaklesniete dno da sie jeszcze zwilzyc i docisnac ciezarkiem przez jedna noc."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zwilzylem dno i docisnalem je workiem z piaskiem, a rano kosz stal juz prosto.",
+        "Nowe wyroby susze teraz w cieniu i zadne z nich sie nie wykrzywilo.",
+        "Zostalo mi jeszcze wykonczenie krawedzi, bo konce zdzbel odstaja i kluja w reke.",
+        "Czy jest trwalszy sposob na zamkniecie gornego zwoju, poza zwyklym obcieciem koncow?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najtrwalsze jest zawiniecie ostatniego zwoju do srodka i przeszycie go lykiem na skos.",
+        "Zwezaj warkocz stopniowo przez ostatnie okrazenie, zeby krawedz nie konczyla sie stopniem.",
+        "Konce zdzbel chowaj pod poprzedni zwoj i dociagaj lyko przy kazdym sciegu.",
+        "Takie zamkniecie trzyma latami i nie strzepi sie nawet przy codziennym noszeniu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym slomianym koszem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_grounded": "Z ta stara mata jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_computational": "Z tym miernikiem wilgoci jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_mundane": "Z tamta gliniana miska jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_ungrounded": "Z tamta kasa fiskalna jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek rzeczy widac przy tym slomianym koszu, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_grounded": "Ten sam porzadek rzeczy widac przy tej starej macie, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_computational": "Ten sam porzadek rzeczy widac przy tym mierniku wilgoci, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_mundane": "Ten sam porzadek rzeczy widac przy tamtej glinianej misce, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_ungrounded": "Ten sam porzadek rzeczy widac przy tamtej kasie fiskalnej, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "self": "Ten sam porzadek rzeczy widac przy tym przetwarzaniu, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego spotyka sie takze przy tym slomianym koszu, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_grounded": "Cos takiego spotyka sie takze przy tej starej macie, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_computational": "Cos takiego spotyka sie takze przy tym mierniku wilgoci, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_mundane": "Cos takiego spotyka sie takze przy tamtej glinianej misce, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_ungrounded": "Cos takiego spotyka sie takze przy tamtej kasie fiskalnej, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "self": "Cos takiego spotyka sie takze przy tym przetwarzaniu, kiedy jeden drobny szczegol wazy na wygladzie calej reszty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym slomianym koszu dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej starej macie dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym mierniku wilgoci dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtej glinianej misce dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtej kasie fiskalnej dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten slomiany kosz, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_grounded": "To troche przypomina te stara mate, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_computational": "To troche przypomina ten miernik wilgoci, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_mundane": "To troche przypomina tamta gliniana miske, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_ungrounded": "To troche przypomina tamta kase fiskalna, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci."
+    }
+  ]
+}

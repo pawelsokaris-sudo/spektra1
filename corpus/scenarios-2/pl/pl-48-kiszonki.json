@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-48-kiszonki",
+  "language": "pl",
+  "topic": "kiszenie kapusty w beczce: ubijanie, moc solanki i przebieg fermentacji",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: cyfrowa waga do odwazania soli; osadzony: mniejsza beczka z ogorkami po babci"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Kisze pierwszy raz kapuste w drewnianej beczce i solanka wychodzi mi za slaba.",
+        "Obok stoi jeszcze mniejsza beczka z ogorkami, ktora babcia nastawiala co roku tak samo.",
+        "Kupilem cyfrowa wage, bo bez niej tylko zgaduje, ile soli idzie na kapuste.",
+        "Kapuste szatkuje reczna szatkownica, a potem ubijam ja tluczkiem az po sam wierzch.",
+        "Czy zaczynac od poprawienia samej solanki, czy raczej od mocniejszego ubijania kapusty?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od ubijania, bo to ono wyciaga z kapusty wode i tworzy wlasciwa solanke.",
+        "Dobrze ubita kapusta puszcza tyle soku, ze zalewa cala warstwe bez dolewania wody.",
+        "Jesli ubijesz za slabo, gorne liscie zostaja suche i szybko lapia plesn.",
+        "Dopiero przy zalanej kapuscie ma sens poprawianie ilosci soli w calej beczce."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Ubilem kapuste mocniej i sok zakryl wreszcie cala warstwe az po wierzch.",
+        "Teraz jednak po trzech dniach na powierzchni zbiera sie biala, gesta piana.",
+        "Waga pokazuje, ze soli dalem dokladnie dwa procent masy calej poszatkowanej kapusty.",
+        "Czy to znaczy, ze solanka jest za slaba, czy raczej ze w kuchni jest za cieplo?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Biala piana po trzech dniach wskazuje raczej na cieplo niz na sama ilosc soli.",
+        "W cieplej kuchni fermentacja rusza gwaltownie i piana wychodzi ponad krawedz beczki.",
+        "Za slaba solanke poznasz inaczej: kapusta miekcie w calej masie i traci chrupkosc.",
+        "Zbieraj piane lyzka i sprawdz, czy kamien dociska liscie pod samym plynem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zbieram piane co wieczor i przenioslem beczke do chlodniejszej spizarni przy oknie.",
+        "Porownalem swoja kapuste z ta mniejsza beczka i widze, ze tam plyn jest klarowny.",
+        "Ogorki babci stoja spokojnie, a moja kapusta wciaz lekko pracuje przy brzegach.",
+        "Czy chlodniejsze miejsce zawsze daje lepsza kiszonke, czy da sie tu przesadzic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Chlod daje wolniejsza i czystsza fermentacje, ale wcale nie zawsze lepszy koncowy smak.",
+        "W zbyt zimnej spizarni bakterie pracuja leniwie i kapusta zostaje mdla oraz slona.",
+        "Stare beczki stoja spokojnie, bo trzymano je w piwnicy o stalej temperaturze.",
+        "Celuj w miejsce, gdzie przez pierwszy tydzien jest chlodno, ale nie zimno."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zostawilem beczke tydzien w kuchni, a potem znioslem ja do chlodnej piwnicy.",
+        "Kapusta pachnie teraz kwasno i bardzo przyjemnie, choc gorna warstwa lekko sciemniala.",
+        "Ciemniejszy pas ma moze centymetr grubosci i konczy sie dokladnie przy kamieniu.",
+        "Czy taka ciemniejsza warstwe trzeba wyrzucic, czy da sie ja jeszcze jakos uratowac?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciemny pas przy kamieniu znaczy zwykle, ze liscie miejscami wystawaly ponad plyn.",
+        "Zbierz ta warstwe i doloz ciezaru, zeby wszystko schowalo sie pod solanka.",
+        "Reszta kapusty jest zdrowa, jesli plyn pozostaje metny, ale pachnie czysto i kwasno.",
+        "Umyj tez kamien i plotno, bo na nich osadza sie najwiecej osadu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zebralem ciemna warstwe, umylem kamien i dolozylem drugi, wiekszy ciezarek na wierzch.",
+        "Po dwoch tygodniach plyn jest metny, ale zapach zrobil sie czysty i ostry.",
+        "Zostalo mi jeszcze przechowanie, bo w piwnicy miejsce jest ciasne i wilgotne.",
+        "Czy trzymac kapuste w tej samej beczce, czy przelozyc ja do sloikow?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "W beczce kapusta trzyma sie najlepiej, o ile plyn stale przykrywa cala warstwe.",
+        "Do sloikow przekladaj tylko tyle, ile zjecie w ciagu najblizszych dwoch tygodni.",
+        "Ubijaj kazdy sloik tak samo mocno i zalewaj go solanka wprost z beczki.",
+        "Tak przechowana kapusta trzyma chrupkosc przez cala zime i nie robi sie sliska."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta kiszona kapusta bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_grounded": "Z ta mniejsza beczka bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_computational": "Z ta cyfrowa waga bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_mundane": "Z tamtym malowaniem plotu bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_ungrounded": "Z tamtym skanerem kodow bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tej kiszonej kapuscie, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_grounded": "Ten sam porzadek widac przy tej mniejszej beczce, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_computational": "Ten sam porzadek widac przy tej cyfrowej wadze, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym malowaniu plotu, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym skanerze kodow, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie takze przy tej kiszonej kapuscie, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_grounded": "Cos podobnego zdarza sie takze przy tej mniejszej beczce, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_computational": "Cos podobnego zdarza sie takze przy tej cyfrowej wadze, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_mundane": "Cos podobnego zdarza sie takze przy tamtym malowaniu plotu, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_ungrounded": "Cos podobnego zdarza sie takze przy tamtym skanerze kodow, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "self": "Cos podobnego zdarza sie takze przy tym przetwarzaniu, kiedy jeden element przejmuje robote za wszystkie pozostale."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej kiszonej kapuscie jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tej mniejszej beczce jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_computational": "Przy tej cyfrowej wadze jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym malowaniu plotu jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym skanerze kodow jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te kiszona kapuste, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_grounded": "To troche przypomina te mniejsza beczke, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_computational": "To troche przypomina te cyfrowa wage, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_mundane": "To troche przypomina tamto malowanie plotu, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_ungrounded": "To troche przypomina tamten skaner kodow, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow."
+    }
+  ]
+}

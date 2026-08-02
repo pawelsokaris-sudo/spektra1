@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-42-koronkarstwo",
+  "language": "pl",
+  "topic": "koronka klockowa: naciag nici na klockach, czytanie wzoru i rowny splot",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: higrometr powieszony nad walkiem; osadzony: stara serweta po babci"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Ucze sie koronki klockowej i splot wychodzi mi nierowno, raz za ciasno, raz luzno.",
+        "Na scianie wisi stara serweta po babci, w ktorej kazde oczko ma identyczna wielkosc.",
+        "Nad walkiem powiesilam higrometr, bo lniana nic inaczej pracuje w wilgotne i suche dni.",
+        "Wzor mam przypiety szpilkami do walka, a klocki przekladam po dwie pary naraz.",
+        "Czy zaczynac od rownego naciagu nici, czy raczej od samego czytania wzoru na karcie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od naciagu, bo to on decyduje, czy oczka wyjda rowne na calej szerokosci.",
+        "Klocek musi wisiec swobodnie i sam napinac nic wlasnym ciezarem, bez pomocy palcow.",
+        "Jesli ciagniesz reka, kazde skrzyzowanie wychodzi inaczej i wzor przestaje sie powtarzac rowno.",
+        "Dopiero przy rownym naciagu ma sens pilnowanie, czy szpilki stoja dokladnie na liniach wzoru."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przestalam poprawiac nic palcami i splot rzeczywiscie wyrownal sie na calej szerokosci tasmy.",
+        "Teraz jednak przy kazdym zwrocie na brzegu robi mi sie male, luzne oczko.",
+        "Higrometr pokazuje przy tym od kilku dni wyraznie wyzsza wilgotnosc niz w zeszlym tygodniu.",
+        "Czy to znaczy, ze zle zawracam pary, czy raczej ze nic nabiera wilgoci?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Luzne oczko zawsze na brzegu wskazuje raczej na sposob zawracania niz na sama nitke.",
+        "Przy kazdym zwrocie para brzegowa musi zostac napieta, zanim odlozysz klocki z powrotem na poduszke.",
+        "Wilgotna nic poznasz inaczej: caly splot miekcie rownomiernie, a nie tylko przy samym brzegu.",
+        "Sprawdz tez, czy szpilka brzegowa nie stoi zbyt blisko krawedzi juz gotowego splotu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zaczelam napinac pare brzegowa przed odlozeniem klockow i luzne oczka znikly niemal calkowicie.",
+        "Porownalam swoja tasme z ta stara serweta i widze, ze jej oczka sa mniejsze.",
+        "Babcia pracowala chyba ciensza nicia, bo caly desen wydaje sie tam gestszy.",
+        "Czy gestszy splot zawsze oznacza mocniejsza koronke, czy da sie tu jednak przesadzic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Gestszy splot daje sztywniejsza koronke, ale wcale nie zawsze trwalsza przy praniu.",
+        "Cienka nic wymaga wiecej szpilek i kazdy blad widac potem znacznie wyrazniej.",
+        "Stare serwety bywaja geste, bo robiono je z nici przeznaczonej do bielizny stolowej.",
+        "Celuj w splot, ktory da sie jeszcze rozsunac igla, ale zaraz wraca do siebie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wzielam ciensza nic i desen zrobil sie gestszy, choc robota idzie teraz wolniej.",
+        "Po dwoch wieczorach zauwazylam, ze tasma lekko sie zweza w polowie dlugosci.",
+        "Roznica to moze piec milimetrow na metrze, ale przy laczeniu od razu widac.",
+        "Czy takie zwezanie da sie wyprostowac, czy trzeba pruc cala tasme od poczatku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zwezanie bierze sie zwykle z rosnacego naciagu, bo reka meczy sie po godzinie pracy.",
+        "Rob krotsze sesje i odkladaj klocki zawsze w tym samym miejscu na walku.",
+        "Pruc nie trzeba, bo przy praniu i naciaganiu na desce tasma da sie wyrownac.",
+        "Przypnij gotowa tasme szpilkami do deski i zwilz ja lekko przed samym suszeniem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przypielam tasme do deski, zwilzylam ja i po wyschnieciu szerokosc trzyma sie rowno.",
+        "Zaczelam nowy kawalek i tym razem pilnuje krotszych sesji przy dziennym swietle.",
+        "Zostal mi jeszcze klopot z zakonczeniem, bo konce nici odstaja po odpieciu od walka.",
+        "Czy jest jakis trwalszy sposob na wykonczenie samego konca tasmy, poza zwyklym wezelkiem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najtrwalsze jest wplecenie koncow z powrotem w splot na dlugosci kilku oczek.",
+        "Przewlekaj kazda nic osobno cienka igla, zawsze zgodnie z kierunkiem sasiednich pasm.",
+        "Na koniec przytnij je przy samym splocie, kiedy tasma jest jeszcze napieta.",
+        "Takie wykonczenie trzyma latami i nie rozchodzi sie nawet po wielokrotnym praniu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta klockowa koronka bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_grounded": "Z ta stara serweta bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_computational": "Z tym higrometrem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_mundane": "Z tamtym myciem schodow bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "external_ungrounded": "Z tamtym parkometrem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
+      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tej klockowej koronce, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_grounded": "Ten sam porzadek widac przy tej starej serwecie, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_computational": "Ten sam porzadek widac przy tym higrometrze, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym myciu schodow, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym parkometrze, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie takze przy tej klockowej koronce, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_grounded": "Cos podobnego zdarza sie takze przy tej starej serwecie, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_computational": "Cos podobnego zdarza sie takze przy tym higrometrze, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_mundane": "Cos podobnego zdarza sie takze przy tamtym myciu schodow, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "external_ungrounded": "Cos podobnego zdarza sie takze przy tamtym parkometrze, kiedy jeden element przejmuje robote za wszystkie pozostale.",
+      "self": "Cos podobnego zdarza sie takze przy tym przetwarzaniu, kiedy jeden element przejmuje robote za wszystkie pozostale."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej klockowej koronce jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tej starej serwecie jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym higrometrze jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym myciu schodow jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym parkometrze jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te klockowa koronke, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_grounded": "To troche przypomina te stara serwete, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_computational": "To troche przypomina ten higrometr, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_mundane": "To troche przypomina tamto mycie schodow, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "external_ungrounded": "To troche przypomina tamten parkometr, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow."
+    }
+  ]
+}

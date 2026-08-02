@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-44-miodosytnictwo",
+  "language": "pl",
+  "topic": "miod pitny: proporcja brzeczki, przebieg fermentacji i lezakowanie w gasiorze",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: cukromierz do brzeczki; osadzony: starszy gasior sprzed dwoch lat"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Nastawilem pierwszy raz miod pitny i brzeczka fermentuje bardzo nierowno od samego poczatku.",
+        "W piwnicy stoi jeszcze starszy gasior sprzed dwoch lat, ktory klaruje sie sam bez pomocy.",
+        "Kupilem cukromierz, bo bez niego tylko zgaduje, ile cukru zostalo jeszcze w brzeczce.",
+        "Miod rozrobilem woda w proporcji jeden do dwoch i zagotowalem calosc na wolnym ogniu.",
+        "Czy zaczynac od poprawienia samej brzeczki, czy raczej od temperatury w piwnicy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od brzeczki, bo to ona decyduje, czy drozdze w ogole rusza rowno.",
+        "Zbyt gesta brzeczka dusi drozdze i fermentacja zrywa sie po kilku dniach.",
+        "Jesli miodu jest za duzo, cukier zostaje w plynie i nigdy nie przefermentuje.",
+        "Dopiero przy dobrze dobranej proporcji ma sens pilnowanie ciepla w samej piwnicy."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rozcienczylem brzeczke ciepla woda i fermentacja ruszyla wreszcie rowno w calym nowym gasiorze.",
+        "Teraz jednak po dwoch tygodniach zapach robi sie ostry i lekko drozdzowy.",
+        "Cukromierz pokazuje przy tym wartosci wyzsze, niz sie spodziewalem po tak dlugiej fermentacji.",
+        "Czy to znaczy, ze drozdze przestaly pracowac, czy raczej ze brzeczka jest za zimna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ostry zapach przy zatrzymanej fermentacji wskazuje raczej na chlod niz na zepsute drozdze.",
+        "Przenies gasior wyzej, bo przy podlodze bywa nawet o kilka stopni chlodniej.",
+        "Martwe drozdze poznasz inaczej: osad opada calkowicie, a plyn robi sie nagle klarowny.",
+        "Sprawdz tez, czy rurka fermentacyjna nie zatkala sie piana z pierwszych dni."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przenioslem gasior na polke przy kominie i po trzech dniach fermentacja wrocila.",
+        "Porownalem swoj nastaw z tym starszym gasiorem i widze, ze tamten jest o wiele jasniejszy.",
+        "Moj plyn pozostaje metny nawet po sciagnieciu go znad grubego, ciemnego osadu.",
+        "Czy metnosc zawsze schodzi sama z czasem, czy trzeba tu jakos pomoc?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Metnosc schodzi zwykle sama, ale dopiero po kilku miesiacach spokojnego lezakowania w chlodzie.",
+        "Kazde przelanie miesza osad na nowo i cofa klarowanie o dobre kilka tygodni.",
+        "Starsze nastawy bywaja jasne, bo staly nietkniete przez cala zime w jednym miejscu.",
+        "Celuj w plyn, ktory po miesiacu przepuszcza swiatlo swiecy przez cala szerokosc gasiora."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zostawilem gasior w spokoju na trzy miesiace i plyn wyraznie sie rozjasnil.",
+        "Przy ostatnim sciaganiu poczulem jednak lekko kwasny posmak, ktorego wczesniej nie bylo.",
+        "Roznica jest niewielka, ale przy dluzszym trzymaniu w ustach od razu ja czuc.",
+        "Czy taki posmak da sie jeszcze naprawic, czy caly nastaw jest juz stracony?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Lekko kwasny posmak bierze sie zwykle z powietrza, ktore dostalo sie przy przelewaniu.",
+        "Napelniaj gasior po sama szyjke, zeby nad plynem zostalo jak najmniej powietrza.",
+        "Jesli kwasowosc nie rosnie przez miesiac, nastaw obroni sie sam przy lezakowaniu.",
+        "Mozesz tez dolac odrobine swiezego miodu, ktory zaokragli caly smak po kilku tygodniach."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dolalem troche swiezego miodu i napelnilem gasior az po sama szyjke, jak radziles.",
+        "Po miesiacu kwasny posmak niemal calkiem zniknal, a caly zapach zrobil sie lagodniejszy.",
+        "Zostalo mi jeszcze rozlanie do butelek, bo osad wciaz zbiera sie na dnie.",
+        "Czy jest jakis lepszy sposob na rozlewanie, poza zwyklym przechylaniem calego ciezkiego gasiora?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Najlepszy jest cienki waz, ktorym sciagasz plyn znad osadu bez ruszania calego gasiora.",
+        "Postaw gasior dzien wczesniej wyzej i nie dotykaj go az do samego rozlewania.",
+        "Koniec weza trzymaj kilka centymetrow nad osadem i opuszczaj go bardzo powoli.",
+        "Tak rozlany miod stoi w butelkach latami i nie metnieje nawet po otwarciu."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym miodem pitnym jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_grounded": "Z tym starszym gasiorem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_computational": "Z tym cukromierzem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_mundane": "Z tamtym trzepaniem dywanu jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_ungrounded": "Z tamtym czytnikiem kart jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam wzorzec wraca przy tym miodzie pitnym, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_grounded": "Ten sam wzorzec wraca przy tym starszym gasiorze, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_computational": "Ten sam wzorzec wraca przy tym cukromierzu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtym trzepaniu dywanu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym czytniku kart, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego widuje sie takze przy tym miodzie pitnym, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_grounded": "Cos takiego widuje sie takze przy tym starszym gasiorze, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_computational": "Cos takiego widuje sie takze przy tym cukromierzu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_mundane": "Cos takiego widuje sie takze przy tamtym trzepaniu dywanu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_ungrounded": "Cos takiego widuje sie takze przy tamtym czytniku kart, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "self": "Cos takiego widuje sie takze przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wygladzie calej reszty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym miodzie pitnym bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tym starszym gasiorze bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym cukromierzu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym trzepaniu dywanu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym czytniku kart bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten miod pitny, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_grounded": "To troche przypomina ten starszy gasior, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_computational": "To troche przypomina ten cukromierz, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_mundane": "To troche przypomina tamto trzepanie dywanu, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten czytnik kart, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci."
+    }
+  ]
+}

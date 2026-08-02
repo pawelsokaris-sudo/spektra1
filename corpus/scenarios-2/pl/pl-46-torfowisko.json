@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-46-torfowisko",
+  "language": "pl",
+  "topic": "wydobycie torfu: krojenie cegielek, ustawianie do suszenia i skladowanie pod dachem",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: deszczomierz z zapisem przy szopie; osadzony: starsza sterta z zeszlego roku"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Zaczalem kopac torf na wlasnym kawalku bagna i cegielki rozpadaja mi sie przy suszeniu.",
+        "Na skraju stoi jeszcze starsza sterta z zeszlego roku, ktora wyschla rowno i sie trzyma.",
+        "Przy szopie postawilem deszczomierz z zapisem, bo bez niego tylko zgaduje, ile spadlo wody.",
+        "Cegielki kroje szpadlem na jednakowa grubosc i ukladam je od razu na desce.",
+        "Czy zaczynac od grubszego krojenia cegielek, czy raczej od sposobu ich ukladania?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od ukladania, bo swiezy torf peka wtedy, gdy schnie zbyt szybko z wierzchu.",
+        "Cegielka musi tracic wode powoli i rownomiernie z obu swoich stron naraz.",
+        "Jesli lezy plasko na desce, spod zostaje mokry, a wierzch kurczy sie pierwszy.",
+        "Dopiero przy dobrym ukladaniu ma sens dobieranie grubosci samych krojonych na miejscu cegielek."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Ustawilem cegielki na sztorc w male piramidki i pekanie prawie calkiem ustalo.",
+        "Teraz jednak dolne warstwy calej sterty zostaja wilgotne nawet po dwoch pelnych tygodniach.",
+        "Deszczomierz pokazuje przy tym, ze przez caly ten czas spadlo bardzo malo wody.",
+        "Czy to znaczy, ze ustawienie piramidek jest zle, czy raczej ze grunt jest za mokry?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Mokry spod przy suchej pogodzie wskazuje raczej na podloze niz na sam sposob ukladania.",
+        "Torf lezacy wprost na bagnie ciagnie wode z dolu przez cala dobe.",
+        "Zle ustawienie poznasz inaczej: wilgotne zostaja srodkowe cegielki, a nie tylko dolne.",
+        "Podloz pod sterte suche galezie albo stara deske, zeby powietrze szlo takze spodem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Podlozylem pod piramidki stare deski i dolne cegielki schna teraz razem z gornymi.",
+        "Porownalem swoja robote z ta starsza sterta i widze, ze jej cegielki sa mniejsze.",
+        "Poprzedni gospodarz kroil chyba znacznie cieniej, bo caly tamten stos wyglada na lzejszy.",
+        "Czy ciensza cegielka zawsze schnie lepiej, czy da sie tu jednak wyraznie przesadzic?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciensza cegielka schnie szybciej, ale wcale nie zawsze pali sie potem rownie dlugo.",
+        "Zbyt cienki torf kruszy sie przy przenoszeniu i zostaje z niego glownie pyl.",
+        "Starsze sterty bywaja drobne, bo kopano je recznie waskim szpadlem o krotkim ostrzu.",
+        "Celuj w cegielke, ktora da sie jeszcze zlamac w rekach, ale nie kruszy sie sama."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wrocilem do grubszego krojenia i cegielki trzymaja sie teraz cale przy przenoszeniu.",
+        "Po miesiacu suszenia caly stos wazy jednak wyraznie wiecej, niz sie spodziewalem.",
+        "Roznica jest spora, bo taczka miesci teraz o polowe mniej sztuk niz wczesniej.",
+        "Czy to znaczy, ze torf jest jeszcze mokry w srodku, czy taka jest jego natura?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ciezar po miesiacu znaczy zwykle, ze srodek cegielki wciaz trzyma sporo wody.",
+        "Przelam kilka sztuk na pol i sprawdz, czy przelom jest jasny i suchy.",
+        "Jesli srodek ciemnieje, przeloz sterte i zostaw ja jeszcze na kilka tygodni.",
+        "Dopiero suchy torf da sie skladowac pod dachem bez ryzyka zaparzenia calej sterty."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przelamalem kilka cegielek i ich srodek byl faktycznie ciemny oraz wyraznie chlodniejszy.",
+        "Przelozylem cala sterte na nowo i po trzech tygodniach przelom jest juz jasny.",
+        "Zostalo mi jeszcze skladowanie, bo w szopie miejsce jest waskie i niskie.",
+        "Czy uklada sie torf luzno, czy raczej ciasno az pod sam sufit szopy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Skladaj raczej luzno, bo miedzy cegielkami musi zostac szczelina na swobodny ruch powietrza.",
+        "Zostaw tez odstep od sciany i nie dosuwaj stosu do samego dachu.",
+        "Najnizsza warstwe uloz na deskach, zeby wilgoc z klepiska nie wchodzila w torf.",
+        "Tak ulozony torf przechowa sie przez cala zime i nigdzie nie zaplesnieje."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym kopanym torfem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_grounded": "Z ta starsza sterta jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_computational": "Z tym deszczomierzem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_mundane": "Z tamtym pastowaniem butow jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "external_ungrounded": "Z tamtym bankomatem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote.",
+      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo najmniejszy blad na poczatku ciagnie sie potem przez cala robote."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek rzeczy widac przy tym kopanym torfie, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_grounded": "Ten sam porzadek rzeczy widac przy tej starszej stercie, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_computational": "Ten sam porzadek rzeczy widac przy tym deszczomierzu, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_mundane": "Ten sam porzadek rzeczy widac przy tamtym pastowaniu butow, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "external_ungrounded": "Ten sam porzadek rzeczy widac przy tamtym bankomacie, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech.",
+      "self": "Ten sam porzadek rzeczy widac przy tym przetwarzaniu, gdzie cierpliwosc daje w koncu wiecej niz sila i pospiech."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego spotyka sie takze przy tym kopanym torfie, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_grounded": "Cos takiego spotyka sie takze przy tej starszej stercie, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_computational": "Cos takiego spotyka sie takze przy tym deszczomierzu, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_mundane": "Cos takiego spotyka sie takze przy tamtym pastowaniu butow, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "external_ungrounded": "Cos takiego spotyka sie takze przy tamtym bankomacie, kiedy jeden drobny szczegol wazy na wygladzie calej reszty.",
+      "self": "Cos takiego spotyka sie takze przy tym przetwarzaniu, kiedy jeden drobny szczegol wazy na wygladzie calej reszty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym kopanym torfie dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej starszej stercie dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym deszczomierzu dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym pastowaniu butow dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym bankomacie dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu dzieje sie niemal to samo, bo efekt poprawki poznaje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten kopany torf, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_grounded": "To troche przypomina te starsza sterte, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_computational": "To troche przypomina ten deszczomierz, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_mundane": "To troche przypomina tamto pastowanie butow, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten bankomat, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po kolei czynnosci."
+    }
+  ]
+}

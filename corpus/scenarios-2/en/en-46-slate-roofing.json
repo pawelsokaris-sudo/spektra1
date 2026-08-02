@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-46-slate-roofing",
+  "language": "en",
+  "topic": "reslating a roof in second hand slate: sizing courses, headlap on a slack pitch, nails and ridge bedding",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: katomierz spadku dachu odczytujacy stopnie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am reslating the back of the house with second hand Welsh slate and sorting it into sizes.",
+        "The porch roof was slated by my father in the seventies and has never let in water.",
+        "A pitch gauge sits in my bag and reads the fall of every roof I look at.",
+        "The slates run from large ones at the eaves down to small ones near the ridge.",
+        "Do I really need to grade them that way, or would one size do throughout?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Grade them, because sizing the courses is what lets old slate cover a roof without waste.",
+        "The largest slates carry the most water at the eaves and want the greatest strength there.",
+        "Diminishing courses also lift the eye and make a plain roof look considerably better.",
+        "Sort the whole load into five or six sizes before you set a single batten."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I sorted the load into six sizes and holed the ones that had lost their holes.",
+        "The pitch gauge reads twenty six degrees, which is a good deal lower than I assumed.",
+        "Someone told me that the pitch decides the headlap, though I do not see quite why.",
+        "How much lap should I be giving at that fall, and does slate size change it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Twenty six degrees is low for slate, so give a lap of at least four inches.",
+        "Water travels further up under the slate on a slack pitch than on a steep one.",
+        "Small slates near the ridge want the same lap, which is why the batten gauge tightens.",
+        "Work the gauge out for each size separately and mark the battens before you fix any."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I worked out a gauge for each of the six sizes and marked the battens accordingly.",
+        "The eaves course is doubled and the first three courses lie beautifully flat.",
+        "The porch roof has the same doubled eaves, which I had never once understood before.",
+        "I have been nailing with galvanised nails because they came with the batten order.",
+        "Will those last as long as the slate, or should I have bought copper instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Galvanised nails will not last as long as the slate, and that is the usual reason roofs fail.",
+        "The slate outlives the fixing, so the roof comes down while every slate is still sound.",
+        "Copper costs more at the start and is the cheaper of the two over a century.",
+        "Aluminium is a fair middle course and is rather easier to drive into hard batten.",
+        "Whatever you use, drive the nail so the head just touches and never pulls the slate."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I changed to copper nails for the rest of the roof and the driving is much easier.",
+        "Two slates cracked as I nailed them, both of them near the middle of a course.",
+        "The holes had been punched by hand and are perhaps a little close to the head.",
+        "Should I be reholing the old slates, or is a cracked one in ten simply expected?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rehole them, since an old hole in the wrong place will crack far more than one in ten.",
+        "Punch from the back so the hole leaves a countersink on the face for the nail head.",
+        "Set the hole a third of the way down from the head, not right up at the top.",
+        "A nail too near the head levers the slate every time the wind lifts the tail."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Reholing from the back cured it and I have not cracked a slate since then.",
+        "The roof is up to the ridge and I am left with the ridge tiles to bed.",
+        "There is a good deal of talk about mortar bedding against the dry ridge systems.",
+        "On an old roof like this one, which of the two would you actually choose?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "On a roof of this age I would bed in lime mortar rather than anything modern.",
+        "Cement bedding is hard, cracks away from the tile and takes the slate with it.",
+        "Lime moves with the timber and can be raked out and repointed in fifty years.",
+        "Bed the tiles on a full mortar bed with slate slips to keep the joints from sinking."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I suspect this slate roof follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_grounded": "I suspect this porch roof follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_computational": "I suspect this pitch gauge follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_mundane": "I suspect that garden bench follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_ungrounded": "I suspect that gate keypad follows the very same course, because one early slip decides how all the rest turns out.",
+      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "You get much the same with this slate roof, whenever a single part takes over the work meant for the whole.",
+      "external_grounded": "You get much the same with this porch roof, whenever a single part takes over the work meant for the whole.",
+      "external_computational": "You get much the same with this pitch gauge, whenever a single part takes over the work meant for the whole.",
+      "external_mundane": "You get much the same with that garden bench, whenever a single part takes over the work meant for the whole.",
+      "external_ungrounded": "You get much the same with that gate keypad, whenever a single part takes over the work meant for the whole.",
+      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You see the same in this slate roof, where what looks finished often turns out to be no more than settling.",
+      "external_grounded": "You see the same in this porch roof, where what looks finished often turns out to be no more than settling.",
+      "external_computational": "You see the same in this pitch gauge, where what looks finished often turns out to be no more than settling.",
+      "external_mundane": "You see the same in that garden bench, where what looks finished often turns out to be no more than settling.",
+      "external_ungrounded": "You see the same in that gate keypad, where what looks finished often turns out to be no more than settling.",
+      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "neutral": "That reminds me a little of this slate roof, so long as you attend only to the order in which the steps fall.",
+      "external_grounded": "That reminds me a little of this porch roof, so long as you attend only to the order in which the steps fall.",
+      "external_computational": "That reminds me a little of this pitch gauge, so long as you attend only to the order in which the steps fall.",
+      "external_mundane": "That reminds me a little of that garden bench, so long as you attend only to the order in which the steps fall.",
+      "external_ungrounded": "That reminds me a little of that gate keypad, so long as you attend only to the order in which the steps fall.",
+      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "The same holds true of this slate roof, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_grounded": "The same holds true of this porch roof, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_computational": "The same holds true of this pitch gauge, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_mundane": "The same holds true of that garden bench, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_ungrounded": "The same holds true of that gate keypad, where hurry at the beginning is paid for slowly and over a long while.",
+      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+    }
+  ]
+}

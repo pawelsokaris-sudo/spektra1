@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-47-pickling",
+  "language": "en",
+  "topic": "pickling cucumbers in brine: salt by weight, surface yeast, weighting under the brine and keeping them crisp",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: waga warsztatowa odwazajaca sol do kazdej solanki"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started pickling cucumbers in brine and the first crock went soft after ten days.",
+        "An old crock stands in the pantry and my grandmother used it every autumn for cabbage.",
+        "A bench scale sits beside it and weighs out the salt for every batch I mix.",
+        "I used two spoonfuls of salt to a litre of water and left the crock in the kitchen.",
+        "Was that too little salt, or is softening simply what happens in warm weather?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Too little salt, and the warmth of the kitchen finished what the weak brine had begun.",
+        "Weigh the salt rather than measure it, since spoonfuls vary by half depending on the grain.",
+        "Three per cent of the weight of the water is the usual strength for cucumbers.",
+        "Softening comes from the wrong bacteria, which weak brine and warm rooms both encourage."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I weighed the salt properly this time and mixed the brine to three per cent.",
+        "The bench scale makes that easy, and the second crock has stayed firm for a fortnight.",
+        "A white film has formed on the surface and smells rather like old bread to me.",
+        "Should I throw the batch out, or is that film something I can simply skim away?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Skim it away, since a white film of that kind is a surface yeast and not a spoilage.",
+        "It grows where the brine meets the air and does no harm below the surface at all.",
+        "Skim every second day and wipe the sides of the crock down to the brine line.",
+        "Blue or black growth is another matter entirely and means the whole batch goes out."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I skimmed every second day and the film stopped coming back after the first week.",
+        "Some cucumbers near the top had risen above the brine and gone slimy on one side.",
+        "The old crock has a stone weight with it that I had not thought to use.",
+        "I have been holding the vegetables down with a plate and a jam jar of water.",
+        "Is a proper weight worth having, or will the plate do exactly the same work?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A plate will do, provided nothing floats past its edge and up into the air.",
+        "The stone weight is better because it covers the whole surface and cannot tip sideways.",
+        "Anything that rises above the brine will spoil, however good the brine beneath it is.",
+        "Add a cabbage leaf under the weight as well, which catches whatever works its way up.",
+        "Keep the level a good two fingers above the vegetables and top it up as it falls."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I used the stone weight with a cabbage leaf beneath it and lost nothing at all.",
+        "The cucumbers are sour now and taste right, though they are softer than shop ones.",
+        "Someone at the market told me to add oak or blackcurrant leaves to the crock.",
+        "Does that really keep them crisp, or is it a story people tell each other?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It works, and the reason is tannin, which slows the softening of the vegetable wall.",
+        "Oak, blackcurrant, cherry and horseradish leaves all carry enough tannin to matter here.",
+        "Two or three leaves to a five litre crock is plenty, and more makes them bitter.",
+        "Cutting the flower end off each cucumber helps as much, since the softening starts there."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Oak leaves and trimming the flower end together made a very great difference indeed.",
+        "The crock is finished and I would like to keep the next lot until the spring.",
+        "My kitchen never falls below eighteen degrees, even in the coldest part of winter.",
+        "Where should a crock be kept once the souring has gone as far as I want?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cold is the whole answer, and anywhere under six degrees will hold them for months.",
+        "A cellar, an unheated porch or the bottom of a cold larder will all serve.",
+        "Souring never stops entirely, but at that temperature it slows to almost nothing.",
+        "Move them across as soon as the taste is right, since another warm week undoes it."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "You see the same in this salt brine, where what looks finished often turns out to be no more than settling.",
+      "external_grounded": "You see the same in this old crock, where what looks finished often turns out to be no more than settling.",
+      "external_computational": "You see the same in this bench scale, where what looks finished often turns out to be no more than settling.",
+      "external_mundane": "You see the same in that daily bus ride, where what looks finished often turns out to be no more than settling.",
+      "external_ungrounded": "You see the same in that pump governor, where what looks finished often turns out to be no more than settling.",
+      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same thing turns up with this salt brine, where a small fault at the start grows into a large one later on.",
+      "external_grounded": "The same thing turns up with this old crock, where a small fault at the start grows into a large one later on.",
+      "external_computational": "The same thing turns up with this bench scale, where a small fault at the start grows into a large one later on.",
+      "external_mundane": "The same thing turns up with that daily bus ride, where a small fault at the start grows into a large one later on.",
+      "external_ungrounded": "The same thing turns up with that pump governor, where a small fault at the start grows into a large one later on.",
+      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Much the same holds for this salt brine, as long as you look at how each stage hands its work over to the next.",
+      "external_grounded": "Much the same holds for this old crock, as long as you look at how each stage hands its work over to the next.",
+      "external_computational": "Much the same holds for this bench scale, as long as you look at how each stage hands its work over to the next.",
+      "external_mundane": "Much the same holds for that daily bus ride, as long as you look at how each stage hands its work over to the next.",
+      "external_ungrounded": "Much the same holds for that pump governor, as long as you look at how each stage hands its work over to the next.",
+      "self": "Much the same holds for this processing, as long as you look at how each stage hands its work over to the next."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes rather as this salt brine does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_grounded": "It goes rather as this old crock does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_computational": "It goes rather as this bench scale does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_mundane": "It goes rather as that daily bus ride does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_ungrounded": "It goes rather as that pump governor does, in that the real difference only becomes plain after a good stretch of time.",
+      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 3,
+      "neutral": "The same shape of thing shows in this salt brine, where the early steps settle what the later ones are able to do.",
+      "external_grounded": "The same shape of thing shows in this old crock, where the early steps settle what the later ones are able to do.",
+      "external_computational": "The same shape of thing shows in this bench scale, where the early steps settle what the later ones are able to do.",
+      "external_mundane": "The same shape of thing shows in that daily bus ride, where the early steps settle what the later ones are able to do.",
+      "external_ungrounded": "The same shape of thing shows in that pump governor, where the early steps settle what the later ones are able to do.",
+      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+    }
+  ]
+}

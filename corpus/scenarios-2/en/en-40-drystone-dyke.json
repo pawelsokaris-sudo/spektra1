@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-40-drystone-dyke",
+  "language": "en",
+  "topic": "rebuilding a drystone dyke: foundation trench, hearting, throughbands and a tight cope",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: poziomica laserowa ustawiona na koncu odcinka"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started rebuilding the drystone dyke along the top field and the first stretch keeps slumping.",
+        "The garden wall behind the house was built by my grandfather and has not moved in sixty years.",
+        "A laser level stands at the end of the run and gives me the line every morning.",
+        "I laid the foundation stones straight onto the turf and worked up from there with whatever came to hand.",
+        "Should the foundation go into a dug trench, or is laying it on firm turf good enough?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dig the trench, because a dyke laid on turf will settle unevenly in the first winter it stands.",
+        "Take out the soft top until you reach firm ground, which is rarely more than a spade deep.",
+        "Set your largest stones as the foundation and bed each one until it cannot rock at all.",
+        "Every stone above copies the fault of the one beneath, so the bottom course decides everything."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I dug the trench out to firm ground and bedded the foundation stones so that none of them rock.",
+        "The laser level shows the line running true, yet the sides of the dyke lean out as I build.",
+        "I have been filling the middle with small stones and rubble because the faces take up so little room.",
+        "Is that hearting the cause of the lean, or am I setting the face stones badly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The hearting is the cause, since loose rubble in the middle pushes the two faces steadily apart.",
+        "Pack the hearting by hand, stone against stone, and never shovel it in like so much gravel.",
+        "Each face stone should slope a little into the heart, so its weight leans inward rather than out.",
+        "Build both faces together, course by course, and check the batter with a frame as you go."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I packed the hearting by hand and made a batter frame out of three battens nailed together.",
+        "The faces now lean inward properly and the dyke has stopped spreading as it rises.",
+        "The garden wall has the very same inward lean, which I had never once noticed before.",
+        "I am about halfway up now and wondering when the long throughbands ought to go in.",
+        "Do they all go at one height, or spread through the dyke wherever they happen to fit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Throughbands go in one continuous course at about two thirds of the height, not scattered about.",
+        "They must reach right across and show their ends on both faces, or they do no work at all.",
+        "A dyke without them can split down the middle and shed one whole face in a wet winter.",
+        "Set them level and bed them well, because everything above rides on that single course.",
+        "Above the throughbands the stone gets smaller, which makes the last courses quicker than the first."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The throughbands are in and they show on both faces along the whole length of the stretch.",
+        "I have reached the height where the cope should go and my stones vary a good deal.",
+        "Some are tall and thin while others are squat and would sit lower than their neighbours.",
+        "Should I sort them by height, or is an uneven top part of how these dykes look?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Sort them, but sort by thickness rather than height, since the cope must stand tight against itself.",
+        "Each cope stone leans on the next, so a thin one among thick ones will leave a gap.",
+        "Keep the tops roughly even and let the bottoms sit wherever the head of the wall allows.",
+        "A loose cope is how a dyke starts to come down, because sheep and frost work at the gaps."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I sorted the copes by thickness and set them tight, wedging the odd one with a small pin.",
+        "The finished stretch has stood through two months of rain without a single stone shifting.",
+        "Next spring I want to take down and rebuild the leaning stretch nearer the gate.",
+        "Is there any way to save the old stone, or does most of it get sorted out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Almost all of it can be used again, since only frost shattered stone is truly finished.",
+        "Take the dyke down into three heaps, keeping face stones, throughbands and hearting apart.",
+        "Sorting as you strip saves more time than any other habit in the whole of the trade.",
+        "Then rebuild from the trench upward, and the stretch will outlast anything you set on turf."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I suspect this stone dyke follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_grounded": "I suspect this garden wall follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_computational": "I suspect this laser level follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_mundane": "I suspect that kitchen dresser follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_ungrounded": "I suspect that boiler timer follows the very same course, because one early slip decides how all the rest turns out.",
+      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same thing turns up with this stone dyke, where a small fault at the start grows into a large one later on.",
+      "external_grounded": "The same thing turns up with this garden wall, where a small fault at the start grows into a large one later on.",
+      "external_computational": "The same thing turns up with this laser level, where a small fault at the start grows into a large one later on.",
+      "external_mundane": "The same thing turns up with that kitchen dresser, where a small fault at the start grows into a large one later on.",
+      "external_ungrounded": "The same thing turns up with that boiler timer, where a small fault at the start grows into a large one later on.",
+      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You get much the same with this stone dyke, whenever a single part takes over the work meant for the whole.",
+      "external_grounded": "You get much the same with this garden wall, whenever a single part takes over the work meant for the whole.",
+      "external_computational": "You get much the same with this laser level, whenever a single part takes over the work meant for the whole.",
+      "external_mundane": "You get much the same with that kitchen dresser, whenever a single part takes over the work meant for the whole.",
+      "external_ungrounded": "You get much the same with that boiler timer, whenever a single part takes over the work meant for the whole.",
+      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "neutral": "The same shape of thing shows in this stone dyke, where the early steps settle what the later ones are able to do.",
+      "external_grounded": "The same shape of thing shows in this garden wall, where the early steps settle what the later ones are able to do.",
+      "external_computational": "The same shape of thing shows in this laser level, where the early steps settle what the later ones are able to do.",
+      "external_mundane": "The same shape of thing shows in that kitchen dresser, where the early steps settle what the later ones are able to do.",
+      "external_ungrounded": "The same shape of thing shows in that boiler timer, where the early steps settle what the later ones are able to do.",
+      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That reminds me a little of this stone dyke, so long as you attend only to the order in which the steps fall.",
+      "external_grounded": "That reminds me a little of this garden wall, so long as you attend only to the order in which the steps fall.",
+      "external_computational": "That reminds me a little of this laser level, so long as you attend only to the order in which the steps fall.",
+      "external_mundane": "That reminds me a little of that kitchen dresser, so long as you attend only to the order in which the steps fall.",
+      "external_ungrounded": "That reminds me a little of that boiler timer, so long as you attend only to the order in which the steps fall.",
+      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+    }
+  ]
+}

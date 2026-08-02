@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-41-zdunstwo",
+  "language": "pl",
+  "topic": "stawianie pieca kaflowego: proporcja zaprawy glinianej, przebieg kanalow i ciag",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: miernik ciagu przykrecony do komina; osadzony: stary piec w sieni"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Stawiam w domu nowy piec kaflowy i pierwsza warstwa zaprawy pekla mi juz po tygodniu.",
+        "W sieni stoi jeszcze stary piec po poprzednich gospodarzach, ktory grzeje rowno od czterdziestu lat.",
+        "Do komina przykrecilem miernik ciagu, bo bez niego tylko zgaduje, ile powietrza idzie kanalami.",
+        "Zaprawe robie z gliny i piasku, a kafle moczylem wczesniej przez cala noc.",
+        "Czy zaczynac od poprawienia samej zaprawy, czy raczej od przebiegu kanalow w srodku pieca?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od zaprawy, bo to ona przenosi ruchy pieca i pierwsza pokazuje kazdy blad.",
+        "Glina z piaskiem musi miec wlasciwa proporcje, inaczej przy nagrzewaniu kurczy sie zbyt mocno.",
+        "Pekniecia po tygodniu zwykle znacza za duzo gliny, a nie zly przebieg kanalow.",
+        "Dopiero przy stabilnej zaprawie ma sens sprawdzanie, czy kanaly prowadza dym rowno na calej dlugosci."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dosypalem piasku i nowa warstwa zaprawy trzyma sie juz od dwoch tygodni bez rys.",
+        "Piec grzeje jednak nierowno i gorna czesc zostaje wyraznie chlodniejsza niz sam dol.",
+        "Miernik ciagu pokazuje przy tym wartosci nizsze niz w pierwszych dniach po rozpaleniu.",
+        "Czy to znaczy, ze kanaly sa za dlugie, czy raczej ze gdzies zostal niedomkniety otwor?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Slabszy ciag przy chlodnej gorze wskazuje raczej na opor w kanalach niz na nieszczelnosc.",
+        "Sprawdz najpierw, czy w zakretach nie zostaly grudki zaprawy, bo one hamuja przeplyw.",
+        "Niedomkniety otwor poznasz inaczej: dym ucieka bokiem, a caly piec grzeje slabiej rownomiernie.",
+        "Zajrzyj tez do wyczystki przy podstawie, bo tam najczesciej zbiera sie nadmiar materialu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "W jednym zakrecie faktycznie siedziala gruda zaprawy wielkosci piesci, ktora zatykala prawie polowe swiatla.",
+        "Po jej wybraniu gora nagrzewa sie wreszcie razem z dolem i piec trzyma cieplo dluzej.",
+        "Porownalem to ze starym piecem w sieni i widze, ze jego kanaly sa krotsze.",
+        "Czy krotsze kanaly zawsze oznaczaja lepszy ciag, czy da sie tu przesadzic w druga strone?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Krotsze kanaly daja mocniejszy ciag, ale cieplo ucieka wtedy kominem zamiast zostac w kaflach.",
+        "Stare piece bywaja krotkie, bo palono w nich drewnem suchym i bardzo drobno rozlupanym.",
+        "Celuj w dlugosc, przy ktorej dym na wylocie jest jeszcze cieply, ale juz nie goracy.",
+        "Zbyt dlugie kanaly wychlodza dym i wtedy w zakretach osadza sie mokra sadza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Skrocilem ostatni kanal o jeden bieg i dym na wylocie jest teraz wyraznie cieplejszy.",
+        "Piec trzyma cieplo prawie dobe, choc kafle przy drzwiczkach nagrzewaja sie mocniej niz reszta.",
+        "Boje sie, ze ta roznica rozsadzi mi z czasem spoiny wokol samych drzwiczek.",
+        "Czy da sie to jakos wyrownac bez rozbierania calej przedniej sciany tego pieca?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Roznica temperatur przy drzwiczkach jest normalna, bo zeliwo przewodzi cieplo znacznie szybciej niz kafel.",
+        "Spoiny wokol ramy powinny byc szersze i wypelnione zaprawa z dodatkiem sieczki lub welny.",
+        "Taka spoina pracuje razem z zeliwem i nie pryska przy kazdym mocniejszym rozpaleniu.",
+        "Mozesz wybrac sama fuge wokol drzwiczek i wypelnic ja na nowo bez ruszania kafli."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wybralem fugi wokol ramy i wypelnilem je zaprawa z sieczka, tak jak radziles.",
+        "Po miesiacu codziennego palenia nic wokol drzwiczek nie peklo ani sie nie wykruszylo.",
+        "Zostala mi jeszcze gorna plyta, ktora dymi lekko przy pierwszym rozpaleniu po chlodnej nocy.",
+        "Czy to kwestia wilgoci w kominie, czy raczej zle ulozonej plyty na zaprawie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "To zwykle wilgoc w zimnym kominie, ktora blokuje ciag przez pierwsze kilkanascie minut.",
+        "Rozpalaj piec od gory albo wypal wczesniej garsc papieru pod samym otworem wyczystki.",
+        "Jesli dymi takze po rozgrzaniu komina, sprawdz zaprawe pod plyta na calej dlugosci.",
+        "Obserwuj piec przez dwa tygodnie, zanim zdecydujesz o podnoszeniu i przekladaniu plyty."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym nowym piecem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_grounded": "Z tym starym piecem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_computational": "Z tym miernikiem ciagu jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_mundane": "Z tamta stara walizka jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "external_ungrounded": "Z tamtym domofonem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam wzorzec wraca przy tym nowym piecu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_grounded": "Ten sam wzorzec wraca przy tym starym piecu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_computational": "Ten sam wzorzec wraca przy tym mierniku ciagu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtej starej walizce, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym domofonie, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego widuje sie takze przy tym nowym piecu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_grounded": "Cos takiego widuje sie takze przy tym starym piecu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_computational": "Cos takiego widuje sie takze przy tym mierniku ciagu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_mundane": "Cos takiego widuje sie takze przy tamtej starej walizce, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "external_ungrounded": "Cos takiego widuje sie takze przy tamtym domofonie, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
+      "self": "Cos takiego widuje sie takze przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wygladzie calej reszty."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym nowym piecu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tym starym piecu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym mierniku ciagu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtej starej walizce bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym domofonie bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten nowy piec, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_grounded": "To troche przypomina ten stary piec, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_computational": "To troche przypomina ten miernik ciagu, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_mundane": "To troche przypomina tamta stara walizke, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten domofon, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci."
+    }
+  ]
+}

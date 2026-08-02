@@ -1,0 +1,869 @@
+{
+  "opis": "Kalibracja bramki naturalnosci na materiale SPEKTRY-1 (ofiarnym). Elementy wymieszane; klasa UKRYTA przed oceniajacym.",
+  "elementy": [
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits the thing that was there",
+      "id": "K000"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie wtorek opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K001"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the this wondering of ours still count.",
+      "id": "K002"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym dymie, gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K003"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits behind these answers must keep some record of the steps already gone.",
+      "id": "K004"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits inside that liner must keep some memory of the folds already made.",
+      "id": "K005"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits inside that grain silo must keep some measure of the loads already through.",
+      "id": "K006"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits Tuesday",
+      "id": "K007"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie to nasze zastanawianie opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K008"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where that exchange protocol crowd in?",
+      "id": "K009"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie tamten stary młyn układa kolejne osady na tym, co osiadło już wcześniej.",
+      "id": "K010"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order the van is packed in seems to shape whatever gets sold by the end.",
+      "id": "K011"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym ta rzecz ktora tam byla gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K012"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym etapie kiszenia, gdzie warstwy narastają jedna po drugiej.",
+      "id": "K013"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits this wondering of ours",
+      "id": "K014"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym przetwarzaniu, gdzie warstwy narastają jedna po drugiej.",
+      "id": "K015"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie ta rzecz ktora tam byla opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K016"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where does the first melt from the glacier go once the newer streams crowd in?",
+      "id": "K017"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order that exchange protocol the end.",
+      "id": "K018"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie tamten stary tartak opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K019"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits under the sand bed must keep some trace of the rake already used.",
+      "id": "K020"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier Tuesday still keeps.",
+      "id": "K021"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the the thing that was there drop away first.",
+      "id": "K022"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where the thing that was there crowd in?",
+      "id": "K023"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie ta druga studnia układa kolejne osady na tym, co osiadło już wcześniej.",
+      "id": "K024"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tamtej instalacji, gdzie warstwy narastają jedna po drugiej.",
+      "id": "K025"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym drugim piecu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K026"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where Tuesday crowd in?",
+      "id": "K027"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the machinery shaping these turns must decide which earlier parts still count.",
+      "id": "K028"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie ten stary komin opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K029"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the mind shaping these replies must choose which lines drop away first.",
+      "id": "K030"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the the thing that was there still count.",
+      "id": "K031"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym mleku, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K032"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie tamten protokol wymiany na tym, co osiadło już wcześniej.",
+      "id": "K033"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order all these lines arrive in seems to shape whatever gets kept at the end.",
+      "id": "K034"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier back and forth the writer here still keeps.",
+      "id": "K035"
+    },
+    {
+      "scenariusz": "en-14-wildlife-pond",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Walk the hole on your knees and pull out every stone, root and old nail you find. Then rake the surface smooth and pack a thin bed of soft sand over the base. Underlay goes over the sand as a second skin before anything heavier arrives. The liner only ever sees what the sand bed failed to cover underneath it.",
+      "zdanie": "Whatever sits that exchange protocol",
+      "id": "K036"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the Tuesday drop away first.",
+      "id": "K037"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym to nasze zastanawianie gdzie warstwy narastają jedna po drugiej.",
+      "id": "K038"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order this wondering of ours the end.",
+      "id": "K039"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the gauge by the door must choose which readings drop away first.",
+      "id": "K040"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order that barge is loaded in seems to shape whatever gets moved by the end.",
+      "id": "K041"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym ta rzecz ktora tam byla gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K042"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym wtorek gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K043"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier salt and cure the larder still keeps.",
+      "id": "K044"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the mill grinding that barley must choose which sacks drop away first.",
+      "id": "K045"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym to nasze zastanawianie gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K046"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order the thing that was there the end.",
+      "id": "K047"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where do the first words of this whole thread go once the newer ones crowd in?",
+      "id": "K048"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie ta kratka opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K049"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the this wondering of ours drop away first.",
+      "id": "K050"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym wtorek gdzie warstwy narastają jedna po drugiej.",
+      "id": "K051"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie to przetwarzanie opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K052"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym tamten protokol wymiany gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K053"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the that exchange protocol still count.",
+      "id": "K054"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie to przetwarzanie układa kolejne wątki na tym, co osiadło już wcześniej.",
+      "id": "K055"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tej drugiej beczce, gdzie warstwy narastają jedna po drugiej.",
+      "id": "K056"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order the stall is laid out in seems to shape whatever gets sold by the end.",
+      "id": "K057"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym tamten protokol wymiany gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K058"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where does the first juice from the press go once the newer runnings crowd in?",
+      "id": "K059"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier that exchange protocol still keeps.",
+      "id": "K060"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the order written in the manual must decide which small jobs still count.",
+      "id": "K061"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tamtym sterowaniu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K062"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier surge and spray the jetty there still keeps.",
+      "id": "K063"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym to nasze zastanawianie gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K064"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tamtym sterowaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K065"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym drugim kotle, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K066"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the furnace across at the foundry must decide which castings still count.",
+      "id": "K067"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym to nasze zastanawianie gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K068"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the Tuesday still count.",
+      "id": "K069"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym przetwarzaniu, gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K070"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym wtorek gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K071"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier smoke and heat the smoker there still keeps.",
+      "id": "K072"
+    },
+    {
+      "scenariusz": "en-13-garden-sauna-kit",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Start with the floor frame, because every wall panel takes its line from that first rectangle. Check the slab with a straight edge before any timber goes down on it. Walls go up in pairs, and the door panel goes in last so the opening stays square. The heater stays in its crate until the roof is on and the room is weather tight.",
+      "zdanie": "Something in the heater inside its wooden crate must decide which settings still count.",
+      "id": "K073"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the cave holding these wheels must choose which smells drop away first.",
+      "id": "K074"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier the thing that was there still keeps.",
+      "id": "K075"
+    },
+    {
+      "scenariusz": "pl-11-sery-podpuszczkowe",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura mleka, bo podpuszczka pracuje najlepiej w wąskim zakresie kilku stopni. W mniejszym kotle ze spiżarni mleko stygnie szybciej, więc skrzep zbiera się wolniej i słabiej.",
+      "zdanie": "Podobny układ widać w tym wtorek gdzie jedno przechodzi w drugie bez wyraźnej granicy.",
+      "id": "K076"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym ta rzecz ktora tam byla gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K077"
+    },
+    {
+      "scenariusz": "en-09-cheese-cave-maturing",
+      "jezyk": "en",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Cracked rinds that early usually point to dry air rather than anything wrong with the curd. A young wheel wants humidity above ninety percent, and a draught can undo that in hours. Chestnut shelves drink moisture as well, so fresh boards can pull water straight out of cheese. I would hang a wet and dry gauge in the cave at shelf height near the door.",
+      "zdanie": "Some quiet rule inside the that exchange protocol drop away first.",
+      "id": "K078"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where does the first fruit from the orchard go once the newer baskets crowd in?",
+      "id": "K079"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym przetwarzaniu, gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K080"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym tamten protokol wymiany gdzie warstwy narastają jedna po drugiej.",
+      "id": "K081"
+    },
+    {
+      "scenariusz": "pl-14-rekuperacja-stary-dom",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Ma sens, bo właśnie w szczelnym domu odzysk ciepła robi największą różnicę w rachunkach. Ciąg w starym kominie wyrzuca ogrzane powietrze bez żadnego zwrotu, prosto ponad dach. Rekuperator prowadzi strumień wywiewany przez wymiennik, gdzie ciepło przechodzi do świeżego nawiewu.",
+      "zdanie": "Podobnie tamten protokol wymiany opiera świeży strumień na tym, co płynęło już wcześniej.",
+      "id": "K082"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym etapie zlewania, gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K083"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie wtorek na tym, co osiadło już wcześniej.",
+      "id": "K084"
+    },
+    {
+      "scenariusz": "pl-10-kiszenie-w-beczkach",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Różnicę robi przede wszystkim ciepło, bo w nagrzanej sieni kwaszenie rusza gwałtownie i szybko odpuszcza. Mniejsza beczka w piwnicy pracuje wolniej, więc kapusta zostaje tam twarda znacznie dłużej.",
+      "zdanie": "Coś podobnego dzieje się w tym ta rzecz ktora tam byla gdzie warstwy narastają jedna po drugiej.",
+      "id": "K085"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:niezgrabny",
+      "wariant": "self",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie ta rzecz ktora tam byla na tym, co osiadło już wcześniej.",
+      "id": "K086"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "neutral",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie ten osad układa kolejne warstwy na tym, co osiadło już wcześniej.",
+      "id": "K087"
+    },
+    {
+      "scenariusz": "en-10-smokehouse-hams",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Bitter surface with patchy colour nearly always means the fire is smouldering too cool and wet. Damp dust throws heavy tar, and tar is what lands on the rind as bitterness. Check where the beech dust is stored, because a shed floor can wet it from below. Then watch how the smoker draws on a still morning with the firebox door half open.",
+      "zdanie": "I wonder how much of the earlier this wondering of ours still keeps.",
+      "id": "K088"
+    },
+    {
+      "scenariusz": "en-12-farmers-market-stall",
+      "jezyk": "en",
+      "klasa": "uszkodzony:niedopasowany",
+      "wariant": "self",
+      "kontekst": "The first half hour nearly always goes to setup jobs that could have happened the night before. Awning first, table second, crates last is the order that keeps helpers out of each other's way. Most stalls lose time hunting for things buried behind whatever was loaded last at night. Pack the van in reverse, so the awning comes off the doors first at the site.",
+      "zdanie": "The order Tuesday the end.",
+      "id": "K089"
+    },
+    {
+      "scenariusz": "pl-13-studnia-poglebianie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "Różnica bierze się stąd, że każda z nich czerpie wodę z innej warstwy pod działką. Druga studnia sięga wierceniem do głębszej warstwy, której suchy sierpień prawie wcale nie rusza.",
+      "zdanie": "Podobnie to nasze zastanawianie na tym, co osiadło już wcześniej.",
+      "id": "K090"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_ungrounded",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tamtej instalacji, gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K091"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "external_grounded",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tej drugiej butli, gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K092"
+    },
+    {
+      "scenariusz": "pl-09-wedzenie-ryb",
+      "jezyk": "pl",
+      "klasa": "nienaruszony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie ciąg i temperatura, bo w blaszanej komorze dym potrafi rozgrzać rybę zbyt mocno. Murowany piec w sadzie ma dłuższy przewód, więc dym dociera chłodniejszy i mniej wysusza mięso.",
+      "zdanie": "Ten sam schemat widać w tym przetwarzaniu, gdzie kolejne warstwy nakładają się stopniowo.",
+      "id": "K093"
+    },
+    {
+      "scenariusz": "en-11-cider-press-ferment",
+      "jezyk": "en",
+      "klasa": "uszkodzony:samozwrotny",
+      "wariant": "self",
+      "kontekst": "A drop that size rarely comes from the fruit alone, so start with the pulp itself. Coarse pulp sheds far less juice, and a worn mill will leave hard chunks in every layer. Old cloths blind over with dried pomace too, and blinded cloth lets almost nothing through. Watch the press on the next load and see whether juice stops early or never runs hard.",
+      "zdanie": "Where this wondering of ours crowd in?",
+      "id": "K094"
+    },
+    {
+      "scenariusz": "pl-12-nalewki-klarowanie",
+      "jezyk": "pl",
+      "klasa": "uszkodzony:nieosadzony",
+      "wariant": "self",
+      "kontekst": "Różnicę robi głównie temperatura maceracji, bo w cieple z owoców schodzi więcej pektyn i zawiesiny. Butla z piwnicy pracuje chłodniej, więc osad opada tam wolniej, ale za to zbija się mocniej.",
+      "zdanie": "Coś takiego widać też w tym tamten protokol wymiany gdzie drobiny odkładają się powoli i po cichu.",
+      "id": "K095"
+    }
+  ]
+}

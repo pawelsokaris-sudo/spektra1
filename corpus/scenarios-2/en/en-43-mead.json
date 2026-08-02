@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-43-mead",
+  "language": "en",
+  "topic": "making heather mead: a stuck must, staged nutrient, racking off the lees and ageing before bottling",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: refraktometr (areometr zajety w en-16)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have set my first mead going and the must has stopped bubbling after only nine days.",
+        "An oak cask stands in the cellar and held a batch of cider for two winters.",
+        "A refractometer sits on the shelf and I take a reading from every jar I fill.",
+        "I mixed three pounds of heather honey to the gallon and pitched a wine yeast on top.",
+        "Has the ferment stuck already, or does mead simply finish faster than I had expected?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It has stuck, since nine days is far too short for that weight of honey to be worked through.",
+        "Honey carries almost no nitrogen, so the yeast starves long before the sugar is gone.",
+        "Add nutrient in three small doses over the first week rather than all at the start.",
+        "Rouse the jar daily as well, because yeast that settles early tends to stop working for good."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I added nutrient in stages to the second batch and roused the jar every morning.",
+        "That one ran for five weeks and the refractometer shows it far drier than the first.",
+        "The jar has thrown a thick bed of lees and the liquid above it is still cloudy.",
+        "When should I rack it off, and does the cloudiness clear on its own in time?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rack as soon as the lees are a finger deep, which is usually three weeks after the ferment ends.",
+        "Lees left too long give a bready taste that no amount of ageing will take away again.",
+        "Cloudiness falls out slowly in the cold, so put the jar somewhere unheated after racking.",
+        "Rack a second time two months later and you will rarely need to fine it at all."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I racked at three weeks and again in the new year and the mead has fallen bright.",
+        "The oak cask is standing empty and I have wondered about ageing this batch in it.",
+        "It is a five gallon cask and my batch runs to a little under four.",
+        "I could top it up with water, or I could keep the mead in glass instead.",
+        "Which would you do, given that the cask has held nothing but cider so far?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Keep it in glass, because a part filled cask gives you far more air than mead can stand.",
+        "Air is what turns a good mead thin and sharp, and it happens in weeks rather than months.",
+        "If you want oak, hang a few toasted staves in the jar and taste every fortnight.",
+        "Cider in the wood will also have left tannin that overwhelms a light heather mead.",
+        "Fill the cask properly one day with a larger batch, and it will serve you very well."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I hung two toasted staves in the jar and pulled them out again after five weeks.",
+        "The mead has a little oak about it now without losing the heather at all.",
+        "I would like to bottle it, though I am nervous about a ferment starting again.",
+        "How long should it stand quiet before bottling is safe, and at what temperature?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Give it three months with no movement at all, kept somewhere between ten and fifteen degrees.",
+        "Warm it for a fortnight before bottling, since a hidden yeast will show itself when roused.",
+        "If nothing stirs at all in that fortnight, the mead is as safe as it will ever be.",
+        "Bottle into thick glass regardless, because a heather mead can surprise you a year later."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I warmed it for a fortnight and nothing stirred, so I bottled into champagne glass.",
+        "The first bottle was opened at midsummer and tasted thin and rather sharp to me.",
+        "The rest are lying in the cellar and I am wondering whether to leave them alone.",
+        "Does a young mead of this kind come round, or is that thinness there for good?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It comes round, and a heather mead at six months is no guide whatever to its later self.",
+        "Thinness at that age is mostly the acid standing forward before the honey comes back.",
+        "Leave the bottles two years on their sides in the cellar and open one each autumn.",
+        "The change between the second and the third autumn is usually the one that surprises people."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "You get much the same with this young mead, whenever a single part takes over the work meant for the whole.",
+      "external_grounded": "You get much the same with this oak cask, whenever a single part takes over the work meant for the whole.",
+      "external_computational": "You get much the same with this refractometer, whenever a single part takes over the work meant for the whole.",
+      "external_mundane": "You get much the same with that daily commute, whenever a single part takes over the work meant for the whole.",
+      "external_ungrounded": "You get much the same with that signal box, whenever a single part takes over the work meant for the whole.",
+      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "The same shape of thing shows in this young mead, where the early steps settle what the later ones are able to do.",
+      "external_grounded": "The same shape of thing shows in this oak cask, where the early steps settle what the later ones are able to do.",
+      "external_computational": "The same shape of thing shows in this refractometer, where the early steps settle what the later ones are able to do.",
+      "external_mundane": "The same shape of thing shows in that daily commute, where the early steps settle what the later ones are able to do.",
+      "external_ungrounded": "The same shape of thing shows in that signal box, where the early steps settle what the later ones are able to do.",
+      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears with this young mead, where a later stage means little until the first one is sound.",
+      "external_grounded": "The same order of things appears with this oak cask, where a later stage means little until the first one is sound.",
+      "external_computational": "The same order of things appears with this refractometer, where a later stage means little until the first one is sound.",
+      "external_mundane": "The same order of things appears with that daily commute, where a later stage means little until the first one is sound.",
+      "external_ungrounded": "The same order of things appears with that signal box, where a later stage means little until the first one is sound.",
+      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 1,
+      "neutral": "The same holds true of this young mead, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_grounded": "The same holds true of this oak cask, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_computational": "The same holds true of this refractometer, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_mundane": "The same holds true of that daily commute, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_ungrounded": "The same holds true of that signal box, where hurry at the beginning is paid for slowly and over a long while.",
+      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 3,
+      "neutral": "It goes rather as this young mead does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_grounded": "It goes rather as this oak cask does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_computational": "It goes rather as this refractometer does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_mundane": "It goes rather as that daily commute does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_ungrounded": "It goes rather as that signal box does, in that the real difference only becomes plain after a good stretch of time.",
+      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+    }
+  ]
+}

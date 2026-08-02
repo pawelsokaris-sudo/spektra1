@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-44-copper-smithing",
+  "language": "en",
+  "topic": "raising copper vessels: annealing between courses, even walls, planishing and tinning the inside",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: czujnik zegarowy do pomiaru scianki na warsztacie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started raising copper pans from flat sheet and the rim keeps cracking as it comes up.",
+        "An old kettle hangs by the range and was tinned by my grandfather forty years ago.",
+        "A dial gauge lies on the bench so that I can check the wall as it thins.",
+        "I hammered the first pan down over a stake for an hour without once stopping to anneal it.",
+        "Is the cracking a fault in the sheet, or am I simply working the copper too hard?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "You are working it too hard, since copper hardens under the hammer and will split before long.",
+        "Anneal after every course of hammering, which in raising means every ten minutes or so.",
+        "Heat it to a dull red in a dim corner of the shop and quench it at once.",
+        "Judged in bright daylight you will overheat the copper and lose the very edge you are raising."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I annealed after every course and the second pan came up without a crack anywhere in it.",
+        "The dial gauge shows the wall down to half its starting thickness near the rim.",
+        "That worries me, because the base is still as thick as the sheet I began with.",
+        "Should the wall thin like that, or have I moved the metal in the wrong direction?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Some thinning is unavoidable, but half is too much and tells you the blows fell too near the rim.",
+        "Raising should move metal inward from the edge, gathering it rather than stretching it out.",
+        "Work in courses that begin near the base and travel outward, not the other way about.",
+        "A pan thin at the rim and thick at the base will always ring dead when struck."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I worked the courses outward from the base and the third pan has kept an even wall.",
+        "It rings properly now, much as the old kettle does when I tap it on the side.",
+        "The surface is covered in hammer marks and looks rough beside anything from a shop.",
+        "I understand that planishing smooths it, though I do not know what hammer to use.",
+        "Should the planishing hammer be flat across the face, or slightly domed like a ball?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Slightly domed, and polished until you can see your own face in the striking surface.",
+        "A flat face leaves edge marks that show up as fine crescents under any strong light.",
+        "Planish over a stake that matches the curve, so every blow lands on supported metal.",
+        "Work in overlapping rows and never come back over a row you have already finished.",
+        "The marks should read as a regular skin, since evenness matters far more than smoothness."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The planished skin came out even and the pan looks like a proper piece of work.",
+        "Now I want to tin the inside and have a bar of tin and some resin ready.",
+        "My first attempt left bare patches where the tin refused to take at all.",
+        "Was the copper not clean enough, or did I simply have the pan too cool?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bare patches almost always mean grease, since tin will not wet copper that has been handled.",
+        "Scour it with sand and a cut lemon, then rinse and do not touch the surface again.",
+        "Bring the pan to the heat where a wiped rag leaves a bright, wet line behind it.",
+        "Too cool and the tin sits in beads, too hot and it burns and goes grey."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Scouring with sand and lemon did it and the tin ran right out to the rim.",
+        "The pan has been in daily use since spring and the tin is wearing thin at the centre.",
+        "The old kettle has been tinned only once in living memory and still looks perfectly sound.",
+        "Does a pan need retinning that often, or is mine wearing faster than it should?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "A pan in daily use wears faster than a kettle, which only ever holds water.",
+        "Stirring with metal spoons takes off more tin in a month than heat does in a year.",
+        "Use wood in it and the coat will last you five years rather than one.",
+        "When it does go, have the whole inside stripped and tinned again rather than patched."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "The same thing turns up with this copper pan, where a small fault at the start grows into a large one later on.",
+      "external_grounded": "The same thing turns up with this old kettle, where a small fault at the start grows into a large one later on.",
+      "external_computational": "The same thing turns up with this dial gauge, where a small fault at the start grows into a large one later on.",
+      "external_mundane": "The same thing turns up with that potted fern, where a small fault at the start grows into a large one later on.",
+      "external_ungrounded": "The same thing turns up with that lighting timer, where a small fault at the start grows into a large one later on.",
+      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "It goes rather as this copper pan does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_grounded": "It goes rather as this old kettle does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_computational": "It goes rather as this dial gauge does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_mundane": "It goes rather as that potted fern does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_ungrounded": "It goes rather as that lighting timer does, in that the real difference only becomes plain after a good stretch of time.",
+      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The same shape of thing shows in this copper pan, where the early steps settle what the later ones are able to do.",
+      "external_grounded": "The same shape of thing shows in this old kettle, where the early steps settle what the later ones are able to do.",
+      "external_computational": "The same shape of thing shows in this dial gauge, where the early steps settle what the later ones are able to do.",
+      "external_mundane": "The same shape of thing shows in that potted fern, where the early steps settle what the later ones are able to do.",
+      "external_ungrounded": "The same shape of thing shows in that lighting timer, where the early steps settle what the later ones are able to do.",
+      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 2,
+      "neutral": "You see the same in this copper pan, where what looks finished often turns out to be no more than settling.",
+      "external_grounded": "You see the same in this old kettle, where what looks finished often turns out to be no more than settling.",
+      "external_computational": "You see the same in this dial gauge, where what looks finished often turns out to be no more than settling.",
+      "external_mundane": "You see the same in that potted fern, where what looks finished often turns out to be no more than settling.",
+      "external_ungrounded": "You see the same in that lighting timer, where what looks finished often turns out to be no more than settling.",
+      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 3,
+      "neutral": "Something similar happens with this copper pan, once one part of it quietly takes on the work of all the others.",
+      "external_grounded": "Something similar happens with this old kettle, once one part of it quietly takes on the work of all the others.",
+      "external_computational": "Something similar happens with this dial gauge, once one part of it quietly takes on the work of all the others.",
+      "external_mundane": "Something similar happens with that potted fern, once one part of it quietly takes on the work of all the others.",
+      "external_ungrounded": "Something similar happens with that lighting timer, once one part of it quietly takes on the work of all the others.",
+      "self": "Something similar happens with this processing, once one part of it quietly takes on the work of all the others."
+    }
+  ]
+}

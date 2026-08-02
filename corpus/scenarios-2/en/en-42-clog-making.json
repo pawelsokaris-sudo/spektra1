@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-42-clog-making",
+  "language": "en",
+  "topic": "making wooden clogs: alder soles, hollowing the seat, lasting the leather upper and nailing irons",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz do blokow olchowych"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have started making my own clogs and the soles keep splitting along the grain as they dry.",
+        "A beech last came with the bench and it is the only shape I have to work over.",
+        "A moisture meter lives in the drawer and I press it into every block before I cut.",
+        "I felled the alder in March and roughed out four soles the same week with the stock knife.",
+        "Should the block be seasoned before roughing out, or is green wood the right thing for a sole?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Green wood is right for roughing, since alder cuts like cheese when wet and like stone when dry.",
+        "The splitting comes afterwards, from drying the roughed soles too fast in a warm room.",
+        "Stack them loose under cover where the air moves freely but the sun never reaches them.",
+        "Three months of slow drying will lose you nothing, while three weeks of quick drying loses half."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I stacked the next batch loose in the open shed and they have dried without a single split.",
+        "The moisture meter reads about eighteen per cent now, down from thirty when I cut them.",
+        "The hollowing is giving me trouble because the seat comes out deeper on one side than the other.",
+        "Is that the fault of the knife, or of the way I hold the sole against the bench?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is the hold, since a sole that rocks on the bench takes the knife unevenly at every stroke.",
+        "Wedge the toe hard against the stop and keep your knee across the waist of the sole.",
+        "Work the hollower from both sides toward the middle and never in one long sweep.",
+        "Check the seat with your palm rather than your eye, because the hand feels a hollow the eye misses."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wedging the toe cured it and the seats now come out even on both sides of the sole.",
+        "I have four soles ready and would like to cut the uppers from a shoulder of leather.",
+        "The beech last is a size too large for the foot I am making these clogs for.",
+        "I could pad the last with felt, or I could cut the upper smaller and stretch it on.",
+        "Which of the two is less likely to leave me with a crooked seam at the heel?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pad the last, because leather cut short pulls the seam round toward the outside of the heel.",
+        "Felt glued to the last holds its shape and can be taken off again for the next pair.",
+        "Cut the upper with the backbone of the hide running from toe to heel, and never across.",
+        "Leather cut across the back will stretch sideways and the clog grows wide within a month.",
+        "Wet the upper before you last it, and leave it on the last until it is bone dry."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I padded the last with felt and the upper came off it with a straight seam at last.",
+        "Nailing the upper to the sole is slow and two nails have split out through the edge.",
+        "I am using ordinary tacks because the proper clog nails were nowhere to be had.",
+        "Does the nail really matter that much, or should I simply set them further in?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The nail matters a great deal, since a clog nail has a flat blade that cuts across the grain.",
+        "A round tack acts as a wedge instead and splits the sole exactly as you have found.",
+        "Set them a good quarter inch in from the edge and drive with a light, quick blow.",
+        "If you cannot find clog nails, farriers will sometimes keep something close enough to serve."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I found proper clog nails at a farrier and nailed a whole pair without splitting anything.",
+        "The clogs have been worn daily for a month and the soles are wearing at the toe.",
+        "My grandfather had irons on his, though I have no idea at all how they were fitted.",
+        "Are irons worth putting on, or would a rubber strip do the same work more quietly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Irons are worth it on stone and cobble, where rubber wears away in a matter of weeks.",
+        "They are nailed cold through the same holes each time they are renewed, so drill once and well.",
+        "Rubber is quieter and kinder indoors, but it grips badly on wet flags and worn steps.",
+        "Many people iron the heel and rubber the toe, which answers both wants at once."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "I think of this clog sole in much the same way, since the middle of it tells you very little about the end.",
+      "external_grounded": "I think of this beech last in much the same way, since the middle of it tells you very little about the end.",
+      "external_computational": "I think of this moisture meter in much the same way, since the middle of it tells you very little about the end.",
+      "external_mundane": "I think of that bread dough in much the same way, since the middle of it tells you very little about the end.",
+      "external_ungrounded": "I think of that lift controller in much the same way, since the middle of it tells you very little about the end.",
+      "self": "I think of this processing in much the same way, since the middle of it tells you very little about the end."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "I suspect this clog sole follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_grounded": "I suspect this beech last follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_computational": "I suspect this moisture meter follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_mundane": "I suspect that bread dough follows the very same course, because one early slip decides how all the rest turns out.",
+      "external_ungrounded": "I suspect that lift controller follows the very same course, because one early slip decides how all the rest turns out.",
+      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "You see the same in this clog sole, where what looks finished often turns out to be no more than settling.",
+      "external_grounded": "You see the same in this beech last, where what looks finished often turns out to be no more than settling.",
+      "external_computational": "You see the same in this moisture meter, where what looks finished often turns out to be no more than settling.",
+      "external_mundane": "You see the same in that bread dough, where what looks finished often turns out to be no more than settling.",
+      "external_ungrounded": "You see the same in that lift controller, where what looks finished often turns out to be no more than settling.",
+      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "That reminds me a little of this clog sole, so long as you attend only to the order in which the steps fall.",
+      "external_grounded": "That reminds me a little of this beech last, so long as you attend only to the order in which the steps fall.",
+      "external_computational": "That reminds me a little of this moisture meter, so long as you attend only to the order in which the steps fall.",
+      "external_mundane": "That reminds me a little of that bread dough, so long as you attend only to the order in which the steps fall.",
+      "external_ungrounded": "That reminds me a little of that lift controller, so long as you attend only to the order in which the steps fall.",
+      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 2,
+      "neutral": "The same thing turns up with this clog sole, where a small fault at the start grows into a large one later on.",
+      "external_grounded": "The same thing turns up with this beech last, where a small fault at the start grows into a large one later on.",
+      "external_computational": "The same thing turns up with this moisture meter, where a small fault at the start grows into a large one later on.",
+      "external_mundane": "The same thing turns up with that bread dough, where a small fault at the start grows into a large one later on.",
+      "external_ungrounded": "The same thing turns up with that lift controller, where a small fault at the start grows into a large one later on.",
+      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-41-bee-skep",
+  "language": "en",
+  "topic": "making straw bee skeps: coiling to a girth, bramble binding, hiving swarms and judging stores by weight",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: waga sprezynowa przy drzwiach szopy (waga ula zajeta w en-03)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I have begun making straw skeps for my swarms and the coils will not lie flat as they rise.",
+        "A bait hive sits in the old orchard and has taken a swarm for me two summers running.",
+        "A spring balance hangs by the shed door so that I can weigh each skep as it fills.",
+        "My first skep is broad at the base but narrows too quickly once I am four coils up.",
+        "Is that the fault of my girth, or am I drawing the straw too tightly at the turn?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It is the girth, almost certainly, since that ring alone decides the thickness of every coil you lay.",
+        "Pull each handful through the same girth and the coils will keep an even thickness the whole way up.",
+        "Narrowing comes from taking less straw as the hand tires, which happens to everybody at first.",
+        "Judge the coil by the ring and never by eye, because the eye grows generous as you go."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I made a proper girth out of a cow horn and the coils now come out very even.",
+        "The spring balance shows the finished skep at barely three pounds, which seems light to me.",
+        "The binding of split bramble keeps splitting itself whenever I draw it through the coil below.",
+        "Should the bramble be soaked first, or am I splitting it too thin to take the strain?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Soak the bramble overnight and split it into three, not into two as most people begin.",
+        "Thin bramble is stronger than thick, because the pith in a heavy strip breaks under the pull.",
+        "Draw it through with a bone bodkin and keep the shiny side outward as you bind.",
+        "A skep bound with dry bramble will loosen within a month and let the coils slide apart."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Soaking the bramble made all the difference and the binding no longer splits on me.",
+        "The first skep has stood a full season and the coils have not moved at all.",
+        "The bait hive took another swarm in June, which I hived into my second skep.",
+        "The bees have built comb hard against the walls and I cannot lift the skep to look.",
+        "How am I to judge the stores without cutting into the comb along the side?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Weight is the whole of it, and a hefted skep tells you more than any look inside.",
+        "A good skep of bees in autumn should feel like a full bucket of water when lifted.",
+        "Weigh it, note the figure and weigh again in a month, since the fall matters more than the number.",
+        "If the weight drops away fast in October you have a colony that will not see the spring.",
+        "Feed then, and not in January, because syrup taken late is never properly stored away."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I weighed the skep in September and again a month later and it had lost two pounds.",
+        "That seemed a fair fall, so I fed thick syrup until the weight had come back up.",
+        "The colony came through the winter and threw a strong swarm at the end of May.",
+        "Should I let that swarm build its own comb, or give it a start from the old skep?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Let it build its own, since a swarm draws comb faster than at any other time of its life.",
+        "Comb cut from an old skep sags and carries whatever the last colony left behind in it.",
+        "Set the new skep on a clean board and shade it for the first week or so.",
+        "Fresh comb built in June will carry that colony for the next four or five years."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The swarm drew its comb in a fortnight and filled the skep almost down to the board.",
+        "I now have three skeps and would like to take honey without destroying any colony.",
+        "My grandfather used to drive the bees upward into an empty skep set above the full one.",
+        "Is driving still worth doing, or is it more trouble than the honey is worth?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Driving is worth it, and with straw it is the only decent way to take a crop.",
+        "Set the empty skep mouth to mouth above the full one and drum steadily on the sides.",
+        "The bees walk up within ten minutes, and you take the lower skep with no loss at all.",
+        "Do it on a warm afternoon in August, so the driven colony still has time to build."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears with this straw skep, where a later stage means little until the first one is sound.",
+      "external_grounded": "The same order of things appears with this bait hive, where a later stage means little until the first one is sound.",
+      "external_computational": "The same order of things appears with this spring balance, where a later stage means little until the first one is sound.",
+      "external_mundane": "The same order of things appears with that weekly ironing, where a later stage means little until the first one is sound.",
+      "external_ungrounded": "The same order of things appears with that alarm panel, where a later stage means little until the first one is sound.",
+      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Something similar happens with this straw skep, once one part of it quietly takes on the work of all the others.",
+      "external_grounded": "Something similar happens with this bait hive, once one part of it quietly takes on the work of all the others.",
+      "external_computational": "Something similar happens with this spring balance, once one part of it quietly takes on the work of all the others.",
+      "external_mundane": "Something similar happens with that weekly ironing, once one part of it quietly takes on the work of all the others.",
+      "external_ungrounded": "Something similar happens with that alarm panel, once one part of it quietly takes on the work of all the others.",
+      "self": "Something similar happens with this processing, once one part of it quietly takes on the work of all the others."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "It goes rather as this straw skep does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_grounded": "It goes rather as this bait hive does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_computational": "It goes rather as this spring balance does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_mundane": "It goes rather as that weekly ironing does, in that the real difference only becomes plain after a good stretch of time.",
+      "external_ungrounded": "It goes rather as that alarm panel does, in that the real difference only becomes plain after a good stretch of time.",
+      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 3,
+      "neutral": "I think of this straw skep in much the same way, since the middle of it tells you very little about the end.",
+      "external_grounded": "I think of this bait hive in much the same way, since the middle of it tells you very little about the end.",
+      "external_computational": "I think of this spring balance in much the same way, since the middle of it tells you very little about the end.",
+      "external_mundane": "I think of that weekly ironing in much the same way, since the middle of it tells you very little about the end.",
+      "external_ungrounded": "I think of that alarm panel in much the same way, since the middle of it tells you very little about the end.",
+      "self": "I think of this processing in much the same way, since the middle of it tells you very little about the end."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "The same holds true of this straw skep, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_grounded": "The same holds true of this bait hive, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_computational": "The same holds true of this spring balance, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_mundane": "The same holds true of that weekly ironing, where hurry at the beginning is paid for slowly and over a long while.",
+      "external_ungrounded": "The same holds true of that alarm panel, where hurry at the beginning is paid for slowly and over a long while.",
+      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+    }
+  ]
+}

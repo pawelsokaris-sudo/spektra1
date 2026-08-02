@@ -1,0 +1,159 @@
+{
+  "scenario_id": "en-45-peat-cutting",
+  "language": "en",
+  "topic": "cutting peat on a hill bank: footing the turfs, the bottom spit, building a rickle and stacking at home",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-6)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: deszczomierz z odczytem przy glowie banku"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I took over a peat bank on the hill this spring and cut my first turfs in May.",
+        "The turf shed behind the house still holds a few dozen turfs from my uncle's time.",
+        "A rain gauge stands at the head of the bank and I read it every week.",
+        "I cut about two thousand turfs and laid them flat on the heather to dry.",
+        "They are still soft in August, so am I drying them wrongly or simply cutting too late?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Laid flat is the whole trouble, since a turf on its side dries on one face only.",
+        "Foot them instead: set three or four on end, leaning together, a week after cutting.",
+        "The wind then reaches every face and the water leaves from the whole surface at once.",
+        "A footed turf dries in a month where a flat one is still soft at Michaelmas."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I footed the next cutting a week after lifting them and the difference was very plain.",
+        "The rain gauge shows barely an inch through June, which must have helped a good deal.",
+        "Some turfs at the foot of the bank are still heavy and darker than the rest.",
+        "Is that a wetter part of the bank, or did I cut those ones too deep?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Too deep, most likely, because the bottom spit lies below the water and never dries the same.",
+        "Black peat from that depth burns longer but wants an extra month standing in the wind.",
+        "Keep the bottom spit separate from the top and foot it in rather smaller groups.",
+        "Mixing the two in one stack means the good turfs take damp back from the poor ones."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I kept the bottom spit apart and footed it in threes on the driest part of the bank.",
+        "By the end of July the top spit rang hollow when I knocked two turfs together.",
+        "The turf shed is only half full and I have four cartloads still out on the hill.",
+        "The weather has turned and I am anxious about leaving them up there much longer.",
+        "Should I bring them home wet, or build a rickle on the bank and wait?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Build the rickle on the bank, since turfs brought home damp will heat and go to dust.",
+        "A rickle is loosely built and a stack tightly built, and that difference decides the winter.",
+        "Set the turfs on edge in a round heap with the ends outward and a hollow middle.",
+        "Rain runs off the outer turfs and the wind still works through the whole heap.",
+        "Leave it three weeks and then cart home whatever rings hollow to the knuckle."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The rickle stood three weeks and nearly all of it rang hollow when I came back.",
+        "I carted the turfs home and now have the shed full and a good deal left over.",
+        "The extra will have to sit outside against the gable through the whole winter.",
+        "How should an outdoor stack be built so that the rain does not spoil the lot?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Build it long and narrow rather than square, with the ends of the turfs facing outward.",
+        "Slope the sides slightly inward as you rise, so each course sheds water clear of the one below.",
+        "Cap it with the poorest turfs laid flat and overlapping, which you can afford to lose.",
+        "Never cover a peat stack with sheeting, because what cannot breathe will rot from within."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I built the stack long and narrow and capped it with the worst of the bottom spit.",
+        "It has come through the winter and only the cap turfs were spoiled at all.",
+        "Next May I want to cut a fresh face rather than work the old one any further.",
+        "Where along the bank should a new face be opened, and how wide should it run?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Open the new face at the end of the old one, so the drainage you have made still serves.",
+        "Flay the heather off a strip about a yard wide and throw it into the cut ground behind.",
+        "A yard is as much as one person can keep dry and lift in a single season.",
+        "Work always with the bank on your left and the cut ground filling in behind you."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 2,
+      "neutral": "Much the same holds for this cut peat, as long as you look at how each stage hands its work over to the next.",
+      "external_grounded": "Much the same holds for this turf shed, as long as you look at how each stage hands its work over to the next.",
+      "external_computational": "Much the same holds for this rain gauge, as long as you look at how each stage hands its work over to the next.",
+      "external_mundane": "Much the same holds for that daily dog walk, as long as you look at how each stage hands its work over to the next.",
+      "external_ungrounded": "Much the same holds for that alarm keypad, as long as you look at how each stage hands its work over to the next.",
+      "self": "Much the same holds for this processing, as long as you look at how each stage hands its work over to the next."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "That reminds me a little of this cut peat, so long as you attend only to the order in which the steps fall.",
+      "external_grounded": "That reminds me a little of this turf shed, so long as you attend only to the order in which the steps fall.",
+      "external_computational": "That reminds me a little of this rain gauge, so long as you attend only to the order in which the steps fall.",
+      "external_mundane": "That reminds me a little of that daily dog walk, so long as you attend only to the order in which the steps fall.",
+      "external_ungrounded": "That reminds me a little of that alarm keypad, so long as you attend only to the order in which the steps fall.",
+      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "I think of this cut peat in much the same way, since the middle of it tells you very little about the end.",
+      "external_grounded": "I think of this turf shed in much the same way, since the middle of it tells you very little about the end.",
+      "external_computational": "I think of this rain gauge in much the same way, since the middle of it tells you very little about the end.",
+      "external_mundane": "I think of that daily dog walk in much the same way, since the middle of it tells you very little about the end.",
+      "external_ungrounded": "I think of that alarm keypad in much the same way, since the middle of it tells you very little about the end.",
+      "self": "I think of this processing in much the same way, since the middle of it tells you very little about the end."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "The same order of things appears with this cut peat, where a later stage means little until the first one is sound.",
+      "external_grounded": "The same order of things appears with this turf shed, where a later stage means little until the first one is sound.",
+      "external_computational": "The same order of things appears with this rain gauge, where a later stage means little until the first one is sound.",
+      "external_mundane": "The same order of things appears with that daily dog walk, where a later stage means little until the first one is sound.",
+      "external_ungrounded": "The same order of things appears with that alarm keypad, where a later stage means little until the first one is sound.",
+      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 0,
+      "neutral": "The same thing turns up with this cut peat, where a small fault at the start grows into a large one later on.",
+      "external_grounded": "The same thing turns up with this turf shed, where a small fault at the start grows into a large one later on.",
+      "external_computational": "The same thing turns up with this rain gauge, where a small fault at the start grows into a large one later on.",
+      "external_mundane": "The same thing turns up with that daily dog walk, where a small fault at the start grows into a large one later on.",
+      "external_ungrounded": "The same thing turns up with that alarm keypad, where a small fault at the start grows into a large one later on.",
+      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+    }
+  ]
+}
