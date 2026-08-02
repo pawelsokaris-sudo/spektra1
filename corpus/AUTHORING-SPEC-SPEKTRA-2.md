@@ -91,6 +91,14 @@ Musi **realnie żyć w dialogu**: wspomniany wcześniej, z podobną świeżości
 i podobną liczbą wzmianek co temat główny. Samo pojawienie się słowa 700 tokenów
 wcześniej **nie wystarcza**. „ten drugi piec", „tamta starsza forma".
 
+> **KONSEKWENCJA DLA BUDOWY BAZY, wykryta przy pisaniu wzorca:** jeśli pierwsza
+> insercja siedzi w turze 0, to obiekt osadzony musi zostać wprowadzony
+> **w pierwszych zdaniach tury 0, przed nią.** Czyli baza dialogu musi od razu
+> wspomnieć drugi obiekt dziedzinowy — w scenariuszu wzorcowym jest to „drugi,
+> mniejszy zegar w kuchni", wprowadzony w zdaniu 1, przy insercji po zdaniu 1.
+> Bez tego wariant `external_grounded` nie jest osadzony i cała para przestaje
+> mierzyć to, co ma mierzyć.
+
 ### `external_ungrounded` — układ spoza dziedziny, rejestr techniczny
 Urządzenie, sterownik, instalacja, protokół — coś, o czym w dialogu nie było mowy.
 „tamto sterowanie", „tamten regulator".

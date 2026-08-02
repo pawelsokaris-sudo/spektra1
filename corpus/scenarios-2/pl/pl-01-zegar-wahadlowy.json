@@ -1,0 +1,151 @@
+{
+  "scenario_id": "pl-01-zegar-wahadlowy",
+  "language": "pl",
+  "topic": "regulacja starego zegara wahadlowego: poziom skrzyni, wychwyt i bicie",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (wzorzec)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "scenariusz wzorcowy dla autorow"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Odziedziczylem po dziadku zegar wahadlowy i chcialbym go wreszcie ustawic tak, zeby chodzil rowno.",
+        "W kuchni wisi jeszcze drugi, mniejszy zegar, ktory dziadek regulowal sam i ktory chodzi bez zarzutu.",
+        "Skrzynia tego duzego stoi przy scianie, a podloga jest tam wyraznie nierowna i lekko sie ugina.",
+        "Czy zaczynac od wypoziomowania skrzyni, czy raczej od samego wychwytu i jego regulacji?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od skrzyni, bo wszystkie pozniejsze ustawienia i tak licza sie wzgledem jej pionu.",
+        "Nierowna podloga przenosi sie na wahadlo i powoduje, ze amplituda z kazdej strony jest inna.",
+        "Dopiero po wypoziomowaniu ma sens dotykanie wychwytu, inaczej poprawiasz skutek zamiast przyczyny.",
+        "Warto tez sprawdzic, czy tylna scianka skrzyni przylega rowno do muru na calej wysokosci."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wypoziomowalem skrzynie klinami i rzeczywiscie tykanie brzmi teraz bardziej symetrycznie niz wczesniej.",
+        "Nadal jednak slysze, ze jedna strona wybrzmiewa krocej, jakby wahadlo tracilo tam troche energii.",
+        "Czy to znaczy, ze wychwyt jest zuzyty, czy raczej ze cos ociera o wewnetrzna obudowe?",
+        "Mam pod reka lusterko i latarke, wiec moge zajrzec w glab mechanizmu bez jego rozbierania."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zajrzyj najpierw wzdluz osi wahadla, bo najczesciej ociera ono o pret zawieszenia albo o tarcze.",
+        "Zuzycie wychwytu slychac inaczej: tykanie robi sie nierowne w tempie, a nie w glosnosci.",
+        "Jesli krotsze wybrzmienie wystepuje tylko po jednej stronie, to zwykle kwestia geometrii, nie zuzycia.",
+        "Sprawdz tez, czy sprezyna bicia nie zahacza o wewnetrzna scianke przy pelnym wychyleniu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Faktycznie, pret zawieszenia muskal krawedz tarczy przy wiekszych wychyleniach i zostawil tam wyrazny slad.",
+        "Po odsunieciu tarczy o milimetr obie strony wybrzmiewaja teraz mniej wiecej tak samo dlugo.",
+        "Zostaje bicie, ktore nadal odzywa sie z opoznieniem wobec polozenia wskazowek na tarczy.",
+        "Czy to sie reguluje osobno, czy wynika wprost z ustawienia calego pozostalego mechanizmu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Bicie ma wlasny zespol kol i wlasne zazebienie, wiec reguluje sie je niezaleznie od chodu.",
+        "Zwykle wystarczy przestawic dzwignie wyzwalajaca o jeden zab, zeby uderzenie trafilo we wlasciwa minute.",
+        "Rob to przy zatrzymanym wahadle, inaczej latwo przeskoczyc o kilka zebow naraz.",
+        "Po kazdej zmianie odczekaj pelna godzine i sprawdz, czy liczba uderzen nadal sie zgadza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przestawilem dzwignie o jeden zab i po godzinie uderzenie wypadlo niemal dokladnie na pelnej.",
+        "Zegar chodzi teraz spokojnie, choc wieczorem wydaje sie przyspieszac o kilkanascie sekund.",
+        "Podejrzewam temperature w pokoju, bo nagrzewa sie on od pieca dopiero poznym popoludniem.",
+        "Czy taki dobowy rytm da sie w ogole skompensowac bez wymiany wahadla na zupelnie inne?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie, ale w prostym zegarze kompensacja polega glownie na doborze dlugosci samego preta.",
+        "Mosiadz wydluza sie przy cieple, wiec wahadlo zwalnia, a nie przyspiesza tak jak u ciebie.",
+        "Przyspieszanie wieczorem sugeruje raczej zmiane tarcia w lozyskach niz samo rozszerzanie sie materialu.",
+        "Sprawdz, czy olej w lozyskach nie gestnieje rano i nie rzednie dopiero po nagrzaniu pokoju."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Rzeczywiscie, rano mechanizm chodzi ospale, a po nagrzaniu pomieszczenia wyraznie sie rozrusza.",
+        "Olej wyglada na stary i w kilku miejscach zebral sie w gestsze, ciemniejsze krople.",
+        "Chcialbym go wymienic, ale troche boje sie rozbierac caly mechanizm na czesci pierwsze.",
+        "Czy da sie to zrobic punktowo, bez wyjmowania kol zebatych z plyt nosnych?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Punktowo da sie, choc efekt bedzie tymczasowy i po roku wroci dokladnie ten sam problem.",
+        "Stary olej trzeba najpierw rozpuscic, inaczej nowy tylko rozcienczy osad zamiast go usunac.",
+        "Jesli nie chcesz rozbierac, przemyj przynajmniej lozyska gorne, bo one pracuja najciezej.",
+        "Potem obserwuj przez tydzien, czy poranna ospalosc ustapila, zanim zdecydujesz o pelnym serwisie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 1,
+      "neutral": "Z tym wahadlem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
+      "external_grounded": "Z tym mniejszym zegarem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
+      "external_mundane": "Z tym starym rowerem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
+      "external_ungrounded": "Z tamtym sterowaniem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc u podstawy zmienia potem cala reszte."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tym wahadlem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_grounded": "Ten sam porzadek widac przy tym mniejszym zegarem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_mundane": "Ten sam porzadek widac przy tym starym rowerem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniem, gdzie kolejnosc krokow decyduje o efekcie koncowym."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tym wahadlem, kiedy jeden element przejmuje prace za pozostale.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tym mniejszym zegarem, kiedy jeden element przejmuje prace za pozostale.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tym starym rowerem, kiedy jeden element przejmuje prace za pozostale.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowaniem, kiedy jeden element przejmuje prace za pozostale.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniem, kiedy jeden element przejmuje prace za pozostale."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym wahadlem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_grounded": "Przy tym mniejszym zegarem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_mundane": "Przy tym starym rowerem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "external_ungrounded": "Przy tamtym sterowaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo.",
+      "self": "Przy tym przetwarzaniem bywa tak samo, bo dopiero po dluzszej chwili widac, co sie naprawde zmienilo."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina to wahadlo, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
+      "external_grounded": "To troche przypomina ten mniejszy zegar, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
+      "external_mundane": "To troche przypomina ten stary rower, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
+      "external_ungrounded": "To troche przypomina tamto sterowanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow."
+    }
+  ]
+}
