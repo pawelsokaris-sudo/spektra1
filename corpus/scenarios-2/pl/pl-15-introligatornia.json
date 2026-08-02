@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-15-introligatornia",
+  "language": "pl",
+  "topic": "oprawa zeszytu rodzinnego w plotno: klej, zaokraglanie grzbietu i wyklejki",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: cyfrowy manometr dokrecony do prasy introligatorskiej"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Oprawiam w plotno stary zeszyt rodzinny i chcialbym zrobic grzbiet, ktory wytrzyma czytanie.",
+        "Na polce stoi starszy tom, ktory oprawialem zima i ktory juz zaczyna sie rozklejac.",
+        "Do prasy dokrecilem cyfrowy manometr, bo wczesniej sciskalem grzbiet zupelnie na wyczucie.",
+        "Skladki zszylem na tasmach, ale grzbiet po sklejeniu wychodzi mi twardy jak deska.",
+        "Czy zaczynac od zmiany kleju, czy raczej od sposobu zaokraglania calego grzbietu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od kleju, bo twardy grzbiet bierze sie prawie zawsze ze zbyt sztywnej warstwy.",
+        "Klej introligatorski musi zostac elastyczny, wiec nakladaj go cienko i w dwoch warstwach.",
+        "Pierwsza warstwa ma tylko zwiazac skladki, a druga dopiero utrzymac cala gaze wzmacniajaca.",
+        "Zaokraglaj grzbiet zaraz po pierwszej warstwie, kiedy klej jest jeszcze lekko wilgotny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Nalozylem klej w dwoch cienkich warstwach i grzbiet daje sie teraz zaokraglic mlotkiem.",
+        "W tym starszym tomie klej byl chyba za gesty, bo odchodzi calymi platami.",
+        "Po zaokragleniu skladki wystaja mi jednak nierowno przy samej gornej krawedzi bloku.",
+        "Czy to blad szycia, czy raczej za mocne uderzenia mlotkiem po jednej stronie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Nierowne wystawanie skladek u gory to prawie zawsze blad przy samym szyciu.",
+        "Sprawdz, czy wszystkie skladki lezaly rowno w prasce, zanim zaczales przekluwac otwory.",
+        "Mlotek moze to pogorszyc, ale sam z siebie rzadko przesuwa cale skladki.",
+        "Przy nastepnym bloku wyrownaj skladki do gornej krawedzi i dopiero wtedy zaznaczaj otwory."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wyrownalem blok do gornej krawedzi i skladki leza teraz rowno na calej wysokosci.",
+        "Cyfrowy manometr pokazuje przy sciskaniu okolo dwoch atmosfer, wiec chyba mocno przesadzam.",
+        "Plotno na okladce marszczy sie przy grzbiecie, mimo ze naciagam je bardzo starannie.",
+        "Czy to wina nacisku w prasie, czy raczej zbyt mokrego kleju pod plotnem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dwie atmosfery to naprawde duzo, a marszczenie plotna bierze sie zwykle z nadmiaru kleju.",
+        "Nakladaj klej na okladke, nigdy na plotno, i rozprowadzaj go szeroka szczotka.",
+        "Plotno naciagaj od srodka ku brzegom, wygladzajac je kostka przez cienki arkusz papieru.",
+        "W prasie trzymaj okladki pod mniejszym naciskiem, ale za to przez cala noc."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmniejszylem nacisk i zostawilem okladki w prasie na cala noc pod deskami.",
+        "Plotno lezy teraz gladko, a naroza wyszly ostre i rowne z obu stron.",
+        "Zostaly mi jeszcze wyklejki, ktore marszcza sie przy sklejaniu z wewnetrzna strona okladki.",
+        "Czy da sie temu zaradzic, czy papier zawsze bedzie tak pracowal po nawilzeniu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Papier zawsze pracuje, ale marszczenie znika, jesli dobierzesz kierunek wlokien do grzbietu.",
+        "Wlokna wyklejki musza biec rownolegle do grzbietu, inaczej arkusz wybrzuszy sie po wyschnieciu.",
+        "Sprawdz kierunek, zwilzajac rog arkusza i patrzac, w ktora strone sam sie zwija.",
+        "Sklejaj wyklejke cienko i od razu wkladaj blok pod obciazenie na kilka godzin."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dobralem kierunek wlokien i wyklejki wyschly gladko, bez jednej falki przy grzbiecie.",
+        "Ksiazka otwiera sie plasko i grzbiet uklada sie rowno przy kazdej stronie.",
+        "Chcialbym jeszcze wytloczyc tytul na plotnie, ale nie mam z tym zupelnie zadnego doswiadczenia.",
+        "Czy zaczynac od tloczenia na sucho, czy od razu probowac ze zlota folia?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od tloczenia na sucho, bo pozwala poczuc glebokosc i temperature bez marnowania folii.",
+        "Plotno przyjmuje tlok gorzej niz skora, wiec grzej czcionki nieco mocniej niz zwykle.",
+        "Rob probe zawsze na scinkach z tej samej beli, bo kazda partia reaguje inaczej.",
+        "Dopiero potem przejdz na folie i pamietaj, ze drugie uderzenie nigdy nie trafia idealnie."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym klejonym grzbietem jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej.",
+      "external_grounded": "Z tym starszym tomem jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej.",
+      "external_computational": "Z tym cyfrowym manometrem jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej.",
+      "external_mundane": "Z tamta emaliowana miska jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej.",
+      "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o efekcie decyduje to, co zrobi sie najwczesniej."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym klejonym grzbiecie, gdzie staranne przygotowanie znaczy wiecej niz wprawa.",
+      "external_grounded": "Ten sam porzadek widac przy tym starszym tomie, gdzie staranne przygotowanie znaczy wiecej niz wprawa.",
+      "external_computational": "Ten sam porzadek widac przy tym cyfrowym manometrze, gdzie staranne przygotowanie znaczy wiecej niz wprawa.",
+      "external_mundane": "Ten sam porzadek widac przy tamtej emaliowanej misce, gdzie staranne przygotowanie znaczy wiecej niz wprawa.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku, gdzie staranne przygotowanie znaczy wiecej niz wprawa.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie staranne przygotowanie znaczy wiecej niz wprawa."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego widuje sie przy tym klejonym grzbiecie, kiedy jeden drobiazg pociaga za soba reszte.",
+      "external_grounded": "Cos podobnego widuje sie przy tym starszym tomie, kiedy jeden drobiazg pociaga za soba reszte.",
+      "external_computational": "Cos podobnego widuje sie przy tym cyfrowym manometrze, kiedy jeden drobiazg pociaga za soba reszte.",
+      "external_mundane": "Cos podobnego widuje sie przy tamtej emaliowanej misce, kiedy jeden drobiazg pociaga za soba reszte.",
+      "external_ungrounded": "Cos podobnego widuje sie przy tamtym sterowniku, kiedy jeden drobiazg pociaga za soba reszte.",
+      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden drobiazg pociaga za soba reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym klejonym grzbiecie bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie.",
+      "external_grounded": "Przy tym starszym tomie bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie.",
+      "external_computational": "Przy tym cyfrowym manometrze bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie.",
+      "external_mundane": "Przy tamtej emaliowanej misce bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie.",
+      "external_ungrounded": "Przy tamtym sterowniku bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutek widac dopiero po dluzszym odstepie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten klejony grzbiet, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_grounded": "To troche przypomina ten starszy tom, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_computational": "To troche przypomina ten cyfrowy manometr, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_mundane": "To troche przypomina tamte emaliowana miske, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten sterownik, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci."
+    }
+  ]
+}

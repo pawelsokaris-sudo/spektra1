@@ -167,6 +167,13 @@ def differing_span(a, b):
     j = 0
     while j < min(len(a), len(b)) - i and a[len(a) - 1 - j] == b[len(b) - 1 - j]:
         j += 1
+    # PRZYCIECIE DO GRANICY WYRAZU. Bez tego "this X" i "that Y" dziela przedrostek
+    # "th" i funkcja zwracala urwane frazy ("at old armchair"), przez co detektor
+    # pulapek ogladal cos innego niz podmieniona fraze.
+    while i > 0 and not a[i - 1].isspace():
+        i -= 1
+    while j > 0 and not (a[len(a) - j].isspace() if len(a) - j < len(a) else True):
+        j -= 1
     return a[:i], a[i:len(a) - j], b[i:len(b) - j]
 
 
@@ -187,13 +194,16 @@ def check_mundane(scenario):
         mundane, ref = pair.get("external_mundane"), pair.get("neutral")
         if not mundane or not ref:
             continue
-        _, fraza_m, _ = differing_span(mundane, ref)
-        if not fraza_m.strip():
+        # Tozsamosc sprawdzana WPROST, nie przez pusta roznice: po przycieciu
+        # differing_span do granicy wyrazu identyczne zdania zwracaja ostatni
+        # wyraz, a nie pustke (regresja zlapana przez test).
+        if mundane == ref:
             problems.append(
                 f"{sid}: insercja {k} - wariant zwyczajny jest IDENTYCZNY "
                 f"z neutralnym; podmieniona fraza musi sie roznic"
             )
             continue
+        _, fraza_m, _ = differing_span(mundane, ref)
         # udzial ramy: jesli rozni sie wiecej niz sama fraza, spec par. 2 zlamana
         if len(fraza_m) > 0.5 * len(mundane):
             problems.append(

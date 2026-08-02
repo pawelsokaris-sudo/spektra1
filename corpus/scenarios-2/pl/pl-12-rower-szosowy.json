@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-12-rower-szosowy",
+  "language": "pl",
+  "topic": "regulacja tylnej przerzutki i centrowanie kola w skladanym od nowa rowerze szosowym",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: czujnik kadencji na kierownicy"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Skladam do kupy stary rower szosowy i chcialbym wreszcie ustawic tylna przerzutke bez przeskokow.",
+        "Przednie kolo mam z innego roweru i przy hamowaniu wyraznie ociera o klocek.",
+        "Na kierownicy zamontowalem czujnik kadencji, bo chce jezdzic rowniej i pilnowac tempa.",
+        "Lancuch jest nowy, kaseta stara, a linka przerzutki chodzi w pancerzu dosc opornie.",
+        "Czy zaczynac od wymiany linki, czy najpierw ustawiac ograniczniki na samej przerzutce?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od linki i pancerza, bo opor w pancerzu psuje kazde pozniejsze ustawienie.",
+        "Przerzutka wraca sprezyna, wiec kazdy dodatkowy opor odbija sie na biegach najlzejszych.",
+        "Dopiero po wymianie linki ustawiaj ograniczniki, zaczynajac zawsze od najmniejszej zebatki na kasecie.",
+        "Na koncu reguluj napiecie linki bebenkiem, majac lancuch na srodkowej zebatce kasety."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wymienilem linke i pancerz, a przerzutka chodzi teraz duzo lzej niz wczesniej.",
+        "Przy okazji odkrecilem to przednie kolo i zobaczylem, ze obrecz ma wyrazna osemke.",
+        "Biegi wchodza rowno w gore, ale przy schodzeniu w dol lancuch zawsze przeskakuje dwa.",
+        "Czy to nadal kwestia napiecia linki, czy raczej zuzytych zebow na starej kasecie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przeskok o dwie zebatki w dol wskazuje zwykle na zbyt duze napiecie linki.",
+        "Poluzuj bebenek o cwierc obrotu i sprawdz zmiane biegu przy krecacych sie korbach.",
+        "Jesli przeskok zostanie, obejrzyj wieszak przerzutki, bo bywa lekko wygiety do srodka.",
+        "Zuzyta kaseta objawia sie inaczej: lancuch przeskakuje pod obciazeniem na jednym biegu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Poluzowalem bebenek i przeskoki w dol zniknely na wszystkich biegach oprocz ostatniego.",
+        "Czujnik kadencji pokazuje, ze przy tym biegu krece wyraznie wolniej niz zwykle.",
+        "Na najwiekszej zebatce lancuch chodzi glosno i lekko ociera o wieszak przerzutki.",
+        "Czy to juz wina wieszaka, czy raczej zbyt krotkiego lancucha na tej kasecie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Glosna praca na najwiekszej zebatce to zwykle wieszak odchylony o kilka milimetrow.",
+        "Sprawdz go patrzac od tylu: rolki przerzutki musza stac dokladnie w jednej plaszczyznie.",
+        "Za krotki lancuch poznasz po napietej przerzutce przy duzej zebatce z przodu i tylu.",
+        "Wieszak prostuj powoli, najlepiej specjalnym pretem, bo aluminium peka bez zadnego ostrzezenia."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wyprostowalem wieszak specjalnym pretem i lancuch przestal ocierac nawet na najwiekszej zebatce.",
+        "Zostalo mi jeszcze przednie kolo z osemka, ktorej nie potrafie sam wyeliminowac.",
+        "Probowalem krecic nyple na oko i chyba tylko pogorszylem cala sprawe z ta obrecza.",
+        "Czy da sie to uratowac bez rozbierania calego kola na czesci pierwsze?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie, bo osemka rzadko wymaga rozbierania, a znacznie czesciej cierpliwosci przy nyplach.",
+        "Zaznacz najwyzszy punkt bicia kreda i pracuj wylacznie w obrebie czterech sasiednich szprych.",
+        "Krec o cwierc obrotu, na przemian luzujac jedna strone i dociagajac druga.",
+        "Po kazdym obrocie sprawdzaj bicie boczne, zanim ruszysz kolejne, dalsze nyple obreczy."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Poprawialem po cwierc obrotu i bicie boczne zeszlo wreszcie ponizej jednego milimetra.",
+        "Kolo kreci sie rowno, ale przy mocniejszym nacisku slychac ciche strzelanie szprych.",
+        "Rower jezdzi juz dobrze, choc po dluzszym zjezdzie hamulce wyraznie traca sile.",
+        "Czy to normalne przy takich klockach, czy raczej znak zapowietrzonych przewodow hamulcowych?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Strzelanie szprych oznacza naprezenia, ktore trzeba odpuscic, sciskajac szprychy parami w dloni.",
+        "Zrob to kilka razy i popraw bicie, a dzwiek zniknie na dobre.",
+        "Slabnace hamulce po zjezdzie to zwykle przegrzane obrecze albo zwyczajnie zuzyte klocki.",
+        "Wymien klocki na nowe i hamuj krotkimi, mocnymi ruchami zamiast ciagnac dzwignie caly czas."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta tylna przerzutka jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko.",
+      "external_grounded": "Z tym przednim kolem jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko.",
+      "external_computational": "Z tym czujnikiem kadencji jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko.",
+      "external_mundane": "Z tamtym pieczeniem chleba jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko.",
+      "external_ungrounded": "Z tamta automatyka jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobne ustawienie na poczatku zmienia potem wszystko."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tej tylnej przerzutce, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba.",
+      "external_grounded": "Ten sam porzadek widac przy tym przednim kole, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba.",
+      "external_computational": "Ten sam porzadek widac przy tym czujniku kadencji, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym pieczeniu chleba, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtej automatyce, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc poprawek znaczy wiecej niz ich liczba."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tej tylnej przerzutce, kiedy jeden element przejmuje prace za pozostale.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tym przednim kole, kiedy jeden element przejmuje prace za pozostale.",
+      "external_computational": "Cos takiego zdarza sie tez przy tym czujniku kadencji, kiedy jeden element przejmuje prace za pozostale.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym pieczeniu chleba, kiedy jeden element przejmuje prace za pozostale.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtej automatyce, kiedy jeden element przejmuje prace za pozostale.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden element przejmuje prace za pozostale."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej tylnej przerzutce bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej.",
+      "external_grounded": "Przy tym przednim kole bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej.",
+      "external_computational": "Przy tym czujniku kadencji bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej.",
+      "external_mundane": "Przy tamtym pieczeniu chleba bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej.",
+      "external_ungrounded": "Przy tamtej automatyce bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo efekt drobnej zmiany widac dopiero pozniej."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te tylna przerzutke, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek.",
+      "external_grounded": "To troche przypomina to przednie kolo, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek.",
+      "external_computational": "To troche przypomina ten czujnik kadencji, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek.",
+      "external_mundane": "To troche przypomina tamto pieczenie chleba, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek.",
+      "external_ungrounded": "To troche przypomina tamte automatyke, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wprowadzanych poprawek."
+    }
+  ]
+}

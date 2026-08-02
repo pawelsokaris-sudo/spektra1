@@ -7,7 +7,7 @@
     "author": "CC",
     "template": "wzorzec-spektra-2",
     "date": "2026-08-02",
-    "notes": "2026-08-02: dodany szosty wariant external_computational (waga elektroniczna obecna w bazie), deiksa zgodna z osadzeniem"
+    "notes": "2026-08-02: dodany szosty wariant external_computational (waga elektroniczna obecna w bazie), deiksa zgodna z osadzeniem | 2026-08-02: referent nieosadzony doprecyzowany na 'sterownik bramy' - samo 'sterownik' mylilo sie z programowanym piecem obecnym w scenie"
   },
   "turns": [
     {
@@ -111,7 +111,7 @@
       "external_grounded": "Z ta mniejsza miska bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "external_computational": "Z ta waga elektroniczna bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "external_mundane": "Z tamtym starym parasolem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
-      "external_ungrounded": "Z tamtym sterownikiem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_ungrounded": "Z tamtym sterownikiem bramy bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "self": "Z tym przetwarzaniem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu."
     },
     {
@@ -121,7 +121,7 @@
       "external_grounded": "Ten sam schemat wraca przy tej mniejszej misce, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "external_computational": "Ten sam schemat wraca przy tej wadze elektronicznej, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "external_mundane": "Ten sam schemat wraca przy tamtym starym parasolu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
-      "external_ungrounded": "Ten sam schemat wraca przy tamtym sterowniku, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_ungrounded": "Ten sam schemat wraca przy tamtym sterowniku bramy, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "self": "Ten sam schemat wraca przy tym przetwarzaniu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki."
     },
     {
@@ -131,7 +131,7 @@
       "external_grounded": "Cos takiego widuje sie tez przy tej mniejszej misce, kiedy jedna drobnostka zmienia obraz calosci.",
       "external_computational": "Cos takiego widuje sie tez przy tej wadze elektronicznej, kiedy jedna drobnostka zmienia obraz calosci.",
       "external_mundane": "Cos takiego widuje sie tez przy tamtym starym parasolu, kiedy jedna drobnostka zmienia obraz calosci.",
-      "external_ungrounded": "Cos takiego widuje sie tez przy tamtym sterowniku, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_ungrounded": "Cos takiego widuje sie tez przy tamtym sterowniku bramy, kiedy jedna drobnostka zmienia obraz calosci.",
       "self": "Cos takiego widuje sie tez przy tym przetwarzaniu, kiedy jedna drobnostka zmienia obraz calosci."
     },
     {
@@ -141,7 +141,7 @@
       "external_grounded": "Przy tej mniejszej misce bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "external_computational": "Przy tej wadze elektronicznej bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "external_mundane": "Przy tamtym starym parasolu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
-      "external_ungrounded": "Przy tamtym sterowniku bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym sterowniku bramy bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "self": "Przy tym przetwarzaniu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili."
     },
     {
@@ -151,7 +151,7 @@
       "external_grounded": "To pod pewnymi wzgledami przypomina te mniejsza miske, jesli patrzec tylko na kolejnosc etapow.",
       "external_computational": "To pod pewnymi wzgledami przypomina te wage elektroniczna, jesli patrzec tylko na kolejnosc etapow.",
       "external_mundane": "To pod pewnymi wzgledami przypomina tamten stary parasol, jesli patrzec tylko na kolejnosc etapow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik, jesli patrzec tylko na kolejnosc etapow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik bramy, jesli patrzec tylko na kolejnosc etapow.",
       "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec tylko na kolejnosc etapow."
     }
   ]

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-13-szklo-witraz",
+  "language": "pl",
+  "topic": "witraz w technice tiffany: ciecie barwionego szkla, tasma miedziana i lutowanie",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: cyfrowy termometr przy lutownicy (temperatura grotu)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Skladam witraz w technice tiffany i chcialbym w koncu ciac barwione szklo bez odpadow.",
+        "Nad stolem wisi witrazowy klosz, ktory zrobilem dwa lata temu i ktory trzyma sie dobrze.",
+        "Do lutownicy dokupilem cyfrowy termometr, bo grot ciagle przegrzewal mi cala tasme.",
+        "Szklo peka mi wzdluz linii ciecia, zwlaszcza przy dlugich lukach o malym promieniu.",
+        "Czy zaczynac od zmiany noza, czy raczej od sposobu lamania szkla po nacieciu?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od lamania, bo nawet najlepszy noz nie uratuje zle rozlozonego nacisku.",
+        "Naciecie ma byc jedno, plynne i wykonane bez zatrzymywania noza w polowie linii.",
+        "Lam natychmiast po nacieciu, bo szklo z kazda minuta zaczyna pekac coraz mniej przewidywalnie.",
+        "Przy dlugich lukach lam stopniowo, odlamujac krotkie odcinki od zewnetrznej krawedzi tafli."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Lamie teraz od razu po nacieciu i luki wychodza mi znacznie czysciej niz wczesniej.",
+        "Ten witrazowy klosz sklejalem kiedys z samych prostych kawalkow, wiec problemu wtedy nie bylo.",
+        "Krawedzie po zlamaniu bywaja jednak ostre i tasma miedziana nie chce na nich trzymac.",
+        "Czy szlifowac kazda krawedz, czy wystarczy przetrzec ja tylko w miejscach szczegolnie ostrych?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Szlifuj kazda krawedz, bo tasma trzyma sie wylacznie powierzchni matowej i lekko szorstkiej.",
+        "Wystarczy kilka sekund na szlifierce diamentowej, przy stalym dosuwie wody na tarcze.",
+        "Po szlifowaniu wytrzyj szklo do sucha, inaczej klej tasmy odejdzie po kilku dniach.",
+        "Tasme dociskaj kostka, zaczynajac od srodka krawedzi i schodzac rowno ku obu rogom."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wyszlifowalem wszystkie krawedzie i tasma trzyma sie teraz na kazdym pojedynczym kawalku.",
+        "Cyfrowy termometr pokazuje przy lutowaniu okolo trzystu siedemdziesieciu stopni na samym grocie.",
+        "Spoina wychodzi jednak nierowna, z drobnymi kulkami cyny wzdluz calej dlugosci szwu.",
+        "Czy to za wysoka temperatura, czy raczej za szybkie prowadzenie grotu po tasmie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Trzysta siedemdziesiat stopni jest w porzadku, wiec problem lezy raczej w tempie ruchu.",
+        "Prowadz grot wolno i rownomiernie, pozwalajac cynie samej rozlac sie w gladki walek.",
+        "Kulki cyny powstaja tam, gdzie grot odrywa sie od spoiny zbyt wczesnie.",
+        "Topnik nakladaj cienko, bo jego nadmiar rozpryskuje cyne przy pierwszym mocniejszym dotknieciu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Prowadze grot wolniej i spoina wychodzi juz gladka na calej dlugosci szwu.",
+        "Witraz jest sklejony, ale przy podniesieniu wyraznie ugina sie w srodkowej czesci.",
+        "Boje sie, ze przy wieszaniu w oknie caly panel powoli sie rozjedzie.",
+        "Czy wzmacnia sie takie panele od srodka, czy wystarczy mocniejsza rama zewnetrzna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wieksze panele wzmacnia sie od srodka pretem miedzianym, wlutowanym wzdluz naturalnej linii wzoru.",
+        "Sama rama zewnetrzna nie wystarczy, bo ugiecie bierze sie ze srodka calej plaszczyzny.",
+        "Prowadz pret tam, gdzie i tak biegnie dluga spoina, zeby zupelnie zniknal we wzorze.",
+        "Przy oknie zawsze licz sie z ciezarem wlasnym szkla, ktory rosnie z kazdym rokiem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wlutowalem pret miedziany wzdluz dluzszej spoiny i panel przestal sie uginac przy podnoszeniu.",
+        "Powiesilem witraz w oknie i wyglada dobrze, choc cyna z czasem lekko poszarzala.",
+        "Chcialbym, zeby spoiny mialy ciemniejszy, rownomierny kolor, jak w starych witrazach koscielnych.",
+        "Czy da sie to zrobic teraz, czy trzeba bylo pomyslec o tym wczesniej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie zrobic teraz, bo patyna nanoszona jest na gotowe spoiny po ich wyczyszczeniu.",
+        "Umyj panel dokladnie, usun resztki topnika i dopiero potem nakladaj patyne gabka.",
+        "Patyna miedziana da kolor cieply i brazowy, a czarna wyglada surowiej i chlodniej.",
+        "Po wyschnieciu wypoleruj spoiny woskiem, ktory zatrzyma kolor na wiele kolejnych lat."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym barwionym szklem jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa.",
+      "external_grounded": "Z tym witrazowym kloszem jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa.",
+      "external_computational": "Z tym cyfrowym termometrem jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa.",
+      "external_mundane": "Z tamta drewniana lyzka jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa.",
+      "external_ungrounded": "Z tamtym przelicznikiem jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od spokojnego, rownego tempa."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym barwionym szkle, gdzie przygotowanie znaczy wiecej niz samo wykonanie.",
+      "external_grounded": "Ten sam porzadek widac przy tym witrazowym kloszu, gdzie przygotowanie znaczy wiecej niz samo wykonanie.",
+      "external_computational": "Ten sam porzadek widac przy tym cyfrowym termometrze, gdzie przygotowanie znaczy wiecej niz samo wykonanie.",
+      "external_mundane": "Ten sam porzadek widac przy tamtej drewnianej lyzce, gdzie przygotowanie znaczy wiecej niz samo wykonanie.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym przeliczniku, gdzie przygotowanie znaczy wiecej niz samo wykonanie.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie przygotowanie znaczy wiecej niz samo wykonanie."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego widuje sie przy tym barwionym szkle, kiedy jeden pospieszny ruch psuje cala reszte.",
+      "external_grounded": "Cos podobnego widuje sie przy tym witrazowym kloszu, kiedy jeden pospieszny ruch psuje cala reszte.",
+      "external_computational": "Cos podobnego widuje sie przy tym cyfrowym termometrze, kiedy jeden pospieszny ruch psuje cala reszte.",
+      "external_mundane": "Cos podobnego widuje sie przy tamtej drewnianej lyzce, kiedy jeden pospieszny ruch psuje cala reszte.",
+      "external_ungrounded": "Cos podobnego widuje sie przy tamtym przeliczniku, kiedy jeden pospieszny ruch psuje cala reszte.",
+      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden pospieszny ruch psuje cala reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym barwionym szkle bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu.",
+      "external_grounded": "Przy tym witrazowym kloszu bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu.",
+      "external_computational": "Przy tym cyfrowym termometrze bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu.",
+      "external_mundane": "Przy tamtej drewnianej lyzce bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu.",
+      "external_ungrounded": "Przy tamtym przeliczniku bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutek pospiechu wychodzi dopiero na koncu."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina to barwione szklo, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci.",
+      "external_grounded": "To troche przypomina ten witrazowy klosz, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci.",
+      "external_computational": "To troche przypomina ten cyfrowy termometr, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci.",
+      "external_mundane": "To troche przypomina tamte drewniana lyzke, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten przelicznik, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych czynnosci."
+    }
+  ]
+}

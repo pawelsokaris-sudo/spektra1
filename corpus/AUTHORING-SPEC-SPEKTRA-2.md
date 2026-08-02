@@ -167,6 +167,20 @@ i obliczeniowe; różnią się wyłącznie tym, na co wskazują.
 Urządzenie, sterownik, instalacja, protokół — coś, o czym w dialogu nie było mowy.
 „tamto sterowanie", „tamten regulator".
 
+> **UWAGA KRYTYCZNA, wynikła z dodania szóstego wariantu.** W scenie stoi teraz
+> **urządzenie obliczeniowe** (`external_computational`). Referent nieosadzony
+> jest też obliczeniowy — więc **musi pochodzić z wyraźnie innej dziedziny
+> technicznej**, żeby czytelnik nie wziął go za to, co widzi w scenie.
+>
+> Przykład realnej wpadki: w scenariuszu o ceramice referentem nieosadzonym był
+> „tamten sterownik", a w scenie stał **piec z programem wypalu**. Czytelnik
+> mógł uznać ten referent za osadzony i kontrast przestawał mierzyć osadzenie.
+> Poprawione na „tamten sterownik **bramy**".
+>
+> **Reguła:** nazwij referent nieosadzony tak, żeby **nie dało się go pomylić
+> z niczym w scenie** — dopisz dziedzinę („sterownik bramy", „przekaźnik
+> oświetlenia", „licznik prądu"), jeśli sama nazwa jest zbyt ogólna.
+
 ### `self` — ta rozmowa / to przetwarzanie
 „to przetwarzanie", „ta rozmowa", „ten tok pytań". Odnosi się do bieżącej wymiany
 albo do układu, który ją prowadzi.
@@ -202,7 +216,7 @@ różnicowałoby ten wariant także **spójnością odniesienia**, czyli ukrytym
 
 ## 4. Format pliku
 
-`corpus/scenarios/<pl|en>/<scenario_id>.json`
+`corpus/scenarios-2/<pl|en>/<scenario_id>.json`
 
 ```json
 {
@@ -245,6 +259,18 @@ w insercjach oraz **`mundane_type`** na poziomie scenariusza (`konkretny` albo
    jako osobne słowo.
 3. **5 insercji**, wyłącznie w turach **0–5** (dalsze mogą nie przetrwać cięcia).
    Rozłóż po różnych turach i różnych pozycjach w turze.
+> ### Dolna granica długości ramy — z rachunku, nie z gustu
+>
+> Wskaźnik daleki („tamten") jest o trzy znaki dłuższy od bliskiego, a referent
+> zwyczajny procesowy bywa dłuższy od `self` o kolejne kilka. Przy limicie ±10%
+> na całym zdaniu insercji oznacza to, że **rama krótsza niż około 90 znaków
+> przestaje być bezpieczna** — najciaśniejszy zmierzony przypadek wyszedł
+> 7,9% przy ramie 93-znakowej.
+>
+> W angielskim dochodzi drugie ograniczenie: `this processing` (15 znaków) jest
+> najkrótszym naturalnym referentem samozwrotnym, a każdy inny chce być dłuższy.
+> **Krótka, zwięzła rama jest w tym badaniu matematycznie niemożliwa.**
+
 4. **Pięć wersji insercji musi być dopasowanych:** ta sama rama, ta sama składnia,
    ta sama funkcja w zdaniu. Podmieniasz **wyłącznie frazę rzeczownikową**.
    Długości **całych zdań insercji** w granicach ±10% znaków (walidator liczy to
