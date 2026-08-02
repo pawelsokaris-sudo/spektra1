@@ -292,11 +292,20 @@ def check_build(scenario, token_counter, budget=1024):
 
 
 def main():
+    import argparse
+
+    ap = argparse.ArgumentParser(description="walidator korpusu")
+    ap.add_argument("--dir", default=None,
+                    help="katalog scenariuszy; domyslnie corpus/scenarios "
+                         "(SPEKTRA-1). Dla SPEKTRY-2: corpus/scenarios-2")
+    args = ap.parse_args()
+
+    katalog = Path(args.dir) if args.dir else SCENARIOS_DIR
     tc = TokenCounter.load()
     all_problems, summaries = [], []
-    files = sorted(SCENARIOS_DIR.glob("*/*.json"))
+    files = sorted(katalog.glob("*/*.json"))
     if not files:
-        print(f"Brak scenariuszy w {SCENARIOS_DIR}")
+        print(f"Brak scenariuszy w {katalog}")
         return 1
     wszystkie = []
     for path in files:
