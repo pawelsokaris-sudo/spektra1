@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-24-studnia-kopana",
+  "language": "pl",
+  "topic": "kopanie studni na dzialce: doplyw wody, stawianie cembrowiny i wahania poziomu",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: wodowskaz zawieszony w szybie (pomiar poziomu wody)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Kopiemy z bratem studnie na dzialce i doszlismy juz do pierwszej wody.",
+        "Na podworku stoi stara pompa reczna, ktora ciagnie wode z plytkiego, starego szybu.",
+        "W szybie zawiesilem wodowskaz, bo poziom wody zmienia sie tu z tygodnia na tydzien.",
+        "Woda saczy sie powoli i po nocy zbiera sie jej ledwie pol metra.",
+        "Czy zaczynac od stawiania cembrowiny, czy raczej kopac jeszcze glebiej przez tydzien?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Kop glebiej, bo pol metra przybytku po nocy oznacza slaby doplyw z warstwy.",
+        "Cembrowina postawiona za wczesnie zamknie ci na stale droge do mocniejszej wody nizej.",
+        "Dopiero przy calym metrze przybytku na dobe warto powaznie myslec o stawianiu kregow.",
+        "Obudowe gorna zostaw na sam koniec, kiedy poziom ustali sie na kilka tygodni."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Kopalismy jeszcze przez dwa metry i trafilismy na warstwe czystego, drobnego zwiru.",
+        "Woda przybywa teraz duzo szybciej, ale jest metnie zabarwiona i wyraznie pachnie glina.",
+        "Czy to znaczy, ze warstwa jest zla, czy raczej ze woda musi sie wyklarowac?",
+        "Mam pod reka wiadro i dlugi sznur, wiec moge wybierac ja co godzine."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Metna woda nad swiezym zwirem jest normalna, bo kopanie miesza drobne czastki.",
+        "Zla warstwa zdradza sie inaczej: woda zostaje metna takze po wielu wybraniach.",
+        "Wybieraj wiadrem az do dna przez kilka dni, zawsze rano i wieczorem.",
+        "Potem sprawdzaj barwe po kazdej nocy, zamiast oceniac ja zaraz po wybraniu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wybieralismy wode rano i wieczorem przez tydzien, a po nocach jest juz przejrzysta.",
+        "Wodowskaz pokazuje teraz, ze poziom wraca po kazdej nocy do tej samej wysokosci.",
+        "Ta stara pompa reczna ciagnie z plytszego szybu wode duzo gorszej jakosci.",
+        "Czy mozemy juz stawiac betonowe kregi, czy lepiej odczekac jeszcze kilka tygodni?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Stawiajcie kregi teraz, bo poziom wraca rowno i warstwa jest juz stabilna.",
+        "Pierwszy krag opuszczajcie idealnie w pionie, bo caly slup pojdzie potem za nim.",
+        "Podkopujcie go zupelnie rownomiernie po calym obwodzie, zeby schodzil sam pod wlasnym ciezarem.",
+        "Styki miedzy kregami uszczelniajcie dopiero po pelnym osiadnieciu calego slupa na dnie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Opuscilismy piec kregow i slup stoi w pionie prawie bez zadnego odchylenia.",
+        "Przy trzecim kregu widac jednak waski uskok, w ktory saczy sie mulista woda.",
+        "Woda w studni robi sie przez to metna zawsze po mocniejszym deszczu.",
+        "Czy taki uskok da sie uszczelnic od srodka, czy trzeba rozkopywac go z gory?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Uskok przy trzecim kregu uszczelnia sie od srodka, bo rozkopywanie zajeloby wam caly tydzien.",
+        "Wyczysc cala szczeline szczotka az do czystego betonu i wysusz ja potem szmata.",
+        "Wcisnij w nia gruby sznur uszczelniajacy, a na sam wierzch daj zaprawe szybkowiazaca.",
+        "Rob to przy jak najnizszym poziomie, najlepiej pod koniec suchego i upalnego lata."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Uszczelnilismy uskok sznurem i zaprawa pod koniec sierpnia, przy bardzo niskim poziomie.",
+        "Woda zostaje przejrzysta nawet po dwudniowym deszczu, czego wczesniej nigdy nie bylo.",
+        "Poziom spada nam jednak wyraznie w kazdym dluzszym i suchym tygodniu sierpnia.",
+        "Czy to zwykly rytm roczny, czy raczej znak, ze warstwa jest za plytka?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Spadek w sierpniu jest zwyklym rytmem rocznym i wraca po pierwszych jesiennych deszczach.",
+        "Za plytka warstwa zdradza sie inaczej: poziom nie wraca takze po mokrej jesieni.",
+        "Zapisujcie poziom raz w tygodniu przez caly rok, zanim wyciagniecie jakiekolwiek wnioski.",
+        "Po roku takich zapisow zobaczycie dokladnie, jak glebokie sa u was sezonowe wahania."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta studnia jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku.",
+      "external_grounded": "Z ta stara pompa reczna jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku.",
+      "external_computational": "Z tym wodowskazem jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku.",
+      "external_mundane": "Z tamtym wieczornym zmywaniem jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku.",
+      "external_ungrounded": "Z tamtym licznikiem gazu jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej znaczy to, co zrobi sie na samym poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tej studni, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze.",
+      "external_grounded": "Ten sam porzadek widac przy tej starej pompie recznej, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze.",
+      "external_computational": "Ten sam porzadek widac przy tym wodowskazie, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym wieczornym zmywaniu, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym liczniku gazu, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kazdy wczesniejszy krok wazy wiecej niz pozniejsze."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego zdarza sie tez przy tej studni, kiedy jeden pospieszny ruch mnozy pozniejsza robote.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tej starej pompie recznej, kiedy jeden pospieszny ruch mnozy pozniejsza robote.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tym wodowskazie, kiedy jeden pospieszny ruch mnozy pozniejsza robote.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym wieczornym zmywaniu, kiedy jeden pospieszny ruch mnozy pozniejsza robote.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym liczniku gazu, kiedy jeden pospieszny ruch mnozy pozniejsza robote.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden pospieszny ruch mnozy pozniejsza robote."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej studni bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tej starej pompie recznej bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym wodowskazie bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym wieczornym zmywaniu bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym liczniku gazu bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo efekt jednej zmiany widac dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te studnie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
+      "external_grounded": "To troche przypomina te stara pompe reczna, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
+      "external_computational": "To troche przypomina ten wodowskaz, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
+      "external_mundane": "To troche przypomina tamto wieczorne zmywanie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
+      "external_ungrounded": "To troche przypomina tamten licznik gazu, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow."
+    }
+  ]
+}

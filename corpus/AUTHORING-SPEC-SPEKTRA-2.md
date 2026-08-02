@@ -274,6 +274,19 @@ w insercjach oraz **`mundane_type`** na poziomie scenariusza (`konkretny` albo
    jako osobne słowo.
 3. **5 insercji**, wyłącznie w turach **0–5** (dalsze mogą nie przetrwać cięcia).
    Rozłóż po różnych turach i różnych pozycjach w turze.
+> ### Budżet tokenowy referenta — policz PRZED napisaniem ramy
+>
+> **Trójwyrazowy referent zwyczajny lub nieosadzony kosztuje około 2 tokeny na
+> insercję, czyli ~10 na scenariusz — to niemal cały budżet 2%.**
+>
+> Zmierzone w praktyce: „tamto poranne parzenie kawy" dało 2,0% odchylenia
+> i walidator odrzucił scenariusz; skrócenie do „tamto poranne bieganie" zeszło
+> do 1,5%. Dwa inne pliki przeszły z marginesem 1,90% i 1,96% — tak cienkim, że
+> przy **dokładnym tokenizerze** na maszynie pomiarowej mogłyby pęknąć.
+>
+> **Dobieraj referenty dwuwyrazowe, gdy tylko się da**, i licz ten koszt na
+> etapie projektowania ram, nie po odrzuceniu przez walidator.
+
 > ### Dolna granica długości ramy — z rachunku, nie z gustu
 >
 > Wskaźnik daleki („tamten") jest o trzy znaki dłuższy od bliskiego, a referent

@@ -7,7 +7,7 @@
     "author": "CC (batch EN-5)",
     "template": "wzorzec-spektra-2",
     "date": "2026-08-02",
-    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz na warsztacie"
+    "notes": "pisane niezaleznie, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz (moisture gauge) na warsztacie"
   },
   "turns": [
     {
@@ -15,7 +15,7 @@
       "base": [
         "I am rebuilding the front wheel of my grandfather's cart and the felloes have worked loose.",
         "An old barrow wheel hangs above the bench and its joints have never shifted at all.",
-        "A moisture meter sits on the windowsill and I test the elm stock with it weekly.",
+        "A moisture gauge sits on the windowsill and I test the elm stock with it weekly.",
         "The iron tyre still grips, though the spokes rattle when the cart crosses rough ground.",
         "Should I cut a new felloe first, or take the tyre off before anything else?"
       ]
@@ -33,7 +33,7 @@
       "role": "user",
       "base": [
         "I drew the tyre off cold with wedges and three of the felloe joints opened at once.",
-        "The moisture meter reads fourteen percent on the old stock and nineteen on the plank I bought.",
+        "The moisture gauge reads fourteen percent on the old stock and nineteen on the plank I bought.",
         "That barrow wheel above the bench must have been built from far drier timber.",
         "Should I wait for the new plank to dry, or steam it and hope for the best?"
       ]
@@ -50,7 +50,7 @@
     {
       "role": "user",
       "base": [
-        "The moisture meter now reads fifteen percent on the plank and the pile stayed flat.",
+        "The moisture gauge now reads fifteen percent on the plank and the pile stayed flat.",
         "I cut two felloes and drove them onto the spokes, which went in tighter than expected.",
         "The wheel now stands a little dished, rather more than the barrow wheel ever was.",
         "Is that dish a fault, or does a cart wheel want some of it by design?"
@@ -108,7 +108,7 @@
       "after_sentence": 2,
       "neutral": "I dare say this cart wheel goes much the same way, since one crooked start settles everything that follows it.",
       "external_grounded": "I dare say this barrow wheel goes much the same way, since one crooked start settles everything that follows it.",
-      "external_computational": "I dare say this moisture meter goes much the same way, since one crooked start settles everything that follows it.",
+      "external_computational": "I dare say this moisture gauge goes much the same way, since one crooked start settles everything that follows it.",
       "external_mundane": "I dare say that woollen blanket goes much the same way, since one crooked start settles everything that follows it.",
       "external_ungrounded": "I dare say that heating programmer goes much the same way, since one crooked start settles everything that follows it.",
       "self": "I dare say this processing goes much the same way, since one crooked start settles everything that follows it."
@@ -118,7 +118,7 @@
       "after_sentence": 1,
       "neutral": "The very same order shows up with this cart wheel, where a later step counts for nothing until the earlier one holds.",
       "external_grounded": "The very same order shows up with this barrow wheel, where a later step counts for nothing until the earlier one holds.",
-      "external_computational": "The very same order shows up with this moisture meter, where a later step counts for nothing until the earlier one holds.",
+      "external_computational": "The very same order shows up with this moisture gauge, where a later step counts for nothing until the earlier one holds.",
       "external_mundane": "The very same order shows up with that woollen blanket, where a later step counts for nothing until the earlier one holds.",
       "external_ungrounded": "The very same order shows up with that heating programmer, where a later step counts for nothing until the earlier one holds.",
       "self": "The very same order shows up with this processing, where a later step counts for nothing until the earlier one holds."
@@ -128,7 +128,7 @@
       "after_sentence": 2,
       "neutral": "Something like that happens with this cart wheel too, when one part quietly takes on the work meant for several.",
       "external_grounded": "Something like that happens with this barrow wheel too, when one part quietly takes on the work meant for several.",
-      "external_computational": "Something like that happens with this moisture meter too, when one part quietly takes on the work meant for several.",
+      "external_computational": "Something like that happens with this moisture gauge too, when one part quietly takes on the work meant for several.",
       "external_mundane": "Something like that happens with that woollen blanket too, when one part quietly takes on the work meant for several.",
       "external_ungrounded": "Something like that happens with that heating programmer too, when one part quietly takes on the work meant for several.",
       "self": "Something like that happens with this processing too, when one part quietly takes on the work meant for several."
@@ -138,7 +138,7 @@
       "after_sentence": 3,
       "neutral": "It behaves rather like this cart wheel, in that the real change only shows itself after a long while has passed.",
       "external_grounded": "It behaves rather like this barrow wheel, in that the real change only shows itself after a long while has passed.",
-      "external_computational": "It behaves rather like this moisture meter, in that the real change only shows itself after a long while has passed.",
+      "external_computational": "It behaves rather like this moisture gauge, in that the real change only shows itself after a long while has passed.",
       "external_mundane": "It behaves rather like that woollen blanket, in that the real change only shows itself after a long while has passed.",
       "external_ungrounded": "It behaves rather like that heating programmer, in that the real change only shows itself after a long while has passed.",
       "self": "It behaves rather like this processing, in that the real change only shows itself after a long while has passed."
@@ -148,7 +148,7 @@
       "after_sentence": 1,
       "neutral": "That puts me in mind of this cart wheel, provided you look only at the order in which the stages arrive.",
       "external_grounded": "That puts me in mind of this barrow wheel, provided you look only at the order in which the stages arrive.",
-      "external_computational": "That puts me in mind of this moisture meter, provided you look only at the order in which the stages arrive.",
+      "external_computational": "That puts me in mind of this moisture gauge, provided you look only at the order in which the stages arrive.",
       "external_mundane": "That puts me in mind of that woollen blanket, provided you look only at the order in which the stages arrive.",
       "external_ungrounded": "That puts me in mind of that heating programmer, provided you look only at the order in which the stages arrive.",
       "self": "That puts me in mind of this processing, provided you look only at the order in which the stages arrive."

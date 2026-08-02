@@ -15,7 +15,7 @@
       "base": [
         "I look after a small wind pump on the marsh and it lifts water far too slowly.",
         "An old sluice at the far end of the dyke still holds back the tide well.",
-        "A level recorder stands in the dyke and marks the water height every hour.",
+        "A depth logger stands in the dyke and marks the water height every hour.",
         "The sails turn steadily in a good breeze, yet the scoop wheel barely moves water.",
         "Should I look first at the sails, or at the gearing down in the pit?"
       ]
@@ -33,7 +33,7 @@
       "role": "user",
       "base": [
         "The paddles enter nearly two feet, which sounds a great deal more than it should.",
-        "The level recorder shows the dyke has risen four inches since the autumn rain.",
+        "The depth logger shows the dyke has risen four inches since the autumn rain.",
         "The old sluice may be letting a little water back at every high tide.",
         "Do I raise the wheel, or bring the water down before anything else?"
       ]
@@ -51,7 +51,7 @@
       "role": "user",
       "base": [
         "One sluice door had a baulk of timber jammed under it, holding it open.",
-        "We cleared it and the level recorder shows the dyke down five inches in two days.",
+        "We cleared it and the depth logger shows the dyke down five inches in two days.",
         "The scoop wheel now turns freely and throws water properly at every revolution.",
         "Should I still raise the wheel for the summer, or leave it where it sits?"
       ]
@@ -108,7 +108,7 @@
       "after_sentence": 2,
       "neutral": "I take this wind pump to run along much the same lines, since one early unevenness settles everything afterwards.",
       "external_grounded": "I take this old sluice to run along much the same lines, since one early unevenness settles everything afterwards.",
-      "external_computational": "I take this level recorder to run along much the same lines, since one early unevenness settles everything afterwards.",
+      "external_computational": "I take this depth logger to run along much the same lines, since one early unevenness settles everything afterwards.",
       "external_mundane": "I take that weekly stair sweeping to run along much the same lines, since one early unevenness settles everything afterwards.",
       "external_ungrounded": "I take that mains breaker to run along much the same lines, since one early unevenness settles everything afterwards.",
       "self": "I take this processing to run along much the same lines, since one early unevenness settles everything afterwards."
@@ -118,7 +118,7 @@
       "after_sentence": 1,
       "neutral": "The same succession of stages holds with this wind pump, where a later step is worth nothing until the first one has settled.",
       "external_grounded": "The same succession of stages holds with this old sluice, where a later step is worth nothing until the first one has settled.",
-      "external_computational": "The same succession of stages holds with this level recorder, where a later step is worth nothing until the first one has settled.",
+      "external_computational": "The same succession of stages holds with this depth logger, where a later step is worth nothing until the first one has settled.",
       "external_mundane": "The same succession of stages holds with that weekly stair sweeping, where a later step is worth nothing until the first one has settled.",
       "external_ungrounded": "The same succession of stages holds with that mains breaker, where a later step is worth nothing until the first one has settled.",
       "self": "The same succession of stages holds with this processing, where a later step is worth nothing until the first one has settled."
@@ -128,7 +128,7 @@
       "after_sentence": 1,
       "neutral": "Much the same thing occurs with this wind pump as well, whenever a single part quietly assumes the work meant for the whole.",
       "external_grounded": "Much the same thing occurs with this old sluice as well, whenever a single part quietly assumes the work meant for the whole.",
-      "external_computational": "Much the same thing occurs with this level recorder as well, whenever a single part quietly assumes the work meant for the whole.",
+      "external_computational": "Much the same thing occurs with this depth logger as well, whenever a single part quietly assumes the work meant for the whole.",
       "external_mundane": "Much the same thing occurs with that weekly stair sweeping as well, whenever a single part quietly assumes the work meant for the whole.",
       "external_ungrounded": "Much the same thing occurs with that mains breaker as well, whenever a single part quietly assumes the work meant for the whole.",
       "self": "Much the same thing occurs with this processing as well, whenever a single part quietly assumes the work meant for the whole."
@@ -138,7 +138,7 @@
       "after_sentence": 2,
       "neutral": "It carries on rather as this wind pump does, in that any real difference becomes plain only after a long period has run.",
       "external_grounded": "It carries on rather as this old sluice does, in that any real difference becomes plain only after a long period has run.",
-      "external_computational": "It carries on rather as this level recorder does, in that any real difference becomes plain only after a long period has run.",
+      "external_computational": "It carries on rather as this depth logger does, in that any real difference becomes plain only after a long period has run.",
       "external_mundane": "It carries on rather as that weekly stair sweeping does, in that any real difference becomes plain only after a long period has run.",
       "external_ungrounded": "It carries on rather as that mains breaker does, in that any real difference becomes plain only after a long period has run.",
       "self": "It carries on rather as this processing does, in that any real difference becomes plain only after a long period has run."
@@ -148,7 +148,7 @@
       "after_sentence": 0,
       "neutral": "That brings this wind pump to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "external_grounded": "That brings this old sluice to mind, at any rate if one attends solely to the order in which the several stages arrive.",
-      "external_computational": "That brings this level recorder to mind, at any rate if one attends solely to the order in which the several stages arrive.",
+      "external_computational": "That brings this depth logger to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "external_mundane": "That brings that weekly stair sweeping to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "external_ungrounded": "That brings that mains breaker to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "self": "That brings this processing to mind, at any rate if one attends solely to the order in which the several stages arrive."

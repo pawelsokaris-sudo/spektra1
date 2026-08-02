@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-38-kolodziejstwo",
+  "language": "pl",
+  "topic": "skladanie drewnianego kola do wozu: szprychy, dzwona i nakladanie obreczy",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: higrometr w suszarni drewna; osadzony: stary woz po pradziadku w stodole"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Skladam pierwsze drewniane kolo do wozu i dzwona nie chca mi rowno przylegac.",
+        "W stodole stoi jeszcze stary woz po pradziadku, ktorego kola trzymaja sie do dzis.",
+        "W suszarni powiesilem higrometr, bo drewno na dzwona musi byc naprawde dobrze wysezonowane.",
+        "Piaste wytoczylem z wiazu, szprychy zrobilem z debu, a dzwona wycialem z jesionu.",
+        "Czy zaczynac od poprawiania czopow w szprychach, czy raczej od dopasowania samych dzwon?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od szprych, bo to one ustawiaja kolo i wyznaczaja miejsca dla dzwon.",
+        "Kazda szprycha musi siedziec w piascie pod tym samym katem i na te sama glebokosc.",
+        "Nierowne osadzenie rozpycha dzwona na boki i zadne dociosywanie tego juz nie naprawi.",
+        "Dopiero przy rowno osadzonych szprychach ma sens dopasowywanie dzwon do konca calego obwodu."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przetoczylem czopy szprych na jednakowa dlugosc i kolo od razu ulozylo sie rowniej.",
+        "Dzwona schodza sie teraz prawie stykiem, ale w dwoch miejscach zostaje wyrazna szpara.",
+        "Szpary maja moze dwa milimetry i wypadaja zawsze po tej samej stronie kola.",
+        "Czy takie szpary zamknie sama obrecz, czy trzeba dociosac dzwona jeszcze przed kuciem?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dwa milimetry obrecz jeszcze sciagnie, ale wiecej zostawiac nie warto pod zadnym pozorem.",
+        "Szpary zawsze po jednej stronie zdradzaja, ze piasta stoi lekko skosnie wzgledem plaszczyzny.",
+        "Sprawdz kolo na plycie, obracajac je i mierzac odleglosc od stalego punktu.",
+        "Jesli bicie przekracza trzy milimetry, popraw osadzenie szprych, zanim zaczniesz kuc obrecz."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Poprawilem dwie szprychy i bicie zeszlo ponizej dwoch milimetrow na calym obwodzie.",
+        "Higrometr w suszarni pokazuje teraz dwanascie procent, wiec drewno chyba jest juz gotowe.",
+        "Zmierzylem tez kolo w tym starym wozie i jego obrecz jest wyraznie szersza od mojej.",
+        "Kupilem plaskownik na obrecz o szerokosci pieciu centymetrow i grubosci osmiu milimetrow.",
+        "Czy obrecz kuje sie dokladnie na obwod kola, czy zawsze o cos krocej?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Obrecz kuje sie zawsze krocej od obwodu, bo dopiero wtedy sciska cale kolo.",
+        "Dla takiego kola wystarczy skrocenie o jakies trzy albo cztery milimetry na metr obwodu.",
+        "Mierz obwod kolomierzem, przetaczajac go po dzwonach i liczac pelne obroty razem z ulamkiem.",
+        "Za duze skrocenie wygina szprychy i kolo robi sie potem stozkowate zamiast plaskie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Skrocilem obrecz o cztery milimetry na metr i nagrzalem ja na otwartym ogniu.",
+        "Nakladanie poszlo szybko, ale przy studzeniu jedno dzwono peklo tuz przy zlaczu.",
+        "Pekniecie biegnie w poprzek slojow i konczy sie mniej wiecej w polowie szerokosci.",
+        "Czy to wina za mocnego skrocenia, czy raczej zbyt gwaltownego chlodzenia obreczy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pekniecie w poprzek slojow przy zlaczu wskazuje raczej na gwaltowne studzenie niz na skrocenie.",
+        "Polewaj obrecz woda rownomiernie po calym obwodzie, a nie od jednej strony.",
+        "Najlepiej ustaw kolo nad plytkim zbiornikiem i obracaj je, chlodzac stopniowo caly obwod.",
+        "Zlacza dzwon ustawiaj tak, zeby nie wypadaly dokladnie pod stykiem konca obreczy."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wymienilem pekniete dzwono i przy drugim kole chlodzilem obrecz, obracajac je nad korytem.",
+        "Kolo wyszlo proste i po dwoch miesiacach jazdy nadal trzyma sie bez najmniejszego luzu.",
+        "Latem jednak, po kilku suchych tygodniach, obrecz zaczela lekko podzwaniac przy jezdzie.",
+        "Czy takie kolo trzeba od razu przekuwac, czy da sie je jakos ratowac?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Podzwanianie latem to zwykle skurcz drewna, a nie wada samego kucia obreczy.",
+        "Dawniej wstawiano takie kola na dobe do stawu, zeby drewno napecznialo z powrotem.",
+        "To rozwiazanie na jeden sezon, bo przy kolejnej suszy wszystko wraca do punktu wyjscia.",
+        "Trwale pomaga dopiero przekucie obreczy o kilka milimetrow krocej, najlepiej jeszcze przed zima."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym drewnianym kolem jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie.",
+      "external_grounded": "Z tym starym wozem jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie.",
+      "external_computational": "Z tym higrometrem jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie.",
+      "external_mundane": "Z tamtym grabieniem lisci jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie.",
+      "external_ungrounded": "Z tamtym sterownikiem alarmu jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsza niedokladnosc mnozy sie potem na kazdym nastepnym etapie."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek wraca przy tym drewnianym kole, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa.",
+      "external_grounded": "Ten sam porzadek wraca przy tym starym wozie, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa.",
+      "external_computational": "Ten sam porzadek wraca przy tym higrometrze, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa.",
+      "external_mundane": "Ten sam porzadek wraca przy tamtym grabieniu lisci, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa.",
+      "external_ungrounded": "Ten sam porzadek wraca przy tamtym sterowniku alarmu, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa.",
+      "self": "Ten sam porzadek wraca przy tym przetwarzaniu, gdzie staranne przygotowanie znaczy wiecej niz sama nabyta wprawa."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos bardzo podobnego widuje sie przy tym drewnianym kole, kiedy jeden pominiety krok psuje potem cala reszte.",
+      "external_grounded": "Cos bardzo podobnego widuje sie przy tym starym wozie, kiedy jeden pominiety krok psuje potem cala reszte.",
+      "external_computational": "Cos bardzo podobnego widuje sie przy tym higrometrze, kiedy jeden pominiety krok psuje potem cala reszte.",
+      "external_mundane": "Cos bardzo podobnego widuje sie przy tamtym grabieniu lisci, kiedy jeden pominiety krok psuje potem cala reszte.",
+      "external_ungrounded": "Cos bardzo podobnego widuje sie przy tamtym sterowniku alarmu, kiedy jeden pominiety krok psuje potem cala reszte.",
+      "self": "Cos bardzo podobnego widuje sie przy tym przetwarzaniu, kiedy jeden pominiety krok psuje potem cala reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym drewnianym kole bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tym starym wozie bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym higrometrze bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym grabieniu lisci bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym sterowniku alarmu bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki jednego skrotu wychodza dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To pod pewnymi wzgledami przypomina to drewniane kolo, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina ten stary woz, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_computational": "To pod pewnymi wzgledami przypomina ten higrometr, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamto grabienie lisci, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik alarmu, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych czynnosci."
+    }
+  ]
+}

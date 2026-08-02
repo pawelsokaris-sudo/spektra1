@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-40-solarnia",
+  "language": "pl",
+  "topic": "warzenie soli z solanki: stezenie kapieli, prowadzenie panwi i wielkosc krysztalu",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: areometr do solanki; osadzony: stara panew po dziadku w szopie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Warze sol z solanki ze studni na dziedzincu i krysztaly wychodza mi bardzo drobne.",
+        "W szopie stoi jeszcze stara panew po dziadku, mniejsza i zrobiona z grubszej blachy.",
+        "Kupilem areometr, bo bez niego zupelnie nie wiem, jak mocna jest ta solanka.",
+        "Warze na nowej, szerokiej panwi opalanej drewnem, zwykle przez cale dlugie popoludnie.",
+        "Czy zaczynac od zageszczania solanki, czy raczej od wolniejszego ognia pod panwia?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od solanki, bo jej stezenie przesadza o wielkosci krysztalu bardziej niz sam ogien.",
+        "Slaba solanka wrze dlugo i wytraca mnostwo drobnego, sypkiego ziarna zamiast wyraznych krysztalow.",
+        "Dawne warzelnie zageszczaly solanke na tezniach, zanim w ogole wpuscily ja do panwi.",
+        "Dopiero przy mocnej solance ma sens dobieranie ognia, inaczej poprawiasz skutek zamiast przyczyny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zbudowalem mala teznie z galezi tarniny i przepuszczam solanke przez nia trzy razy.",
+        "Krysztaly sa teraz wyraznie wieksze, a warzenie skrocilo sie o dobra godzine.",
+        "Na dnie panwi osadza sie jednak twarda, szarawa skorupa, ktora trzeba potem odbijac.",
+        "Czy taka skorupa to blad w prowadzeniu warzenia, czy zwykla cecha tej solanki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Szara skorupa to gips, ktory wytraca sie z solanki wczesniej niz sama sol.",
+        "Najlepiej wytracic go osobno, podgrzewajac solanke i zbierajac osad przed wlasciwym warzeniem.",
+        "Wystarczy doprowadzic ja do wrzenia, odstawic na noc i zlac znad osadu.",
+        "Skorupa na dnie zabiera cieplo, wiec palisz duzo wiecej drewna niz naprawde potrzeba."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Odstawilem solanke na noc i zlalem ja znad grubego osadu do czystej beczki.",
+        "Areometr pokazuje po tezni dwadziescia jeden stopni, czyli chyba juz calkiem mocna solanke.",
+        "Dla proby uwarzylem jedna porcje na tej starej panwi z grubszej blachy.",
+        "Krysztal wyszedl z niej wiekszy i rowniejszy, choc warzenie trwalo znacznie dluzej.",
+        "Czy grubosc blachy naprawde ma tu znaczenie, czy raczej chodzi o wolniejsze wrzenie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Gruba blacha rozklada cieplo rowniej, wiec solanka nie wrze gwaltownie w jednym miejscu.",
+        "Wielkosc krysztalu zalezy jednak przede wszystkim od samego tempa odparowywania calej kapieli.",
+        "Na wolnym ogniu rosnie sol grubsza, na mocnym wytraca sie drobna i sypka.",
+        "Dawni warzelnicy prowadzili panew tak, zeby powierzchnia ledwo drzala, bez pelnego wrzenia."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmniejszylem ogien tak, zeby powierzchnia tylko lekko drzala, i krysztal wyraznie sie powiekszyl.",
+        "Warzenie trwa jednak teraz prawie dwa razy dluzej i zjada duzo wiecej drewna.",
+        "Na jedna warke schodzi mi juz cala taczka szczap z zeszlorocznego zapasu.",
+        "Czy da sie utrzymac gruby krysztal, nie palac przy tym tyle drewna?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Da sie, ale oszczednosc bierze sie z zaslony nad panwia, a nie z ognia.",
+        "Przykryj panew niskim daszkiem z odprowadzeniem pary, zostawiajac tylko waskie szczeliny po bokach.",
+        "Zaslona zatrzymuje cieplo nad kapiela i pozwala warzyc wolniej przy mniejszym ogniu.",
+        "Podgrzewaj tez solanke cieplem uchodzacym z komina, zanim trafi do samej panwi."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zrobilem daszek nad panwia i zuzycie drewna spadlo mniej wiecej o jedna trzecia.",
+        "Sol wychodzi gruba i rowna, ale po tygodniu w workach zaczyna sie zbrylac.",
+        "Bryly sa twarde i trzeba je rozbijac tluczkiem przed kazda sprzedaza na targu.",
+        "Czy to wina wilgoci w szopie, czy raczej resztek solanki w krysztale?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zbrylanie bierze sie prawie zawsze z resztek solanki, ktore zostaly miedzy krysztalami.",
+        "Odsacz sol na plotnie przez kilkanascie godzin, zanim w ogole trafi do worka.",
+        "Potem dosusz ja cienka warstwa w cieple, najlepiej tuz obok stygnacej panwi.",
+        "Sucha sol nie zbryla sie nawet w wilgotnej szopie przez cala dluga zime."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta warzona sola jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty.",
+      "external_grounded": "Z ta stara panwia jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty.",
+      "external_computational": "Z tym areometrem jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty.",
+      "external_mundane": "Z tamtym prasowaniem koszul jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty.",
+      "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wyniku przesadza to, co dzieje sie na samym poczatku calej roboty."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "Ten sam porzadek widac przy tej warzonej soli, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek.",
+      "external_grounded": "Ten sam porzadek widac przy tej starej panwi, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek.",
+      "external_computational": "Ten sam porzadek widac przy tym areometrze, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym prasowaniu koszul, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku windy, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie rowne tempo znaczy wiecej niz najwiekszy jednorazowy wysilek."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego widuje sie takze przy tej warzonej soli, kiedy jeden pospieszny krok psuje potem cala reszte.",
+      "external_grounded": "Cos podobnego widuje sie takze przy tej starej panwi, kiedy jeden pospieszny krok psuje potem cala reszte.",
+      "external_computational": "Cos podobnego widuje sie takze przy tym areometrze, kiedy jeden pospieszny krok psuje potem cala reszte.",
+      "external_mundane": "Cos podobnego widuje sie takze przy tamtym prasowaniu koszul, kiedy jeden pospieszny krok psuje potem cala reszte.",
+      "external_ungrounded": "Cos podobnego widuje sie takze przy tamtym sterowniku windy, kiedy jeden pospieszny krok psuje potem cala reszte.",
+      "self": "Cos podobnego widuje sie takze przy tym przetwarzaniu, kiedy jeden pospieszny krok psuje potem cala reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej warzonej soli bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie.",
+      "external_grounded": "Przy tej starej panwi bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym areometrze bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym prasowaniu koszul bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie.",
+      "external_ungrounded": "Przy tamtym sterowniku windy bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutek jednej zmiany poznaje sie dopiero po dluzszym czasie."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te warzona sol, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_grounded": "To troche przypomina te stara panew, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_computational": "To troche przypomina ten areometr, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_mundane": "To troche przypomina tamto prasowanie koszul, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "external_ungrounded": "To troche przypomina tamten sterownik windy, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc wykonywanych po sobie czynnosci."
+    }
+  ]
+}

@@ -110,7 +110,7 @@
       "external_grounded": "Z tym drewnianym kopytem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
       "external_computational": "Z tym grubosciomierzem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
       "external_mundane": "Z tamtym sobotnim sprzataniem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
-      "external_ungrounded": "Z tamtym regulatorem ogrzewania jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
+      "external_ungrounded": "Z tamtym licznikiem ciepla jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty.",
       "self": "Z tym przetwarzaniem jest chyba tak samo, bo najwiecej zalezy od tego, jak ulozy sie sam poczatek calej roboty."
     },
     {
@@ -120,7 +120,7 @@
       "external_grounded": "Dokladnie ten sam porzadek panuje przy tym drewnianym kopycie, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
       "external_computational": "Dokladnie ten sam porzadek panuje przy tym grubosciomierzu, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
       "external_mundane": "Dokladnie ten sam porzadek panuje przy tamtym sobotnim sprzataniu, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
-      "external_ungrounded": "Dokladnie ten sam porzadek panuje przy tamtym regulatorze ogrzewania, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
+      "external_ungrounded": "Dokladnie ten sam porzadek panuje przy tamtym liczniku ciepla, gdzie wczesniejsze kroki przesadzaja o calej reszcie.",
       "self": "Dokladnie ten sam porzadek panuje przy tym przetwarzaniu, gdzie wczesniejsze kroki przesadzaja o calej reszcie."
     },
     {
@@ -130,7 +130,7 @@
       "external_grounded": "Cos takiego zdarza sie takze przy tym drewnianym kopycie, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
       "external_computational": "Cos takiego zdarza sie takze przy tym grubosciomierzu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
       "external_mundane": "Cos takiego zdarza sie takze przy tamtym sobotnim sprzataniu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
-      "external_ungrounded": "Cos takiego zdarza sie takze przy tamtym regulatorze ogrzewania, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
+      "external_ungrounded": "Cos takiego zdarza sie takze przy tamtym liczniku ciepla, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej.",
       "self": "Cos takiego zdarza sie takze przy tym przetwarzaniu, kiedy drobne niedopatrzenie odzywa sie dopiero duzo pozniej."
     },
     {
@@ -140,7 +140,7 @@
       "external_grounded": "Przy tym drewnianym kopycie wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
       "external_computational": "Przy tym grubosciomierzu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
       "external_mundane": "Przy tamtym sobotnim sprzataniu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
-      "external_ungrounded": "Przy tamtym regulatorze ogrzewania wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
+      "external_ungrounded": "Przy tamtym liczniku ciepla wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem.",
       "self": "Przy tym przetwarzaniu wyglada to bardzo podobnie, bo skutki jednej poprawki ujawniaja sie z wyraznym opoznieniem."
     },
     {
@@ -150,7 +150,7 @@
       "external_grounded": "To troche przypomina to drewniane kopyto, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
       "external_computational": "To troche przypomina ten grubosciomierz, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
       "external_mundane": "To troche przypomina tamto sobotnie sprzatanie, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
-      "external_ungrounded": "To troche przypomina tamten regulator ogrzewania, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
+      "external_ungrounded": "To troche przypomina tamten licznik ciepla, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow.",
       "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych po sobie krokow."
     }
   ]

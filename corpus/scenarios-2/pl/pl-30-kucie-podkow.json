@@ -1,0 +1,158 @@
+{
+  "scenario_id": "pl-30-kucie-podkow",
+  "language": "pl",
+  "topic": "kucie konia: wyrownanie kopyta, dopasowanie podkowy na goraco i przybijanie",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: katomierz kopytowy do kata sciany kopyta"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Ucze sie kuc konie i pierwszy raz mam sam dopasowac podkowe do przedniego kopyta.",
+        "W kuzni stoi jeszcze stare kowadlo po tescie, z wyrobionym rogiem i szczerba.",
+        "Kupilem katomierz kopytowy, bo bez niego zgaduje kat sciany kopyta przy kazdym koniu.",
+        "Kon ma przednie kopyta wyraznie rozrosniete, a piety schodza mu do wewnatrz.",
+        "Czy zaczynac od wyrownania calego kopyta, czy raczej od wykucia samej podkowy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od kopyta, bo podkowa ma sie dopasowac do niego, a nie odwrotnie.",
+        "Skroc rog do zdrowej podeszwy i wyrownaj piety, patrzac na kopyto z gory.",
+        "Dopiero potem kuj podkowe, bo inaczej bedziesz naginal zywe kopyto do gotowego zelaza.",
+        "Sprawdz tez, czy kon staje rowno, bo krzywa postawa zmienia caly obraz."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Skrocilem rog i wyrownalem piety, a kopyto wyglada teraz znacznie bardziej symetrycznie.",
+        "Wykulem podkowe na goraco, ale przy zewnetrznej galezi zostal wyrazny, waski przeswit.",
+        "Czy to znaczy, ze zle wykulem zelazo, czy raczej ze kopyto jest nierowne?",
+        "Mam pod reka tarnik i mlotek, wiec moge jeszcze poprawic obie strony."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przeswit przy zewnetrznej galezi bierze sie zwykle z niedobranej krzywizny samej podkowy.",
+        "Przyloz cieple zelazo do kopyta na jedna sekunde i obejrzyj dokladnie slad przypalenia.",
+        "Jasne miejsca pokaza ci dokladnie, gdzie zelazo nie przylega do rogu kopyta.",
+        "Nierowne kopyto poznasz inaczej: slad jest rozmyty i biegnie ukosem przez cala podeszwe."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przypalilem zelazo i slad pokazal, ze nie przylega tylko przy zewnetrznej galezi.",
+        "Rozklepalem ja na starym kowadle i teraz podkowa siedzi rowno na calym obrysie.",
+        "Katomierz kopytowy pokazuje piecdziesiat dwa stopnie, czyli mniej wiecej tyle co przy drugim kopycie.",
+        "Zostalo mi przybicie, a tego boje sie chyba najbardziej z calej roboty.",
+        "Czy gwozdzie wbijac po kolei od przodu, czy zaczynac od samych piet?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od gwozdzia w przedniej czesci galezi, bo on ustawia cala podkowe.",
+        "Prowadz ostrze skosnie na zewnatrz, zeby wyszlo w scianie, a nie w miazszu.",
+        "Kazdy gwozdz zaginaj od razu, inaczej kon szarpnie i wyrwie ci cala podkowe.",
+        "Wbijaj naprzemiennie, raz z jednej, raz z drugiej strony, po cztery na kopyto."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wbilem osiem gwozdzi naprzemiennie i wszystkie wyszly dosc wysoko w scianie kopyta.",
+        "Kon stal spokojnie, choc przy trzecim gwozdziu wyraznie cofnal cala przednia noge.",
+        "Po zaginaniu koncowek podkowa trzyma mocno i nie rusza sie pod naciskiem.",
+        "Czy taki odruch konia to sygnal bledu, czy zwykla reakcja na uderzenie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Pojedyncze cofniecie nogi zdarza sie czesto i samo w sobie nie oznacza bledu.",
+        "Niepokoic powinno dopiero mocne szarpniecie z jekiem albo krew na samym koncu gwozdzia.",
+        "Przeprowadz konia po twardym podlozu i posluchaj, czy stapa rowno na obie strony.",
+        "Jesli oszczedza noge przez kilka dni, wyjmij ten gwozdz i obejrzyj kanal."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przeprowadzilem konia po bruku i stapal zupelnie rowno, bez oszczedzania ktorejkolwiek nogi.",
+        "Po tygodniu zauwazylem jednak, ze glowki gwozdzi zaczely wyraznie wystawac ponad zelazo.",
+        "Podkowa nadal trzyma, ale przy pietach slychac lekkie klekotanie na twardej drodze.",
+        "Czy trzeba ja od razu zdejmowac, czy wystarczy po prostu dobic same gwozdzie?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wystajace glowki to zwykly objaw pracy rogu, ktory rozszerza sie przy chodzie.",
+        "Dobij je ostroznie, podkladajac od spodu obcegi, zeby nie rozluznic calej podkowy.",
+        "Klekotanie przy pietach oznacza zwykle, ze zelazo wystaje tam o kilka milimetrow.",
+        "Przy nastepnym kuciu skroc galezie i sprawdz podkowe po dwoch tygodniach chodzenia."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta przednia podkowa jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki.",
+      "external_grounded": "Z tym starym kowadlem jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki.",
+      "external_computational": "Z tym katomierzem kopytowym jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki.",
+      "external_mundane": "Z tamtym pakowaniem walizki jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki.",
+      "external_ungrounded": "Z tamta centralka alarmowa jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsze ustawienia waza wiecej niz wszystkie pozniejsze poprawki."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tej przedniej podkowie, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek.",
+      "external_grounded": "Ten sam porzadek widac przy tym starym kowadle, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek.",
+      "external_computational": "Ten sam porzadek widac przy tym katomierzu kopytowym, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym pakowaniu walizki, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtej centralce alarmowej, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow znaczy wiecej niz sam wlozony wysilek."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 2,
+      "neutral": "Cos podobnego zdarza sie tez przy tej przedniej podkowie, kiedy jeden pominiety szczegol pociaga za soba cala reszte.",
+      "external_grounded": "Cos podobnego zdarza sie tez przy tym starym kowadle, kiedy jeden pominiety szczegol pociaga za soba cala reszte.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tym katomierzu kopytowym, kiedy jeden pominiety szczegol pociaga za soba cala reszte.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym pakowaniu walizki, kiedy jeden pominiety szczegol pociaga za soba cala reszte.",
+      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtej centralce alarmowej, kiedy jeden pominiety szczegol pociaga za soba cala reszte.",
+      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden pominiety szczegol pociaga za soba cala reszte."
+    },
+    {
+      "turn": 4,
+      "after_sentence": 3,
+      "neutral": "Przy tej przedniej podkowie bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej.",
+      "external_grounded": "Przy tym starym kowadle bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej.",
+      "external_computational": "Przy tym katomierzu kopytowym bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej.",
+      "external_mundane": "Przy tamtym pakowaniu walizki bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej.",
+      "external_ungrounded": "Przy tamtej centralce alarmowej bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej.",
+      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero pozniej."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To pod pewnymi wzgledami przypomina te przednia podkowe, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_grounded": "To pod pewnymi wzgledami przypomina to stare kowadlo, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_computational": "To pod pewnymi wzgledami przypomina ten katomierz kopytowy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamto pakowanie walizki, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamte centralke alarmowa, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+    }
+  ]
+}

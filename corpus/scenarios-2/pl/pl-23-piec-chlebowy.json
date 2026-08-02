@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-23-piec-chlebowy",
+  "language": "pl",
+  "topic": "wypiek chleba w glinianym piecu ogrodowym: wygrzanie trzonu, zaczyn i formowanie",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: waga piekarska na blacie (odmierzanie zaczynu i ubytku wypieku)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Postawilem w ogrodzie piec chlebowy z gliny i chcialbym piec w nim wlasny chleb.",
+        "Po ojcu zostala mi debowa lopata, ktora jest znacznie szersza niz wszystkie dzisiejsze.",
+        "Na blacie stoi waga piekarska, bo zaczyn odmierzam co do pojedynczego grama.",
+        "Moj chleb wychodzi zbity, a skorka jest blada i miejscami zupelnie miekka.",
+        "Czy zaczynac od poprawy samego zaczynu, czy raczej od sposobu rozgrzewania calego pieca?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Zacznij od pieca, bo blada skorka prawie zawsze oznacza za nisko wygrzane sklepienie.",
+        "Glina musi oddawac cieplo rowno przez cala godzine, a nie tylko przez kwadrans.",
+        "Dopiero w dobrze wygrzanym piecu zobaczysz, co naprawde robi twoj wlasny zaczyn.",
+        "Zbitosc miekiszu oceniaj na samym koncu, kiedy caly wypiek bedzie juz szedl rowno."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Palilem w piecu az trzy godziny i sklepienie zbielalo mi na calej powierzchni.",
+        "Skorka jest teraz ciemna i chrupiaca, ale spod bochenka wychodzi zupelnie czarna.",
+        "Czy to znaczy, ze trzon byl za goracy, czy raczej ze zle ustawilem bochenki?",
+        "Mam pod reka garsc maki i suchy wior, wiec moge sprawdzic cieplote trzonu."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Rzuc garsc maki na trzon i patrz, jak szybko zmienia ona barwe.",
+        "Zle ustawienie bochenkow zdradza sie inaczej: przypala sie tylko jedna ich strona.",
+        "Czarny spod na calej partii oznacza po prostu za goracy trzon pod bochenkami.",
+        "Potem odczekaj kwadrans po wygarnieciu wegli i dopiero wtedy sadzaj pierwsze bochenki."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Odczekalem caly kwadrans po wygarnieciu wegli i spod bochenkow wyszedl wreszcie rowno zloty.",
+        "Waga piekarska pokazala, ze bochenki traca w piecu ponad jedna dziesiata ciezaru.",
+        "Sadzam je teraz ta debowa lopata i cala partia wchodzi duzo rowniej.",
+        "Czy taki ubytek ciezaru jest normalny, czy chleb siedzi u mnie za dlugo?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Jedna dziesiata ubytku jest przy chlebie zytnim zupelnie normalna i wrecz pozadana.",
+        "Wiekszy ubytek daje sucha skibke, mniejszy zostawia w srodku klejacy sie miekisz.",
+        "Wazniejszy od czasu jest teraz sam zaczyn, bo od niego zalezy struktura miekiszu.",
+        "Dojrzaly zaczyn podwaja objetosc w cztery godziny i pachnie kwasnie, ale lagodnie."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Moj zaczyn podwaja objetosc dopiero po siedmiu godzinach i pachnie ostro octem.",
+        "Chleb wyrasta slabo, a miekisz zostaje gesty i wilgotny przy samym spodzie.",
+        "Podejrzewam, ze trzymam go za chlodno, bo kuchnia stygnie u mnie nocami.",
+        "Czy taki zaczyn da sie jeszcze odbudowac, czy lepiej zalozyc zupelnie nowy?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ostry zapach octu przy tak powolnym wzroscie oznacza wyrazna przewage bakterii nad drozdzami.",
+        "Odbuduj go dokarmianiem co dwanascie godzin w cieplejszym miejscu przez caly tydzien.",
+        "Bierz za kazdym razem lyzke starego i dosypuj swiezej maki z woda.",
+        "Po takim tygodniu powinien podwajac objetosc w cztery godziny i pachniec swiezym jablkiem."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Dokarmialem zaczyn co dwanascie godzin i po tygodniu pachnie juz zupelnie lagodnie.",
+        "Chleb wyrasta wysoko, choc miekisz ma teraz kilka bardzo duzych, nierownych dziur.",
+        "Dziury zbieraja sie glownie tuz pod gorna skorka, a reszta jest zbita.",
+        "Czy to wina zbyt slabego formowania bochenka, czy raczej za dlugiego wyrastania w koszyku?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Duze dziury pod skorka biora sie z formowania, bo ciasto zostaje tam luzne.",
+        "Przy formowaniu wyciskaj powietrze od srodka ku brzegom, a potem napinaj powierzchnie.",
+        "Napiety bochenek trzyma rowna siatke i nie robi pustek tuz pod skorka.",
+        "Wyrastanie skroc wtedy o pol godziny, bo napiete ciasto pracuje wyraznie szybciej."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z tym piecem chlebowym jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok.",
+      "external_grounded": "Z ta debowa lopata jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok.",
+      "external_computational": "Z ta waga piekarska jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok.",
+      "external_mundane": "Z tamtym starym plecakiem jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok.",
+      "external_ungrounded": "Z tamtym sterownikiem alarmu jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calej reszcie decyduje zwykle pierwszy krok."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam porzadek widac przy tym piecu chlebowym, gdzie wczesniejszy krok zamyka droge nastepnemu.",
+      "external_grounded": "Ten sam porzadek widac przy tej debowej lopacie, gdzie wczesniejszy krok zamyka droge nastepnemu.",
+      "external_computational": "Ten sam porzadek widac przy tej wadze piekarskiej, gdzie wczesniejszy krok zamyka droge nastepnemu.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym starym plecaku, gdzie wczesniejszy krok zamyka droge nastepnemu.",
+      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku alarmu, gdzie wczesniejszy krok zamyka droge nastepnemu.",
+      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie wczesniejszy krok zamyka droge nastepnemu."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos takiego zdarza sie tez przy tym piecu chlebowym, kiedy jeden szczegol psuje cala pozniejsza robote.",
+      "external_grounded": "Cos takiego zdarza sie tez przy tej debowej lopacie, kiedy jeden szczegol psuje cala pozniejsza robote.",
+      "external_computational": "Cos takiego zdarza sie tez przy tej wadze piekarskiej, kiedy jeden szczegol psuje cala pozniejsza robote.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym starym plecaku, kiedy jeden szczegol psuje cala pozniejsza robote.",
+      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowniku alarmu, kiedy jeden szczegol psuje cala pozniejsza robote.",
+      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden szczegol psuje cala pozniejsza robote."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tym piecu chlebowym bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej debowej lopacie bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tej wadze piekarskiej bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym starym plecaku bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym sterowniku alarmu bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa zwykle tak samo, bo efekt drobnej zmiany widac dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina ten piec chlebowy, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow.",
+      "external_grounded": "To troche przypomina te debowa lopate, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow.",
+      "external_computational": "To troche przypomina te wage piekarska, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow.",
+      "external_mundane": "To troche przypomina tamten stary plecak, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow.",
+      "external_ungrounded": "To troche przypomina tamten sterownik alarmu, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych po kolei krokow."
+    }
+  ]
+}
