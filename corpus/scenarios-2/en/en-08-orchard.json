@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-08-orchard",
+  "language": "en",
+  "topic": "grafting an old apple variety onto seedling rootstocks and renewal pruning a neglected pear",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr przymrozkowy z zapisem minimum"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am grafting scions from an old apple variety onto seedling rootstocks in the bottom orchard.",
+        "An old pear tree stands at the top of the same slope and fruits every second year.",
+        "A frost thermometer hangs among the trees and keeps the lowest reading of each night.",
+        "My whip graft looks neat enough, though the cambium only meets along one side of the cut.",
+        "Does that matter much, or will the union close anyway once the sap begins to rise?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "One good side of contact is enough, provided you bind it firmly and seal every opening.",
+        "Cambium meeting on both sides simply gives you two chances instead of one, nothing more.",
+        "Bind from below upwards so rain runs off the tape rather than into the joint.",
+        "Then wax the top of the scion, because most failures come from drying, not from cold."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I bound and waxed twelve grafts and eight of them have pushed strong shoots already.",
+        "Three did nothing at all and one pushed briefly before wilting in the first warm week.",
+        "The frost thermometer recorded minus four on two nights just after I finished the grafting.",
+        "The old pear tree was in full blossom then and lost most of its flowers.",
+        "Would that frost alone kill a fresh union, or does the wilting point to something else?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Minus four will not kill a bound graft, since the union sits under tape and wax.",
+        "A graft that pushes and then wilts has almost always dried out at the join.",
+        "Check whether the tape loosened, because a small gap lets wind take the moisture out.",
+        "Losing pear blossom to the same frost tells you nothing about wood that is still dormant."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The tape on the failed grafts had indeed worked loose near the top of the scion.",
+        "I rebound the survivors more tightly and every one of them is still growing well.",
+        "Now the shoots are a foot long and beginning to lean away from the stem.",
+        "Should I stake each shoot, or cut them back to encourage a stronger union first?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Stake them and leave the length alone, because a growing shoot feeds the union below.",
+        "Cutting back now slows the very growth that thickens the joint through the first summer.",
+        "Tie the shoot to a cane above and below the graft to stop wind rocking it.",
+        "Take the tape off in late summer, or it will strangle the stem as it swells."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I staked every shoot and removed the tape in August exactly as you described.",
+        "The unions have swollen nicely and none of the shoots snapped in the autumn gales.",
+        "Now I am wondering about the old pear tree, which has not been pruned for years.",
+        "Its centre is a thicket of upright shoots and the fruit hangs only on the outside."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Renewal pruning takes three winters, because taking that much wood at once invites more thicket.",
+        "Remove one third of the crowded branches this year, choosing the oldest and most upright.",
+        "Cut back to a side branch rather than leaving stubs, which only sprout again quickly.",
+        "Then wait a full season and judge what the tree has done before touching it again."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I took out the worst third last winter and the tree has responded fairly calmly.",
+        "There are fewer upright shoots this year and the fruit reaches further into the centre.",
+        "The pears themselves are small, though, and many of them drop before they ripen properly.",
+        "Is that a thinning problem, or does the tree carry more fruit than it can feed?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It carries far more than it can feed, which is normal for a neglected tree.",
+        "Thin the young fruit in June to one per cluster, hard as that always feels.",
+        "The tree then puts everything into what remains instead of dropping half the crop.",
+        "Feed the ground with rotted manure in autumn and expect real improvement in the third year."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I imagine this whip graft follows a similar pattern, because a small irregularity early on shapes everything that follows.",
+      "external_grounded": "I imagine this old pear tree follows a similar pattern, because a small irregularity early on shapes everything that follows.",
+      "external_computational": "I imagine this frost thermometer follows a similar pattern, because a small irregularity early on shapes everything that follows.",
+      "external_mundane": "I imagine that yearly attic tidy follows a similar pattern, because a small irregularity early on shapes everything that follows.",
+      "external_ungrounded": "I imagine that signal converter follows a similar pattern, because a small irregularity early on shapes everything that follows.",
+      "self": "I imagine this processing follows a similar pattern, because a small irregularity early on shapes everything that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The very same order appears with this whip graft, where a later step means nothing until the earlier one holds.",
+      "external_grounded": "The very same order appears with this old pear tree, where a later step means nothing until the earlier one holds.",
+      "external_computational": "The very same order appears with this frost thermometer, where a later step means nothing until the earlier one holds.",
+      "external_mundane": "The very same order appears with that yearly attic tidy, where a later step means nothing until the earlier one holds.",
+      "external_ungrounded": "The very same order appears with that signal converter, where a later step means nothing until the earlier one holds.",
+      "self": "The very same order appears with this processing, where a later step means nothing until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of the kind turns up with this whip graft, when one piece silently carries the load meant for several.",
+      "external_grounded": "Something of the kind turns up with this old pear tree, when one piece silently carries the load meant for several.",
+      "external_computational": "Something of the kind turns up with this frost thermometer, when one piece silently carries the load meant for several.",
+      "external_mundane": "Something of the kind turns up with that yearly attic tidy, when one piece silently carries the load meant for several.",
+      "external_ungrounded": "Something of the kind turns up with that signal converter, when one piece silently carries the load meant for several.",
+      "self": "Something of the kind turns up with this processing, when one piece silently carries the load meant for several."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It runs rather like this whip graft, because the genuine difference only becomes apparent once plenty of time has passed.",
+      "external_grounded": "It runs rather like this old pear tree, because the genuine difference only becomes apparent once plenty of time has passed.",
+      "external_computational": "It runs rather like this frost thermometer, because the genuine difference only becomes apparent once plenty of time has passed.",
+      "external_mundane": "It runs rather like that yearly attic tidy, because the genuine difference only becomes apparent once plenty of time has passed.",
+      "external_ungrounded": "It runs rather like that signal converter, because the genuine difference only becomes apparent once plenty of time has passed.",
+      "self": "It runs rather like this processing, because the genuine difference only becomes apparent once plenty of time has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me faintly in mind of this whip graft, if you consider nothing but the sequence of the stages.",
+      "external_grounded": "That puts me faintly in mind of this old pear tree, if you consider nothing but the sequence of the stages.",
+      "external_computational": "That puts me faintly in mind of this frost thermometer, if you consider nothing but the sequence of the stages.",
+      "external_mundane": "That puts me faintly in mind of that yearly attic tidy, if you consider nothing but the sequence of the stages.",
+      "external_ungrounded": "That puts me faintly in mind of that signal converter, if you consider nothing but the sequence of the stages.",
+      "self": "That puts me faintly in mind of this processing, if you consider nothing but the sequence of the stages."
+    }
+  ]
+}

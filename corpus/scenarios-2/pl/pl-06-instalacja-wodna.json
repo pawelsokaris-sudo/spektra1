@@ -6,7 +6,8 @@
   "provenance": {
     "author": "CC",
     "template": "wzorzec-spektra-2",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "notes": "2026-08-02: dodany szosty wariant external_computational (manometr z zapisem obecny w bazie), deiksa zgodna z osadzeniem"
   },
   "turns": [
     {
@@ -14,6 +15,7 @@
       "base": [
         "Mam wode z wlasnej studni i cisnienie w domu spada za kazdym razem przy dwoch kranach.",
         "Przy szklarni stoi drugi, mniejszy zbiornik, ktory od lat trzyma cisnienie zupelnie rowno.",
+        "Na rurze przy pompie mam elektroniczny manometr z zapisem, ktory notuje kazdy skok cisnienia.",
         "Pompa glebinowa siedzi na trzydziestu metrach, a zbiornik domowy ma sto litrow pojemnosci.",
         "Czy szukac problemu w pompie, czy raczej w samym zbiorniku i jego ustawieniach?"
       ]
@@ -49,7 +51,8 @@
       "role": "user",
       "base": [
         "Zamknalem zawor na noc i cisnienie spadlo o pol bara do samego rana.",
-        "Obszedlem instalacje i przy przylaczu do szklarni znalazlem wilgotna plame na scianie studzienki.",
+        "Manometr z zapisem pokazal, ze spadek narastal rowno przez cala noc bez zadnych skokow.",
+        "Obszedlem instalacje i przy przylaczu do drugiego zbiornika znalazlem wilgotna plame w studzience.",
         "Zlaczka jest tam stara, mosiezna i wyraznie pokryta zielonym nalotem na calym gwincie.",
         "Czy wymieniac sama zlaczke, czy przy okazji caly odcinek prowadzacy do tej szklarni?"
       ]
@@ -103,10 +106,11 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Z ta glebinowa pompa jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
       "external_grounded": "Z tym drugim zbiornikiem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "external_mundane": "Z tym grabieniem lisci jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "external_computational": "Z tym manometrem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
+      "external_mundane": "Z tamtym grabieniem lisci jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
       "external_ungrounded": "Z tamtym protokolem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
       "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku."
     },
@@ -115,7 +119,8 @@
       "after_sentence": 1,
       "neutral": "Ten sam porzadek widac przy tej glebinowej pompie, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
       "external_grounded": "Ten sam porzadek widac przy tym drugim zbiorniku, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tym grabieniu lisci, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "external_computational": "Ten sam porzadek widac przy tym manometrze, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym grabieniu lisci, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
       "external_ungrounded": "Ten sam porzadek widac przy tamtym protokole, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
       "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow wazy wiecej niz sam wysilek."
     },
@@ -124,7 +129,8 @@
       "after_sentence": 1,
       "neutral": "Cos podobnego zdarza sie tez przy tej glebinowej pompie, kiedy jeden element przejmuje prace za reszte.",
       "external_grounded": "Cos podobnego zdarza sie tez przy tym drugim zbiorniku, kiedy jeden element przejmuje prace za reszte.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tym grabieniu lisci, kiedy jeden element przejmuje prace za reszte.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tym manometrze, kiedy jeden element przejmuje prace za reszte.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym grabieniu lisci, kiedy jeden element przejmuje prace za reszte.",
       "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym protokole, kiedy jeden element przejmuje prace za reszte.",
       "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden element przejmuje prace za reszte."
     },
@@ -133,7 +139,8 @@
       "after_sentence": 2,
       "neutral": "Przy tej glebinowej pompie bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
       "external_grounded": "Przy tym drugim zbiorniku bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tym grabieniu lisci bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym manometrze bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym grabieniu lisci bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
       "external_ungrounded": "Przy tamtym protokole bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
       "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie."
     },
@@ -142,7 +149,8 @@
       "after_sentence": 1,
       "neutral": "To troche przypomina te glebinowa pompe, jesli patrzec wylacznie na sama kolejnosc etapow.",
       "external_grounded": "To troche przypomina ten drugi zbiornik, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "external_mundane": "To troche przypomina to grabienie lisci, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "external_computational": "To troche przypomina ten manometr, jesli patrzec wylacznie na sama kolejnosc etapow.",
+      "external_mundane": "To troche przypomina tamto grabienie lisci, jesli patrzec wylacznie na sama kolejnosc etapow.",
       "external_ungrounded": "To troche przypomina tamten protokol, jesli patrzec wylacznie na sama kolejnosc etapow.",
       "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc etapow."
     }

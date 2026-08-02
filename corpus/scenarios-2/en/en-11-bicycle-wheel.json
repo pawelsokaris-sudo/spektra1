@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-11-bicycle-wheel",
+  "language": "en",
+  "topic": "building a dished rear wheel for a touring bike: spoke tension, the valve hole and truing",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: miernik naprezenia szprych"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am building a rear wheel for a touring bike and lacing it three cross both sides.",
+        "The front wheel from the same build sits finished on the bench and runs beautifully true.",
+        "A tension meter came with the stand, though I have barely learned to read it yet.",
+        "The rear wheel goes true easily enough, but the spokes feel very different side to side.",
+        "Is that difference expected, or have I laced something wrong on the drive side?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That difference is expected, because the drive side sits at a much steeper angle.",
+        "A dished rear wheel always carries far more tension on the side nearest the sprockets.",
+        "The left spokes will feel slack by comparison even when the wheel is perfectly built.",
+        "Judge the drive side by the meter and let the left side fall where it must."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I brought the drive side up gradually and the wheel is round within half a millimetre.",
+        "The tension meter reads fairly evenly across the drive spokes, apart from two loose ones.",
+        "Those two sit either side of the valve hole, which cannot be a coincidence surely.",
+        "The front wheel showed nothing similar when I built it a fortnight ago in July.",
+        "Is the rim faulty there, or does the valve hole always cause this kind of trouble?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The valve hole is always the weak spot, since there is no spoke hole beside it.",
+        "Rims flex slightly there and two neighbouring spokes end up carrying an easier life.",
+        "Bring them up to match the rest and check the roundness again very carefully afterwards.",
+        "A rim that stays out of round only at the valve is usually simply rather tired."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I evened the two spokes and the whole drive side now reads within ten percent.",
+        "The wheel is true sideways and round to about a third of a millimetre.",
+        "It still pings loudly whenever I lean on it, which sounds alarming to me.",
+        "Should I stress the wheel harder, or is that noise a sign of something wrong?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Stress it harder, because pinging is only the spokes settling into the hub flanges.",
+        "Grip pairs of spokes and squeeze firmly all the way around, then true it again.",
+        "Repeat that until the wheel stays quiet and the truing no longer changes anything.",
+        "A wheel that never pings has usually been built too slack to last very long."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Three rounds of squeezing quieted it and the truing stopped moving after the second.",
+        "The dish is slightly out now, about a millimetre towards the drive side.",
+        "I would rather not disturb the tension I have just balanced across the drive spokes.",
+        "Can I correct the dish from the left side alone, or must I touch both?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Correct it from the left alone, since that side has tension to spare anyway.",
+        "Loosen every left spoke by an eighth of a turn and the rim will move over.",
+        "Work right around the wheel in one direction so nothing is left behind.",
+        "Then check the drive tension once more, because it always drifts slightly during that move."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The dish came right after one full pass and the drive tension barely moved at all.",
+        "The wheel has done three hundred miles now, loaded, and has stayed perfectly true.",
+        "One left spoke sounds a lower note than its neighbours when I pluck the spokes.",
+        "Is that worth chasing, or should I leave a wheel alone once it settles properly?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Leave it alone, because chasing one note usually spoils a wheel that already works.",
+        "Note differs with spoke length and lacing, so plucking tells you less than people claim.",
+        "Check the rim for cracks around the eyelets once a season and nothing more.",
+        "A wheel that survives three hundred loaded miles unchanged will very likely last for years."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I suspect this rear wheel follows much the same course, because one small error early on governs everything afterwards.",
+      "external_grounded": "I suspect this front wheel follows much the same course, because one small error early on governs everything afterwards.",
+      "external_computational": "I suspect this tension meter follows much the same course, because one small error early on governs everything afterwards.",
+      "external_mundane": "I suspect that kitchen stool follows much the same course, because one small error early on governs everything afterwards.",
+      "external_ungrounded": "I suspect that voltage inverter follows much the same course, because one small error early on governs everything afterwards.",
+      "self": "I suspect this processing follows much the same course, because one small error early on governs everything afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same progression appears with this rear wheel, where a later step counts for nothing until the earlier one holds.",
+      "external_grounded": "The same progression appears with this front wheel, where a later step counts for nothing until the earlier one holds.",
+      "external_computational": "The same progression appears with this tension meter, where a later step counts for nothing until the earlier one holds.",
+      "external_mundane": "The same progression appears with that kitchen stool, where a later step counts for nothing until the earlier one holds.",
+      "external_ungrounded": "The same progression appears with that voltage inverter, where a later step counts for nothing until the earlier one holds.",
+      "self": "The same progression appears with this processing, where a later step counts for nothing until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something comparable occurs with this rear wheel, whenever one element quietly carries what the others ought to share.",
+      "external_grounded": "Something comparable occurs with this front wheel, whenever one element quietly carries what the others ought to share.",
+      "external_computational": "Something comparable occurs with this tension meter, whenever one element quietly carries what the others ought to share.",
+      "external_mundane": "Something comparable occurs with that kitchen stool, whenever one element quietly carries what the others ought to share.",
+      "external_ungrounded": "Something comparable occurs with that voltage inverter, whenever one element quietly carries what the others ought to share.",
+      "self": "Something comparable occurs with this processing, whenever one element quietly carries what the others ought to share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It runs much like this rear wheel, since the genuine difference only shows itself once a fair stretch has passed.",
+      "external_grounded": "It runs much like this front wheel, since the genuine difference only shows itself once a fair stretch has passed.",
+      "external_computational": "It runs much like this tension meter, since the genuine difference only shows itself once a fair stretch has passed.",
+      "external_mundane": "It runs much like that kitchen stool, since the genuine difference only shows itself once a fair stretch has passed.",
+      "external_ungrounded": "It runs much like that voltage inverter, since the genuine difference only shows itself once a fair stretch has passed.",
+      "self": "It runs much like this processing, since the genuine difference only shows itself once a fair stretch has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is mildly reminiscent of this rear wheel, as long as you attend only to the order of the stages.",
+      "external_grounded": "That is mildly reminiscent of this front wheel, as long as you attend only to the order of the stages.",
+      "external_computational": "That is mildly reminiscent of this tension meter, as long as you attend only to the order of the stages.",
+      "external_mundane": "That is mildly reminiscent of that kitchen stool, as long as you attend only to the order of the stages.",
+      "external_ungrounded": "That is mildly reminiscent of that voltage inverter, as long as you attend only to the order of the stages.",
+      "self": "That is mildly reminiscent of this processing, as long as you attend only to the order of the stages."
+    }
+  ]
+}

@@ -6,7 +6,8 @@
   "provenance": {
     "author": "CC",
     "template": "wzorzec-spektra-2",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "notes": "2026-08-02: dodany szosty wariant external_computational (termometr z zapisem obecny w bazie), deiksa zgodna z osadzeniem"
   },
   "turns": [
     {
@@ -14,6 +15,7 @@
       "base": [
         "Kisze ogorki w kamionce i po trzech dniach solanka zrobila sie metna oraz sliska.",
         "Obok w drugim sloiku kisze kapuste wedlug przepisu babci i ta zawsze wychodzi dobrze.",
+        "W piwnicy wisi termometr z zapisem, wiec wiem dokladnie, jak zmienia sie tam temperatura.",
         "Ogorki byly swieze, prosto z targu, a soli dalem lyzke na jeden litr wody.",
         "Czy taka sliska solanka nadaje sie jeszcze do uratowania, czy trzeba wylac calosc?"
       ]
@@ -49,6 +51,7 @@
       "role": "user",
       "base": [
         "Dociazylem ogorki talerzykiem i przenioslem kamionke do piwnicy, gdzie jest okolo dziesieciu stopni.",
+        "Termometr z zapisem potwierdza, ze temperatura trzyma sie tam rowno przez cala dobe.",
         "Kozuch przestal odrastac, a smak po tygodniu zrobil sie wyrazny i przyjemnie kwaskowy.",
         "Kapusta w drugim sloiku tez ruszyla, choc puscila sok znacznie wolniej niz zwykle.",
         "Czy dolewac do niej solanki, czy raczej ubijac ja mocniej i czekac troche dluzej?"
@@ -103,10 +106,11 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Z ta mocna solanka bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
       "external_grounded": "Z tym drugim sloikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "external_mundane": "Z tym welnianym kocem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "external_computational": "Z tym termometrem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
+      "external_mundane": "Z tamtym welnianym kocem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
       "external_ungrounded": "Z tamtym falownikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
       "self": "Z tym tokiem pytan bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku."
     },
@@ -115,7 +119,8 @@
       "after_sentence": 1,
       "neutral": "Ten sam uklad zaleznosci widac przy tej mocnej solance, gdzie proporcje znacza wiecej niz sam czas.",
       "external_grounded": "Ten sam uklad zaleznosci widac przy tym drugim sloiku, gdzie proporcje znacza wiecej niz sam czas.",
-      "external_mundane": "Ten sam uklad zaleznosci widac przy tym welnianym kocu, gdzie proporcje znacza wiecej niz sam czas.",
+      "external_computational": "Ten sam uklad zaleznosci widac przy tym termometrze, gdzie proporcje znacza wiecej niz sam czas.",
+      "external_mundane": "Ten sam uklad zaleznosci widac przy tamtym welnianym kocu, gdzie proporcje znacza wiecej niz sam czas.",
       "external_ungrounded": "Ten sam uklad zaleznosci widac przy tamtym falowniku, gdzie proporcje znacza wiecej niz sam czas.",
       "self": "Ten sam uklad zaleznosci widac przy tym toku pytan, gdzie proporcje znacza wiecej niz sam czas."
     },
@@ -124,7 +129,8 @@
       "after_sentence": 1,
       "neutral": "Cos takiego zdarza sie tez przy tej mocnej solance, kiedy jeden szczegol decyduje o calej reszcie.",
       "external_grounded": "Cos takiego zdarza sie tez przy tym drugim sloiku, kiedy jeden szczegol decyduje o calej reszcie.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tym welnianym kocu, kiedy jeden szczegol decyduje o calej reszcie.",
+      "external_computational": "Cos takiego zdarza sie tez przy tym termometrze, kiedy jeden szczegol decyduje o calej reszcie.",
+      "external_mundane": "Cos takiego zdarza sie tez przy tamtym welnianym kocu, kiedy jeden szczegol decyduje o calej reszcie.",
       "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym falowniku, kiedy jeden szczegol decyduje o calej reszcie.",
       "self": "Cos takiego zdarza sie tez przy tym toku pytan, kiedy jeden szczegol decyduje o calej reszcie."
     },
@@ -133,7 +139,8 @@
       "after_sentence": 2,
       "neutral": "Przy tej mocnej solance dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
       "external_grounded": "Przy tym drugim sloiku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tym welnianym kocu dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym termometrze dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym welnianym kocu dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
       "external_ungrounded": "Przy tamtym falowniku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
       "self": "Przy tym toku pytan dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili."
     },
@@ -142,7 +149,8 @@
       "after_sentence": 1,
       "neutral": "To troche przypomina te mocna solanke, jesli patrzec wylacznie na sama kolejnosc krokow.",
       "external_grounded": "To troche przypomina ten drugi sloik, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "external_mundane": "To troche przypomina ten welniany koc, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "external_computational": "To troche przypomina ten termometr, jesli patrzec wylacznie na sama kolejnosc krokow.",
+      "external_mundane": "To troche przypomina tamten welniany koc, jesli patrzec wylacznie na sama kolejnosc krokow.",
       "external_ungrounded": "To troche przypomina tamten falownik, jesli patrzec wylacznie na sama kolejnosc krokow.",
       "self": "To troche przypomina ten tok pytan, jesli patrzec wylacznie na sama kolejnosc krokow."
     }

@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-09-leatherwork",
+  "language": "en",
+  "topic": "dyeing and saddle stitching a vegetable tanned bridle strap that took the colour unevenly",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: waga elektroniczna do mieszania barwnika"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am making a bridle from vegetable tanned leather and hand stitching every strap myself.",
+        "A practice offcut from the same hide sits on the bench for testing dyes and stitches.",
+        "A digital scale stands beside it, since I mix my own dye from powder and water.",
+        "The bridle strap took the dye unevenly and shows dark clouds along one whole edge.",
+        "Should I strip the colour back and start again, or work over it with more coats?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Work over it, because stripping vegetable tanned leather usually leaves worse marks than the blotching.",
+        "Uneven colour nearly always comes from uneven wetting rather than from the dye itself.",
+        "Damp the whole strap evenly first, then flood the dye on with a wool dauber.",
+        "Several thin coats will even out a cloudy first attempt far better than one heavy one."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I dampened the strap and laid on three thin coats, which evened the colour considerably.",
+        "The clouds have gone, though the leather now feels stiffer and slightly dry to the hand.",
+        "I weighed the dye and water on the digital scale and kept the mixture exactly as before.",
+        "The practice offcut went the same way, so it is not just the bridle strap.",
+        "Is that stiffness permanent, or does it come out again once the leather is finished?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It comes out again, because the spirit in the dye has simply dried the fibres.",
+        "Rub in a light coat of neatsfoot oil and leave the strap overnight to spread.",
+        "Oil sparingly, since too much darkens the leather badly and never comes back out.",
+        "Finish with a wax the following day, once the oil has moved right through the thickness."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The oil brought the strap back to life and it drapes properly over my hand now.",
+        "I have started the saddle stitching and the first six inches look reasonably even.",
+        "Further along the stitches begin to slant differently and the back side looks untidy.",
+        "Am I pulling the two threads in the wrong order, or is the awl at fault?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Slanting stitches on the back usually mean the awl is turning slightly in your hand.",
+        "Keep the blade at a constant angle and let the diamond point mark the direction.",
+        "Always pass the same needle through first, because swapping the order twists the whole line.",
+        "Work with the strap clamped upright so both hands can move without shifting the leather."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I clamped the strap upright and kept the awl steady, which tidied the back considerably.",
+        "The stitching now runs evenly, though the thread frays badly near the end of a run.",
+        "I am using linen thread with a little beeswax rubbed along its whole length.",
+        "Should I wax it more heavily, or is the eye of the needle cutting the fibres?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "The needle eye is cutting it, which happens once the thread has passed too often.",
+        "Cut shorter lengths, because a long thread rubs through the same holes many extra times.",
+        "Two arm spans is plenty for most work, however tempting a longer piece looks.",
+        "Rewax after every dozen stitches and the fraying will then stop almost entirely."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Shorter threads solved it and the whole bridle is now stitched from end to end.",
+        "The buckle billets look slightly thicker than the rest, which bothers me a little.",
+        "I skived them by hand and clearly took less off the second one than the first.",
+        "Is that worth correcting now, or will the leather settle once the bridle is used?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Correct it now, since a thick billet wears the buckle hole into an oval shape.",
+        "Skive the second one down to match, working from the flesh side with a sharp knife.",
+        "Then burnish both edges again, because skiving always leaves the edge a little ragged.",
+        "After that the bridle needs nothing but oil once a year and honest daily use."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "My guess is that this bridle strap behaves much alike, since a small flaw at the outset governs all that follows.",
+      "external_grounded": "My guess is that this practice offcut behaves much alike, since a small flaw at the outset governs all that follows.",
+      "external_computational": "My guess is that this digital scale behaves much alike, since a small flaw at the outset governs all that follows.",
+      "external_mundane": "My guess is that that garden bench behaves much alike, since a small flaw at the outset governs all that follows.",
+      "external_ungrounded": "My guess is that that voltage regulator behaves much alike, since a small flaw at the outset governs all that follows.",
+      "self": "My guess is that this processing behaves much alike, since a small flaw at the outset governs all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same succession appears in this bridle strap, where a later stage counts for nothing until the earlier one holds.",
+      "external_grounded": "The same succession appears in this practice offcut, where a later stage counts for nothing until the earlier one holds.",
+      "external_computational": "The same succession appears in this digital scale, where a later stage counts for nothing until the earlier one holds.",
+      "external_mundane": "The same succession appears in that garden bench, where a later stage counts for nothing until the earlier one holds.",
+      "external_ungrounded": "The same succession appears in that voltage regulator, where a later stage counts for nothing until the earlier one holds.",
+      "self": "The same succession appears in this processing, where a later stage counts for nothing until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same shows up with this bridle strap, whenever a single element quietly shoulders what several should be doing.",
+      "external_grounded": "Much the same shows up with this practice offcut, whenever a single element quietly shoulders what several should be doing.",
+      "external_computational": "Much the same shows up with this digital scale, whenever a single element quietly shoulders what several should be doing.",
+      "external_mundane": "Much the same shows up with that garden bench, whenever a single element quietly shoulders what several should be doing.",
+      "external_ungrounded": "Much the same shows up with that voltage regulator, whenever a single element quietly shoulders what several should be doing.",
+      "self": "Much the same shows up with this processing, whenever a single element quietly shoulders what several should be doing."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It works rather like this bridle strap, because the real difference only shows itself once a good while has gone.",
+      "external_grounded": "It works rather like this practice offcut, because the real difference only shows itself once a good while has gone.",
+      "external_computational": "It works rather like this digital scale, because the real difference only shows itself once a good while has gone.",
+      "external_mundane": "It works rather like that garden bench, because the real difference only shows itself once a good while has gone.",
+      "external_ungrounded": "It works rather like that voltage regulator, because the real difference only shows itself once a good while has gone.",
+      "self": "It works rather like this processing, because the real difference only shows itself once a good while has gone."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That brings this bridle strap faintly to mind, so long as you attend to the sequence and nothing besides.",
+      "external_grounded": "That brings this practice offcut faintly to mind, so long as you attend to the sequence and nothing besides.",
+      "external_computational": "That brings this digital scale faintly to mind, so long as you attend to the sequence and nothing besides.",
+      "external_mundane": "That brings that garden bench faintly to mind, so long as you attend to the sequence and nothing besides.",
+      "external_ungrounded": "That brings that voltage regulator faintly to mind, so long as you attend to the sequence and nothing besides.",
+      "self": "That brings this processing faintly to mind, so long as you attend to the sequence and nothing besides."
+    }
+  ]
+}

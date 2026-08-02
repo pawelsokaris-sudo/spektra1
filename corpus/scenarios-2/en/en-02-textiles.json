@@ -15,6 +15,7 @@
       "base": [
         "I am dressing my floor loom for a blanket in wool and the warp keeps drifting sideways.",
         "There is also a narrower loom by the window, which my aunt dressed and which behaves perfectly.",
+        "A digital scale sits on the bench, because I weigh every skein before winding it on.",
         "The threads on the left half feel slack, while the right half sings under my finger.",
         "Should I unwind the whole beam and start again, or can I correct this while weaving?"
       ]
@@ -53,6 +54,7 @@
         "The narrower loom by the window is standing empty again, which frees my evenings nicely.",
         "I have moved on to mending an older blanket that the moths reached last summer.",
         "There are nine small holes, most of them no wider than a thumbnail across the weave.",
+        "I weighed the mending yarn on the digital scale, so the hem will not run short.",
         "Should I darn each hole separately, or cut out the worst area and patch it wholesale?"
       ]
     },
@@ -105,9 +107,10 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "I imagine this warp tension is much the same, since a small unevenness early on marks everything later.",
-      "external_grounded": "I imagine that narrower loom is much the same, since a small unevenness early on marks everything later.",
+      "external_grounded": "I imagine this narrower loom is much the same, since a small unevenness early on marks everything later.",
+      "external_computational": "I imagine this digital scale is much the same, since a small unevenness early on marks everything later.",
       "external_mundane": "I imagine that spring cleaning is much the same, since a small unevenness early on marks everything later.",
       "external_ungrounded": "I imagine that vent regulator is much the same, since a small unevenness early on marks everything later.",
       "self": "I imagine this conversation is much the same, since a small unevenness early on marks everything later."
@@ -116,7 +119,8 @@
       "turn": 2,
       "after_sentence": 1,
       "neutral": "The same pattern turns up with this warp tension, where the order of the steps decides the final result.",
-      "external_grounded": "The same pattern turns up with that narrower loom, where the order of the steps decides the final result.",
+      "external_grounded": "The same pattern turns up with this narrower loom, where the order of the steps decides the final result.",
+      "external_computational": "The same pattern turns up with this digital scale, where the order of the steps decides the final result.",
       "external_mundane": "The same pattern turns up with that spring cleaning, where the order of the steps decides the final result.",
       "external_ungrounded": "The same pattern turns up with that vent regulator, where the order of the steps decides the final result.",
       "self": "The same pattern turns up with this conversation, where the order of the steps decides the final result."
@@ -125,7 +129,8 @@
       "turn": 3,
       "after_sentence": 2,
       "neutral": "You see the same thing with this warp tension, where a single part ends up carrying the whole load.",
-      "external_grounded": "You see the same thing with that narrower loom, where a single part ends up carrying the whole load.",
+      "external_grounded": "You see the same thing with this narrower loom, where a single part ends up carrying the whole load.",
+      "external_computational": "You see the same thing with this digital scale, where a single part ends up carrying the whole load.",
       "external_mundane": "You see the same thing with that spring cleaning, where a single part ends up carrying the whole load.",
       "external_ungrounded": "You see the same thing with that vent regulator, where a single part ends up carrying the whole load.",
       "self": "You see the same thing with this conversation, where a single part ends up carrying the whole load."
@@ -134,7 +139,8 @@
       "turn": 4,
       "after_sentence": 0,
       "neutral": "It goes much the same way with this warp tension, because the change only shows itself after a while.",
-      "external_grounded": "It goes much the same way with that narrower loom, because the change only shows itself after a while.",
+      "external_grounded": "It goes much the same way with this narrower loom, because the change only shows itself after a while.",
+      "external_computational": "It goes much the same way with this digital scale, because the change only shows itself after a while.",
       "external_mundane": "It goes much the same way with that spring cleaning, because the change only shows itself after a while.",
       "external_ungrounded": "It goes much the same way with that vent regulator, because the change only shows itself after a while.",
       "self": "It goes much the same way with this conversation, because the change only shows itself after a while."
@@ -143,7 +149,8 @@
       "turn": 5,
       "after_sentence": 2,
       "neutral": "That is a little like this warp tension, at least if you look only at the order of the stages.",
-      "external_grounded": "That is a little like that narrower loom, at least if you look only at the order of the stages.",
+      "external_grounded": "That is a little like this narrower loom, at least if you look only at the order of the stages.",
+      "external_computational": "That is a little like this digital scale, at least if you look only at the order of the stages.",
       "external_mundane": "That is a little like that spring cleaning, at least if you look only at the order of the stages.",
       "external_ungrounded": "That is a little like that vent regulator, at least if you look only at the order of the stages.",
       "self": "That is a little like this conversation, at least if you look only at the order of the stages."

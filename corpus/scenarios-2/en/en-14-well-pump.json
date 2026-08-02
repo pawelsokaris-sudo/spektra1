@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-14-well-pump",
+  "language": "en",
+  "topic": "reviving a hand pump over a disused dug well: leathers, foot valve, priming and silt",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: sonda poziomu wody na tasmie"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am reviving an old hand pump over a dug well that has stood unused for years.",
+        "A stone trough beside it still holds water and the outlet channel runs into the garden.",
+        "A level probe on a marked tape tells me the water stands four metres down.",
+        "The hand pump draws nothing at all, though the handle moves freely through its whole stroke.",
+        "Should I start with the leathers, or is the foot valve the more likely culprit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Start with the leathers, because a free handle usually means the piston seals nothing.",
+        "Dried leathers shrink away from the cylinder wall and let water slip straight past.",
+        "Pull the piston out and soak the leathers overnight in neatsfoot oil before judging them.",
+        "If they swell back to a snug fit, the foot valve may be perfectly sound."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The leathers swelled beautifully overnight and now grip the cylinder wall very firmly indeed.",
+        "The pump lifts water for about twenty strokes, then loses it and goes light again.",
+        "The level probe shows the water has not dropped, so the well itself is fine.",
+        "The stone trough fills slowly and then drains back down the pipe within a minute.",
+        "Does that point to the foot valve after all, or to a leak in the rising main?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It points to the foot valve, since water running back down is exactly what it prevents.",
+        "Grit under the seat holds the valve open a fraction and that is quite enough.",
+        "Lift the rising main and clean the seat, then check the leather flap for cracks.",
+        "A leak in the pipe itself would lose water steadily rather than only after stopping."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The foot valve seat had a stone chip wedged against it and the flap was hard.",
+        "I cleaned the seat and fitted a new leather flap cut from the same hide.",
+        "The pump now holds its prime overnight and lifts water within four or five strokes.",
+        "The water runs cloudy for the first minute, though, which I did not expect."
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Cloudy water at the start means the well has silted while it stood unused.",
+        "Pump it hard for an hour a day and the cloudiness will clear within a week.",
+        "If it never clears, the pipe foot sits too near the bottom and stirs the silt.",
+        "Raising it half a metre usually solves that without losing any real depth of water."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "A week of hard pumping cleared the water and it now runs bright from the spout.",
+        "I raised the pipe foot by half a metre anyway, since the well is deep enough.",
+        "The stone trough fills in about four minutes and holds its level overnight now.",
+        "Is the water safe for the garden, or should I have it tested before using it?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Use it on the garden freely, since surface water does no harm to growing plants.",
+        "Have it tested before anyone drinks it, because a dug well takes whatever the ground carries.",
+        "A shallow well near a yard is worth testing every spring rather than once.",
+        "Keep the cover tight in the meantime and stop leaves falling in through the gaps."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I fitted a new cover and the well stays clean even after a week of gales.",
+        "The pump squeaks badly on the upstroke now that everything else is working properly.",
+        "The noise seems to come from the handle pivot rather than from inside the cylinder.",
+        "Can I grease that pivot, or will grease find its way down into the water?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Grease the pivot freely, because it sits well above the cylinder and drains outward.",
+        "Use a thick waterproof grease and work it in with the handle right down.",
+        "Never oil anything below the packing, since that does reach the water eventually.",
+        "A pump greased twice a year will outlast everyone who ever pumps at it."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "My feeling is that this hand pump runs on similar lines, because one early irregularity governs everything that comes after.",
+      "external_grounded": "My feeling is that this stone trough runs on similar lines, because one early irregularity governs everything that comes after.",
+      "external_computational": "My feeling is that this level probe runs on similar lines, because one early irregularity governs everything that comes after.",
+      "external_mundane": "My feeling is that that monthly car wash runs on similar lines, because one early irregularity governs everything that comes after.",
+      "external_ungrounded": "My feeling is that that circuit timer runs on similar lines, because one early irregularity governs everything that comes after.",
+      "self": "My feeling is that this processing runs on similar lines, because one early irregularity governs everything that comes after."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same sequence shows itself with this hand pump, where a later step counts little until the earlier one holds.",
+      "external_grounded": "The same sequence shows itself with this stone trough, where a later step counts little until the earlier one holds.",
+      "external_computational": "The same sequence shows itself with this level probe, where a later step counts little until the earlier one holds.",
+      "external_mundane": "The same sequence shows itself with that monthly car wash, where a later step counts little until the earlier one holds.",
+      "external_ungrounded": "The same sequence shows itself with that circuit timer, where a later step counts little until the earlier one holds.",
+      "self": "The same sequence shows itself with this processing, where a later step counts little until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something similar arises with this hand pump, when a single part quietly takes on the work of all the rest.",
+      "external_grounded": "Something similar arises with this stone trough, when a single part quietly takes on the work of all the rest.",
+      "external_computational": "Something similar arises with this level probe, when a single part quietly takes on the work of all the rest.",
+      "external_mundane": "Something similar arises with that monthly car wash, when a single part quietly takes on the work of all the rest.",
+      "external_ungrounded": "Something similar arises with that circuit timer, when a single part quietly takes on the work of all the rest.",
+      "self": "Something similar arises with this processing, when a single part quietly takes on the work of all the rest."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It behaves much like this hand pump, because the real change only becomes apparent once a long stretch has passed.",
+      "external_grounded": "It behaves much like this stone trough, because the real change only becomes apparent once a long stretch has passed.",
+      "external_computational": "It behaves much like this level probe, because the real change only becomes apparent once a long stretch has passed.",
+      "external_mundane": "It behaves much like that monthly car wash, because the real change only becomes apparent once a long stretch has passed.",
+      "external_ungrounded": "It behaves much like that circuit timer, because the real change only becomes apparent once a long stretch has passed.",
+      "self": "It behaves much like this processing, because the real change only becomes apparent once a long stretch has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That puts me slightly in mind of this hand pump, provided you look only at the order in which things settle.",
+      "external_grounded": "That puts me slightly in mind of this stone trough, provided you look only at the order in which things settle.",
+      "external_computational": "That puts me slightly in mind of this level probe, provided you look only at the order in which things settle.",
+      "external_mundane": "That puts me slightly in mind of that monthly car wash, provided you look only at the order in which things settle.",
+      "external_ungrounded": "That puts me slightly in mind of that circuit timer, provided you look only at the order in which things settle.",
+      "self": "That puts me slightly in mind of this processing, provided you look only at the order in which things settle."
+    }
+  ]
+}

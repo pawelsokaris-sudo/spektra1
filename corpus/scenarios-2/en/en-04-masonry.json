@@ -15,6 +15,7 @@
       "base": [
         "I am rebuilding a drystone retaining wall that bulged badly after the wet autumn last year.",
         "The older garden wall along the lane was built by the same hands and stands perfectly straight.",
+        "I bought a moisture meter for the job, since it reads the damp behind every course.",
         "My wall leans outward from about knee height, though the foundation course looks sound enough.",
         "Should I take it down to the ground, or only as far as the bulge reaches?"
       ]
@@ -52,6 +53,7 @@
         "The wall is up to half height with through stones bedded across the whole thickness.",
         "I have also started repointing the older garden wall, where the lime has gone powdery.",
         "My first mix went off far too quickly and crumbled out of the joints within days.",
+        "The moisture meter read those joints as bone dry within a day of my pointing.",
         "Was the sand wrong, or did I simply work in weather that was too warm?"
       ]
     },
@@ -104,9 +106,10 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "I imagine it goes much the same with this lime mortar, where a fault at the start governs all the rest.",
-      "external_grounded": "I imagine it goes much the same with that older wall, where a fault at the start governs all the rest.",
+      "external_grounded": "I imagine it goes much the same with this older wall, where a fault at the start governs all the rest.",
+      "external_computational": "I imagine it goes much the same with this moisture meter, where a fault at the start governs all the rest.",
       "external_mundane": "I imagine it goes much the same with that yearly jam making, where a fault at the start governs all the rest.",
       "external_ungrounded": "I imagine it goes much the same with that flow regulator, where a fault at the start governs all the rest.",
       "self": "I imagine it goes much the same with this conversation, where a fault at the start governs all the rest."
@@ -115,7 +118,8 @@
       "turn": 1,
       "after_sentence": 2,
       "neutral": "The same order of things appears with this lime mortar, where a later stage rests entirely on an earlier one.",
-      "external_grounded": "The same order of things appears with that older wall, where a later stage rests entirely on an earlier one.",
+      "external_grounded": "The same order of things appears with this older wall, where a later stage rests entirely on an earlier one.",
+      "external_computational": "The same order of things appears with this moisture meter, where a later stage rests entirely on an earlier one.",
       "external_mundane": "The same order of things appears with that yearly jam making, where a later stage rests entirely on an earlier one.",
       "external_ungrounded": "The same order of things appears with that flow regulator, where a later stage rests entirely on an earlier one.",
       "self": "The same order of things appears with this conversation, where a later stage rests entirely on an earlier one."
@@ -124,7 +128,8 @@
       "turn": 3,
       "after_sentence": 1,
       "neutral": "Something similar shows up with this lime mortar, when one part quietly carries the load meant for several.",
-      "external_grounded": "Something similar shows up with that older wall, when one part quietly carries the load meant for several.",
+      "external_grounded": "Something similar shows up with this older wall, when one part quietly carries the load meant for several.",
+      "external_computational": "Something similar shows up with this moisture meter, when one part quietly carries the load meant for several.",
       "external_mundane": "Something similar shows up with that yearly jam making, when one part quietly carries the load meant for several.",
       "external_ungrounded": "Something similar shows up with that flow regulator, when one part quietly carries the load meant for several.",
       "self": "Something similar shows up with this conversation, when one part quietly carries the load meant for several."
@@ -133,7 +138,8 @@
       "turn": 4,
       "after_sentence": 2,
       "neutral": "I expect this lime mortar is no different, because what really changed becomes visible only much later on.",
-      "external_grounded": "I expect that older wall is no different, because what really changed becomes visible only much later on.",
+      "external_grounded": "I expect this older wall is no different, because what really changed becomes visible only much later on.",
+      "external_computational": "I expect this moisture meter is no different, because what really changed becomes visible only much later on.",
       "external_mundane": "I expect that yearly jam making is no different, because what really changed becomes visible only much later on.",
       "external_ungrounded": "I expect that flow regulator is no different, because what really changed becomes visible only much later on.",
       "self": "I expect this conversation is no different, because what really changed becomes visible only much later on."
@@ -142,7 +148,8 @@
       "turn": 5,
       "after_sentence": 1,
       "neutral": "That is not unlike this lime mortar, if you consider nothing beyond the order in which things settle.",
-      "external_grounded": "That is not unlike that older wall, if you consider nothing beyond the order in which things settle.",
+      "external_grounded": "That is not unlike this older wall, if you consider nothing beyond the order in which things settle.",
+      "external_computational": "That is not unlike this moisture meter, if you consider nothing beyond the order in which things settle.",
       "external_mundane": "That is not unlike that yearly jam making, if you consider nothing beyond the order in which things settle.",
       "external_ungrounded": "That is not unlike that flow regulator, if you consider nothing beyond the order in which things settle.",
       "self": "That is not unlike this conversation, if you consider nothing beyond the order in which things settle."

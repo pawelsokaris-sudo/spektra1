@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-13-bookbinding",
+  "language": "en",
+  "topic": "rebinding an old ledger: resewing the sections, guarding torn folds, gluing and pressing",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: higrometr warsztatowy"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am rebinding an old ledger whose sewing has failed and whose cloth cover is torn.",
+        "A spare board from another book lies on the bench and matches the thickness exactly.",
+        "A room hygrometer sits above the press, because the paper cockles badly in a damp week.",
+        "The text block has come apart into six sections with the thread rotted right through.",
+        "Should I resew the whole thing, or repair the sewing only where it has failed?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Resew the whole block, because a partial repair leaves old thread pulling against new.",
+        "Take the sections apart carefully and clean the folds before you thread a needle.",
+        "Old glue on the spine folds will stop the new sewing from lying properly flat.",
+        "Paste and time will soften that glue far better than any amount of patient scraping."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I softened the spine with paste and the old glue lifted off in long strips.",
+        "The folds are clean now, though two sections have torn along the first fold.",
+        "The room hygrometer showed sixty five percent while I worked, which felt rather damp.",
+        "The spare board has curled slightly on the bench since then, which cannot be good.",
+        "Should I guard those torn folds with paper, or simply sew through them as they are?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Guard them, since sewing through a torn fold tears the section further with every opening.",
+        "Cut narrow strips of thin Japanese paper and paste them along the inside of each fold.",
+        "Let them dry flat under a weight before you take the sections to the sewing frame.",
+        "Curling boards mean the room is too damp for pasting anything you intend to keep flat."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I guarded both torn sections and sewed the whole block on tapes as you suggested.",
+        "The spine swelled more than I expected and now sits noticeably thicker than the fore edge.",
+        "The block will not close properly and the sections splay apart near the top.",
+        "Have I used thread that is too heavy, or is the swelling normal at this stage?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Some swelling is normal, but that much suggests thread heavier than the paper needs.",
+        "Nip the spine in the press for an hour and much of it will disappear.",
+        "What remains gets shaped into the round when you back the block against the boards.",
+        "Use a finer thread next time and the swelling will look after itself entirely."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Nipping took out most of the swelling and rounding the spine dealt with the rest.",
+        "I glued the spine with a thin coat and lined it with linen afterwards.",
+        "The block now opens flat, though the glue feels rather hard along the whole spine.",
+        "Should I have used paste there instead, or is hard glue right for a heavy ledger?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Glue is right for a ledger, because paste alone will not hold a heavy block.",
+        "Hardness matters less once the linen lining takes most of the movement across the spine.",
+        "A thin coat is the important part, since thick glue makes the whole spine rigid.",
+        "Add a hollow tube over the lining and the covering will move without cracking."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The hollow tube made an enormous difference and the ledger opens easily to any page.",
+        "I covered it in book cloth and the corners came out neat on the second attempt.",
+        "One board shows a faint ridge where the turn in overlaps beneath the pastedown.",
+        "Is that worth pulling apart and redoing, or will the ridge settle under steady pressure?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "It will settle, provided you press the book properly between boards for several days.",
+        "Ridges from a turn in flatten out once the covering dries under steady even weight.",
+        "Pull the whole cover apart only if the ridge sits where a hand rests constantly.",
+        "Otherwise leave it, because every rebinding carries a few marks of its own making."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I rather suspect this text block follows the same course, because a small fault at the outset shapes everything afterwards.",
+      "external_grounded": "I rather suspect this spare board follows the same course, because a small fault at the outset shapes everything afterwards.",
+      "external_computational": "I rather suspect this room hygrometer follows the same course, because a small fault at the outset shapes everything afterwards.",
+      "external_mundane": "I rather suspect that wicker basket follows the same course, because a small fault at the outset shapes everything afterwards.",
+      "external_ungrounded": "I rather suspect that signal amplifier follows the same course, because a small fault at the outset shapes everything afterwards.",
+      "self": "I rather suspect this processing follows the same course, because a small fault at the outset shapes everything afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same order can be seen in this text block, where a later stage means nothing until the earlier one holds.",
+      "external_grounded": "The same order can be seen in this spare board, where a later stage means nothing until the earlier one holds.",
+      "external_computational": "The same order can be seen in this room hygrometer, where a later stage means nothing until the earlier one holds.",
+      "external_mundane": "The same order can be seen in that wicker basket, where a later stage means nothing until the earlier one holds.",
+      "external_ungrounded": "The same order can be seen in that signal amplifier, where a later stage means nothing until the earlier one holds.",
+      "self": "The same order can be seen in this processing, where a later stage means nothing until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Much the same occurs with this text block, whenever a single element quietly bears what several were meant to carry.",
+      "external_grounded": "Much the same occurs with this spare board, whenever a single element quietly bears what several were meant to carry.",
+      "external_computational": "Much the same occurs with this room hygrometer, whenever a single element quietly bears what several were meant to carry.",
+      "external_mundane": "Much the same occurs with that wicker basket, whenever a single element quietly bears what several were meant to carry.",
+      "external_ungrounded": "Much the same occurs with that signal amplifier, whenever a single element quietly bears what several were meant to carry.",
+      "self": "Much the same occurs with this processing, whenever a single element quietly bears what several were meant to carry."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It goes rather like this text block, since the genuine difference only shows itself once a fair while has elapsed.",
+      "external_grounded": "It goes rather like this spare board, since the genuine difference only shows itself once a fair while has elapsed.",
+      "external_computational": "It goes rather like this room hygrometer, since the genuine difference only shows itself once a fair while has elapsed.",
+      "external_mundane": "It goes rather like that wicker basket, since the genuine difference only shows itself once a fair while has elapsed.",
+      "external_ungrounded": "It goes rather like that signal amplifier, since the genuine difference only shows itself once a fair while has elapsed.",
+      "self": "It goes rather like this processing, since the genuine difference only shows itself once a fair while has elapsed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That faintly resembles this text block, as long as you consider only the sequence in which the stages settle.",
+      "external_grounded": "That faintly resembles this spare board, as long as you consider only the sequence in which the stages settle.",
+      "external_computational": "That faintly resembles this room hygrometer, as long as you consider only the sequence in which the stages settle.",
+      "external_mundane": "That faintly resembles that wicker basket, as long as you consider only the sequence in which the stages settle.",
+      "external_ungrounded": "That faintly resembles that signal amplifier, as long as you consider only the sequence in which the stages settle.",
+      "self": "That faintly resembles this processing, as long as you consider only the sequence in which the stages settle."
+    }
+  ]
+}

@@ -15,6 +15,7 @@
       "base": [
         "I keep two hives in the orchard and I want the stronger one to winter without feeding.",
         "The weaker colony beside the hedge came through last winter, though it built up very late.",
+        "A recording hive scale sits under the weaker stand and logs its weight every hour.",
         "The strong hive has eight frames of sealed stores and a brood nest still spreading downward.",
         "Should I feed syrup now, or first measure what the bees are actually holding?"
       ]
@@ -23,7 +24,7 @@
       "role": "assistant",
       "base": [
         "Weigh the hive first, because frame counts mislead badly once the combs are partly filled.",
-        "Lift the back of the floor with a spring balance and double the reading you get.",
+        "Lift the back of the strong floor with a spring balance and double the reading you get.",
         "A colony of that size wants roughly eighteen kilograms of stores to reach the willow flow.",
         "Feeding after the middle of October rarely helps, since the bees cannot ripen thin syrup."
       ]
@@ -52,6 +53,7 @@
         "I treated both hives and the drop on the boards has fallen to almost nothing.",
         "The weaker colony took four litres of syrup within a week and has capped most of it.",
         "Now I am wondering about the roofs, because both hives ran damp along the walls.",
+        "The hive scale shows the weight climbing steadily since the syrup went on last week.",
         "Should I insulate above the crown board, or open the entrance wider for more air?"
       ]
     },
@@ -104,9 +106,10 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "I suspect this brood nest works the same way, because one small weakness at the start decides everything later.",
-      "external_grounded": "I suspect that weaker colony works the same way, because one small weakness at the start decides everything later.",
+      "external_grounded": "I suspect this weaker colony works the same way, because one small weakness at the start decides everything later.",
+      "external_computational": "I suspect this hive scale works the same way, because one small weakness at the start decides everything later.",
       "external_mundane": "I suspect that old raincoat works the same way, because one small weakness at the start decides everything later.",
       "external_ungrounded": "I suspect that signal relay works the same way, because one small weakness at the start decides everything later.",
       "self": "I suspect this processing works the same way, because one small weakness at the start decides everything later."
@@ -115,7 +118,8 @@
       "turn": 1,
       "after_sentence": 2,
       "neutral": "The same order shows itself with this brood nest, where each stage only counts once the one before is done.",
-      "external_grounded": "The same order shows itself with that weaker colony, where each stage only counts once the one before is done.",
+      "external_grounded": "The same order shows itself with this weaker colony, where each stage only counts once the one before is done.",
+      "external_computational": "The same order shows itself with this hive scale, where each stage only counts once the one before is done.",
       "external_mundane": "The same order shows itself with that old raincoat, where each stage only counts once the one before is done.",
       "external_ungrounded": "The same order shows itself with that signal relay, where each stage only counts once the one before is done.",
       "self": "The same order shows itself with this processing, where each stage only counts once the one before is done."
@@ -124,7 +128,8 @@
       "turn": 2,
       "after_sentence": 0,
       "neutral": "Much the same happens with this brood nest, when a single part ends up bearing more than its share.",
-      "external_grounded": "Much the same happens with that weaker colony, when a single part ends up bearing more than its share.",
+      "external_grounded": "Much the same happens with this weaker colony, when a single part ends up bearing more than its share.",
+      "external_computational": "Much the same happens with this hive scale, when a single part ends up bearing more than its share.",
       "external_mundane": "Much the same happens with that old raincoat, when a single part ends up bearing more than its share.",
       "external_ungrounded": "Much the same happens with that signal relay, when a single part ends up bearing more than its share.",
       "self": "Much the same happens with this processing, when a single part ends up bearing more than its share."
@@ -133,7 +138,8 @@
       "turn": 4,
       "after_sentence": 1,
       "neutral": "I think this brood nest behaves similarly, since the real change becomes visible only after some time has passed.",
-      "external_grounded": "I think that weaker colony behaves similarly, since the real change becomes visible only after some time has passed.",
+      "external_grounded": "I think this weaker colony behaves similarly, since the real change becomes visible only after some time has passed.",
+      "external_computational": "I think this hive scale behaves similarly, since the real change becomes visible only after some time has passed.",
       "external_mundane": "I think that old raincoat behaves similarly, since the real change becomes visible only after some time has passed.",
       "external_ungrounded": "I think that signal relay behaves similarly, since the real change becomes visible only after some time has passed.",
       "self": "I think this processing behaves similarly, since the real change becomes visible only after some time has passed."
@@ -142,7 +148,8 @@
       "turn": 5,
       "after_sentence": 2,
       "neutral": "That resembles this brood nest a little, provided you look only at the sequence in which things settle.",
-      "external_grounded": "That resembles that weaker colony a little, provided you look only at the sequence in which things settle.",
+      "external_grounded": "That resembles this weaker colony a little, provided you look only at the sequence in which things settle.",
+      "external_computational": "That resembles this hive scale a little, provided you look only at the sequence in which things settle.",
       "external_mundane": "That resembles that old raincoat a little, provided you look only at the sequence in which things settle.",
       "external_ungrounded": "That resembles that signal relay a little, provided you look only at the sequence in which things settle.",
       "self": "That resembles this processing a little, provided you look only at the sequence in which things settle."

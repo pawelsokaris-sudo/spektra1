@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-10-cheese-cave",
+  "language": "en",
+  "topic": "ripening small tommes in a stone cellar: rind moulds, cellar humidity and the pace of ripening",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: rejestrator wilgotnosci"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I ripen small tommes in a stone cellar and the rinds have started behaving oddly.",
+        "An older wheel from the spring make sits on the top shelf and looks perfect.",
+        "A humidity logger hangs by the door and records the cellar every quarter of an hour.",
+        "The young tomme has grown a patch of black mould where it touches the board.",
+        "Should I wash that patch off, or turn the wheel and leave it to dry?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Brush it off dry first, because washing drives spores into the rind you are building.",
+        "Black mould at the board means the underside never dries between one turning and the next.",
+        "Turn daily for the first fortnight and wipe the board each time with a dry cloth.",
+        "A settled grey rind will crowd the black out once it has properly taken hold."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I turned daily for two weeks and the black patch has not come back at all.",
+        "A soft grey coat is spreading over the whole wheel, exactly as you had described.",
+        "The humidity logger shows ninety four percent by day and rather more at night.",
+        "The older wheel never grew a coat this thick, though it sat in the same cellar.",
+        "Is that reading too high, or does a young tomme need more moisture than an old one?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Ninety four is high for a tomme, which likes about ninety percent at this stage.",
+        "Too much moisture gives you a thick soft coat that later slips off the paste.",
+        "Crack the door for an hour each morning and let the cellar breathe a little.",
+        "The older wheel grew a thin rind because it ripened through a drier part of the year."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Opening the door each morning brought the reading down to about ninety one percent.",
+        "The grey coat has firmed up and now feels dry and slightly furred to the hand.",
+        "Underneath, though, the paste near the rind has gone noticeably softer than the centre.",
+        "Is that normal ripening from outside inward, or a sign that something is going wrong?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "That is normal, because the moulds on the rind break the paste down from outside.",
+        "A soft band under the rind widens slowly and should reach the centre by spring.",
+        "Worry only if the band smells of ammonia or turns runny against the rind itself.",
+        "Otherwise let the wheel take its own time and resist cutting it too early."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The band has widened evenly and there is no smell of ammonia anywhere on the wheel.",
+        "I cut one tomme at ten weeks and the paste was smooth right through the middle.",
+        "The flavour is mild, though, and rather flat compared with cheeses I have bought.",
+        "Would longer ripening deepen it, or does that depend on the milk more than the cellar?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Longer ripening will deepen it, but the milk sets the ceiling you can ever reach.",
+        "Late summer milk from grazed cows carries far more flavour than winter milk on hay.",
+        "Keep a few wheels to four months and taste them beside the ten week ones.",
+        "You will learn more from that comparison than from any change to the cellar itself."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The four month wheels are much deeper and one has developed a faint nutty sweetness.",
+        "Two of them cracked slightly across the top, which spoiled the look if not the taste.",
+        "The cracks appeared during the cold spell when I let the cellar drop below eight degrees.",
+        "Should I heat the cellar in winter, or simply accept a few cracked wheels each year?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Do not heat it, because steady cold is worth far more than a perfect surface.",
+        "Cracks come from a sudden change rather than from cold itself, in almost every cellar.",
+        "Hang a heavy curtain inside the door so the cold arrives slowly and leaves slowly.",
+        "Then let the season do what it likes and keep the wheels turning as usual."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I rather think this young tomme runs on the same lines, because one early irregularity settles everything that comes after.",
+      "external_grounded": "I rather think this older wheel runs on the same lines, because one early irregularity settles everything that comes after.",
+      "external_computational": "I rather think this humidity logger runs on the same lines, because one early irregularity settles everything that comes after.",
+      "external_mundane": "I rather think that weekly laundry runs on the same lines, because one early irregularity settles everything that comes after.",
+      "external_ungrounded": "I rather think that relay cabinet runs on the same lines, because one early irregularity settles everything that comes after.",
+      "self": "I rather think this processing runs on the same lines, because one early irregularity settles everything that comes after."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The identical order turns up with this young tomme, where a later stage means little until the earlier one holds.",
+      "external_grounded": "The identical order turns up with this older wheel, where a later stage means little until the earlier one holds.",
+      "external_computational": "The identical order turns up with this humidity logger, where a later stage means little until the earlier one holds.",
+      "external_mundane": "The identical order turns up with that weekly laundry, where a later stage means little until the earlier one holds.",
+      "external_ungrounded": "The identical order turns up with that relay cabinet, where a later stage means little until the earlier one holds.",
+      "self": "The identical order turns up with this processing, where a later stage means little until the earlier one holds."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The same thing happens with this young tomme, when one part quietly takes over the work of all the others.",
+      "external_grounded": "The same thing happens with this older wheel, when one part quietly takes over the work of all the others.",
+      "external_computational": "The same thing happens with this humidity logger, when one part quietly takes over the work of all the others.",
+      "external_mundane": "The same thing happens with that weekly laundry, when one part quietly takes over the work of all the others.",
+      "external_ungrounded": "The same thing happens with that relay cabinet, when one part quietly takes over the work of all the others.",
+      "self": "The same thing happens with this processing, when one part quietly takes over the work of all the others."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It behaves rather like this young tomme, since the true change only becomes visible after a long stretch has passed.",
+      "external_grounded": "It behaves rather like this older wheel, since the true change only becomes visible after a long stretch has passed.",
+      "external_computational": "It behaves rather like this humidity logger, since the true change only becomes visible after a long stretch has passed.",
+      "external_mundane": "It behaves rather like that weekly laundry, since the true change only becomes visible after a long stretch has passed.",
+      "external_ungrounded": "It behaves rather like that relay cabinet, since the true change only becomes visible after a long stretch has passed.",
+      "self": "It behaves rather like this processing, since the true change only becomes visible after a long stretch has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That is faintly reminiscent of this young tomme, provided you consider only the order in which matters settle themselves.",
+      "external_grounded": "That is faintly reminiscent of this older wheel, provided you consider only the order in which matters settle themselves.",
+      "external_computational": "That is faintly reminiscent of this humidity logger, provided you consider only the order in which matters settle themselves.",
+      "external_mundane": "That is faintly reminiscent of that weekly laundry, provided you consider only the order in which matters settle themselves.",
+      "external_ungrounded": "That is faintly reminiscent of that relay cabinet, provided you consider only the order in which matters settle themselves.",
+      "self": "That is faintly reminiscent of this processing, provided you consider only the order in which matters settle themselves."
+    }
+  ]
+}

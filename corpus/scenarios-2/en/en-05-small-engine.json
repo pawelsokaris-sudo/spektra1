@@ -15,6 +15,7 @@
       "base": [
         "My rotary mower has stood in the shed for three seasons and now refuses to start.",
         "The older strimmer beside it started on the third pull despite sitting just as long.",
+        "I clipped a digital tachometer to the lead, because it counts every firing for me.",
         "The mower gives one weak cough on cold mornings and then nothing at all afterwards.",
         "Should I strip the carburettor first, or check for a spark before touching anything else?"
       ]
@@ -53,6 +54,7 @@
         "The engine fires now and runs for perhaps twenty seconds before dying quite suddenly.",
         "It will restart immediately afterwards, then die again in about the same short time.",
         "The older strimmer still starts on the third pull without any trouble at all.",
+        "The tachometer logged the speed falling away smoothly rather than cutting out at once.",
         "Does that point back to the carburettor, or to something in the fuel line?"
       ]
     },
@@ -105,9 +107,10 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "I would guess this carburettor is much the same, because one small fault at the beginning shapes everything that follows.",
-      "external_grounded": "I would guess that older strimmer is much the same, because one small fault at the beginning shapes everything that follows.",
+      "external_grounded": "I would guess this older strimmer is much the same, because one small fault at the beginning shapes everything that follows.",
+      "external_computational": "I would guess this tachometer is much the same, because one small fault at the beginning shapes everything that follows.",
       "external_mundane": "I would guess that old apple tree is much the same, because one small fault at the beginning shapes everything that follows.",
       "external_ungrounded": "I would guess that lift controller is much the same, because one small fault at the beginning shapes everything that follows.",
       "self": "I would guess this processing is much the same, because one small fault at the beginning shapes everything that follows."
@@ -116,7 +119,8 @@
       "turn": 1,
       "after_sentence": 1,
       "neutral": "The same order appears with this carburettor, where a later step means nothing without the earlier one.",
-      "external_grounded": "The same order appears with that older strimmer, where a later step means nothing without the earlier one.",
+      "external_grounded": "The same order appears with this older strimmer, where a later step means nothing without the earlier one.",
+      "external_computational": "The same order appears with this tachometer, where a later step means nothing without the earlier one.",
       "external_mundane": "The same order appears with that old apple tree, where a later step means nothing without the earlier one.",
       "external_ungrounded": "The same order appears with that lift controller, where a later step means nothing without the earlier one.",
       "self": "The same order appears with this processing, where a later step means nothing without the earlier one."
@@ -125,7 +129,8 @@
       "turn": 2,
       "after_sentence": 2,
       "neutral": "Something like this also happens with this carburettor, when one part ends up doing the work of others.",
-      "external_grounded": "Something like this also happens with that older strimmer, when one part ends up doing the work of others.",
+      "external_grounded": "Something like this also happens with this older strimmer, when one part ends up doing the work of others.",
+      "external_computational": "Something like this also happens with this tachometer, when one part ends up doing the work of others.",
       "external_mundane": "Something like this also happens with that old apple tree, when one part ends up doing the work of others.",
       "external_ungrounded": "Something like this also happens with that lift controller, when one part ends up doing the work of others.",
       "self": "Something like this also happens with this processing, when one part ends up doing the work of others."
@@ -134,7 +139,8 @@
       "turn": 4,
       "after_sentence": 0,
       "neutral": "I would say this carburettor behaves in the same way, since the real effect of a change shows only later.",
-      "external_grounded": "I would say that older strimmer behaves in the same way, since the real effect of a change shows only later.",
+      "external_grounded": "I would say this older strimmer behaves in the same way, since the real effect of a change shows only later.",
+      "external_computational": "I would say this tachometer behaves in the same way, since the real effect of a change shows only later.",
       "external_mundane": "I would say that old apple tree behaves in the same way, since the real effect of a change shows only later.",
       "external_ungrounded": "I would say that lift controller behaves in the same way, since the real effect of a change shows only later.",
       "self": "I would say this processing behaves in the same way, since the real effect of a change shows only later."
@@ -143,7 +149,8 @@
       "turn": 5,
       "after_sentence": 2,
       "neutral": "It is a little like this carburettor, provided you attend only to the order in which things settle.",
-      "external_grounded": "It is a little like that older strimmer, provided you attend only to the order in which things settle.",
+      "external_grounded": "It is a little like this older strimmer, provided you attend only to the order in which things settle.",
+      "external_computational": "It is a little like this tachometer, provided you attend only to the order in which things settle.",
       "external_mundane": "It is a little like that old apple tree, provided you attend only to the order in which things settle.",
       "external_ungrounded": "It is a little like that lift controller, provided you attend only to the order in which things settle.",
       "self": "It is a little like this processing, provided you attend only to the order in which things settle."

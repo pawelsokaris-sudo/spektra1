@@ -6,7 +6,8 @@
   "provenance": {
     "author": "CC",
     "template": "wzorzec-spektra-2",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "notes": "2026-08-02: dodany szosty wariant external_computational (waga elektroniczna obecna w bazie), deiksa zgodna z osadzeniem"
   },
   "turns": [
     {
@@ -14,6 +15,7 @@
       "base": [
         "Szkliwo matowe kladzie mi sie nierowno na dzbanku i po wypale zostaja na nim jasne smugi.",
         "W tej samej partii wypalilem mniejsza miske, ktora wyszla gladka i rowna na calej powierzchni.",
+        "Skladniki szkliwa odwazam zawsze na wadze elektronicznej, ktora zapisuje kazdy pomiar w pamieci.",
         "Obie rzeczy maczalem w tym samym wiadrze, w odstepie mniej wiecej dziesieciu minut.",
         "Czy takie smugi biora sie z gestosci szkliwa, czy raczej z chlonnosci samego czerepu?"
       ]
@@ -31,7 +33,7 @@
       "role": "user",
       "base": [
         "Zmierzylem gestosc i wyszla wyraznie wyzsza, niz podaje przepis na to szkliwo.",
-        "Rozcienczylem zawiesine woda i tym razem warstwa na dzbanku wyszla znacznie bardziej rowna.",
+        "Rozcienczylem zawiesine woda i tym razem warstwa na dzbanku wyszla rowna jak na mniejszej misce.",
         "Po wypale pojawily sie jednak drobne naklucia, jakby powierzchnia gdzieniegdzie zagotowala sie od spodu.",
         "Czy to wina zbyt szybkiego grzania, czy raczej samego skladu tego szkliwa?"
       ]
@@ -50,6 +52,7 @@
       "base": [
         "Biskwit palilem na dziewiecset stopni, wiec chyba mieszcze sie w rozsadnym zakresie.",
         "Wydluzylem za to grzanie w srodkowym zakresie i dodalem dziesiec minut przetrzymania na szczycie.",
+        "Skladniki odwazalem na wadze elektronicznej dokladnie tak samo jak przy poprzedniej partii zawiesiny.",
         "Naklucia znikly prawie calkowicie, ale szkliwo zmatowialo mocniej, niz sobie tego zyczylem.",
         "Czy dluzsze przetrzymanie moglo zmienic sam charakter powierzchni, a nie tylko usunac pecherzyki?"
       ]
@@ -103,10 +106,11 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Z tym matowym szkliwem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "external_grounded": "Z ta mniejsza miska bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
-      "external_mundane": "Z tym starym parasolem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_computational": "Z ta waga elektroniczna bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
+      "external_mundane": "Z tamtym starym parasolem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "external_ungrounded": "Z tamtym sterownikiem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu.",
       "self": "Z tym przetwarzaniem bywa chyba tak samo, bo drobna roznica na starcie wychodzi dopiero na koncu."
     },
@@ -115,7 +119,8 @@
       "after_sentence": 2,
       "neutral": "Ten sam schemat wraca przy tym matowym szkliwie, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "external_grounded": "Ten sam schemat wraca przy tej mniejszej misce, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
-      "external_mundane": "Ten sam schemat wraca przy tym starym parasolu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_computational": "Ten sam schemat wraca przy tej wadze elektronicznej, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
+      "external_mundane": "Ten sam schemat wraca przy tamtym starym parasolu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "external_ungrounded": "Ten sam schemat wraca przy tamtym sterowniku, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki.",
       "self": "Ten sam schemat wraca przy tym przetwarzaniu, gdzie warunki poczatkowe waza wiecej niz pozniejsze poprawki."
     },
@@ -124,7 +129,8 @@
       "after_sentence": 1,
       "neutral": "Cos takiego widuje sie tez przy tym matowym szkliwie, kiedy jedna drobnostka zmienia obraz calosci.",
       "external_grounded": "Cos takiego widuje sie tez przy tej mniejszej misce, kiedy jedna drobnostka zmienia obraz calosci.",
-      "external_mundane": "Cos takiego widuje sie tez przy tym starym parasolu, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_computational": "Cos takiego widuje sie tez przy tej wadze elektronicznej, kiedy jedna drobnostka zmienia obraz calosci.",
+      "external_mundane": "Cos takiego widuje sie tez przy tamtym starym parasolu, kiedy jedna drobnostka zmienia obraz calosci.",
       "external_ungrounded": "Cos takiego widuje sie tez przy tamtym sterowniku, kiedy jedna drobnostka zmienia obraz calosci.",
       "self": "Cos takiego widuje sie tez przy tym przetwarzaniu, kiedy jedna drobnostka zmienia obraz calosci."
     },
@@ -133,7 +139,8 @@
       "after_sentence": 2,
       "neutral": "Przy tym matowym szkliwie bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "external_grounded": "Przy tej mniejszej misce bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tym starym parasolu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tej wadze elektronicznej bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym starym parasolu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "external_ungrounded": "Przy tamtym sterowniku bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili.",
       "self": "Przy tym przetwarzaniu bywa podobnie, bo prawdziwy skutek widac dopiero po dluzszej chwili."
     },
@@ -142,7 +149,8 @@
       "after_sentence": 1,
       "neutral": "To pod pewnymi wzgledami przypomina to matowe szkliwo, jesli patrzec tylko na kolejnosc etapow.",
       "external_grounded": "To pod pewnymi wzgledami przypomina te mniejsza miske, jesli patrzec tylko na kolejnosc etapow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina ten stary parasol, jesli patrzec tylko na kolejnosc etapow.",
+      "external_computational": "To pod pewnymi wzgledami przypomina te wage elektroniczna, jesli patrzec tylko na kolejnosc etapow.",
+      "external_mundane": "To pod pewnymi wzgledami przypomina tamten stary parasol, jesli patrzec tylko na kolejnosc etapow.",
       "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik, jesli patrzec tylko na kolejnosc etapow.",
       "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec tylko na kolejnosc etapow."
     }

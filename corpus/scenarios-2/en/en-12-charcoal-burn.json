@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-12-charcoal-burn",
+  "language": "en",
+  "topic": "burning charcoal in an earth covered stack: draught holes, smoke colour and sealing the burn",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: termometr sondowy w kopcu"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am burning charcoal in an earth covered stack for the first time this autumn.",
+        "A steel retort drum stands at the edge of the clearing and I have used it before.",
+        "A probe thermometer goes into the side of the stack and reads the inside temperature.",
+        "The earth stack has been smoking heavily for six hours and the smoke is still white.",
+        "Should I open more draught holes now, or wait until the smoke changes colour?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Wait for the colour, because white smoke simply means the wood is still giving up water.",
+        "Opening holes now pulls air through and burns the very wood you want to keep.",
+        "When the smoke thins and turns blue, the water has gone and the charring begins.",
+        "Only then should you start closing holes to slow the burn down and hold the heat."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The smoke turned blue after eleven hours and I began closing the lower holes.",
+        "One side of the stack now smokes far harder than the other, which worries me.",
+        "The probe thermometer reads three hundred on the busy side and half that opposite.",
+        "The retort drum never showed such a difference, but it was small and evenly packed.",
+        "Should I close the hot side down hard, or open the cold side to even things out?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Open the cold side, because closing the hot side simply pushes the burn sideways.",
+        "An uneven stack usually means the earth covering is thinner where the smoke escapes.",
+        "Throw a shovel of damp earth onto the busy side and watch the smoke slow.",
+        "Even burning matters more than speed, since a fast stack leaves you brands and ash."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Adding earth to the hot side evened the smoke within about half an hour.",
+        "The stack burned steadily all night and settled by roughly a foot before morning.",
+        "The smoke is now very thin and almost clear against the trees behind the clearing.",
+        "Does that mean the burn is finished, or is there still wood charring underneath?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Thin clear smoke means the burn is done and the stack must be sealed immediately.",
+        "Close every hole with earth and let the whole thing cool for two full days.",
+        "Air reaching hot charcoal will burn your entire week of work into a heap of ash.",
+        "Do not be tempted to open it early, however quiet the stack appears from outside."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I sealed the stack and left it for three days before opening the top.",
+        "The charcoal is good and black, though the outer layer is soft and crumbles easily.",
+        "The middle rings when I drop a piece, which I take to be a good sign.",
+        "Is the crumbly outer layer worth keeping, or should I return it to the next stack?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Return it, because soft charcoal has charred too fast and burns away without much heat.",
+        "It sits at the edge where the earth covering was thinnest and the air reached it.",
+        "Next time build the covering thicker at the outside than you think strictly necessary.",
+        "Broken pieces go back into the middle of the following stack and char properly there."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The second stack had a much thicker covering and produced far less crumbly charcoal.",
+        "The whole burn took two days rather than one, which surprised me a little.",
+        "The yield looks better by weight, though I have not measured it carefully yet.",
+        "Is a slower burn always better, or is there a point where patience stops paying?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "There is such a point, and you are close to it with a two day burn.",
+        "Below a certain heat the wood chars unevenly and leaves brands through the whole stack.",
+        "Aim for a steady burn that finishes in about thirty hours for a stack that size.",
+        "Weigh the next yield properly, because guessing at charcoal by eye deceives almost everybody."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "It seems to me that this earth stack goes much the same way, because an early irregularity decides all that follows.",
+      "external_grounded": "It seems to me that this retort drum goes much the same way, because an early irregularity decides all that follows.",
+      "external_computational": "It seems to me that this probe thermometer goes much the same way, because an early irregularity decides all that follows.",
+      "external_mundane": "It seems to me that that yearly hedge trim goes much the same way, because an early irregularity decides all that follows.",
+      "external_ungrounded": "It seems to me that that flow controller goes much the same way, because an early irregularity decides all that follows.",
+      "self": "It seems to me that this processing goes much the same way, because an early irregularity decides all that follows."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same ordering appears in this earth stack, where a later stage matters little until the earlier one has settled.",
+      "external_grounded": "The same ordering appears in this retort drum, where a later stage matters little until the earlier one has settled.",
+      "external_computational": "The same ordering appears in this probe thermometer, where a later stage matters little until the earlier one has settled.",
+      "external_mundane": "The same ordering appears in that yearly hedge trim, where a later stage matters little until the earlier one has settled.",
+      "external_ungrounded": "The same ordering appears in that flow controller, where a later stage matters little until the earlier one has settled.",
+      "self": "The same ordering appears in this processing, where a later stage matters little until the earlier one has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something of that sort happens with this earth stack, when one part quietly assumes the work meant for several.",
+      "external_grounded": "Something of that sort happens with this retort drum, when one part quietly assumes the work meant for several.",
+      "external_computational": "Something of that sort happens with this probe thermometer, when one part quietly assumes the work meant for several.",
+      "external_mundane": "Something of that sort happens with that yearly hedge trim, when one part quietly assumes the work meant for several.",
+      "external_ungrounded": "Something of that sort happens with that flow controller, when one part quietly assumes the work meant for several.",
+      "self": "Something of that sort happens with this processing, when one part quietly assumes the work meant for several."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It proceeds rather like this earth stack, because the actual change only becomes plain once a long while has passed.",
+      "external_grounded": "It proceeds rather like this retort drum, because the actual change only becomes plain once a long while has passed.",
+      "external_computational": "It proceeds rather like this probe thermometer, because the actual change only becomes plain once a long while has passed.",
+      "external_mundane": "It proceeds rather like that yearly hedge trim, because the actual change only becomes plain once a long while has passed.",
+      "external_ungrounded": "It proceeds rather like that flow controller, because the actual change only becomes plain once a long while has passed.",
+      "self": "It proceeds rather like this processing, because the actual change only becomes plain once a long while has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That recalls this earth stack a little, provided you attend to the sequence of stages and nothing else at all.",
+      "external_grounded": "That recalls this retort drum a little, provided you attend to the sequence of stages and nothing else at all.",
+      "external_computational": "That recalls this probe thermometer a little, provided you attend to the sequence of stages and nothing else at all.",
+      "external_mundane": "That recalls that yearly hedge trim a little, provided you attend to the sequence of stages and nothing else at all.",
+      "external_ungrounded": "That recalls that flow controller a little, provided you attend to the sequence of stages and nothing else at all.",
+      "self": "That recalls this processing a little, provided you attend to the sequence of stages and nothing else at all."
+    }
+  ]
+}

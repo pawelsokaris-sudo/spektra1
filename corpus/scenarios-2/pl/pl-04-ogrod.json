@@ -6,7 +6,8 @@
   "provenance": {
     "author": "CC",
     "template": "wzorzec-spektra-2",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "notes": "2026-08-02: dodany szosty wariant external_computational (termometr glebowy obecny w bazie), deiksa zgodna z osadzeniem"
   },
   "turns": [
     {
@@ -14,6 +15,7 @@
       "base": [
         "Zakladam kompostownik przy plocie i chcialbym w ciagu roku wyraznie poprawic ziemie w warzywniku.",
         "Pod oknem mam stara grzadke ziolowa, ktora od lat radzi sobie zupelnie bez nawozenia.",
+        "Kupilem tez termometr glebowy z zapisem, zeby wiedziec, co dzieje sie w srodku pryzmy.",
         "Ziemia w warzywniku jest za to zbita i po deszczu dlugo stoi na niej woda.",
         "Czy zaczynac od kompostu, czy raczej najpierw rozluznic te ziemie widlami i piaskiem?"
       ]
@@ -30,7 +32,7 @@
     {
       "role": "user",
       "base": [
-        "Przeklulem grzadki widlami co dwadziescia centymetrow i woda schodzi teraz wyraznie szybciej.",
+        "Przeklulem grzadki widlami, omijajac te stara ziolowa, i woda schodzi teraz wyraznie szybciej.",
         "Kompostownik ruszyl, ale srodek pryzmy jest zimny, a brzegi zupelnie suche i zbite.",
         "Wrzucam glownie sciete trawy i resztki z kuchni, czasem troche lisci z jesieni.",
         "Czy taka pryzma potrzebuje przerzucania, czy wystarczy po prostu poczekac dluzej na efekt?"
@@ -50,6 +52,7 @@
       "base": [
         "Przelozylem pryzme kartonem i sucha sloma, a potem przerzucilem calosc widlami na druga strone.",
         "Po tygodniu srodek zrobil sie cieply i przy przerzucaniu wyraznie parowal w chlodne poranki.",
+        "Termometr glebowy zapisal w srodku pryzmy niemal piecdziesiat stopni przez trzy kolejne dni.",
         "Brzegi nadal jednak zostaja suche, mimo ze podlewam je przy kazdym przerzucaniu pryzmy.",
         "Czy oplaca sie oslonic boki deskami, czy lepiej zwyczajnie zwezic cala pryzme o polowe?"
       ]
@@ -103,10 +106,11 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Z tym swiezym kompostem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
       "external_grounded": "Z ta stara grzadka jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "external_mundane": "Z tym myciem okien jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
+      "external_computational": "Z tym termometrem glebowym jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
+      "external_mundane": "Z tamtym myciem okien jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
       "external_ungrounded": "Z tamtym przekaznikiem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
       "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku."
     },
@@ -115,7 +119,8 @@
       "after_sentence": 1,
       "neutral": "Ten sam porzadek widac przy tym swiezym komposcie, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
       "external_grounded": "Ten sam porzadek widac przy tej starej grzadce, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tym myciu okien, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
+      "external_computational": "Ten sam porzadek widac przy tym termometrze glebowym, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym myciu okien, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
       "external_ungrounded": "Ten sam porzadek widac przy tamtym przekazniku, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
       "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek."
     },
@@ -124,7 +129,8 @@
       "after_sentence": 1,
       "neutral": "Cos podobnego widuje sie przy tym swiezym komposcie, kiedy jeden zaniedbany szczegol psuje cala reszte.",
       "external_grounded": "Cos podobnego widuje sie przy tej starej grzadce, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "external_mundane": "Cos podobnego widuje sie przy tym myciu okien, kiedy jeden zaniedbany szczegol psuje cala reszte.",
+      "external_computational": "Cos podobnego widuje sie przy tym termometrze glebowym, kiedy jeden zaniedbany szczegol psuje cala reszte.",
+      "external_mundane": "Cos podobnego widuje sie przy tamtym myciu okien, kiedy jeden zaniedbany szczegol psuje cala reszte.",
       "external_ungrounded": "Cos podobnego widuje sie przy tamtym przekazniku, kiedy jeden zaniedbany szczegol psuje cala reszte.",
       "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol psuje cala reszte."
     },
@@ -133,7 +139,8 @@
       "after_sentence": 2,
       "neutral": "Przy tym swiezym komposcie bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
       "external_grounded": "Przy tej starej grzadce bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tym myciu okien bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
+      "external_computational": "Przy tym termometrze glebowym bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
+      "external_mundane": "Przy tamtym myciu okien bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
       "external_ungrounded": "Przy tamtym przekazniku bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
       "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie."
     },
@@ -142,7 +149,8 @@
       "after_sentence": 1,
       "neutral": "To troche przypomina ten swiezy kompost, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
       "external_grounded": "To troche przypomina te stara grzadke, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_mundane": "To troche przypomina to mycie okien, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_computational": "To troche przypomina ten termometr glebowy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
+      "external_mundane": "To troche przypomina tamto mycie okien, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
       "external_ungrounded": "To troche przypomina tamten przekaznik, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
       "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
     }

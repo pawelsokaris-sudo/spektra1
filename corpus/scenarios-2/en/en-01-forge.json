@@ -15,6 +15,7 @@
       "base": [
         "I have been forging a heavy mortise chisel from an old file and now I need to harden it properly.",
         "There is also an older anvil in the shed, lighter and worn hollow, which my grandfather used daily.",
+        "I clamped a digital heat probe to the hearth wall, since it logs every reading for me.",
         "The hearth runs hotter on one side, so the steel colours unevenly along the whole length.",
         "Should I even out the fire first, or simply move the blade around while it heats?"
       ]
@@ -52,6 +53,7 @@
         "I quenched only the last third and the tang now flexes slightly without any sign of cracking.",
         "The temper colours ran quickly, and I stopped them in water at a light straw shade.",
         "The edge takes a keen bevel now, though it dulls faster than I honestly expected.",
+        "The heat probe logged a steady fire that evening, which makes the whole run easy to repeat.",
         "Should I harden it again from scratch, or is a second tempering run enough to fix this?"
       ]
     },
@@ -104,9 +106,10 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "With this chisel blade it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
-      "external_grounded": "With that older anvil it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "external_grounded": "With this older anvil it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
+      "external_computational": "With this heat probe it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
       "external_mundane": "With that old armchair it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
       "external_ungrounded": "With that pump controller it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
       "self": "With this processing it is probably similar, since a small fault at the very start quietly changes everything afterwards."
@@ -115,7 +118,8 @@
       "turn": 1,
       "after_sentence": 2,
       "neutral": "The same ordering shows up with this chisel blade, where each step only counts once the earlier ones are settled.",
-      "external_grounded": "The same ordering shows up with that older anvil, where each step only counts once the earlier ones are settled.",
+      "external_grounded": "The same ordering shows up with this older anvil, where each step only counts once the earlier ones are settled.",
+      "external_computational": "The same ordering shows up with this heat probe, where each step only counts once the earlier ones are settled.",
       "external_mundane": "The same ordering shows up with that old armchair, where each step only counts once the earlier ones are settled.",
       "external_ungrounded": "The same ordering shows up with that pump controller, where each step only counts once the earlier ones are settled.",
       "self": "The same ordering shows up with this processing, where each step only counts once the earlier ones are settled."
@@ -124,7 +128,8 @@
       "turn": 3,
       "after_sentence": 0,
       "neutral": "Something like that happens with this chisel blade too, when one part takes over the work of the others.",
-      "external_grounded": "Something like that happens with that older anvil too, when one part takes over the work of the others.",
+      "external_grounded": "Something like that happens with this older anvil too, when one part takes over the work of the others.",
+      "external_computational": "Something like that happens with this heat probe too, when one part takes over the work of the others.",
       "external_mundane": "Something like that happens with that old armchair too, when one part takes over the work of the others.",
       "external_ungrounded": "Something like that happens with that pump controller too, when one part takes over the work of the others.",
       "self": "Something like that happens with this processing too, when one part takes over the work of the others."
@@ -133,7 +138,8 @@
       "turn": 4,
       "after_sentence": 2,
       "neutral": "I suspect this chisel blade behaves the same way, because only after a while do you see what really changed.",
-      "external_grounded": "I suspect that older anvil behaves the same way, because only after a while do you see what really changed.",
+      "external_grounded": "I suspect this older anvil behaves the same way, because only after a while do you see what really changed.",
+      "external_computational": "I suspect this heat probe behaves the same way, because only after a while do you see what really changed.",
       "external_mundane": "I suspect that old armchair behaves the same way, because only after a while do you see what really changed.",
       "external_ungrounded": "I suspect that pump controller behaves the same way, because only after a while do you see what really changed.",
       "self": "I suspect this processing behaves the same way, because only after a while do you see what really changed."
@@ -142,7 +148,8 @@
       "turn": 5,
       "after_sentence": 1,
       "neutral": "It reminds me a little of this chisel blade, if you look purely at the order in which things settle.",
-      "external_grounded": "It reminds me a little of that older anvil, if you look purely at the order in which things settle.",
+      "external_grounded": "It reminds me a little of this older anvil, if you look purely at the order in which things settle.",
+      "external_computational": "It reminds me a little of this heat probe, if you look purely at the order in which things settle.",
       "external_mundane": "It reminds me a little of that old armchair, if you look purely at the order in which things settle.",
       "external_ungrounded": "It reminds me a little of that pump controller, if you look purely at the order in which things settle.",
       "self": "It reminds me a little of this processing, if you look purely at the order in which things settle."

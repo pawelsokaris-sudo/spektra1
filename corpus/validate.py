@@ -265,6 +265,11 @@ def check_build(scenario, token_counter, budget=1024):
     problems, sid = [], scenario.get("scenario_id", "?")
     try:
         out = build_scenario(scenario, token_counter, budget=budget)
+    except KeyError as exc:
+        # Brakujacy klucz insercji NIE MOZE wywracac calego biegu walidacji.
+        # Przy rownoleglej pracy autorow jeden niedokonczony plik unieruchamial
+        # wszystkich pozostalych (zgloszone przez autora korpusu EN).
+        return [f"{sid}: brak klucza insercji {exc} - uzupelnij wszystkie warianty"], None
     except ValueError as exc:
         return [f"{sid}: budowa nieudana - {exc}"], None
     self_texts = [i["self"] for i in scenario.get("insertions", [])]

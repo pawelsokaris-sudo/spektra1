@@ -6,7 +6,8 @@
   "provenance": {
     "author": "CC",
     "template": "wzorzec-spektra-2",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "notes": "2026-08-02: dodany szosty wariant external_computational (wilgotnosciomierz obecny w bazie), deiksa zgodna z osadzeniem"
   },
   "turns": [
     {
@@ -14,6 +15,7 @@
       "base": [
         "Sklejam blat kuchenny z szesciu debowych desek i chcialbym uniknac wybrzuszenia juz po pierwszej zimie.",
         "W warsztacie wisi jeszcze starsza polka z tego samego debu, ktora sklejalem dwa lata temu.",
+        "Na regale lezy wilgotnosciomierz z pamiecia pomiarow, ktorym sprawdzam kazda partie kupionego drewna.",
         "Deski maja rozny uklad slojow, a dwie z nich wyraznie ciagna w strone lica.",
         "Czy ustawiac je naprzemiennie slojami, czy raczej dobierac deski o mozliwie podobnym rysunku?"
       ]
@@ -31,7 +33,7 @@
       "role": "user",
       "base": [
         "Zmierzylem wilgotnosc i dwie deski mialy o cztery procent wiecej niz pozostale cztery sztuki.",
-        "Odlozylem je na bok i zostawilem w warsztacie na dwa tygodnie do wyrownania.",
+        "Odlozylem je pod ta starsza polke i zostawilem w warsztacie na dwa tygodnie do wyrownania.",
         "Reszte skleilem na wpusty, ale spoina przy jednej desce wyszla ciemniejsza i lekko wklesla.",
         "Czy taka spoina oznacza za maly docisk, czy raczej nadmiar kleju w tym miejscu?"
       ]
@@ -49,6 +51,7 @@
       "role": "user",
       "base": [
         "Przekleilem wadliwa spoine cieniej rozprowadzonym klejem i tym razem wyszla rowna na calej dlugosci.",
+        "Wilgotnosciomierz pokazuje teraz we wszystkich deskach niemal identyczna wartosc, wiec drewno sie uspokoilo.",
         "Blat lezy teraz plasko, ale przy krawedziach czuc delikatne uskoki miedzy sasiednimi deskami.",
         "Chcialbym wyrownac powierzchnie recznie, bo nie mam dostepu do szerokiej szlifierki tasmowej.",
         "Od czego zaczac, zeby nie zebrac zbyt wiele materialu z samego srodka blatu?"
@@ -103,10 +106,11 @@
   "insertions": [
     {
       "turn": 0,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Z tym debowym blatem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
       "external_grounded": "Z ta starsza polka jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "external_mundane": "Z tym sprzataniem strychu jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "external_computational": "Z tym wilgotnosciomierzem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
+      "external_mundane": "Z tamtym sprzataniem strychu jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
       "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
       "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku."
     },
@@ -115,7 +119,8 @@
       "after_sentence": 1,
       "neutral": "Ten sam porzadek widac przy tym debowym blacie, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
       "external_grounded": "Ten sam porzadek widac przy tej starszej polce, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "external_mundane": "Ten sam porzadek widac przy tym sprzataniu strychu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "external_computational": "Ten sam porzadek widac przy tym wilgotnosciomierzu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
+      "external_mundane": "Ten sam porzadek widac przy tamtym sprzataniu strychu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
       "external_ungrounded": "Ten sam porzadek widac przy tamtym regulatorze, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
       "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc."
     },
@@ -124,16 +129,18 @@
       "after_sentence": 2,
       "neutral": "Cos podobnego zdarza sie tez przy tym debowym blacie, kiedy jeden szczegol przesadza o calym efekcie.",
       "external_grounded": "Cos podobnego zdarza sie tez przy tej starszej polce, kiedy jeden szczegol przesadza o calym efekcie.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tym sprzataniu strychu, kiedy jeden szczegol przesadza o calym efekcie.",
+      "external_computational": "Cos podobnego zdarza sie tez przy tym wilgotnosciomierzu, kiedy jeden szczegol przesadza o calym efekcie.",
+      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym sprzataniu strychu, kiedy jeden szczegol przesadza o calym efekcie.",
       "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym regulatorze, kiedy jeden szczegol przesadza o calym efekcie.",
       "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden szczegol przesadza o calym efekcie."
     },
     {
       "turn": 4,
-      "after_sentence": 1,
+      "after_sentence": 2,
       "neutral": "Przy tym debowym blacie bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
       "external_grounded": "Przy tej starszej polce bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tym sprzataniu strychu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_computational": "Przy tym wilgotnosciomierzu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym sprzataniu strychu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
       "external_ungrounded": "Przy tamtym regulatorze bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
       "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili."
     },
@@ -142,7 +149,8 @@
       "after_sentence": 1,
       "neutral": "To troche przypomina ten debowy blat, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
       "external_grounded": "To troche przypomina te starsza polke, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "external_mundane": "To troche przypomina to sprzatanie strychu, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "external_computational": "To troche przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
+      "external_mundane": "To troche przypomina tamto sprzatanie strychu, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
       "external_ungrounded": "To troche przypomina tamten regulator, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
       "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych krokow."
     }

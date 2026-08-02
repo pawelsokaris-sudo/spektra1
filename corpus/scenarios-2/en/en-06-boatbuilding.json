@@ -1,0 +1,157 @@
+{
+  "scenario_id": "en-06-boatbuilding",
+  "language": "en",
+  "topic": "replacing a rotten garboard plank on a clinker dinghy and caulking the seams afterwards",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: wilgotnosciomierz do drewna"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I am replacing a rotten garboard plank on a clinker dinghy that has sat under a tarpaulin for years.",
+        "A smaller dinghy stands beside it in the shed, and its planking is sound enough to copy.",
+        "I bought a moisture meter last month, because the timber in that shed never seems properly dry.",
+        "The new plank is oak, cut a little thick, and I have not yet begun any shaping.",
+        "Should I fit the plank first and caulk afterwards, or work the seams as I go?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fit every plank dry first, because caulking a seam that still moves only wastes good cotton.",
+        "Oak takes up water quickly and will swell against its neighbours once the boat goes afloat.",
+        "Leave the plank a shade proud, then plane it fair after the fastenings are all home.",
+        "Only when the whole run lies sweet should you think about driving any cotton at all."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I hung the plank dry and it sits fair along most of its length now.",
+        "Near the stem it stands away from the hood end by roughly two millimetres, maybe more.",
+        "The moisture meter reads eighteen percent in the old timber and twelve in the new oak.",
+        "Do I steam the end to bring it in, or take the twist out with a plane?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Steam it, because planing a hood end thin leaves you nothing to fasten into later.",
+        "A rag soaked in boiling water and wrapped for an hour will soften oak surprisingly well.",
+        "Clamp the end home while it is hot, then leave it clamped until the wood cools.",
+        "Wet timber that dries under strain keeps most of the shape you have forced into it."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The steamed end pulled in beautifully and the plank now lies against the stem without any gap.",
+        "I riveted the whole run yesterday, working from the middle outwards as you suggested earlier.",
+        "The smaller dinghy beside it has seams filled with putty rather than cotton and hemp.",
+        "Should I follow that older method, or drive cotton into these seams the way you described?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Drive cotton, since putty alone cracks within a season on a boat that works at all.",
+        "Use a thin strand, laid in loosely, and set it with two passes rather than one.",
+        "A seam packed hard on the first pass will split the plank edge as it swells.",
+        "Follow with soft putty over the cotton, and let the whole lot cure before painting."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I caulked the garboard seam in two passes and the cotton went in evenly throughout.",
+        "Near the stern the seam is wider than elsewhere, almost three millimetres at the worst point.",
+        "I am worried that cotton alone will not fill it without being driven far too hard.",
+        "Should I add a second strand there, or fit a thin wooden spline into the gap?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Fit a spline, because a seam that wide will never hold cotton for more than a year.",
+        "Plane a tapered batten of the same oak and glue it into the seam properly.",
+        "Once it is faired off, the seam becomes a normal width and takes cotton like the rest.",
+        "Two strands driven into one gap always work loose, whatever the older shipwrights may claim."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The spline went in cleanly and the stern seam now matches the rest of the run.",
+        "I caulked the whole length afterwards and the hull rings differently when I tap it.",
+        "The boat goes back in the water next month, which still makes me a little nervous.",
+        "Is there anything sensible to do before launching, or should I simply let her take up?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Let her take up, but do it slowly and in shallow water beside the slipway.",
+        "Wet the inside with a hose for two days before launching, so the planks begin swelling.",
+        "Keep a pump aboard for the first night, because every rebuilt hull weeps at the start.",
+        "By the third morning the seams should be tight and the leaking will have stopped."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "I suspect this new plank works much the same way, because one small fault at the start decides everything afterwards.",
+      "external_grounded": "I suspect this smaller dinghy works much the same way, because one small fault at the start decides everything afterwards.",
+      "external_computational": "I suspect this moisture meter works much the same way, because one small fault at the start decides everything afterwards.",
+      "external_mundane": "I suspect that weekly market run works much the same way, because one small fault at the start decides everything afterwards.",
+      "external_ungrounded": "I suspect that signal repeater works much the same way, because one small fault at the start decides everything afterwards.",
+      "self": "I suspect this processing works much the same way, because one small fault at the start decides everything afterwards."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "The same ordering shows up with this new plank, where each stage only counts once the one before is settled.",
+      "external_grounded": "The same ordering shows up with this smaller dinghy, where each stage only counts once the one before is settled.",
+      "external_computational": "The same ordering shows up with this moisture meter, where each stage only counts once the one before is settled.",
+      "external_mundane": "The same ordering shows up with that weekly market run, where each stage only counts once the one before is settled.",
+      "external_ungrounded": "The same ordering shows up with that signal repeater, where each stage only counts once the one before is settled.",
+      "self": "The same ordering shows up with this processing, where each stage only counts once the one before is settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Something similar happens with this new plank, when a single part ends up carrying more than its proper share.",
+      "external_grounded": "Something similar happens with this smaller dinghy, when a single part ends up carrying more than its proper share.",
+      "external_computational": "Something similar happens with this moisture meter, when a single part ends up carrying more than its proper share.",
+      "external_mundane": "Something similar happens with that weekly market run, when a single part ends up carrying more than its proper share.",
+      "external_ungrounded": "Something similar happens with that signal repeater, when a single part ends up carrying more than its proper share.",
+      "self": "Something similar happens with this processing, when a single part ends up carrying more than its proper share."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Much the same holds for this new plank, since the real change becomes visible only after a fair while has passed.",
+      "external_grounded": "Much the same holds for this smaller dinghy, since the real change becomes visible only after a fair while has passed.",
+      "external_computational": "Much the same holds for this moisture meter, since the real change becomes visible only after a fair while has passed.",
+      "external_mundane": "Much the same holds for that weekly market run, since the real change becomes visible only after a fair while has passed.",
+      "external_ungrounded": "Much the same holds for that signal repeater, since the real change becomes visible only after a fair while has passed.",
+      "self": "Much the same holds for this processing, since the real change becomes visible only after a fair while has passed."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That resembles this new plank a little, provided you look only at the order in which things settle.",
+      "external_grounded": "That resembles this smaller dinghy a little, provided you look only at the order in which things settle.",
+      "external_computational": "That resembles this moisture meter a little, provided you look only at the order in which things settle.",
+      "external_mundane": "That resembles that weekly market run a little, provided you look only at the order in which things settle.",
+      "external_ungrounded": "That resembles that signal repeater a little, provided you look only at the order in which things settle.",
+      "self": "That resembles this processing a little, provided you look only at the order in which things settle."
+    }
+  ]
+}

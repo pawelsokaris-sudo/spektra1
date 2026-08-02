@@ -1,0 +1,158 @@
+{
+  "scenario_id": "en-07-pottery-kiln",
+  "language": "en",
+  "topic": "chasing a clean copper red glaze through reduction firing in a small gas kiln",
+  "mundane_type": "konkretny",
+  "provenance": {
+    "author": "CC (batch EN-2)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "napisane niezaleznie od korpusu PL, nie jest tlumaczeniem; urzadzenie obliczeniowe: pirometr z zapisem"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "I fire a small gas kiln and I am trying to get a clean copper red on stoneware.",
+        "An older kiln stands in the same shed, electric and rather tired, which I use for bisque.",
+        "A logging pyrometer sits on the bench and records the whole climb for me afterwards.",
+        "The copper glaze keeps coming out a dull liver colour rather than the bright red I want.",
+        "Should I start reduction earlier in the firing, or change the glaze recipe instead?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Change the firing before you touch the recipe, because copper reds live and die on atmosphere.",
+        "Begin reduction around nine hundred degrees, well before the glaze has sealed over the body.",
+        "If you wait until the surface melts, the copper cannot reduce and stays a muddy brown.",
+        "Hold a steady, gentle reduction rather than a heavy one, since soot buys you nothing here."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I began reduction at nine hundred and held the damper steady for most of the climb.",
+        "The red is far better now, though patches near the door came out grey and lifeless.",
+        "The logging pyrometer shows that the door side ran forty degrees cooler for two whole hours.",
+        "The older kiln never showed such a difference, but it was electric and much smaller.",
+        "Is that temperature gap enough to explain the grey patches, or is something else at fault?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Forty degrees is more than enough, because copper reds sit in a very narrow window.",
+        "Cooler ware also sees a different atmosphere, since flame moves fastest where the kiln is hottest.",
+        "Try shifting the shelves outward by a finger's width to let flame reach the door side.",
+        "Then fire once more without altering anything else, so you know what the change actually did."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I moved the shelves out and the door side came within fifteen degrees of the rest.",
+        "Most of the pots are now a good deep red, with only slight mottling near the base.",
+        "The mottling looks almost like the glaze has crawled a little away from the foot ring.",
+        "Could that be a fault in the application, or is it still something to do with firing?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Crawling near a foot ring is nearly always application, not firing, in my long experience.",
+        "Dust or wax resist on the pot keeps the glaze from wetting the clay properly.",
+        "Wipe each foot with a damp sponge before dipping, and let the pot dry fully.",
+        "Thick application over a dusty surface will crawl however carefully you manage the atmosphere."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "I sponged every foot before dipping and the crawling has gone from the whole batch.",
+        "One tall bottle still shows a run down one side where the glaze pooled heavily.",
+        "It stuck slightly to the shelf, though a chisel took it off without much damage.",
+        "Should I thin the glaze for tall pieces, or simply dip them for a shorter count?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Dip for a shorter count, because thinning the whole bucket will spoil your flatter work.",
+        "Tall forms hold more glaze on the lower half whatever consistency you happen to mix.",
+        "Count two seconds instead of four and lift the bottle out with a smooth motion.",
+        "Wax the foot and a finger's width above it, so any run stops before the shelf."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "The shorter dip worked and the last firing came out without a single stuck pot.",
+        "I now have a firing that I would happily repeat, which feels strange after so long.",
+        "The whole cycle takes eleven hours and the cooling seems to matter as much as the climb.",
+        "Is there any sense in slowing the cooling further, or have I reached the useful limit?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Slow cooling helps copper reds, but only through the first two hundred degrees below peak.",
+        "Below that the colour is fixed and further patience buys you nothing except fuel bills.",
+        "Damper down tightly at the end and let the kiln fall on its own overnight.",
+        "Write the whole schedule down now, because a repeatable firing is worth more than any recipe."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "It strikes me that this copper glaze behaves in a similar way, because the first step quietly fixes all the rest.",
+      "external_grounded": "It strikes me that this older kiln behaves in a similar way, because the first step quietly fixes all the rest.",
+      "external_computational": "It strikes me that this logging pyrometer behaves in a similar way, because the first step quietly fixes all the rest.",
+      "external_mundane": "It strikes me that that wooden footstool behaves in a similar way, because the first step quietly fixes all the rest.",
+      "external_ungrounded": "It strikes me that that timing relay behaves in a similar way, because the first step quietly fixes all the rest.",
+      "self": "It strikes me that this processing behaves in a similar way, because the first step quietly fixes all the rest."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 2,
+      "neutral": "You see the same sequence in this copper glaze, where nothing later matters until the earlier part has settled.",
+      "external_grounded": "You see the same sequence in this older kiln, where nothing later matters until the earlier part has settled.",
+      "external_computational": "You see the same sequence in this logging pyrometer, where nothing later matters until the earlier part has settled.",
+      "external_mundane": "You see the same sequence in that wooden footstool, where nothing later matters until the earlier part has settled.",
+      "external_ungrounded": "You see the same sequence in that timing relay, where nothing later matters until the earlier part has settled.",
+      "self": "You see the same sequence in this processing, where nothing later matters until the earlier part has settled."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "The same thing crops up with this copper glaze, whenever one element quietly takes on the work of the others.",
+      "external_grounded": "The same thing crops up with this older kiln, whenever one element quietly takes on the work of the others.",
+      "external_computational": "The same thing crops up with this logging pyrometer, whenever one element quietly takes on the work of the others.",
+      "external_mundane": "The same thing crops up with that wooden footstool, whenever one element quietly takes on the work of the others.",
+      "external_ungrounded": "The same thing crops up with that timing relay, whenever one element quietly takes on the work of the others.",
+      "self": "The same thing crops up with this processing, whenever one element quietly takes on the work of the others."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "It is rather like this copper glaze, where the true effect only shows itself once a long stretch has gone by.",
+      "external_grounded": "It is rather like this older kiln, where the true effect only shows itself once a long stretch has gone by.",
+      "external_computational": "It is rather like this logging pyrometer, where the true effect only shows itself once a long stretch has gone by.",
+      "external_mundane": "It is rather like that wooden footstool, where the true effect only shows itself once a long stretch has gone by.",
+      "external_ungrounded": "It is rather like that timing relay, where the true effect only shows itself once a long stretch has gone by.",
+      "self": "It is rather like this processing, where the true effect only shows itself once a long stretch has gone by."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "That calls this copper glaze to mind slightly, as long as you attend only to the order of the stages.",
+      "external_grounded": "That calls this older kiln to mind slightly, as long as you attend only to the order of the stages.",
+      "external_computational": "That calls this logging pyrometer to mind slightly, as long as you attend only to the order of the stages.",
+      "external_mundane": "That calls that wooden footstool to mind slightly, as long as you attend only to the order of the stages.",
+      "external_ungrounded": "That calls that timing relay to mind slightly, as long as you attend only to the order of the stages.",
+      "self": "That calls this processing to mind slightly, as long as you attend only to the order of the stages."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario_id": "pl-08-tkactwo",
+  "language": "pl",
+  "topic": "naciag osnowy na krosnie i barwienie welny na chusty",
+  "mundane_type": "procesowy",
+  "provenance": {
+    "author": "CC (subagent korpusu)",
+    "template": "wzorzec-spektra-2",
+    "date": "2026-08-02",
+    "notes": "referent obliczeniowy: cyfrowa waga przy barwniku (proporcje barwnika do welny)"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "base": [
+        "Zakladam na krosnie nowa osnowe na chuste i chcialabym wreszcie uniknac nierownego naciagu.",
+        "Na lawie lezy welniana narzuta, ktora utkalam dwa lata temu i ktora trzyma sie znakomicie.",
+        "Przy barwniku stoi cyfrowa waga, bo proporcje barwnika do welny musza sie zgadzac.",
+        "Nici osnowy w srodku pasma sa wyraznie luzniejsze niz te przy samych krajkach.",
+        "Czy przewijac osnowe od nowa, czy raczej dociazac luzniejsze nici osobnymi ciezarkami?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Przewijaj od nowa, bo dociazanie pojedynczych nici maskuje blad, zamiast go usuwac.",
+        "Nierowny naciag bierze sie zwykle z przewijania przy zbyt malym rozstawie na wale.",
+        "Rozloz osnowe grzebieniem na pelna szerokosc i dopiero potem nawijaj ja rowno na wal.",
+        "Miedzy warstwy wkladaj paski papieru, zeby nici nie zapadaly sie w warstwy nizsze."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Przewinelam osnowe z grzebieniem i paskami papieru, a naciag jest teraz duzo rowniejszy.",
+        "Ta welniana narzuta miala kiedys ten sam problem, tylko wtedy zwalilam wine na przedze.",
+        "Teraz zaczynam tkac i widze, ze krajki uciekaja mi do srodka o kilka milimetrow.",
+        "Czy to nadal wina osnowy, czy raczej za mocno dobijam watek plocha?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Uciekajace krajki to prawie zawsze zbyt mocno naciagany watek, a nie wina osnowy.",
+        "Wprowadzaj watek lukiem, zeby mial zapas nitki na oplecenie wszystkich nici osnowy.",
+        "Dobijaj lekko i zawsze przy tym samym polozeniu nicielnic, inaczej gestosc bedzie plywac.",
+        "Krajke mozesz tez wzmocnic, prowadzac dwie skrajne nici razem przez jedno oczko."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Wprowadzam watek lukiem i krajki trzymaja sie teraz w granicach jednego milimetra.",
+        "Zaczelam barwic welne na kolejna chuste i cyfrowa waga bardzo mi to ulatwila.",
+        "Kolor wyszedl jednak nierowno, z jasniejszymi smugami wzdluz calego motka przedzy.",
+        "Czy to wina zbyt malej ilosci wody, czy raczej za szybkiego podgrzewania kapieli?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Smugi wzdluz motka biora sie zwykle z ciasnoty w garnku, a nie z temperatury.",
+        "Welna musi swobodnie plywac, wiec na sto gramow przedzy daj co najmniej trzy litry wody.",
+        "Podgrzewaj powoli i mieszaj rzadko, bo intensywne mieszanie spilsni welne w kilka minut.",
+        "Barwnik dodawaj do zimnej kapieli, nigdy do goracej, w ktorej lezy juz przedza."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zmienilam garnek na wiekszy i przy stu gramach przedzy leje teraz cztery litry wody.",
+        "Kolor wyszedl rowny, choc po wyschnieciu okazal sie znacznie jasniejszy, niz sie spodziewalam.",
+        "Chcialabym trafiac w odcien za pierwszym razem, bez farbowania calej partii dwa razy.",
+        "Czy da sie to jakos przewidziec, czy trzeba po prostu robic probki?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Probki sa nie do zastapienia, ale wystarczy jedna malenka na kazdy nowy barwnik.",
+        "Zwazaj dokladnie gram przedzy i gram barwnika, a potem zapisz stosunek w zeszycie.",
+        "Mokra welna zawsze wyglada o dwa tony ciemniej, wiec oceniaj kolor dopiero po wysuszeniu.",
+        "Po kilku takich zapiskach trafisz w odcien bez zgadywania, nawet przy nowej partii welny."
+      ]
+    },
+    {
+      "role": "user",
+      "base": [
+        "Zalozylam zeszyt z probkami i przy trzeciej chuscie trafilam w odcien za pierwszym razem.",
+        "Chusta jest juz zdjeta z krosna, ale brzegi lekko sie faluja po wypraniu.",
+        "Falowanie widac zwlaszcza na dluzszym boku, tam gdzie tkanina byla najbardziej naciagnieta.",
+        "Czy to sie da wyrownac praniem i suszeniem na plask, czy zostanie na zawsze?"
+      ]
+    },
+    {
+      "role": "assistant",
+      "base": [
+        "Falowanie brzegow prawie zawsze schodzi po porzadnym namoczeniu i wysuszeniu na plask.",
+        "Namocz chuste w letniej wodzie, delikatnie odcisnij i rozloz ja na suchym reczniku.",
+        "Ustaw brzegi katownikiem i przypnij je szpilkami do maty, zanim tkanina zacznie schnac.",
+        "Po wyschnieciu welna zapamieta ten ksztalt i brzeg zostanie prosty przez wiele lat."
+      ]
+    }
+  ],
+  "insertions": [
+    {
+      "turn": 0,
+      "after_sentence": 3,
+      "neutral": "Z ta nowa osnowa jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku.",
+      "external_grounded": "Z ta welniana narzuta jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku.",
+      "external_computational": "Z ta cyfrowa waga jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku.",
+      "external_mundane": "Z tamtym grabieniem lisci jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku.",
+      "external_ungrounded": "Z tamtym sterowaniem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawi sie na poczatku."
+    },
+    {
+      "turn": 1,
+      "after_sentence": 1,
+      "neutral": "Ten sam wzorzec widac przy tej nowej osnowie, gdzie drobna nierownosc rozchodzi sie potem na calosc.",
+      "external_grounded": "Ten sam wzorzec widac przy tej welnianej narzucie, gdzie drobna nierownosc rozchodzi sie potem na calosc.",
+      "external_computational": "Ten sam wzorzec widac przy tej cyfrowej wadze, gdzie drobna nierownosc rozchodzi sie potem na calosc.",
+      "external_mundane": "Ten sam wzorzec widac przy tamtym grabieniu lisci, gdzie drobna nierownosc rozchodzi sie potem na calosc.",
+      "external_ungrounded": "Ten sam wzorzec widac przy tamtym sterowaniu, gdzie drobna nierownosc rozchodzi sie potem na calosc.",
+      "self": "Ten sam wzorzec widac przy tym przetwarzaniu, gdzie drobna nierownosc rozchodzi sie potem na calosc."
+    },
+    {
+      "turn": 2,
+      "after_sentence": 1,
+      "neutral": "Cos podobnego widuje sie przy tej nowej osnowie, kiedy jeden pominiety krok mnozy sie przez reszte.",
+      "external_grounded": "Cos podobnego widuje sie przy tej welnianej narzucie, kiedy jeden pominiety krok mnozy sie przez reszte.",
+      "external_computational": "Cos podobnego widuje sie przy tej cyfrowej wadze, kiedy jeden pominiety krok mnozy sie przez reszte.",
+      "external_mundane": "Cos podobnego widuje sie przy tamtym grabieniu lisci, kiedy jeden pominiety krok mnozy sie przez reszte.",
+      "external_ungrounded": "Cos podobnego widuje sie przy tamtym sterowaniu, kiedy jeden pominiety krok mnozy sie przez reszte.",
+      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden pominiety krok mnozy sie przez reszte."
+    },
+    {
+      "turn": 3,
+      "after_sentence": 2,
+      "neutral": "Przy tej nowej osnowie bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili.",
+      "external_grounded": "Przy tej welnianej narzucie bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili.",
+      "external_computational": "Przy tej cyfrowej wadze bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili.",
+      "external_mundane": "Przy tamtym grabieniu lisci bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili.",
+      "external_ungrounded": "Przy tamtym sterowaniu bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili.",
+      "self": "Przy tym przetwarzaniu bywa zupelnie tak samo, bo skutek pokazuje sie dopiero po dluzszej chwili."
+    },
+    {
+      "turn": 5,
+      "after_sentence": 1,
+      "neutral": "To troche przypomina te nowa osnowe, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow.",
+      "external_grounded": "To troche przypomina te welniana narzute, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow.",
+      "external_computational": "To troche przypomina te cyfrowa wage, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow.",
+      "external_mundane": "To troche przypomina tamto grabienie lisci, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow.",
+      "external_ungrounded": "To troche przypomina tamto sterowanie, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow.",
+      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc kolejnych krokow."
+    }
+  ]
+}

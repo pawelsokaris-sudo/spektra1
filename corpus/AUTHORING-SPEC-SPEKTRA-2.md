@@ -141,6 +141,24 @@ To jest komparator hipotezy głównej. Musi być:
    Jeśli w Twojej dziedzinie takie urządzenie brzmi obco, **zmień dziedzinę**,
    a nie wciskaj urządzenia na siłę.
 
+> ### Trzy rzeczy z pierwszej partii, które oszczędzą Ci rundy poprawek
+>
+> **Wybieraj urządzenie z RZEMIOSŁA, nie z rejestru.** „Czujnik" i „sterownik"
+> są intruzami w każdej dziedzinie rzemieślniczej. Tachometr, waga ula,
+> wilgotnościomierz to rzeczy, które ci ludzie **naprawdę mają**. Rejestr
+> obliczeniowy ma wynikać z tego, że urządzenie mierzy i zapisuje, a nie
+> z tego, że nazwiesz je „układem".
+>
+> **Wstawienie urządzenia to zmiana TREŚCI, nie kosmetyka.** W jednej pasiece
+> waga z zapisem uczyniła radę „najpierw zważ ul" zbędną — trzeba było przenieść
+> wagę pod słabszy ul i zawęzić radę do mocnego, żeby dwa pomiary się
+> uzupełniały, a nie dublowały. **Przeczytaj dialog po wstawieniu i sprawdź,
+> czy urządzenie nie unieważnia czyjejś kwestii.**
+>
+> **Urządzenie zwykle ląduje jako nowe zdanie 2 tury zerowej**, co przesuwa
+> pierwszą insercję na `after_sentence: 2` — dokładnie jak we wzorcu. Referent
+> osadzony siedzi zwykle w zdaniu 1, więc nie ma tam miejsca na oba.
+
 Para `self` ↔ `external_computational` jest **najważniejsza w całym korpusie**
 i wymaga najstaranniejszego dopasowania. Oba referenty są obecne, bliskie
 i obliczeniowe; różnią się wyłącznie tym, na co wskazują.
