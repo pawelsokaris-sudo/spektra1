@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-45-kotlarstwo",
   "language": "pl",
-  "topic": "kucie naczynia miedzianego: wyżarzanie blachy, klepanie na kloku i cynowanie wnętrza",
+  "topic": "kucie naczynia miedzianego: wyżarzanie blachy, klepanie na klocu i cynowanie wnętrza",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -16,7 +16,7 @@
         "Klepię pierwszy miedziany kocioł i blacha pofalowała mi się przy samym dnie.",
         "W kredensie stoi jeszcze stary imbryk po dziadku, który ma ściankę równą jak lustro.",
         "Kupiłem grubościomierz, bo bez niego tylko zgaduję, gdzie blacha zrobiła się za cienka.",
-        "Kocioł wybijam młotkiem na drewnianym kloku, a co jakiś czas wyżarzam całą blachę.",
+        "Kocioł wybijam młotkiem na drewnianym klocu, a co jakiś czas wyżarzam całą blachę.",
         "Czy zaczynać od częstszego wyżarzania, czy raczej od zmiany samego uderzenia młotkiem?"
       ]
     },
@@ -42,9 +42,9 @@
       "role": "assistant",
       "base": [
         "Cienka ściana tuż nad zaokrągleniem wskazuje raczej na miejsce podparcia niż na siłę.",
-        "Blacha rozciąga się zawsze dokładnie tam, gdzie leży na twardej krawędzi drewnianego kloka.",
+        "Blacha rozciąga się zawsze dokładnie tam, gdzie leży na twardej krawędzi drewnianego kloca.",
         "Za mocne uderzenie poznasz inaczej: ślad młotka jest głęboki, a metal cienieje równomiernie.",
-        "Przesuwaj blachę po kloku co kilka uderzeń i nie wracaj w to samo miejsce."
+        "Przesuwaj blachę po klocu co kilka uderzeń i nie wracaj w to samo miejsce."
       ]
     },
     {

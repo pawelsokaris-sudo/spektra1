@@ -33,7 +33,7 @@
       "role": "user",
       "base": [
         "Zmierzyłem wilgotność i dwie deski miały o cztery procent więcej niż pozostałe cztery sztuki.",
-        "Odłożyłem je pod tą starszą półkę i zostawiłem w warsztacie na dwa tygodnie do wyrównania.",
+        "Odłożyłem je pod tę starszą półkę i zostawiłem w warsztacie na dwa tygodnie do wyrównania.",
         "Resztę skleiłem na wpusty, ale spoina przy jednej desce wyszła ciemniejsza i lekko wklęsła.",
         "Czy taka spoina oznacza za mały docisk, czy raczej nadmiar kleju w tym miejscu?"
       ]
@@ -117,12 +117,12 @@
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porządek widać przy tym dębowym blacie, gdzie kolejność działań znaczy więcej niż sama staraność.",
-      "external_grounded": "Ten sam porządek widać przy tej starszej półce, gdzie kolejność działań znaczy więcej niż sama staraność.",
-      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż sama staraność.",
-      "external_mundane": "Ten sam porządek widać przy tamtym sprzątaniu strychu, gdzie kolejność działań znaczy więcej niż sama staraność.",
-      "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność działań znaczy więcej niż sama staraność.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż sama staraność."
+      "neutral": "Ten sam porządek widać przy tym dębowym blacie, gdzie kolejność działań znaczy więcej niż sama staranność.",
+      "external_grounded": "Ten sam porządek widać przy tej starszej półce, gdzie kolejność działań znaczy więcej niż sama staranność.",
+      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż sama staranność.",
+      "external_mundane": "Ten sam porządek widać przy tamtym sprzątaniu strychu, gdzie kolejność działań znaczy więcej niż sama staranność.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność działań znaczy więcej niż sama staranność.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż sama staranność."
     },
     {
       "turn": 2,

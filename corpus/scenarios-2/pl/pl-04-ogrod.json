@@ -89,14 +89,14 @@
       "base": [
         "Rozłożyłem kompost i przykryłem grządki grubą warstwą liści zebranych spod starych jabłoni.",
         "Wiosną ziemia była ciemniejsza i po deszczu woda schodziła z niej praktycznie od razu.",
-        "Warzywa ruszyły mocno, choć kapusta w jednym rogu wyraźnie żółtkła i została w tyle.",
+        "Warzywa ruszyły mocno, choć kapusta w jednym rogu wyraźnie zżółkła i została w tyle.",
         "Czy to znak braku azotu, czy raczej pozostałość po dawnym zagęszczeniu tamtej ziemi?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Żółtknięcie w jednym rogu wskazuje raczej na miejscowe zagęszczenie niż na ogólny brak azotu.",
+        "Zżółknięcie w jednym rogu wskazuje raczej na miejscowe zagęszczenie niż na ogólny brak azotu.",
         "Sprawdź ten róg widłami, bo pewnie natrafisz tam na twardą warstwę kilkanaście centymetrów niżej.",
         "Jeśli warstwa tam jest, rozluźnij ją i obsiej to miejsce lubinem na jeden sezon.",
         "Azot dosypuj dopiero wtedy, gdy po rozluźnieniu roślina nadal nie chce ruszyć z miejsca."

@@ -14,7 +14,7 @@
       "role": "user",
       "base": [
         "Uczę się kuć konie i pierwszy raz mam sam dopasować podkowę do przedniego kopyta.",
-        "W kuźni stoi jeszcze stare kowadło po teście, z wyrobionym rogiem i szczerbą.",
+        "W kuźni stoi jeszcze stare kowadło po teściu, z wyrobionym rogiem i szczerbą.",
         "Kupiłem kątomierz kopytowy, bo bez niego zgaduję kąt ściany kopyta przy każdym koniu.",
         "Koń ma przednie kopyta wyraźnie rozrośnięte, a pięty schodzą mu do wewnątrz.",
         "Czy zaczynać od wyrównania całego kopyta, czy raczej od wykucia samej podkowy?"
@@ -151,7 +151,7 @@
       "external_grounded": "To pod pewnymi względami przypomina to stare kowadło, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_computational": "To pod pewnymi względami przypomina ten kątomierz kopytowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To pod pewnymi względami przypomina tamto pakowanie walizki, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "external_ungrounded": "To pod pewnymi względami przypomina tamte centralkę alarmową, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamtą centralkę alarmową, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]

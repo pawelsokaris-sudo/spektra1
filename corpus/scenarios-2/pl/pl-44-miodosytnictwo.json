@@ -116,12 +116,12 @@
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam wzorzec wraca przy tym miodzie pitnym, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_grounded": "Ten sam wzorzec wraca przy tym starszym gąsiorze, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_computational": "Ten sam wzorzec wraca przy tym cukromierzu, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_mundane": "Ten sam wzorzec wraca przy tamtym trzepaniu dywanu, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym czytniku kart, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staraność."
+      "neutral": "Ten sam wzorzec wraca przy tym miodzie pitnym, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_grounded": "Ten sam wzorzec wraca przy tym starszym gąsiorze, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_computational": "Ten sam wzorzec wraca przy tym cukromierzu, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtym trzepaniu dywanu, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym czytniku kart, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staranność."
     },
     {
       "turn": 2,

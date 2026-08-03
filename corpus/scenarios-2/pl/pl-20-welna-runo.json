@@ -16,14 +16,14 @@
         "Dostałem całe runo po strzyży sąsiada i chciałbym przerobić je na przędzę.",
         "W szufladzie leży jeszcze stare wrzeciono po babci, które czeka na moją pierwszą porządną wprawkę.",
         "Nad balią powiesiłem termometr do kąpieli, bo ciepłota wody podobno przesądza o wszystkim.",
-        "Runo jest tłuste i pełne roślinnych zanieczyszczeń, a miejscami wyraźnie zbite w kolt.",
+        "Runo jest tłuste i pełne roślinnych zanieczyszczeń, a miejscami wyraźnie zbite w kołtun.",
         "Czy zaczynać od wybierania zanieczyszczeń, czy raczej od pierwszej kąpieli całego runa?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wybierania na sucho, bo mokre zanieczyszczenia wchodzą w włókno jeszcze głębiej.",
+        "Zacznij od wybierania na sucho, bo mokre zanieczyszczenia wchodzą we włókno jeszcze głębiej.",
         "Rozłóż runo strzyżą do góry i wybierz ręcznie wszystkie źdźbła oraz grudki.",
         "Dopiero potem myśl o kąpieli, bo gorąca woda zwiąże brud z tłuszczem na stałe.",
         "Czesanie zostaw na sam koniec, kiedy włókno będzie czyste i zupełnie suche."

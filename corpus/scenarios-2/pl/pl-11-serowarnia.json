@@ -33,7 +33,7 @@
       "role": "user",
       "base": [
         "Postawiłem w piwnicy miskę z wodą i wilgotność podniosła się o kilkanaście procent.",
-        "Przy okazji odsunąłem od ściany tą starą maselnicę, bo zasłaniała mi całą półkę.",
+        "Przy okazji odsunąłem od ściany tę starą maselnicę, bo zasłaniała mi całą półkę.",
         "Skórka wyrównała się po tygodniu, ale w jednym miejscu pojawił się szary nalot.",
         "Czy taki nalot trzeba od razu zmywać, czy to początek normalnej pleśni serowej?"
       ]
@@ -149,7 +149,7 @@
       "neutral": "To trochę przypomina tę pierwszą główkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_grounded": "To trochę przypomina tę starą maselnicę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_computational": "To trochę przypomina ten higrometr, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
-      "external_mundane": "To trochę przypomina tamte blaszaną konewkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "external_mundane": "To trochę przypomina tamtą blaszaną konewkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_ungrounded": "To trochę przypomina tamten programator, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
     }

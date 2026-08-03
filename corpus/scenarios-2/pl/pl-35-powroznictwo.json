@@ -16,7 +16,7 @@
         "Zacząłem kręcić własne powrozy z konopi i pierwszy zwój rozkręca mi się zaraz po zdjęciu.",
         "Na podwórzu wisi jeszcze studzienna lina po dziadku, która po trzydziestu latach trzyma splot idealnie.",
         "Do belki przykręciłem wagę sprężynową, bo bez niej tylko zgaduję siłę naciągu poszczególnych pasm.",
-        "Kręcę trzy pasma na kołowrotku, a potem składam je razem na drewnianym kloku.",
+        "Kręcę trzy pasma na kołowrotku, a potem składam je razem na drewnianym klocu.",
         "Czy zaczynać od mocniejszego skrętu pasm, czy raczej od wolniejszego składania całego powrozu?"
       ]
     },
@@ -26,7 +26,7 @@
         "Zacznij od skrętu pasm, bo to on decyduje, czy gotowy powróz utrzyma się w splocie.",
         "Powróz trzyma się sam dzięki temu, że pasma są kręcone w przeciwną stronę niż cały splot.",
         "Jeśli pasma są kręcone za słabo, splot je rozwija i cała robota się rozchodzi.",
-        "Dopiero przy właściwym skręcie pasm ma sens dobieranie tempa składania na kloku."
+        "Dopiero przy właściwym skręcie pasm ma sens dobieranie tempa składania na klocu."
       ]
     },
     {
@@ -116,12 +116,12 @@
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam wzorzec wraca przy tym konopnym powrozie, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_grounded": "Ten sam wzorzec wraca przy tej studziennej linie, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_computational": "Ten sam wzorzec wraca przy tej wadze sprężynowej, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_mundane": "Ten sam wzorzec wraca przy tamtym glinianym dzbanku, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym liczniku gazu, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
-      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staraność."
+      "neutral": "Ten sam wzorzec wraca przy tym konopnym powrozie, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_grounded": "Ten sam wzorzec wraca przy tej studziennej linie, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_computational": "Ten sam wzorzec wraca przy tej wadze sprężynowej, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtym glinianym dzbanku, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtym liczniku gazu, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staranność."
     },
     {
       "turn": 2,

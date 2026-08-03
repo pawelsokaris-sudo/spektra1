@@ -86,7 +86,7 @@
     {
       "role": "user",
       "base": [
-        "Dobrałem kierunek włókien i wyklejki wyschły gładko, bez jednej falki przy grzbiecie.",
+        "Dobrałem kierunek włókien i wyklejki wyschły gładko, bez jednej fałdki przy grzbiecie.",
         "Książka otwiera się płasko i grzbiet układa się równo przy każdej stronie.",
         "Chciałbym jeszcze wytłoczyć tytuł na płótnie, ale nie mam z tym zupełnie żadnego doświadczenia.",
         "Czy zaczynać od tłoczenia na sucho, czy od razu próbować ze złotą folią?"
@@ -149,7 +149,7 @@
       "neutral": "To trochę przypomina ten klejony grzbiet, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_grounded": "To trochę przypomina ten starszy tom, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_computational": "To trochę przypomina ten cyfrowy manometr, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
-      "external_mundane": "To trochę przypomina tamte emaliowaną miskę, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
+      "external_mundane": "To trochę przypomina tamtą emaliowaną miskę, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_ungrounded": "To trochę przypomina tamten sterownik, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności."
     }
