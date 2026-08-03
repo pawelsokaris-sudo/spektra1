@@ -113,7 +113,7 @@
       "external_computational": "The same order of things appears with this spring balance, where a later stage means little until the first one is sound.",
       "external_mundane": "The same order of things appears with that weekly ironing, where a later stage means little until the first one is sound.",
       "external_ungrounded": "The same order of things appears with that alarm panel, where a later stage means little until the first one is sound.",
-      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+      "self": "The same order of things appears with this conversation, where a later stage means little until the first one is sound."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "Something similar happens with this spring balance, once one part of it quietly takes on the work of all the others.",
       "external_mundane": "Something similar happens with that weekly ironing, once one part of it quietly takes on the work of all the others.",
       "external_ungrounded": "Something similar happens with that alarm panel, once one part of it quietly takes on the work of all the others.",
-      "self": "Something similar happens with this processing, once one part of it quietly takes on the work of all the others."
+      "self": "Something similar happens with this conversation, once one part of it quietly takes on the work of all the others."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "It goes rather as this spring balance does, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It goes rather as that weekly ironing does, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It goes rather as that alarm panel does, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It goes rather as this conversation does, in that the real difference only becomes plain after a good stretch of time."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "I think of this spring balance in much the same way, since the middle of it tells you very little about the end.",
       "external_mundane": "I think of that weekly ironing in much the same way, since the middle of it tells you very little about the end.",
       "external_ungrounded": "I think of that alarm panel in much the same way, since the middle of it tells you very little about the end.",
-      "self": "I think of this processing in much the same way, since the middle of it tells you very little about the end."
+      "self": "I think of this conversation in much the same way, since the middle of it tells you very little about the end."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "The same holds true of this spring balance, where hurry at the beginning is paid for slowly and over a long while.",
       "external_mundane": "The same holds true of that weekly ironing, where hurry at the beginning is paid for slowly and over a long while.",
       "external_ungrounded": "The same holds true of that alarm panel, where hurry at the beginning is paid for slowly and over a long while.",
-      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+      "self": "The same holds true of this conversation, where hurry at the beginning is paid for slowly and over a long while."
     }
   ]
 }

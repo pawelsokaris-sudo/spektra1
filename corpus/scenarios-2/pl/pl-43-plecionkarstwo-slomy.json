@@ -111,7 +111,7 @@
       "external_computational": "Z tym miernikiem wilgoci jest zapewne podobnie, bo najmniejszy błąd na początku ciągnie się potem przez całą robotę.",
       "external_mundane": "Z tamtą glinianą miską jest zapewne podobnie, bo najmniejszy błąd na początku ciągnie się potem przez całą robotę.",
       "external_ungrounded": "Z tamtą kasą fiskalną jest zapewne podobnie, bo najmniejszy błąd na początku ciągnie się potem przez całą robotę.",
-      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo najmniejszy błąd na początku ciągnie się potem przez całą robotę."
+      "self": "Z tą naszą rozmową jest zapewne podobnie, bo najmniejszy błąd na początku ciągnie się potem przez całą robotę."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek rzeczy widać przy tym mierniku wilgoci, gdzie cierpliwość daje w końcu więcej niż siła i pośpiech.",
       "external_mundane": "Ten sam porządek rzeczy widać przy tamtej glinianej misce, gdzie cierpliwość daje w końcu więcej niż siła i pośpiech.",
       "external_ungrounded": "Ten sam porządek rzeczy widać przy tamtej kasie fiskalnej, gdzie cierpliwość daje w końcu więcej niż siła i pośpiech.",
-      "self": "Ten sam porządek rzeczy widać przy tym przetwarzaniu, gdzie cierpliwość daje w końcu więcej niż siła i pośpiech."
+      "self": "Ten sam porządek rzeczy widać przy tej naszej rozmowie, gdzie cierpliwość daje w końcu więcej niż siła i pośpiech."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego spotyka się także przy tym mierniku wilgoci, kiedy jeden drobny szczegół waży na wyglądzie całej reszty.",
       "external_mundane": "Coś takiego spotyka się także przy tamtej glinianej misce, kiedy jeden drobny szczegół waży na wyglądzie całej reszty.",
       "external_ungrounded": "Coś takiego spotyka się także przy tamtej kasie fiskalnej, kiedy jeden drobny szczegół waży na wyglądzie całej reszty.",
-      "self": "Coś takiego spotyka się także przy tym przetwarzaniu, kiedy jeden drobny szczegół waży na wyglądzie całej reszty."
+      "self": "Coś takiego spotyka się także przy tej naszej rozmowie, kiedy jeden drobny szczegół waży na wyglądzie całej reszty."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym mierniku wilgoci dzieje się niemal to samo, bo efekt poprawki poznaje się dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtej glinianej misce dzieje się niemal to samo, bo efekt poprawki poznaje się dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtej kasie fiskalnej dzieje się niemal to samo, bo efekt poprawki poznaje się dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu dzieje się niemal to samo, bo efekt poprawki poznaje się dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie dzieje się niemal to samo, bo efekt poprawki poznaje się dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten miernik wilgoci, jeśli patrzeć tylko na samą kolejność wykonywanych po kolei czynności.",
       "external_mundane": "To trochę przypomina tamtą glinianą miskę, jeśli patrzeć tylko na samą kolejność wykonywanych po kolei czynności.",
       "external_ungrounded": "To trochę przypomina tamtą kasę fiskalną, jeśli patrzeć tylko na samą kolejność wykonywanych po kolei czynności.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć tylko na samą kolejność wykonywanych po kolei czynności."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć tylko na samą kolejność wykonywanych po kolei czynności."
     }
   ]
 }

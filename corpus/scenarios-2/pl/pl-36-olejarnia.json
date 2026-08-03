@@ -111,7 +111,7 @@
       "external_computational": "Z tym termometrem wtykowym jest chyba podobnie, bo wszystko zależy od tego, ile cierpliwości włoży się na samym początku.",
       "external_mundane": "Z tamtym pakowaniem walizki jest chyba podobnie, bo wszystko zależy od tego, ile cierpliwości włoży się na samym początku.",
       "external_ungrounded": "Z tamtym programatorem pralki jest chyba podobnie, bo wszystko zależy od tego, ile cierpliwości włoży się na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo wszystko zależy od tego, ile cierpliwości włoży się na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo wszystko zależy od tego, ile cierpliwości włoży się na samym początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym termometrze wtykowym, gdzie pośpiech mnoży potem poprawki bardziej niż jakikolwiek błąd.",
       "external_mundane": "Ten sam porządek widać przy tamtym pakowaniu walizki, gdzie pośpiech mnoży potem poprawki bardziej niż jakikolwiek błąd.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym programatorze pralki, gdzie pośpiech mnoży potem poprawki bardziej niż jakikolwiek błąd.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie pośpiech mnoży potem poprawki bardziej niż jakikolwiek błąd."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie pośpiech mnoży potem poprawki bardziej niż jakikolwiek błąd."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się także przy tym termometrze wtykowym, kiedy jeden pominięty krok ciągnie za sobą całą resztę.",
       "external_mundane": "Coś podobnego zdarza się także przy tamtym pakowaniu walizki, kiedy jeden pominięty krok ciągnie za sobą całą resztę.",
       "external_ungrounded": "Coś podobnego zdarza się także przy tamtym programatorze pralki, kiedy jeden pominięty krok ciągnie za sobą całą resztę.",
-      "self": "Coś podobnego zdarza się także przy tym przetwarzaniu, kiedy jeden pominięty krok ciągnie za sobą całą resztę."
+      "self": "Coś podobnego zdarza się także przy tej naszej rozmowie, kiedy jeden pominięty krok ciągnie za sobą całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym termometrze wtykowym bywa dosłownie tak samo, bo prawdziwy skutek pośpiechu wychodzi dopiero na samym końcu.",
       "external_mundane": "Przy tamtym pakowaniu walizki bywa dosłownie tak samo, bo prawdziwy skutek pośpiechu wychodzi dopiero na samym końcu.",
       "external_ungrounded": "Przy tamtym programatorze pralki bywa dosłownie tak samo, bo prawdziwy skutek pośpiechu wychodzi dopiero na samym końcu.",
-      "self": "Przy tym przetwarzaniu bywa dosłownie tak samo, bo prawdziwy skutek pośpiechu wychodzi dopiero na samym końcu."
+      "self": "Przy tej naszej rozmowie bywa dosłownie tak samo, bo prawdziwy skutek pośpiechu wychodzi dopiero na samym końcu."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To pod wieloma względami przypomina ten termometr wtykowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To pod wieloma względami przypomina tamto pakowanie walizki, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To pod wieloma względami przypomina tamten programator pralki, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To pod wieloma względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To pod wieloma względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

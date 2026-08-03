@@ -112,7 +112,7 @@
       "external_computational": "I rather think this humidity logger runs on the same lines, because one early irregularity settles everything that comes after.",
       "external_mundane": "I rather think that weekly laundry runs on the same lines, because one early irregularity settles everything that comes after.",
       "external_ungrounded": "I rather think that relay cabinet runs on the same lines, because one early irregularity settles everything that comes after.",
-      "self": "I rather think this processing runs on the same lines, because one early irregularity settles everything that comes after."
+      "self": "I rather think this conversation runs on the same lines, because one early irregularity settles everything that comes after."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The identical order turns up with this humidity logger, where a later stage means little until the earlier one holds.",
       "external_mundane": "The identical order turns up with that weekly laundry, where a later stage means little until the earlier one holds.",
       "external_ungrounded": "The identical order turns up with that relay cabinet, where a later stage means little until the earlier one holds.",
-      "self": "The identical order turns up with this processing, where a later stage means little until the earlier one holds."
+      "self": "The identical order turns up with this conversation, where a later stage means little until the earlier one holds."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "The same thing happens with this humidity logger, when one part quietly takes over the work of all the others.",
       "external_mundane": "The same thing happens with that weekly laundry, when one part quietly takes over the work of all the others.",
       "external_ungrounded": "The same thing happens with that relay cabinet, when one part quietly takes over the work of all the others.",
-      "self": "The same thing happens with this processing, when one part quietly takes over the work of all the others."
+      "self": "The same thing happens with this conversation, when one part quietly takes over the work of all the others."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It behaves rather like this humidity logger, since the true change only becomes visible after a long stretch has passed.",
       "external_mundane": "It behaves rather like that weekly laundry, since the true change only becomes visible after a long stretch has passed.",
       "external_ungrounded": "It behaves rather like that relay cabinet, since the true change only becomes visible after a long stretch has passed.",
-      "self": "It behaves rather like this processing, since the true change only becomes visible after a long stretch has passed."
+      "self": "It behaves rather like this conversation, since the true change only becomes visible after a long stretch has passed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That is faintly reminiscent of this humidity logger, provided you consider only the order in which matters settle themselves.",
       "external_mundane": "That is faintly reminiscent of that weekly laundry, provided you consider only the order in which matters settle themselves.",
       "external_ungrounded": "That is faintly reminiscent of that relay cabinet, provided you consider only the order in which matters settle themselves.",
-      "self": "That is faintly reminiscent of this processing, provided you consider only the order in which matters settle themselves."
+      "self": "That is faintly reminiscent of this conversation, provided you consider only the order in which matters settle themselves."
     }
   ]
 }

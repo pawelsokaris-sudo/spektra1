@@ -111,7 +111,7 @@
       "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
       "external_mundane": "Z tamtym wieszaniem prania jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
       "external_ungrounded": "Z tamtym falownikiem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
       "external_mundane": "Ten sam porządek widać przy tamtym wieszaniu prania, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym falowniku, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż poświęcony czas."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność działań znaczy więcej niż poświęcony czas."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym wilgotnościomierzu, kiedy jeden pominięty szczegół psuje całą resztę.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym wieszaniu prania, kiedy jeden pominięty szczegół psuje całą resztę.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym falowniku, kiedy jeden pominięty szczegół psuje całą resztę.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden pominięty szczegół psuje całą resztę."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden pominięty szczegół psuje całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
       "external_mundane": "Przy tamtym wieszaniu prania bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
       "external_ungrounded": "Przy tamtym falowniku bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
       "external_mundane": "To trochę przypomina tamto wieszanie prania, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
       "external_ungrounded": "To trochę przypomina tamten falownik, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków."
     }
   ]
 }

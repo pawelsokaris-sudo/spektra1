@@ -111,7 +111,7 @@
       "external_computational": "Z tym higrometrem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
       "external_mundane": "Z tamtą blaszaną konewką jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
       "external_ungrounded": "Z tamtym programatorem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym higrometrze, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
       "external_mundane": "Ten sam porządek widać przy tamtej blaszanej konewce, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym programatorze, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie stałe warunki znaczą więcej niż częstsze poprawianie."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie stałe warunki znaczą więcej niż częstsze poprawianie."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego widuje się przy tym higrometrze, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtej blaszanej konewce, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym programatorze, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym higrometrze bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
       "external_mundane": "Przy tamtej blaszanej konewce bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
       "external_ungrounded": "Przy tamtym programatorze bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten higrometr, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_mundane": "To trochę przypomina tamtą blaszaną konewkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_ungrounded": "To trochę przypomina tamten programator, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
     }
   ]
 }

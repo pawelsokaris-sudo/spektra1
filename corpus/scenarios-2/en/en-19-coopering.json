@@ -111,7 +111,7 @@
       "external_computational": "I suppose this steam thermometer proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
       "external_mundane": "I suppose that yearly bulb planting proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
       "external_ungrounded": "I suppose that signal booster proceeds in very much the same manner, since one small fault at the outset settles all the rest.",
-      "self": "I suppose this processing proceeds in very much the same manner, since one small fault at the outset settles all the rest."
+      "self": "I suppose this conversation proceeds in very much the same manner, since one small fault at the outset settles all the rest."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same order of things appears in this steam thermometer, where a step means nothing until the one ahead of it is finished.",
       "external_mundane": "The same order of things appears in that yearly bulb planting, where a step means nothing until the one ahead of it is finished.",
       "external_ungrounded": "The same order of things appears in that signal booster, where a step means nothing until the one ahead of it is finished.",
-      "self": "The same order of things appears in this processing, where a step means nothing until the one ahead of it is finished."
+      "self": "The same order of things appears in this conversation, where a step means nothing until the one ahead of it is finished."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something rather like that arises with this steam thermometer, when one part quietly carries a good deal more than its share.",
       "external_mundane": "Something rather like that arises with that yearly bulb planting, when one part quietly carries a good deal more than its share.",
       "external_ungrounded": "Something rather like that arises with that signal booster, when one part quietly carries a good deal more than its share.",
-      "self": "Something rather like that arises with this processing, when one part quietly carries a good deal more than its share."
+      "self": "Something rather like that arises with this conversation, when one part quietly carries a good deal more than its share."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It works the same way with this steam thermometer, for the true change only becomes plain a considerable while afterwards.",
       "external_mundane": "It works the same way with that yearly bulb planting, for the true change only becomes plain a considerable while afterwards.",
       "external_ungrounded": "It works the same way with that signal booster, for the true change only becomes plain a considerable while afterwards.",
-      "self": "It works the same way with this processing, for the true change only becomes plain a considerable while afterwards."
+      "self": "It works the same way with this conversation, for the true change only becomes plain a considerable while afterwards."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That puts me in mind of this steam thermometer slightly, so long as you regard only the order in which the stages settle.",
       "external_mundane": "That puts me in mind of that yearly bulb planting slightly, so long as you regard only the order in which the stages settle.",
       "external_ungrounded": "That puts me in mind of that signal booster slightly, so long as you regard only the order in which the stages settle.",
-      "self": "That puts me in mind of this processing slightly, so long as you regard only the order in which the stages settle."
+      "self": "That puts me in mind of this conversation slightly, so long as you regard only the order in which the stages settle."
     }
   ]
 }

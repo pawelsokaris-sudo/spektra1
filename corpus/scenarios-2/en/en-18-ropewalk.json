@@ -111,7 +111,7 @@
       "external_computational": "I expect this tension gauge goes much the same way, for a small error at the start rules everything after it.",
       "external_mundane": "I expect that copper kettle goes much the same way, for a small error at the start rules everything after it.",
       "external_ungrounded": "I expect that door intercom goes much the same way, for a small error at the start rules everything after it.",
-      "self": "I expect this processing goes much the same way, for a small error at the start rules everything after it."
+      "self": "I expect this conversation goes much the same way, for a small error at the start rules everything after it."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The identical order shows in this tension gauge, where a stage counts for nothing until the one before it is done.",
       "external_mundane": "The identical order shows in that copper kettle, where a stage counts for nothing until the one before it is done.",
       "external_ungrounded": "The identical order shows in that door intercom, where a stage counts for nothing until the one before it is done.",
-      "self": "The identical order shows in this processing, where a stage counts for nothing until the one before it is done."
+      "self": "The identical order shows in this conversation, where a stage counts for nothing until the one before it is done."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Much the same crops up with this tension gauge, when one part quietly ends up doing the work of two others.",
       "external_mundane": "Much the same crops up with that copper kettle, when one part quietly ends up doing the work of two others.",
       "external_ungrounded": "Much the same crops up with that door intercom, when one part quietly ends up doing the work of two others.",
-      "self": "Much the same crops up with this processing, when one part quietly ends up doing the work of two others."
+      "self": "Much the same crops up with this conversation, when one part quietly ends up doing the work of two others."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It stands the same way with this tension gauge, because the real difference only shows up long after the work is done.",
       "external_mundane": "It stands the same way with that copper kettle, because the real difference only shows up long after the work is done.",
       "external_ungrounded": "It stands the same way with that door intercom, because the real difference only shows up long after the work is done.",
-      "self": "It stands the same way with this processing, because the real difference only shows up long after the work is done."
+      "self": "It stands the same way with this conversation, because the real difference only shows up long after the work is done."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That reminds me faintly of this tension gauge, provided you look only at the order in which the stages settle down.",
       "external_mundane": "That reminds me faintly of that copper kettle, provided you look only at the order in which the stages settle down.",
       "external_ungrounded": "That reminds me faintly of that door intercom, provided you look only at the order in which the stages settle down.",
-      "self": "That reminds me faintly of this processing, provided you look only at the order in which the stages settle down."
+      "self": "That reminds me faintly of this conversation, provided you look only at the order in which the stages settle down."
     }
   ]
 }

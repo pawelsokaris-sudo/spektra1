@@ -111,7 +111,7 @@
       "external_computational": "I rather think this kiln pyrometer holds to much the same rule, because one early failing settles all the work that follows.",
       "external_mundane": "I rather think that old bicycle holds to much the same rule, because one early failing settles all the work that follows.",
       "external_ungrounded": "I rather think that signal relay holds to much the same rule, because one early failing settles all the work that follows.",
-      "self": "I rather think this processing holds to much the same rule, because one early failing settles all the work that follows."
+      "self": "I rather think this conversation holds to much the same rule, because one early failing settles all the work that follows."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "One meets the same ordering in this kiln pyrometer, where nothing later signifies much until the earlier part is sound.",
       "external_mundane": "One meets the same ordering in that old bicycle, where nothing later signifies much until the earlier part is sound.",
       "external_ungrounded": "One meets the same ordering in that signal relay, where nothing later signifies much until the earlier part is sound.",
-      "self": "One meets the same ordering in this processing, where nothing later signifies much until the earlier part is sound."
+      "self": "One meets the same ordering in this conversation, where nothing later signifies much until the earlier part is sound."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "You find much the same thing in this kiln pyrometer, when a single small part quietly carries what all of them should carry.",
       "external_mundane": "You find much the same thing in that old bicycle, when a single small part quietly carries what all of them should carry.",
       "external_ungrounded": "You find much the same thing in that signal relay, when a single small part quietly carries what all of them should carry.",
-      "self": "You find much the same thing in this processing, when a single small part quietly carries what all of them should carry."
+      "self": "You find much the same thing in this conversation, when a single small part quietly carries what all of them should carry."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It behaves a good deal like this kiln pyrometer, because the true change only declares itself after a long spell has gone by.",
       "external_mundane": "It behaves a good deal like that old bicycle, because the true change only declares itself after a long spell has gone by.",
       "external_ungrounded": "It behaves a good deal like that signal relay, because the true change only declares itself after a long spell has gone by.",
-      "self": "It behaves a good deal like this processing, because the true change only declares itself after a long spell has gone by."
+      "self": "It behaves a good deal like this conversation, because the true change only declares itself after a long spell has gone by."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That puts me dimly in mind of this kiln pyrometer, if one attends to nothing but the order in which the stages come right.",
       "external_mundane": "That puts me dimly in mind of that old bicycle, if one attends to nothing but the order in which the stages come right.",
       "external_ungrounded": "That puts me dimly in mind of that signal relay, if one attends to nothing but the order in which the stages come right.",
-      "self": "That puts me dimly in mind of this processing, if one attends to nothing but the order in which the stages come right."
+      "self": "That puts me dimly in mind of this conversation, if one attends to nothing but the order in which the stages come right."
     }
   ]
 }

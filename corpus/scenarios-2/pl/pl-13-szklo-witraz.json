@@ -111,7 +111,7 @@
       "external_computational": "Z tym cyfrowym termometrem jest chyba podobnie, bo najwięcej zależy od spokojnego, równego tempa.",
       "external_mundane": "Z tamtą drewnianą łyżką jest chyba podobnie, bo najwięcej zależy od spokojnego, równego tempa.",
       "external_ungrounded": "Z tamtym przelicznikiem jest chyba podobnie, bo najwięcej zależy od spokojnego, równego tempa.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od spokojnego, równego tempa."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej zależy od spokojnego, równego tempa."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym cyfrowym termometrze, gdzie przygotowanie znaczy więcej niż samo wykonanie.",
       "external_mundane": "Ten sam porządek widać przy tamtej drewnianej łyżce, gdzie przygotowanie znaczy więcej niż samo wykonanie.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym przeliczniku, gdzie przygotowanie znaczy więcej niż samo wykonanie.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie przygotowanie znaczy więcej niż samo wykonanie."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie przygotowanie znaczy więcej niż samo wykonanie."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego widuje się przy tym cyfrowym termometrze, kiedy jeden pośpieszny ruch psuje całą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtej drewnianej łyżce, kiedy jeden pośpieszny ruch psuje całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym przeliczniku, kiedy jeden pośpieszny ruch psuje całą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden pośpieszny ruch psuje całą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden pośpieszny ruch psuje całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym cyfrowym termometrze bywa dokładnie tak samo, bo skutek pośpiechu wychodzi dopiero na końcu.",
       "external_mundane": "Przy tamtej drewnianej łyżce bywa dokładnie tak samo, bo skutek pośpiechu wychodzi dopiero na końcu.",
       "external_ungrounded": "Przy tamtym przeliczniku bywa dokładnie tak samo, bo skutek pośpiechu wychodzi dopiero na końcu.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutek pośpiechu wychodzi dopiero na końcu."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutek pośpiechu wychodzi dopiero na końcu."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten cyfrowy termometr, jeśli patrzeć wyłącznie na kolejność poszczególnych czynności.",
       "external_mundane": "To trochę przypomina tamtą drewnianą łyżkę, jeśli patrzeć wyłącznie na kolejność poszczególnych czynności.",
       "external_ungrounded": "To trochę przypomina tamten przelicznik, jeśli patrzeć wyłącznie na kolejność poszczególnych czynności.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych czynności."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych czynności."
     }
   ]
 }

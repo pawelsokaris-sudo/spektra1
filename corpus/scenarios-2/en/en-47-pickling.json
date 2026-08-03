@@ -113,7 +113,7 @@
       "external_computational": "You see the same in this bench scale, where what looks finished often turns out to be no more than settling.",
       "external_mundane": "You see the same in that daily bus ride, where what looks finished often turns out to be no more than settling.",
       "external_ungrounded": "You see the same in that pump governor, where what looks finished often turns out to be no more than settling.",
-      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+      "self": "You see the same in this conversation, where what looks finished often turns out to be no more than settling."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "The same thing turns up with this bench scale, where a small fault at the start grows into a large one later on.",
       "external_mundane": "The same thing turns up with that daily bus ride, where a small fault at the start grows into a large one later on.",
       "external_ungrounded": "The same thing turns up with that pump governor, where a small fault at the start grows into a large one later on.",
-      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+      "self": "The same thing turns up with this conversation, where a small fault at the start grows into a large one later on."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "Much the same holds for this bench scale, as long as you look at how each stage hands its work over to the next.",
       "external_mundane": "Much the same holds for that daily bus ride, as long as you look at how each stage hands its work over to the next.",
       "external_ungrounded": "Much the same holds for that pump governor, as long as you look at how each stage hands its work over to the next.",
-      "self": "Much the same holds for this processing, as long as you look at how each stage hands its work over to the next."
+      "self": "Much the same holds for this conversation, as long as you look at how each stage hands its work over to the next."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "It goes rather as this bench scale does, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It goes rather as that daily bus ride does, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It goes rather as that pump governor does, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It goes rather as this conversation does, in that the real difference only becomes plain after a good stretch of time."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "The same shape of thing shows in this bench scale, where the early steps settle what the later ones are able to do.",
       "external_mundane": "The same shape of thing shows in that daily bus ride, where the early steps settle what the later ones are able to do.",
       "external_ungrounded": "The same shape of thing shows in that pump governor, where the early steps settle what the later ones are able to do.",
-      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+      "self": "The same shape of thing shows in this conversation, where the early steps settle what the later ones are able to do."
     }
   ]
 }

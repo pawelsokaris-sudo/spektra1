@@ -111,7 +111,7 @@
       "external_computational": "I suspect this moisture meter works much the same way, because one small fault at the start decides everything afterwards.",
       "external_mundane": "I suspect that weekly market run works much the same way, because one small fault at the start decides everything afterwards.",
       "external_ungrounded": "I suspect that signal repeater works much the same way, because one small fault at the start decides everything afterwards.",
-      "self": "I suspect this processing works much the same way, because one small fault at the start decides everything afterwards."
+      "self": "I suspect this conversation works much the same way, because one small fault at the start decides everything afterwards."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same ordering shows up with this moisture meter, where each stage only counts once the one before is settled.",
       "external_mundane": "The same ordering shows up with that weekly market run, where each stage only counts once the one before is settled.",
       "external_ungrounded": "The same ordering shows up with that signal repeater, where each stage only counts once the one before is settled.",
-      "self": "The same ordering shows up with this processing, where each stage only counts once the one before is settled."
+      "self": "The same ordering shows up with this conversation, where each stage only counts once the one before is settled."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something similar happens with this moisture meter, when a single part ends up carrying more than its proper share.",
       "external_mundane": "Something similar happens with that weekly market run, when a single part ends up carrying more than its proper share.",
       "external_ungrounded": "Something similar happens with that signal repeater, when a single part ends up carrying more than its proper share.",
-      "self": "Something similar happens with this processing, when a single part ends up carrying more than its proper share."
+      "self": "Something similar happens with this conversation, when a single part ends up carrying more than its proper share."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Much the same holds for this moisture meter, since the real change becomes visible only after a fair while has passed.",
       "external_mundane": "Much the same holds for that weekly market run, since the real change becomes visible only after a fair while has passed.",
       "external_ungrounded": "Much the same holds for that signal repeater, since the real change becomes visible only after a fair while has passed.",
-      "self": "Much the same holds for this processing, since the real change becomes visible only after a fair while has passed."
+      "self": "Much the same holds for this conversation, since the real change becomes visible only after a fair while has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That resembles this moisture meter a little, provided you look only at the order in which things settle.",
       "external_mundane": "That resembles that weekly market run a little, provided you look only at the order in which things settle.",
       "external_ungrounded": "That resembles that signal repeater a little, provided you look only at the order in which things settle.",
-      "self": "That resembles this processing a little, provided you look only at the order in which things settle."
+      "self": "That resembles this conversation a little, provided you look only at the order in which things settle."
     }
   ]
 }

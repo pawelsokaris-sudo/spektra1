@@ -111,7 +111,7 @@
       "external_computational": "Z tym cyfrowym manometrem jest chyba podobnie, bo o efekcie decyduje to, co zrobi się najwcześniej.",
       "external_mundane": "Z tamtą emaliowaną miską jest chyba podobnie, bo o efekcie decyduje to, co zrobi się najwcześniej.",
       "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo o efekcie decyduje to, co zrobi się najwcześniej.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o efekcie decyduje to, co zrobi się najwcześniej."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o efekcie decyduje to, co zrobi się najwcześniej."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym cyfrowym manometrze, gdzie staranne przygotowanie znaczy więcej niż wprawa.",
       "external_mundane": "Ten sam porządek widać przy tamtej emaliowanej misce, gdzie staranne przygotowanie znaczy więcej niż wprawa.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku, gdzie staranne przygotowanie znaczy więcej niż wprawa.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie staranne przygotowanie znaczy więcej niż wprawa."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie staranne przygotowanie znaczy więcej niż wprawa."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego widuje się przy tym cyfrowym manometrze, kiedy jeden drobiazg pociąga za sobą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtej emaliowanej misce, kiedy jeden drobiazg pociąga za sobą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku, kiedy jeden drobiazg pociąga za sobą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden drobiazg pociąga za sobą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden drobiazg pociąga za sobą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym cyfrowym manometrze bywa dokładnie tak samo, bo skutek widać dopiero po dłuższym odstępie.",
       "external_mundane": "Przy tamtej emaliowanej misce bywa dokładnie tak samo, bo skutek widać dopiero po dłuższym odstępie.",
       "external_ungrounded": "Przy tamtym sterowniku bywa dokładnie tak samo, bo skutek widać dopiero po dłuższym odstępie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutek widać dopiero po dłuższym odstępie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutek widać dopiero po dłuższym odstępie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten cyfrowy manometr, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_mundane": "To trochę przypomina tamtą emaliowaną miskę, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_ungrounded": "To trochę przypomina tamten sterownik, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności."
     }
   ]
 }

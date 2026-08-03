@@ -112,7 +112,7 @@
       "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
       "external_mundane": "Z tamtym sprzątaniem strychu jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
       "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż sama staranność.",
       "external_mundane": "Ten sam porządek widać przy tamtym sprzątaniu strychu, gdzie kolejność działań znaczy więcej niż sama staranność.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność działań znaczy więcej niż sama staranność.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż sama staranność."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność działań znaczy więcej niż sama staranność."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym wilgotnościomierzu, kiedy jeden szczegół przesądza o całym efekcie.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym sprzątaniu strychu, kiedy jeden szczegół przesądza o całym efekcie.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym regulatorze, kiedy jeden szczegół przesądza o całym efekcie.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden szczegół przesądza o całym efekcie."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden szczegół przesądza o całym efekcie."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym sprzątaniu strychu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym regulatorze bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
       "external_mundane": "To trochę przypomina tamto sprzątanie strychu, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
       "external_ungrounded": "To trochę przypomina tamten regulator, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność kolejnych kroków."
     }
   ]
 }

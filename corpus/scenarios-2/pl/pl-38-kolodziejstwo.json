@@ -112,7 +112,7 @@
       "external_computational": "Z tym higrometrem jest chyba podobnie, bo pierwsza niedokładność mnoży się potem na każdym następnym etapie.",
       "external_mundane": "Z tamtym grabieniem liści jest chyba podobnie, bo pierwsza niedokładność mnoży się potem na każdym następnym etapie.",
       "external_ungrounded": "Z tamtym sterownikiem alarmu jest chyba podobnie, bo pierwsza niedokładność mnoży się potem na każdym następnym etapie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsza niedokładność mnoży się potem na każdym następnym etapie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo pierwsza niedokładność mnoży się potem na każdym następnym etapie."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek wraca przy tym higrometrze, gdzie staranne przygotowanie znaczy więcej niż sama nabyta wprawa.",
       "external_mundane": "Ten sam porządek wraca przy tamtym grabieniu liści, gdzie staranne przygotowanie znaczy więcej niż sama nabyta wprawa.",
       "external_ungrounded": "Ten sam porządek wraca przy tamtym sterowniku alarmu, gdzie staranne przygotowanie znaczy więcej niż sama nabyta wprawa.",
-      "self": "Ten sam porządek wraca przy tym przetwarzaniu, gdzie staranne przygotowanie znaczy więcej niż sama nabyta wprawa."
+      "self": "Ten sam porządek wraca przy tej naszej rozmowie, gdzie staranne przygotowanie znaczy więcej niż sama nabyta wprawa."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś bardzo podobnego widuje się przy tym higrometrze, kiedy jeden pominięty krok psuje potem całą resztę.",
       "external_mundane": "Coś bardzo podobnego widuje się przy tamtym grabieniu liści, kiedy jeden pominięty krok psuje potem całą resztę.",
       "external_ungrounded": "Coś bardzo podobnego widuje się przy tamtym sterowniku alarmu, kiedy jeden pominięty krok psuje potem całą resztę.",
-      "self": "Coś bardzo podobnego widuje się przy tym przetwarzaniu, kiedy jeden pominięty krok psuje potem całą resztę."
+      "self": "Coś bardzo podobnego widuje się przy tej naszej rozmowie, kiedy jeden pominięty krok psuje potem całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym higrometrze bywa dokładnie tak samo, bo skutki jednego skrótu wychodzą dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym grabieniu liści bywa dokładnie tak samo, bo skutki jednego skrótu wychodzą dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym sterowniku alarmu bywa dokładnie tak samo, bo skutki jednego skrótu wychodzą dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki jednego skrótu wychodzą dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki jednego skrótu wychodzą dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten higrometr, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_mundane": "To pod pewnymi względami przypomina tamto grabienie liści, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik alarmu, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych czynności."
     }
   ]
 }

@@ -112,7 +112,7 @@
       "external_computational": "My feeling is that this level probe runs on similar lines, because one early irregularity governs everything that comes after.",
       "external_mundane": "My feeling is that that monthly car wash runs on similar lines, because one early irregularity governs everything that comes after.",
       "external_ungrounded": "My feeling is that that circuit timer runs on similar lines, because one early irregularity governs everything that comes after.",
-      "self": "My feeling is that this processing runs on similar lines, because one early irregularity governs everything that comes after."
+      "self": "My feeling is that this conversation runs on similar lines, because one early irregularity governs everything that comes after."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same sequence shows itself with this level probe, where a later step counts little until the earlier one holds.",
       "external_mundane": "The same sequence shows itself with that monthly car wash, where a later step counts little until the earlier one holds.",
       "external_ungrounded": "The same sequence shows itself with that circuit timer, where a later step counts little until the earlier one holds.",
-      "self": "The same sequence shows itself with this processing, where a later step counts little until the earlier one holds."
+      "self": "The same sequence shows itself with this conversation, where a later step counts little until the earlier one holds."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Something similar arises with this level probe, when a single part quietly takes on the work of all the rest.",
       "external_mundane": "Something similar arises with that monthly car wash, when a single part quietly takes on the work of all the rest.",
       "external_ungrounded": "Something similar arises with that circuit timer, when a single part quietly takes on the work of all the rest.",
-      "self": "Something similar arises with this processing, when a single part quietly takes on the work of all the rest."
+      "self": "Something similar arises with this conversation, when a single part quietly takes on the work of all the rest."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It behaves much like this level probe, because the real change only becomes apparent once a long stretch has passed.",
       "external_mundane": "It behaves much like that monthly car wash, because the real change only becomes apparent once a long stretch has passed.",
       "external_ungrounded": "It behaves much like that circuit timer, because the real change only becomes apparent once a long stretch has passed.",
-      "self": "It behaves much like this processing, because the real change only becomes apparent once a long stretch has passed."
+      "self": "It behaves much like this conversation, because the real change only becomes apparent once a long stretch has passed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That puts me slightly in mind of this level probe, provided you look only at the order in which things settle.",
       "external_mundane": "That puts me slightly in mind of that monthly car wash, provided you look only at the order in which things settle.",
       "external_ungrounded": "That puts me slightly in mind of that circuit timer, provided you look only at the order in which things settle.",
-      "self": "That puts me slightly in mind of this processing, provided you look only at the order in which things settle."
+      "self": "That puts me slightly in mind of this conversation, provided you look only at the order in which things settle."
     }
   ]
 }

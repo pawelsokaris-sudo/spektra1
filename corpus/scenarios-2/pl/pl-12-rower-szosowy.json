@@ -111,7 +111,7 @@
       "external_computational": "Z tym czujnikiem kadencji jest chyba podobnie, bo drobne ustawienie na początku zmienia potem wszystko.",
       "external_mundane": "Z tamtym pieczeniem chleba jest chyba podobnie, bo drobne ustawienie na początku zmienia potem wszystko.",
       "external_ungrounded": "Z tamtą automatyką jest chyba podobnie, bo drobne ustawienie na początku zmienia potem wszystko.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobne ustawienie na początku zmienia potem wszystko."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo drobne ustawienie na początku zmienia potem wszystko."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym czujniku kadencji, gdzie kolejność poprawek znaczy więcej niż ich liczba.",
       "external_mundane": "Ten sam porządek widać przy tamtym pieczeniu chleba, gdzie kolejność poprawek znaczy więcej niż ich liczba.",
       "external_ungrounded": "Ten sam porządek widać przy tamtej automatyce, gdzie kolejność poprawek znaczy więcej niż ich liczba.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność poprawek znaczy więcej niż ich liczba."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność poprawek znaczy więcej niż ich liczba."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym czujniku kadencji, kiedy jeden element przejmuje pracę za pozostałe.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym pieczeniu chleba, kiedy jeden element przejmuje pracę za pozostałe.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtej automatyce, kiedy jeden element przejmuje pracę za pozostałe.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden element przejmuje pracę za pozostałe."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden element przejmuje pracę za pozostałe."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym czujniku kadencji bywa dokładnie tak samo, bo efekt drobnej zmiany widać dopiero później.",
       "external_mundane": "Przy tamtym pieczeniu chleba bywa dokładnie tak samo, bo efekt drobnej zmiany widać dopiero później.",
       "external_ungrounded": "Przy tamtej automatyce bywa dokładnie tak samo, bo efekt drobnej zmiany widać dopiero później.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo efekt drobnej zmiany widać dopiero później."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo efekt drobnej zmiany widać dopiero później."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten czujnik kadencji, jeśli patrzeć wyłącznie na kolejność wprowadzanych poprawek.",
       "external_mundane": "To trochę przypomina tamto pieczenie chleba, jeśli patrzeć wyłącznie na kolejność wprowadzanych poprawek.",
       "external_ungrounded": "To trochę przypomina tamtą automatykę, jeśli patrzeć wyłącznie na kolejność wprowadzanych poprawek.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wprowadzanych poprawek."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wprowadzanych poprawek."
     }
   ]
 }

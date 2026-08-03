@@ -111,7 +111,7 @@
       "external_computational": "I imagine this level recorder proceeds by much the same rule, since one fault early on governs all the rest of it.",
       "external_mundane": "I imagine that daily commute proceeds by much the same rule, since one fault early on governs all the rest of it.",
       "external_ungrounded": "I imagine that door intercom proceeds by much the same rule, since one fault early on governs all the rest of it.",
-      "self": "I imagine this processing proceeds by much the same rule, since one fault early on governs all the rest of it."
+      "self": "I imagine this conversation proceeds by much the same rule, since one fault early on governs all the rest of it."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same order of things holds in this level recorder, where a later stage counts for little until the earlier one is right.",
       "external_mundane": "The same order of things holds in that daily commute, where a later stage counts for little until the earlier one is right.",
       "external_ungrounded": "The same order of things holds in that door intercom, where a later stage counts for little until the earlier one is right.",
-      "self": "The same order of things holds in this processing, where a later stage counts for little until the earlier one is right."
+      "self": "The same order of things holds in this conversation, where a later stage counts for little until the earlier one is right."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Much the same shows up with this level recorder, when one small element quietly does the work meant for the whole of it.",
       "external_mundane": "Much the same shows up with that daily commute, when one small element quietly does the work meant for the whole of it.",
       "external_ungrounded": "Much the same shows up with that door intercom, when one small element quietly does the work meant for the whole of it.",
-      "self": "Much the same shows up with this processing, when one small element quietly does the work meant for the whole of it."
+      "self": "Much the same shows up with this conversation, when one small element quietly does the work meant for the whole of it."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It unfolds rather like this level recorder, in that the real difference only becomes visible once a long stretch has gone by.",
       "external_mundane": "It unfolds rather like that daily commute, in that the real difference only becomes visible once a long stretch has gone by.",
       "external_ungrounded": "It unfolds rather like that door intercom, in that the real difference only becomes visible once a long stretch has gone by.",
-      "self": "It unfolds rather like this processing, in that the real difference only becomes visible once a long stretch has gone by."
+      "self": "It unfolds rather like this conversation, in that the real difference only becomes visible once a long stretch has gone by."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That faintly recalls this level recorder to my mind, so long as you consider nothing but the order in which the parts come right.",
       "external_mundane": "That faintly recalls that daily commute to my mind, so long as you consider nothing but the order in which the parts come right.",
       "external_ungrounded": "That faintly recalls that door intercom to my mind, so long as you consider nothing but the order in which the parts come right.",
-      "self": "That faintly recalls this processing to my mind, so long as you consider nothing but the order in which the parts come right."
+      "self": "That faintly recalls this conversation to my mind, so long as you consider nothing but the order in which the parts come right."
     }
   ]
 }

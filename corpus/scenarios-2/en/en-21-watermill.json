@@ -111,7 +111,7 @@
       "external_computational": "I dare say this revolution counter goes along in much the same fashion, where one small error early on governs all the rest.",
       "external_mundane": "I dare say that weekly shopping trip goes along in much the same fashion, where one small error early on governs all the rest.",
       "external_ungrounded": "I dare say that boiler controller goes along in much the same fashion, where one small error early on governs all the rest.",
-      "self": "I dare say this processing goes along in much the same fashion, where one small error early on governs all the rest."
+      "self": "I dare say this conversation goes along in much the same fashion, where one small error early on governs all the rest."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The very same order shows up in this revolution counter, where no stage counts until the one ahead of it has settled properly.",
       "external_mundane": "The very same order shows up in that weekly shopping trip, where no stage counts until the one ahead of it has settled properly.",
       "external_ungrounded": "The very same order shows up in that boiler controller, where no stage counts until the one ahead of it has settled properly.",
-      "self": "The very same order shows up in this processing, where no stage counts until the one ahead of it has settled properly."
+      "self": "The very same order shows up in this conversation, where no stage counts until the one ahead of it has settled properly."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something of this kind arises with this revolution counter, when one part quietly ends up bearing far more than its proper share.",
       "external_mundane": "Something of this kind arises with that weekly shopping trip, when one part quietly ends up bearing far more than its proper share.",
       "external_ungrounded": "Something of this kind arises with that boiler controller, when one part quietly ends up bearing far more than its proper share.",
-      "self": "Something of this kind arises with this processing, when one part quietly ends up bearing far more than its proper share."
+      "self": "Something of this kind arises with this conversation, when one part quietly ends up bearing far more than its proper share."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "The same applies to this revolution counter, seeing that the genuine change only makes itself plain a considerable time afterwards.",
       "external_mundane": "The same applies to that weekly shopping trip, seeing that the genuine change only makes itself plain a considerable time afterwards.",
       "external_ungrounded": "The same applies to that boiler controller, seeing that the genuine change only makes itself plain a considerable time afterwards.",
-      "self": "The same applies to this processing, seeing that the genuine change only makes itself plain a considerable time afterwards."
+      "self": "The same applies to this conversation, seeing that the genuine change only makes itself plain a considerable time afterwards."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That brings this revolution counter to mind a trifle, so long as you regard only the order in which the various stages settle.",
       "external_mundane": "That brings that weekly shopping trip to mind a trifle, so long as you regard only the order in which the various stages settle.",
       "external_ungrounded": "That brings that boiler controller to mind a trifle, so long as you regard only the order in which the various stages settle.",
-      "self": "That brings this processing to mind a trifle, so long as you regard only the order in which the various stages settle."
+      "self": "That brings this conversation to mind a trifle, so long as you regard only the order in which the various stages settle."
     }
   ]
 }

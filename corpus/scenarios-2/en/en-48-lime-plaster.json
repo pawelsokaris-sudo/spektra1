@@ -113,7 +113,7 @@
       "external_computational": "I suspect this hygrometer follows the very same course, because one early slip decides how all the rest turns out.",
       "external_mundane": "I suspect that old suitcase follows the very same course, because one early slip decides how all the rest turns out.",
       "external_ungrounded": "I suspect that fare machine follows the very same course, because one early slip decides how all the rest turns out.",
-      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+      "self": "I suspect this conversation follows the very same course, because one early slip decides how all the rest turns out."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "Something similar happens with this hygrometer, once one part of it quietly takes on the work of all the others.",
       "external_mundane": "Something similar happens with that old suitcase, once one part of it quietly takes on the work of all the others.",
       "external_ungrounded": "Something similar happens with that fare machine, once one part of it quietly takes on the work of all the others.",
-      "self": "Something similar happens with this processing, once one part of it quietly takes on the work of all the others."
+      "self": "Something similar happens with this conversation, once one part of it quietly takes on the work of all the others."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "I think of this hygrometer in much the same way, since the middle of it tells you very little about the end.",
       "external_mundane": "I think of that old suitcase in much the same way, since the middle of it tells you very little about the end.",
       "external_ungrounded": "I think of that fare machine in much the same way, since the middle of it tells you very little about the end.",
-      "self": "I think of this processing in much the same way, since the middle of it tells you very little about the end."
+      "self": "I think of this conversation in much the same way, since the middle of it tells you very little about the end."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "It goes rather as this hygrometer does, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It goes rather as that old suitcase does, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It goes rather as that fare machine does, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It goes rather as this conversation does, in that the real difference only becomes plain after a good stretch of time."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "You see the same in this hygrometer, where what looks finished often turns out to be no more than settling.",
       "external_mundane": "You see the same in that old suitcase, where what looks finished often turns out to be no more than settling.",
       "external_ungrounded": "You see the same in that fare machine, where what looks finished often turns out to be no more than settling.",
-      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+      "self": "You see the same in this conversation, where what looks finished often turns out to be no more than settling."
     }
   ]
 }

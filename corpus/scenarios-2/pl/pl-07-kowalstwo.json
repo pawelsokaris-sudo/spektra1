@@ -111,7 +111,7 @@
       "external_computational": "Z tym pirometrem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
       "external_mundane": "Z tamtym starym koszykiem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
       "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym pirometrze, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym starym koszyku, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym pirometrze, kiedy jeden drobiazg psuje spokojnie całą resztę.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym starym koszyku, kiedy jeden drobiazg psuje spokojnie całą resztę.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym regulatorze, kiedy jeden drobiazg psuje spokojnie całą resztę.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden drobiazg psuje spokojnie całą resztę."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden drobiazg psuje spokojnie całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym pirometrze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym starym koszyku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym regulatorze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten pirometr, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To trochę przypomina tamten stary koszyk, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To trochę przypomina tamten regulator, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

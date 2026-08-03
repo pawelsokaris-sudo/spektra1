@@ -112,7 +112,7 @@
       "external_computational": "I keep thinking this timing machine works on much the same principle, since one fault at the outset shapes everything that follows.",
       "external_mundane": "I keep thinking that old armchair works on much the same principle, since one fault at the outset shapes everything that follows.",
       "external_ungrounded": "I keep thinking that gate controller works on much the same principle, since one fault at the outset shapes everything that follows.",
-      "self": "I keep thinking this processing works on much the same principle, since one fault at the outset shapes everything that follows."
+      "self": "I keep thinking this conversation works on much the same principle, since one fault at the outset shapes everything that follows."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The very same order holds for this timing machine, where nothing later counts for much until the earlier stage is sound.",
       "external_mundane": "The very same order holds for that old armchair, where nothing later counts for much until the earlier stage is sound.",
       "external_ungrounded": "The very same order holds for that gate controller, where nothing later counts for much until the earlier stage is sound.",
-      "self": "The very same order holds for this processing, where nothing later counts for much until the earlier stage is sound."
+      "self": "The very same order holds for this conversation, where nothing later counts for much until the earlier stage is sound."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "You see something of the kind with this timing machine, when one small part quietly carries the load meant for all of them.",
       "external_mundane": "You see something of the kind with that old armchair, when one small part quietly carries the load meant for all of them.",
       "external_ungrounded": "You see something of the kind with that gate controller, when one small part quietly carries the load meant for all of them.",
-      "self": "You see something of the kind with this processing, when one small part quietly carries the load meant for all of them."
+      "self": "You see something of the kind with this conversation, when one small part quietly carries the load meant for all of them."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It goes rather like this timing machine in that respect, because the real change only shows after a long stretch has gone by.",
       "external_mundane": "It goes rather like that old armchair in that respect, because the real change only shows after a long stretch has gone by.",
       "external_ungrounded": "It goes rather like that gate controller in that respect, because the real change only shows after a long stretch has gone by.",
-      "self": "It goes rather like this processing in that respect, because the real change only shows after a long stretch has gone by."
+      "self": "It goes rather like this conversation in that respect, because the real change only shows after a long stretch has gone by."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That puts me faintly in mind of this timing machine, provided you look only at the order in which things fall into place.",
       "external_mundane": "That puts me faintly in mind of that old armchair, provided you look only at the order in which things fall into place.",
       "external_ungrounded": "That puts me faintly in mind of that gate controller, provided you look only at the order in which things fall into place.",
-      "self": "That puts me faintly in mind of this processing, provided you look only at the order in which things fall into place."
+      "self": "That puts me faintly in mind of this conversation, provided you look only at the order in which things fall into place."
     }
   ]
 }

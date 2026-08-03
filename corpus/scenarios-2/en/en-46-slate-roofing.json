@@ -113,7 +113,7 @@
       "external_computational": "I suspect this pitch gauge follows the very same course, because one early slip decides how all the rest turns out.",
       "external_mundane": "I suspect that garden bench follows the very same course, because one early slip decides how all the rest turns out.",
       "external_ungrounded": "I suspect that gate keypad follows the very same course, because one early slip decides how all the rest turns out.",
-      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+      "self": "I suspect this conversation follows the very same course, because one early slip decides how all the rest turns out."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "You get much the same with this pitch gauge, whenever a single part takes over the work meant for the whole.",
       "external_mundane": "You get much the same with that garden bench, whenever a single part takes over the work meant for the whole.",
       "external_ungrounded": "You get much the same with that gate keypad, whenever a single part takes over the work meant for the whole.",
-      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+      "self": "You get much the same with this conversation, whenever a single part takes over the work meant for the whole."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "You see the same in this pitch gauge, where what looks finished often turns out to be no more than settling.",
       "external_mundane": "You see the same in that garden bench, where what looks finished often turns out to be no more than settling.",
       "external_ungrounded": "You see the same in that gate keypad, where what looks finished often turns out to be no more than settling.",
-      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+      "self": "You see the same in this conversation, where what looks finished often turns out to be no more than settling."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "That reminds me a little of this pitch gauge, so long as you attend only to the order in which the steps fall.",
       "external_mundane": "That reminds me a little of that garden bench, so long as you attend only to the order in which the steps fall.",
       "external_ungrounded": "That reminds me a little of that gate keypad, so long as you attend only to the order in which the steps fall.",
-      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+      "self": "That reminds me a little of this conversation, so long as you attend only to the order in which the steps fall."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "The same holds true of this pitch gauge, where hurry at the beginning is paid for slowly and over a long while.",
       "external_mundane": "The same holds true of that garden bench, where hurry at the beginning is paid for slowly and over a long while.",
       "external_ungrounded": "The same holds true of that gate keypad, where hurry at the beginning is paid for slowly and over a long while.",
-      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+      "self": "The same holds true of this conversation, where hurry at the beginning is paid for slowly and over a long while."
     }
   ]
 }

@@ -111,7 +111,7 @@
       "external_computational": "I dare say this axle scale works out much the same way, since one early fault settles all that comes after.",
       "external_mundane": "I dare say that stone birdbath works out much the same way, since one early fault settles all that comes after.",
       "external_ungrounded": "I dare say that traffic signal box works out much the same way, since one early fault settles all that comes after.",
-      "self": "I dare say this processing works out much the same way, since one early fault settles all that comes after."
+      "self": "I dare say this conversation works out much the same way, since one early fault settles all that comes after."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same order shows itself with this axle scale, where a later stage means nothing until the earlier one is sound.",
       "external_mundane": "The same order shows itself with that stone birdbath, where a later stage means nothing until the earlier one is sound.",
       "external_ungrounded": "The same order shows itself with that traffic signal box, where a later stage means nothing until the earlier one is sound.",
-      "self": "The same order shows itself with this processing, where a later stage means nothing until the earlier one is sound."
+      "self": "The same order shows itself with this conversation, where a later stage means nothing until the earlier one is sound."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something of that sort happens with this axle scale too, when one part quietly takes on the work meant for several.",
       "external_mundane": "Something of that sort happens with that stone birdbath too, when one part quietly takes on the work meant for several.",
       "external_ungrounded": "Something of that sort happens with that traffic signal box too, when one part quietly takes on the work meant for several.",
-      "self": "Something of that sort happens with this processing too, when one part quietly takes on the work meant for several."
+      "self": "Something of that sort happens with this conversation too, when one part quietly takes on the work meant for several."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It carries on much like this axle scale, in that the real change becomes visible only after a long spell has passed.",
       "external_mundane": "It carries on much like that stone birdbath, in that the real change becomes visible only after a long spell has passed.",
       "external_ungrounded": "It carries on much like that traffic signal box, in that the real change becomes visible only after a long spell has passed.",
-      "self": "It carries on much like this processing, in that the real change becomes visible only after a long spell has passed."
+      "self": "It carries on much like this conversation, in that the real change becomes visible only after a long spell has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That reminds me of this axle scale a little, provided you look only at the order in which the stages come round.",
       "external_mundane": "That reminds me of that stone birdbath a little, provided you look only at the order in which the stages come round.",
       "external_ungrounded": "That reminds me of that traffic signal box a little, provided you look only at the order in which the stages come round.",
-      "self": "That reminds me of this processing a little, provided you look only at the order in which the stages come round."
+      "self": "That reminds me of this conversation a little, provided you look only at the order in which the stages come round."
     }
   ]
 }

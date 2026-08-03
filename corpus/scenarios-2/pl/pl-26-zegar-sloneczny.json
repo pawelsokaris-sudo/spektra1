@@ -112,7 +112,7 @@
       "external_computational": "Z tym kątomierzem cyfrowym jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
       "external_mundane": "Z tamtym słaniem łóżka jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
       "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym kątomierzu cyfrowym, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
       "external_mundane": "Ten sam porządek widać przy tamtym słaniu łóżka, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym liczniku wody, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym kątomierzu cyfrowym, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym słaniu łóżka, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym liczniku wody, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym kątomierzu cyfrowym bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
       "external_mundane": "Przy tamtym słaniu łóżka bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
       "external_ungrounded": "Przy tamtym liczniku wody bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten kątomierz cyfrowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To pod pewnymi względami przypomina tamto słanie łóżka, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten licznik wody, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

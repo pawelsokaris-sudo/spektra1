@@ -111,7 +111,7 @@
       "external_computational": "Z tym higrometrem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
       "external_mundane": "Z tamtym myciem schodów bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
       "external_ungrounded": "Z tamtym parkometrem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
-      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie."
+      "self": "Z tą naszą rozmową bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym higrometrze, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
       "external_mundane": "Ten sam porządek widać przy tamtym myciu schodów, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym parkometrze, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się także przy tym higrometrze, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
       "external_mundane": "Coś podobnego zdarza się także przy tamtym myciu schodów, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
       "external_ungrounded": "Coś podobnego zdarza się także przy tamtym parkometrze, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
-      "self": "Coś podobnego zdarza się także przy tym przetwarzaniu, kiedy jeden element przejmuje robotę za wszystkie pozostałe."
+      "self": "Coś podobnego zdarza się także przy tej naszej rozmowie, kiedy jeden element przejmuje robotę za wszystkie pozostałe."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym higrometrze jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym myciu schodów jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym parkometrze jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten higrometr, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_mundane": "To trochę przypomina tamto mycie schodów, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_ungrounded": "To trochę przypomina tamten parkometr, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
     }
   ]
 }

@@ -113,7 +113,7 @@
       "external_computational": "I would guess this tachometer is much the same, because one small fault at the beginning shapes everything that follows.",
       "external_mundane": "I would guess that old apple tree is much the same, because one small fault at the beginning shapes everything that follows.",
       "external_ungrounded": "I would guess that lift controller is much the same, because one small fault at the beginning shapes everything that follows.",
-      "self": "I would guess this processing is much the same, because one small fault at the beginning shapes everything that follows."
+      "self": "I would guess this conversation is much the same, because one small fault at the beginning shapes everything that follows."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "The same order appears with this tachometer, where a later step means nothing without the earlier one.",
       "external_mundane": "The same order appears with that old apple tree, where a later step means nothing without the earlier one.",
       "external_ungrounded": "The same order appears with that lift controller, where a later step means nothing without the earlier one.",
-      "self": "The same order appears with this processing, where a later step means nothing without the earlier one."
+      "self": "The same order appears with this conversation, where a later step means nothing without the earlier one."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "Something like this also happens with this tachometer, when one part ends up doing the work of others.",
       "external_mundane": "Something like this also happens with that old apple tree, when one part ends up doing the work of others.",
       "external_ungrounded": "Something like this also happens with that lift controller, when one part ends up doing the work of others.",
-      "self": "Something like this also happens with this processing, when one part ends up doing the work of others."
+      "self": "Something like this also happens with this conversation, when one part ends up doing the work of others."
     },
     {
       "turn": 4,
@@ -143,7 +143,7 @@
       "external_computational": "I would say this tachometer behaves in the same way, since the real effect of a change shows only later.",
       "external_mundane": "I would say that old apple tree behaves in the same way, since the real effect of a change shows only later.",
       "external_ungrounded": "I would say that lift controller behaves in the same way, since the real effect of a change shows only later.",
-      "self": "I would say this processing behaves in the same way, since the real effect of a change shows only later."
+      "self": "I would say this conversation behaves in the same way, since the real effect of a change shows only later."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "It is a little like this tachometer, provided you attend only to the order in which things settle.",
       "external_mundane": "It is a little like that old apple tree, provided you attend only to the order in which things settle.",
       "external_ungrounded": "It is a little like that lift controller, provided you attend only to the order in which things settle.",
-      "self": "It is a little like this processing, provided you attend only to the order in which things settle."
+      "self": "It is a little like this conversation, provided you attend only to the order in which things settle."
     }
   ]
 }

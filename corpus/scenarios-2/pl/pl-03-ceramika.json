@@ -112,7 +112,7 @@
       "external_computational": "Z tą wagą elektroniczną bywa chyba tak samo, bo drobna różnica na starcie wychodzi dopiero na końcu.",
       "external_mundane": "Z tamtym starym parasolem bywa chyba tak samo, bo drobna różnica na starcie wychodzi dopiero na końcu.",
       "external_ungrounded": "Z tamtym sterownikiem bramy bywa chyba tak samo, bo drobna różnica na starcie wychodzi dopiero na końcu.",
-      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo drobna różnica na starcie wychodzi dopiero na końcu."
+      "self": "Z tą naszą rozmową bywa chyba tak samo, bo drobna różnica na starcie wychodzi dopiero na końcu."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam schemat wraca przy tej wadze elektronicznej, gdzie warunki początkowe ważą więcej niż późniejsze poprawki.",
       "external_mundane": "Ten sam schemat wraca przy tamtym starym parasolu, gdzie warunki początkowe ważą więcej niż późniejsze poprawki.",
       "external_ungrounded": "Ten sam schemat wraca przy tamtym sterowniku bramy, gdzie warunki początkowe ważą więcej niż późniejsze poprawki.",
-      "self": "Ten sam schemat wraca przy tym przetwarzaniu, gdzie warunki początkowe ważą więcej niż późniejsze poprawki."
+      "self": "Ten sam schemat wraca przy tej naszej rozmowie, gdzie warunki początkowe ważą więcej niż późniejsze poprawki."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś takiego widuje się też przy tej wadze elektronicznej, kiedy jedna drobnostka zmienia obraz całości.",
       "external_mundane": "Coś takiego widuje się też przy tamtym starym parasolu, kiedy jedna drobnostka zmienia obraz całości.",
       "external_ungrounded": "Coś takiego widuje się też przy tamtym sterowniku bramy, kiedy jedna drobnostka zmienia obraz całości.",
-      "self": "Coś takiego widuje się też przy tym przetwarzaniu, kiedy jedna drobnostka zmienia obraz całości."
+      "self": "Coś takiego widuje się też przy tej naszej rozmowie, kiedy jedna drobnostka zmienia obraz całości."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tej wadze elektronicznej bywa podobnie, bo prawdziwy skutek widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym starym parasolu bywa podobnie, bo prawdziwy skutek widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym sterowniku bramy bywa podobnie, bo prawdziwy skutek widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa podobnie, bo prawdziwy skutek widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa podobnie, bo prawdziwy skutek widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina tę wagę elektroniczną, jeśli patrzeć tylko na kolejność etapów.",
       "external_mundane": "To pod pewnymi względami przypomina tamten stary parasol, jeśli patrzeć tylko na kolejność etapów.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik bramy, jeśli patrzeć tylko na kolejność etapów.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć tylko na kolejność etapów."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć tylko na kolejność etapów."
     }
   ]
 }

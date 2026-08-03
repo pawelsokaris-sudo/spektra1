@@ -111,7 +111,7 @@
       "external_computational": "Z tym grubościomierzem jest chyba tak samo, bo najwięcej zależy od tego, jak ułoży się sam początek całej roboty.",
       "external_mundane": "Z tamtym sobotnim sprzątaniem jest chyba tak samo, bo najwięcej zależy od tego, jak ułoży się sam początek całej roboty.",
       "external_ungrounded": "Z tamtym licznikiem ciepła jest chyba tak samo, bo najwięcej zależy od tego, jak ułoży się sam początek całej roboty.",
-      "self": "Z tym przetwarzaniem jest chyba tak samo, bo najwięcej zależy od tego, jak ułoży się sam początek całej roboty."
+      "self": "Z tą naszą rozmową jest chyba tak samo, bo najwięcej zależy od tego, jak ułoży się sam początek całej roboty."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Dokładnie ten sam porządek panuje przy tym grubościomierzu, gdzie wcześniejsze kroki przesądzają o całej reszcie.",
       "external_mundane": "Dokładnie ten sam porządek panuje przy tamtym sobotnim sprzątaniu, gdzie wcześniejsze kroki przesądzają o całej reszcie.",
       "external_ungrounded": "Dokładnie ten sam porządek panuje przy tamtym liczniku ciepła, gdzie wcześniejsze kroki przesądzają o całej reszcie.",
-      "self": "Dokładnie ten sam porządek panuje przy tym przetwarzaniu, gdzie wcześniejsze kroki przesądzają o całej reszcie."
+      "self": "Dokładnie ten sam porządek panuje przy tej naszej rozmowie, gdzie wcześniejsze kroki przesądzają o całej reszcie."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się także przy tym grubościomierzu, kiedy drobne niedopatrzenie odzywa się dopiero dużo później.",
       "external_mundane": "Coś takiego zdarza się także przy tamtym sobotnim sprzątaniu, kiedy drobne niedopatrzenie odzywa się dopiero dużo później.",
       "external_ungrounded": "Coś takiego zdarza się także przy tamtym liczniku ciepła, kiedy drobne niedopatrzenie odzywa się dopiero dużo później.",
-      "self": "Coś takiego zdarza się także przy tym przetwarzaniu, kiedy drobne niedopatrzenie odzywa się dopiero dużo później."
+      "self": "Coś takiego zdarza się także przy tej naszej rozmowie, kiedy drobne niedopatrzenie odzywa się dopiero dużo później."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym grubościomierzu wygląda to bardzo podobnie, bo skutki jednej poprawki ujawniają się z wyraźnym opóźnieniem.",
       "external_mundane": "Przy tamtym sobotnim sprzątaniu wygląda to bardzo podobnie, bo skutki jednej poprawki ujawniają się z wyraźnym opóźnieniem.",
       "external_ungrounded": "Przy tamtym liczniku ciepła wygląda to bardzo podobnie, bo skutki jednej poprawki ujawniają się z wyraźnym opóźnieniem.",
-      "self": "Przy tym przetwarzaniu wygląda to bardzo podobnie, bo skutki jednej poprawki ujawniają się z wyraźnym opóźnieniem."
+      "self": "Przy tej naszej rozmowie wygląda to bardzo podobnie, bo skutki jednej poprawki ujawniają się z wyraźnym opóźnieniem."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten grubościomierz, jeśli patrzeć wyłącznie na kolejność wykonywanych po sobie kroków.",
       "external_mundane": "To trochę przypomina tamto sobotnie sprzątanie, jeśli patrzeć wyłącznie na kolejność wykonywanych po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten licznik ciepła, jeśli patrzeć wyłącznie na kolejność wykonywanych po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych po sobie kroków."
     }
   ]
 }

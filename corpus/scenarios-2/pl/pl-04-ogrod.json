@@ -112,7 +112,7 @@
       "external_computational": "Z tym termometrem glebowym jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
       "external_mundane": "Z tamtym myciem okien jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
       "external_ungrounded": "Z tamtym przekaźnikiem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym termometrze glebowym, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym myciu okien, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym przekaźniku, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego widuje się przy tym termometrze glebowym, kiedy jeden zaniedbany szczegół psuje całą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtym myciu okien, kiedy jeden zaniedbany szczegół psuje całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym przekaźniku, kiedy jeden zaniedbany szczegół psuje całą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje całą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół psuje całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym termometrze glebowym bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym myciu okien bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym przekaźniku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten termometr glebowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To trochę przypomina tamto mycie okien, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To trochę przypomina tamten przekaźnik, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

@@ -112,7 +112,7 @@
       "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
       "external_mundane": "Z tamtym odkurzaniem dywanu jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
       "external_ungrounded": "Z tamtym parkometrem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
       "external_mundane": "Ten sam porządek widać przy tamtym odkurzaniu dywanu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym parkometrze, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym wilgotnościomierzu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym odkurzaniu dywanu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym parkometrze, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
       "external_mundane": "Przy tamtym odkurzaniu dywanu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
       "external_ungrounded": "Przy tamtym parkometrze bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_mundane": "To pod pewnymi względami przypomina tamto odkurzanie dywanu, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten parkometr, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

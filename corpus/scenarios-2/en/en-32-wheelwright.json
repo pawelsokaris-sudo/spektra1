@@ -111,7 +111,7 @@
       "external_computational": "I dare say this moisture gauge goes much the same way, since one crooked start settles everything that follows it.",
       "external_mundane": "I dare say that woollen blanket goes much the same way, since one crooked start settles everything that follows it.",
       "external_ungrounded": "I dare say that heating programmer goes much the same way, since one crooked start settles everything that follows it.",
-      "self": "I dare say this processing goes much the same way, since one crooked start settles everything that follows it."
+      "self": "I dare say this conversation goes much the same way, since one crooked start settles everything that follows it."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The very same order shows up with this moisture gauge, where a later step counts for nothing until the earlier one holds.",
       "external_mundane": "The very same order shows up with that woollen blanket, where a later step counts for nothing until the earlier one holds.",
       "external_ungrounded": "The very same order shows up with that heating programmer, where a later step counts for nothing until the earlier one holds.",
-      "self": "The very same order shows up with this processing, where a later step counts for nothing until the earlier one holds."
+      "self": "The very same order shows up with this conversation, where a later step counts for nothing until the earlier one holds."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something like that happens with this moisture gauge too, when one part quietly takes on the work meant for several.",
       "external_mundane": "Something like that happens with that woollen blanket too, when one part quietly takes on the work meant for several.",
       "external_ungrounded": "Something like that happens with that heating programmer too, when one part quietly takes on the work meant for several.",
-      "self": "Something like that happens with this processing too, when one part quietly takes on the work meant for several."
+      "self": "Something like that happens with this conversation too, when one part quietly takes on the work meant for several."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It behaves rather like this moisture gauge, in that the real change only shows itself after a long while has passed.",
       "external_mundane": "It behaves rather like that woollen blanket, in that the real change only shows itself after a long while has passed.",
       "external_ungrounded": "It behaves rather like that heating programmer, in that the real change only shows itself after a long while has passed.",
-      "self": "It behaves rather like this processing, in that the real change only shows itself after a long while has passed."
+      "self": "It behaves rather like this conversation, in that the real change only shows itself after a long while has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That puts me in mind of this moisture gauge, provided you look only at the order in which the stages arrive.",
       "external_mundane": "That puts me in mind of that woollen blanket, provided you look only at the order in which the stages arrive.",
       "external_ungrounded": "That puts me in mind of that heating programmer, provided you look only at the order in which the stages arrive.",
-      "self": "That puts me in mind of this processing, provided you look only at the order in which the stages arrive."
+      "self": "That puts me in mind of this conversation, provided you look only at the order in which the stages arrive."
     }
   ]
 }

@@ -112,7 +112,7 @@
       "external_computational": "Z tym termometrem kuchennym jest chyba podobnie, bo o efekcie decyduje kilka drobiazgów ustawionych na samym początku.",
       "external_mundane": "Z tamtą płócienną torbą jest chyba podobnie, bo o efekcie decyduje kilka drobiazgów ustawionych na samym początku.",
       "external_ungrounded": "Z tamtym domofonem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgów ustawionych na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o efekcie decyduje kilka drobiazgów ustawionych na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o efekcie decyduje kilka drobiazgów ustawionych na samym początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym termometrze kuchennym, gdzie każdy krok trzeba domknąć, zanim ruszy się dalej.",
       "external_mundane": "Ten sam porządek widać przy tamtej płóciennej torbie, gdzie każdy krok trzeba domknąć, zanim ruszy się dalej.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym domofonie, gdzie każdy krok trzeba domknąć, zanim ruszy się dalej.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie każdy krok trzeba domknąć, zanim ruszy się dalej."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie każdy krok trzeba domknąć, zanim ruszy się dalej."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś takiego widuje się też przy tym termometrze kuchennym, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_mundane": "Coś takiego widuje się też przy tamtej płóciennej torbie, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_ungrounded": "Coś takiego widuje się też przy tamtym domofonie, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
-      "self": "Coś takiego widuje się też przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
+      "self": "Coś takiego widuje się też przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym termometrze kuchennym bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtej płóciennej torbie bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym domofonie bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten termometr kuchenny, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To pod pewnymi względami przypomina tamtą płócienną torbę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten domofon, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

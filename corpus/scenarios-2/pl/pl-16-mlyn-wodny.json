@@ -109,9 +109,9 @@
       "neutral": "Z tym kołem wodnym jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
       "external_grounded": "Z tym zapasowym kamieniem jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
       "external_computational": "Z tą wagą zbożową jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
-      "external_mundane": "Z tamtym corocznym myciem okien jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
+      "external_mundane": "Z tamtym myciem okien jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
       "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całej reszcie decyduje to, co ustawi się na samym początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tej wadze zbożowej, gdzie kolejność kroków znaczy dużo więcej niż sam włożony wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym corocznym myciu okien, gdzie kolejność kroków znaczy dużo więcej niż sam włożony wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku bramy, gdzie kolejność kroków znaczy dużo więcej niż sam włożony wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy dużo więcej niż sam włożony wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków znaczy dużo więcej niż sam włożony wysiłek."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tej wadze zbożowej, kiedy jeden drobiazg psuje spokojnie całą resztę roboty.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym corocznym myciu okien, kiedy jeden drobiazg psuje spokojnie całą resztę roboty.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowniku bramy, kiedy jeden drobiazg psuje spokojnie całą resztę roboty.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden drobiazg psuje spokojnie całą resztę roboty."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden drobiazg psuje spokojnie całą resztę roboty."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tej wadze zbożowej bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie pracy.",
       "external_mundane": "Przy tamtym corocznym myciu okien bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie pracy.",
       "external_ungrounded": "Przy tamtym sterowniku bramy bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie pracy.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie pracy."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie pracy."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina tę wagę zbożową, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków roboty.",
       "external_mundane": "To trochę przypomina tamto coroczne mycie okien, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków roboty.",
       "external_ungrounded": "To trochę przypomina tamten sterownik bramy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków roboty.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków roboty."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków roboty."
     }
   ]
 }

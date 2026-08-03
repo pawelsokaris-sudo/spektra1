@@ -112,7 +112,7 @@
       "external_computational": "Z tym areometrem jest chyba podobnie, bo o wyniku przesadza to, co dzieje się na samym początku całej roboty.",
       "external_mundane": "Z tamtym prasowaniem koszul jest chyba podobnie, bo o wyniku przesadza to, co dzieje się na samym początku całej roboty.",
       "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo o wyniku przesadza to, co dzieje się na samym początku całej roboty.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wyniku przesadza to, co dzieje się na samym początku całej roboty."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o wyniku przesadza to, co dzieje się na samym początku całej roboty."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym areometrze, gdzie równe tempo znaczy więcej niż największy jednorazowy wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym prasowaniu koszul, gdzie równe tempo znaczy więcej niż największy jednorazowy wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku windy, gdzie równe tempo znaczy więcej niż największy jednorazowy wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie równe tempo znaczy więcej niż największy jednorazowy wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie równe tempo znaczy więcej niż największy jednorazowy wysiłek."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego widuje się także przy tym areometrze, kiedy jeden pośpieszny krok psuje potem całą resztę.",
       "external_mundane": "Coś podobnego widuje się także przy tamtym prasowaniu koszul, kiedy jeden pośpieszny krok psuje potem całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się także przy tamtym sterowniku windy, kiedy jeden pośpieszny krok psuje potem całą resztę.",
-      "self": "Coś podobnego widuje się także przy tym przetwarzaniu, kiedy jeden pośpieszny krok psuje potem całą resztę."
+      "self": "Coś podobnego widuje się także przy tej naszej rozmowie, kiedy jeden pośpieszny krok psuje potem całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym areometrze bywa dokładnie tak samo, bo skutek jednej zmiany poznaje się dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym prasowaniu koszul bywa dokładnie tak samo, bo skutek jednej zmiany poznaje się dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym sterowniku windy bywa dokładnie tak samo, bo skutek jednej zmiany poznaje się dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutek jednej zmiany poznaje się dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutek jednej zmiany poznaje się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten areometr, jeśli patrzeć wyłącznie na samą kolejność wykonywanych po sobie czynności.",
       "external_mundane": "To trochę przypomina tamto prasowanie koszul, jeśli patrzeć wyłącznie na samą kolejność wykonywanych po sobie czynności.",
       "external_ungrounded": "To trochę przypomina tamten sterownik windy, jeśli patrzeć wyłącznie na samą kolejność wykonywanych po sobie czynności.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność wykonywanych po sobie czynności."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność wykonywanych po sobie czynności."
     }
   ]
 }

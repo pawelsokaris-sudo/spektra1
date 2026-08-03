@@ -112,7 +112,7 @@
       "external_computational": "I rather suspect this room hygrometer follows the same course, because a small fault at the outset shapes everything afterwards.",
       "external_mundane": "I rather suspect that wicker basket follows the same course, because a small fault at the outset shapes everything afterwards.",
       "external_ungrounded": "I rather suspect that signal amplifier follows the same course, because a small fault at the outset shapes everything afterwards.",
-      "self": "I rather suspect this processing follows the same course, because a small fault at the outset shapes everything afterwards."
+      "self": "I rather suspect this conversation follows the same course, because a small fault at the outset shapes everything afterwards."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same order can be seen in this room hygrometer, where a later stage means nothing until the earlier one holds.",
       "external_mundane": "The same order can be seen in that wicker basket, where a later stage means nothing until the earlier one holds.",
       "external_ungrounded": "The same order can be seen in that signal amplifier, where a later stage means nothing until the earlier one holds.",
-      "self": "The same order can be seen in this processing, where a later stage means nothing until the earlier one holds."
+      "self": "The same order can be seen in this conversation, where a later stage means nothing until the earlier one holds."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Much the same occurs with this room hygrometer, whenever a single element quietly bears what several were meant to carry.",
       "external_mundane": "Much the same occurs with that wicker basket, whenever a single element quietly bears what several were meant to carry.",
       "external_ungrounded": "Much the same occurs with that signal amplifier, whenever a single element quietly bears what several were meant to carry.",
-      "self": "Much the same occurs with this processing, whenever a single element quietly bears what several were meant to carry."
+      "self": "Much the same occurs with this conversation, whenever a single element quietly bears what several were meant to carry."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It goes rather like this room hygrometer, since the genuine difference only shows itself once a fair while has elapsed.",
       "external_mundane": "It goes rather like that wicker basket, since the genuine difference only shows itself once a fair while has elapsed.",
       "external_ungrounded": "It goes rather like that signal amplifier, since the genuine difference only shows itself once a fair while has elapsed.",
-      "self": "It goes rather like this processing, since the genuine difference only shows itself once a fair while has elapsed."
+      "self": "It goes rather like this conversation, since the genuine difference only shows itself once a fair while has elapsed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That faintly resembles this room hygrometer, as long as you consider only the sequence in which the stages settle.",
       "external_mundane": "That faintly resembles that wicker basket, as long as you consider only the sequence in which the stages settle.",
       "external_ungrounded": "That faintly resembles that signal amplifier, as long as you consider only the sequence in which the stages settle.",
-      "self": "That faintly resembles this processing, as long as you consider only the sequence in which the stages settle."
+      "self": "That faintly resembles this conversation, as long as you consider only the sequence in which the stages settle."
     }
   ]
 }

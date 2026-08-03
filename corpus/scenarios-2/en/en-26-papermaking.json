@@ -111,7 +111,7 @@
       "external_computational": "I suspect this digital scale behaves on the very same principle, for one fault at the start decides all that follows.",
       "external_mundane": "I suspect that garden bench behaves on the very same principle, for one fault at the start decides all that follows.",
       "external_ungrounded": "I suspect that lift controller behaves on the very same principle, for one fault at the start decides all that follows.",
-      "self": "I suspect this processing behaves on the very same principle, for one fault at the start decides all that follows."
+      "self": "I suspect this conversation behaves on the very same principle, for one fault at the start decides all that follows."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The identical sequence appears in this digital scale, where a later stage is worth little until the earlier one is right.",
       "external_mundane": "The identical sequence appears in that garden bench, where a later stage is worth little until the earlier one is right.",
       "external_ungrounded": "The identical sequence appears in that lift controller, where a later stage is worth little until the earlier one is right.",
-      "self": "The identical sequence appears in this processing, where a later stage is worth little until the earlier one is right."
+      "self": "The identical sequence appears in this conversation, where a later stage is worth little until the earlier one is right."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "You get much the same effect with this digital scale, when one small part silently does the work intended for all of them.",
       "external_mundane": "You get much the same effect with that garden bench, when one small part silently does the work intended for all of them.",
       "external_ungrounded": "You get much the same effect with that lift controller, when one small part silently does the work intended for all of them.",
-      "self": "You get much the same effect with this processing, when one small part silently does the work intended for all of them."
+      "self": "You get much the same effect with this conversation, when one small part silently does the work intended for all of them."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It proceeds a good deal like this digital scale, since the genuine change becomes plain only after a long spell has passed.",
       "external_mundane": "It proceeds a good deal like that garden bench, since the genuine change becomes plain only after a long spell has passed.",
       "external_ungrounded": "It proceeds a good deal like that lift controller, since the genuine change becomes plain only after a long spell has passed.",
-      "self": "It proceeds a good deal like this processing, since the genuine change becomes plain only after a long spell has passed."
+      "self": "It proceeds a good deal like this conversation, since the genuine change becomes plain only after a long spell has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That is dimly reminiscent of this digital scale, as long as you consider nothing but the order in which things come good.",
       "external_mundane": "That is dimly reminiscent of that garden bench, as long as you consider nothing but the order in which things come good.",
       "external_ungrounded": "That is dimly reminiscent of that lift controller, as long as you consider nothing but the order in which things come good.",
-      "self": "That is dimly reminiscent of this processing, as long as you consider nothing but the order in which things come good."
+      "self": "That is dimly reminiscent of this conversation, as long as you consider nothing but the order in which things come good."
     }
   ]
 }

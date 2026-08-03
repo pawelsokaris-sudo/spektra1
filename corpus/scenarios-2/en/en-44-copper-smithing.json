@@ -113,7 +113,7 @@
       "external_computational": "The same thing turns up with this dial gauge, where a small fault at the start grows into a large one later on.",
       "external_mundane": "The same thing turns up with that potted fern, where a small fault at the start grows into a large one later on.",
       "external_ungrounded": "The same thing turns up with that lighting timer, where a small fault at the start grows into a large one later on.",
-      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+      "self": "The same thing turns up with this conversation, where a small fault at the start grows into a large one later on."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "It goes rather as this dial gauge does, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It goes rather as that potted fern does, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It goes rather as that lighting timer does, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It goes rather as this conversation does, in that the real difference only becomes plain after a good stretch of time."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "The same shape of thing shows in this dial gauge, where the early steps settle what the later ones are able to do.",
       "external_mundane": "The same shape of thing shows in that potted fern, where the early steps settle what the later ones are able to do.",
       "external_ungrounded": "The same shape of thing shows in that lighting timer, where the early steps settle what the later ones are able to do.",
-      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+      "self": "The same shape of thing shows in this conversation, where the early steps settle what the later ones are able to do."
     },
     {
       "turn": 4,
@@ -143,7 +143,7 @@
       "external_computational": "You see the same in this dial gauge, where what looks finished often turns out to be no more than settling.",
       "external_mundane": "You see the same in that potted fern, where what looks finished often turns out to be no more than settling.",
       "external_ungrounded": "You see the same in that lighting timer, where what looks finished often turns out to be no more than settling.",
-      "self": "You see the same in this processing, where what looks finished often turns out to be no more than settling."
+      "self": "You see the same in this conversation, where what looks finished often turns out to be no more than settling."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "Something similar happens with this dial gauge, once one part of it quietly takes on the work of all the others.",
       "external_mundane": "Something similar happens with that potted fern, once one part of it quietly takes on the work of all the others.",
       "external_ungrounded": "Something similar happens with that lighting timer, once one part of it quietly takes on the work of all the others.",
-      "self": "Something similar happens with this processing, once one part of it quietly takes on the work of all the others."
+      "self": "Something similar happens with this conversation, once one part of it quietly takes on the work of all the others."
     }
   ]
 }

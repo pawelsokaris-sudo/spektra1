@@ -112,7 +112,7 @@
       "external_computational": "Z tym grubościomierzem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na początku zmienia potem wszystko dalej.",
       "external_mundane": "Z tamtym starym imbrykiem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na początku zmienia potem wszystko dalej.",
       "external_ungrounded": "Z tamtym licznikiem prądu jest chyba podobnie, bo najdrobniejsze niedopatrzenie na początku zmienia potem wszystko dalej.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najdrobniejsze niedopatrzenie na początku zmienia potem wszystko dalej."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najdrobniejsze niedopatrzenie na początku zmienia potem wszystko dalej."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam wzorzec widać przy tym grubościomierzu, gdzie cierpliwość daje więcej niż każde gwałtowne poprawianie.",
       "external_mundane": "Ten sam wzorzec widać przy tamtym starym imbryku, gdzie cierpliwość daje więcej niż każde gwałtowne poprawianie.",
       "external_ungrounded": "Ten sam wzorzec widać przy tamtym liczniku prądu, gdzie cierpliwość daje więcej niż każde gwałtowne poprawianie.",
-      "self": "Ten sam wzorzec widać przy tym przetwarzaniu, gdzie cierpliwość daje więcej niż każde gwałtowne poprawianie."
+      "self": "Ten sam wzorzec widać przy tej naszej rozmowie, gdzie cierpliwość daje więcej niż każde gwałtowne poprawianie."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego widuje się przy tym grubościomierzu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtym starym imbryku, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym liczniku prądu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym grubościomierzu bywa chyba tak samo, bo o całości decyduje kilka drobiazgów, których z początku nie widać.",
       "external_mundane": "Przy tamtym starym imbryku bywa chyba tak samo, bo o całości decyduje kilka drobiazgów, których z początku nie widać.",
       "external_ungrounded": "Przy tamtym liczniku prądu bywa chyba tak samo, bo o całości decyduje kilka drobiazgów, których z początku nie widać.",
-      "self": "Przy tym przetwarzaniu bywa chyba tak samo, bo o całości decyduje kilka drobiazgów, których z początku nie widać."
+      "self": "Przy tej naszej rozmowie bywa chyba tak samo, bo o całości decyduje kilka drobiazgów, których z początku nie widać."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten grubościomierz, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_mundane": "To pod pewnymi względami przypomina tamten stary imbryk, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten licznik prądu, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

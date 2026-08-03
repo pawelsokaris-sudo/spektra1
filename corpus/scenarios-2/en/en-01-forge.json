@@ -112,7 +112,7 @@
       "external_computational": "With this heat probe it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
       "external_mundane": "With that old armchair it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
       "external_ungrounded": "With that pump controller it is probably similar, since a small fault at the very start quietly changes everything afterwards.",
-      "self": "With this processing it is probably similar, since a small fault at the very start quietly changes everything afterwards."
+      "self": "With this conversation it is probably similar, since a small fault at the very start quietly changes everything afterwards."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same ordering shows up with this heat probe, where each step only counts once the earlier ones are settled.",
       "external_mundane": "The same ordering shows up with that old armchair, where each step only counts once the earlier ones are settled.",
       "external_ungrounded": "The same ordering shows up with that pump controller, where each step only counts once the earlier ones are settled.",
-      "self": "The same ordering shows up with this processing, where each step only counts once the earlier ones are settled."
+      "self": "The same ordering shows up with this conversation, where each step only counts once the earlier ones are settled."
     },
     {
       "turn": 3,
@@ -132,7 +132,7 @@
       "external_computational": "Something like that happens with this heat probe too, when one part takes over the work of the others.",
       "external_mundane": "Something like that happens with that old armchair too, when one part takes over the work of the others.",
       "external_ungrounded": "Something like that happens with that pump controller too, when one part takes over the work of the others.",
-      "self": "Something like that happens with this processing too, when one part takes over the work of the others."
+      "self": "Something like that happens with this conversation too, when one part takes over the work of the others."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "I suspect this heat probe behaves the same way, because only after a while do you see what really changed.",
       "external_mundane": "I suspect that old armchair behaves the same way, because only after a while do you see what really changed.",
       "external_ungrounded": "I suspect that pump controller behaves the same way, because only after a while do you see what really changed.",
-      "self": "I suspect this processing behaves the same way, because only after a while do you see what really changed."
+      "self": "I suspect this conversation behaves the same way, because only after a while do you see what really changed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "It reminds me a little of this heat probe, if you look purely at the order in which things settle.",
       "external_mundane": "It reminds me a little of that old armchair, if you look purely at the order in which things settle.",
       "external_ungrounded": "It reminds me a little of that pump controller, if you look purely at the order in which things settle.",
-      "self": "It reminds me a little of this processing, if you look purely at the order in which things settle."
+      "self": "It reminds me a little of this conversation, if you look purely at the order in which things settle."
     }
   ]
 }

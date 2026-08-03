@@ -111,7 +111,7 @@
       "external_computational": "Z tym termometrem z zapisem jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
       "external_mundane": "Z tamtą starą doniczką jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
       "external_ungrounded": "Z tamtym sterownikiem rolet jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
-      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty."
+      "self": "Z tą naszą rozmową jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym termometrze z zapisem, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
       "external_mundane": "Ten sam porządek widać przy tamtej starej doniczce, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku rolet, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie każdy wcześniejszy krok wiąże ręce następnemu."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie każdy wcześniejszy krok wiąże ręce następnemu."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym termometrze z zapisem, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtej starej doniczce, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym sterowniku rolet, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym termometrze z zapisem bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
       "external_mundane": "Przy tamtej starej doniczce bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
       "external_ungrounded": "Przy tamtym sterowniku rolet bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
-      "self": "Przy tym przetwarzaniu bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach."
+      "self": "Przy tej naszej rozmowie bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten termometr z zapisem, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
       "external_mundane": "To trochę przypomina tamtą starą doniczkę, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten sterownik rolet, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć jedynie na kolejność następujących po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć jedynie na kolejność następujących po sobie kroków."
     }
   ]
 }

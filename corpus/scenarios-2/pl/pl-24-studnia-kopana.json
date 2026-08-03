@@ -109,9 +109,9 @@
       "neutral": "Z tą studnią jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
       "external_grounded": "Z tą starą pompą ręczną jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
       "external_computational": "Z tym wodowskazem jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
-      "external_mundane": "Z tamtym wieczornym zmywaniem jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
+      "external_mundane": "Z tamtym zmywaniem naczyń jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
       "external_ungrounded": "Z tamtym licznikiem gazu jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej znaczy to, co zrobi się na samym początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym wodowskazie, gdzie każdy wcześniejszy krok waży więcej niż późniejsze.",
       "external_mundane": "Ten sam porządek widać przy tamtym wieczornym zmywaniu, gdzie każdy wcześniejszy krok waży więcej niż późniejsze.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym liczniku gazu, gdzie każdy wcześniejszy krok waży więcej niż późniejsze.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie każdy wcześniejszy krok waży więcej niż późniejsze."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie każdy wcześniejszy krok waży więcej niż późniejsze."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym wodowskazie, kiedy jeden pośpieszny ruch mnoży późniejszą robotę.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym wieczornym zmywaniu, kiedy jeden pośpieszny ruch mnoży późniejszą robotę.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym liczniku gazu, kiedy jeden pośpieszny ruch mnoży późniejszą robotę.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden pośpieszny ruch mnoży późniejszą robotę."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden pośpieszny ruch mnoży późniejszą robotę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym wodowskazie bywa dokładnie tak samo, bo efekt jednej zmiany widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym wieczornym zmywaniu bywa dokładnie tak samo, bo efekt jednej zmiany widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym liczniku gazu bywa dokładnie tak samo, bo efekt jednej zmiany widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo efekt jednej zmiany widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo efekt jednej zmiany widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten wodowskaz, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_mundane": "To trochę przypomina tamto wieczorne zmywanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten licznik gazu, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
     }
   ]
 }

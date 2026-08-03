@@ -111,7 +111,7 @@
       "external_computational": "I suspect this tank thermometer follows the very same course, because one early slip decides how all the rest turns out.",
       "external_mundane": "I suspect that autumn leaf raking follows the very same course, because one early slip decides how all the rest turns out.",
       "external_ungrounded": "I suspect that street lamp timer follows the very same course, because one early slip decides how all the rest turns out.",
-      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+      "self": "I suspect this conversation follows the very same course, because one early slip decides how all the rest turns out."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same order of things appears with this tank thermometer, where a later stage means little until the first one is sound.",
       "external_mundane": "The same order of things appears with that autumn leaf raking, where a later stage means little until the first one is sound.",
       "external_ungrounded": "The same order of things appears with that street lamp timer, where a later stage means little until the first one is sound.",
-      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+      "self": "The same order of things appears with this conversation, where a later stage means little until the first one is sound."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "You get much the same with this tank thermometer, whenever a single part takes over the work meant for the whole.",
       "external_mundane": "You get much the same with that autumn leaf raking, whenever a single part takes over the work meant for the whole.",
       "external_ungrounded": "You get much the same with that street lamp timer, whenever a single part takes over the work meant for the whole.",
-      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+      "self": "You get much the same with this conversation, whenever a single part takes over the work meant for the whole."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It runs rather like this tank thermometer, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It runs rather like that autumn leaf raking, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It runs rather like that street lamp timer, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It runs rather like this processing, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It runs rather like this conversation, in that the real difference only becomes plain after a good stretch of time."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That reminds me a little of this tank thermometer, so long as you attend only to the order in which the steps fall.",
       "external_mundane": "That reminds me a little of that autumn leaf raking, so long as you attend only to the order in which the steps fall.",
       "external_ungrounded": "That reminds me a little of that street lamp timer, so long as you attend only to the order in which the steps fall.",
-      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+      "self": "That reminds me a little of this conversation, so long as you attend only to the order in which the steps fall."
     }
   ]
 }

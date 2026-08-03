@@ -112,7 +112,7 @@
       "external_computational": "Z tą poziomicą cyfrową jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
       "external_mundane": "Z tamtym słoikiem z guzikami jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
       "external_ungrounded": "Z tamtym sterownikiem rolet jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam wzorzec widać przy tej poziomicy cyfrowej, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
       "external_mundane": "Ten sam wzorzec widać przy tamtym słoiku z guzikami, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
       "external_ungrounded": "Ten sam wzorzec widać przy tamtym sterowniku rolet, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
-      "self": "Ten sam wzorzec widać przy tym przetwarzaniu, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny."
+      "self": "Ten sam wzorzec widać przy tej naszej rozmowie, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego widuje się przy tej poziomicy cyfrowej, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtym słoiku z guzikami, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku rolet, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tej poziomicy cyfrowej bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym słoiku z guzikami bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym sterowniku rolet bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina tę poziomicę cyfrową, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_mundane": "To pod pewnymi względami przypomina tamten słoik z guzikami, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik rolet, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

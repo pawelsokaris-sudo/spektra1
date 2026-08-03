@@ -111,7 +111,7 @@
       "external_computational": "I half expect this wax thermometer to follow much the same rule, because a single early error shapes every later step of it.",
       "external_mundane": "I half expect that old kettle to follow much the same rule, because a single early error shapes every later step of it.",
       "external_ungrounded": "I half expect that alarm panel to follow much the same rule, because a single early error shapes every later step of it.",
-      "self": "I half expect this processing to follow much the same rule, because a single early error shapes every later step of it."
+      "self": "I half expect this conversation to follow much the same rule, because a single early error shapes every later step of it."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same ordering shows itself in this wax thermometer, where a later step matters very little until the earlier one is sound.",
       "external_mundane": "The same ordering shows itself in that old kettle, where a later step matters very little until the earlier one is sound.",
       "external_ungrounded": "The same ordering shows itself in that alarm panel, where a later step matters very little until the earlier one is sound.",
-      "self": "The same ordering shows itself in this processing, where a later step matters very little until the earlier one is sound."
+      "self": "The same ordering shows itself in this conversation, where a later step matters very little until the earlier one is sound."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something of that sort turns up with this wax thermometer, when one small piece quietly does the work laid out for all of them.",
       "external_mundane": "Something of that sort turns up with that old kettle, when one small piece quietly does the work laid out for all of them.",
       "external_ungrounded": "Something of that sort turns up with that alarm panel, when one small piece quietly does the work laid out for all of them.",
-      "self": "Something of that sort turns up with this processing, when one small piece quietly does the work laid out for all of them."
+      "self": "Something of that sort turns up with this conversation, when one small piece quietly does the work laid out for all of them."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It runs a fair bit like this wax thermometer, seeing that the genuine change only shows itself once a long stretch is over.",
       "external_mundane": "It runs a fair bit like that old kettle, seeing that the genuine change only shows itself once a long stretch is over.",
       "external_ungrounded": "It runs a fair bit like that alarm panel, seeing that the genuine change only shows itself once a long stretch is over.",
-      "self": "It runs a fair bit like this processing, seeing that the genuine change only shows itself once a long stretch is over."
+      "self": "It runs a fair bit like this conversation, seeing that the genuine change only shows itself once a long stretch is over."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That calls to mind this wax thermometer a little, so long as you look purely at the order in which the steps fall right.",
       "external_mundane": "That calls to mind that old kettle a little, so long as you look purely at the order in which the steps fall right.",
       "external_ungrounded": "That calls to mind that alarm panel a little, so long as you look purely at the order in which the steps fall right.",
-      "self": "That calls to mind this processing a little, so long as you look purely at the order in which the steps fall right."
+      "self": "That calls to mind this conversation a little, so long as you look purely at the order in which the steps fall right."
     }
   ]
 }

@@ -111,7 +111,7 @@
       "external_computational": "I would guess this hydrometer carries on in much the same fashion, where a small slip early on shapes everything later.",
       "external_mundane": "I would guess that stone doorstep carries on in much the same fashion, where a small slip early on shapes everything later.",
       "external_ungrounded": "I would guess that lighting relay carries on in much the same fashion, where a small slip early on shapes everything later.",
-      "self": "I would guess this processing carries on in much the same fashion, where a small slip early on shapes everything later."
+      "self": "I would guess this conversation carries on in much the same fashion, where a small slip early on shapes everything later."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same sequence shows itself in this hydrometer, where nothing counts until the step ahead of it is properly done.",
       "external_mundane": "The same sequence shows itself in that stone doorstep, where nothing counts until the step ahead of it is properly done.",
       "external_ungrounded": "The same sequence shows itself in that lighting relay, where nothing counts until the step ahead of it is properly done.",
-      "self": "The same sequence shows itself in this processing, where nothing counts until the step ahead of it is properly done."
+      "self": "The same sequence shows itself in this conversation, where nothing counts until the step ahead of it is properly done."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something of that sort crops up with this hydrometer, when a single part quietly shoulders more than its fair share.",
       "external_mundane": "Something of that sort crops up with that stone doorstep, when a single part quietly shoulders more than its fair share.",
       "external_ungrounded": "Something of that sort crops up with that lighting relay, when a single part quietly shoulders more than its fair share.",
-      "self": "Something of that sort crops up with this processing, when a single part quietly shoulders more than its fair share."
+      "self": "Something of that sort crops up with this conversation, when a single part quietly shoulders more than its fair share."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "The same holds good for this hydrometer, seeing that the actual change only shows itself well after the event.",
       "external_mundane": "The same holds good for that stone doorstep, seeing that the actual change only shows itself well after the event.",
       "external_ungrounded": "The same holds good for that lighting relay, seeing that the actual change only shows itself well after the event.",
-      "self": "The same holds good for this processing, seeing that the actual change only shows itself well after the event."
+      "self": "The same holds good for this conversation, seeing that the actual change only shows itself well after the event."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That calls this hydrometer to mind a little, as long as you attend only to the order in which matters settle.",
       "external_mundane": "That calls that stone doorstep to mind a little, as long as you attend only to the order in which matters settle.",
       "external_ungrounded": "That calls that lighting relay to mind a little, as long as you attend only to the order in which matters settle.",
-      "self": "That calls this processing to mind a little, as long as you attend only to the order in which matters settle."
+      "self": "That calls this conversation to mind a little, as long as you attend only to the order in which matters settle."
     }
   ]
 }

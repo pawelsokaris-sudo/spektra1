@@ -112,7 +112,7 @@
       "external_computational": "Z tym wiatromierzem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
       "external_mundane": "Z tamtym emaliowanym garnkiem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
       "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam schemat widać przy tym wiatromierzu, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
       "external_mundane": "Ten sam schemat widać przy tamtym emaliowanym garnku, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
       "external_ungrounded": "Ten sam schemat widać przy tamtym liczniku wody, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
-      "self": "Ten sam schemat widać przy tym przetwarzaniu, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek."
+      "self": "Ten sam schemat widać przy tej naszej rozmowie, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś zupełnie podobnego widuje się przy tym wiatromierzu, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
       "external_mundane": "Coś zupełnie podobnego widuje się przy tamtym emaliowanym garnku, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
       "external_ungrounded": "Coś zupełnie podobnego widuje się przy tamtym liczniku wody, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
-      "self": "Coś zupełnie podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany drobiazg psuje całą resztę."
+      "self": "Coś zupełnie podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany drobiazg psuje całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym wiatromierzu bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym emaliowanym garnku bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym liczniku wody bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten wiatromierz, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_mundane": "To trochę przypomina tamten emaliowany garnek, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_ungrounded": "To trochę przypomina tamten licznik wody, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
     }
   ]
 }

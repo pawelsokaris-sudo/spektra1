@@ -111,7 +111,7 @@
       "external_computational": "Z tym deszczomierzem jest chyba podobnie, bo o całej reszcie przesądza zwykle pierwszy wykonany krok.",
       "external_mundane": "Z tamtym starym parasolem jest chyba podobnie, bo o całej reszcie przesądza zwykle pierwszy wykonany krok.",
       "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo o całej reszcie przesądza zwykle pierwszy wykonany krok.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całej reszcie przesądza zwykle pierwszy wykonany krok."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całej reszcie przesądza zwykle pierwszy wykonany krok."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym deszczomierzu, gdzie wcześniejszy krok ustawia wszystkie następne.",
       "external_mundane": "Ten sam porządek widać przy tamtym starym parasolu, gdzie wcześniejszy krok ustawia wszystkie następne.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku windy, gdzie wcześniejszy krok ustawia wszystkie następne.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie wcześniejszy krok ustawia wszystkie następne."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie wcześniejszy krok ustawia wszystkie następne."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym deszczomierzu, kiedy jeden drobiazg odzywa się po dłuższym czasie.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym starym parasolu, kiedy jeden drobiazg odzywa się po dłuższym czasie.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowniku windy, kiedy jeden drobiazg odzywa się po dłuższym czasie.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden drobiazg odzywa się po dłuższym czasie."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden drobiazg odzywa się po dłuższym czasie."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym deszczomierzu bywa dokładnie tak samo, bo skutek jednej poprawki widać dopiero po sezonie.",
       "external_mundane": "Przy tamtym starym parasolu bywa dokładnie tak samo, bo skutek jednej poprawki widać dopiero po sezonie.",
       "external_ungrounded": "Przy tamtym sterowniku windy bywa dokładnie tak samo, bo skutek jednej poprawki widać dopiero po sezonie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutek jednej poprawki widać dopiero po sezonie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutek jednej poprawki widać dopiero po sezonie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten deszczomierz, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
       "external_mundane": "To trochę przypomina tamten stary parasol, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
       "external_ungrounded": "To trochę przypomina tamten sterownik windy, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków."
     }
   ]
 }

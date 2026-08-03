@@ -112,7 +112,7 @@
       "external_computational": "Z tym kątomierzem kopytowym jest chyba podobnie, bo pierwsze ustawienia ważą więcej niż wszystkie późniejsze poprawki.",
       "external_mundane": "Z tamtym pakowaniem walizki jest chyba podobnie, bo pierwsze ustawienia ważą więcej niż wszystkie późniejsze poprawki.",
       "external_ungrounded": "Z tamtą centralką alarmową jest chyba podobnie, bo pierwsze ustawienia ważą więcej niż wszystkie późniejsze poprawki.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsze ustawienia ważą więcej niż wszystkie późniejsze poprawki."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo pierwsze ustawienia ważą więcej niż wszystkie późniejsze poprawki."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym kątomierzu kopytowym, gdzie kolejność kroków znaczy więcej niż sam włożony wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym pakowaniu walizki, gdzie kolejność kroków znaczy więcej niż sam włożony wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtej centralce alarmowej, gdzie kolejność kroków znaczy więcej niż sam włożony wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy więcej niż sam włożony wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków znaczy więcej niż sam włożony wysiłek."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym kątomierzu kopytowym, kiedy jeden pominięty szczegół pociąga za sobą całą resztę.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym pakowaniu walizki, kiedy jeden pominięty szczegół pociąga za sobą całą resztę.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtej centralce alarmowej, kiedy jeden pominięty szczegół pociąga za sobą całą resztę.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden pominięty szczegół pociąga za sobą całą resztę."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden pominięty szczegół pociąga za sobą całą resztę."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym kątomierzu kopytowym bywa dokładnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero później.",
       "external_mundane": "Przy tamtym pakowaniu walizki bywa dokładnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero później.",
       "external_ungrounded": "Przy tamtej centralce alarmowej bywa dokładnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero później.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero później."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutek drobnej nieuwagi wychodzi na jaw dopiero później."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten kątomierz kopytowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_mundane": "To pod pewnymi względami przypomina tamto pakowanie walizki, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamtą centralkę alarmową, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

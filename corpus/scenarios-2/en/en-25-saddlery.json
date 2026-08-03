@@ -111,7 +111,7 @@
       "external_computational": "I daresay this pressure mat runs along much the same lines, because a single early fault ends up governing all the rest.",
       "external_mundane": "I daresay that spring cleaning runs along much the same lines, because a single early fault ends up governing all the rest.",
       "external_ungrounded": "I daresay that lighting relay runs along much the same lines, because a single early fault ends up governing all the rest.",
-      "self": "I daresay this processing runs along much the same lines, because a single early fault ends up governing all the rest."
+      "self": "I daresay this conversation runs along much the same lines, because a single early fault ends up governing all the rest."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same sequence turns up with this pressure mat, where no later stage counts for much until the earlier one holds.",
       "external_mundane": "The same sequence turns up with that spring cleaning, where no later stage counts for much until the earlier one holds.",
       "external_ungrounded": "The same sequence turns up with that lighting relay, where no later stage counts for much until the earlier one holds.",
-      "self": "The same sequence turns up with this processing, where no later stage counts for much until the earlier one holds."
+      "self": "The same sequence turns up with this conversation, where no later stage counts for much until the earlier one holds."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Much the same thing crops up in this pressure mat, when a single part quietly shoulders the work meant for all of them.",
       "external_mundane": "Much the same thing crops up in that spring cleaning, when a single part quietly shoulders the work meant for all of them.",
       "external_ungrounded": "Much the same thing crops up in that lighting relay, when a single part quietly shoulders the work meant for all of them.",
-      "self": "Much the same thing crops up in this processing, when a single part quietly shoulders the work meant for all of them."
+      "self": "Much the same thing crops up in this conversation, when a single part quietly shoulders the work meant for all of them."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It carries on rather like this pressure mat, in the sense that the true change appears only once a good while has passed.",
       "external_mundane": "It carries on rather like that spring cleaning, in the sense that the true change appears only once a good while has passed.",
       "external_ungrounded": "It carries on rather like that lighting relay, in the sense that the true change appears only once a good while has passed.",
-      "self": "It carries on rather like this processing, in the sense that the true change appears only once a good while has passed."
+      "self": "It carries on rather like this conversation, in the sense that the true change appears only once a good while has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That is faintly suggestive of this pressure mat, so long as you attend purely to the order in which matters settle down.",
       "external_mundane": "That is faintly suggestive of that spring cleaning, so long as you attend purely to the order in which matters settle down.",
       "external_ungrounded": "That is faintly suggestive of that lighting relay, so long as you attend purely to the order in which matters settle down.",
-      "self": "That is faintly suggestive of this processing, so long as you attend purely to the order in which matters settle down."
+      "self": "That is faintly suggestive of this conversation, so long as you attend purely to the order in which matters settle down."
     }
   ]
 }

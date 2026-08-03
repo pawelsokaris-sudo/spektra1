@@ -112,7 +112,7 @@
       "external_computational": "It seems to me that this probe thermometer goes much the same way, because an early irregularity decides all that follows.",
       "external_mundane": "It seems to me that that yearly hedge trim goes much the same way, because an early irregularity decides all that follows.",
       "external_ungrounded": "It seems to me that that flow controller goes much the same way, because an early irregularity decides all that follows.",
-      "self": "It seems to me that this processing goes much the same way, because an early irregularity decides all that follows."
+      "self": "It seems to me that this conversation goes much the same way, because an early irregularity decides all that follows."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same ordering appears in this probe thermometer, where a later stage matters little until the earlier one has settled.",
       "external_mundane": "The same ordering appears in that yearly hedge trim, where a later stage matters little until the earlier one has settled.",
       "external_ungrounded": "The same ordering appears in that flow controller, where a later stage matters little until the earlier one has settled.",
-      "self": "The same ordering appears in this processing, where a later stage matters little until the earlier one has settled."
+      "self": "The same ordering appears in this conversation, where a later stage matters little until the earlier one has settled."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Something of that sort happens with this probe thermometer, when one part quietly assumes the work meant for several.",
       "external_mundane": "Something of that sort happens with that yearly hedge trim, when one part quietly assumes the work meant for several.",
       "external_ungrounded": "Something of that sort happens with that flow controller, when one part quietly assumes the work meant for several.",
-      "self": "Something of that sort happens with this processing, when one part quietly assumes the work meant for several."
+      "self": "Something of that sort happens with this conversation, when one part quietly assumes the work meant for several."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It proceeds rather like this probe thermometer, because the actual change only becomes plain once a long while has passed.",
       "external_mundane": "It proceeds rather like that yearly hedge trim, because the actual change only becomes plain once a long while has passed.",
       "external_ungrounded": "It proceeds rather like that flow controller, because the actual change only becomes plain once a long while has passed.",
-      "self": "It proceeds rather like this processing, because the actual change only becomes plain once a long while has passed."
+      "self": "It proceeds rather like this conversation, because the actual change only becomes plain once a long while has passed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That recalls this probe thermometer a little, provided you attend to the sequence of stages and nothing else at all.",
       "external_mundane": "That recalls that yearly hedge trim a little, provided you attend to the sequence of stages and nothing else at all.",
       "external_ungrounded": "That recalls that flow controller a little, provided you attend to the sequence of stages and nothing else at all.",
-      "self": "That recalls this processing a little, provided you attend to the sequence of stages and nothing else at all."
+      "self": "That recalls this conversation a little, provided you attend to the sequence of stages and nothing else at all."
     }
   ]
 }

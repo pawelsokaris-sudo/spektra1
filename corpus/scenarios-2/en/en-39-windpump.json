@@ -111,7 +111,7 @@
       "external_computational": "I take this depth logger to run along much the same lines, since one early unevenness settles everything afterwards.",
       "external_mundane": "I take that weekly stair sweeping to run along much the same lines, since one early unevenness settles everything afterwards.",
       "external_ungrounded": "I take that mains breaker to run along much the same lines, since one early unevenness settles everything afterwards.",
-      "self": "I take this processing to run along much the same lines, since one early unevenness settles everything afterwards."
+      "self": "I take this conversation to run along much the same lines, since one early unevenness settles everything afterwards."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same succession of stages holds with this depth logger, where a later step is worth nothing until the first one has settled.",
       "external_mundane": "The same succession of stages holds with that weekly stair sweeping, where a later step is worth nothing until the first one has settled.",
       "external_ungrounded": "The same succession of stages holds with that mains breaker, where a later step is worth nothing until the first one has settled.",
-      "self": "The same succession of stages holds with this processing, where a later step is worth nothing until the first one has settled."
+      "self": "The same succession of stages holds with this conversation, where a later step is worth nothing until the first one has settled."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Much the same thing occurs with this depth logger as well, whenever a single part quietly assumes the work meant for the whole.",
       "external_mundane": "Much the same thing occurs with that weekly stair sweeping as well, whenever a single part quietly assumes the work meant for the whole.",
       "external_ungrounded": "Much the same thing occurs with that mains breaker as well, whenever a single part quietly assumes the work meant for the whole.",
-      "self": "Much the same thing occurs with this processing as well, whenever a single part quietly assumes the work meant for the whole."
+      "self": "Much the same thing occurs with this conversation as well, whenever a single part quietly assumes the work meant for the whole."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It carries on rather as this depth logger does, in that any real difference becomes plain only after a long period has run.",
       "external_mundane": "It carries on rather as that weekly stair sweeping does, in that any real difference becomes plain only after a long period has run.",
       "external_ungrounded": "It carries on rather as that mains breaker does, in that any real difference becomes plain only after a long period has run.",
-      "self": "It carries on rather as this processing does, in that any real difference becomes plain only after a long period has run."
+      "self": "It carries on rather as this conversation does, in that any real difference becomes plain only after a long period has run."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That brings this depth logger to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "external_mundane": "That brings that weekly stair sweeping to mind, at any rate if one attends solely to the order in which the several stages arrive.",
       "external_ungrounded": "That brings that mains breaker to mind, at any rate if one attends solely to the order in which the several stages arrive.",
-      "self": "That brings this processing to mind, at any rate if one attends solely to the order in which the several stages arrive."
+      "self": "That brings this conversation to mind, at any rate if one attends solely to the order in which the several stages arrive."
     }
   ]
 }

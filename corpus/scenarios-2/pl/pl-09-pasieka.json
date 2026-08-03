@@ -111,7 +111,7 @@
       "external_computational": "Z tą wagą pod ulem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
       "external_mundane": "Z tamtym starym taboretem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
       "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tej wadze pod ulem, gdzie kolejność działań liczy się bardziej niż tempo.",
       "external_mundane": "Ten sam porządek widać przy tamtym starym taborecie, gdzie kolejność działań liczy się bardziej niż tempo.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku, gdzie kolejność działań liczy się bardziej niż tempo.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań liczy się bardziej niż tempo."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność działań liczy się bardziej niż tempo."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tej wadze pod ulem, kiedy jeden szczegół przejmuje pracę za pozostałe.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym starym taborecie, kiedy jeden szczegół przejmuje pracę za pozostałe.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowniku, kiedy jeden szczegół przejmuje pracę za pozostałe.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden szczegół przejmuje pracę za pozostałe."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden szczegół przejmuje pracę za pozostałe."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tej wadze pod ulem bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
       "external_mundane": "Przy tamtym starym taborecie bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
       "external_ungrounded": "Przy tamtym sterowniku bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina tę wagę pod ulem, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
       "external_mundane": "To trochę przypomina tamten stary taboret, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
       "external_ungrounded": "To trochę przypomina tamten sterownik, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
     }
   ]
 }

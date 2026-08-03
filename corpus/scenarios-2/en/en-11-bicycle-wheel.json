@@ -112,7 +112,7 @@
       "external_computational": "I suspect this tension meter follows much the same course, because one small error early on governs everything afterwards.",
       "external_mundane": "I suspect that kitchen stool follows much the same course, because one small error early on governs everything afterwards.",
       "external_ungrounded": "I suspect that voltage inverter follows much the same course, because one small error early on governs everything afterwards.",
-      "self": "I suspect this processing follows much the same course, because one small error early on governs everything afterwards."
+      "self": "I suspect this conversation follows much the same course, because one small error early on governs everything afterwards."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same progression appears with this tension meter, where a later step counts for nothing until the earlier one holds.",
       "external_mundane": "The same progression appears with that kitchen stool, where a later step counts for nothing until the earlier one holds.",
       "external_ungrounded": "The same progression appears with that voltage inverter, where a later step counts for nothing until the earlier one holds.",
-      "self": "The same progression appears with this processing, where a later step counts for nothing until the earlier one holds."
+      "self": "The same progression appears with this conversation, where a later step counts for nothing until the earlier one holds."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Something comparable occurs with this tension meter, whenever one element quietly carries what the others ought to share.",
       "external_mundane": "Something comparable occurs with that kitchen stool, whenever one element quietly carries what the others ought to share.",
       "external_ungrounded": "Something comparable occurs with that voltage inverter, whenever one element quietly carries what the others ought to share.",
-      "self": "Something comparable occurs with this processing, whenever one element quietly carries what the others ought to share."
+      "self": "Something comparable occurs with this conversation, whenever one element quietly carries what the others ought to share."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It runs much like this tension meter, since the genuine difference only shows itself once a fair stretch has passed.",
       "external_mundane": "It runs much like that kitchen stool, since the genuine difference only shows itself once a fair stretch has passed.",
       "external_ungrounded": "It runs much like that voltage inverter, since the genuine difference only shows itself once a fair stretch has passed.",
-      "self": "It runs much like this processing, since the genuine difference only shows itself once a fair stretch has passed."
+      "self": "It runs much like this conversation, since the genuine difference only shows itself once a fair stretch has passed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That is mildly reminiscent of this tension meter, as long as you attend only to the order of the stages.",
       "external_mundane": "That is mildly reminiscent of that kitchen stool, as long as you attend only to the order of the stages.",
       "external_ungrounded": "That is mildly reminiscent of that voltage inverter, as long as you attend only to the order of the stages.",
-      "self": "That is mildly reminiscent of this processing, as long as you attend only to the order of the stages."
+      "self": "That is mildly reminiscent of this conversation, as long as you attend only to the order of the stages."
     }
   ]
 }

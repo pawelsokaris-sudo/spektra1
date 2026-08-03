@@ -111,7 +111,7 @@
       "external_computational": "Z tą cyfrową wagą jest chyba podobnie, bo najwięcej zależy od tego, co ustawi się na początku.",
       "external_mundane": "Z tamtym grabieniem liści jest chyba podobnie, bo najwięcej zależy od tego, co ustawi się na początku.",
       "external_ungrounded": "Z tamtym sterowaniem jest chyba podobnie, bo najwięcej zależy od tego, co ustawi się na początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od tego, co ustawi się na początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej zależy od tego, co ustawi się na początku."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam wzorzec widać przy tej cyfrowej wadze, gdzie drobna nierówność rozchodzi się potem na całość.",
       "external_mundane": "Ten sam wzorzec widać przy tamtym grabieniu liści, gdzie drobna nierówność rozchodzi się potem na całość.",
       "external_ungrounded": "Ten sam wzorzec widać przy tamtym sterowaniu, gdzie drobna nierówność rozchodzi się potem na całość.",
-      "self": "Ten sam wzorzec widać przy tym przetwarzaniu, gdzie drobna nierówność rozchodzi się potem na całość."
+      "self": "Ten sam wzorzec widać przy tej naszej rozmowie, gdzie drobna nierówność rozchodzi się potem na całość."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego widuje się przy tej cyfrowej wadze, kiedy jeden pominięty krok mnoży się przez resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtym grabieniu liści, kiedy jeden pominięty krok mnoży się przez resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowaniu, kiedy jeden pominięty krok mnoży się przez resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden pominięty krok mnoży się przez resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden pominięty krok mnoży się przez resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tej cyfrowej wadze bywa zupełnie tak samo, bo skutek pokazuje się dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym grabieniu liści bywa zupełnie tak samo, bo skutek pokazuje się dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym sterowaniu bywa zupełnie tak samo, bo skutek pokazuje się dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa zupełnie tak samo, bo skutek pokazuje się dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa zupełnie tak samo, bo skutek pokazuje się dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina tę cyfrową wagę, jeśli patrzeć wyłącznie na samą kolejność kolejnych kroków.",
       "external_mundane": "To trochę przypomina tamto grabienie liści, jeśli patrzeć wyłącznie na samą kolejność kolejnych kroków.",
       "external_ungrounded": "To trochę przypomina tamto sterowanie, jeśli patrzeć wyłącznie na samą kolejność kolejnych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność kolejnych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność kolejnych kroków."
     }
   ]
 }

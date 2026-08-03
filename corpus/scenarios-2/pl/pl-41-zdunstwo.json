@@ -111,7 +111,7 @@
       "external_computational": "Z tym miernikiem ciągu jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
       "external_mundane": "Z tamtą starą walizką jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
       "external_ungrounded": "Z tamtym domofonem jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam wzorzec wraca przy tym mierniku ciągu, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
       "external_mundane": "Ten sam wzorzec wraca przy tamtej starej walizce, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
       "external_ungrounded": "Ten sam wzorzec wraca przy tamtym domofonie, gdzie spokojne tempo daje w końcu więcej niż największa staranność.",
-      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staranność."
+      "self": "Ten sam wzorzec wraca przy tej naszej rozmowie, gdzie spokojne tempo daje w końcu więcej niż największa staranność."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego widuje się także przy tym mierniku ciągu, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
       "external_mundane": "Coś takiego widuje się także przy tamtej starej walizce, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
       "external_ungrounded": "Coś takiego widuje się także przy tamtym domofonie, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
-      "self": "Coś takiego widuje się także przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wyglądzie całej reszty."
+      "self": "Coś takiego widuje się także przy tej naszej rozmowie, kiedy jeden drobiazg przesadza o wyglądzie całej reszty."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym mierniku ciągu bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtej starej walizce bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym domofonie bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten miernik ciągu, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
       "external_mundane": "To trochę przypomina tamtą starą walizkę, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
       "external_ungrounded": "To trochę przypomina tamten domofon, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności."
     }
   ]
 }

@@ -111,7 +111,7 @@
       "external_computational": "Z tym termometrem do kąpieli jest chyba dokładnie tak samo, bo najwięcej ważą kroki wykonane na samym początku całej roboty.",
       "external_mundane": "Z tamtym porannym bieganiem jest chyba dokładnie tak samo, bo najwięcej ważą kroki wykonane na samym początku całej roboty.",
       "external_ungrounded": "Z tamtym licznikiem wody jest chyba dokładnie tak samo, bo najwięcej ważą kroki wykonane na samym początku całej roboty.",
-      "self": "Z tym przetwarzaniem jest chyba dokładnie tak samo, bo najwięcej ważą kroki wykonane na samym początku całej roboty."
+      "self": "Z tą naszą rozmową jest chyba dokładnie tak samo, bo najwięcej ważą kroki wykonane na samym początku całej roboty."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym termometrze do kąpieli, gdzie każdy pominięty krok mnoży późniejszą robotę wielokrotnie.",
       "external_mundane": "Ten sam porządek widać przy tamtym porannym bieganiu, gdzie każdy pominięty krok mnoży późniejszą robotę wielokrotnie.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym liczniku wody, gdzie każdy pominięty krok mnoży późniejszą robotę wielokrotnie.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie każdy pominięty krok mnoży późniejszą robotę wielokrotnie."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie każdy pominięty krok mnoży późniejszą robotę wielokrotnie."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym termometrze do kąpieli, kiedy jeden zbyt szybki ruch psuje całą wcześniejszą pracę.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym porannym bieganiu, kiedy jeden zbyt szybki ruch psuje całą wcześniejszą pracę.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym liczniku wody, kiedy jeden zbyt szybki ruch psuje całą wcześniejszą pracę.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden zbyt szybki ruch psuje całą wcześniejszą pracę."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden zbyt szybki ruch psuje całą wcześniejszą pracę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym termometrze do kąpieli bywa dokładnie tak samo, bo skutki pojedynczej zmiany widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym porannym bieganiu bywa dokładnie tak samo, bo skutki pojedynczej zmiany widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym liczniku wody bywa dokładnie tak samo, bo skutki pojedynczej zmiany widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki pojedynczej zmiany widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki pojedynczej zmiany widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten termometr do kąpieli, jeśli patrzeć wyłącznie na kolejność kolejno wykonywanych kroków.",
       "external_mundane": "To trochę przypomina tamto poranne bieganie, jeśli patrzeć wyłącznie na kolejność kolejno wykonywanych kroków.",
       "external_ungrounded": "To trochę przypomina tamten licznik wody, jeśli patrzeć wyłącznie na kolejność kolejno wykonywanych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejno wykonywanych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność kolejno wykonywanych kroków."
     }
   ]
 }

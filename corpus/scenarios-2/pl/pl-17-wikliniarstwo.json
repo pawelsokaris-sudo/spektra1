@@ -111,7 +111,7 @@
       "external_computational": "Z tym wilgotnościomierzem bywa chyba tak samo, bo najwięcej znaczy to, co zrobi się jeszcze przed samym początkiem.",
       "external_mundane": "Z tamtym starym fotelem bywa chyba tak samo, bo najwięcej znaczy to, co zrobi się jeszcze przed samym początkiem.",
       "external_ungrounded": "Z tamtym licznikiem prądu bywa chyba tak samo, bo najwięcej znaczy to, co zrobi się jeszcze przed samym początkiem.",
-      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo najwięcej znaczy to, co zrobi się jeszcze przed samym początkiem."
+      "self": "Z tą naszą rozmową bywa chyba tak samo, bo najwięcej znaczy to, co zrobi się jeszcze przed samym początkiem."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Podobnie rzecz ma się przy tym wilgotnościomierzu, gdzie wcześniejszy krok ustawia cały następny etap roboty.",
       "external_mundane": "Podobnie rzecz ma się przy tamtym starym fotelu, gdzie wcześniejszy krok ustawia cały następny etap roboty.",
       "external_ungrounded": "Podobnie rzecz ma się przy tamtym liczniku prądu, gdzie wcześniejszy krok ustawia cały następny etap roboty.",
-      "self": "Podobnie rzecz ma się przy tym przetwarzaniu, gdzie wcześniejszy krok ustawia cały następny etap roboty."
+      "self": "Podobnie rzecz ma się przy tej naszej rozmowie, gdzie wcześniejszy krok ustawia cały następny etap roboty."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się przy tym wilgotnościomierzu, kiedy jeden pominięty szczegół mnoży się potem wielokrotnie.",
       "external_mundane": "Coś podobnego zdarza się przy tamtym starym fotelu, kiedy jeden pominięty szczegół mnoży się potem wielokrotnie.",
       "external_ungrounded": "Coś podobnego zdarza się przy tamtym liczniku prądu, kiedy jeden pominięty szczegół mnoży się potem wielokrotnie.",
-      "self": "Coś podobnego zdarza się przy tym przetwarzaniu, kiedy jeden pominięty szczegół mnoży się potem wielokrotnie."
+      "self": "Coś podobnego zdarza się przy tej naszej rozmowie, kiedy jeden pominięty szczegół mnoży się potem wielokrotnie."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym wilgotnościomierzu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym starym fotelu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym liczniku prądu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu wychodzi zwykle to samo, bo skutek pojedynczej poprawki widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie wychodzi zwykle to samo, bo skutek pojedynczej poprawki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność drobnych, kolejno wykonywanych kroków.",
       "external_mundane": "To trochę przypomina tamten stary fotel, jeśli patrzeć wyłącznie na kolejność drobnych, kolejno wykonywanych kroków.",
       "external_ungrounded": "To trochę przypomina tamten licznik prądu, jeśli patrzeć wyłącznie na kolejność drobnych, kolejno wykonywanych kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność drobnych, kolejno wykonywanych kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność drobnych, kolejno wykonywanych kroków."
     }
   ]
 }

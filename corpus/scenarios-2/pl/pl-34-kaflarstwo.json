@@ -111,7 +111,7 @@
       "external_computational": "Z tym miernikiem ciągu jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
       "external_mundane": "Z tamtym corocznym myciem okien jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
       "external_ungrounded": "Z tamtym licznikiem prądu jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek rzeczy widać przy tym mierniku ciągu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
       "external_mundane": "Ten sam porządek rzeczy widać przy tamtym corocznym myciu okien, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
       "external_ungrounded": "Ten sam porządek rzeczy widać przy tamtym liczniku prądu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
-      "self": "Ten sam porządek rzeczy widać przy tym przetwarzaniu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek."
+      "self": "Ten sam porządek rzeczy widać przy tej naszej rozmowie, gdzie kolejność kroków waży więcej niż sam włożony wysiłek."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś bardzo podobnego zdarza się przy tym mierniku ciągu, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
       "external_mundane": "Coś bardzo podobnego zdarza się przy tamtym corocznym myciu okien, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
       "external_ungrounded": "Coś bardzo podobnego zdarza się przy tamtym liczniku prądu, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
-      "self": "Coś bardzo podobnego zdarza się przy tym przetwarzaniu, kiedy jeden pominięty krok mnoży się potem przez całą resztę."
+      "self": "Coś bardzo podobnego zdarza się przy tej naszej rozmowie, kiedy jeden pominięty krok mnoży się potem przez całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym mierniku ciągu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym corocznym myciu okien bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym liczniku prądu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten miernik ciągu, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
       "external_mundane": "To pod pewnymi względami przypomina tamto coroczne mycie okien, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten licznik prądu, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
     }
   ]
 }

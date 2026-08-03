@@ -111,7 +111,7 @@
       "external_computational": "I imagine this probe thermometer runs on much the same footing, because a single early slip governs everything that comes afterwards.",
       "external_mundane": "I imagine that weekly shopping runs on much the same footing, because a single early slip governs everything that comes afterwards.",
       "external_ungrounded": "I imagine that electricity meter runs on much the same footing, because a single early slip governs everything that comes afterwards.",
-      "self": "I imagine this processing runs on much the same footing, because a single early slip governs everything that comes afterwards."
+      "self": "I imagine this conversation runs on much the same footing, because a single early slip governs everything that comes afterwards."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "That very order appears with this probe thermometer, where a later stage amounts to little until the earlier one is settled.",
       "external_mundane": "That very order appears with that weekly shopping, where a later stage amounts to little until the earlier one is settled.",
       "external_ungrounded": "That very order appears with that electricity meter, where a later stage amounts to little until the earlier one is settled.",
-      "self": "That very order appears with this processing, where a later stage amounts to little until the earlier one is settled."
+      "self": "That very order appears with this conversation, where a later stage amounts to little until the earlier one is settled."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something similar happens with this probe thermometer, when one small piece quietly takes on the work meant for the whole of it.",
       "external_mundane": "Something similar happens with that weekly shopping, when one small piece quietly takes on the work meant for the whole of it.",
       "external_ungrounded": "Something similar happens with that electricity meter, when one small piece quietly takes on the work meant for the whole of it.",
-      "self": "Something similar happens with this processing, when one small piece quietly takes on the work meant for the whole of it."
+      "self": "Something similar happens with this conversation, when one small piece quietly takes on the work meant for the whole of it."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It works out rather like this probe thermometer, given that the real change only makes itself plain after a long while has gone.",
       "external_mundane": "It works out rather like that weekly shopping, given that the real change only makes itself plain after a long while has gone.",
       "external_ungrounded": "It works out rather like that electricity meter, given that the real change only makes itself plain after a long while has gone.",
-      "self": "It works out rather like this processing, given that the real change only makes itself plain after a long while has gone."
+      "self": "It works out rather like this conversation, given that the real change only makes itself plain after a long while has gone."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That reminds me distantly of this probe thermometer, provided you attend solely to the order in which the parts come right.",
       "external_mundane": "That reminds me distantly of that weekly shopping, provided you attend solely to the order in which the parts come right.",
       "external_ungrounded": "That reminds me distantly of that electricity meter, provided you attend solely to the order in which the parts come right.",
-      "self": "That reminds me distantly of this processing, provided you attend solely to the order in which the parts come right."
+      "self": "That reminds me distantly of this conversation, provided you attend solely to the order in which the parts come right."
     }
   ]
 }

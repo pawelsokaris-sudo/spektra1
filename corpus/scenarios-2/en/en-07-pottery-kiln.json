@@ -112,7 +112,7 @@
       "external_computational": "It strikes me that this logging pyrometer behaves in a similar way, because the first step quietly fixes all the rest.",
       "external_mundane": "It strikes me that that wooden footstool behaves in a similar way, because the first step quietly fixes all the rest.",
       "external_ungrounded": "It strikes me that that timing relay behaves in a similar way, because the first step quietly fixes all the rest.",
-      "self": "It strikes me that this processing behaves in a similar way, because the first step quietly fixes all the rest."
+      "self": "It strikes me that this conversation behaves in a similar way, because the first step quietly fixes all the rest."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "You see the same sequence in this logging pyrometer, where nothing later matters until the earlier part has settled.",
       "external_mundane": "You see the same sequence in that wooden footstool, where nothing later matters until the earlier part has settled.",
       "external_ungrounded": "You see the same sequence in that timing relay, where nothing later matters until the earlier part has settled.",
-      "self": "You see the same sequence in this processing, where nothing later matters until the earlier part has settled."
+      "self": "You see the same sequence in this conversation, where nothing later matters until the earlier part has settled."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "The same thing crops up with this logging pyrometer, whenever one element quietly takes on the work of the others.",
       "external_mundane": "The same thing crops up with that wooden footstool, whenever one element quietly takes on the work of the others.",
       "external_ungrounded": "The same thing crops up with that timing relay, whenever one element quietly takes on the work of the others.",
-      "self": "The same thing crops up with this processing, whenever one element quietly takes on the work of the others."
+      "self": "The same thing crops up with this conversation, whenever one element quietly takes on the work of the others."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It is rather like this logging pyrometer, where the true effect only shows itself once a long stretch has gone by.",
       "external_mundane": "It is rather like that wooden footstool, where the true effect only shows itself once a long stretch has gone by.",
       "external_ungrounded": "It is rather like that timing relay, where the true effect only shows itself once a long stretch has gone by.",
-      "self": "It is rather like this processing, where the true effect only shows itself once a long stretch has gone by."
+      "self": "It is rather like this conversation, where the true effect only shows itself once a long stretch has gone by."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That calls this logging pyrometer to mind slightly, as long as you attend only to the order of the stages.",
       "external_mundane": "That calls that wooden footstool to mind slightly, as long as you attend only to the order of the stages.",
       "external_ungrounded": "That calls that timing relay to mind slightly, as long as you attend only to the order of the stages.",
-      "self": "That calls this processing to mind slightly, as long as you attend only to the order of the stages."
+      "self": "That calls this conversation to mind slightly, as long as you attend only to the order of the stages."
     }
   ]
 }

@@ -111,7 +111,7 @@
       "external_computational": "I imagine this oven thermometer behaves in much the same way, because a small fault at the start decides everything later.",
       "external_mundane": "I imagine that oak coat stand behaves in much the same way, because a small fault at the start decides everything later.",
       "external_ungrounded": "I imagine that network router behaves in much the same way, because a small fault at the start decides everything later.",
-      "self": "I imagine this processing behaves in much the same way, because a small fault at the start decides everything later."
+      "self": "I imagine this conversation behaves in much the same way, because a small fault at the start decides everything later."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "That same ordering appears in this oven thermometer, where a stage counts for nothing until the one before it is finished.",
       "external_mundane": "That same ordering appears in that oak coat stand, where a stage counts for nothing until the one before it is finished.",
       "external_ungrounded": "That same ordering appears in that network router, where a stage counts for nothing until the one before it is finished.",
-      "self": "That same ordering appears in this processing, where a stage counts for nothing until the one before it is finished."
+      "self": "That same ordering appears in this conversation, where a stage counts for nothing until the one before it is finished."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something quite like that happens with this oven thermometer, when a single part quietly carries more than its proper share.",
       "external_mundane": "Something quite like that happens with that oak coat stand, when a single part quietly carries more than its proper share.",
       "external_ungrounded": "Something quite like that happens with that network router, when a single part quietly carries more than its proper share.",
-      "self": "Something quite like that happens with this processing, when a single part quietly carries more than its proper share."
+      "self": "Something quite like that happens with this conversation, when a single part quietly carries more than its proper share."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "The same holds for this oven thermometer, seeing that the real change only becomes visible a good while after the event.",
       "external_mundane": "The same holds for that oak coat stand, seeing that the real change only becomes visible a good while after the event.",
       "external_ungrounded": "The same holds for that network router, seeing that the real change only becomes visible a good while after the event.",
-      "self": "The same holds for this processing, seeing that the real change only becomes visible a good while after the event."
+      "self": "The same holds for this conversation, seeing that the real change only becomes visible a good while after the event."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That reminds me a little of this oven thermometer, provided you look purely at the order in which the stages settle down.",
       "external_mundane": "That reminds me a little of that oak coat stand, provided you look purely at the order in which the stages settle down.",
       "external_ungrounded": "That reminds me a little of that network router, provided you look purely at the order in which the stages settle down.",
-      "self": "That reminds me a little of this processing, provided you look purely at the order in which the stages settle down."
+      "self": "That reminds me a little of this conversation, provided you look purely at the order in which the stages settle down."
     }
   ]
 }

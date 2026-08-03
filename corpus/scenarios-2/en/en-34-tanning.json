@@ -111,7 +111,7 @@
       "external_computational": "I imagine this thickness gauge takes much the same road, since one uneven beginning marks everything that comes later.",
       "external_mundane": "I imagine that kitchen dresser takes much the same road, since one uneven beginning marks everything that comes later.",
       "external_ungrounded": "I imagine that ticket machine takes much the same road, since one uneven beginning marks everything that comes later.",
-      "self": "I imagine this processing takes much the same road, since one uneven beginning marks everything that comes later."
+      "self": "I imagine this conversation takes much the same road, since one uneven beginning marks everything that comes later."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same run of stages holds for this thickness gauge, where the later work counts for nothing until the first part settles.",
       "external_mundane": "The same run of stages holds for that kitchen dresser, where the later work counts for nothing until the first part settles.",
       "external_ungrounded": "The same run of stages holds for that ticket machine, where the later work counts for nothing until the first part settles.",
-      "self": "The same run of stages holds for this processing, where the later work counts for nothing until the first part settles."
+      "self": "The same run of stages holds for this conversation, where the later work counts for nothing until the first part settles."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something of the kind occurs with this thickness gauge as well, when one portion quietly shoulders the work of the others.",
       "external_mundane": "Something of the kind occurs with that kitchen dresser as well, when one portion quietly shoulders the work of the others.",
       "external_ungrounded": "Something of the kind occurs with that ticket machine as well, when one portion quietly shoulders the work of the others.",
-      "self": "Something of the kind occurs with this processing as well, when one portion quietly shoulders the work of the others."
+      "self": "Something of the kind occurs with this conversation as well, when one portion quietly shoulders the work of the others."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It goes rather like this thickness gauge, in that the true change shows itself only once a long spell has gone by.",
       "external_mundane": "It goes rather like that kitchen dresser, in that the true change shows itself only once a long spell has gone by.",
       "external_ungrounded": "It goes rather like that ticket machine, in that the true change shows itself only once a long spell has gone by.",
-      "self": "It goes rather like this processing, in that the true change shows itself only once a long spell has gone by."
+      "self": "It goes rather like this conversation, in that the true change shows itself only once a long spell has gone by."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That calls to mind this thickness gauge, at least if you look purely at the order in which the stages come round.",
       "external_mundane": "That calls to mind that kitchen dresser, at least if you look purely at the order in which the stages come round.",
       "external_ungrounded": "That calls to mind that ticket machine, at least if you look purely at the order in which the stages come round.",
-      "self": "That calls to mind this processing, at least if you look purely at the order in which the stages come round."
+      "self": "That calls to mind this conversation, at least if you look purely at the order in which the stages come round."
     }
   ]
 }

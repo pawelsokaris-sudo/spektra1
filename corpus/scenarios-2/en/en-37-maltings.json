@@ -111,7 +111,7 @@
       "external_computational": "I take it this grain tester proceeds in much the same way, since one early unevenness governs all the rest.",
       "external_mundane": "I take it that daily school run proceeds in much the same way, since one early unevenness governs all the rest.",
       "external_ungrounded": "I take it that parking meter proceeds in much the same way, since one early unevenness governs all the rest.",
-      "self": "I take it this processing proceeds in much the same way, since one early unevenness governs all the rest."
+      "self": "I take it this conversation proceeds in much the same way, since one early unevenness governs all the rest."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The very same sequence holds with this grain tester, where a later stage is worth nothing until the first has come right.",
       "external_mundane": "The very same sequence holds with that daily school run, where a later stage is worth nothing until the first has come right.",
       "external_ungrounded": "The very same sequence holds with that parking meter, where a later stage is worth nothing until the first has come right.",
-      "self": "The very same sequence holds with this processing, where a later stage is worth nothing until the first has come right."
+      "self": "The very same sequence holds with this conversation, where a later stage is worth nothing until the first has come right."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something similar arises with this grain tester as well, when one part quietly does the work laid out for the whole.",
       "external_mundane": "Something similar arises with that daily school run as well, when one part quietly does the work laid out for the whole.",
       "external_ungrounded": "Something similar arises with that parking meter as well, when one part quietly does the work laid out for the whole.",
-      "self": "Something similar arises with this processing as well, when one part quietly does the work laid out for the whole."
+      "self": "Something similar arises with this conversation as well, when one part quietly does the work laid out for the whole."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It goes on much as this grain tester does, in that the true difference only shows once a long period has elapsed.",
       "external_mundane": "It goes on much as that daily school run does, in that the true difference only shows once a long period has elapsed.",
       "external_ungrounded": "It goes on much as that parking meter does, in that the true difference only shows once a long period has elapsed.",
-      "self": "It goes on much as this processing does, in that the true difference only shows once a long period has elapsed."
+      "self": "It goes on much as this conversation does, in that the true difference only shows once a long period has elapsed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That brings this grain tester to my mind, so long as one considers merely the order in which the stages come along.",
       "external_mundane": "That brings that daily school run to my mind, so long as one considers merely the order in which the stages come along.",
       "external_ungrounded": "That brings that parking meter to my mind, so long as one considers merely the order in which the stages come along.",
-      "self": "That brings this processing to my mind, so long as one considers merely the order in which the stages come along."
+      "self": "That brings this conversation to my mind, so long as one considers merely the order in which the stages come along."
     }
   ]
 }

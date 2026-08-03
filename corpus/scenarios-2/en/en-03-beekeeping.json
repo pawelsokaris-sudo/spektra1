@@ -112,7 +112,7 @@
       "external_computational": "I suspect this hive scale works the same way, because one small weakness at the start decides everything later.",
       "external_mundane": "I suspect that old raincoat works the same way, because one small weakness at the start decides everything later.",
       "external_ungrounded": "I suspect that signal relay works the same way, because one small weakness at the start decides everything later.",
-      "self": "I suspect this processing works the same way, because one small weakness at the start decides everything later."
+      "self": "I suspect this conversation works the same way, because one small weakness at the start decides everything later."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same order shows itself with this hive scale, where each stage only counts once the one before is done.",
       "external_mundane": "The same order shows itself with that old raincoat, where each stage only counts once the one before is done.",
       "external_ungrounded": "The same order shows itself with that signal relay, where each stage only counts once the one before is done.",
-      "self": "The same order shows itself with this processing, where each stage only counts once the one before is done."
+      "self": "The same order shows itself with this conversation, where each stage only counts once the one before is done."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Much the same happens with this hive scale, when a single part ends up bearing more than its share.",
       "external_mundane": "Much the same happens with that old raincoat, when a single part ends up bearing more than its share.",
       "external_ungrounded": "Much the same happens with that signal relay, when a single part ends up bearing more than its share.",
-      "self": "Much the same happens with this processing, when a single part ends up bearing more than its share."
+      "self": "Much the same happens with this conversation, when a single part ends up bearing more than its share."
     },
     {
       "turn": 4,
@@ -142,7 +142,7 @@
       "external_computational": "I think this hive scale behaves similarly, since the real change becomes visible only after some time has passed.",
       "external_mundane": "I think that old raincoat behaves similarly, since the real change becomes visible only after some time has passed.",
       "external_ungrounded": "I think that signal relay behaves similarly, since the real change becomes visible only after some time has passed.",
-      "self": "I think this processing behaves similarly, since the real change becomes visible only after some time has passed."
+      "self": "I think this conversation behaves similarly, since the real change becomes visible only after some time has passed."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That resembles this hive scale a little, provided you look only at the sequence in which things settle.",
       "external_mundane": "That resembles that old raincoat a little, provided you look only at the sequence in which things settle.",
       "external_ungrounded": "That resembles that signal relay a little, provided you look only at the sequence in which things settle.",
-      "self": "That resembles this processing a little, provided you look only at the sequence in which things settle."
+      "self": "That resembles this conversation a little, provided you look only at the sequence in which things settle."
     }
   ]
 }

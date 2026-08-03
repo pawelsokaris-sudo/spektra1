@@ -112,7 +112,7 @@
       "external_computational": "Z tym termometrem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
       "external_mundane": "Z tamtym wełnianym kocem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
       "external_ungrounded": "Z tamtym falownikiem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
-      "self": "Z tym tokiem pytań bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku."
+      "self": "Z tą naszą rozmową bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam układ zależności widać przy tym termometrze, gdzie proporcje znaczą więcej niż sam czas.",
       "external_mundane": "Ten sam układ zależności widać przy tamtym wełnianym kocu, gdzie proporcje znaczą więcej niż sam czas.",
       "external_ungrounded": "Ten sam układ zależności widać przy tamtym falowniku, gdzie proporcje znaczą więcej niż sam czas.",
-      "self": "Ten sam układ zależności widać przy tym toku pytań, gdzie proporcje znaczą więcej niż sam czas."
+      "self": "Ten sam układ zależności widać przy tej naszej rozmowie, gdzie proporcje znaczą więcej niż sam czas."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym termometrze, kiedy jeden szczegół decyduje o całej reszcie.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym wełnianym kocu, kiedy jeden szczegół decyduje o całej reszcie.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym falowniku, kiedy jeden szczegół decyduje o całej reszcie.",
-      "self": "Coś takiego zdarza się też przy tym toku pytań, kiedy jeden szczegół decyduje o całej reszcie."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden szczegół decyduje o całej reszcie."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym termometrze dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym wełnianym kocu dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym falowniku dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
-      "self": "Przy tym toku pytań dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten termometr, jeśli patrzeć wyłącznie na samą kolejność kroków.",
       "external_mundane": "To trochę przypomina tamten wełniany koc, jeśli patrzeć wyłącznie na samą kolejność kroków.",
       "external_ungrounded": "To trochę przypomina tamten falownik, jeśli patrzeć wyłącznie na samą kolejność kroków.",
-      "self": "To trochę przypomina ten tok pytań, jeśli patrzeć wyłącznie na samą kolejność kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność kroków."
     }
   ]
 }

@@ -112,7 +112,7 @@
       "external_computational": "My guess is that this digital scale behaves much alike, since a small flaw at the outset governs all that follows.",
       "external_mundane": "My guess is that that garden bench behaves much alike, since a small flaw at the outset governs all that follows.",
       "external_ungrounded": "My guess is that that voltage regulator behaves much alike, since a small flaw at the outset governs all that follows.",
-      "self": "My guess is that this processing behaves much alike, since a small flaw at the outset governs all that follows."
+      "self": "My guess is that this conversation behaves much alike, since a small flaw at the outset governs all that follows."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "The same succession appears in this digital scale, where a later stage counts for nothing until the earlier one holds.",
       "external_mundane": "The same succession appears in that garden bench, where a later stage counts for nothing until the earlier one holds.",
       "external_ungrounded": "The same succession appears in that voltage regulator, where a later stage counts for nothing until the earlier one holds.",
-      "self": "The same succession appears in this processing, where a later stage counts for nothing until the earlier one holds."
+      "self": "The same succession appears in this conversation, where a later stage counts for nothing until the earlier one holds."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Much the same shows up with this digital scale, whenever a single element quietly shoulders what several should be doing.",
       "external_mundane": "Much the same shows up with that garden bench, whenever a single element quietly shoulders what several should be doing.",
       "external_ungrounded": "Much the same shows up with that voltage regulator, whenever a single element quietly shoulders what several should be doing.",
-      "self": "Much the same shows up with this processing, whenever a single element quietly shoulders what several should be doing."
+      "self": "Much the same shows up with this conversation, whenever a single element quietly shoulders what several should be doing."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "It works rather like this digital scale, because the real difference only shows itself once a good while has gone.",
       "external_mundane": "It works rather like that garden bench, because the real difference only shows itself once a good while has gone.",
       "external_ungrounded": "It works rather like that voltage regulator, because the real difference only shows itself once a good while has gone.",
-      "self": "It works rather like this processing, because the real difference only shows itself once a good while has gone."
+      "self": "It works rather like this conversation, because the real difference only shows itself once a good while has gone."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "That brings this digital scale faintly to mind, so long as you attend to the sequence and nothing besides.",
       "external_mundane": "That brings that garden bench faintly to mind, so long as you attend to the sequence and nothing besides.",
       "external_ungrounded": "That brings that voltage regulator faintly to mind, so long as you attend to the sequence and nothing besides.",
-      "self": "That brings this processing faintly to mind, so long as you attend to the sequence and nothing besides."
+      "self": "That brings this conversation faintly to mind, so long as you attend to the sequence and nothing besides."
     }
   ]
 }

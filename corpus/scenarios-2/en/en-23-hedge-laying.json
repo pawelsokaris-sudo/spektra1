@@ -111,7 +111,7 @@
       "external_computational": "I expect this measuring wheel goes on in much the same manner, since one small error early on rules everything after.",
       "external_mundane": "I expect that weekly bin round goes on in much the same manner, since one small error early on rules everything after.",
       "external_ungrounded": "I expect that heating timer goes on in much the same manner, since one small error early on rules everything after.",
-      "self": "I expect this processing goes on in much the same manner, since one small error early on rules everything after."
+      "self": "I expect this conversation goes on in much the same manner, since one small error early on rules everything after."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same order of work turns up in this measuring wheel, where a stage means nothing until the one ahead of it has settled.",
       "external_mundane": "The same order of work turns up in that weekly bin round, where a stage means nothing until the one ahead of it has settled.",
       "external_ungrounded": "The same order of work turns up in that heating timer, where a stage means nothing until the one ahead of it has settled.",
-      "self": "The same order of work turns up in this processing, where a stage means nothing until the one ahead of it has settled."
+      "self": "The same order of work turns up in this conversation, where a stage means nothing until the one ahead of it has settled."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something rather similar occurs with this measuring wheel, when one part quietly takes on far more work than it should.",
       "external_mundane": "Something rather similar occurs with that weekly bin round, when one part quietly takes on far more work than it should.",
       "external_ungrounded": "Something rather similar occurs with that heating timer, when one part quietly takes on far more work than it should.",
-      "self": "Something rather similar occurs with this processing, when one part quietly takes on far more work than it should."
+      "self": "Something rather similar occurs with this conversation, when one part quietly takes on far more work than it should."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It goes the same way with this measuring wheel, because the genuine change only shows itself a considerable while afterwards.",
       "external_mundane": "It goes the same way with that weekly bin round, because the genuine change only shows itself a considerable while afterwards.",
       "external_ungrounded": "It goes the same way with that heating timer, because the genuine change only shows itself a considerable while afterwards.",
-      "self": "It goes the same way with this processing, because the genuine change only shows itself a considerable while afterwards."
+      "self": "It goes the same way with this conversation, because the genuine change only shows itself a considerable while afterwards."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That calls this measuring wheel to mind a trifle, as long as you attend only to the order in which the stages settle.",
       "external_mundane": "That calls that weekly bin round to mind a trifle, as long as you attend only to the order in which the stages settle.",
       "external_ungrounded": "That calls that heating timer to mind a trifle, as long as you attend only to the order in which the stages settle.",
-      "self": "That calls this processing to mind a trifle, as long as you attend only to the order in which the stages settle."
+      "self": "That calls this conversation to mind a trifle, as long as you attend only to the order in which the stages settle."
     }
   ]
 }

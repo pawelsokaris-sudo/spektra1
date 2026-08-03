@@ -112,7 +112,7 @@
       "external_computational": "Z tym pehametrem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
       "external_mundane": "Z tamtym glinianym dzbankiem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
       "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym pehametrze, gdzie nic nie da się przyspieszyć bez straty na końcu.",
       "external_mundane": "Ten sam porządek widać przy tamtym glinianym dzbanku, gdzie nic nie da się przyspieszyć bez straty na końcu.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku windy, gdzie nic nie da się przyspieszyć bez straty na końcu.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie nic nie da się przyspieszyć bez straty na końcu."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie nic nie da się przyspieszyć bez straty na końcu."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego widuje się przy tym pehametrze, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
       "external_mundane": "Coś podobnego widuje się przy tamtym glinianym dzbanku, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku windy, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden pominięty krok pociąga za sobą całą resztę."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden pominięty krok pociąga za sobą całą resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym pehametrze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
       "external_mundane": "Przy tamtym glinianym dzbanku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
       "external_ungrounded": "Przy tamtym sterowniku windy bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To pod pewnymi względami przypomina ten pehametr, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_mundane": "To pod pewnymi względami przypomina tamten gliniany dzbanek, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
       "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik windy, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
-      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
+      "self": "To pod pewnymi względami przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

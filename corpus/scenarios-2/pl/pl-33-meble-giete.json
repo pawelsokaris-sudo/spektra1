@@ -111,7 +111,7 @@
       "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
       "external_mundane": "Z tamtą wełnianą czapką jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
       "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
       "external_mundane": "Ten sam porządek widać przy tamtej wełnianej czapce, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku bramy, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego widuje się przy tym wilgotnościomierzu, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
       "external_mundane": "Coś podobnego widuje się przy tamtej wełnianej czapce, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
       "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku bramy, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
-      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty."
+      "self": "Coś podobnego widuje się przy tej naszej rozmowie, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtej wełnianej czapce bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym sterowniku bramy bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_mundane": "To trochę przypomina tamtą wełnianą czapkę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten sterownik bramy, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
     }
   ]
 }

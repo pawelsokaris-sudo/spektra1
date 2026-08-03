@@ -111,7 +111,7 @@
       "external_computational": "Z tą sondą temperatury jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
       "external_mundane": "Z tamtym prasowaniem koszul jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
       "external_ungrounded": "Z tamtym przekaźnikiem jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tej sondzie temperatury, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym prasowaniu koszul, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym przekaźniku, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie cierpliwość daje więcej niż dodatkowy wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie cierpliwość daje więcej niż dodatkowy wysiłek."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tej sondzie temperatury, kiedy jeden pominięty krok wstrzymuje całą resztę.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym prasowaniu koszul, kiedy jeden pominięty krok wstrzymuje całą resztę.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym przekaźniku, kiedy jeden pominięty krok wstrzymuje całą resztę.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden pominięty krok wstrzymuje całą resztę."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden pominięty krok wstrzymuje całą resztę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tej sondzie temperatury bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
       "external_mundane": "Przy tamtym prasowaniu koszul bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
       "external_ungrounded": "Przy tamtym przekaźniku bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina tę sondę temperatury, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_mundane": "To trochę przypomina tamto prasowanie koszul, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten przekaźnik, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
     }
   ]
 }

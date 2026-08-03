@@ -111,7 +111,7 @@
       "external_computational": "Z tym grubościomierzem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
       "external_mundane": "Z tamtym skórzanym paskiem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
       "external_ungrounded": "Z tamtym domowym routerem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
-      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie."
+      "self": "Z tą naszą rozmową bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym grubościomierzu, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
       "external_mundane": "Ten sam porządek widać przy tamtym skórzanym pasku, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym domowym routerze, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś podobnego zdarza się także przy tym grubościomierzu, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
       "external_mundane": "Coś podobnego zdarza się także przy tamtym skórzanym pasku, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
       "external_ungrounded": "Coś podobnego zdarza się także przy tamtym domowym routerze, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
-      "self": "Coś podobnego zdarza się także przy tym przetwarzaniu, kiedy jeden element przejmuje robotę za wszystkie pozostałe."
+      "self": "Coś podobnego zdarza się także przy tej naszej rozmowie, kiedy jeden element przejmuje robotę za wszystkie pozostałe."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym grubościomierzu jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym skórzanym pasku jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym domowym routerze jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten grubościomierz, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_mundane": "To trochę przypomina tamten skórzany pasek, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
       "external_ungrounded": "To trochę przypomina tamten domowy router, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
     }
   ]
 }

@@ -111,7 +111,7 @@
       "external_computational": "I dare say this moisture meter answers to much the same rule, since one crooked start decides everything that has to follow.",
       "external_mundane": "I dare say that weekly ironing answers to much the same rule, since one crooked start decides everything that has to follow.",
       "external_ungrounded": "I dare say that boiler controller answers to much the same rule, since one crooked start decides everything that has to follow.",
-      "self": "I dare say this processing answers to much the same rule, since one crooked start decides everything that has to follow."
+      "self": "I dare say this conversation answers to much the same rule, since one crooked start decides everything that has to follow."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "That very sequence appears in this moisture meter, where the later work is worth nothing until the earlier part sits true.",
       "external_mundane": "That very sequence appears in that weekly ironing, where the later work is worth nothing until the earlier part sits true.",
       "external_ungrounded": "That very sequence appears in that boiler controller, where the later work is worth nothing until the earlier part sits true.",
-      "self": "That very sequence appears in this processing, where the later work is worth nothing until the earlier part sits true."
+      "self": "That very sequence appears in this conversation, where the later work is worth nothing until the earlier part sits true."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "The same business shows up with this moisture meter, when a single small piece quietly bears the load meant for all of them.",
       "external_mundane": "The same business shows up with that weekly ironing, when a single small piece quietly bears the load meant for all of them.",
       "external_ungrounded": "The same business shows up with that boiler controller, when a single small piece quietly bears the load meant for all of them.",
-      "self": "The same business shows up with this processing, when a single small piece quietly bears the load meant for all of them."
+      "self": "The same business shows up with this conversation, when a single small piece quietly bears the load meant for all of them."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "It carries along much like this moisture meter, in that the actual change makes itself known only after a long season has run.",
       "external_mundane": "It carries along much like that weekly ironing, in that the actual change makes itself known only after a long season has run.",
       "external_ungrounded": "It carries along much like that boiler controller, in that the actual change makes itself known only after a long season has run.",
-      "self": "It carries along much like this processing, in that the actual change makes itself known only after a long season has run."
+      "self": "It carries along much like this conversation, in that the actual change makes itself known only after a long season has run."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That is a faint echo of this moisture meter, provided you regard nothing beyond the order in which the pieces come true.",
       "external_mundane": "That is a faint echo of that weekly ironing, provided you regard nothing beyond the order in which the pieces come true.",
       "external_ungrounded": "That is a faint echo of that boiler controller, provided you regard nothing beyond the order in which the pieces come true.",
-      "self": "That is a faint echo of this processing, provided you regard nothing beyond the order in which the pieces come true."
+      "self": "That is a faint echo of this conversation, provided you regard nothing beyond the order in which the pieces come true."
     }
   ]
 }

@@ -113,7 +113,7 @@
       "external_computational": "I suspect this laser level follows the very same course, because one early slip decides how all the rest turns out.",
       "external_mundane": "I suspect that kitchen dresser follows the very same course, because one early slip decides how all the rest turns out.",
       "external_ungrounded": "I suspect that boiler timer follows the very same course, because one early slip decides how all the rest turns out.",
-      "self": "I suspect this processing follows the very same course, because one early slip decides how all the rest turns out."
+      "self": "I suspect this conversation follows the very same course, because one early slip decides how all the rest turns out."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "The same thing turns up with this laser level, where a small fault at the start grows into a large one later on.",
       "external_mundane": "The same thing turns up with that kitchen dresser, where a small fault at the start grows into a large one later on.",
       "external_ungrounded": "The same thing turns up with that boiler timer, where a small fault at the start grows into a large one later on.",
-      "self": "The same thing turns up with this processing, where a small fault at the start grows into a large one later on."
+      "self": "The same thing turns up with this conversation, where a small fault at the start grows into a large one later on."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "You get much the same with this laser level, whenever a single part takes over the work meant for the whole.",
       "external_mundane": "You get much the same with that kitchen dresser, whenever a single part takes over the work meant for the whole.",
       "external_ungrounded": "You get much the same with that boiler timer, whenever a single part takes over the work meant for the whole.",
-      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+      "self": "You get much the same with this conversation, whenever a single part takes over the work meant for the whole."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "The same shape of thing shows in this laser level, where the early steps settle what the later ones are able to do.",
       "external_mundane": "The same shape of thing shows in that kitchen dresser, where the early steps settle what the later ones are able to do.",
       "external_ungrounded": "The same shape of thing shows in that boiler timer, where the early steps settle what the later ones are able to do.",
-      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+      "self": "The same shape of thing shows in this conversation, where the early steps settle what the later ones are able to do."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "That reminds me a little of this laser level, so long as you attend only to the order in which the steps fall.",
       "external_mundane": "That reminds me a little of that kitchen dresser, so long as you attend only to the order in which the steps fall.",
       "external_ungrounded": "That reminds me a little of that boiler timer, so long as you attend only to the order in which the steps fall.",
-      "self": "That reminds me a little of this processing, so long as you attend only to the order in which the steps fall."
+      "self": "That reminds me a little of this conversation, so long as you attend only to the order in which the steps fall."
     }
   ]
 }

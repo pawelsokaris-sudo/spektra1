@@ -112,7 +112,7 @@
       "external_computational": "Z tym manometrem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
       "external_mundane": "Z tamtym grabieniem liści jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
       "external_ungrounded": "Z tamtym protokołem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym manometrze, gdzie kolejność kroków waży więcej niż sam wysiłek.",
       "external_mundane": "Ten sam porządek widać przy tamtym grabieniu liści, gdzie kolejność kroków waży więcej niż sam wysiłek.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym protokole, gdzie kolejność kroków waży więcej niż sam wysiłek.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków waży więcej niż sam wysiłek."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków waży więcej niż sam wysiłek."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś podobnego zdarza się też przy tym manometrze, kiedy jeden element przejmuje pracę za resztę.",
       "external_mundane": "Coś podobnego zdarza się też przy tamtym grabieniu liści, kiedy jeden element przejmuje pracę za resztę.",
       "external_ungrounded": "Coś podobnego zdarza się też przy tamtym protokole, kiedy jeden element przejmuje pracę za resztę.",
-      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden element przejmuje pracę za resztę."
+      "self": "Coś podobnego zdarza się też przy tej naszej rozmowie, kiedy jeden element przejmuje pracę za resztę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym manometrze bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
       "external_mundane": "Przy tamtym grabieniu liści bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
       "external_ungrounded": "Przy tamtym protokole bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie."
+      "self": "Przy tej naszej rozmowie bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten manometr, jeśli patrzeć wyłącznie na samą kolejność etapów.",
       "external_mundane": "To trochę przypomina tamto grabienie liści, jeśli patrzeć wyłącznie na samą kolejność etapów.",
       "external_ungrounded": "To trochę przypomina tamten protokół, jeśli patrzeć wyłącznie na samą kolejność etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na samą kolejność etapów."
     }
   ]
 }

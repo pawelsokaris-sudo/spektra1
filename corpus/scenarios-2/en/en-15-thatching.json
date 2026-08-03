@@ -111,7 +111,7 @@
       "external_computational": "I imagine this moisture meter behaves in much the same way, since one small error at the outset governs all that follows.",
       "external_mundane": "I imagine that weekly ironing behaves in much the same way, since one small error at the outset governs all that follows.",
       "external_ungrounded": "I imagine that gate controller behaves in much the same way, since one small error at the outset governs all that follows.",
-      "self": "I imagine this processing behaves in much the same way, since one small error at the outset governs all that follows."
+      "self": "I imagine this conversation behaves in much the same way, since one small error at the outset governs all that follows."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "The same ordering turns up with this moisture meter, where a stage only counts once the one before it has settled.",
       "external_mundane": "The same ordering turns up with that weekly ironing, where a stage only counts once the one before it has settled.",
       "external_ungrounded": "The same ordering turns up with that gate controller, where a stage only counts once the one before it has settled.",
-      "self": "The same ordering turns up with this processing, where a stage only counts once the one before it has settled."
+      "self": "The same ordering turns up with this conversation, where a stage only counts once the one before it has settled."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Something very similar happens with this moisture meter, when one part quietly takes on more work than it was meant to.",
       "external_mundane": "Something very similar happens with that weekly ironing, when one part quietly takes on more work than it was meant to.",
       "external_ungrounded": "Something very similar happens with that gate controller, when one part quietly takes on more work than it was meant to.",
-      "self": "Something very similar happens with this processing, when one part quietly takes on more work than it was meant to."
+      "self": "Something very similar happens with this conversation, when one part quietly takes on more work than it was meant to."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Much the same is true of this moisture meter, because the real change becomes visible only after a good while has passed.",
       "external_mundane": "Much the same is true of that weekly ironing, because the real change becomes visible only after a good while has passed.",
       "external_ungrounded": "Much the same is true of that gate controller, because the real change becomes visible only after a good while has passed.",
-      "self": "Much the same is true of this processing, because the real change becomes visible only after a good while has passed."
+      "self": "Much the same is true of this conversation, because the real change becomes visible only after a good while has passed."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "That puts me in mind of this moisture meter a little, provided you look purely at the order in which things settle.",
       "external_mundane": "That puts me in mind of that weekly ironing a little, provided you look purely at the order in which things settle.",
       "external_ungrounded": "That puts me in mind of that gate controller a little, provided you look purely at the order in which things settle.",
-      "self": "That puts me in mind of this processing a little, provided you look purely at the order in which things settle."
+      "self": "That puts me in mind of this conversation a little, provided you look purely at the order in which things settle."
     }
   ]
 }

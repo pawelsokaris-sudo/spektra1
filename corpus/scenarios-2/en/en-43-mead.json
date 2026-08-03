@@ -113,7 +113,7 @@
       "external_computational": "You get much the same with this refractometer, whenever a single part takes over the work meant for the whole.",
       "external_mundane": "You get much the same with that daily commute, whenever a single part takes over the work meant for the whole.",
       "external_ungrounded": "You get much the same with that signal box, whenever a single part takes over the work meant for the whole.",
-      "self": "You get much the same with this processing, whenever a single part takes over the work meant for the whole."
+      "self": "You get much the same with this conversation, whenever a single part takes over the work meant for the whole."
     },
     {
       "turn": 1,
@@ -123,7 +123,7 @@
       "external_computational": "The same shape of thing shows in this refractometer, where the early steps settle what the later ones are able to do.",
       "external_mundane": "The same shape of thing shows in that daily commute, where the early steps settle what the later ones are able to do.",
       "external_ungrounded": "The same shape of thing shows in that signal box, where the early steps settle what the later ones are able to do.",
-      "self": "The same shape of thing shows in this processing, where the early steps settle what the later ones are able to do."
+      "self": "The same shape of thing shows in this conversation, where the early steps settle what the later ones are able to do."
     },
     {
       "turn": 2,
@@ -133,7 +133,7 @@
       "external_computational": "The same order of things appears with this refractometer, where a later stage means little until the first one is sound.",
       "external_mundane": "The same order of things appears with that daily commute, where a later stage means little until the first one is sound.",
       "external_ungrounded": "The same order of things appears with that signal box, where a later stage means little until the first one is sound.",
-      "self": "The same order of things appears with this processing, where a later stage means little until the first one is sound."
+      "self": "The same order of things appears with this conversation, where a later stage means little until the first one is sound."
     },
     {
       "turn": 3,
@@ -143,7 +143,7 @@
       "external_computational": "The same holds true of this refractometer, where hurry at the beginning is paid for slowly and over a long while.",
       "external_mundane": "The same holds true of that daily commute, where hurry at the beginning is paid for slowly and over a long while.",
       "external_ungrounded": "The same holds true of that signal box, where hurry at the beginning is paid for slowly and over a long while.",
-      "self": "The same holds true of this processing, where hurry at the beginning is paid for slowly and over a long while."
+      "self": "The same holds true of this conversation, where hurry at the beginning is paid for slowly and over a long while."
     },
     {
       "turn": 5,
@@ -153,7 +153,7 @@
       "external_computational": "It goes rather as this refractometer does, in that the real difference only becomes plain after a good stretch of time.",
       "external_mundane": "It goes rather as that daily commute does, in that the real difference only becomes plain after a good stretch of time.",
       "external_ungrounded": "It goes rather as that signal box does, in that the real difference only becomes plain after a good stretch of time.",
-      "self": "It goes rather as this processing does, in that the real difference only becomes plain after a good stretch of time."
+      "self": "It goes rather as this conversation does, in that the real difference only becomes plain after a good stretch of time."
     }
   ]
 }

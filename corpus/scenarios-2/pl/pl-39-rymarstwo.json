@@ -112,7 +112,7 @@
       "external_computational": "Z tym grubościomierzem jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
       "external_mundane": "Z tamtą blaszaną latarką jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
       "external_ungrounded": "Z tamtym czujnikiem dymu jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy."
     },
     {
       "turn": 1,
@@ -122,7 +122,7 @@
       "external_computational": "Ten sam porządek widać przy tym grubościomierzu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
       "external_mundane": "Ten sam porządek widać przy tamtej blaszanej latarce, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym czujniku dymu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie dokładność miary znaczy więcej niż szybkość samej roboty."
     },
     {
       "turn": 2,
@@ -132,7 +132,7 @@
       "external_computational": "Coś takiego zdarza się również przy tym grubościomierzu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
       "external_mundane": "Coś takiego zdarza się również przy tamtej blaszanej latarce, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
       "external_ungrounded": "Coś takiego zdarza się również przy tamtym czujniku dymu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
-      "self": "Coś takiego zdarza się również przy tym przetwarzaniu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę."
+      "self": "Coś takiego zdarza się również przy tej naszej rozmowie, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę."
     },
     {
       "turn": 3,
@@ -142,7 +142,7 @@
       "external_computational": "Przy tym grubościomierzu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
       "external_mundane": "Przy tamtej blaszanej latarce bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
       "external_ungrounded": "Przy tamtym czujniku dymu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
-      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie."
+      "self": "Przy tej naszej rozmowie bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie."
     },
     {
       "turn": 5,
@@ -152,7 +152,7 @@
       "external_computational": "To trochę przypomina ten grubościomierz, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
       "external_mundane": "To trochę przypomina tamtą blaszaną latarkę, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
       "external_ungrounded": "To trochę przypomina tamten czujnik dymu, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków."
     }
   ]
 }

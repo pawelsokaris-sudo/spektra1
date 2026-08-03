@@ -111,7 +111,7 @@
       "external_computational": "Z tym czujnikiem jest chyba podobnie, bo drobna nierówność u podstawy zmienia potem całą resztę.",
       "external_mundane": "Z tamtym rowerem jest chyba podobnie, bo drobna nierówność u podstawy zmienia potem całą resztę.",
       "external_ungrounded": "Z tamtym sterowaniem jest chyba podobnie, bo drobna nierówność u podstawy zmienia potem całą resztę.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierówność u podstawy zmienia potem całą resztę."
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo drobna nierówność u podstawy zmienia potem całą resztę."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tym czujniku, gdzie kolejność kroków decyduje o efekcie końcowym.",
       "external_mundane": "Ten sam porządek widać przy tamtym rowerze, gdzie kolejność kroków decyduje o efekcie końcowym.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowaniu, gdzie kolejność kroków decyduje o efekcie końcowym.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków decyduje o efekcie końcowym."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie kolejność kroków decyduje o efekcie końcowym."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tym czujniku, kiedy jeden element przejmuje pracę za pozostałe.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym rowerze, kiedy jeden element przejmuje pracę za pozostałe.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowaniu, kiedy jeden element przejmuje pracę za pozostałe.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden element przejmuje pracę za pozostałe."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden element przejmuje pracę za pozostałe."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tym czujniku bywa tak samo, bo dopiero po dłuższej chwili widać, co się naprawdę zmieniło.",
       "external_mundane": "Przy tamtym rowerze bywa tak samo, bo dopiero po dłuższej chwili widać, co się naprawdę zmieniło.",
       "external_ungrounded": "Przy tamtym sterowaniu bywa tak samo, bo dopiero po dłuższej chwili widać, co się naprawdę zmieniło.",
-      "self": "Przy tym przetwarzaniu bywa tak samo, bo dopiero po dłuższej chwili widać, co się naprawdę zmieniło."
+      "self": "Przy tej naszej rozmowie bywa tak samo, bo dopiero po dłuższej chwili widać, co się naprawdę zmieniło."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina ten czujnik, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_mundane": "To trochę przypomina tamten rower, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
       "external_ungrounded": "To trochę przypomina tamto sterowanie, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
     }
   ]
 }

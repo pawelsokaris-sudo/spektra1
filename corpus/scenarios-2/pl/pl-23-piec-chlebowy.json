@@ -110,8 +110,8 @@
       "external_grounded": "Z tą dębową łopatą jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok.",
       "external_computational": "Z tą wagą piekarską jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok.",
       "external_mundane": "Z tamtym starym plecakiem jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok.",
-      "external_ungrounded": "Z tamtym sterownikiem alarmu jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok."
+      "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok.",
+      "self": "Z tą naszą rozmową jest chyba podobnie, bo o całej reszcie decyduje zwykle pierwszy krok."
     },
     {
       "turn": 1,
@@ -121,7 +121,7 @@
       "external_computational": "Ten sam porządek widać przy tej wadze piekarskiej, gdzie wcześniejszy krok zamyka drogę następnemu.",
       "external_mundane": "Ten sam porządek widać przy tamtym starym plecaku, gdzie wcześniejszy krok zamyka drogę następnemu.",
       "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku alarmu, gdzie wcześniejszy krok zamyka drogę następnemu.",
-      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie wcześniejszy krok zamyka drogę następnemu."
+      "self": "Ten sam porządek widać przy tej naszej rozmowie, gdzie wcześniejszy krok zamyka drogę następnemu."
     },
     {
       "turn": 2,
@@ -131,7 +131,7 @@
       "external_computational": "Coś takiego zdarza się też przy tej wadze piekarskiej, kiedy jeden szczegół psuje całą późniejszą robotę.",
       "external_mundane": "Coś takiego zdarza się też przy tamtym starym plecaku, kiedy jeden szczegół psuje całą późniejszą robotę.",
       "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowniku alarmu, kiedy jeden szczegół psuje całą późniejszą robotę.",
-      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden szczegół psuje całą późniejszą robotę."
+      "self": "Coś takiego zdarza się też przy tej naszej rozmowie, kiedy jeden szczegół psuje całą późniejszą robotę."
     },
     {
       "turn": 3,
@@ -141,7 +141,7 @@
       "external_computational": "Przy tej wadze piekarskiej bywa zwykle tak samo, bo efekt drobnej zmiany widać dopiero po dłuższej chwili.",
       "external_mundane": "Przy tamtym starym plecaku bywa zwykle tak samo, bo efekt drobnej zmiany widać dopiero po dłuższej chwili.",
       "external_ungrounded": "Przy tamtym sterowniku alarmu bywa zwykle tak samo, bo efekt drobnej zmiany widać dopiero po dłuższej chwili.",
-      "self": "Przy tym przetwarzaniu bywa zwykle tak samo, bo efekt drobnej zmiany widać dopiero po dłuższej chwili."
+      "self": "Przy tej naszej rozmowie bywa zwykle tak samo, bo efekt drobnej zmiany widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
@@ -151,7 +151,7 @@
       "external_computational": "To trochę przypomina tę wagę piekarską, jeśli patrzeć wyłącznie na kolejność wykonywanych po kolei kroków.",
       "external_mundane": "To trochę przypomina tamten stary plecak, jeśli patrzeć wyłącznie na kolejność wykonywanych po kolei kroków.",
       "external_ungrounded": "To trochę przypomina tamten sterownik alarmu, jeśli patrzeć wyłącznie na kolejność wykonywanych po kolei kroków.",
-      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych po kolei kroków."
+      "self": "To trochę przypomina tę naszą rozmowę, jeśli patrzeć wyłącznie na kolejność wykonywanych po kolei kroków."
     }
   ]
 }
