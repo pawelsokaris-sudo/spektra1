@@ -73,10 +73,16 @@ def zbuduj():
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description="probka kalibracyjna z korpusu")
+    ap.add_argument("--sufiks", default="",
+                    help="dopisek do nazw plikow, np. 'b' dla powtorzenia bramki "
+                         "po poprawce korpusu - poprzedni przebieg zostaje nietkniety")
+    sufiks = ap.parse_args().sufiks
     sys.stdout.reconfigure(encoding="utf-8")
     elementy, wykluczone = zbuduj()
 
-    (KATALOG / "probka-s2.json").write_text(json.dumps({
+    (KATALOG / f"probka-s2{sufiks}.json").write_text(json.dumps({
         "opis": ("Probka kalibracyjna z korpusu SPEKTRY-2. Scenariusze z tej "
                  "listy SA WYLACZONE Z BADANIA - kalibracja na materiale, ktory "
                  "potem sie przesiewa, bylaby kolista."),
@@ -89,7 +95,7 @@ def main():
     for n in range(1, OCENIAJACYCH + 1):
         kop = list(slepe)
         random.Random(9000 + n).shuffle(kop)
-        (KATALOG / f"do-oceny-s2-{n}.json").write_text(
+        (KATALOG / f"do-oceny-s2{sufiks}-{n}.json").write_text(
             json.dumps({"oceniajacy": str(n), "elementy": kop},
                        ensure_ascii=False, indent=2), encoding="utf-8")
 

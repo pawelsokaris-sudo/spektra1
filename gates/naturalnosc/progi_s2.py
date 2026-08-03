@@ -28,12 +28,13 @@ S1_PROG_NATURALNOSCI = {"pl": 3.22, "en": 3.78}
 S1_ROZSTEP_WARIANTOW = {"pl": 3.27, "en": 2.52}
 
 
-def wczytaj():
-    probka = json.loads((KATALOG / "probka-s2.json").read_text(encoding="utf-8"))
+def wczytaj(sufiks=""):
+    probka = json.loads(
+        (KATALOG / f"probka-s2{sufiks}.json").read_text(encoding="utf-8"))
     meta = {e["id"]: e for e in probka["elementy"]}
 
     oceny = {}
-    for p in sorted(KATALOG.glob("oceny-s2-*.json")):
+    for p in sorted(KATALOG.glob(f"oceny-s2{sufiks}-*.json")):
         d = json.loads(p.read_text(encoding="utf-8"))
         for o in d["oceny"]:
             oceny.setdefault(o["id"], {})[d["oceniajacy"]] = {
@@ -142,9 +143,39 @@ def raport_jezyka(jezyk, sc):
             "stale": {k: v for k, v in stale.items() if k != "tryb"}}
 
 
+def porownanie(sufiks_a, sufiks_b):
+    """Parowane porownanie dwoch przebiegow bramki - te same scenariusze."""
+    ma, oa, _, _ = wczytaj(sufiks_a)
+    mb, ob, _, _ = wczytaj(sufiks_b)
+    print(f"\n{'='*66}")
+    print(f"PORÓWNANIE PAROWANE: przebieg '{sufiks_a or 'pierwszy'}' "
+          f"-> '{sufiks_b or 'pierwszy'}'")
+    print(f"{'='*66}")
+
+    for jezyk in ("pl", "en"):
+        sa, sb = scenariusze(ma, oa, jezyk), scenariusze(mb, ob, jezyk)
+        wspolne = sorted(set(sa) & set(sb))
+        print(f"\n{jezyk.upper()} — {len(wspolne)} scenariuszy wspolnych")
+        print(f"  {'wariant':>10} | {'naturalnosc':>19} | {'jasnosc':>19} | "
+              f"{'samozwrotny':>19}")
+        for w in WARIANTY:
+            kol = []
+            for pole in ("naturalnosc", "jasnosc", "samozwrotnosc"):
+                a = st.mean(sa[k][w][pole] for k in wspolne)
+                b = st.mean(sb[k][w][pole] for k in wspolne)
+                kol.append(f"{a:5.2f} -> {b:5.2f} ({b-a:+.2f})")
+            print(f"  {w:>10} | " + " | ".join(kol))
+
+
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description="progi bramki z probki korpusu")
+    ap.add_argument("--sufiks", default="", help="ktory przebieg analizowac")
+    ap.add_argument("--porownaj-z", default=None,
+                    help="sufiks wczesniejszego przebiegu do porownania parowanego")
+    args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
-    meta, oceny, wykluczone, braki = wczytaj()
+    meta, oceny, wykluczone, braki = wczytaj(args.sufiks)
     if braki:
         print(f"=== BRAK OCEN dla {len(braki)} elementow: {braki[:8]} ===")
         return 1
@@ -162,7 +193,10 @@ def main():
     for j, lista in wykluczone.items():
         print(f"  {j}: {len(lista)} scenariuszy")
 
-    (KATALOG / "progi-s2-wynik.json").write_text(
+    if args.porownaj_z is not None:
+        porownanie(args.porownaj_z, args.sufiks)
+
+    (KATALOG / f"progi-s2{args.sufiks}-wynik.json").write_text(
         json.dumps({"wykluczone_z_badania": wykluczone, "wyniki": wyniki},
                    ensure_ascii=False, indent=2), encoding="utf-8")
     print("\nzapisano gates/naturalnosc/progi-s2-wynik.json")
