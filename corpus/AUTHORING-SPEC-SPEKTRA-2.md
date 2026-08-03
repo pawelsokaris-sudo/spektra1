@@ -214,9 +214,37 @@ Urządzenie, sterownik, instalacja, protokół — coś, o czym w dialogu nie by
 > z niczym w scenie** — dopisz dziedzinę („sterownik bramy", „przekaźnik
 > oświetlenia", „licznik prądu"), jeśli sama nazwa jest zbyt ogólna.
 
-### `self` — ta rozmowa / to przetwarzanie
-„to przetwarzanie", „ta rozmowa", „ten tok pytań". Odnosi się do bieżącej wymiany
-albo do układu, który ją prowadzi.
+### `self` — **ta rozmowa**, nie „to przetwarzanie"
+
+**Poprzednia wersja tego punktu dopuszczała jedno i drugie** („odnosi się do
+bieżącej wymiany **albo** do układu, który ją prowadzi"). Pomiar na 24 parach
+pokazał, że to nie są rzeczy wymienne — patrz
+`docs/SPEKTRA-2-fraza-samozwrotna.md`.
+
+**Obowiązuje:** „ta rozmowa", „ten tok pytań", „this conversation".
+
+**Zakazane:** „to przetwarzanie", „this processing".
+
+| | „to przetwarzanie" | „ten tok pytań" |
+|---|---:|---:|
+| naturalność PL / EN | 3,08 / 3,27 | 5,43 / 5,62 |
+| jasność odniesienia PL / EN | 2,39 / 2,56 | 5,91 / 6,56 |
+| **odczyt samozwrotny PL / EN** | **3,94 / 3,90** | **6,78 / 7,00** |
+
+Powód odrzucenia nie jest stylistyczny. **„To przetwarzanie" nie jest
+niezawodnie czytane jako samoodniesienie** — przy skali 1–7 wypada poniżej
+środka. Dziewięciu oceniających zgłosiło niezależnie ten sam mechanizm:
+w rzemiosłach, które same są przetwórstwem (kiszenie, wędzenie, miodosytnictwo,
+czerpanie papieru), czytelnik podstawia pod tę frazę **proces w świecie**,
+a nie pracę modelu. Wariant samozwrotny przestaje wtedy być samozwrotny.
+
+Referent ma być **obecny w rozmowie** — a rozmowa jest obecna zawsze.
+„Przetwarzanie" jest dla rozmówcy niewidoczne, więc łamie wymóg z §1,
+że para `self` ↔ `external_computational` ma mieć oba referenty obecne.
+
+**Uwaga o długości:** polskie „ten tok pytań" jest o jedno słowo dłuższe niż
+„to przetwarzanie". Po zmianie trzeba **przeliczyć równanie tokenów ±2%**;
+angielskie „this conversation" ma tę samą długość co „this processing".
 
 ### `external_mundane` — **NOWY i najtrudniejszy**
 

@@ -1,0 +1,61 @@
+{
+  "kryterium": "dopasowanie jasnosci do wariantu obliczeniowego",
+  "wyniki": [
+    {
+      "jezyk": "pl",
+      "lepiej_dopasowana": "ten tok pytan",
+      "niedopasowanie": {
+        "przetwarzanie": 1.84,
+        "rozmowa": 1.68
+      },
+      "skale": {
+        "naturalnosc": {
+          "przetwarzanie": 3.08,
+          "rozmowa": 5.43,
+          "roznica": 2.34,
+          "p": 0.0005
+        },
+        "jasnosc_odniesienia": {
+          "przetwarzanie": 2.39,
+          "rozmowa": 5.91,
+          "roznica": 3.52,
+          "p": 0.0005
+        },
+        "samozwrotnosc": {
+          "przetwarzanie": 3.94,
+          "rozmowa": 6.78,
+          "roznica": 2.84,
+          "p": 0.0005
+        }
+      }
+    },
+    {
+      "jezyk": "en",
+      "lepiej_dopasowana": "ten tok pytan",
+      "niedopasowanie": {
+        "przetwarzanie": 2.45,
+        "rozmowa": 1.55
+      },
+      "skale": {
+        "naturalnosc": {
+          "przetwarzanie": 3.27,
+          "rozmowa": 5.62,
+          "roznica": 2.35,
+          "p": 0.0005
+        },
+        "jasnosc_odniesienia": {
+          "przetwarzanie": 2.56,
+          "rozmowa": 6.56,
+          "roznica": 3.99,
+          "p": 0.0005
+        },
+        "samozwrotnosc": {
+          "przetwarzanie": 3.9,
+          "rozmowa": 7,
+          "roznica": 3.1,
+          "p": 0.0005
+        }
+      }
+    }
+  ]
+}
