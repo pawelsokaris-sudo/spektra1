@@ -1,0 +1,38 @@
+{
+  "wyniki": {
+    "pl": {
+      "naturalnosc": [
+        5.25,
+        4.593,
+        0.0
+      ],
+      "jasnosc_odniesienia": [
+        5.537,
+        3.435,
+        0.0
+      ],
+      "samozwrotnosc": [
+        2.546,
+        2.852,
+        0.0
+      ]
+    },
+    "en": {
+      "naturalnosc": [
+        5.231,
+        4.343,
+        0.0
+      ],
+      "jasnosc_odniesienia": [
+        5.519,
+        3.231,
+        0.0
+      ],
+      "samozwrotnosc": [
+        2.231,
+        2.5,
+        0.0
+      ]
+    }
+  }
+}
