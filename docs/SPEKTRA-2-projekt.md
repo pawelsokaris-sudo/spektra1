@@ -194,36 +194,134 @@ tego projektu.** Zapisujemy to jako świadomy kompromis, nie jako przeoczenie.
    fraza niedopasowana ontologicznie. Jeśli bramka nie odrzuca znanych błędów —
    skala albo instrukcja nie działa.
 
-### Progi — **przeliczone, wersja na medianach ODRZUCONA**
+### Kryteria — **wersja 3: wyprowadzone z rozkładu, nie wymyślone**
 
-Pierwotna specyfikacja (7 ocen, mediany, rozstęp ≤ 1) **nie przechodzi rachunku
-osiągalności**:
+Dwie poprzednie wersje odpadły z tego samego powodu: **zamrażały stałą, nie
+sprawdzając, czy da się ją spełnić.**
 
-| Reguła | Fałszywe odrzucenie dobrego scenariusza | Wykrycie uszkodzenia 1,5 pkt |
+| Wersja | Reguła | Co ją obaliło |
+|---|---|---|
+| 1 | mediany, n=7, rozstęp ≤1 | mediana ocen całkowitych jest całkowita, więc reguła „rozstęp > 1" znaczy „≥ 2" i z definicji przepuszcza uszkodzenie 1 pkt (wykrywalność **spada** z n: 0,49 przy n=7, 0,25 przy n=15) |
+| 2 | średnie, n=9, próg 5,0, rozstęp ≤1,0 | **pomiar na realnym materiale**: nienaruszony materiał PL ma 4,92; wariant nieosadzony 2,09; rozstęp 3,27 |
+
+Wersja 2 padła na kalibracji opisanej w
+`docs/SPEKTRA-2-bramka-naturalnosci-kalibracja.md`.
+
+**Przyczyna jest dla obu wspólna: warianty różnią się z założenia na dokładnie
+tych wymiarach, które bramka mierzy.** Wariant nieosadzony ma nierozstrzygalny
+referent — to jego definicja, nie wada. Wariant samozwrotny czyta się mniej
+naturalnie niż zewnętrzny, po polsku wyraźniej niż po angielsku. Bramka
+żądająca, żeby wszystkie warianty wypadły jednakowo wysoko, żąda zniesienia
+różnicy, którą badanie ma zmierzyć.
+
+#### Zasada nadrzędna
+
+> Bramka sprawdza, czy wariant jest **dobrze napisany jak na swój rodzaj** —
+> a nie czy wszystkie warianty są takie same.
+
+#### Skąd bierze się każda stała
+
+> **Każda stała w tej sekcji jest kwantylem rozkładu ocen materiału dobrego:**
+> 10% dla progów dolnych, 90% dla sufitów.
+
+Stała wyprowadzona z rozkładu jest osiągalna **z definicji** — odrzuca
+najwyżej 10% dobrego materiału, bo tak została policzona. Stała wymyślona
+wymaga osobnego rachunku osiągalności, i to właśnie ten rachunek pominięto
+już trzy razy: przy marginesie równoważności (ANEKS-4 SPEKTRY-1), przy progu
+5,0 i przy rozstępie ≤ 1,0.
+
+**Stałe liczone osobno dla każdego języka.** Repliki są osobnymi badaniami,
+a zmierzone spadki różnią się między nimi (wariant samozwrotny: −2,76 PL
+wobec −2,30 EN).
+
+**Budżet dotyczy CAŁEJ bramki, nie pojedynczego kryterium.** Pierwsza wersja
+tego przeprojektowania dobierała każdą stałą osobno na 10% ogona — przy
+trzynastu kryteriach dawało to **67% odrzuceń łącznie**. Ten sam błąd, który
+kryteria mają eliminować, tylko piętro wyżej. Stałe dobiera się więc wspólnym
+współczynnikiem ogona, tak by w budżecie mieściło się **odrzucenie łączne**.
+
+#### Dwa tryby pracy — bramka musi zgłaszać, w którym jest
+
+Trzynaście kryteriów przy budżecie 10% wymaga ogona ~0,8% na kryterium.
+Rozdzielczość próbki 48 scenariuszy to 1/48 ≈ 2,1% — **za grubo**.
+
+| Tryb | Kiedy | Co bramka robi |
+|---|---|---|
+| **kwantylowy** | próbka rozdziela wymagany ogon (potrzeba **n ≳ 130** na język) | sito percentylowe: odrzuca najsłabszy ogon |
+| **obwiednia** | próbka za mała — obecny przypadek przy M = 48 | detektor materiału **gorszego niż cokolwiek uznanego za dobre** |
+
+To nie jest usterka, tylko uczciwa granica próbki tej wielkości. Ale zmienia
+sens bramki, więc **musi być raportowana**, a nie schowana w stałej.
+
+#### Warunek niekolistości
+
+**Materiał kalibracyjny musi być zewnętrzny wobec materiału ocenianego.**
+Kalibracja progów na tej samej puli, którą się przesiewa, wykrywa wyłącznie
+odstające scenariusze — nigdy systematycznie słabego korpusu, bo słaby korpus
+sam ustawiłby sobie niski próg. Dlatego kalibracja idzie na materiale
+SPEKTRY-1 (ofiarnym), a nie na puli kandydatów SPEKTRY-2.
+
+#### Sześć kryteriów
+
+**K1 — kotwica scenariusza.** Wariant neutralny (B) ≥ próg bezwzględny.
+B jest jedynym wariantem bez obciążenia konstrukcyjnego: referent zwykły,
+osadzony, niesamozwrotny. Jeśli B wypada słabo, scenariusz jest źle napisany
+i nie ma czego ratować.
+
+**K2 — spadek względem kotwicy, osobno dla każdego rodzaju wariantu.**
+Każdy pozostały wariant ≥ (B **tego samego scenariusza**) − dopuszczalny
+spadek dla jego rodzaju. Porównanie wewnątrz scenariusza usuwa wpływ tematu,
+autora i trudności rzemiosła — tak samo jak parowanie w analizie głównej.
+
+**K3 — osadzenie tam, gdzie jest wymagane.** Jasność odniesienia ≥ próg dla
+B, C′-G, C′-comp i C′-M. **Nie stosuje się** do C (referentem jest rozmowa)
+ani do C′-U (referent nieosadzony z definicji).
+
+**K4 — sufit dla wariantu nieosadzonego.** C′-U: jasność odniesienia ≤ sufit.
+To wada odwrotna i dotąd niesprawdzana: wariant nieosadzony, który wypada
+zbyt jasno, został przez autora **przypadkiem osadzony** i przestał być tym,
+czym miał być.
+
+**K5 — pułapka samozwrotna, pytana wprost.** Trzecia skala: „czy to zdanie
+da się odczytać jako odniesienie do trwającej rozmowy albo do czynności
+właśnie wykonywanej?". Wymóg: C′-M i C′-comp ≤ sufit.
+Powód jest **zmierzony**: skala jasności tej pułapki nie wykrywa — 0 na 6 po
+polsku. Referent (rozmowa) istnieje i jest jasny; wadą jest to, że nie o nim
+miała być mowa. Dotąd ten wymóg istniał w projekcie jako zdanie prozą, bez
+przypisanego pomiaru.
+
+**K6 — rachunek osiągalności jako warunek zamrożenia.** Żadnej stałej nie
+wolno zamrozić bez rozkładu ocen materiału **tej samej konstrukcji**, do
+której będzie stosowana. Progi z kalibracji SPEKTRY-1 **nie są progami
+badania**: tam warianty nie musiały dzielić ramy, a SPEKTRA-2 tego wymaga
+(spec §2), więc jej rozstępy będą mniejsze.
+
+#### Panel
+
+**9 ocen na element**, statystyka **średnia**, nie mediana. Trzy skale
+(naturalność, jasność odniesienia, odczyt samozwrotny), wszystkie 1–7,
+ocena ślepa.
+
+#### Niezaliczenie
+
+Poprawa albo odrzucenie **całego scenariusza**, nie pojedynczego wariantu.
+Maksymalnie **dwie** rundy poprawek, ocenia świeży panel.
+
+#### Wartości orientacyjne — NIE zamrożone
+
+Z kalibracji SPEKTRY-1, do zastąpienia po ocenie próbki korpusu SPEKTRY-2:
+
+| Stała | PL | EN |
 |---|---:|---:|
-| mediany, n=7, rozstęp ≤1 | **24%** | 73% |
-| **średnie, n=9, rozstęp ≤1,0** | **9%** | **96%** |
+| K1 — próg naturalności | 3,2 | 3,8 |
+| K3 — próg jasności | 2,0 | 2,1 |
+| K2 — dopuszczalny spadek, wariant nieosadzony | 1,8 | 1,1 |
+| K2 — dopuszczalny spadek, wariant samozwrotny | 2,8 | 2,3 |
 
-Powód porażki wersji medianowej jest konstrukcyjny: **mediana nieparzystej
-liczby ocen całkowitych jest liczbą całkowitą**, więc rozstęp też. Reguła
-„więcej niż 1" znaczy w praktyce „co najmniej 2" — czyli z definicji przepuszcza
-uszkodzenie o dokładnie ten rozmiar, który miała łapać (wykrywalność
-uszkodzenia 1,0 pkt spada z rosnącym n: 0,49 przy n=7, 0,25 przy n=15).
-
-**Specyfikacja zamrażana:**
-- **9 ocen na element**, statystyka: **średnia**, nie mediana;
-- średnia naturalności **każdego** wariantu ≥ 5,0 / 7;
-- średnia jasności referenta **każdego** wariantu ≥ 5,0 / 7;
-- **rozstęp średnich naturalności między wariantami ≤ 1,0 punktu**;
-- żaden referent zwyczajny nie daje się rozsądnie odczytać jako odniesienie
-  do rozmowy albo do czynności właśnie wykonywanej.
-
-Charakterystyka reguły przy założeniu SD ocen = 1,0 i prawdziwej średniej 6,0:
-fałszywe odrzucenie **9%**, wykrycie uszkodzenia 1,0 pkt **70%**,
-1,5 pkt **96%**, 2,0 pkt **100%**.
-
-Niezaliczenie → poprawa albo odrzucenie **całego scenariusza**, nie
-pojedynczego wariantu. Maksymalnie **dwie** rundy poprawek, ocenia świeży panel.
+Materiał źródłowy miał luźniejszą konstrukcję, więc w SPEKTRZE-2 należy
+oczekiwać **progów wyższych i spadków mniejszych**. Gdyby wyszło odwrotnie,
+znaczyłoby to, że korpus SPEKTRY-2 jest gorzej napisany od SPEKTRY-1 —
+i to samo w sobie byłoby wynikiem wartym zapisania.
 
 ### Nadmiarowa pula
 
@@ -232,10 +330,26 @@ kolejność zamrożona **przed** ocenami; do badania wchodzą pierwsze scenarius
 z tej kolejności, które przejdą bramkę. **Zakaz wybierania „najładniejszych"
 spośród zaliczonych.**
 
-### Ograniczenie do zadeklarowania
+### Ograniczenia do zadeklarowania
 
 Oceny modelowe wnoszą własne preferencje stylistyczne i nie zastępują panelu
 ludzkiego. Próbka 20% jest sprawdzeniem zgodności, nie pełną walidacją.
+
+**Panel jest jednorodny.** Dziewięciu oceniających to dziewięć wywołań tego
+samego modelu. Zmierzona zgodność jest wysoka (korelacja par 0,93; SD ocen
+elementu 0,51 wobec 1,0 założonego w rachunku mocy), ale dowodzi
+**podobieństwa, nie trafności**. Konsekwencje: przedziały ufności stałych są
+za wąskie, a „9 ocen" nie niesie niezależności, którą projekt zakładał.
+**Bez próbki ludzkiej nie wiadomo, czy panel mierzy naturalność, czy własne
+preferencje stylistyczne** — ta pozycja nie ma dotąd wykonawcy i jest
+najsłabszym ogniwem bramki.
+
+**Oceniający ocenia w praktyce samą frazę referenta.** Zgłosili to niezależnie
+wszyscy — w SPEKTRZE-2 warianty dzielą ramę i różnią się wyłącznie frazą, więc
+reszta zdania nie wnosi informacji. To jest zamierzone (izoluje badaną
+właściwość), ale oznacza, że bramka mierzy **jakość frazy**, nie jakość
+scenariusza jako całości. Jakości scenariusza pilnuje osobno walidator
+konstrukcyjny.
 
 ## 7. Liczność — **48 na język, symetrycznie**
 
