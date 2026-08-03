@@ -1,0 +1,58 @@
+{
+  "budzet_bledu": 0.1,
+  "regula": "prog = kwantyl 10% rozkladu srednich elementow nienaruszonych",
+  "wyniki": [
+    {
+      "jezyk": "pl",
+      "metryka": "naturalnosc",
+      "prog": 3.22,
+      "bootstrap95": [
+        2.56,
+        3.33
+      ],
+      "falszywe_odrzucenie": 0.083,
+      "wykrywalnosc": 1.0,
+      "srednia_nienaruszonych": 4.92,
+      "srednia_uszkodzonych": 2.19
+    },
+    {
+      "jezyk": "en",
+      "metryka": "naturalnosc",
+      "prog": 3.78,
+      "bootstrap95": [
+        3.56,
+        5
+      ],
+      "falszywe_odrzucenie": 0.083,
+      "wykrywalnosc": 1.0,
+      "srednia_nienaruszonych": 5.46,
+      "srednia_uszkodzonych": 1.9
+    },
+    {
+      "jezyk": "pl",
+      "metryka": "jasnosc odniesienia",
+      "prog": 2,
+      "bootstrap95": [
+        1.89,
+        2.22
+      ],
+      "falszywe_odrzucenie": 0.042,
+      "wykrywalnosc": 0.75,
+      "srednia_nienaruszonych": 4.12,
+      "srednia_uszkodzonych": 1.69
+    },
+    {
+      "jezyk": "en",
+      "metryka": "jasnosc odniesienia",
+      "prog": 2.11,
+      "bootstrap95": [
+        2,
+        3
+      ],
+      "falszywe_odrzucenie": 0.083,
+      "wykrywalnosc": 0.826,
+      "srednia_nienaruszonych": 4.44,
+      "srednia_uszkodzonych": 1.46
+    }
+  ]
+}
