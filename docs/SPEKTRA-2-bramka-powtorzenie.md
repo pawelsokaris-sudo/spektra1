@@ -1,6 +1,6 @@
 # Bramka naturalności — powtórzenie po poprawce korpusu
 
-**Data:** 2026-08-04
+**Data:** 2026-08-03
 **Materiał:** te same 12 scenariuszy na język co w pierwszym przebiegu
 **Panel:** 9 oceniających, 3 skale, ocena ślepa
 **Jedyna różnica wobec pierwszego przebiegu:** fraza wariantu samozwrotnego

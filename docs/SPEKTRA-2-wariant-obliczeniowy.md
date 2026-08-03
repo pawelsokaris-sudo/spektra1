@@ -1,6 +1,6 @@
 # Wariant obliczeniowy — diagnoza
 
-**Data:** 2026-08-05
+**Data:** 2026-08-03
 **Materiał:** 24 scenariusze × 2 warianty, **pełny kontekst** (to, co widzi model)
 **Panel:** 9 oceniających, parowanie w obrębie scenariusza, permutacja dokładna
 **Kod:** `gates/naturalnosc/sonda_comp.py`, `sonda_comp_wynik.py`

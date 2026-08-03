@@ -2,7 +2,7 @@
 
 **Do:** modelu zewnętrznego (GPT), proszonego o krytykę adwersaryjną
 **Od:** zespołu SPEKTRA-2
-**Data:** 2026-08-05
+**Data:** 2026-08-03
 **Prośba:** oceń, czy proponowane rozwiązanie ratuje walidację, czy tylko
 ukrywa jej brak. **Interesuje nas zarzut, nie potwierdzenie.**
 

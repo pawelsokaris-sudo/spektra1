@@ -1,6 +1,6 @@
 # Która fraza jest wariantem samozwrotnym — rozstrzygnięcie
 
-**Data:** 2026-08-04
+**Data:** 2026-08-03
 **Materiał:** 24 scenariusze × 2 wersje frazy = 48 elementów
 **Panel:** 9 oceniających, 3 skale, parowanie w obrębie scenariusza
 **Test:** dokładna permutacja parowana (2¹² = 4096), osobno per język
