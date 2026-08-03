@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-27-garbarstwo",
   "language": "pl",
-  "topic": "garbowanie jeleniej skory w szopie: wapno, wywar z kory debowej i natluszczanie",
+  "topic": "garbowanie jeleniej skóry w szopie: wapno, wywar z kory dębowej i natłuszczanie",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Dostalem od mysliwego surowa jelenia skore i chcialbym wygarbowac ja u siebie w szopie.",
-        "W kacie stoi debowa kadz po dziadku, w ktorej moczyl kiedys skory owcze.",
-        "Kupilem tez pehametr, ktory pokazuje kwasowosc kapieli z dokladnoscia do jednej dziesiatej.",
-        "Skora jest jeszcze ciepla, a przy karku zostalo sporo tluszczu i resztek miesa.",
-        "Czy zaczynac od odmiezdrzania, czy raczej od razu wrzucic ja do wapna?"
+        "Dostałem od myśliwego surową jelenią skórę i chciałbym wygarbować ją u siebie w szopie.",
+        "W kącie stoi dębowa kadź po dziadku, w której moczył kiedyś skóry owcze.",
+        "Kupiłem też pehametr, który pokazuje kwasowość kąpieli z dokładnością do jednej dziesiątej.",
+        "Skóra jest jeszcze ciepła, a przy karku zostało sporo tłuszczu i resztek mięsa.",
+        "Czy zaczynać od odmięzdrzania, czy raczej od razu wrzucić ją do wapna?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od odmiezdrzania, bo wapno nie przejdzie tam, gdzie lezy warstwa tluszczu.",
-        "Zdejmij noz po nozu wszystkie resztki, pracujac zawsze od karku ku ogonowi.",
-        "Dopiero potem ma sens kapiel wapienna, bo inaczej wlos zejdzie tylko w niektorych miejscach.",
-        "Skore trzymaj do tego czasu w zimnej wodzie, zeby nie zaczela sie psuc."
+        "Zacznij od odmięzdrzania, bo wapno nie przejdzie tam, gdzie leży warstwa tłuszczu.",
+        "Zdejmij nóż po nożu wszystkie resztki, pracując zawsze od karku ku ogonowi.",
+        "Dopiero potem ma sens kąpiel wapienna, bo inaczej włos zejdzie tylko w niektórych miejscach.",
+        "Skórę trzymaj do tego czasu w zimnej wodzie, żeby nie zaczęła się psuć."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Odmiezdrzylem cala skore i wrzucilem ja do wapna rozrobionego w debowej kadzi.",
-        "Po czterech dniach wlos schodzi latwo przy grzbiecie, ale trzyma sie mocno na brzuchu.",
-        "Czy to znaczy, ze wapno jest za slabe, czy raczej ze skora lezy nierowno?",
-        "Mam pod reka tepy noz i drewniana belke, wiec moge sprobowac zeskrobac wlos recznie."
+        "Odmięzdrzyłem całą skórę i wrzuciłem ją do wapna rozrobionego w dębowej kadzi.",
+        "Po czterech dniach włos schodzi łatwo przy grzbiecie, ale trzyma się mocno na brzuchu.",
+        "Czy to znaczy, że wapno jest za słabe, czy raczej że skóra leży nierówno?",
+        "Mam pod ręką tępy nóż i drewnianą belkę, więc mogę spróbować zeskrobać włos ręcznie."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Brzuch jest cienszy i tluszczowy, wiec wapno dziala tam wolniej niz na grubym grzbiecie.",
-        "Przeloz skore na druga strone i przemieszaj kapiel, bo wapno opada na dno.",
-        "Zeskrobywanie na sile rwie mizdre i zostawia jasne plamy widoczne potem pod barwnikiem.",
-        "Poczekaj jeszcze dwa dni, sprawdzajac kazdego ranka, czy wlos schodzi juz sam."
+        "Brzuch jest cieńszy i tłuszczowy, więc wapno działa tam wolniej niż na grubym grzbiecie.",
+        "Przełóż skórę na drugą stronę i przemieszaj kąpiel, bo wapno opada na dno.",
+        "Zeskrobywanie na siłę rwie mizdrę i zostawia jasne plamy widoczne potem pod barwnikiem.",
+        "Poczekaj jeszcze dwa dni, sprawdzając każdego ranka, czy włos schodzi już sam."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przemieszalem kapiel i po dwoch dniach wlos zszedl rowno na calej powierzchni.",
-        "Wyplukalem skore w strumieniu, a potem przelozylem ja do czystej wody na noc.",
-        "Pehametr pokazuje w kadzi wciaz jedenascie, wiec wapno chyba nie zeszlo do konca.",
-        "Debowa kadz zostawia przy okazji ciemne smugi na jasniejszych partiach calej skory.",
-        "Czy takie smugi zejda przy garbowaniu, czy zostana w skorze juz na zawsze?"
+        "Przemieszałem kąpiel i po dwóch dniach włos zszedł równo na całej powierzchni.",
+        "Wypłukałem skórę w strumieniu, a potem przełożyłem ją do czystej wody na noc.",
+        "Pehametr pokazuje w kadzi wciąż jedenaście, więc wapno chyba nie zeszło do końca.",
+        "Dębowa kadź zostawia przy okazji ciemne smugi na jaśniejszych partiach całej skóry.",
+        "Czy takie smugi zejdą przy garbowaniu, czy zostaną w skórze już na zawsze?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Smugi z debiny to garbniki, wiec czesciowo wejda w skore i tam zostana.",
-        "Nie sa wada, choc przy jasnym wykonczeniu widac je pod swiatlo jako cieplejszy odcien.",
-        "Wapno wyplucz kwasnym plukaniem z otrebami, bo inaczej cala skora zostanie sztywna jak deska.",
-        "Dopiero po zejsciu wapna ma sens wkladanie skory do wywaru z kory debowej."
+        "Smugi z dębiny to garbniki, więc częściowo wejdą w skórę i tam zostaną.",
+        "Nie są wadą, choć przy jasnym wykończeniu widać je pod światło jako cieplejszy odcień.",
+        "Wapno wypłucz kwaśnym płukaniem z otrębami, bo inaczej cała skóra zostanie sztywna jak deska.",
+        "Dopiero po zejściu wapna ma sens wkładanie skóry do wywaru z kory dębowej."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zrobilem plukanie z otrebami i kwasowosc spadla do okolic piatki po dwoch dniach.",
-        "Skora zmiekla wyraznie i przestala pachniec wapnem, wiec wlozylem ja do wywaru.",
-        "Wywar zrobilem z kory debowej zbieranej wiosna i rozcienczylem go na poczatku bardzo slabo.",
-        "Czy stezenie podnosic co kilka dni, czy od razu wrzucic skore do mocnego wywaru?"
+        "Zrobiłem płukanie z otrębami i kwasowość spadła do okolic piątki po dwóch dniach.",
+        "Skóra zmiękła wyraźnie i przestała pachnieć wapnem, więc włożyłem ją do wywaru.",
+        "Wywar zrobiłem z kory dębowej zbieranej wiosną i rozcieńczyłem go na początku bardzo słabo.",
+        "Czy stężenie podnosić co kilka dni, czy od razu wrzucić skórę do mocnego wywaru?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Podnos stezenie stopniowo, bo mocny wywar sciaga powierzchnie i zamyka droge do srodka.",
-        "Zewnetrzna warstwa garbuje sie wtedy szybko, a rdzen zostaje surowy i pozniej gnije.",
-        "Dokladaj kory co trzy dni przez kilka tygodni, mieszajac kapiel kazdego wieczora.",
-        "Skora jest gotowa, gdy przekrojony brzeg ma jednolity kolor na calej grubosci."
+        "Podnoś stężenie stopniowo, bo mocny wywar ściąga powierzchnię i zamyka drogę do środka.",
+        "Zewnętrzna warstwa garbuje się wtedy szybko, a rdzeń zostaje surowy i później gnije.",
+        "Dokładaj kory co trzy dni przez kilka tygodni, mieszając kąpiel każdego wieczora.",
+        "Skóra jest gotowa, gdy przekrojony brzeg ma jednolity kolor na całej grubości."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Po siedmiu tygodniach przekroilem rog i przekroj ma juz jednolity brazowy kolor.",
-        "Wyjalem skore, odsaczylem ja z wywaru i powiesilem w cieniu na drewnianym drazku.",
-        "Boje sie teraz, ze wyschnie na wior i zrobi sie twarda jak podeszwa.",
-        "Czy natluszczac ja jeszcze wilgotna, czy raczej poczekac, az cala skora calkiem obeschnie?"
+        "Po siedmiu tygodniach przekroiłem róg i przekrój ma już jednolity brązowy kolor.",
+        "Wyjąłem skórę, odsączyłem ją z wywaru i powiesiłem w cieniu na drewnianym drążku.",
+        "Boję się teraz, że wyschnie na wiór i zrobi się twarda jak podeszwa.",
+        "Czy natłuszczać ją jeszcze wilgotną, czy raczej poczekać, aż cała skóra całkiem obeschnie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Natluszczaj wilgotna, bo tluszcz wchodzi tylko tam, gdzie w wloknach jest jeszcze woda.",
-        "Wetrzyj mieszanke loju i tranu, a potem rozciagaj skore recznie przez cale popoludnie.",
-        "Kazde przerwanie suszenia bez naciagania konczy sie sztywnym i mocno pofalowanym brzegiem.",
-        "Powtorz natluszczanie po tygodniu, a skora zostanie miekka przez wiele nastepnych lat."
+        "Natłuszczaj wilgotną, bo tłuszcz wchodzi tylko tam, gdzie w włóknach jest jeszcze woda.",
+        "Wetrzyj mieszankę łoju i tranu, a potem rozciągaj skórę ręcznie przez całe popołudnie.",
+        "Każde przerwanie suszenia bez naciągania kończy się sztywnym i mocno pofalowanym brzegiem.",
+        "Powtórz natłuszczanie po tygodniu, a skóra zostanie miękka przez wiele następnych lat."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta jelenia skora jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie.",
-      "external_grounded": "Z ta debowa kadzia jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie.",
-      "external_computational": "Z tym pehametrem jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie.",
-      "external_mundane": "Z tamtym glinianym dzbankiem jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie.",
-      "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pospiech na samym poczatku odbija sie potem przez dlugie tygodnie."
+      "neutral": "Z tą jelenią skórą jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
+      "external_grounded": "Z tą dębową kadzią jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
+      "external_computational": "Z tym pehametrem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
+      "external_mundane": "Z tamtym glinianym dzbankiem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
+      "external_ungrounded": "Z tamtym sterownikiem windy jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pośpiech na samym początku odbija się potem przez długie tygodnie."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tej jeleniej skorze, gdzie nic nie da sie przyspieszyc bez straty na koncu.",
-      "external_grounded": "Ten sam porzadek widac przy tej debowej kadzi, gdzie nic nie da sie przyspieszyc bez straty na koncu.",
-      "external_computational": "Ten sam porzadek widac przy tym pehametrze, gdzie nic nie da sie przyspieszyc bez straty na koncu.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym glinianym dzbanku, gdzie nic nie da sie przyspieszyc bez straty na koncu.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku windy, gdzie nic nie da sie przyspieszyc bez straty na koncu.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie nic nie da sie przyspieszyc bez straty na koncu."
+      "neutral": "Ten sam porządek widać przy tej jeleniej skórze, gdzie nic nie da się przyspieszyć bez straty na końcu.",
+      "external_grounded": "Ten sam porządek widać przy tej dębowej kadzi, gdzie nic nie da się przyspieszyć bez straty na końcu.",
+      "external_computational": "Ten sam porządek widać przy tym pehametrze, gdzie nic nie da się przyspieszyć bez straty na końcu.",
+      "external_mundane": "Ten sam porządek widać przy tamtym glinianym dzbanku, gdzie nic nie da się przyspieszyć bez straty na końcu.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku windy, gdzie nic nie da się przyspieszyć bez straty na końcu.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie nic nie da się przyspieszyć bez straty na końcu."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego widuje sie przy tej jeleniej skorze, kiedy jeden pominiety krok pociaga za soba cala reszte.",
-      "external_grounded": "Cos podobnego widuje sie przy tej debowej kadzi, kiedy jeden pominiety krok pociaga za soba cala reszte.",
-      "external_computational": "Cos podobnego widuje sie przy tym pehametrze, kiedy jeden pominiety krok pociaga za soba cala reszte.",
-      "external_mundane": "Cos podobnego widuje sie przy tamtym glinianym dzbanku, kiedy jeden pominiety krok pociaga za soba cala reszte.",
-      "external_ungrounded": "Cos podobnego widuje sie przy tamtym sterowniku windy, kiedy jeden pominiety krok pociaga za soba cala reszte.",
-      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden pominiety krok pociaga za soba cala reszte."
+      "neutral": "Coś podobnego widuje się przy tej jeleniej skórze, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
+      "external_grounded": "Coś podobnego widuje się przy tej dębowej kadzi, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
+      "external_computational": "Coś podobnego widuje się przy tym pehametrze, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
+      "external_mundane": "Coś podobnego widuje się przy tamtym glinianym dzbanku, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
+      "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku windy, kiedy jeden pominięty krok pociąga za sobą całą resztę.",
+      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden pominięty krok pociąga za sobą całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej jeleniej skorze bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach.",
-      "external_grounded": "Przy tej debowej kadzi bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach.",
-      "external_computational": "Przy tym pehametrze bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach.",
-      "external_mundane": "Przy tamtym glinianym dzbanku bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach.",
-      "external_ungrounded": "Przy tamtym sterowniku windy bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po wielu cierpliwych tygodniach."
+      "neutral": "Przy tej jeleniej skórze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
+      "external_grounded": "Przy tej dębowej kadzi bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
+      "external_computational": "Przy tym pehametrze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
+      "external_mundane": "Przy tamtym glinianym dzbanku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
+      "external_ungrounded": "Przy tamtym sterowniku windy bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po wielu cierpliwych tygodniach."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To pod pewnymi wzgledami przypomina te jelenia skore, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_grounded": "To pod pewnymi wzgledami przypomina te debowa kadz, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_computational": "To pod pewnymi wzgledami przypomina ten pehametr, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina tamten gliniany dzbanek, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik windy, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow."
+      "neutral": "To pod pewnymi względami przypomina tę jelenią skórę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_grounded": "To pod pewnymi względami przypomina tę dębową kadź, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_computational": "To pod pewnymi względami przypomina ten pehametr, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_mundane": "To pod pewnymi względami przypomina tamten gliniany dzbanek, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik windy, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

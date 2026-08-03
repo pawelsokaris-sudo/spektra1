@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-34-kaflarstwo",
   "language": "pl",
-  "topic": "stary piec kaflowy: dymienie, czyszczenie kanalow, ciag i osadzanie kafli",
+  "topic": "stary piec kaflowy: dymienie, czyszczenie kanałów, ciąg i osadzanie kafli",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Odziedziczylem dom z piecem kaflowym w izbie i od jesieni dymi mi przy kazdym rozpaleniu.",
-        "W kuchni stoi jeszcze kuchnia kaflowa podlaczona do tego samego komina, i ta ciagnie bez zarzutu.",
-        "Kupilem miernik ciagu, bo chcialem wiedziec, czy komin w ogole daje wystarczajace podcisnienie.",
-        "Kilka kafli na czolowej scianie ma wlosowate pekniecia, a jeden odstaje od korpusu.",
-        "Czy zaczynac od czyszczenia kanalow dymowych, czy raczej od wymiany tych peknietych kafli?"
+        "Odziedziczyłem dom z piecem kaflowym w izbie i od jesieni dymi mi przy każdym rozpaleniu.",
+        "W kuchni stoi jeszcze kuchnia kaflowa podłączona do tego samego komina, i ta ciągnie bez zarzutu.",
+        "Kupiłem miernik ciągu, bo chciałem wiedzieć, czy komin w ogóle daje wystarczające podciśnienie.",
+        "Kilka kafli na czołowej ścianie ma włosowate pęknięcia, a jeden odstaje od korpusu.",
+        "Czy zaczynać od czyszczenia kanałów dymowych, czy raczej od wymiany tych pękniętych kafli?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od kanalow, bo dymienie prawie zawsze bierze sie z zarosnietego przewodu, nie z kafli.",
-        "Sadza i popiol zwezaja przekroj, a wtedy ciag spada nawet przy calkiem droznym kominie.",
-        "Pekniete kafle psuja wyglad i oddaja mniej ciepla, ale same z siebie dymienia nie powoduja.",
-        "Dopiero po wyczyszczeniu kanalow ma sens zdejmowanie kafli, inaczej rozbierzesz piec bez potrzeby."
+        "Zacznij od kanałów, bo dymienie prawie zawsze bierze się z zarośniętego przewodu, nie z kafli.",
+        "Sadza i popiół zwężają przekrój, a wtedy ciąg spada nawet przy całkiem drożnym kominie.",
+        "Pęknięte kafle psują wygląd i oddają mniej ciepła, ale same z siebie dymienia nie powodują.",
+        "Dopiero po wyczyszczeniu kanałów ma sens zdejmowanie kafli, inaczej rozbierzesz piec bez potrzeby."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Otworzylem wyczystki i wygarnalem z dolnego kanalu prawie polowe wiadra sypkiej sadzy.",
-        "Ciag poprawil sie od razu, choc przy rozpalaniu dym nadal cofa sie przez pierwsze minuty.",
-        "Po kwadransie wszystko idzie juz do komina i piec grzeje rowno przez cala noc.",
-        "Czy to normalne przy zimnym kominie, czy raczej znak, ze przekroj jest za duzy?"
+        "Otworzyłem wyczystki i wygarnąłem z dolnego kanału prawie połowę wiadra sypkiej sadzy.",
+        "Ciąg poprawił się od razu, choć przy rozpalaniu dym nadal cofa się przez pierwsze minuty.",
+        "Po kwadransie wszystko idzie już do komina i piec grzeje równo przez całą noc.",
+        "Czy to normalne przy zimnym kominie, czy raczej znak, że przekrój jest za duży?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "To normalne, bo zimny slup powietrza w kominie stawia opor, dopoki sie nie nagrzeje.",
-        "Rozpalaj od gory, ukladajac drobne szczapy na wierzchu, a dym pojdzie od pierwszej chwili.",
-        "Mozesz tez wygrzac komin, palac zwinieta gazete tuz przy wyczystce przez kilka minut.",
-        "Za duzy przekroj poznasz inaczej: piec ciagnie ospale takze wtedy, gdy komin jest juz cieply."
+        "To normalne, bo zimny słup powietrza w kominie stawia opór, dopóki się nie nagrzeje.",
+        "Rozpalaj od góry, układając drobne szczapy na wierzchu, a dym pójdzie od pierwszej chwili.",
+        "Możesz też wygrzać komin, paląc zwiniętą gazetę tuż przy wyczystce przez kilka minut.",
+        "Za duży przekrój poznasz inaczej: piec ciągnie ospale także wtedy, gdy komin jest już ciepły."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Rozpalam teraz od gory i dym idzie w komin praktycznie od pierwszej zapalki.",
-        "Miernik ciagu pokazuje przy nagrzanym kominie dwanascie paskali, czyli chyba calkiem przyzwoicie.",
-        "Gorzej, ze kiedy pali sie w kuchni kaflowej, izbowy piec potrafi lekko dymic.",
-        "Czy dwa paleniska na jednym kominie zawsze sobie tak przeszkadzaja, czy da sie to rozdzielic?"
+        "Rozpalam teraz od góry i dym idzie w komin praktycznie od pierwszej zapałki.",
+        "Miernik ciągu pokazuje przy nagrzanym kominie dwanaście paskali, czyli chyba całkiem przyzwoicie.",
+        "Gorzej, że kiedy pali się w kuchni kaflowej, izbowy piec potrafi lekko dymić.",
+        "Czy dwa paleniska na jednym kominie zawsze sobie tak przeszkadzają, czy da się to rozdzielić?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Dwa paleniska na jednym przewodzie zawsze rywalizuja o to samo, wspolne podcisnienie.",
-        "Mocniej ciagnie ten, ktory ma krotsza droge do komina i cieplejszy kanal.",
-        "Najpewniejsze rozwiazanie to osobny przewod dla kazdego paleniska, ale to powazna przebudowa komina.",
-        "Tanszym sposobem jest szczelna klapa w kanale tego pieca, zamykana na czas palenia w kuchni."
+        "Dwa paleniska na jednym przewodzie zawsze rywalizują o to samo, wspólne podciśnienie.",
+        "Mocniej ciągnie ten, który ma krótszą drogę do komina i cieplejszy kanał.",
+        "Najpewniejsze rozwiązanie to osobny przewód dla każdego paleniska, ale to poważna przebudowa komina.",
+        "Tańszym sposobem jest szczelna klapa w kanale tego pieca, zamykana na czas palenia w kuchni."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wstawilem klape do kanalu izbowego pieca i dymienie przy paleniu w kuchni ustapilo.",
-        "Wrocilem wiec do kafli, bo ten odstajacy chwieje sie coraz bardziej przy kazdym paleniu.",
-        "Za nim widac szara zaprawe i szczeline, przez ktora ciagnie chlodne powietrze z izby.",
-        "Czy taki kafel da sie osadzic z powrotem, czy trzeba rozbierac cala sciane?"
+        "Wstawiłem klapę do kanału izbowego pieca i dymienie przy paleniu w kuchni ustąpiło.",
+        "Wróciłem więc do kafli, bo ten odstający chwieje się coraz bardziej przy każdym paleniu.",
+        "Za nim widać szarą zaprawę i szczelinę, przez którą ciągnie chłodne powietrze z izby.",
+        "Czy taki kafel da się osadzić z powrotem, czy trzeba rozbierać całą ścianę?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Pojedynczy kafel osadza sie z powrotem bez ruszania sasiadow, jesli rumpa nie jest peknieta.",
-        "Wykuj stara zaprawe, oczysc gniazdo i zwilz je porzadnie przed nalozeniem nowej.",
-        "Uzyj zaprawy szamotowej z dodatkiem gliny, bo cementowa peka po kilku sezonach grzania.",
-        "Rumpe wypelnij tluczniem szamotowym, zeby kafel oddawal cieplo rowno z cala pozostala sciana."
+        "Pojedynczy kafel osadza się z powrotem bez ruszania sąsiadów, jeśli rumpa nie jest pęknięta.",
+        "Wykuj starą zaprawę, oczyść gniazdo i zwilż je porządnie przed nałożeniem nowej.",
+        "Użyj zaprawy szamotowej z dodatkiem gliny, bo cementowa pęka po kilku sezonach grzania.",
+        "Rumpę wypełnij tłuczniem szamotowym, żeby kafel oddawał ciepło równo z całą pozostałą ścianą."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Osadzilem kafel na zaprawie szamotowej i po tygodniu trzyma mocno, bez najmniejszego luzu.",
-        "Wlosowate pekniecia na sasiednich kaflach jednak wyraznie sie wydluzyly przez ostatnie mrozy.",
-        "Palilem wtedy mocno, bo w izbie bylo naprawde zimno przez kilka kolejnych dni.",
-        "Czy to wina zbyt gwaltownego grzania, czy raczej samej jakosci tych starych kafli?"
+        "Osadziłem kafel na zaprawie szamotowej i po tygodniu trzyma mocno, bez najmniejszego luzu.",
+        "Włosowate pęknięcia na sąsiednich kaflach jednak wyraźnie się wydłużyły przez ostatnie mrozy.",
+        "Paliłem wtedy mocno, bo w izbie było naprawdę zimno przez kilka kolejnych dni.",
+        "Czy to wina zbyt gwałtownego grzania, czy raczej samej jakości tych starych kafli?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Wlosowate pekniecia szkliwa biora sie najczesciej z gwaltownych zmian temperatury w kaflu.",
-        "Szkliwo rozszerza sie inaczej niz czerep, wiec przy szybkim grzaniu siatka drobnych rys narasta.",
-        "Sam czerep zwykle pozostaje caly, wiec piec grzeje dalej i nic mu nie grozi.",
-        "Rozpalaj wolniej i dokladaj mniejsze porcje drewna, a nowe rysy przestana sie pojawiac."
+        "Włosowate pęknięcia szkliwa biorą się najczęściej z gwałtownych zmian temperatury w kaflu.",
+        "Szkliwo rozszerza się inaczej niż czerep, więc przy szybkim grzaniu siatka drobnych rys narasta.",
+        "Sam czerep zwykle pozostaje cały, więc piec grzeje dalej i nic mu nie grozi.",
+        "Rozpalaj wolniej i dokładaj mniejsze porcje drewna, a nowe rysy przestaną się pojawiać."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym piecem kaflowym jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie.",
-      "external_grounded": "Z ta kuchnia kaflowa jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie.",
-      "external_computational": "Z tym miernikiem ciagu jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie.",
-      "external_mundane": "Z tamtym corocznym myciem okien jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie.",
-      "external_ungrounded": "Z tamtym licznikiem pradu jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo dopiero po dluzszym czasie widac, czy poczatek byl naprawde zrobiony porzadnie."
+      "neutral": "Z tym piecem kaflowym jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
+      "external_grounded": "Z tą kuchnią kaflową jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
+      "external_computational": "Z tym miernikiem ciągu jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
+      "external_mundane": "Z tamtym corocznym myciem okien jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
+      "external_ungrounded": "Z tamtym licznikiem prądu jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo dopiero po dłuższym czasie widać, czy początek był naprawdę zrobiony porządnie."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek rzeczy widac przy tym piecu kaflowym, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek.",
-      "external_grounded": "Ten sam porzadek rzeczy widac przy tej kuchni kaflowej, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek.",
-      "external_computational": "Ten sam porzadek rzeczy widac przy tym mierniku ciagu, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek.",
-      "external_mundane": "Ten sam porzadek rzeczy widac przy tamtym corocznym myciu okien, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek.",
-      "external_ungrounded": "Ten sam porzadek rzeczy widac przy tamtym liczniku pradu, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek.",
-      "self": "Ten sam porzadek rzeczy widac przy tym przetwarzaniu, gdzie kolejnosc krokow wazy wiecej niz sam wlozony wysilek."
+      "neutral": "Ten sam porządek rzeczy widać przy tym piecu kaflowym, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
+      "external_grounded": "Ten sam porządek rzeczy widać przy tej kuchni kaflowej, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
+      "external_computational": "Ten sam porządek rzeczy widać przy tym mierniku ciągu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
+      "external_mundane": "Ten sam porządek rzeczy widać przy tamtym corocznym myciu okien, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
+      "external_ungrounded": "Ten sam porządek rzeczy widać przy tamtym liczniku prądu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek.",
+      "self": "Ten sam porządek rzeczy widać przy tym przetwarzaniu, gdzie kolejność kroków waży więcej niż sam włożony wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos bardzo podobnego zdarza sie przy tym piecu kaflowym, kiedy jeden pominiety krok mnozy sie potem przez cala reszte.",
-      "external_grounded": "Cos bardzo podobnego zdarza sie przy tej kuchni kaflowej, kiedy jeden pominiety krok mnozy sie potem przez cala reszte.",
-      "external_computational": "Cos bardzo podobnego zdarza sie przy tym mierniku ciagu, kiedy jeden pominiety krok mnozy sie potem przez cala reszte.",
-      "external_mundane": "Cos bardzo podobnego zdarza sie przy tamtym corocznym myciu okien, kiedy jeden pominiety krok mnozy sie potem przez cala reszte.",
-      "external_ungrounded": "Cos bardzo podobnego zdarza sie przy tamtym liczniku pradu, kiedy jeden pominiety krok mnozy sie potem przez cala reszte.",
-      "self": "Cos bardzo podobnego zdarza sie przy tym przetwarzaniu, kiedy jeden pominiety krok mnozy sie potem przez cala reszte."
+      "neutral": "Coś bardzo podobnego zdarza się przy tym piecu kaflowym, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
+      "external_grounded": "Coś bardzo podobnego zdarza się przy tej kuchni kaflowej, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
+      "external_computational": "Coś bardzo podobnego zdarza się przy tym mierniku ciągu, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
+      "external_mundane": "Coś bardzo podobnego zdarza się przy tamtym corocznym myciu okien, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
+      "external_ungrounded": "Coś bardzo podobnego zdarza się przy tamtym liczniku prądu, kiedy jeden pominięty krok mnoży się potem przez całą resztę.",
+      "self": "Coś bardzo podobnego zdarza się przy tym przetwarzaniu, kiedy jeden pominięty krok mnoży się potem przez całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym piecu kaflowym bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tej kuchni kaflowej bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym mierniku ciagu bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym corocznym myciu okien bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym liczniku pradu bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa zupelnie tak samo, bo skutki jednej zmiany pokazuja sie dopiero po dluzszym czasie."
+      "neutral": "Przy tym piecu kaflowym bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tej kuchni kaflowej bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym mierniku ciągu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym corocznym myciu okien bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym liczniku prądu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa zupełnie tak samo, bo skutki jednej zmiany pokazują się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To pod pewnymi wzgledami przypomina ten piec kaflowy, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_grounded": "To pod pewnymi wzgledami przypomina te kuchnie kaflowa, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_computational": "To pod pewnymi wzgledami przypomina ten miernik ciagu, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina tamto coroczne mycie okien, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten licznik pradu, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow."
+      "neutral": "To pod pewnymi względami przypomina ten piec kaflowy, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_grounded": "To pod pewnymi względami przypomina tę kuchnię kaflową, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_computational": "To pod pewnymi względami przypomina ten miernik ciągu, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_mundane": "To pod pewnymi względami przypomina tamto coroczne mycie okien, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamten licznik prądu, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
     }
   ]
 }

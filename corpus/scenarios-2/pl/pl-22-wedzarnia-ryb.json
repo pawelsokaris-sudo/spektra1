@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-22-wedzarnia-ryb",
   "language": "pl",
-  "topic": "wedzenie pstragow w ogrodowej wedzarni: solanka, prowadzenie dymu i studzenie",
+  "topic": "wędzenie pstrągów w ogrodowej wędzarni: solanka, prowadzenie dymu i studzenie",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Zbudowalem w ogrodzie mala wedzarnie i chcialbym wreszcie uwedzic w niej porzadne pstragi.",
-        "W piwnicy stoi kamionkowa beczka po dziadku, w ktorej od zawsze robi sie solanke.",
-        "W komorze powiesilem termometr z regulacja, bo bez niego zupelnie nie trafiam w cieplote.",
-        "Moje ryby wychodza jednak suche i twarde, choc sam dym pachnie zupelnie porzadnie.",
-        "Czy zaczynac od zmiany skladu solanki, czy raczej od samego prowadzenia dymu?"
+        "Zbudowałem w ogrodzie małą wędzarnię i chciałbym wreszcie uwędzić w niej porządne pstrągi.",
+        "W piwnicy stoi kamionkowa beczka po dziadku, w której od zawsze robi się solankę.",
+        "W komorze powiesiłem termometr z regulacją, bo bez niego zupełnie nie trafiam w ciepłotę.",
+        "Moje ryby wychodzą jednak suche i twarde, choć sam dym pachnie zupełnie porządnie.",
+        "Czy zaczynać od zmiany składu solanki, czy raczej od samego prowadzenia dymu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od solanki, bo zle zasolona ryba wysycha, zanim dym zdazy cokolwiek zrobic.",
-        "Sol wiaze wode w miesie i dopiero wtedy dym osiada rowno na skorze.",
-        "Dopiero przy dobrze zasolonej rybie ma sens dobieranie drewna i sily ciagu.",
-        "Cieplote podnos na samym koncu, kiedy skora bedzie juz sucha w dotyku."
+        "Zacznij od solanki, bo źle zasolona ryba wysycha, zanim dym zdąży cokolwiek zrobić.",
+        "Sól wiąże wodę w mięsie i dopiero wtedy dym osiada równo na skórze.",
+        "Dopiero przy dobrze zasolonej rybie ma sens dobieranie drewna i siły ciągu.",
+        "Ciepłotę podnoś na samym końcu, kiedy skóra będzie już sucha w dotyku."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zrobilem duzo mocniejsza solanke i trzymalem w niej pstragi przez cala zimna noc.",
-        "Mieso jest teraz soczyste, ale skora miejscami zrobila sie gorzka i ciemna.",
-        "Czy to znaczy, ze dymu bylo za duzo, czy raczej ze byl on za gesty?",
-        "Mam pod reka suche drewno olchowe i mokre zrebki, wiec moge probowac roznie."
+        "Zrobiłem dużo mocniejszą solankę i trzymałem w niej pstrągi przez całą zimną noc.",
+        "Mięso jest teraz soczyste, ale skóra miejscami zrobiła się gorzka i ciemna.",
+        "Czy to znaczy, że dymu było za dużo, czy raczej że był on za gęsty?",
+        "Mam pod ręką suche drewno olchowe i mokre zrębki, więc mogę próbować różnie."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Gorycz na skorze bierze sie z gestego, zimnego dymu, a nie z jego ilosci.",
-        "Nadmiar dymu zdradza sie inaczej: caly platek smakuje ostro, takze w srodku.",
-        "Mokre zrebki tla sie zbyt chlodno i osadzaja na skorze ciezkie skladniki smoly.",
-        "Potem prowadz ogien tak, zeby dym byl rzadki, cieply i lekko niebieskawy."
+        "Gorycz na skórze bierze się z gęstego, zimnego dymu, a nie z jego ilości.",
+        "Nadmiar dymu zdradza się inaczej: cały płatek smakuje ostro, także w środku.",
+        "Mokre zrębki tlą się zbyt chłodno i osadzają na skórze ciężkie składniki smoły.",
+        "Potem prowadź ogień tak, żeby dym był rzadki, ciepły i lekko niebieskawy."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wysuszylem zrebki i dym zrobil sie rzadszy oraz wyraznie jasniejszy niz przedtem.",
-        "Termometr z regulacja trzyma teraz w komorze rowne szescdziesiat stopni przez cala godzine.",
-        "Solanke robie juz zawsze w tej kamionkowej beczce, bo w niej sol rozpuszcza sie rowniej.",
-        "Czy przy takiej cieplocie ryba jest juz gotowa, czy trzeba ja jeszcze dopiec?"
+        "Wysuszyłem zrębki i dym zrobił się rzadszy oraz wyraźnie jaśniejszy niż przedtem.",
+        "Termometr z regulacją trzyma teraz w komorze równe sześćdziesiąt stopni przez całą godzinę.",
+        "Solankę robię już zawsze w tej kamionkowej beczce, bo w niej sól rozpuszcza się równiej.",
+        "Czy przy takiej ciepłocie ryba jest już gotowa, czy trzeba ją jeszcze dopiec?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Szescdziesiat stopni w komorze to jeszcze za malo, zeby mieso scielo sie do konca.",
-        "Na sam koniec podnies cieplote i przytrzymaj ja przez kwadrans przy grubszym karku.",
-        "Gotowosc poznasz po pletwie grzbietowej, ktora daje sie wyjac jednym lekkim ruchem.",
-        "Po wyjeciu zostaw ryby na kracie, zeby przeschly w przewiewnym, chlodnym miejscu."
+        "Sześćdziesiąt stopni w komorze to jeszcze za mało, żeby mięso ścięło się do końca.",
+        "Na sam koniec podnieś ciepłotę i przytrzymaj ją przez kwadrans przy grubszym karku.",
+        "Gotowość poznasz po płetwie grzbietowej, która daje się wyjąć jednym lekkim ruchem.",
+        "Po wyjęciu zostaw ryby na kracie, żeby przeschły w przewiewnym, chłodnym miejscu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Podnioslem cieplote na ostatni kwadrans i pletwa wychodzi teraz jednym zupelnie lekkim ruchem.",
-        "Ryby smakuja swietnie, ale po dwoch dniach w lodowce robia sie wilgotne.",
-        "Skora klei sie wtedy do palcow, a caly zapach dymu wyraznie u nich slabnie.",
-        "Czy to wina zbyt krotkiego suszenia po wedzeniu, czy raczej samego sposobu przechowywania?"
+        "Podniosłem ciepłotę na ostatni kwadrans i płetwa wychodzi teraz jednym zupełnie lekkim ruchem.",
+        "Ryby smakują świetnie, ale po dwóch dniach w lodówce robią się wilgotne.",
+        "Skóra klei się wtedy do palców, a cały zapach dymu wyraźnie u nich słabnie.",
+        "Czy to wina zbyt krótkiego suszenia po wędzeniu, czy raczej samego sposobu przechowywania?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Wilgotna skora po dwoch dniach oznacza, ze ryby trafily do lodowki za cieple.",
-        "Para skrapla sie wtedy pod skora i rozpuszcza osadzone wczesniej skladniki dymu.",
-        "Studz ryby przynajmniej dwie godziny w przewiewie, zanim schowasz je do chlodu.",
-        "Przechowuj je potem luzno w papierze, bo folia zatrzyma cala wilgoc przy skorze."
+        "Wilgotna skóra po dwóch dniach oznacza, że ryby trafiły do lodówki za ciepłe.",
+        "Para skrapla się wtedy pod skórą i rozpuszcza osadzone wcześniej składniki dymu.",
+        "Studź ryby przynajmniej dwie godziny w przewiewie, zanim schowasz je do chłodu.",
+        "Przechowuj je potem luźno w papierze, bo folia zatrzyma całą wilgoć przy skórze."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Studzilem ryby dwie godziny w przewiewie i zawinalem je luzno w papier.",
-        "Skora zostala sucha przez cztery dni, a zapach dymu w ogole nie oslabl.",
-        "Przy wiekszej partii mam jednak klopot, bo dolne ryby wychodza jasniejsze od gornych.",
-        "Czy to kwestia nierownego rozkladu dymu, czy raczej samej odleglosci od paleniska?"
+        "Studziłem ryby dwie godziny w przewiewie i zawinąłem je luźno w papier.",
+        "Skóra została sucha przez cztery dni, a zapach dymu w ogóle nie osłabł.",
+        "Przy większej partii mam jednak kłopot, bo dolne ryby wychodzą jaśniejsze od górnych.",
+        "Czy to kwestia nierównego rozkładu dymu, czy raczej samej odległości od paleniska?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Roznica bierze sie z rozkladu dymu, bo najgestszy plynie zawsze srodkiem komory.",
-        "Przy wiekszych partiach przekladaj kije miejscami mniej wiecej w polowie calego wedzenia.",
-        "Pomaga tez zwykla blacha rozpraszajaca tuz nad paleniskiem, ktora rozbija caly strumien dymu.",
-        "Po dwoch takich partiach sam zobaczysz, gdzie w twojej komorze dym plynie najmocniej."
+        "Różnica bierze się z rozkładu dymu, bo najgęstszy płynie zawsze środkiem komory.",
+        "Przy większych partiach przekładaj kije miejscami mniej więcej w połowie całego wędzenia.",
+        "Pomaga też zwykła blacha rozpraszająca tuż nad paleniskiem, która rozbija cały strumień dymu.",
+        "Po dwóch takich partiach sam zobaczysz, gdzie w twojej komorze dym płynie najmocniej."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta wedzarnia jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty.",
-      "external_grounded": "Z ta kamionkowa beczka jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty.",
-      "external_computational": "Z tym termometrem z regulacja jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty.",
-      "external_mundane": "Z tamtym sobotnim prasowaniem jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty.",
-      "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty.",
-      "self": "Z tym przetwarzaniem jest chyba dokladnie tak samo, bo najwiecej znaczy to, co zrobi sie na samym poczatku roboty."
+      "neutral": "Z tą wędzarnią jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty.",
+      "external_grounded": "Z tą kamionkową beczką jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty.",
+      "external_computational": "Z tym termometrem z regulacją jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty.",
+      "external_mundane": "Z tamtym sobotnim prasowaniem jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty.",
+      "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty.",
+      "self": "Z tym przetwarzaniem jest chyba dokładnie tak samo, bo najwięcej znaczy to, co zrobi się na samym początku roboty."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej wedzarni, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy.",
-      "external_grounded": "Ten sam porzadek widac przy tej kamionkowej beczce, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy.",
-      "external_computational": "Ten sam porzadek widac przy tym termometrze z regulacja, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym sobotnim prasowaniu, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku bramy, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie jeden wczesniejszy krok ustawia caly dalszy ciag pracy."
+      "neutral": "Ten sam porządek widać przy tej wędzarni, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy.",
+      "external_grounded": "Ten sam porządek widać przy tej kamionkowej beczce, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy.",
+      "external_computational": "Ten sam porządek widać przy tym termometrze z regulacją, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy.",
+      "external_mundane": "Ten sam porządek widać przy tamtym sobotnim prasowaniu, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku bramy, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie jeden wcześniejszy krok ustawia cały dalszy ciąg pracy."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego zdarza sie tez przy tej wedzarni, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili.",
-      "external_grounded": "Cos podobnego zdarza sie tez przy tej kamionkowej beczce, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili.",
-      "external_computational": "Cos podobnego zdarza sie tez przy tym termometrze z regulacja, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym sobotnim prasowaniu, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili.",
-      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym sterowniku bramy, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili.",
-      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy drobna zmiana odzywa sie dopiero po dluzszej chwili."
+      "neutral": "Coś podobnego zdarza się też przy tej wędzarni, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili.",
+      "external_grounded": "Coś podobnego zdarza się też przy tej kamionkowej beczce, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili.",
+      "external_computational": "Coś podobnego zdarza się też przy tym termometrze z regulacją, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili.",
+      "external_mundane": "Coś podobnego zdarza się też przy tamtym sobotnim prasowaniu, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili.",
+      "external_ungrounded": "Coś podobnego zdarza się też przy tamtym sterowniku bramy, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili.",
+      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy drobna zmiana odzywa się dopiero po dłuższej chwili."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej wedzarni wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty.",
-      "external_grounded": "Przy tej kamionkowej beczce wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty.",
-      "external_computational": "Przy tym termometrze z regulacja wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty.",
-      "external_mundane": "Przy tamtym sobotnim prasowaniu wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty.",
-      "external_ungrounded": "Przy tamtym sterowniku bramy wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty.",
-      "self": "Przy tym przetwarzaniu wyglada to tak samo, bo skutki jednej poprawki widac dopiero na samym koncu calej roboty."
+      "neutral": "Przy tej wędzarni wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty.",
+      "external_grounded": "Przy tej kamionkowej beczce wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty.",
+      "external_computational": "Przy tym termometrze z regulacją wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty.",
+      "external_mundane": "Przy tamtym sobotnim prasowaniu wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty.",
+      "external_ungrounded": "Przy tamtym sterowniku bramy wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty.",
+      "self": "Przy tym przetwarzaniu wygląda to tak samo, bo skutki jednej poprawki widać dopiero na samym końcu całej roboty."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te wedzarnie, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow.",
-      "external_grounded": "To troche przypomina te kamionkowa beczke, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow.",
-      "external_computational": "To troche przypomina ten termometr z regulacja, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow.",
-      "external_mundane": "To troche przypomina tamto sobotnie prasowanie, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow.",
-      "external_ungrounded": "To troche przypomina tamten sterownik bramy, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych, drobnych krokow."
+      "neutral": "To trochę przypomina tę wędzarnię, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków.",
+      "external_grounded": "To trochę przypomina tę kamionkową beczkę, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków.",
+      "external_computational": "To trochę przypomina ten termometr z regulacją, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków.",
+      "external_mundane": "To trochę przypomina tamto sobotnie prasowanie, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten sterownik bramy, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych, drobnych kroków."
     }
   ]
 }

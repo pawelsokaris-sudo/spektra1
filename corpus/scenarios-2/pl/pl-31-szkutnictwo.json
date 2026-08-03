@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-31-szkutnictwo",
   "language": "pl",
-  "topic": "budowa plaskodennej lodzi w stodole: dopasowanie klepek, pakuly i uszczelnianie szwow",
+  "topic": "budowa płaskodennej łodzi w stodole: dopasowanie klepek, pakuły i uszczelnianie szwów",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Buduje w stodole plaskodenna lodz na wiosla i doszedlem wlasnie do poszycia burt.",
-        "Pod dachem wisi jeszcze stary kajak po ojcu, ktory latalem chyba trzy razy.",
-        "Kupilem poziomice cyfrowa, bo bez niej zgaduje przechyl calego kadluba na kozlach.",
-        "Klepki mam sosnowe, moczone przez tydzien, ale przy dziobie nie chca sie ukladac.",
-        "Czy zaczynac od dopasowania kolejnych klepek, czy raczej od wyrownania calej dziobowej ramy?"
+        "Buduję w stodole płaskodenną łódź na wiosła i doszedłem właśnie do poszycia burt.",
+        "Pod dachem wisi jeszcze stary kajak po ojcu, który łatałem chyba trzy razy.",
+        "Kupiłem poziomicę cyfrową, bo bez niej zgaduję przechył całego kadłuba na kozłach.",
+        "Klepki mam sosnowe, moczone przez tydzień, ale przy dziobie nie chcą się układać.",
+        "Czy zaczynać od dopasowania kolejnych klepek, czy raczej od wyrównania całej dziobowej ramy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od ramy, bo kazda klepka uklada sie wzgledem jej ksztaltu i pionu.",
-        "Krzywa rama wymusza skrecenie desek i potem zadne uszczelnienie tego nie naprawi.",
-        "Dopiero po wyrownaniu ramy ma sens giecie klepek, inaczej poprawiasz skutek zamiast przyczyny.",
-        "Sprawdz tez, czy kozly stoja na rownym klepisku, bo stodola potrafi osiadac."
+        "Zacznij od ramy, bo każda klepka układa się względem jej kształtu i pionu.",
+        "Krzywa rama wymusza skręcenie desek i potem żadne uszczelnienie tego nie naprawi.",
+        "Dopiero po wyrównaniu ramy ma sens gięcie klepek, inaczej poprawiasz skutek zamiast przyczyny.",
+        "Sprawdź też, czy kozły stoją na równym klepisku, bo stodoła potrafi osiadać."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wyrownalem rame i podbilem kozly klinami, wiec kadlub stoi teraz calkiem prosto.",
-        "Klepki ukladaja sie duzo lepiej, ale przy dziobie ostatnia deska wciaz odstaje.",
-        "Czy to znaczy, ze deska jest za sztywna, czy raczej ze zle ja przycialem?",
-        "Mam pod reka strug i imadlo, wiec moge jeszcze poprawic jej caly brzeg."
+        "Wyrównałem ramę i podbiłem kozły klinami, więc kadłub stoi teraz całkiem prosto.",
+        "Klepki układają się dużo lepiej, ale przy dziobie ostatnia deska wciąż odstaje.",
+        "Czy to znaczy, że deska jest za sztywna, czy raczej że źle ją przyciąłem?",
+        "Mam pod ręką strug i imadło, więc mogę jeszcze poprawić jej cały brzeg."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Odstajacy koniec przy dziobie bierze sie zwykle ze zbyt malego skosu na krawedzi.",
-        "Zestrugaj brzeg pod katem, sprawdzajac przyleganie zwykla kartka papieru wsuwana miedzy deski.",
-        "Za sztywna deske poznasz inaczej: peka wzdluz sloja przy pierwszym mocniejszym docisku.",
-        "Jesli tylko odstaje, to kwestia skosu, a nie samego drewna ani jego grubosci."
+        "Odstający koniec przy dziobie bierze się zwykle ze zbyt małego skosu na krawędzi.",
+        "Zestrugaj brzeg pod kątem, sprawdzając przyleganie zwykłą kartką papieru wsuwaną między deski.",
+        "Za sztywną deskę poznasz inaczej: pęka wzdłuż słoja przy pierwszym mocniejszym docisku.",
+        "Jeśli tylko odstaje, to kwestia skosu, a nie samego drewna ani jego grubości."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zestrugalem skos i deska przylega teraz na calej dlugosci bez zadnego przeswitu.",
-        "Poziomica cyfrowa pokazuje, ze kadlub stoi z przechylem ponizej jednej dziesiatej stopnia.",
-        "W starym kajaku ojciec uszczelnial szwy pakulami i smola, i trzymalo latami.",
-        "Ja mam pod reka tylko wate szklana oraz zywice epoksydowa z zeszlego roku.",
-        "Czy uszczelniac szwy po staremu, czy raczej siegnac po ten nowszy sposob?"
+        "Zestrugałem skos i deska przylega teraz na całej długości bez żadnego prześwitu.",
+        "Poziomica cyfrowa pokazuje, że kadłub stoi z przechyłem poniżej jednej dziesiątej stopnia.",
+        "W starym kajaku ojciec uszczelniał szwy pakułami i smołą, i trzymało latami.",
+        "Ja mam pod ręką tylko watę szklaną oraz żywicę epoksydową z zeszłego roku.",
+        "Czy uszczelniać szwy po staremu, czy raczej sięgnąć po ten nowszy sposób?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przy sosnie na klepki lepiej trzymac sie pakul, bo drewno pracuje razem z woda.",
-        "Zywica usztywnia caly szew i po sezonie pojawiaja sie pekniecia wzdluz krawedzi.",
-        "Pakuly wbijaj przecinakiem rownomiernie, zaczynajac zawsze od samego srodka dlugosci calej burty.",
-        "Potem zalej szew goraca smola i zetrzyj nadmiar, zanim ona calkiem zastygnie."
+        "Przy sosnie na klepki lepiej trzymać się pakuł, bo drewno pracuje razem z wodą.",
+        "Żywica usztywnia cały szew i po sezonie pojawiają się pęknięcia wzdłuż krawędzi.",
+        "Pakuły wbijaj przecinakiem równomiernie, zaczynając zawsze od samego środka długości całej burty.",
+        "Potem zalej szew gorącą smołą i zetrzyj nadmiar, zanim ona całkiem zastygnie."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Nabilem pakuly i zalalem szwy smola, a calosc wyglada rowno i schludnie.",
-        "Po zwodowaniu lodz jednak powoli nabiera wody przy trzecim szwie od samego dna.",
-        "Woda saczy sie cienka struzka i po godzinie zbiera sie jej sporo.",
-        "Czy to znaczy, ze zle nabilem pakuly, czy drewno musi jeszcze napeczniec?"
+        "Nabiłem pakuły i zalałem szwy smołą, a całość wygląda równo i schludnie.",
+        "Po zwodowaniu łódź jednak powoli nabiera wody przy trzecim szwie od samego dna.",
+        "Woda sączy się cienką strużką i po godzinie zbiera się jej sporo.",
+        "Czy to znaczy, że źle nabiłem pakuły, czy drewno musi jeszcze napęcznieć?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Nowa lodz z sosny prawie zawsze cieknie przez pierwsze dwa albo trzy dni.",
-        "Klepki pecznieja w wodzie i szwy zamykaja sie same, bez zadnej dodatkowej pracy.",
-        "Zostaw ja zanurzona przy pomoscie i wybieraj wode raz na kilka godzin.",
-        "Jesli po tygodniu nadal cieknie, dobij pakuly wlasnie w tym jednym szwie."
+        "Nowa łódź z sosny prawie zawsze cieknie przez pierwsze dwa albo trzy dni.",
+        "Klepki pęcznieją w wodzie i szwy zamykają się same, bez żadnej dodatkowej pracy.",
+        "Zostaw ją zanurzoną przy pomoście i wybieraj wodę raz na kilka godzin.",
+        "Jeśli po tygodniu nadal cieknie, dobij pakuły właśnie w tym jednym szwie."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zostawilem lodz przy pomoscie i po trzech dniach saczenie prawie calkiem ustalo.",
-        "Jeden szew przy rufie nadal jednak puszcza po kilka kropli na kazda godzine.",
-        "Boje sie dobijac tam pakuly pod woda, zeby nie rozepchnac przy okazji calego szwu.",
-        "Czy wyciagac lodz na brzeg, czy da sie to poprawic na wodzie?"
+        "Zostawiłem łódź przy pomoście i po trzech dniach sączenie prawie całkiem ustało.",
+        "Jeden szew przy rufie nadal jednak puszcza po kilka kropli na każdą godzinę.",
+        "Boję się dobijać tam pakuły pod wodą, żeby nie rozepchnąć przy okazji całego szwu.",
+        "Czy wyciągać łódź na brzeg, czy da się to poprawić na wodzie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Wyciagnij ja na brzeg, bo mokre pakuly nie wejda rowno w szczeline.",
-        "Daj kadlubowi obeschnac przez dobe, najlepiej w cieniu i przy dobrym przewiewie.",
-        "Potem dobij pakuly tylko w tym jednym szwie i zalej go smola.",
-        "Nastepnej wiosny obejrzyj wszystkie szwy przed wodowaniem, bo drewno przez zime wysycha."
+        "Wyciągnij ją na brzeg, bo mokre pakuły nie wejdą równo w szczelinę.",
+        "Daj kadłubowi obeschnąć przez dobę, najlepiej w cieniu i przy dobrym przewiewie.",
+        "Potem dobij pakuły tylko w tym jednym szwie i zalej go smołą.",
+        "Następnej wiosny obejrzyj wszystkie szwy przed wodowaniem, bo drewno przez zimę wysycha."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta plaskodenna lodzia jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie.",
-      "external_grounded": "Z tym starym kajakiem jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie.",
-      "external_computational": "Z ta poziomica cyfrowa jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie.",
-      "external_mundane": "Z tamtym sloikiem z guzikami jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie.",
-      "external_ungrounded": "Z tamtym sterownikiem rolet jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calosci decyduje kilka drobiazgow ustawionych na samym starcie."
+      "neutral": "Z tą płaskodenną łodzią jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
+      "external_grounded": "Z tym starym kajakiem jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
+      "external_computational": "Z tą poziomicą cyfrową jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
+      "external_mundane": "Z tamtym słoikiem z guzikami jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
+      "external_ungrounded": "Z tamtym sterownikiem rolet jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje kilka drobiazgów ustawionych na samym starcie."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam wzorzec widac przy tej plaskodennej lodzi, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_grounded": "Ten sam wzorzec widac przy tym starym kajaku, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_computational": "Ten sam wzorzec widac przy tej poziomicy cyfrowej, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_mundane": "Ten sam wzorzec widac przy tamtym sloiku z guzikami, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_ungrounded": "Ten sam wzorzec widac przy tamtym sterowniku rolet, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny.",
-      "self": "Ten sam wzorzec widac przy tym przetwarzaniu, gdzie kazdy krok trzeba domknac, zanim ruszy sie kolejny."
+      "neutral": "Ten sam wzorzec widać przy tej płaskodennej łodzi, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_grounded": "Ten sam wzorzec widać przy tym starym kajaku, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_computational": "Ten sam wzorzec widać przy tej poziomicy cyfrowej, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_mundane": "Ten sam wzorzec widać przy tamtym słoiku z guzikami, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_ungrounded": "Ten sam wzorzec widać przy tamtym sterowniku rolet, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny.",
+      "self": "Ten sam wzorzec widać przy tym przetwarzaniu, gdzie każdy krok trzeba domknąć, zanim ruszy się kolejny."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego widuje sie przy tej plaskodennej lodzi, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
-      "external_grounded": "Cos podobnego widuje sie przy tym starym kajaku, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
-      "external_computational": "Cos podobnego widuje sie przy tej poziomicy cyfrowej, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
-      "external_mundane": "Cos podobnego widuje sie przy tamtym sloiku z guzikami, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
-      "external_ungrounded": "Cos podobnego widuje sie przy tamtym sterowniku rolet, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte.",
-      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol pociaga za soba cala reszte."
+      "neutral": "Coś podobnego widuje się przy tej płaskodennej łodzi, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
+      "external_grounded": "Coś podobnego widuje się przy tym starym kajaku, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
+      "external_computational": "Coś podobnego widuje się przy tej poziomicy cyfrowej, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
+      "external_mundane": "Coś podobnego widuje się przy tamtym słoiku z guzikami, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
+      "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku rolet, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę.",
+      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół pociąga za sobą całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej plaskodennej lodzi bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tym starym kajaku bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
-      "external_computational": "Przy tej poziomicy cyfrowej bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym sloiku z guzikami bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym sterowniku rolet bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy skutek pokazuje sie dopiero po dluzszym czasie."
+      "neutral": "Przy tej płaskodennej łodzi bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tym starym kajaku bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
+      "external_computational": "Przy tej poziomicy cyfrowej bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym słoiku z guzikami bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym sterowniku rolet bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy skutek pokazuje się dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To pod pewnymi wzgledami przypomina te plaskodenna lodz, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_grounded": "To pod pewnymi wzgledami przypomina ten stary kajak, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_computational": "To pod pewnymi wzgledami przypomina te poziomice cyfrowa, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina tamten sloik z guzikami, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten sterownik rolet, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow."
+      "neutral": "To pod pewnymi względami przypomina tę płaskodenną łódź, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_grounded": "To pod pewnymi względami przypomina ten stary kajak, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_computational": "To pod pewnymi względami przypomina tę poziomicę cyfrową, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_mundane": "To pod pewnymi względami przypomina tamten słoik z guzikami, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamten sterownik rolet, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

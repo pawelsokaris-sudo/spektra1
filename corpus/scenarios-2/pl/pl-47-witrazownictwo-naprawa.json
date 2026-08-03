@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-47-witrazownictwo-naprawa",
   "language": "pl",
-  "topic": "naprawa starego witraza: prostowanie tafli, dobor profilu olowianego i kitowanie",
+  "topic": "naprawa starego witraża: prostowanie tafli, dobór profilu ołowianego i kitowanie",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Naprawiam stary witraz z drzwi i cala tafla wybrzusza sie na srodku.",
-        "Obok jest jeszcze boczne okienko z tego samego domu, ktore trzyma sie zupelnie prosto.",
-        "Kupilem cyfrowa suwmiarke, bo bez niej tylko zgaduje, ktory profil olowiany tu pasuje.",
-        "Kit wokol szybek wykruszyl sie niemal wszedzie, a dwie szybki sa pekniete.",
-        "Czy zaczynac od wymiany samego olowiu, czy raczej od wyprostowania calej tafli?"
+        "Naprawiam stary witraż z drzwi i cała tafla wybrzusza się na środku.",
+        "Obok jest jeszcze boczne okienko z tego samego domu, które trzyma się zupełnie prosto.",
+        "Kupiłem cyfrową suwmiarkę, bo bez niej tylko zgaduję, który profil ołowiany tu pasuje.",
+        "Kit wokół szybek wykruszył się niemal wszędzie, a dwie szybki są pęknięte.",
+        "Czy zaczynać od wymiany samego ołowiu, czy raczej od wyprostowania całej tafli?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wyprostowania, bo nowy olow ulozony w wygietej tafli zaraz znowu popusci.",
-        "Panel trzeba polozyc plasko na stole i docisnac go workami z piaskiem.",
-        "Jesli prostujesz panel na sile, stare szybki pekaja przy samych krawedziach starego olowiu.",
-        "Dopiero przy plaskiej tafli ma sens dobieranie nowego profilu i szerokosci serca."
+        "Zacznij od wyprostowania, bo nowy ołów ułożony w wygiętej tafli zaraz znowu popuści.",
+        "Panel trzeba położyć płasko na stole i docisnąć go workami z piaskiem.",
+        "Jeśli prostujesz panel na siłę, stare szybki pękają przy samych krawędziach starego ołowiu.",
+        "Dopiero przy płaskiej tafli ma sens dobieranie nowego profilu i szerokości serca."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Polozylem panel na stole i po dwoch dniach pod ciezarkami tafla wyrownala sie.",
-        "Teraz jednak przy dolnej krawedzi olow odstaje od szybki na dobre dwa milimetry.",
-        "Suwmiarka pokazuje tam profil wyraznie szerszy niz ten uzyty w gornej czesci.",
-        "Czy to znaczy, ze ktos naprawial to wczesniej, czy raczej ze olow sie rozciagnal?"
+        "Położyłem panel na stole i po dwóch dniach pod ciężarkami tafla wyrównała się.",
+        "Teraz jednak przy dolnej krawędzi ołów odstaje od szybki na dobre dwa milimetry.",
+        "Suwmiarka pokazuje tam profil wyraźnie szerszy niż ten użyty w górnej części.",
+        "Czy to znaczy, że ktoś naprawiał to wcześniej, czy raczej że ołów się rozciągnął?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Szerszy profil przy samym dole wskazuje raczej na dawna naprawe niz na rozciagniecie.",
-        "Olow rozciaga sie rownomiernie na calej wysokosci, a nie tylko w jednym pasie.",
-        "Zmeczony olow poznasz inaczej: profil jest matowy i lamie sie przy lekkim zgieciu.",
-        "Sprawdz tez, czy lutowane wezly przy tej krawedzi nie sa grubsze od pozostalych."
+        "Szerszy profil przy samym dole wskazuje raczej na dawną naprawę niż na rozciągnięcie.",
+        "Ołów rozciąga się równomiernie na całej wysokości, a nie tylko w jednym pasie.",
+        "Zmęczony ołów poznasz inaczej: profil jest matowy i łamie się przy lekkim zgięciu.",
+        "Sprawdź też, czy lutowane węzły przy tej krawędzi nie są grubsze od pozostałych."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wezly przy dole sa faktycznie grube i widac pod nimi slady starego lutu.",
-        "Porownalem tafle z tym bocznym okienkiem i widze, ze tam profil jest jednakowy.",
-        "Ktos wymienil kiedys dolny pas i wzial olow z zupelnie innej partii.",
-        "Czy szerszy profil zawsze trzyma tafle lepiej, czy da sie tu jednak przesadzic?"
+        "Węzły przy dole są faktycznie grube i widać pod nimi ślady starego lutu.",
+        "Porównałem taflę z tym bocznym okienkiem i widzę, że tam profil jest jednakowy.",
+        "Ktoś wymienił kiedyś dolny pas i wziął ołów z zupełnie innej partii.",
+        "Czy szerszy profil zawsze trzyma taflę lepiej, czy da się tu jednak przesadzić?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Szerszy profil trzyma sztywniej, ale wcale nie zawsze lepiej znosi ruchy calej ramy.",
-        "Zbyt sztywny olow przenosi drgania wprost na szklo i szybki pekaja przy krawedzi.",
-        "Stare witraze bywaja miekkie, bo robiono je z olowiu ciagnionego recznie na zimno.",
-        "Celuj w profil, ktory da sie jeszcze wygiac palcami, ale sam wraca do linii."
+        "Szerszy profil trzyma sztywniej, ale wcale nie zawsze lepiej znosi ruchy całej ramy.",
+        "Zbyt sztywny ołów przenosi drgania wprost na szkło i szybki pękają przy krawędzi.",
+        "Stare witraże bywają miękkie, bo robiono je z ołowiu ciągnionego ręcznie na zimno.",
+        "Celuj w profil, który da się jeszcze wygiąć palcami, ale sam wraca do linii."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wymienilem dolny pas na profil zgodny z reszta i tafla trzyma sie rowno.",
-        "Po tygodniu zauwazylem jednak, ze kit przy nowych szybkach lekko sie kurczy.",
-        "Szpara jest cienka jak wlos, ale przy swietle od razu ja widac.",
-        "Czy taki kit trzeba wybrac i zalozyc na nowo, czy sam osiadzie?"
+        "Wymieniłem dolny pas na profil zgodny z resztą i tafla trzyma się równo.",
+        "Po tygodniu zauważyłem jednak, że kit przy nowych szybkach lekko się kurczy.",
+        "Szpara jest cienka jak włos, ale przy świetle od razu ją widać.",
+        "Czy taki kit trzeba wybrać i założyć na nowo, czy sam osiadzie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Swiezy kit zawsze troche siada, bo olej odchodzi w pierwszych tygodniach po nalozeniu.",
-        "Poczekaj jeszcze dwa tygodnie i dopiero potem uzupelnij same widoczne przy swietle szpary.",
-        "Wciskaj kit drewnianym patykiem pod sam profil i zbieraj nadmiar zwykla sucha szczotka.",
-        "Jesli kit siada dalej takze po miesiacu, znaczy to, ze byl po prostu zbyt rzadki."
+        "Świeży kit zawsze trochę siada, bo olej odchodzi w pierwszych tygodniach po nałożeniu.",
+        "Poczekaj jeszcze dwa tygodnie i dopiero potem uzupełnij same widoczne przy świetle szpary.",
+        "Wciskaj kit drewnianym patykiem pod sam profil i zbieraj nadmiar zwykłą suchą szczotką.",
+        "Jeśli kit siada dalej także po miesiącu, znaczy to, że był po prostu zbyt rzadki."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Uzupelnilem szpary po dwoch tygodniach i od tamtej pory nic sie nie ruszylo.",
-        "Cala tafla jest sztywna, a przy naciskaniu dloni nic juz nie klekocze.",
-        "Zostalo mi jeszcze osadzenie panelu w drzwiach, bo felc jest tam plytki.",
-        "Czy uszczelniac go samym kitem, czy raczej listwa przybita od strony wewnetrznej?"
+        "Uzupełniłem szpary po dwóch tygodniach i od tamtej pory nic się nie ruszyło.",
+        "Cała tafla jest sztywna, a przy naciskaniu dłoni nic już nie klekocze.",
+        "Zostało mi jeszcze osadzenie panelu w drzwiach, bo felc jest tam płytki.",
+        "Czy uszczelniać go samym kitem, czy raczej listwa przybita od strony wewnętrznej?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "W plytkim felcu lepiej trzyma listwa, bo kit sam nie utrzyma ciezkiej tafli.",
-        "Podloz pod panel cienki sznur lniany, zeby szklo nie lezalo wprost na drewnie.",
-        "Listwe przykrec, a nie przybij, bo panel bedziesz kiedys zdejmowal do przegladu.",
-        "Tak osadzony witraz przetrzyma lata i nie zacznie klekotac przy zamykaniu drzwi."
+        "W płytkim felcu lepiej trzyma listwa, bo kit sam nie utrzyma ciężkiej tafli.",
+        "Podłóż pod panel cienki sznur lniany, żeby szkło nie leżało wprost na drewnie.",
+        "Listwę przykręć, a nie przybij, bo panel będziesz kiedyś zdejmował do przeglądu.",
+        "Tak osadzony witraż przetrzyma lata i nie zacznie klekotać przy zamykaniu drzwi."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym starym witrazem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
-      "external_grounded": "Z tym bocznym okienkiem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
-      "external_computational": "Z ta cyfrowa suwmiarka jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
-      "external_mundane": "Z tamta drewniana lawka jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
-      "external_ungrounded": "Z tamta drukarka jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierownosc z poczatku rozchodzi sie potem na cala dalsza robote."
+      "neutral": "Z tym starym witrażem jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
+      "external_grounded": "Z tym bocznym okienkiem jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
+      "external_computational": "Z tą cyfrową suwmiarką jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
+      "external_mundane": "Z tamtą drewnianą ławką jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
+      "external_ungrounded": "Z tamtą drukarką jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobna nierówność z początku rozchodzi się potem na całą dalszą robotę."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam wzorzec wraca przy tym starym witrazu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
-      "external_grounded": "Ten sam wzorzec wraca przy tym bocznym okienku, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
-      "external_computational": "Ten sam wzorzec wraca przy tej cyfrowej suwmiarce, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
-      "external_mundane": "Ten sam wzorzec wraca przy tamtej drewnianej lawce, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
-      "external_ungrounded": "Ten sam wzorzec wraca przy tamtej drukarce, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc.",
-      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w koncu wiecej niz najwieksza staranosc."
+      "neutral": "Ten sam wzorzec wraca przy tym starym witrażu, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
+      "external_grounded": "Ten sam wzorzec wraca przy tym bocznym okienku, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
+      "external_computational": "Ten sam wzorzec wraca przy tej cyfrowej suwmiarce, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
+      "external_mundane": "Ten sam wzorzec wraca przy tamtej drewnianej ławce, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
+      "external_ungrounded": "Ten sam wzorzec wraca przy tamtej drukarce, gdzie spokojne tempo daje w końcu więcej niż największa staraność.",
+      "self": "Ten sam wzorzec wraca przy tym przetwarzaniu, gdzie spokojne tempo daje w końcu więcej niż największa staraność."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego widuje sie takze przy tym starym witrazu, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
-      "external_grounded": "Cos takiego widuje sie takze przy tym bocznym okienku, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
-      "external_computational": "Cos takiego widuje sie takze przy tej cyfrowej suwmiarce, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
-      "external_mundane": "Cos takiego widuje sie takze przy tamtej drewnianej lawce, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
-      "external_ungrounded": "Cos takiego widuje sie takze przy tamtej drukarce, kiedy jeden drobiazg przesadza o wygladzie calej reszty.",
-      "self": "Cos takiego widuje sie takze przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wygladzie calej reszty."
+      "neutral": "Coś takiego widuje się także przy tym starym witrażu, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
+      "external_grounded": "Coś takiego widuje się także przy tym bocznym okienku, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
+      "external_computational": "Coś takiego widuje się także przy tej cyfrowej suwmiarce, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
+      "external_mundane": "Coś takiego widuje się także przy tamtej drewnianej ławce, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
+      "external_ungrounded": "Coś takiego widuje się także przy tamtej drukarce, kiedy jeden drobiazg przesadza o wyglądzie całej reszty.",
+      "self": "Coś takiego widuje się także przy tym przetwarzaniu, kiedy jeden drobiazg przesadza o wyglądzie całej reszty."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym starym witrazu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
-      "external_grounded": "Przy tym bocznym okienku bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
-      "external_computational": "Przy tej cyfrowej suwmiarce bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tamtej drewnianej lawce bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
-      "external_ungrounded": "Przy tamtej drukarce bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili.",
-      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje sie dopiero po dluzszej chwili."
+      "neutral": "Przy tym starym witrażu bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
+      "external_grounded": "Przy tym bocznym okienku bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
+      "external_computational": "Przy tej cyfrowej suwmiarce bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
+      "external_mundane": "Przy tamtej drewnianej ławce bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
+      "external_ungrounded": "Przy tamtej drukarce bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili.",
+      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo efekt jednej poprawki poznaje się dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten stary witraz, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
-      "external_grounded": "To troche przypomina to boczne okienko, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
-      "external_computational": "To troche przypomina te cyfrowa suwmiarke, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
-      "external_mundane": "To troche przypomina tamta drewniana lawke, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
-      "external_ungrounded": "To troche przypomina tamta drukarke, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec tylko na sama kolejnosc wykonywanych po sobie czynnosci."
+      "neutral": "To trochę przypomina ten stary witraż, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
+      "external_grounded": "To trochę przypomina to boczne okienko, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
+      "external_computational": "To trochę przypomina tę cyfrową suwmiarkę, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
+      "external_mundane": "To trochę przypomina tamtą drewnianą ławkę, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
+      "external_ungrounded": "To trochę przypomina tamtą drukarkę, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć tylko na samą kolejność wykonywanych po sobie czynności."
     }
   ]
 }

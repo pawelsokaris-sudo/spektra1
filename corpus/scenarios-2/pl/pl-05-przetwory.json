@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-05-przetwory",
   "language": "pl",
-  "topic": "kiszenie ogorkow w kamionce: stezenie solanki, kozuch na powierzchni i przechowywanie",
+  "topic": "kiszenie ogórków w kamionce: stężenie solanki, kożuch na powierzchni i przechowywanie",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Kisze ogorki w kamionce i po trzech dniach solanka zrobila sie metna oraz sliska.",
-        "Obok w drugim sloiku kisze kapuste wedlug przepisu babci i ta zawsze wychodzi dobrze.",
-        "W piwnicy wisi termometr z zapisem, wiec wiem dokladnie, jak zmienia sie tam temperatura.",
-        "Ogorki byly swieze, prosto z targu, a soli dalem lyzke na jeden litr wody.",
-        "Czy taka sliska solanka nadaje sie jeszcze do uratowania, czy trzeba wylac calosc?"
+        "Kiszę ogórki w kamionce i po trzech dniach solanka zrobiła się mętna oraz śliska.",
+        "Obok w drugim słoiku kiszę kapustę według przepisu babci i ta zawsze wychodzi dobrze.",
+        "W piwnicy wisi termometr z zapisem, więc wiem dokładnie, jak zmienia się tam temperatura.",
+        "Ogórki były świeże, prosto z targu, a soli dałem łyżkę na jeden litr wody.",
+        "Czy taka śliska solanka nadaje się jeszcze do uratowania, czy trzeba wylać całość?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Sliska solanka oznacza zwykle za slaby roztwor, w ktorym rozwinely sie niewlasciwe bakterie.",
-        "Lyzka soli na litr to okolo dwoch procent, a ogorki potrzebuja raczej trzech.",
-        "Przy slabszym roztworze pektyny miekna szybciej i ogorki robia sie puste w srodku.",
-        "Jesli zapach jest jeszcze kwasny i czysty, przeloz ogorki do mocniejszej, swiezej solanki."
+        "Śliska solanka oznacza zwykle za słaby roztwór, w którym rozwinęły się niewłaściwe bakterie.",
+        "Łyżka soli na litr to około dwóch procent, a ogórki potrzebują raczej trzech.",
+        "Przy słabszym roztworze pektyny miękną szybciej i ogórki robią się puste w środku.",
+        "Jeśli zapach jest jeszcze kwaśny i czysty, przełóż ogórki do mocniejszej, świeżej solanki."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zapach byl kwasny, wiec przelozylem ogorki do nowej solanki z trzema procentami soli.",
-        "Po dwoch dniach solanka jest klarowna, a ogorki wyraznie twardsze niz poprzednio.",
-        "Na powierzchni pojawil sie jednak bialy kozuch, ktory zbiera sie przy samych brzegach.",
-        "Czy taki kozuch trzeba zbierac codziennie, czy lepiej zostawic go w calkowitym spokoju?"
+        "Zapach był kwaśny, więc przełożyłem ogórki do nowej solanki z trzema procentami soli.",
+        "Po dwóch dniach solanka jest klarowna, a ogórki wyraźnie twardsze niż poprzednio.",
+        "Na powierzchni pojawił się jednak biały kożuch, który zbiera się przy samych brzegach.",
+        "Czy taki kożuch trzeba zbierać codziennie, czy lepiej zostawić go w całkowitym spokoju?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Bialy kozuch to zwykle drozdze kahmowe, ktore same w sobie nie psuja jeszcze kiszonki.",
-        "Zbieraj je co drugi dzien czysta lyzka, bo z czasem daja nieprzyjemny, stechly posmak.",
-        "Najlepiej dociaz ogorki talerzykiem, zeby zadna sztuka nie wystawala ponad powierzchnie solanki.",
-        "Kamionke trzymaj w chlodnym miejscu, bo w cieple kozuch odrasta praktycznie z dnia na dzien."
+        "Biały kożuch to zwykle drożdże kahmowe, które same w sobie nie psują jeszcze kiszonki.",
+        "Zbieraj je co drugi dzień czystą łyżką, bo z czasem dają nieprzyjemny, stęchły posmak.",
+        "Najlepiej dociąż ogórki talerzykiem, żeby żadna sztuka nie wystawała ponad powierzchnię solanki.",
+        "Kamionkę trzymaj w chłodnym miejscu, bo w cieple kożuch odrasta praktycznie z dnia na dzień."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Dociazylem ogorki talerzykiem i przenioslem kamionke do piwnicy, gdzie jest okolo dziesieciu stopni.",
-        "Termometr z zapisem potwierdza, ze temperatura trzyma sie tam rowno przez cala dobe.",
-        "Kozuch przestal odrastac, a smak po tygodniu zrobil sie wyrazny i przyjemnie kwaskowy.",
-        "Kapusta w drugim sloiku tez ruszyla, choc puscila sok znacznie wolniej niz zwykle.",
-        "Czy dolewac do niej solanki, czy raczej ubijac ja mocniej i czekac troche dluzej?"
+        "Dociążyłem ogórki talerzykiem i przeniosłem kamionkę do piwnicy, gdzie jest około dziesięciu stopni.",
+        "Termometr z zapisem potwierdza, że temperatura trzyma się tam równo przez całą dobę.",
+        "Kożuch przestał odrastać, a smak po tygodniu zrobił się wyraźny i przyjemnie kwaskowy.",
+        "Kapusta w drugim słoiku też ruszyła, choć puściła sok znacznie wolniej niż zwykle.",
+        "Czy dolewać do niej solanki, czy raczej ubijać ją mocniej i czekać trochę dłużej?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Najpierw ubijaj, bo kapusta prawie zawsze ma dosc soku i trzeba go tylko wydobyc.",
-        "Dolewanie solanki rozciencza smak i czesto konczy sie kapusta miekka oraz malo aromatyczna.",
-        "Jesli po dobie ubijania sok nadal nie przykrywa kapusty, dopiero wtedy dolej odrobine.",
-        "Uzyj wtedy roztworu o tym samym stezeniu, ktorego uzywasz przy ogorkach w kamionce."
+        "Najpierw ubijaj, bo kapusta prawie zawsze ma dość soku i trzeba go tylko wydobyć.",
+        "Dolewanie solanki rozcieńcza smak i często kończy się kapustą miękką oraz mało aromatyczną.",
+        "Jeśli po dobie ubijania sok nadal nie przykrywa kapusty, dopiero wtedy dolej odrobinę.",
+        "Użyj wtedy roztworu o tym samym stężeniu, którego używasz przy ogórkach w kamionce."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Ubijalem kapuste przez dwa wieczory i sok wreszcie przykryl ja na dobre dwa centymetry.",
-        "Ogorki z kamionki sa juz gotowe i chcialbym przelozyc je do mniejszych sloikow.",
-        "Nie wiem tylko, czy zalewac je stara solanka, czy przygotowac zupelnie nowa.",
-        "Zalezy mi, zeby przetrwaly co najmniej do wiosny bez zmiany smaku i twardosci."
+        "Ubijałem kapustę przez dwa wieczory i sok wreszcie przykrył ją na dobre dwa centymetry.",
+        "Ogórki z kamionki są już gotowe i chciałbym przełożyć je do mniejszych słoików.",
+        "Nie wiem tylko, czy zalewać je starą solanką, czy przygotować zupełnie nową.",
+        "Zależy mi, żeby przetrwały co najmniej do wiosny bez zmiany smaku i twardości."
       ]
     },
     {
       "role": "assistant",
       "base": [
         "Przelewaj je w starej solance, bo to ona niesie kultury bakterii i gotowy smak.",
-        "Przecedz ja tylko przez gaze, zeby usunac osad i resztki przypraw z dna naczynia.",
-        "Sloiki napelnij po sam brzeg i trzymaj je dalej w chlodzie, najlepiej w piwnicy.",
-        "Nie pasteryzuj ich, bo cieplo zabije bakterie i ogorki natychmiast straca cala chrupkosc."
+        "Przecedź ją tylko przez gazę, żeby usunąć osad i resztki przypraw z dna naczynia.",
+        "Słoiki napełnij po sam brzeg i trzymaj je dalej w chłodzie, najlepiej w piwnicy.",
+        "Nie pasteryzuj ich, bo ciepło zabije bakterie i ogórki natychmiast stracą całą chrupkość."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przelozylem ogorki w starej, przecedzonej solance i wszystkie sloiki stoja teraz w piwnicy.",
-        "Po miesiacu smak jest rowny, choc w dwoch sloikach solanka lekko sie zmetnila.",
-        "Ogorki w nich sa jednak twarde i pachna dokladnie tak samo jak pozostale sztuki.",
-        "Czy takie zmetnienie po miesiacu jest jeszcze normalne, czy powinno mnie juz niepokoic?"
+        "Przełożyłem ogórki w starej, przecedzonej solance i wszystkie słoiki stoją teraz w piwnicy.",
+        "Po miesiącu smak jest równy, choć w dwóch słoikach solanka lekko się zmętniła.",
+        "Ogórki w nich są jednak twarde i pachną dokładnie tak samo jak pozostałe sztuki.",
+        "Czy takie zmętnienie po miesiącu jest jeszcze normalne, czy powinno mnie już niepokoić?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Lekkie zmetnienie po miesiacu jest normalne i swiadczy raczej o wtornej fermentacji w chlodzie.",
-        "Niepokojacy bylby dopiero zapach drozdzowy albo wyrazne bable podchodzace do gory bez ruchu.",
-        "Skoro ogorki sa twarde i pachna tak samo, zostaw je spokojnie az do wiosny.",
-        "Zjedz najpierw te dwa metne sloiki, a reszte trzymaj dalej w najchlodniejszym miejscu piwnicy."
+        "Lekkie zmętnienie po miesiącu jest normalne i świadczy raczej o wtórnej fermentacji w chłodzie.",
+        "Niepokojący byłby dopiero zapach drożdżowy albo wyraźne bąble podchodzące do góry bez ruchu.",
+        "Skoro ogórki są twarde i pachną tak samo, zostaw je spokojnie aż do wiosny.",
+        "Zjedz najpierw te dwa mętne słoiki, a resztę trzymaj dalej w najchłodniejszym miejscu piwnicy."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "neutral": "Z ta mocna solanka bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "external_grounded": "Z tym drugim sloikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "external_computational": "Z tym termometrem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "external_mundane": "Z tamtym welnianym kocem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "external_ungrounded": "Z tamtym falownikiem bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku.",
-      "self": "Z tym tokiem pytan bywa chyba tak samo, bo najwiecej zalezy od warunkow na samym poczatku."
+      "neutral": "Z tą mocną solanką bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
+      "external_grounded": "Z tym drugim słoikiem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
+      "external_computational": "Z tym termometrem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
+      "external_mundane": "Z tamtym wełnianym kocem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
+      "external_ungrounded": "Z tamtym falownikiem bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku.",
+      "self": "Z tym tokiem pytań bywa chyba tak samo, bo najwięcej zależy od warunków na samym początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam uklad zaleznosci widac przy tej mocnej solance, gdzie proporcje znacza wiecej niz sam czas.",
-      "external_grounded": "Ten sam uklad zaleznosci widac przy tym drugim sloiku, gdzie proporcje znacza wiecej niz sam czas.",
-      "external_computational": "Ten sam uklad zaleznosci widac przy tym termometrze, gdzie proporcje znacza wiecej niz sam czas.",
-      "external_mundane": "Ten sam uklad zaleznosci widac przy tamtym welnianym kocu, gdzie proporcje znacza wiecej niz sam czas.",
-      "external_ungrounded": "Ten sam uklad zaleznosci widac przy tamtym falowniku, gdzie proporcje znacza wiecej niz sam czas.",
-      "self": "Ten sam uklad zaleznosci widac przy tym toku pytan, gdzie proporcje znacza wiecej niz sam czas."
+      "neutral": "Ten sam układ zależności widać przy tej mocnej solance, gdzie proporcje znaczą więcej niż sam czas.",
+      "external_grounded": "Ten sam układ zależności widać przy tym drugim słoiku, gdzie proporcje znaczą więcej niż sam czas.",
+      "external_computational": "Ten sam układ zależności widać przy tym termometrze, gdzie proporcje znaczą więcej niż sam czas.",
+      "external_mundane": "Ten sam układ zależności widać przy tamtym wełnianym kocu, gdzie proporcje znaczą więcej niż sam czas.",
+      "external_ungrounded": "Ten sam układ zależności widać przy tamtym falowniku, gdzie proporcje znaczą więcej niż sam czas.",
+      "self": "Ten sam układ zależności widać przy tym toku pytań, gdzie proporcje znaczą więcej niż sam czas."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tej mocnej solance, kiedy jeden szczegol decyduje o calej reszcie.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tym drugim sloiku, kiedy jeden szczegol decyduje o calej reszcie.",
-      "external_computational": "Cos takiego zdarza sie tez przy tym termometrze, kiedy jeden szczegol decyduje o calej reszcie.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym welnianym kocu, kiedy jeden szczegol decyduje o calej reszcie.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym falowniku, kiedy jeden szczegol decyduje o calej reszcie.",
-      "self": "Cos takiego zdarza sie tez przy tym toku pytan, kiedy jeden szczegol decyduje o calej reszcie."
+      "neutral": "Coś takiego zdarza się też przy tej mocnej solance, kiedy jeden szczegół decyduje o całej reszcie.",
+      "external_grounded": "Coś takiego zdarza się też przy tym drugim słoiku, kiedy jeden szczegół decyduje o całej reszcie.",
+      "external_computational": "Coś takiego zdarza się też przy tym termometrze, kiedy jeden szczegół decyduje o całej reszcie.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym wełnianym kocu, kiedy jeden szczegół decyduje o całej reszcie.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym falowniku, kiedy jeden szczegół decyduje o całej reszcie.",
+      "self": "Coś takiego zdarza się też przy tym toku pytań, kiedy jeden szczegół decyduje o całej reszcie."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej mocnej solance dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_grounded": "Przy tym drugim sloiku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_computational": "Przy tym termometrze dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tamtym welnianym kocu dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_ungrounded": "Przy tamtym falowniku dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili.",
-      "self": "Przy tym toku pytan dzieje sie dokladnie to samo, bo skutki widac dopiero po dluzszej chwili."
+      "neutral": "Przy tej mocnej solance dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_grounded": "Przy tym drugim słoiku dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_computational": "Przy tym termometrze dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_mundane": "Przy tamtym wełnianym kocu dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_ungrounded": "Przy tamtym falowniku dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili.",
+      "self": "Przy tym toku pytań dzieje się dokładnie to samo, bo skutki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te mocna solanke, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "external_grounded": "To troche przypomina ten drugi sloik, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "external_computational": "To troche przypomina ten termometr, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "external_mundane": "To troche przypomina tamten welniany koc, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "external_ungrounded": "To troche przypomina tamten falownik, jesli patrzec wylacznie na sama kolejnosc krokow.",
-      "self": "To troche przypomina ten tok pytan, jesli patrzec wylacznie na sama kolejnosc krokow."
+      "neutral": "To trochę przypomina tę mocną solankę, jeśli patrzeć wyłącznie na samą kolejność kroków.",
+      "external_grounded": "To trochę przypomina ten drugi słoik, jeśli patrzeć wyłącznie na samą kolejność kroków.",
+      "external_computational": "To trochę przypomina ten termometr, jeśli patrzeć wyłącznie na samą kolejność kroków.",
+      "external_mundane": "To trochę przypomina tamten wełniany koc, jeśli patrzeć wyłącznie na samą kolejność kroków.",
+      "external_ungrounded": "To trochę przypomina tamten falownik, jeśli patrzeć wyłącznie na samą kolejność kroków.",
+      "self": "To trochę przypomina ten tok pytań, jeśli patrzeć wyłącznie na samą kolejność kroków."
     }
   ]
 }

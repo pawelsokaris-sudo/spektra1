@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-14-kompostownik",
   "language": "pl",
-  "topic": "pryzma z lisci debowych: nawilzanie, przerzucanie i ocena dojrzalej prochnicy",
+  "topic": "pryzma z liści dębowych: nawilżanie, przerzucanie i ocena dojrzałej próchnicy",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Zalozylem pryzme z lisci debowych i chcialbym doczekac sie z niej porzadnej prochnicy.",
-        "Obok stoi druga skrzynia, do ktorej wrzucam resztki kuchenne i sciete trawy.",
-        "W pryzme wbilem sonde temperatury, bo bez niej zgaduje, co dzieje sie w srodku.",
-        "Liscie debowe leza od jesieni, ale nadal wygladaja prawie tak samo jak na poczatku.",
-        "Czy zaczynac od dodania azotu, czy raczej od porzadnego nawilzenia calej pryzmy?"
+        "Założyłem pryzmę z liści dębowych i chciałbym doczekać się z niej porządnej próchnicy.",
+        "Obok stoi druga skrzynia, do której wrzucam resztki kuchenne i ścięte trawy.",
+        "W pryzmę wbiłem sondę temperatury, bo bez niej zgaduję, co dzieje się w środku.",
+        "Liście dębowe leżą od jesieni, ale nadal wyglądają prawie tak samo jak na początku.",
+        "Czy zaczynać od dodania azotu, czy raczej od porządnego nawilżenia całej pryzmy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wody, bo suche liscie debowe nie rozloza sie nawet przy duzej ilosci azotu.",
-        "Debowe liscie sa twarde i garbnikowe, wiec potrzebuja wyraznie dluzszego czasu niz inne.",
-        "Nawilzaj warstwami, przesypujac liscie i polewajac je woda przy kazdym kolejnym poziomie.",
-        "Dopiero potem dodaj azot, na przyklad sciete trawy albo garsc konskiego obornika."
+        "Zacznij od wody, bo suche liście dębowe nie rozłożą się nawet przy dużej ilości azotu.",
+        "Dębowe liście są twarde i garbnikowe, więc potrzebują wyraźnie dłuższego czasu niż inne.",
+        "Nawilżaj warstwami, przesypując liście i polewając je wodą przy każdym kolejnym poziomie.",
+        "Dopiero potem dodaj azot, na przykład ścięte trawy albo garść końskiego obornika."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przelozylem cala pryzme warstwami i polalem kazda warstwe woda z weza ogrodowego.",
-        "Do tej drugiej skrzyni wrzucilem przy okazji wszystkie resztki z ostatniego weekendu.",
-        "Srodek pryzmy zrobil sie cieply, ale gorne dwadziescia centymetrow nadal jest zupelnie suche.",
-        "Czy przykrywac calosc plandeka, czy raczej podlewac wierzch co kilka kolejnych dni?"
+        "Przełożyłem całą pryzmę warstwami i polałem każdą warstwę wodą z węża ogrodowego.",
+        "Do tej drugiej skrzyni wrzuciłem przy okazji wszystkie resztki z ostatniego weekendu.",
+        "Środek pryzmy zrobił się ciepły, ale górne dwadzieścia centymetrów nadal jest zupełnie suche.",
+        "Czy przykrywać całość plandeką, czy raczej podlewać wierzch co kilka kolejnych dni?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przykryj calosc, bo wierzch wysycha od wiatru szybciej, niz zdazysz go podlewac.",
-        "Uzyj jednak czegos oddychajacego, na przyklad starej plachty albo grubej warstwy slomy.",
-        "Szczelna plandeka zatrzyma pare i zamieni gorne warstwy w slizka, cuchnaca mase.",
-        "Wilgotnosc sprawdzaj zawsze garscia: liscie maja byc wilgotne jak dobrze wycisnieta gabka."
+        "Przykryj całość, bo wierzch wysycha od wiatru szybciej, niż zdążysz go podlewać.",
+        "Użyj jednak czegoś oddychającego, na przykład starej płachty albo grubej warstwy słomy.",
+        "Szczelna plandeka zatrzyma parę i zamieni górne warstwy w ślizką, cuchnącą masę.",
+        "Wilgotność sprawdzaj zawsze garścią: liście mają być wilgotne jak dobrze wyciśnięta gąbka."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przykrylem pryzme stara plachta i wierzch przestal wysychac miedzy kolejnymi jesiennymi deszczami.",
-        "Sonda temperatury pokazuje w srodku okolo piecdziesieciu stopni przez caly ostatni tydzien.",
-        "Brzegi pozostaja jednak zimne, a liscie sa tam prawie nienaruszone i suche.",
-        "Czy przerzucac calosc juz teraz, czy poczekac, az srodek zacznie wyraznie stygnac?"
+        "Przykryłem pryzmę starą płachtą i wierzch przestał wysychać między kolejnymi jesiennymi deszczami.",
+        "Sonda temperatury pokazuje w środku około pięćdziesięciu stopni przez cały ostatni tydzień.",
+        "Brzegi pozostają jednak zimne, a liście są tam prawie nienaruszone i suche.",
+        "Czy przerzucać całość już teraz, czy poczekać, aż środek zacznie wyraźnie stygnąć?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przerzucaj dopiero wtedy, gdy temperatura w samym srodku spadnie o kilkanascie stopni.",
-        "Wtedy zamien miejscami brzegi ze srodkiem, zeby zimne liscie trafily w goraca strefe.",
-        "Przy przerzucaniu dolewaj wody, bo w cieplym srodku paruje jej naprawde bardzo duzo.",
-        "Dwa albo trzy takie przerzucenia wystarcza, zeby debowe liscie rozlozyly sie rowno."
+        "Przerzucaj dopiero wtedy, gdy temperatura w samym środku spadnie o kilkanaście stopni.",
+        "Wtedy zamień miejscami brzegi ze środkiem, żeby zimne liście trafiły w gorącą strefę.",
+        "Przy przerzucaniu dolewaj wody, bo w ciepłym środku paruje jej naprawdę bardzo dużo.",
+        "Dwa albo trzy takie przerzucenia wystarczą, żeby dębowe liście rozłożyły się równo."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przerzucilem pryzme po spadku temperatury i brzegi trafily dokladnie do goracego srodka.",
-        "Po tygodniu calosc zagrzala sie ponownie i pachnie teraz lasem, a nie kiszonka.",
-        "Objetosc zmniejszyla sie jednak o polowe i nie wiem, czy to dobry znak.",
-        "Czy taki ubytek jest normalny, czy oznacza, ze cos ulecialo z calej pryzmy?"
+        "Przerzuciłem pryzmę po spadku temperatury i brzegi trafiły dokładnie do gorącego środka.",
+        "Po tygodniu całość zagrzała się ponownie i pachnie teraz lasem, a nie kiszonką.",
+        "Objętość zmniejszyła się jednak o połowę i nie wiem, czy to dobry znak.",
+        "Czy taki ubytek jest normalny, czy oznacza, że coś uleciało z całej pryzmy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Ubytek o polowe jest zupelnie normalny, bo woda i dwutlenek wegla po prostu odchodza.",
-        "Straty azotu poznasz po ostrym zapachu amoniaku, ktorego u ciebie wyraznie nie ma.",
-        "Zapach lasu oznacza dobrze pracujace grzyby, ktore rozkladaja twarde czesci lisci debowych.",
-        "Zostaw pryzme w spokoju przez kolejne dwa miesiace i tylko pilnuj samej wilgotnosci."
+        "Ubytek o połowę jest zupełnie normalny, bo woda i dwutlenek węgla po prostu odchodzą.",
+        "Straty azotu poznasz po ostrym zapachu amoniaku, którego u ciebie wyraźnie nie ma.",
+        "Zapach lasu oznacza dobrze pracujące grzyby, które rozkładają twarde części liści dębowych.",
+        "Zostaw pryzmę w spokoju przez kolejne dwa miesiące i tylko pilnuj samej wilgotności."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zostawilem pryzme na dwa miesiace i teraz mam ciemna, kruszaca sie mase.",
-        "Widac jeszcze pojedyncze ogonki lisci, ale reszta rozpada sie w dloni bez oporu.",
-        "Chcialbym rozsypac to pod krzewami, ale nie wiem, czy prochnica juz dojrzala.",
-        "Czy da sie to sprawdzic prosto, bez wysylania probki do jakiegokolwiek laboratorium?"
+        "Zostawiłem pryzmę na dwa miesiące i teraz mam ciemną, kruszącą się masę.",
+        "Widać jeszcze pojedyncze ogonki liści, ale reszta rozpada się w dłoni bez oporu.",
+        "Chciałbym rozsypać to pod krzewami, ale nie wiem, czy próchnica już dojrzała.",
+        "Czy da się to sprawdzić prosto, bez wysyłania próbki do jakiegokolwiek laboratorium?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Da sie: wysiej w garsci prochnicy rzezuche i zobacz, czy kielkuje rowno i szybko.",
-        "Niedojrzala prochnica hamuje kielkowanie, bo wciaz wiaze azot potrzebny bardzo mlodym roslinom.",
-        "Jesli rzezucha wzejdzie w trzy dni, mozesz smialo rozsypywac wszystko pod krzewami.",
-        "Pod krzewy dawaj warstwe na dwa palce i nie mieszaj jej z ziemia."
+        "Da się: wysiej w garści próchnicy rzeżuchę i zobacz, czy kiełkuje równo i szybko.",
+        "Niedojrzała próchnica hamuje kiełkowanie, bo wciąż wiąże azot potrzebny bardzo młodym roślinom.",
+        "Jeśli rzeżucha wzejdzie w trzy dni, możesz śmiało rozsypywać wszystko pod krzewami.",
+        "Pod krzewy dawaj warstwę na dwa palce i nie mieszaj jej z ziemią."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta debowa pryzma jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw.",
-      "external_grounded": "Z ta druga skrzynia jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw.",
-      "external_computational": "Z ta sonda temperatury jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw.",
-      "external_mundane": "Z tamtym prasowaniem koszul jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw.",
-      "external_ungrounded": "Z tamtym przekaznikiem jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwazniejsze okazuje sie to, co zrobi sie najpierw."
+      "neutral": "Z tą dębową pryzmą jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
+      "external_grounded": "Z tą drugą skrzynią jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
+      "external_computational": "Z tą sondą temperatury jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
+      "external_mundane": "Z tamtym prasowaniem koszul jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
+      "external_ungrounded": "Z tamtym przekaźnikiem jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najważniejsze okazuje się to, co zrobi się najpierw."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej debowej pryzmie, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek.",
-      "external_grounded": "Ten sam porzadek widac przy tej drugiej skrzyni, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek.",
-      "external_computational": "Ten sam porzadek widac przy tej sondzie temperatury, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym prasowaniu koszul, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym przekazniku, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie cierpliwosc daje wiecej niz dodatkowy wysilek."
+      "neutral": "Ten sam porządek widać przy tej dębowej pryzmie, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
+      "external_grounded": "Ten sam porządek widać przy tej drugiej skrzyni, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
+      "external_computational": "Ten sam porządek widać przy tej sondzie temperatury, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
+      "external_mundane": "Ten sam porządek widać przy tamtym prasowaniu koszul, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym przekaźniku, gdzie cierpliwość daje więcej niż dodatkowy wysiłek.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie cierpliwość daje więcej niż dodatkowy wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tej debowej pryzmie, kiedy jeden pominiety krok wstrzymuje cala reszte.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tej drugiej skrzyni, kiedy jeden pominiety krok wstrzymuje cala reszte.",
-      "external_computational": "Cos takiego zdarza sie tez przy tej sondzie temperatury, kiedy jeden pominiety krok wstrzymuje cala reszte.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym prasowaniu koszul, kiedy jeden pominiety krok wstrzymuje cala reszte.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym przekazniku, kiedy jeden pominiety krok wstrzymuje cala reszte.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden pominiety krok wstrzymuje cala reszte."
+      "neutral": "Coś takiego zdarza się też przy tej dębowej pryzmie, kiedy jeden pominięty krok wstrzymuje całą resztę.",
+      "external_grounded": "Coś takiego zdarza się też przy tej drugiej skrzyni, kiedy jeden pominięty krok wstrzymuje całą resztę.",
+      "external_computational": "Coś takiego zdarza się też przy tej sondzie temperatury, kiedy jeden pominięty krok wstrzymuje całą resztę.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym prasowaniu koszul, kiedy jeden pominięty krok wstrzymuje całą resztę.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym przekaźniku, kiedy jeden pominięty krok wstrzymuje całą resztę.",
+      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden pominięty krok wstrzymuje całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej debowej pryzmie bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach.",
-      "external_grounded": "Przy tej drugiej skrzyni bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach.",
-      "external_computational": "Przy tej sondzie temperatury bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach.",
-      "external_mundane": "Przy tamtym prasowaniu koszul bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach.",
-      "external_ungrounded": "Przy tamtym przekazniku bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwa zmiane widac dopiero po tygodniach."
+      "neutral": "Przy tej dębowej pryzmie bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
+      "external_grounded": "Przy tej drugiej skrzyni bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
+      "external_computational": "Przy tej sondzie temperatury bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
+      "external_mundane": "Przy tamtym prasowaniu koszul bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
+      "external_ungrounded": "Przy tamtym przekaźniku bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwą zmianę widać dopiero po tygodniach."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te debowa pryzme, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_grounded": "To troche przypomina te druga skrzynie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_computational": "To troche przypomina te sonde temperatury, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_mundane": "To troche przypomina tamto prasowanie koszul, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_ungrounded": "To troche przypomina tamten przekaznik, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow."
+      "neutral": "To trochę przypomina tę dębową pryzmę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_grounded": "To trochę przypomina tę drugą skrzynię, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_computational": "To trochę przypomina tę sondę temperatury, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_mundane": "To trochę przypomina tamto prasowanie koszul, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_ungrounded": "To trochę przypomina tamten przekaźnik, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
     }
   ]
 }

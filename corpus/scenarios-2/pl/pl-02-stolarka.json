@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-02-stolarka",
   "language": "pl",
-  "topic": "sklejanie debowego blatu kuchennego: wilgotnosc desek, spoiny i wyrownywanie powierzchni",
+  "topic": "sklejanie dębowego blatu kuchennego: wilgotność desek, spoiny i wyrównywanie powierzchni",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Sklejam blat kuchenny z szesciu debowych desek i chcialbym uniknac wybrzuszenia juz po pierwszej zimie.",
-        "W warsztacie wisi jeszcze starsza polka z tego samego debu, ktora sklejalem dwa lata temu.",
-        "Na regale lezy wilgotnosciomierz z pamiecia pomiarow, ktorym sprawdzam kazda partie kupionego drewna.",
-        "Deski maja rozny uklad slojow, a dwie z nich wyraznie ciagna w strone lica.",
-        "Czy ustawiac je naprzemiennie slojami, czy raczej dobierac deski o mozliwie podobnym rysunku?"
+        "Sklejam blat kuchenny z sześciu dębowych desek i chciałbym uniknąć wybrzuszenia już po pierwszej zimie.",
+        "W warsztacie wisi jeszcze starsza półka z tego samego dębu, którą sklejałem dwa lata temu.",
+        "Na regale leży wilgotnościomierz z pamięcią pomiarów, którym sprawdzam każdą partię kupionego drewna.",
+        "Deski mają różny układ słojów, a dwie z nich wyraźnie ciągną w stronę lica.",
+        "Czy ustawiać je naprzemiennie słojami, czy raczej dobierać deski o możliwie podobnym rysunku?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Naprzemienny uklad slojow rzeczywiscie ogranicza wypaczanie, ale sam w sobie nie wystarczy przy szerokim blacie.",
-        "Wazniejsze jest, zeby wszystkie deski mialy identyczna wilgotnosc, bo to ona decyduje o pozniejszej pracy drewna.",
-        "Zmierz wilgotnosciomierzem kazda deske osobno i odloz te, ktore odstaja od reszty o kilka procent.",
-        "Dopiero potem dobieraj rysunek slojow, bo estetyka jest tu sprawa wtorna wobec samej stabilnosci."
+        "Naprzemienny układ słojów rzeczywiście ogranicza wypaczanie, ale sam w sobie nie wystarczy przy szerokim blacie.",
+        "Ważniejsze jest, żeby wszystkie deski miały identyczną wilgotność, bo to ona decyduje o późniejszej pracy drewna.",
+        "Zmierz wilgotnościomierzem każdą deskę osobno i odłóż te, które odstają od reszty o kilka procent.",
+        "Dopiero potem dobieraj rysunek słojów, bo estetyka jest tu sprawą wtórną wobec samej stabilności."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zmierzylem wilgotnosc i dwie deski mialy o cztery procent wiecej niz pozostale cztery sztuki.",
-        "Odlozylem je pod ta starsza polke i zostawilem w warsztacie na dwa tygodnie do wyrownania.",
-        "Reszte skleilem na wpusty, ale spoina przy jednej desce wyszla ciemniejsza i lekko wklesla.",
-        "Czy taka spoina oznacza za maly docisk, czy raczej nadmiar kleju w tym miejscu?"
+        "Zmierzyłem wilgotność i dwie deski miały o cztery procent więcej niż pozostałe cztery sztuki.",
+        "Odłożyłem je pod tą starszą półkę i zostawiłem w warsztacie na dwa tygodnie do wyrównania.",
+        "Resztę skleiłem na wpusty, ale spoina przy jednej desce wyszła ciemniejsza i lekko wklęsła.",
+        "Czy taka spoina oznacza za mały docisk, czy raczej nadmiar kleju w tym miejscu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Ciemniejsza i wklesla spoina to zwykle znak, ze klej wsiakl w drewno przed dociskiem.",
-        "Przy debie liczy sie czas otwarty kleju, bo pory chlona go szybciej niz w miekkim drewnie.",
-        "Nakladaj cieniej, ale rownomiernie, i sciskaj najpozniej pare minut po rozprowadzeniu warstwy.",
-        "Docisk ma byc rowny na calej dlugosci, inaczej srodek blatu zawsze wyjdzie slabszy."
+        "Ciemniejsza i wklęsła spoina to zwykle znak, że klej wsiąkł w drewno przed dociskiem.",
+        "Przy dębie liczy się czas otwarty kleju, bo pory chłoną go szybciej niż w miękkim drewnie.",
+        "Nakładaj cieniej, ale równomiernie, i ściskaj najpóźniej parę minut po rozprowadzeniu warstwy.",
+        "Docisk ma być równy na całej długości, inaczej środek blatu zawsze wyjdzie słabszy."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przekleilem wadliwa spoine cieniej rozprowadzonym klejem i tym razem wyszla rowna na calej dlugosci.",
-        "Wilgotnosciomierz pokazuje teraz we wszystkich deskach niemal identyczna wartosc, wiec drewno sie uspokoilo.",
-        "Blat lezy teraz plasko, ale przy krawedziach czuc delikatne uskoki miedzy sasiednimi deskami.",
-        "Chcialbym wyrownac powierzchnie recznie, bo nie mam dostepu do szerokiej szlifierki tasmowej.",
-        "Od czego zaczac, zeby nie zebrac zbyt wiele materialu z samego srodka blatu?"
+        "Przekleiłem wadliwą spoinę cieniej rozprowadzonym klejem i tym razem wyszła równa na całej długości.",
+        "Wilgotnościomierz pokazuje teraz we wszystkich deskach niemal identyczną wartość, więc drewno się uspokoiło.",
+        "Blat leży teraz płasko, ale przy krawędziach czuć delikatne uskoki między sąsiednimi deskami.",
+        "Chciałbym wyrównać powierzchnie ręcznie, bo nie mam dostępu do szerokiej szlifierki taśmowej.",
+        "Od czego zacząć, żeby nie zebrać zbyt wiele materiału z samego środka blatu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od zaznaczenia olowkiem calej powierzchni, bo dzieki temu zobaczysz, gdzie faktycznie zbierasz material.",
-        "Pracuj strugiem w poprzek slojow, a dopiero na koniec wzdluz, delikatnymi i plytkimi ruchami.",
-        "Uskoki znikna szybciej, niz sadzisz, bo maja zwykle mniej niz dziesiata czesc milimetra.",
-        "Kontroluj plaskosc dluga listwa, przykladajac ja co jakis czas w kilku roznych kierunkach."
+        "Zacznij od zaznaczenia ołówkiem całej powierzchni, bo dzięki temu zobaczysz, gdzie faktycznie zbierasz materiał.",
+        "Pracuj strugiem w poprzek słojów, a dopiero na koniec wzdłuż, delikatnymi i płytkimi ruchami.",
+        "Uskoki znikną szybciej, niż sądzisz, bo mają zwykle mniej niż dziesiąta część milimetra.",
+        "Kontroluj płaskość długą listwą, przykładając ją co jakiś czas w kilku różnych kierunkach."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Struganie poszlo lepiej, niz sie spodziewalem, i uskoki zeszly juz po kilkunastu minutach pracy.",
-        "Listwa pokazuje jednak lekkie zaglebienie mniej wiecej w polowie szerokosci calego blatu.",
-        "Boje sie, ze przy dalszym struganiu zrobie z tego wyrazna niecke na srodku blatu.",
-        "Czy w takim wypadku lepiej odpuscic i przejsc od razu do szlifowania papierem?"
+        "Struganie poszło lepiej, niż się spodziewałem, i uskoki zeszły już po kilkunastu minutach pracy.",
+        "Listwa pokazuje jednak lekkie zagłębienie mniej więcej w połowie szerokości całego blatu.",
+        "Boję się, że przy dalszym struganiu zrobię z tego wyraźną nieckę na środku blatu.",
+        "Czy w takim wypadku lepiej odpuścić i przejść od razu do szlifowania papierem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zaglebienie w polowie szerokosci to typowy skutek pracy strugiem od srodka ku brzegom.",
-        "Odpusc struganie srodka i skup sie wylacznie na obnizeniu obszarow wokol niego.",
-        "Papier scierny wyrownuje wolniej i chetnie kopiuje istniejacy ksztalt, wiec sam niecki nie usunie.",
-        "Uzyj dlugiej packi z papierem, bo tylko dluga baza wyrownuje powierzchnie zamiast ja odwzorowywac."
+        "Zagłębienie w połowie szerokości to typowy skutek pracy strugiem od środka ku brzegom.",
+        "Odpuść struganie środka i skup się wyłącznie na obniżeniu obszarów wokół niego.",
+        "Papier ścierny wyrównuje wolniej i chętnie kopiuje istniejący kształt, więc sam niecki nie usunie.",
+        "Użyj długiej packi z papierem, bo tylko długa baza wyrównuje powierzchnie zamiast ją odwzorowywać."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zrobilem dluga packe z prostej listwy i po kwadransie zaglebienie praktycznie przestalo byc wyczuwalne.",
-        "Blat wyglada teraz rowno, choc drewno w kilku miejscach chlonie olej wyraznie szybciej.",
-        "Zastanawiam sie, czy olejowac go ciepla warstwa, czy raczej kilkoma cienkimi na zimno.",
-        "Blat bedzie codziennie mokry, wiec zalezy mi na trwalosci bardziej niz na wygladzie."
+        "Zrobiłem długą packę z prostej listwy i po kwadransie zagłębienie praktycznie przestało być wyczuwalne.",
+        "Blat wygląda teraz równo, choć drewno w kilku miejscach chłonie olej wyraźnie szybciej.",
+        "Zastanawiam się, czy olejować go ciepłą warstwą, czy raczej kilkoma cienkimi na zimno.",
+        "Blat będzie codziennie mokry, więc zależy mi na trwałości bardziej niż na wyglądzie."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przy blacie kuchennym lepiej sprawdza sie kilka cienkich warstw oleju nakladanych w odstepach.",
-        "Kazda warstwa ma wsiaknac i wyschnac do konca, zanim polozysz na niej nastepna.",
-        "Miejsca, ktore chlona szybciej, po prostu przyjma wiecej oleju przy pierwszych dwoch przejsciach.",
-        "Po tygodniu powtorz jedna warstwe i potem odswiezaj powloke mniej wiecej dwa razy w roku."
+        "Przy blacie kuchennym lepiej sprawdza się kilka cienkich warstw oleju nakładanych w odstępach.",
+        "Każda warstwa ma wsiąknąć i wyschnąć do końca, zanim położysz na niej następną.",
+        "Miejsca, które chłoną szybciej, po prostu przyjmą więcej oleju przy pierwszych dwóch przejściach.",
+        "Po tygodniu powtórz jedną warstwę i potem odświeżaj powłokę mniej więcej dwa razy w roku."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "neutral": "Z tym debowym blatem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "external_grounded": "Z ta starsza polka jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "external_computational": "Z tym wilgotnosciomierzem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "external_mundane": "Z tamtym sprzataniem strychu jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co dzieje sie na samym poczatku."
+      "neutral": "Z tym dębowym blatem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
+      "external_grounded": "Z tą starszą półką jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
+      "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
+      "external_mundane": "Z tamtym sprzątaniem strychu jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
+      "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od tego, co dzieje się na samym początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tym debowym blacie, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "external_grounded": "Ten sam porzadek widac przy tej starszej polce, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "external_computational": "Ten sam porzadek widac przy tym wilgotnosciomierzu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym sprzataniu strychu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym regulatorze, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc dzialan znaczy wiecej niz sama staranosc."
+      "neutral": "Ten sam porządek widać przy tym dębowym blacie, gdzie kolejność działań znaczy więcej niż sama staraność.",
+      "external_grounded": "Ten sam porządek widać przy tej starszej półce, gdzie kolejność działań znaczy więcej niż sama staraność.",
+      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż sama staraność.",
+      "external_mundane": "Ten sam porządek widać przy tamtym sprzątaniu strychu, gdzie kolejność działań znaczy więcej niż sama staraność.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność działań znaczy więcej niż sama staraność.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż sama staraność."
     },
     {
       "turn": 2,
       "after_sentence": 2,
-      "neutral": "Cos podobnego zdarza sie tez przy tym debowym blacie, kiedy jeden szczegol przesadza o calym efekcie.",
-      "external_grounded": "Cos podobnego zdarza sie tez przy tej starszej polce, kiedy jeden szczegol przesadza o calym efekcie.",
-      "external_computational": "Cos podobnego zdarza sie tez przy tym wilgotnosciomierzu, kiedy jeden szczegol przesadza o calym efekcie.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym sprzataniu strychu, kiedy jeden szczegol przesadza o calym efekcie.",
-      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym regulatorze, kiedy jeden szczegol przesadza o calym efekcie.",
-      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden szczegol przesadza o calym efekcie."
+      "neutral": "Coś podobnego zdarza się też przy tym dębowym blacie, kiedy jeden szczegół przesądza o całym efekcie.",
+      "external_grounded": "Coś podobnego zdarza się też przy tej starszej półce, kiedy jeden szczegół przesądza o całym efekcie.",
+      "external_computational": "Coś podobnego zdarza się też przy tym wilgotnościomierzu, kiedy jeden szczegół przesądza o całym efekcie.",
+      "external_mundane": "Coś podobnego zdarza się też przy tamtym sprzątaniu strychu, kiedy jeden szczegół przesądza o całym efekcie.",
+      "external_ungrounded": "Coś podobnego zdarza się też przy tamtym regulatorze, kiedy jeden szczegół przesądza o całym efekcie.",
+      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden szczegół przesądza o całym efekcie."
     },
     {
       "turn": 4,
       "after_sentence": 2,
-      "neutral": "Przy tym debowym blacie bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_grounded": "Przy tej starszej polce bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_computational": "Przy tym wilgotnosciomierzu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tamtym sprzataniu strychu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "external_ungrounded": "Przy tamtym regulatorze bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki widac dopiero po dluzszej chwili."
+      "neutral": "Przy tym dębowym blacie bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_grounded": "Przy tej starszej półce bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_mundane": "Przy tamtym sprzątaniu strychu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
+      "external_ungrounded": "Przy tamtym regulatorze bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten debowy blat, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "external_grounded": "To troche przypomina te starsza polke, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "external_computational": "To troche przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "external_mundane": "To troche przypomina tamto sprzatanie strychu, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "external_ungrounded": "To troche przypomina tamten regulator, jesli patrzec wylacznie na kolejnosc kolejnych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych krokow."
+      "neutral": "To trochę przypomina ten dębowy blat, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
+      "external_grounded": "To trochę przypomina tę starszą półkę, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
+      "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
+      "external_mundane": "To trochę przypomina tamto sprzątanie strychu, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten regulator, jeśli patrzeć wyłącznie na kolejność kolejnych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych kroków."
     }
   ]
 }

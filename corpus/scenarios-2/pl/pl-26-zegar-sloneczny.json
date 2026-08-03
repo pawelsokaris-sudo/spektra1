@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-26-zegar-sloneczny",
   "language": "pl",
-  "topic": "ustawianie zegara slonecznego w ogrodzie: nachylenie gnomona, kierunek plyty i rownanie czasu",
+  "topic": "ustawianie zegara słonecznego w ogrodzie: nachylenie gnomona, kierunek płyty i równanie czasu",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Postawilem w ogrodzie zegar sloneczny z mosiadzu i chcialbym wreszcie ustawic go naprawde dokladnie.",
-        "Wzorowalem sie na plebanskiej tarczy z sasiedniej wsi, ktora chodzi zgodnie od stu lat.",
-        "Kupilem katomierz cyfrowy, bo bez niego zgaduje nachylenie gnomona wzgledem calej plyty.",
-        "Cien pada teraz o kwadrans za wczesnie, choc tarcza wyglada na rowno wypoziomowana.",
-        "Czy zaczynac od skrecenia calej plyty ku poludniowi, czy raczej od nachylenia samego gnomona?"
+        "Postawiłem w ogrodzie zegar słoneczny z mosiądzu i chciałbym wreszcie ustawić go naprawdę dokładnie.",
+        "Wzorowałem się na plebańskiej tarczy z sąsiedniej wsi, która chodzi zgodnie od stu lat.",
+        "Kupiłem kątomierz cyfrowy, bo bez niego zgaduję nachylenie gnomona względem całej płyty.",
+        "Cień pada teraz o kwadrans za wcześnie, choć tarcza wygląda na równo wypoziomowaną.",
+        "Czy zaczynać od skręcenia całej płyty ku południowi, czy raczej od nachylenia samego gnomona?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od nachylenia gnomona, bo caly rysunek godzin liczy sie wzgledem tego jednego kata.",
-        "Gnomon musi stac pod katem rownym szerokosci geograficznej, czyli u nas okolo piecdziesieciu stopni.",
-        "Dopiero potem ma sens obracanie plyty, inaczej poprawiasz skutek zamiast prawdziwej przyczyny.",
-        "Sprawdz tez, czy krawedz gnomona jest prosta, bo wygiety pret rozmywa cien przy brzegach."
+        "Zacznij od nachylenia gnomona, bo cały rysunek godzin liczy się względem tego jednego kąta.",
+        "Gnomon musi stać pod kątem równym szerokości geograficznej, czyli u nas około pięćdziesięciu stopni.",
+        "Dopiero potem ma sens obracanie płyty, inaczej poprawiasz skutek zamiast prawdziwej przyczyny.",
+        "Sprawdź też, czy krawędź gnomona jest prosta, bo wygięty pręt rozmywa cień przy brzegach."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Katomierz pokazal czterdziesci szesc stopni, wiec podnioslem gnomon o cztery i pol.",
-        "Cien przesunal sie wyraznie, ale w poludnie nadal spieszy sie o kilka minut.",
-        "Czy to znaczy, ze plyta patrzy w zla strone, czy raczej ze zle licze godziny?",
-        "Mam pod reka busole i sznurek, wiec moge wyznaczyc kierunek bez zdejmowania calej plyty."
+        "Kątomierz pokazał czterdzieści sześć stopni, więc podniosłem gnomon o cztery i pół.",
+        "Cień przesunął się wyraźnie, ale w południe nadal śpieszy się o kilka minut.",
+        "Czy to znaczy, że płyta patrzy w złą stronę, czy raczej że źle liczę godziny?",
+        "Mam pod ręką busolę i sznurek, więc mogę wyznaczyć kierunek bez zdejmowania całej płyty."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Nie ufaj busoli, bo igla pokazuje polnoc magnetyczna, a ta rozni sie u nas o kilka stopni.",
-        "Wyznacz poludnie z cienia pionowego pretu, notujac jego najkrotsze polozenie w ciagu dnia.",
-        "Pamietaj tez, ze zegar sloneczny pokazuje czas prawdziwy, a nie ten z urzedowej strefy.",
-        "Roznica siega w ciagu roku nawet szesnastu minut i zmienia sie z tygodnia na tydzien."
+        "Nie ufaj busoli, bo igła pokazuje północ magnetyczną, a ta różni się u nas o kilka stopni.",
+        "Wyznacz południe z cienia pionowego prętu, notując jego najkrótsze położenie w ciągu dnia.",
+        "Pamiętaj też, że zegar słoneczny pokazuje czas prawdziwy, a nie ten z urzędowej strefy.",
+        "Różnica sięga w ciągu roku nawet szesnastu minut i zmienia się z tygodnia na tydzień."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wyznaczylem poludnie z najkrotszego cienia i obrocilem plyte o niecale trzy stopnie.",
-        "Teraz w samo poludnie cien trafia prawie idealnie w kreske dwunastej godziny.",
-        "Katomierz potwierdza, ze gnomon stoi pod katem piecdziesieciu i jednej dziesiatej stopnia.",
-        "Na plebanskiej tarczy godziny sa rozstawione inaczej, gestsze rano, a rzadsze po poludniu.",
-        "Czy taki rozstaw wynika z innej szerokosci, czy z zupelnie innego sposobu kreslenia?"
+        "Wyznaczyłem południe z najkrótszego cienia i obróciłem płytę o niecałe trzy stopnie.",
+        "Teraz w samo południe cień trafia prawie idealnie w kreskę dwunastej godziny.",
+        "Kątomierz potwierdza, że gnomon stoi pod kątem pięćdziesięciu i jednej dziesiątej stopnia.",
+        "Na plebańskiej tarczy godziny są rozstawione inaczej, gęstsze rano, a rzadsze po południu.",
+        "Czy taki rozstaw wynika z innej szerokości, czy z zupełnie innego sposobu kreślenia?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Rozstaw godzin zalezy od szerokosci geograficznej, wiec kazda tarcza jest kreslona osobno.",
-        "Kilkadziesiat kilometrow na polnoc juz widac w rysunku, choc na oko wydaje sie identyczny.",
-        "Sprawdz jeszcze, czy plebanska tarcza nie jest nachylona, bo wtedy cala siatka biegnie inaczej.",
-        "Tarcze pionowe na scianach maja godziny rozlozone zupelnie inaczej niz te lezace poziomo."
+        "Rozstaw godzin zależy od szerokości geograficznej, więc każda tarcza jest kreślona osobno.",
+        "Kilkadziesiąt kilometrów na północ już widać w rysunku, choć na oko wydaje się identyczny.",
+        "Sprawdź jeszcze, czy plebańska tarcza nie jest nachylona, bo wtedy cała siatka biegnie inaczej.",
+        "Tarcze pionowe na ścianach mają godziny rozłożone zupełnie inaczej niż te leżące poziomo."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zmierzylem plebanska tarcze i rzeczywiscie lezy pochylona o kilka stopni ku poludniowi.",
-        "Moja tarcza chodzi teraz zgodnie przez wieksza czesc dnia, poza wczesnym rankiem.",
-        "O siodmej cien wypada za dlugi i rozmyty, wiec trudno odczytac dokladna godzine.",
-        "Czy da sie z tym cos zrobic, czy o swicie kazda tarcza czyta sie gorzej?"
+        "Zmierzyłem plebańską tarczę i rzeczywiście leży pochylona o kilka stopni ku południowi.",
+        "Moja tarcza chodzi teraz zgodnie przez większą część dnia, poza wczesnym rankiem.",
+        "O siódmej cień wypada za długi i rozmyty, więc trudno odczytać dokładną godzinę.",
+        "Czy da się z tym coś zrobić, czy o świcie każda tarcza czyta się gorzej?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "O swicie slonce stoi nisko, wiec cien wydluza sie i traci ostre krawedzie.",
-        "Pomaga scienienie konca gnomona albo mala tarczka z otworem rzucajaca jasny punkt.",
-        "Taki punkt czyta sie znacznie latwiej niz rozmyta krawedz dlugiego porannego cienia.",
-        "Pamietaj jednak, ze przy niskim sloncu rosnie tez blad samego wypoziomowania plyty."
+        "O świcie słońce stoi nisko, więc cień wydłuża się i traci ostre krawędzie.",
+        "Pomaga ścienienie końca gnomona albo mała tarczka z otworem rzucająca jasny punkt.",
+        "Taki punkt czyta się znacznie łatwiej niż rozmyta krawędź długiego porannego cienia.",
+        "Pamiętaj jednak, że przy niskim słońcu rośnie też błąd samego wypoziomowania płyty."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zrobilem na koncu gnomona mala tarczke z otworem i poranny odczyt bardzo sie poprawil.",
-        "Zaczalem tez notowac roznice miedzy tarcza a zegarkiem przez kolejne trzy tygodnie.",
-        "Roznica rosnie powoli i w tym miesiacu przekroczyla juz dziesiec pelnych minut.",
-        "Czy to blad mojego ustawienia, czy zwykla wlasciwosc ruchu Ziemi po eliptycznej orbicie?"
+        "Zrobiłem na końcu gnomona małą tarczkę z otworem i poranny odczyt bardzo się poprawił.",
+        "Zacząłem też notować różnice między tarczą a zegarkiem przez kolejne trzy tygodnie.",
+        "Różnica rośnie powoli i w tym miesiącu przekroczyła już dziesięć pełnych minut.",
+        "Czy to błąd mojego ustawienia, czy zwykła właściwość ruchu Ziemi po eliptycznej orbicie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "To zwykla wlasciwosc, opisana rownaniem czasu, ktore rosnie i maleje w cyklu rocznym.",
-        "W lutym zegar sloneczny spoznia sie o czternascie minut, a na poczatku listopada spieszy.",
-        "Wypisz tabelke poprawek na kazdy miesiac i przykrec ja z boku kamiennej podstawy.",
-        "Wtedy tarcza bedzie zgodna z zegarkiem przez caly rok, bez zadnej dalszej regulacji."
+        "To zwykła właściwość, opisana równaniem czasu, które rośnie i maleje w cyklu rocznym.",
+        "W lutym zegar słoneczny spóźnia się o czternaście minut, a na początku listopada śpieszy.",
+        "Wypisz tabelkę poprawek na każdy miesiąc i przykręć ją z boku kamiennej podstawy.",
+        "Wtedy tarcza będzie zgodna z zegarkiem przez cały rok, bez żadnej dalszej regulacji."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym gnomonem jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku.",
-      "external_grounded": "Z ta plebanska tarcza jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku.",
-      "external_computational": "Z tym katomierzem cyfrowym jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku.",
-      "external_mundane": "Z tamtym slaniem lozka jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku.",
-      "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calosci decyduje kilka drobiazgow zrobionych na samym poczatku."
+      "neutral": "Z tym gnomonem jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
+      "external_grounded": "Z tą plebańską tarczą jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
+      "external_computational": "Z tym kątomierzem cyfrowym jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
+      "external_mundane": "Z tamtym słaniem łóżka jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
+      "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje kilka drobiazgów zrobionych na samym początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tym gnomonie, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_grounded": "Ten sam porzadek widac przy tej plebanskiej tarczy, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_computational": "Ten sam porzadek widac przy tym katomierzu cyfrowym, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym slaniu lozka, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym liczniku wody, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie jeden krok trzeba domknac, zanim ruszy sie kolejny."
+      "neutral": "Ten sam porządek widać przy tym gnomonie, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_grounded": "Ten sam porządek widać przy tej plebańskiej tarczy, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_computational": "Ten sam porządek widać przy tym kątomierzu cyfrowym, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_mundane": "Ten sam porządek widać przy tamtym słaniu łóżka, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym liczniku wody, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie jeden krok trzeba domknąć, zanim ruszy się kolejny."
     },
     {
       "turn": 2,
       "after_sentence": 2,
-      "neutral": "Cos takiego zdarza sie tez przy tym gnomonie, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tej plebanskiej tarczy, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej.",
-      "external_computational": "Cos takiego zdarza sie tez przy tym katomierzu cyfrowym, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym slaniu lozka, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym liczniku wody, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy pozorna poprawa zakrywa blad siedzacy zupelnie gdzie indziej."
+      "neutral": "Coś takiego zdarza się też przy tym gnomonie, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
+      "external_grounded": "Coś takiego zdarza się też przy tej plebańskiej tarczy, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
+      "external_computational": "Coś takiego zdarza się też przy tym kątomierzu cyfrowym, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym słaniu łóżka, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym liczniku wody, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej.",
+      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy pozorna poprawa zakrywa błąd siedzący zupełnie gdzie indziej."
     },
     {
       "turn": 4,
       "after_sentence": 3,
-      "neutral": "Przy tym gnomonie bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie.",
-      "external_grounded": "Przy tej plebanskiej tarczy bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie.",
-      "external_computational": "Przy tym katomierzu cyfrowym bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie.",
-      "external_mundane": "Przy tamtym slaniu lozka bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie.",
-      "external_ungrounded": "Przy tamtym liczniku wody bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo drobna roznica narasta powoli i ujawnia sie dopiero po czasie."
+      "neutral": "Przy tym gnomonie bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
+      "external_grounded": "Przy tej plebańskiej tarczy bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
+      "external_computational": "Przy tym kątomierzu cyfrowym bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
+      "external_mundane": "Przy tamtym słaniu łóżka bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
+      "external_ungrounded": "Przy tamtym liczniku wody bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo drobna różnica narasta powoli i ujawnia się dopiero po czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To pod pewnymi wzgledami przypomina ten gnomon, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_grounded": "To pod pewnymi wzgledami przypomina te plebanska tarcze, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_computational": "To pod pewnymi wzgledami przypomina ten katomierz cyfrowy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina tamto slanie lozka, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten licznik wody, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+      "neutral": "To pod pewnymi względami przypomina ten gnomon, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_grounded": "To pod pewnymi względami przypomina tę plebańską tarczę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_computational": "To pod pewnymi względami przypomina ten kątomierz cyfrowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_mundane": "To pod pewnymi względami przypomina tamto słanie łóżka, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamten licznik wody, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

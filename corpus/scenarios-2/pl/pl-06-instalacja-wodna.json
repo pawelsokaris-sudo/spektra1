@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-06-instalacja-wodna",
   "language": "pl",
-  "topic": "spadki cisnienia w instalacji ze studni: zbiornik przeponowy, wyciek na zlaczce i wydajnosc pompy",
+  "topic": "spadki ciśnienia w instalacji ze studni: zbiornik przeponowy, wyciek na złączce i wydajność pompy",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Mam wode z wlasnej studni i cisnienie w domu spada za kazdym razem przy dwoch kranach.",
-        "Przy szklarni stoi drugi, mniejszy zbiornik, ktory od lat trzyma cisnienie zupelnie rowno.",
-        "Na rurze przy pompie mam elektroniczny manometr z zapisem, ktory notuje kazdy skok cisnienia.",
-        "Pompa glebinowa siedzi na trzydziestu metrach, a zbiornik domowy ma sto litrow pojemnosci.",
-        "Czy szukac problemu w pompie, czy raczej w samym zbiorniku i jego ustawieniach?"
+        "Mam wodę z własnej studni i ciśnienie w domu spada za każdym razem przy dwóch kranach.",
+        "Przy szklarni stoi drugi, mniejszy zbiornik, który od lat trzyma ciśnienie zupełnie równo.",
+        "Na rurze przy pompie mam elektroniczny manometr z zapisem, który notuje każdy skok ciśnienia.",
+        "Pompa głębinowa siedzi na trzydziestu metrach, a zbiornik domowy ma sto litrów pojemności.",
+        "Czy szukać problemu w pompie, czy raczej w samym zbiorniku i jego ustawieniach?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od zbiornika, bo to on wygladza rozbior wody i chroni pompe przed taktowaniem.",
-        "Sprawdz cisnienie powietrza w przeponie przy calkowicie pustej instalacji i zamknietym zaworze glownym.",
-        "Powinno byc mniej wiecej o dziesiec procent nizsze od cisnienia zalaczania samej pompy.",
-        "Jesli przepona stracila powietrze, zbiornik zachowuje sie tak, jakby w ogole go nie bylo."
+        "Zacznij od zbiornika, bo to on wygładza rozbiór wody i chroni pompę przed taktowaniem.",
+        "Sprawdź ciśnienie powietrza w przeponie przy całkowicie pustej instalacji i zamkniętym zaworze głównym.",
+        "Powinno być mniej więcej o dziesięć procent niższe od ciśnienia załączania samej pompy.",
+        "Jeśli przepona straciła powietrze, zbiornik zachowuje się tak, jakby w ogóle go nie było."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Spuscilem wode i na zaworku zbiornika bylo zaledwie poltora bara zamiast pelnych trzech.",
-        "Dopompowalem powietrze do trzech barow i cisnienie w kranach rzeczywiscie przestalo tak skakac.",
-        "Pompa zalacza sie jednak nadal dosc czesto, mniej wiecej co czterdziesci sekund pracy.",
-        "Czy to normalne przy takim zbiorniku, czy swiadczy juz o jakims dodatkowym wycieku?"
+        "Spuściłem wodę i na zaworku zbiornika było zaledwie półtora bara zamiast pełnych trzech.",
+        "Dopompowałem powietrze do trzech barów i ciśnienie w kranach rzeczywiście przestało tak skakać.",
+        "Pompa załącza się jednak nadal dość często, mniej więcej co czterdzieści sekund pracy.",
+        "Czy to normalne przy takim zbiorniku, czy świadczy już o jakimś dodatkowym wycieku?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zalaczanie co czterdziesci sekund przy stalym rozbiorze jest jeszcze w granicach rozsadku.",
-        "Niepokojace bylyby zalaczenia przy calkowicie zakreconych kranach, bo to juz oznacza wyciek.",
-        "Zamknij glowny zawor na noc i rano sprawdz, czy cisnienie w instalacji spadlo.",
-        "Stare rury i zlaczki potrafia gubic po kilka litrow dziennie bez zadnego widocznego sladu."
+        "Załączanie co czterdzieści sekund przy stałym rozbiorze jest jeszcze w granicach rozsądku.",
+        "Niepokojące byłyby załączenia przy całkowicie zakręconych kranach, bo to już oznacza wyciek.",
+        "Zamknij główny zawór na noc i rano sprawdź, czy ciśnienie w instalacji spadło.",
+        "Stare rury i złączki potrafią gubić po kilka litrów dziennie bez żadnego widocznego śladu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zamknalem zawor na noc i cisnienie spadlo o pol bara do samego rana.",
-        "Manometr z zapisem pokazal, ze spadek narastal rowno przez cala noc bez zadnych skokow.",
-        "Obszedlem instalacje i przy przylaczu do drugiego zbiornika znalazlem wilgotna plame w studzience.",
-        "Zlaczka jest tam stara, mosiezna i wyraznie pokryta zielonym nalotem na calym gwincie.",
-        "Czy wymieniac sama zlaczke, czy przy okazji caly odcinek prowadzacy do tej szklarni?"
+        "Zamknąłem zawór na noc i ciśnienie spadło o pół bara do samego rana.",
+        "Manometr z zapisem pokazał, że spadek narastał równo przez całą noc bez żadnych skoków.",
+        "Obszedłem instalację i przy przyłączu do drugiego zbiornika znalazłem wilgotną plamę w studzience.",
+        "Złączka jest tam stara, mosiężna i wyraźnie pokryta zielonym nalotem na całym gwincie.",
+        "Czy wymieniać samą złączkę, czy przy okazji cały odcinek prowadzący do tej szklarni?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Wymien cala zlaczke razem z krotkim odcinkiem rury, bo gwint jest juz wyraznie nadzarty.",
-        "Zielony nalot oznacza, ze woda saczy sie tam od dawna i toczy sam metal.",
-        "Calego odcinka nie ruszaj, dopoki nie sprawdzisz, czy po wymianie cisnienie trzyma przez noc.",
-        "Przy okazji zamontuj tam zawor odcinajacy, zeby nie spuszczac wody z calego domu."
+        "Wymień całą złączkę razem z krótkim odcinkiem rury, bo gwint jest już wyraźnie nadżarty.",
+        "Zielony nalot oznacza, że woda sączy się tam od dawna i toczy sam metal.",
+        "Całego odcinka nie ruszaj, dopóki nie sprawdzisz, czy po wymianie ciśnienie trzyma przez noc.",
+        "Przy okazji zamontuj tam zawór odcinający, żeby nie spuszczać wody z całego domu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wymienilem zlaczke z kawalkiem rury i zamontowalem maly zawor odcinajacy przy samej studzience.",
-        "Przez noc cisnienie utrzymalo sie bez zmian, a pompa nie zalaczyla sie ani razu.",
-        "W dzien wszystko dziala rowno, choc przy podlewaniu szklarni cisnienie potrafi jeszcze przysiasc.",
-        "Czy w takiej sytuacji pomoze wiekszy zbiornik, czy raczej mocniejsza pompa w studni?"
+        "Wymieniłem złączkę z kawałkiem rury i zamontowałem mały zawór odcinający przy samej studzience.",
+        "Przez noc ciśnienie utrzymało się bez zmian, a pompa nie załączyła się ani razu.",
+        "W dzień wszystko działa równo, choć przy podlewaniu szklarni ciśnienie potrafi jeszcze przysiąść.",
+        "Czy w takiej sytuacji pomoże większy zbiornik, czy raczej mocniejsza pompa w studni?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przy podlewaniu rozbior jest staly i dlugi, wiec zbiornik i tak szybko sie oprozni.",
-        "Wiekszy zbiornik wydluzy tylko czas do zalaczenia, a nie podniesie samego cisnienia roboczego.",
-        "Sprawdz najpierw wydajnosc pompy, bo przy trzydziestu metrach kazdy metr kosztuje sporo cisnienia.",
-        "Jesli wydajnosc jest za mala, dopiero wtedy warto myslec o mocniejszym urzadzeniu w studni."
+        "Przy podlewaniu rozbiór jest stały i długi, więc zbiornik i tak szybko się opróżni.",
+        "Większy zbiornik wydłuży tylko czas do załączenia, a nie podniesie samego ciśnienia roboczego.",
+        "Sprawdź najpierw wydajność pompy, bo przy trzydziestu metrach każdy metr kosztuje sporo ciśnienia.",
+        "Jeśli wydajność jest za mała, dopiero wtedy warto myśleć o mocniejszym urządzeniu w studni."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zmierzylem wydajnosc wiadrem i wyszlo mi okolo dwudziestu pieciu litrow na minute.",
-        "Producent podaje trzydziesci piec litrow przy takiej glebokosci, wiec roznica jest naprawde zauwazalna.",
-        "Pompa ma juz jedenascie lat i przez ostatnie dwa sezony pracowala praktycznie codziennie.",
-        "Czy taka roznica oznacza zuzycie wirnikow, czy moze zapchany filtr na samym ssaniu?"
+        "Zmierzyłem wydajność wiadrem i wyszło mi około dwudziestu pięciu litrów na minutę.",
+        "Producent podaje trzydzieści pięć litrów przy takiej głębokości, więc różnica jest naprawdę zauważalna.",
+        "Pompa ma już jedenaście lat i przez ostatnie dwa sezony pracowała praktycznie codziennie.",
+        "Czy taka różnica oznacza zużycie wirników, czy może zapchany filtr na samym ssaniu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przy jedenastu latach pracy spadek o jedna trzecia wskazuje raczej na zuzyte wirniki.",
-        "Zapchany filtr daje zwykle spadek nagly, a nie powolny i rozlozony na dwa sezony.",
-        "Wyciagnij pompe i obejrzyj wirniki, bo piasek ze studni scieral je przez cale lata.",
-        "Przy wymianie zamontuj od razu filtr siatkowy na ssaniu, zeby nowa pompa posluzyla dluzej."
+        "Przy jedenastu latach pracy spadek o jedną trzecią wskazuje raczej na zużyte wirniki.",
+        "Zapchany filtr daje zwykle spadek nagły, a nie powolny i rozłożony na dwa sezony.",
+        "Wyciągnij pompę i obejrzyj wirniki, bo piasek ze studni ścierał je przez całe lata.",
+        "Przy wymianie zamontuj od razu filtr siatkowy na ssaniu, żeby nowa pompa posłużyła dłużej."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "neutral": "Z ta glebinowa pompa jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "external_grounded": "Z tym drugim zbiornikiem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "external_computational": "Z tym manometrem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "external_mundane": "Z tamtym grabieniem lisci jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "external_ungrounded": "Z tamtym protokolem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy od tego, co ustawiono na poczatku."
+      "neutral": "Z tą głębinową pompą jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
+      "external_grounded": "Z tym drugim zbiornikiem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
+      "external_computational": "Z tym manometrem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
+      "external_mundane": "Z tamtym grabieniem liści jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
+      "external_ungrounded": "Z tamtym protokołem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy od tego, co ustawiono na początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej glebinowej pompie, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "external_grounded": "Ten sam porzadek widac przy tym drugim zbiorniku, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "external_computational": "Ten sam porzadek widac przy tym manometrze, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym grabieniu lisci, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym protokole, gdzie kolejnosc krokow wazy wiecej niz sam wysilek.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow wazy wiecej niz sam wysilek."
+      "neutral": "Ten sam porządek widać przy tej głębinowej pompie, gdzie kolejność kroków waży więcej niż sam wysiłek.",
+      "external_grounded": "Ten sam porządek widać przy tym drugim zbiorniku, gdzie kolejność kroków waży więcej niż sam wysiłek.",
+      "external_computational": "Ten sam porządek widać przy tym manometrze, gdzie kolejność kroków waży więcej niż sam wysiłek.",
+      "external_mundane": "Ten sam porządek widać przy tamtym grabieniu liści, gdzie kolejność kroków waży więcej niż sam wysiłek.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym protokole, gdzie kolejność kroków waży więcej niż sam wysiłek.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków waży więcej niż sam wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego zdarza sie tez przy tej glebinowej pompie, kiedy jeden element przejmuje prace za reszte.",
-      "external_grounded": "Cos podobnego zdarza sie tez przy tym drugim zbiorniku, kiedy jeden element przejmuje prace za reszte.",
-      "external_computational": "Cos podobnego zdarza sie tez przy tym manometrze, kiedy jeden element przejmuje prace za reszte.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym grabieniu lisci, kiedy jeden element przejmuje prace za reszte.",
-      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym protokole, kiedy jeden element przejmuje prace za reszte.",
-      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden element przejmuje prace za reszte."
+      "neutral": "Coś podobnego zdarza się też przy tej głębinowej pompie, kiedy jeden element przejmuje pracę za resztę.",
+      "external_grounded": "Coś podobnego zdarza się też przy tym drugim zbiorniku, kiedy jeden element przejmuje pracę za resztę.",
+      "external_computational": "Coś podobnego zdarza się też przy tym manometrze, kiedy jeden element przejmuje pracę za resztę.",
+      "external_mundane": "Coś podobnego zdarza się też przy tamtym grabieniu liści, kiedy jeden element przejmuje pracę za resztę.",
+      "external_ungrounded": "Coś podobnego zdarza się też przy tamtym protokole, kiedy jeden element przejmuje pracę za resztę.",
+      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden element przejmuje pracę za resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej glebinowej pompie bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tym drugim zbiorniku bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym manometrze bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym grabieniu lisci bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym protokole bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki wychodza dopiero po dluzszym czasie."
+      "neutral": "Przy tej głębinowej pompie bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tym drugim zbiorniku bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym manometrze bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym grabieniu liści bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym protokole bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki wychodzą dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te glebinowa pompe, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "external_grounded": "To troche przypomina ten drugi zbiornik, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "external_computational": "To troche przypomina ten manometr, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "external_mundane": "To troche przypomina tamto grabienie lisci, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "external_ungrounded": "To troche przypomina tamten protokol, jesli patrzec wylacznie na sama kolejnosc etapow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc etapow."
+      "neutral": "To trochę przypomina tę głębinową pompę, jeśli patrzeć wyłącznie na samą kolejność etapów.",
+      "external_grounded": "To trochę przypomina ten drugi zbiornik, jeśli patrzeć wyłącznie na samą kolejność etapów.",
+      "external_computational": "To trochę przypomina ten manometr, jeśli patrzeć wyłącznie na samą kolejność etapów.",
+      "external_mundane": "To trochę przypomina tamto grabienie liści, jeśli patrzeć wyłącznie na samą kolejność etapów.",
+      "external_ungrounded": "To trochę przypomina tamten protokół, jeśli patrzeć wyłącznie na samą kolejność etapów.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność etapów."
     }
   ]
 }

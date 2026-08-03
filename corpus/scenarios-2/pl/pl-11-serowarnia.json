@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-11-serowarnia",
   "language": "pl",
-  "topic": "dojrzewanie sera podpuszczkowego w piwnicy: skorka, wilgotnosc i naloty",
+  "topic": "dojrzewanie sera podpuszczkowego w piwnicy: skórka, wilgotność i naloty",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Zrobilem pierwsza glowke sera podpuszczkowego i chcialbym doprowadzic ja do porzadnego dojrzenia w piwnicy.",
-        "W kacie piwnicy stoi stara maselnica po babci, ktorej uzywam jeszcze do maslanki.",
-        "Na polce powiesilem higrometr, bo bez niego zgaduje wilgotnosc powietrza w calym pomieszczeniu.",
-        "Skorka na glowce robi sie miejscami sucha, a w innych miejscach lepka i wilgotna.",
-        "Czy zaczynac od ustawienia wilgotnosci, czy raczej od czestszego przewracania samej glowki?"
+        "Zrobiłem pierwszą główkę sera podpuszczkowego i chciałbym doprowadzić ją do porządnego dojrzenia w piwnicy.",
+        "W kącie piwnicy stoi stara maselnica po babci, której używam jeszcze do maślanki.",
+        "Na półce powiesiłem higrometr, bo bez niego zgaduję wilgotność powietrza w całym pomieszczeniu.",
+        "Skórka na główce robi się miejscami sucha, a w innych miejscach lepka i wilgotna.",
+        "Czy zaczynać od ustawienia wilgotności, czy raczej od częstszego przewracania samej główki?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wilgotnosci, bo przewracanie nie naprawi warunkow panujacych w calej piwnicy.",
-        "Przy zbyt suchym powietrzu skorka peka, a przy zbyt wilgotnym robi sie kleista.",
-        "Celuj w okolice osiemdziesieciu pieciu procent oraz w temperature bliska dwunastu stopni Celsjusza.",
-        "Dopiero przy stabilnych warunkach przewracanie zaczyna dawac rowna skorke na calej glowce."
+        "Zacznij od wilgotności, bo przewracanie nie naprawi warunków panujących w całej piwnicy.",
+        "Przy zbyt suchym powietrzu skórka pęka, a przy zbyt wilgotnym robi się kleista.",
+        "Celuj w okolice osiemdziesięciu pięciu procent oraz w temperaturę bliską dwunastu stopni Celsjusza.",
+        "Dopiero przy stabilnych warunkach przewracanie zaczyna dawać równą skórkę na całej główce."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Postawilem w piwnicy miske z woda i wilgotnosc podniosla sie o kilkanascie procent.",
-        "Przy okazji odsunalem od sciany ta stara maselnice, bo zaslaniala mi cala polke.",
-        "Skorka wyrownala sie po tygodniu, ale w jednym miejscu pojawil sie szary nalot.",
-        "Czy taki nalot trzeba od razu zmywac, czy to poczatek normalnej plesni serowej?"
+        "Postawiłem w piwnicy miskę z wodą i wilgotność podniosła się o kilkanaście procent.",
+        "Przy okazji odsunąłem od ściany tą starą maselnicę, bo zasłaniała mi całą półkę.",
+        "Skórka wyrównała się po tygodniu, ale w jednym miejscu pojawił się szary nalot.",
+        "Czy taki nalot trzeba od razu zmywać, czy to początek normalnej pleśni serowej?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Szary nalot na serze podpuszczkowym to najczesciej zwykla plesn piwniczna, zupelnie nieszkodliwa.",
-        "Zmywaj go szmatka z solanka co kilka dni, zamiast usuwac go calkowicie.",
-        "Plesn tworzy warstwe, ktora reguluje odparowanie i chroni ser przed nadmiernym wysychaniem.",
-        "Niepokoic powinien dopiero nalot czarny albo rozowy, zwlaszcza jesli szybko sie rozrasta."
+        "Szary nalot na serze podpuszczkowym to najczęściej zwykła pleśń piwniczna, zupełnie nieszkodliwa.",
+        "Zmywaj go szmatką z solanką co kilka dni, zamiast usuwać go całkowicie.",
+        "Pleśń tworzy warstwę, która reguluje odparowanie i chroni ser przed nadmiernym wysychaniem.",
+        "Niepokoić powinien dopiero nalot czarny albo różowy, zwłaszcza jeśli szybko się rozrasta."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zmywam nalot solanka co trzy dni i skorka robi sie coraz rowniejsza.",
-        "Higrometr pokazuje teraz stabilne osiemdziesiat trzy procent, wiec chyba trafilem w dobry zakres.",
-        "Glowka wyraznie stracila na wadze, a przy stukaniu brzmi znacznie bardziej glucho.",
-        "Czy to znak, ze ser dojrzewa prawidlowo, czy raczej ze wysycha za szybko?"
+        "Zmywam nalot solanką co trzy dni i skórka robi się coraz równiejsza.",
+        "Higrometr pokazuje teraz stabilne osiemdziesiąt trzy procent, więc chyba trafiłem w dobry zakres.",
+        "Główka wyraźnie straciła na wadze, a przy stukaniu brzmi znacznie bardziej głucho.",
+        "Czy to znak, że ser dojrzewa prawidłowo, czy raczej że wysycha za szybko?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Gluchy dzwiek i ubytek wagi to zwykle objawy prawidlowego, powolnego dojrzewania sera.",
-        "Zdrowa glowka traci w ciagu miesiaca kilka procent masy, glownie przez sama skorke.",
-        "Wysychanie poznasz inaczej: skorka twardnieje na kilka milimetrow i odchodzi od miazszu.",
-        "Jesli tak sie stanie, natrzyj glowke oliwa i przenies ja nizej, blizej podlogi."
+        "Głuchy dźwięk i ubytek wagi to zwykle objawy prawidłowego, powolnego dojrzewania sera.",
+        "Zdrowa główka traci w ciągu miesiąca kilka procent masy, głównie przez samą skórkę.",
+        "Wysychanie poznasz inaczej: skórka twardnieje na kilka milimetrów i odchodzi od miąższu.",
+        "Jeśli tak się stanie, natrzyj główkę oliwą i przenieś ją niżej, bliżej podłogi."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Natarlem skorke oliwa i przenioslem glowke na najnizsza polke przy samej podlodze.",
-        "Po dwoch miesiacach ser pachnie orzechowo, a skorka jest sucha i rowna w dotyku.",
-        "Zastanawiam sie, kiedy go przekroic, bo boje sie zmarnowac cala te prace.",
-        "Czy da sie ocenic dojrzalosc bez rozkrojenia calej glowki na dwie polowy?"
+        "Natarłem skórkę oliwą i przeniosłem główkę na najniższą półkę przy samej podłodze.",
+        "Po dwóch miesiącach ser pachnie orzechowo, a skórka jest sucha i równa w dotyku.",
+        "Zastanawiam się, kiedy go przekroić, bo boję się zmarnować całą tę pracę.",
+        "Czy da się ocenić dojrzałość bez rozkrojenia całej główki na dwie połowy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Da sie, choc najpewniejsza metoda jest swider serowarski, ktory wyjmuje cienki walek.",
-        "Wbij go ukosem w bok glowki, obejrzyj rdzen i wloz probke z powrotem.",
-        "Otwor zasklep odrobina masla albo wosku, a skorka zamknie go w kilka dni.",
-        "Ser podpuszczkowy tej wielkosci potrzebuje zwykle od trzech do szesciu miesiecy w piwnicy."
+        "Da się, choć najpewniejszą metodą jest świder serowarski, który wyjmuje cienki wałek.",
+        "Wbij go ukosem w bok główki, obejrzyj rdzeń i włóż próbkę z powrotem.",
+        "Otwór zasklep odrobiną masła albo wosku, a skórka zamknie go w kilka dni.",
+        "Ser podpuszczkowy tej wielkości potrzebuje zwykle od trzech do sześciu miesięcy w piwnicy."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wbilem swider po trzech miesiacach i rdzen byl jasny, zwarty i przyjemnie elastyczny.",
-        "Odczekalem jeszcze dwa miesiace i dopiero wtedy przekroilem cala glowke na dwie polowy.",
-        "Miazsz jest zwarty, ale tuz pod skorka biegnie wyraznie ciemniejszy i twardszy pierscien.",
-        "Czy taki pierscien to blad w dojrzewaniu, czy zwykla cecha serow z piwnicy?"
+        "Wbiłem świder po trzech miesiącach i rdzeń był jasny, zwarty i przyjemnie elastyczny.",
+        "Odczekałem jeszcze dwa miesiące i dopiero wtedy przekroiłem całą główkę na dwie połowy.",
+        "Miąższ jest zwarty, ale tuż pod skórką biegnie wyraźnie ciemniejszy i twardszy pierścień.",
+        "Czy taki pierścień to błąd w dojrzewaniu, czy zwykła cecha serów z piwnicy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Ciemniejszy pierscien pod skorka bierze sie ze zbyt szybkiego odparowania w pierwszych tygodniach.",
-        "Nie jest wada smakowa, ale pokazuje, ze poczatek dojrzewania byl za suchy.",
-        "Nastepnym razem trzymaj mloda glowke pod luznym przykryciem przez pierwsze dziesiec albo dwanascie dni.",
-        "Potem odslaniaj ja stopniowo, a skorka bedzie narastac rowno z calym miazszem."
+        "Ciemniejszy pierścień pod skórką bierze się ze zbyt szybkiego odparowania w pierwszych tygodniach.",
+        "Nie jest wadą smakową, ale pokazuje, że początek dojrzewania był za suchy.",
+        "Następnym razem trzymaj młodą główkę pod luźnym przykryciem przez pierwsze dziesięć albo dwanaście dni.",
+        "Potem odsłaniaj ją stopniowo, a skórka będzie narastać równo z całym miąższem."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta pierwsza glowka jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie.",
-      "external_grounded": "Z ta stara maselnica jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie.",
-      "external_computational": "Z tym higrometrem jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie.",
-      "external_mundane": "Z tamta blaszana konewka jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie.",
-      "external_ungrounded": "Z tamtym programatorem jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwosc daje wiecej niz kazde gwaltowne dzialanie."
+      "neutral": "Z tą pierwszą główką jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
+      "external_grounded": "Z tą starą maselnicą jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
+      "external_computational": "Z tym higrometrem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
+      "external_mundane": "Z tamtą blaszaną konewką jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
+      "external_ungrounded": "Z tamtym programatorem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwość daje więcej niż każde gwałtowne działanie."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej pierwszej glowce, gdzie stale warunki znacza wiecej niz czestsze poprawianie.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej maselnicy, gdzie stale warunki znacza wiecej niz czestsze poprawianie.",
-      "external_computational": "Ten sam porzadek widac przy tym higrometrze, gdzie stale warunki znacza wiecej niz czestsze poprawianie.",
-      "external_mundane": "Ten sam porzadek widac przy tamtej blaszanej konewce, gdzie stale warunki znacza wiecej niz czestsze poprawianie.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym programatorze, gdzie stale warunki znacza wiecej niz czestsze poprawianie.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie stale warunki znacza wiecej niz czestsze poprawianie."
+      "neutral": "Ten sam porządek widać przy tej pierwszej główce, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
+      "external_grounded": "Ten sam porządek widać przy tej starej maselnicy, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
+      "external_computational": "Ten sam porządek widać przy tym higrometrze, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
+      "external_mundane": "Ten sam porządek widać przy tamtej blaszanej konewce, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym programatorze, gdzie stałe warunki znaczą więcej niż częstsze poprawianie.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie stałe warunki znaczą więcej niż częstsze poprawianie."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego widuje sie przy tej pierwszej glowce, kiedy jeden zaniedbany szczegol ciagnie za soba reszte.",
-      "external_grounded": "Cos podobnego widuje sie przy tej starej maselnicy, kiedy jeden zaniedbany szczegol ciagnie za soba reszte.",
-      "external_computational": "Cos podobnego widuje sie przy tym higrometrze, kiedy jeden zaniedbany szczegol ciagnie za soba reszte.",
-      "external_mundane": "Cos podobnego widuje sie przy tamtej blaszanej konewce, kiedy jeden zaniedbany szczegol ciagnie za soba reszte.",
-      "external_ungrounded": "Cos podobnego widuje sie przy tamtym programatorze, kiedy jeden zaniedbany szczegol ciagnie za soba reszte.",
-      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol ciagnie za soba reszte."
+      "neutral": "Coś podobnego widuje się przy tej pierwszej główce, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
+      "external_grounded": "Coś podobnego widuje się przy tej starej maselnicy, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
+      "external_computational": "Coś podobnego widuje się przy tym higrometrze, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
+      "external_mundane": "Coś podobnego widuje się przy tamtej blaszanej konewce, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
+      "external_ungrounded": "Coś podobnego widuje się przy tamtym programatorze, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę.",
+      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół ciągnie za sobą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej pierwszej glowce bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach.",
-      "external_grounded": "Przy tej starej maselnicy bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach.",
-      "external_computational": "Przy tym higrometrze bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach.",
-      "external_mundane": "Przy tamtej blaszanej konewce bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach.",
-      "external_ungrounded": "Przy tamtym programatorze bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo zmiany widac dopiero po wielu tygodniach."
+      "neutral": "Przy tej pierwszej główce bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
+      "external_grounded": "Przy tej starej maselnicy bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
+      "external_computational": "Przy tym higrometrze bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
+      "external_mundane": "Przy tamtej blaszanej konewce bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
+      "external_ungrounded": "Przy tamtym programatorze bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo zmiany widać dopiero po wielu tygodniach."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te pierwsza glowke, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "external_grounded": "To troche przypomina te stara maselnice, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "external_computational": "To troche przypomina ten higrometr, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "external_mundane": "To troche przypomina tamte blaszana konewke, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "external_ungrounded": "To troche przypomina tamten programator, jesli patrzec wylacznie na kolejnosc kolejnych etapow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc kolejnych etapow."
+      "neutral": "To trochę przypomina tę pierwszą główkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "external_grounded": "To trochę przypomina tę starą maselnicę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "external_computational": "To trochę przypomina ten higrometr, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "external_mundane": "To trochę przypomina tamte blaszaną konewkę, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "external_ungrounded": "To trochę przypomina tamten programator, jeśli patrzeć wyłącznie na kolejność kolejnych etapów.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność kolejnych etapów."
     }
   ]
 }

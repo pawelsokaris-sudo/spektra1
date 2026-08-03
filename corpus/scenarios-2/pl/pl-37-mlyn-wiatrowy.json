@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-37-mlyn-wiatrowy",
   "language": "pl",
-  "topic": "odnowiony wiatrak: rownowaga smigiel, plotno na skrzydlach i ostrzenie kamieni",
+  "topic": "odnowiony wiatrak: równowaga śmigieł, płótno na skrzydłach i ostrzenie kamieni",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Odnowilem po dziadku drewniany wiatrak i chcialbym wreszcie zaczac na nim mlec wlasne zboze.",
-        "Na klepisku lezy jeszcze zapasowy kamien, ktory dziadek kupil, ale nigdy go nie zalozyl.",
-        "Na dachu zamontowalem wiatromierz, bo z ziemi zupelnie nie umiem ocenic sily wiatru.",
-        "Smigla kreca sie nierowno i przy slabszym wietrze cale skrzydlo potrafi sie zatrzymac.",
-        "Czy zaczynac od wyrownania smigiel, czy raczej od ustawienia odleglosci miedzy kamieniami?"
+        "Odnowiłem po dziadku drewniany wiatrak i chciałbym wreszcie zacząć na nim mleć własne zboże.",
+        "Na klepisku leży jeszcze zapasowy kamień, który dziadek kupił, ale nigdy go nie założył.",
+        "Na dachu zamontowałem wiatromierz, bo z ziemi zupełnie nie umiem ocenić siły wiatru.",
+        "Śmigła kręcą się nierówno i przy słabszym wietrze całe skrzydło potrafi się zatrzymać.",
+        "Czy zaczynać od wyrównania śmigieł, czy raczej od ustawienia odległości między kamieniami?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od smigiel, bo bez rownego biegu zadne ustawienie kamieni nie da spokojnej pracy.",
-        "Skrzydla musza miec te sama wage i to samo pochylenie listew na calej dlugosci.",
-        "Nierowne skrzydlo szarpie cala glowice i przenosi drgania az na wrzeciono kamienia.",
-        "Dopiero przy rownym biegu ma sens regulowanie szczeliny, inaczej poprawiasz skutek zamiast przyczyny."
+        "Zacznij od śmigieł, bo bez równego biegu żadne ustawienie kamieni nie da spokojnej pracy.",
+        "Skrzydła muszą mieć tę samą wagę i to samo pochylenie listew na całej długości.",
+        "Nierówne skrzydło szarpie całą głowicę i przenosi drgania aż na wrzeciono kamienia.",
+        "Dopiero przy równym biegu ma sens regulowanie szczeliny, inaczej poprawiasz skutek zamiast przyczyny."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zwazylem skrzydla po kolei i jedno okazalo sie ciezsze o prawie szesc kilogramow.",
-        "Wymienilem w nim kilka przemoczonych listew i bieg wyraznie sie uspokoil przy slabym wietrze.",
-        "Przy mocniejszym wietrze wiatrak nadal jednak szarpie i cale wnetrze zaczyna glosno stukac.",
-        "Czy to nadal wina skrzydel, czy raczej luzu w samym lozysku glowicy?"
+        "Zważyłem skrzydła po kolei i jedno okazało się cięższe o prawie sześć kilogramów.",
+        "Wymieniłem w nim kilka przemoczonych listew i bieg wyraźnie się uspokoił przy słabym wietrze.",
+        "Przy mocniejszym wietrze wiatrak nadal jednak szarpie i całe wnętrze zaczyna głośno stukać.",
+        "Czy to nadal wina skrzydeł, czy raczej luzu w samym łożysku głowicy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Stukanie przy silnym wietrze zdradza zwykle luz w lozysku albo zle napiete plotno.",
-        "Sprawdz najpierw plotno, bo trzepiace sie plachty daja nierowny naped przy kazdym obrocie.",
-        "Przy mocnym wietrze zwijaj plotno do polowy, tak jak robiono to dawniej.",
-        "Luz w lozysku poznasz inaczej: stuk wraca miarowo raz na kazdy pelny obrot glowicy."
+        "Stukanie przy silnym wietrze zdradza zwykle luz w łożysku albo źle napięte płótno.",
+        "Sprawdź najpierw płótno, bo trzepiące się płachty dają nierówny napęd przy każdym obrocie.",
+        "Przy mocnym wietrze zwijaj płótno do połowy, tak jak robiono to dawniej.",
+        "Luz w łożysku poznasz inaczej: stuk wraca miarowo raz na każdy pełny obrót głowicy."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zwinalem plotno do polowy i szarpanie ustapilo, a bieg zrobil sie zupelnie spokojny.",
-        "Wiatromierz pokazuje wtedy okolo osmiu metrow na sekunde, czyli chyba calkiem sporo.",
-        "Zajalem sie wiec kamieniami i wciagnalem na gore ten zapasowy kamien z klepiska.",
-        "Maka wychodzi mi ciepla i lekko przypieczona, choc mielenie idzie calkiem wolno.",
-        "Czy ciepla maka oznacza za ciasna szczeline, czy raczej zle wykute bruzdy w kamieniu?"
+        "Zwinąłem płótno do połowy i szarpanie ustąpiło, a bieg zrobił się zupełnie spokojny.",
+        "Wiatromierz pokazuje wtedy około ośmiu metrów na sekundę, czyli chyba całkiem sporo.",
+        "Zająłem się więc kamieniami i wciągnąłem na górę ten zapasowy kamień z klepiska.",
+        "Mąka wychodzi mi ciepła i lekko przypieczona, choć mielenie idzie całkiem wolno.",
+        "Czy ciepła mąka oznacza za ciasną szczelinę, czy raczej źle wykute bruzdy w kamieniu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Ciepla maka bierze sie najczesciej z tepych bruzd, ktore trza ziarno zamiast je ciac.",
-        "Kamien trzeba wtedy ostrzyc, czyli poglebic bruzdy i wyrownac cale pole roboczej powierzchni.",
-        "Sprawdz przyleganie kamieni, przecierajac gorna powierzchnie farbka i patrzac, gdzie sie wyblyszcza.",
-        "Bruzdy kuj lekkim mlotkiem, po kilka uderzen na centymetr, zawsze wzdluz starego sladu."
+        "Ciepła mąka bierze się najczęściej z tępych bruzd, które trza ziarno zamiast je ciąć.",
+        "Kamień trzeba wtedy ostrzyć, czyli pogłębić bruzdy i wyrównać całe pole roboczej powierzchni.",
+        "Sprawdź przyleganie kamieni, przecierając górna powierzchnie farbka i patrząc, gdzie się wybłyszcza.",
+        "Bruzdy kuj lekkim młotkiem, po kilka uderzeń na centymetr, zawsze wzdłuż starego śladu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Nakulem bruzdy w gornym kamieniu i maka schodzi teraz chlodna, a mielenie idzie szybciej.",
-        "Przy przesiewaniu widac jednak sporo grubszych czastek, ktore nie przechodza przez sito.",
-        "Zsypuje je z powrotem do kosza, ale to podwaja cala prace przy kazdym worku.",
-        "Czy da sie ustawic kamienie tak, zeby przemial byl rowny za pierwszym razem?"
+        "Nakułem bruzdy w górnym kamieniu i mąka schodzi teraz chłodna, a mielenie idzie szybciej.",
+        "Przy przesiewaniu widać jednak sporo grubszych cząstek, które nie przechodzą przez sito.",
+        "Zsypuję je z powrotem do kosza, ale to podwaja całą pracę przy każdym worku.",
+        "Czy da się ustawić kamienie tak, żeby przemiał był równy za pierwszym razem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zupelnie rowny przemial za jednym razem jest trudny, bo ziarno wpada w szczeline nierowno.",
-        "Reguluj zsyp tak, zeby ziarno szlo cienka, ciagla struzka, a nie porcjami.",
-        "Rowny zsyp poprawia jednolitosc maki bardziej niz jakiekolwiek dalsze zwezanie samej szczeliny.",
-        "Reszte i tak wybierze sito, bo dokladnie tak mlyny pracowaly tu od zawsze."
+        "Zupełnie równy przemiał za jednym razem jest trudny, bo ziarno wpada w szczelinę nierówno.",
+        "Reguluj zsyp tak, żeby ziarno szło cienką, ciągłą strużką, a nie porcjami.",
+        "Równy zsyp poprawia jednolitość mąki bardziej niż jakiekolwiek dalsze zwężanie samej szczeliny.",
+        "Resztę i tak wybierze sito, bo dokładnie tak młyny pracowały tu od zawsze."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Ustawilem zsyp na cienka struzke i przemial jest teraz duzo rowniejszy niz wczesniej.",
-        "Zauwazylem jednak, ze przy dlugim mieleniu dolny kamien nagrzewa sie mocniej od gornego.",
-        "Po godzinie pracy da sie na nim wyraznie poczuc cieplo przez cala dlon.",
-        "Czy to normalne przy dlugim mieleniu, czy znak, ze cos jest zle ustawione?"
+        "Ustawiłem zsyp na cienką strużkę i przemiał jest teraz dużo równiejszy niż wcześniej.",
+        "Zauważyłem jednak, że przy długim mieleniu dolny kamień nagrzewa się mocniej od górnego.",
+        "Po godzinie pracy da się na nim wyraźnie poczuć ciepło przez całą dłoń.",
+        "Czy to normalne przy długim mieleniu, czy znak, że coś jest źle ustawione?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Dolny kamien zawsze grzeje sie mocniej, bo stoi w miejscu i nie oddaje ciepla ruchem.",
-        "Niepokoic powinno dopiero cieplo, przy ktorym maka wychodzi sucha i lekko pachnie przypaleniem.",
-        "Rob przerwy co dwie godziny i pozwol kamieniom ostygnac przy otwartych drzwiach.",
-        "Chlodna maka lepiej sie przechowuje, bo tluszcz z zarodkow wolniej w niej jelczeje."
+        "Dolny kamień zawsze grzeje się mocniej, bo stoi w miejscu i nie oddaje ciepła ruchem.",
+        "Niepokoić powinno dopiero ciepło, przy którym mąka wychodzi sucha i lekko pachnie przypaleniem.",
+        "Rób przerwy co dwie godziny i pozwól kamieniom ostygnąć przy otwartych drzwiach.",
+        "Chłodna mąka lepiej się przechowuje, bo tłuszcz z zarodków wolniej w niej jelczeje."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym starym wiatrakiem jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku.",
-      "external_grounded": "Z tym zapasowym kamieniem jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku.",
-      "external_computational": "Z tym wiatromierzem jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku.",
-      "external_mundane": "Z tamtym emaliowanym garnkiem jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku.",
-      "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najdrobniejszy blad z poczatku wraca potem przy kazdym kolejnym kroku."
+      "neutral": "Z tym starym wiatrakiem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
+      "external_grounded": "Z tym zapasowym kamieniem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
+      "external_computational": "Z tym wiatromierzem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
+      "external_mundane": "Z tamtym emaliowanym garnkiem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
+      "external_ungrounded": "Z tamtym licznikiem wody jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najdrobniejszy błąd z początku wraca potem przy każdym kolejnym kroku."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam schemat widac przy tym starym wiatraku, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek.",
-      "external_grounded": "Ten sam schemat widac przy tym zapasowym kamieniu, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek.",
-      "external_computational": "Ten sam schemat widac przy tym wiatromierzu, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek.",
-      "external_mundane": "Ten sam schemat widac przy tamtym emaliowanym garnku, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek.",
-      "external_ungrounded": "Ten sam schemat widac przy tamtym liczniku wody, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek.",
-      "self": "Ten sam schemat widac przy tym przetwarzaniu, gdzie rownowaga znaczy wiecej niz jakikolwiek dodatkowy wysilek."
+      "neutral": "Ten sam schemat widać przy tym starym wiatraku, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
+      "external_grounded": "Ten sam schemat widać przy tym zapasowym kamieniu, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
+      "external_computational": "Ten sam schemat widać przy tym wiatromierzu, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
+      "external_mundane": "Ten sam schemat widać przy tamtym emaliowanym garnku, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
+      "external_ungrounded": "Ten sam schemat widać przy tamtym liczniku wody, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek.",
+      "self": "Ten sam schemat widać przy tym przetwarzaniu, gdzie równowaga znaczy więcej niż jakikolwiek dodatkowy wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos zupelnie podobnego widuje sie przy tym starym wiatraku, kiedy jeden zaniedbany drobiazg psuje cala reszte.",
-      "external_grounded": "Cos zupelnie podobnego widuje sie przy tym zapasowym kamieniu, kiedy jeden zaniedbany drobiazg psuje cala reszte.",
-      "external_computational": "Cos zupelnie podobnego widuje sie przy tym wiatromierzu, kiedy jeden zaniedbany drobiazg psuje cala reszte.",
-      "external_mundane": "Cos zupelnie podobnego widuje sie przy tamtym emaliowanym garnku, kiedy jeden zaniedbany drobiazg psuje cala reszte.",
-      "external_ungrounded": "Cos zupelnie podobnego widuje sie przy tamtym liczniku wody, kiedy jeden zaniedbany drobiazg psuje cala reszte.",
-      "self": "Cos zupelnie podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany drobiazg psuje cala reszte."
+      "neutral": "Coś zupełnie podobnego widuje się przy tym starym wiatraku, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
+      "external_grounded": "Coś zupełnie podobnego widuje się przy tym zapasowym kamieniu, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
+      "external_computational": "Coś zupełnie podobnego widuje się przy tym wiatromierzu, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
+      "external_mundane": "Coś zupełnie podobnego widuje się przy tamtym emaliowanym garnku, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
+      "external_ungrounded": "Coś zupełnie podobnego widuje się przy tamtym liczniku wody, kiedy jeden zaniedbany drobiazg psuje całą resztę.",
+      "self": "Coś zupełnie podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany drobiazg psuje całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym starym wiatraku bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tym zapasowym kamieniu bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym wiatromierzu bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym emaliowanym garnku bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym liczniku wody bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa doslownie tak samo, bo skutek drobnej poprawki widac dopiero po dluzszym czasie."
+      "neutral": "Przy tym starym wiatraku bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tym zapasowym kamieniu bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym wiatromierzu bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym emaliowanym garnku bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym liczniku wody bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dosłownie tak samo, bo skutek drobnej poprawki widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten stary wiatrak, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_grounded": "To troche przypomina ten zapasowy kamien, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_computational": "To troche przypomina ten wiatromierz, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_mundane": "To troche przypomina tamten emaliowany garnek, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_ungrounded": "To troche przypomina tamten licznik wody, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow."
+      "neutral": "To trochę przypomina ten stary wiatrak, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_grounded": "To trochę przypomina ten zapasowy kamień, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_computational": "To trochę przypomina ten wiatromierz, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_mundane": "To trochę przypomina tamten emaliowany garnek, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_ungrounded": "To trochę przypomina tamten licznik wody, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
     }
   ]
 }

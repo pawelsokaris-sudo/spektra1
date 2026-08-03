@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-39-rymarstwo",
   "language": "pl",
-  "topic": "szycie skorzanego siodla: rozstaw dziurek, obrobka krawedzi i rzemienie przy sprzaczkach",
+  "topic": "szycie skórzanego siodła: rozstaw dziurek, obróbka krawędzi i rzemienie przy sprzączkach",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Szyje pierwsze siodlo ze skory i szwy rozchodza mi sie juz po kilku wyjazdach.",
-        "Na scianie warsztatu wisi stara uprzaz po dziadku, ktorej szwy trzymaja od piecdziesieciu lat.",
-        "Na stole lezy grubosciomierz, bo bez niego zgaduje, ile skora traci po zeszlifowaniu.",
-        "Uzywam skory kulbaczej o grubosci okolo trzech i pol milimetra na cale siedzisko.",
-        "Czy zaczynac od zmiany samej nici, czy raczej od innego rozstawu dziurek?"
+        "Szyję pierwsze siodło ze skóry i szwy rozchodzą mi się już po kilku wyjazdach.",
+        "Na ścianie warsztatu wisi stara uprząż po dziadku, której szwy trzymają od pięćdziesięciu lat.",
+        "Na stole leży grubościomierz, bo bez niego zgaduję, ile skóra traci po zeszlifowaniu.",
+        "Używam skóry kulbaczej o grubości około trzech i pół milimetra na całe siedzisko.",
+        "Czy zaczynać od zmiany samej nici, czy raczej od innego rozstawu dziurek?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od dziurek, bo to ich rozstaw i kat decyduja o trwalosci calego szwu.",
-        "Dziurki rob szydlem diamentowym, ustawionym zawsze pod tym samym katem do krawedzi.",
-        "Zbyt szeroki rozstaw oslabia szew, a zbyt gesty przecina skore wzdluz calej linii.",
-        "Dopiero przy rownych dziurkach ma sens dobieranie nici, inaczej poprawiasz skutek zamiast przyczyny."
+        "Zacznij od dziurek, bo to ich rozstaw i kąt decydują o trwałości całego szwu.",
+        "Dziurki rób szydłem diamentowym, ustawionym zawsze pod tym samym kątem do krawędzi.",
+        "Zbyt szeroki rozstaw osłabia szew, a zbyt gęsty przecina skórę wzdłuż całej linii.",
+        "Dopiero przy równych dziurkach ma sens dobieranie nici, inaczej poprawiasz skutek zamiast przyczyny."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Kupilem szydlo diamentowe i zrobilem dziurki co piec milimetrow wzdluz calej krawedzi.",
-        "Szew wyglada teraz rowno i po miesiacu jazdy nic sie w nim nie poluzowalo.",
-        "Skora zaczela mi jednak przecierac sie w miejscu, gdzie rzemien ociera o krawedz siedziska.",
-        "Czy to wina zbyt ostrej krawedzi, czy raczej za twardego i sztywnego rzemienia?"
+        "Kupiłem szydło diamentowe i zrobiłem dziurki co pięć milimetrów wzdłuż całej krawędzi.",
+        "Szew wygląda teraz równo i po miesiącu jazdy nic się w nim nie poluzowało.",
+        "Skóra zaczęła mi jednak przecierać się w miejscu, gdzie rzemień ociera o krawędź siedziska.",
+        "Czy to wina zbyt ostrej krawędzi, czy raczej za twardego i sztywnego rzemienia?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Przecieranie w jednym miejscu zdradza zwykle nieobrobiona krawedz, a nie sam rzemien.",
-        "Kazda krawedz trzeba najpierw sfazowac, wygladzic koscianym gladzikiem i dopiero potem porzadnie natluscic.",
-        "Gladka krawedz nie tnie rzemienia i sama dluzej zachowuje ksztalt pod obciazeniem.",
-        "Za twardy rzemien poznasz inaczej: sam pozostaje caly, a przeciera wszystko dookola."
+        "Przecieranie w jednym miejscu zdradza zwykle nieobrobioną krawędź, a nie sam rzemień.",
+        "Każdą krawędź trzeba najpierw sfazować, wygładzić kościanym gładzikiem i dopiero potem porządnie natłuścić.",
+        "Gładka krawędź nie tnie rzemienia i sama dłużej zachowuje kształt pod obciążeniem.",
+        "Za twardy rzemień poznasz inaczej: sam pozostaje cały, a przeciera wszystko dookoła."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Sfazowalem i wygladzilem wszystkie krawedzie, a potem natluscilem je porzadnie tluszczem konskim.",
-        "Grubosciomierz pokazuje, ze po sfazowaniu krawedz ma niecale dwa i pol milimetra.",
-        "Obejrzalem dokladnie ta stara uprzaz i widze, ze jej krawedzie sa wyraznie mocniej zaokraglone.",
-        "Przecieranie ustapilo, ale za to rzemienie zaczely mi sie wyciagac przy samych sprzaczkach.",
-        "Czy rzemien pod sprzaczka trzeba jakos wzmacniac, czy to zwykla cecha skory?"
+        "Sfazowałem i wygładziłem wszystkie krawędzie, a potem natłuściłem je porządnie tłuszczem końskim.",
+        "Grubościomierz pokazuje, że po sfazowaniu krawędź ma niecałe dwa i pół milimetra.",
+        "Obejrzałem dokładnie tą starą uprząż i widzę, że jej krawędzie są wyraźnie mocniej zaokrąglone.",
+        "Przecieranie ustąpiło, ale za to rzemienie zaczęły mi się wyciągać przy samych sprzączkach.",
+        "Czy rzemień pod sprzączką trzeba jakoś wzmacniać, czy to zwykła cecha skóry?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Skora zawsze ciagnie sie najbardziej tam, gdzie sila skupia sie na malej powierzchni.",
-        "Pod sprzaczka wytnij rzemien z grzbietowej czesci skory, bo ona ciagnie sie najmniej.",
-        "Mozesz tez podkleic odcinek pod sprzaczka cienkim paskiem i przeszyc go razem z rzemieniem.",
-        "Taki dublowany rzemien wyciaga sie o polowe wolniej i sluzy przez wiele sezonow."
+        "Skóra zawsze ciągnie się najbardziej tam, gdzie siła skupia się na małej powierzchni.",
+        "Pod sprzączką wytnij rzemień z grzbietowej części skóry, bo ona ciągnie się najmniej.",
+        "Możesz też podkleić odcinek pod sprzączką cienkim paskiem i przeszyć go razem z rzemieniem.",
+        "Taki dublowany rzemień wyciąga się o połowę wolniej i służy przez wiele sezonów."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Podkleilem rzemienie pod sprzaczkami i po dwoch miesiacach dziurki trzymaja sie na miejscu.",
-        "Siodlo zaczelo natomiast glosno skrzypiec przy kazdym ruchu, zwlaszcza w chlodne poranki.",
-        "Dzwiek dochodzi gdzies od spodu, chyba spomiedzy dwoch warstw przy samym tylnym leku.",
-        "Czy takie skrzypienie da sie jakos usunac, czy trzeba rozpruwac cale siedzisko?"
+        "Podkleiłem rzemienie pod sprzączkąmi i po dwóch miesiącach dziurki trzymają się na miejscu.",
+        "Siodło zaczęło natomiast głośno skrzypieć przy każdym ruchu, zwłaszcza w chłodne poranki.",
+        "Dźwięk dochodzi gdzieś od spodu, chyba spomiędzy dwóch warstw przy samym tylnym łęku.",
+        "Czy takie skrzypienie da się jakoś usunąć, czy trzeba rozpruwać całe siedzisko?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Skrzypienie bierze sie zwykle z tarcia dwoch zupelnie suchych warstw skory o siebie.",
-        "Wsun miedzy nie odrobine tluszczu na cienkim patyku i rozprowadz go palcem.",
-        "W chlodne poranki skora sztywnieje, wiec dzwiek wraca, dopoki siodlo sie nie ogrzeje.",
-        "Rozpruwanie zostaw na koniec, bo w dziewieciu przypadkach na dziesiec wystarcza sam tluszcz."
+        "Skrzypienie bierze się zwykle z tarcia dwóch zupełnie suchych warstw skóry o siebie.",
+        "Wsuń między nie odrobinę tłuszczu na cienkim patyku i rozprowadź go palcem.",
+        "W chłodne poranki skóra sztywnieje, więc dźwięk wraca, dopóki siodło się nie ogrzeje.",
+        "Rozpruwanie zostaw na koniec, bo w dziewięciu przypadkach na dziesięć wystarcza sam tłuszcz."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wsunalem tluszcz miedzy warstwy i skrzypienie ucichlo juz po pierwszym dniu jazdy.",
-        "Po pol roku siedzisko zaczelo jednak ciemniec nierowno, w plamy wokol samych szwow.",
-        "Plamy sa ciemniejsze i lekko lepkie, choc siodlo stoi w suchym pomieszczeniu.",
-        "Czy to nadmiar tluszczu, czy raczej cos, co wychodzi z samej skory?"
+        "Wsunąłem tłuszcz między warstwy i skrzypienie ucichło już po pierwszym dniu jazdy.",
+        "Po pół roku siedzisko zaczęło jednak ciemnieć nierówno, w plamy wokół samych szwów.",
+        "Plamy są ciemniejsze i lekko lepkie, choć siodło stoi w suchym pomieszczeniu.",
+        "Czy to nadmiar tłuszczu, czy raczej coś, co wychodzi z samej skóry?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Lepkie ciemne plamy to zwykle nadmiar tluszczu, ktory wyszedl na powierzchnie skory.",
-        "Zetrzyj go sucha szmatka i zostaw siodlo na kilka dni w przewiewnym miejscu.",
-        "Tluszcz nakladaj rzadziej, ale cienko i zawsze na cala powierzchnie, nie tylko na szwy.",
-        "Dobrze prowadzone siodlo wystarczy natluscic dwa albo trzy razy w ciagu roku."
+        "Lepkie ciemne plamy to zwykle nadmiar tłuszczu, który wyszedł na powierzchnie skóry.",
+        "Zetrzyj go suchą szmatką i zostaw siodło na kilka dni w przewiewnym miejscu.",
+        "Tłuszcz nakładaj rzadziej, ale cienko i zawsze na całą powierzchnię, nie tylko na szwy.",
+        "Dobrze prowadzone siodło wystarczy natłuścić dwa albo trzy razy w ciągu roku."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym skorzanym siodlem jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy.",
-      "external_grounded": "Z ta stara uprzeza jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy.",
-      "external_computational": "Z tym grubosciomierzem jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy.",
-      "external_mundane": "Z tamta blaszana latarka jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy.",
-      "external_ungrounded": "Z tamtym czujnikiem dymu jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwosc na poczatku oszczedza pozniej mnostwo niepotrzebnej pracy."
+      "neutral": "Z tym skórzanym siodłem jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
+      "external_grounded": "Z tą starą uprzężą jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
+      "external_computational": "Z tym grubościomierzem jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
+      "external_mundane": "Z tamtą blaszaną latarką jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
+      "external_ungrounded": "Z tamtym czujnikiem dymu jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo cierpliwość na początku oszczędza później mnóstwo niepotrzebnej pracy."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tym skorzanym siodle, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej uprzezy, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty.",
-      "external_computational": "Ten sam porzadek widac przy tym grubosciomierzu, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty.",
-      "external_mundane": "Ten sam porzadek widac przy tamtej blaszanej latarce, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym czujniku dymu, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie dokladnosc miary znaczy wiecej niz szybkosc samej roboty."
+      "neutral": "Ten sam porządek widać przy tym skórzanym siodle, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
+      "external_grounded": "Ten sam porządek widać przy tej starej uprzęży, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
+      "external_computational": "Ten sam porządek widać przy tym grubościomierzu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
+      "external_mundane": "Ten sam porządek widać przy tamtej blaszanej latarce, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym czujniku dymu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie dokładność miary znaczy więcej niż szybkość samej roboty."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie rowniez przy tym skorzanym siodle, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote.",
-      "external_grounded": "Cos takiego zdarza sie rowniez przy tej starej uprzezy, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote.",
-      "external_computational": "Cos takiego zdarza sie rowniez przy tym grubosciomierzu, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote.",
-      "external_mundane": "Cos takiego zdarza sie rowniez przy tamtej blaszanej latarce, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote.",
-      "external_ungrounded": "Cos takiego zdarza sie rowniez przy tamtym czujniku dymu, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote.",
-      "self": "Cos takiego zdarza sie rowniez przy tym przetwarzaniu, kiedy jeden pospieszny ruch psuje cala dotychczasowa robote."
+      "neutral": "Coś takiego zdarza się również przy tym skórzanym siodle, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
+      "external_grounded": "Coś takiego zdarza się również przy tej starej uprzęży, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
+      "external_computational": "Coś takiego zdarza się również przy tym grubościomierzu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
+      "external_mundane": "Coś takiego zdarza się również przy tamtej blaszanej latarce, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
+      "external_ungrounded": "Coś takiego zdarza się również przy tamtym czujniku dymu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę.",
+      "self": "Coś takiego zdarza się również przy tym przetwarzaniu, kiedy jeden pośpieszny ruch psuje całą dotychczasową robotę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym skorzanym siodle bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie.",
-      "external_grounded": "Przy tej starej uprzezy bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie.",
-      "external_computational": "Przy tym grubosciomierzu bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie.",
-      "external_mundane": "Przy tamtej blaszanej latarce bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie.",
-      "external_ungrounded": "Przy tamtym czujniku dymu bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie.",
-      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo skutek jednego skrotu widac dopiero po naprawde dlugim czasie."
+      "neutral": "Przy tym skórzanym siodle bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
+      "external_grounded": "Przy tej starej uprzęży bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
+      "external_computational": "Przy tym grubościomierzu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
+      "external_mundane": "Przy tamtej blaszanej latarce bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
+      "external_ungrounded": "Przy tamtym czujniku dymu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie.",
+      "self": "Przy tym przetwarzaniu bywa niemal tak samo, bo skutek jednego skrótu widać dopiero po naprawdę długim czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina to skorzane siodlo, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow.",
-      "external_grounded": "To troche przypomina te stara uprzaz, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow.",
-      "external_computational": "To troche przypomina ten grubosciomierz, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow.",
-      "external_mundane": "To troche przypomina tamta blaszana latarke, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow.",
-      "external_ungrounded": "To troche przypomina tamten czujnik dymu, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sam porzadek nastepujacych po sobie krokow."
+      "neutral": "To trochę przypomina to skórzane siodło, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
+      "external_grounded": "To trochę przypomina tę starą uprząż, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
+      "external_computational": "To trochę przypomina ten grubościomierz, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
+      "external_mundane": "To trochę przypomina tamtą blaszaną latarkę, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
+      "external_ungrounded": "To trochę przypomina tamten czujnik dymu, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na sam porządek następujących po sobie kroków."
     }
   ]
 }

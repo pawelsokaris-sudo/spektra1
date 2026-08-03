@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-19-bednarstwo",
   "language": "pl",
-  "topic": "budowa debowej beczki: suszenie klepek, faza spoiny, obrecze i szczelnosc utoru",
+  "topic": "budowa dębowej beczki: suszenie klepek, faza spoiny, obręcze i szczelność utoru",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Buduje pierwsza debowa beczke na jablecznik i chcialbym zrobic ja porzadnie, bez przeciekow.",
-        "W kacie warsztatu stoi stara maselnica po babci, ktora nadal trzyma wode bez smoly.",
-        "Nad paleniskiem powiesilem termometr z zapisem, bo opalanie klepek robie zawsze na oko.",
-        "Klepki ciete zima leza u mnie od roku, ale nadal wydaja sie wilgotne w srodku.",
-        "Czy zaczynac od strugania fazy bocznej, czy raczej od dosuszenia calego kompletu klepek?"
+        "Buduję pierwszą dębową beczkę na jabłecznik i chciałbym zrobić ją porządnie, bez przecieków.",
+        "W kącie warsztatu stoi stara maselnica po babci, która nadal trzyma wodę bez smoły.",
+        "Nad paleniskiem powiesiłem termometr z zapisem, bo opalanie klepek robię zawsze na oko.",
+        "Klepki cięte zimą leżą u mnie od roku, ale nadal wydają się wilgotne w środku.",
+        "Czy zaczynać od strugania fazy bocznej, czy raczej od dosuszenia całego kompletu klepek?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od suszenia, bo klepka wilgotna w srodku skurczy sie juz po zlozeniu beczki.",
-        "Kazdy milimetr skurczu rozszczelnia spoine i zadna obrecz tego pozniej nie nadrobi.",
-        "Dopiero na suchym drewnie ma sens struganie fazy, bo kat spoiny musi zostac staly.",
-        "Opalanie zostaw na koniec, kiedy klepki beda juz spiete w luznym wianku."
+        "Zacznij od suszenia, bo klepka wilgotna w środku skurczy się już po złożeniu beczki.",
+        "Każdy milimetr skurczu rozszczelnia spoinę i żadna obręcz tego później nie nadrobi.",
+        "Dopiero na suchym drewnie ma sens struganie fazy, bo kąt spoiny musi zostać stały.",
+        "Opalanie zostaw na koniec, kiedy klepki będą już spięte w luźnym wianku."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Dosuszylem klepki pod wiata przez dwa miesiace i drewno wreszcie przestalo pracowac.",
-        "Wystrugalem fazy, ale przy skladaniu dwie klepki stykaja sie tylko gornymi krawedziami.",
-        "Czy to znaczy, ze kat fazy jest zly, czy raczej ze klepki maja rozna szerokosc?",
-        "Mam pod reka katownik i dlugi wegielnik, wiec moge sprawdzic kazda klepke osobno."
+        "Dosuszyłem klepki pod wiatą przez dwa miesiące i drewno wreszcie przestało pracować.",
+        "Wystrugałem fazy, ale przy składaniu dwie klepki stykają się tylko górnymi krawędziami.",
+        "Czy to znaczy, że kąt fazy jest zły, czy raczej że klepki mają różną szerokość?",
+        "Mam pod ręką kątownik i długi węgielnik, więc mogę sprawdzić każdą klepkę osobno."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Sprawdz najpierw szerokosci, bo rozna szerokosc zmienia kat fazy przy tej samej srednicy.",
-        "Zly kat zdradza sie inaczej: szpara idzie rowno przez cala dlugosc styku.",
-        "Styk tylko gora oznacza, ze klepka jest wezsza i faze trzeba jej lekko sciac.",
-        "Potem skladaj wianek na sucho i dobijaj obrecz montazowa dopiero po pelnym obwodzie."
+        "Sprawdź najpierw szerokości, bo różna szerokość zmienia kąt fazy przy tej samej średnicy.",
+        "Zły kąt zdradza się inaczej: szpara idzie równo przez całą długość styku.",
+        "Styk tylko górą oznacza, że klepka jest węższa i fazę trzeba jej lekko ściąć.",
+        "Potem składaj wianek na sucho i dobijaj obręcz montażową dopiero po pełnym obwodzie."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Scialem fazy dwoch wezszych klepek i wianek zamknal sie wreszcie bez zadnej szpary.",
-        "Termometr z zapisem pokazal przy opalaniu prawie dwiescie stopni tuz pod krawedzia.",
-        "Zajrzalem tez do tej starej maselnicy i jej klepki maja duzo szersze fazy.",
-        "Czy obrecze nabija sie od razu na goraco, czy dopiero po wystygnieciu calego wianka?"
+        "Ściąłem fazy dwóch węższych klepek i wianek zamknął się wreszcie bez żadnej szpary.",
+        "Termometr z zapisem pokazał przy opalaniu prawie dwieście stopni tuż pod krawędzią.",
+        "Zajrzałem też do tej starej maselnicy i jej klepki mają dużo szersze fazy.",
+        "Czy obręcze nabija się od razu na gorąco, czy dopiero po wystygnięciu całego wianka?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Obrecze nabijaj na goraco, bo stygnac scisna klepki mocniej, niz zrobisz to mlotkiem.",
-        "Zaczynaj zawsze od obreczy srodkowej i dopiero potem schodz ku obu dnom.",
-        "Kazda obrecz dobijaj naprzemiennie po calym obwodzie, zeby nie przekrecic i nie sciagnac wianka.",
-        "Dna wstawiaj na samym koncu, kiedy beczka trzyma juz ksztalt bez pomocy rak."
+        "Obręcze nabijaj na gorąco, bo stygnąc ścisną klepki mocniej, niż zrobisz to młotkiem.",
+        "Zaczynaj zawsze od obręczy środkowej i dopiero potem schodź ku obu dnom.",
+        "Każdą obręcz dobijaj naprzemiennie po całym obwodzie, żeby nie przekręcić i nie ściągnąć wianka.",
+        "Dna wstawiaj na samym końcu, kiedy beczka trzyma już kształt bez pomocy rąk."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Nabilem obrecze na goraco i beczka trzyma teraz ksztalt zupelnie bez mojej pomocy.",
-        "Wstawilem tez oba dna, ale po napelnieniu woda saczy sie przy dolnym utorze.",
-        "Kropli jest niewiele, jednak po godzinie robi sie pod beczka wyrazna kaluza.",
-        "Czy taki przeciek zamknie sie sam po napecznieniu drewna, czy trzeba go uszczelniac?"
+        "Nabiłem obręcze na gorąco i beczka trzyma teraz kształt zupełnie bez mojej pomocy.",
+        "Wstawiłem też oba dna, ale po napełnieniu woda sączy się przy dolnym utorze.",
+        "Kropli jest niewiele, jednak po godzinie robi się pod beczką wyraźna kałuża.",
+        "Czy taki przeciek zamknie się sam po napęcznieniu drewna, czy trzeba go uszczelniać?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Daj beczce trzy dni z woda, bo drewno przy utorze pecznieje najwolniej ze wszystkiego.",
-        "Wiekszosc takich saczen znika sama, kiedy wlokna dna dopchna sie do rowka.",
-        "Jesli po trzech dniach nadal kapie, dobij dolna obrecz o palec nizej.",
-        "Trzcine do utoru wkladaj dopiero wtedy, gdy oba te kroki nic nie daly."
+        "Daj beczce trzy dni z wodą, bo drewno przy utorze pęcznieje najwolniej ze wszystkiego.",
+        "Większość takich sączeń znika sama, kiedy włókna dna dopchną się do rowka.",
+        "Jeśli po trzech dniach nadal kapie, dobij dolną obręcz o palec niżej.",
+        "Trzcinę do utoru wkładaj dopiero wtedy, gdy oba te kroki nic nie dały."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zostawilem beczke z woda na trzy dni i wiekszosc saczen faktycznie ustala sama.",
-        "Przy jednym styku dna nadal jednak zbiera sie mala, uparta kropla wody.",
-        "Dobilem dolna obrecz o palec nizej, ale kropla wraca po kilku godzinach.",
-        "Czy w takim razie siegac juz po trzcine, czy raczej wyjac cale dno?"
+        "Zostawiłem beczkę z wodą na trzy dni i większość sączeń faktycznie ustała sama.",
+        "Przy jednym styku dna nadal jednak zbiera się mała, uparta kropla wody.",
+        "Dobiłem dolną obręcz o palec niżej, ale kropla wraca po kilku godzinach.",
+        "Czy w takim razie sięgać już po trzcinę, czy raczej wyjąć całe dno?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Siegnij najpierw po trzcine, bo wyjmowanie calego dna rozluzni ci wszystkie obrecze naraz.",
-        "Wsun ja tylko w tym jednym miejscu, mniej wiecej na dlugosc dwoch palcow.",
-        "Trzcina napecznieje przez noc i dopchnie dno dokladnie tam, gdzie brakuje docisku.",
-        "Przy nastepnej beczce zostaw rowek utoru o wlos plytszy, a problem w ogole nie wroci."
+        "Sięgnij najpierw po trzcinę, bo wyjmowanie całego dna rozluźni ci wszystkie obręcze naraz.",
+        "Wsuń ją tylko w tym jednym miejscu, mniej więcej na długość dwóch palców.",
+        "Trzcina napęcznieje przez noc i dopchnie dno dokładnie tam, gdzie brakuje docisku.",
+        "Przy następnej beczce zostaw rowek utoru o włos płytszy, a problem w ogóle nie wróci."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta beczka jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty.",
-      "external_grounded": "Z ta stara maselnica jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty.",
-      "external_computational": "Z tym termometrem z zapisem jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty.",
-      "external_mundane": "Z tamta stara doniczka jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty.",
-      "external_ungrounded": "Z tamtym sterownikiem rolet jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty.",
-      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo wszystko rozstrzyga sie juz na pierwszym etapie roboty."
+      "neutral": "Z tą beczką jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
+      "external_grounded": "Z tą starą maselnicą jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
+      "external_computational": "Z tym termometrem z zapisem jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
+      "external_mundane": "Z tamtą starą doniczką jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
+      "external_ungrounded": "Z tamtym sterownikiem rolet jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty.",
+      "self": "Z tym przetwarzaniem jest zapewne podobnie, bo wszystko rozstrzyga się już na pierwszym etapie roboty."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej beczce, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej maselnicy, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu.",
-      "external_computational": "Ten sam porzadek widac przy tym termometrze z zapisem, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu.",
-      "external_mundane": "Ten sam porzadek widac przy tamtej starej doniczce, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku rolet, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kazdy wczesniejszy krok wiaze rece nastepnemu."
+      "neutral": "Ten sam porządek widać przy tej beczce, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
+      "external_grounded": "Ten sam porządek widać przy tej starej maselnicy, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
+      "external_computational": "Ten sam porządek widać przy tym termometrze z zapisem, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
+      "external_mundane": "Ten sam porządek widać przy tamtej starej doniczce, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku rolet, gdzie każdy wcześniejszy krok wiąże ręce następnemu.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie każdy wcześniejszy krok wiąże ręce następnemu."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego zdarza sie tez przy tej beczce, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote.",
-      "external_grounded": "Cos podobnego zdarza sie tez przy tej starej maselnicy, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote.",
-      "external_computational": "Cos podobnego zdarza sie tez przy tym termometrze z zapisem, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tamtej starej doniczce, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote.",
-      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym sterowniku rolet, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote.",
-      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy pojedyncza nierownosc rozchodzi sie potem na cala robote."
+      "neutral": "Coś podobnego zdarza się też przy tej beczce, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
+      "external_grounded": "Coś podobnego zdarza się też przy tej starej maselnicy, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
+      "external_computational": "Coś podobnego zdarza się też przy tym termometrze z zapisem, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
+      "external_mundane": "Coś podobnego zdarza się też przy tamtej starej doniczce, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
+      "external_ungrounded": "Coś podobnego zdarza się też przy tamtym sterowniku rolet, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę.",
+      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy pojedyncza nierówność rozchodzi się potem na całą robotę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej beczce bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach.",
-      "external_grounded": "Przy tej starej maselnicy bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach.",
-      "external_computational": "Przy tym termometrze z zapisem bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach.",
-      "external_mundane": "Przy tamtej starej doniczce bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach.",
-      "external_ungrounded": "Przy tamtym sterowniku rolet bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach.",
-      "self": "Przy tym przetwarzaniu bywa zwykle tak samo, bo efekt drobnej poprawki widac dopiero po kilku dniach."
+      "neutral": "Przy tej beczce bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
+      "external_grounded": "Przy tej starej maselnicy bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
+      "external_computational": "Przy tym termometrze z zapisem bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
+      "external_mundane": "Przy tamtej starej doniczce bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
+      "external_ungrounded": "Przy tamtym sterowniku rolet bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach.",
+      "self": "Przy tym przetwarzaniu bywa zwykle tak samo, bo efekt drobnej poprawki widać dopiero po kilku dniach."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te beczke, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow.",
-      "external_grounded": "To troche przypomina te stara maselnice, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow.",
-      "external_computational": "To troche przypomina ten termometr z zapisem, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow.",
-      "external_mundane": "To troche przypomina tamta stara doniczke, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow.",
-      "external_ungrounded": "To troche przypomina tamten sterownik rolet, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec jedynie na kolejnosc nastepujacych po sobie krokow."
+      "neutral": "To trochę przypomina tę beczkę, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
+      "external_grounded": "To trochę przypomina tę starą maselnicę, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
+      "external_computational": "To trochę przypomina ten termometr z zapisem, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
+      "external_mundane": "To trochę przypomina tamtą starą doniczkę, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
+      "external_ungrounded": "To trochę przypomina tamten sterownik rolet, jeśli patrzeć jedynie na kolejność następujących po sobie kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć jedynie na kolejność następujących po sobie kroków."
     }
   ]
 }

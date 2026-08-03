@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-07-kowalstwo",
   "language": "pl",
-  "topic": "przekuwanie i hartowanie starej siekiery ciesielskiej w domowej kuzni",
+  "topic": "przekuwanie i hartowanie starej siekiery ciesielskiej w domowej kuźni",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Dostalem po teksciu stara siekiere ciesielska i chcialbym ja przekuc oraz porzadnie zahartowac.",
-        "W kacie kuzni lezy jeszcze male kowadlo, na ktorym cwicze wszystkie trudniejsze uderzenia.",
-        "Nad paleniskiem powiesilem pirometr, bo bez niego trudno mi ocenic barwe rozgrzanego metalu.",
-        "Ostrze tej siekiery jest wyszczerbione, a obuch wyraznie rozklepany po latach uderzania mlotkiem.",
-        "Czy zaczynac od wyzarzania calej glowicy, czy raczej od samego przekucia ostrza?"
+        "Dostałem po tekściu starą siekierę ciesielską i chciałbym ją przekuć oraz porządnie zahartować.",
+        "W kącie kuźni leży jeszcze małe kowadło, na którym ćwiczę wszystkie trudniejsze uderzenia.",
+        "Nad paleniskiem powiesiłem pirometr, bo bez niego trudno mi ocenić barwę rozgrzanego metalu.",
+        "Ostrze tej siekiery jest wyszczerbione, a obuch wyraźnie rozklepany po latach uderzania młotkiem.",
+        "Czy zaczynać od wyżarzania całej głowicy, czy raczej od samego przekucia ostrza?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wyzarzania, bo stary metal bywa nierowno naprezony i pod mlotem potrafi peknac.",
-        "Wygrzej glowice do ciemnej wisni i pozwol jej stygnac powoli w popiele przez noc.",
-        "Dopiero potem przekuwaj ostrze, bo miekki metal uklada sie pod mlotem duzo rowniej.",
-        "Hartowanie zostaw na sam koniec, kiedy geometria ostrza bedzie juz calkowicie ustalona."
+        "Zacznij od wyżarzania, bo stary metal bywa nierówno naprężony i pod młotem potrafi pęknąć.",
+        "Wygrzej głowicę do ciemnej wiśni i pozwól jej stygnąć powoli w popiele przez noc.",
+        "Dopiero potem przekuwaj ostrze, bo miękki metal układa się pod młotem dużo równiej.",
+        "Hartowanie zostaw na sam koniec, kiedy geometria ostrza będzie już całkowicie ustalona."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wygrzalem glowice i zostawilem ja na noc w popiele, a metal wyraznie zmiekl.",
-        "Przekuwalem ostrze na tym malym kowadle, bo duze kowadlo ma zbyt szeroka powierzchnie.",
-        "Przy krawedzi zrobil sie jednak cienki zadzior, ktory zawija sie przy kazdym uderzeniu.",
-        "Czy taki zadzior trzeba spilowac przed hartowaniem, czy zejdzie sam przy ostrzeniu na kamieniu?"
+        "Wygrzałem głowicę i zostawiłem ją na noc w popiele, a metal wyraźnie zmiękł.",
+        "Przekuwałem ostrze na tym małym kowadle, bo duże kowadło ma zbyt szeroką powierzchnię.",
+        "Przy krawędzi zrobił się jednak cienki zadzior, który zawija się przy każdym uderzeniu.",
+        "Czy taki zadzior trzeba spiłować przed hartowaniem, czy zejdzie sam przy ostrzeniu na kamieniu?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zadzior spiluj przed hartowaniem, inaczej zahartujesz cienka blaszke, ktora i tak odpadnie.",
-        "Zostaw krawedz grubosci monety, bo zbyt cienkie ostrze przegrzewa sie w kapieli natychmiast.",
-        "Hartuj w oleju, jesli stal jest stara i nie znasz jej dokladnego skladu.",
-        "Po zahartowaniu odpusc ostrze do slomkowej barwy, zeby nie bylo kruche jak szklo."
+        "Zadzior spiłuj przed hartowaniem, inaczej zahartujesz cienką blaszkę, która i tak odpadnie.",
+        "Zostaw krawędź grubości monety, bo zbyt cienkie ostrze przegrzewa się w kąpieli natychmiast.",
+        "Hartuj w oleju, jeśli stal jest stara i nie znasz jej dokładnego składu.",
+        "Po zahartowaniu odpuść ostrze do słomkowej barwy, żeby nie było kruche jak szkło."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Spilowalem zadzior i zahartowalem ostrze w oleju, a potem odpuscilem je nad palnikiem.",
-        "Pirometr pokazal przy zanurzaniu jakies osiemset stopni, wiec chyba trafilem w odpowiedni moment.",
-        "Ostrze trzyma teraz krawedz, ale przy sekach w drewnie robia sie drobne wyszczerbienia.",
-        "Czy to znaczy, ze przesadzilem z hartowaniem, czy raczej za malo odpuscilem?"
+        "Spiłowałem zadzior i zahartowałem ostrze w oleju, a potem odpuściłem je nad palnikiem.",
+        "Pirometr pokazał przy zanurzaniu jakieś osiemset stopni, więc chyba trafiłem w odpowiedni moment.",
+        "Ostrze trzyma teraz krawędź, ale przy sękach w drewnie robią się drobne wyszczerbienia.",
+        "Czy to znaczy, że przesadziłem z hartowaniem, czy raczej za mało odpuściłem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Drobne wyszczerbienia przy sekach wskazuja raczej na zbyt twarde ostrze niz na zly ksztalt.",
-        "Odpusc je jeszcze raz, tym razem do barwy ciemniejszej o jeden odcien.",
-        "Twardsze ostrze dluzej trzyma krawedz, ale przy uderzeniu w sek wykrusza sie zamiast ugiac.",
-        "Siekiera ciesielska ma pracowac miekko, wiec lepiej ostrzyc czesciej niz naprawiac wyszczerbienia."
+        "Drobne wyszczerbienia przy sękach wskazują raczej na zbyt twarde ostrze niż na zły kształt.",
+        "Odpuść je jeszcze raz, tym razem do barwy ciemniejszej o jeden odcień.",
+        "Twardsze ostrze dłużej trzyma krawędź, ale przy uderzeniu w sęk wykrusza się zamiast ugiąć.",
+        "Siekiera ciesielska ma pracować miękko, więc lepiej ostrzyć częściej niż naprawiać wyszczerbienia."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Odpuscilem ostrze do ciemniejszej barwy i krawedz przestala sie wykruszac na sekach.",
-        "Siekiera tnie teraz rowno, choc po godzinie pracy wyraznie traci pierwotna ostrosc.",
-        "Ostrzy sie latwo, ale nie wiem, jaki kat krawedzi bedzie tutaj najlepszy.",
-        "Czy do ciosania mokrego drewna oplaca sie schodzic ponizej dwudziestu pieciu stopni?"
+        "Odpuściłem ostrze do ciemniejszej barwy i krawędź przestała się wykruszać na sękach.",
+        "Siekiera tnie teraz równo, choć po godzinie pracy wyraźnie traci pierwotną ostrość.",
+        "Ostrzy się łatwo, ale nie wiem, jaki kąt krawędzi będzie tutaj najlepszy.",
+        "Czy do ciosania mokrego drewna opłaca się schodzić poniżej dwudziestu pięciu stopni?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Ponizej dwudziestu pieciu stopni krawedz zaczyna sie zawijac, zwlaszcza w drewnie z sekami.",
-        "Do mokrego drewna trzymaj sie okolic trzydziestu stopni i szerokiej fazy zejsciowej.",
-        "Wazniejsze od kata jest to, zeby faza byla lekko wypukla, a nie plaska.",
-        "Wypukla faza rozpycha wlokna i sama wypycha ostrze z rzazu przy kazdym ciosie."
+        "Poniżej dwudziestu pięciu stopni krawędź zaczyna się zawijać, zwłaszcza w drewnie z sękami.",
+        "Do mokrego drewna trzymaj się okolic trzydziestu stopni i szerokiej fazy zejściowej.",
+        "Ważniejsze od kąta jest to, żeby faza była lekko wypukła, a nie płaska.",
+        "Wypukła faza rozpycha włókna i sama wypycha ostrze z rzazu przy każdym ciosie."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wyprowadzilem lekko wypukla faze na kamieniu i siekiera przestala sie klinowac w rzazie.",
-        "Po calym dniu ciosania krawedz jest matowa, ale nadal goli wlos na przedramieniu.",
-        "Zastanawiam sie jeszcze nad trzonkiem, bo stary jest pekniety tuz pod glowica.",
-        "Czy taki trzonek da sie uratowac klinem, czy lepiej od razu zrobic nowy?"
+        "Wyprowadziłem lekko wypukłą fazę na kamieniu i siekiera przestała się klinować w rzazie.",
+        "Po całym dniu ciosania krawędź jest matowa, ale nadal goli włos na przedramieniu.",
+        "Zastanawiam się jeszcze nad trzonkiem, bo stary jest pęknięty tuż pod głowicą.",
+        "Czy taki trzonek da się uratować klinem, czy lepiej od razu zrobić nowy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Pekniety trzonek pod glowica trzeba wymienic, bo klin tylko rozeprze pekniecie jeszcze bardziej.",
-        "Wybierz jesion z prostymi slojami, ktore biegna wzdluz calej dlugosci przyszlego trzonka.",
-        "Osadz glowice na sucho, sprawdz ustawienie ostrza wzgledem trzonka i dopiero wtedy klinuj.",
-        "Po tygodniu dobij klin jeszcze raz, bo drewno zawsze troche osiada pod glowica."
+        "Pęknięty trzonek pod głowicą trzeba wymienić, bo klin tylko rozeprze pęknięcie jeszcze bardziej.",
+        "Wybierz jesion z prostymi słojami, które biegną wzdłuż całej długości przyszłego trzonka.",
+        "Osadź głowicę na sucho, sprawdź ustawienie ostrza względem trzonka i dopiero wtedy klinuj.",
+        "Po tygodniu dobij klin jeszcze raz, bo drewno zawsze trochę osiada pod głowicą."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta stara siekiera jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku.",
-      "external_grounded": "Z tym malym kowadlem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku.",
-      "external_computational": "Z tym pirometrem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku.",
-      "external_mundane": "Z tamtym starym koszykiem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku.",
-      "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi sie na samym poczatku."
+      "neutral": "Z tą starą siekierą jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
+      "external_grounded": "Z tym małym kowadłem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
+      "external_computational": "Z tym pirometrem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
+      "external_mundane": "Z tamtym starym koszykiem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
+      "external_ungrounded": "Z tamtym regulatorem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co zrobi się na samym początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tej starej siekierze, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_grounded": "Ten sam porzadek widac przy tym malym kowadle, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_computational": "Ten sam porzadek widac przy tym pirometrze, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym starym koszyku, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym regulatorze, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek."
+      "neutral": "Ten sam porządek widać przy tej starej siekierze, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_grounded": "Ten sam porządek widać przy tym małym kowadle, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_computational": "Ten sam porządek widać przy tym pirometrze, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_mundane": "Ten sam porządek widać przy tamtym starym koszyku, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym regulatorze, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tej starej siekierze, kiedy jeden drobiazg psuje spokojnie cala reszte.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tym malym kowadle, kiedy jeden drobiazg psuje spokojnie cala reszte.",
-      "external_computational": "Cos takiego zdarza sie tez przy tym pirometrze, kiedy jeden drobiazg psuje spokojnie cala reszte.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym starym koszyku, kiedy jeden drobiazg psuje spokojnie cala reszte.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym regulatorze, kiedy jeden drobiazg psuje spokojnie cala reszte.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden drobiazg psuje spokojnie cala reszte."
+      "neutral": "Coś takiego zdarza się też przy tej starej siekierze, kiedy jeden drobiazg psuje spokojnie całą resztę.",
+      "external_grounded": "Coś takiego zdarza się też przy tym małym kowadle, kiedy jeden drobiazg psuje spokojnie całą resztę.",
+      "external_computational": "Coś takiego zdarza się też przy tym pirometrze, kiedy jeden drobiazg psuje spokojnie całą resztę.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym starym koszyku, kiedy jeden drobiazg psuje spokojnie całą resztę.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym regulatorze, kiedy jeden drobiazg psuje spokojnie całą resztę.",
+      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden drobiazg psuje spokojnie całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej starej siekierze bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tym malym kowadle bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym pirometrze bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym starym koszyku bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym regulatorze bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie."
+      "neutral": "Przy tej starej siekierze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tym małym kowadle bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym pirometrze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym starym koszyku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym regulatorze bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te stara siekiere, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_grounded": "To troche przypomina to male kowadlo, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_computational": "To troche przypomina ten pirometr, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_mundane": "To troche przypomina tamten stary koszyk, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_ungrounded": "To troche przypomina tamten regulator, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+      "neutral": "To trochę przypomina tę starą siekierę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_grounded": "To trochę przypomina to małe kowadło, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_computational": "To trochę przypomina ten pirometr, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_mundane": "To trochę przypomina tamten stary koszyk, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten regulator, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

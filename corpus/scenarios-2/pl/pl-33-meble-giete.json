@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-33-meble-giete",
   "language": "pl",
-  "topic": "giecie oparc krzesel w parze wodnej: wilgotnosc drewna, forma i powrot spryzysty",
+  "topic": "gięcie oparć krzeseł w parze wodnej: wilgotność drewna, forma i powrót spryzysty",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Probuje giac oparcia do krzesel w parze wodnej i za kazdym razem drewno peka mi przy koncu.",
-        "W kacie warsztatu lezy jeszcze zapasowa forma po ojcu, ktora zrobil pod szersze oparcia.",
-        "Na scianie wisi wilgotnosciomierz, bo bez niego zgaduje, ile wody zostalo jeszcze w listwach.",
-        "Jesionowe listwy trzymam pod dachem od zeszlej jesieni i wygladaja na zupelnie suche.",
-        "Czy zaczynac od dluzszego parzenia, czy raczej od zmiany samego promienia w formie?"
+        "Próbuję giąć oparcia do krzeseł w parze wodnej i za każdym razem drewno pęka mi przy końcu.",
+        "W kącie warsztatu leży jeszcze zapasowa forma po ojcu, którą zrobił pod szersze oparcia.",
+        "Na ścianie wisi wilgotnościomierz, bo bez niego zgaduję, ile wody zostało jeszcze w listwach.",
+        "Jesionowe listwy trzymam pod dachem od zeszłej jesieni i wyglądają na zupełnie suche.",
+        "Czy zaczynać od dłuższego parzenia, czy raczej od zmiany samego promienia w formie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wilgotnosci drewna, bo zbyt suche listwy pekaja niezaleznie od czasu parzenia.",
-        "Do giecia najlepiej nadaje sie drewno o wilgotnosci okolo dwudziestu pieciu procent, czyli wcale nie suche.",
-        "Sezonowane pod dachem jesiony schna czasem do dwunastu procent i wtedy wlokna lamia sie zamiast plynac.",
-        "Dopiero przy wlasciwej wilgotnosci ma sens dobieranie promienia, inaczej poprawiasz skutek zamiast przyczyny."
+        "Zacznij od wilgotności drewna, bo zbyt suche listwy pękają niezależnie od czasu parzenia.",
+        "Do gięcia najlepiej nadaje się drewno o wilgotności około dwudziestu pięciu procent, czyli wcale nie suche.",
+        "Sezonowane pod dachem jesiony schną czasem do dwunastu procent i wtedy włókna łamią się zamiast płynąć.",
+        "Dopiero przy właściwej wilgotności ma sens dobieranie promienia, inaczej poprawiasz skutek zamiast przyczyny."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zmierzylem listwy i wyszlo jedenascie procent, czyli sa znacznie bardziej wysuszone, niz sadzilem.",
-        "Wlozylem kilka sztuk na dobe do koryta z woda i potem od razu do parzelni.",
-        "Pierwsza listwa dala sie wygiac gladko, ale druga peknela wzdluz slojow przy samym koncu luku.",
-        "Czy to znaczy, ze parzylem za krotko, czy raczej ze sam material byl wadliwy?"
+        "Zmierzyłem listwy i wyszło jedenaście procent, czyli są znacznie bardziej wysuszone, niż sądziłem.",
+        "Włożyłem kilka sztuk na dobę do koryta z wodą i potem od razu do parzelni.",
+        "Pierwsza listwa dała się wygiąć gładko, ale druga pęknęła wzdłuż słojów przy samym końcu łuku.",
+        "Czy to znaczy, że parzyłem za krótko, czy raczej że sam materiał był wadliwy?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Pekniecie wzdluz slojow zdradza zwykle uskok wlokien, a nie za krotkie parzenie.",
-        "Wybieraj listwy lupane, nie piloware, bo w lupanych wlokna biegna rownolegle do calej dlugosci.",
-        "Licz jedna godzine parzenia na kazde dwadziescia piec milimetrow grubosci, liczac od pelnego wrzenia.",
-        "Zawsze giej z tasma stalowa od strony zewnetrznej, inaczej wlokna po tej stronie sie rozjada."
+        "Pęknięcie wzdłuż słojów zdradza zwykle uskok włókien, a nie za krótkie parzenie.",
+        "Wybieraj listwy łupane, nie piloware, bo w łupanych włókna biegną równolegle do całej długości.",
+        "Licz jedną godzinę parzenia na każde dwadzieścia pięć milimetrów grubości, licząc od pełnego wrzenia.",
+        "Zawsze giej z taśmą stalową od strony zewnętrznej, inaczej włókna po tej stronie się rozjadą."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zrobilem tasme stalowa z klockami oporowymi i od razu wygiecia przestaly sie rozchodzic na zewnatrz.",
-        "Wilgotnosciomierz pokazuje teraz dwadziescia procent, bo trzymam listwy w korycie przez cala dobe.",
-        "Wyciagnalem tez z kata te zapasowa forme, zeby wygiac szersze oparcia do dwoch krzesel.",
-        "Czy szerokie oparcie wymaga innego czasu parzenia, czy wystarczy zwyczajnie mocniej docisnac klamry?"
+        "Zrobiłem taśmę stalową z klockami oporowymi i od razu wygięcia przestały się rozchodzić na zewnątrz.",
+        "Wilgotnościomierz pokazuje teraz dwadzieścia procent, bo trzymam listwy w korycie przez całą dobę.",
+        "Wyciągnąłem też z kąta tę zapasową formę, żeby wygiąć szersze oparcia do dwóch krzeseł.",
+        "Czy szerokie oparcie wymaga innego czasu parzenia, czy wystarczy zwyczajnie mocniej docisnąć klamry?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Szerokosc niewiele zmienia, bo czas parzenia zalezy przede wszystkim od grubosci samej listwy.",
-        "Wazniejszy jest rownomierny docisk, wiec rozstaw klamry gesciej niz przy waskim oparciu.",
-        "Szeroka listwa chetniej faluje na plask, wiec doloz podkladki wzdluz calego luku formy.",
-        "Po wyjeciu z formy trzymaj oparcie w klamrach jeszcze przez co najmniej dwie doby."
+        "Szerokość niewiele zmienia, bo czas parzenia zależy przede wszystkim od grubości samej listwy.",
+        "Ważniejszy jest równomierny docisk, więc rozstaw klamry gęściej niż przy wąskim oparciu.",
+        "Szeroka listwa chętniej faluje na płask, więc dołóż podkładki wzdłuż całego łuku formy.",
+        "Po wyjęciu z formy trzymaj oparcie w klamrach jeszcze przez co najmniej dwie doby."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wygialem oba szersze oparcia i po dwoch dobach w klamrach trzymaja luk niemal idealnie.",
-        "Po tygodniu jednak zauwazylem, ze luk lekko sie otworzyl i konce odeszly od siebie.",
-        "Roznica wynosi moze pol centymetra, ale przy skladaniu krzesla widac ja od razu.",
-        "Czy taki powrot da sie w ogole ograniczyc, czy trzeba giac z zapasem?"
+        "Wygiąłem oba szersze oparcia i po dwóch dobach w klamrach trzymają łuk niemal idealnie.",
+        "Po tygodniu jednak zauważyłem, że łuk lekko się otworzył i końce odeszły od siebie.",
+        "Różnica wynosi może pół centymetra, ale przy składaniu krzesła widać ją od razu.",
+        "Czy taki powrót da się w ogóle ograniczyć, czy trzeba giąć z zapasem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Powrot sprezysty wystepuje zawsze i najprosciej wybrac go, giac z niewielkim zapasem luku.",
-        "Przy jesionie wystarcza zwykle dwa albo trzy stopnie na kazde sto stopni wygiecia.",
-        "Druga droga jest dluzsze suszenie w formie, najlepiej w cieplym i przewiewnym miejscu.",
-        "Element wyjety przy wilgotnosci ponizej dziesieciu procent trzyma ksztalt duzo lepiej przez lata."
+        "Powrót sprężysty występuje zawsze i najprościej wybrać go, giąć z niewielkim zapasem łuku.",
+        "Przy jesionie wystarcza zwykle dwa albo trzy stopnie na każde sto stopni wygięcia.",
+        "Druga droga jest dłuższe suszenie w formie, najlepiej w ciepłym i przewiewnym miejscu.",
+        "Element wyjęty przy wilgotności poniżej dziesięciu procent trzyma kształt dużo lepiej przez lata."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zostawilem kolejne oparcia w formach na dwa tygodnie przy piecu i powrot prawie zniknal.",
-        "Przy okazji zauwazylem, ze jedna listwa zmarszczyla sie po wewnetrznej stronie luku.",
-        "Zmarszczki sa plytkie, ale widac je pod olejem i psuja caly wyglad siedziska.",
-        "Czy to wina za mocnego docisku, czy raczej zbyt malego promienia w formie?"
+        "Zostawiłem kolejne oparcia w formach na dwa tygodnie przy piecu i powrót prawie zniknął.",
+        "Przy okazji zauważyłem, że jedna listwa zmarszczyła się po wewnętrznej stronie łuku.",
+        "Zmarszczki są płytkie, ale widać je pod olejem i psują cały wygląd siedziska.",
+        "Czy to wina za mocnego docisku, czy raczej zbyt małego promienia w formie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zmarszczki po stronie wewnetrznej biora sie ze sciskania wlokien, ktore nie maja gdzie uciec.",
-        "Stalowa tasma ma temu zapobiegac, ale musi przylegac do listwy na calej dlugosci.",
-        "Sprawdz, czy klocki oporowe nie zostawiaja luzu, bo tamtedy wlokna wypychaja sie na zewnatrz.",
-        "Przy ciasnym promieniu warto tez zejsc z grubosci listwy o jeden albo dwa milimetry."
+        "Zmarszczki po stronie wewnętrznej biorą się ze ściskania włókien, które nie mają gdzie uciec.",
+        "Stalowa taśma ma temu zapobiegać, ale musi przylegać do listwy na całej długości.",
+        "Sprawdź, czy klocki oporowe nie zostawiają luzu, bo tamtędy włókna wypychają się na zewnątrz.",
+        "Przy ciasnym promieniu warto też zejść z grubości listwy o jeden albo dwa milimetry."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z ta jesionowa listwa jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy.",
-      "external_grounded": "Z ta zapasowa forma jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy.",
-      "external_computational": "Z tym wilgotnosciomierzem jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy.",
-      "external_mundane": "Z tamta welniana czapka jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy.",
-      "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwiecej zalezy tu od tego, co zrobi sie na samym poczatku calej pracy."
+      "neutral": "Z tą jesionową listwą jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
+      "external_grounded": "Z tą zapasową formą jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
+      "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
+      "external_mundane": "Z tamtą wełnianą czapką jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
+      "external_ungrounded": "Z tamtym sterownikiem bramy jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo najwięcej zależy tu od tego, co zrobi się na samym początku całej pracy."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tej jesionowej listwie, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki.",
-      "external_grounded": "Ten sam porzadek widac przy tej zapasowej formie, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki.",
-      "external_computational": "Ten sam porzadek widac przy tym wilgotnosciomierzu, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki.",
-      "external_mundane": "Ten sam porzadek widac przy tamtej welnianej czapce, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku bramy, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie warunki poczatkowe znacza wiecej niz pozniejsze poprawki."
+      "neutral": "Ten sam porządek widać przy tej jesionowej listwie, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
+      "external_grounded": "Ten sam porządek widać przy tej zapasowej formie, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
+      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
+      "external_mundane": "Ten sam porządek widać przy tamtej wełnianej czapce, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku bramy, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie warunki początkowe znaczą więcej niż późniejsze poprawki."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego widuje sie przy tej jesionowej listwie, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty.",
-      "external_grounded": "Cos podobnego widuje sie przy tej zapasowej formie, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty.",
-      "external_computational": "Cos podobnego widuje sie przy tym wilgotnosciomierzu, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty.",
-      "external_mundane": "Cos podobnego widuje sie przy tamtej welnianej czapce, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty.",
-      "external_ungrounded": "Cos podobnego widuje sie przy tamtym sterowniku bramy, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty.",
-      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol psuje potem cala reszte roboty."
+      "neutral": "Coś podobnego widuje się przy tej jesionowej listwie, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
+      "external_grounded": "Coś podobnego widuje się przy tej zapasowej formie, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
+      "external_computational": "Coś podobnego widuje się przy tym wilgotnościomierzu, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
+      "external_mundane": "Coś podobnego widuje się przy tamtej wełnianej czapce, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
+      "external_ungrounded": "Coś podobnego widuje się przy tamtym sterowniku bramy, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty.",
+      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje potem całą resztę roboty."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tej jesionowej listwie bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili.",
-      "external_grounded": "Przy tej zapasowej formie bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili.",
-      "external_computational": "Przy tym wilgotnosciomierzu bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili.",
-      "external_mundane": "Przy tamtej welnianej czapce bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili.",
-      "external_ungrounded": "Przy tamtym sterowniku bramy bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy skutek poprawki widac dopiero po dluzszej chwili."
+      "neutral": "Przy tej jesionowej listwie bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
+      "external_grounded": "Przy tej zapasowej formie bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
+      "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
+      "external_mundane": "Przy tamtej wełnianej czapce bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
+      "external_ungrounded": "Przy tamtym sterowniku bramy bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy skutek poprawki widać dopiero po dłuższej chwili."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina te jesionowa listwe, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_grounded": "To troche przypomina te zapasowa forme, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_computational": "To troche przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_mundane": "To troche przypomina tamta welniana czapke, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "external_ungrounded": "To troche przypomina tamten sterownik bramy, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc nastepujacych po sobie krokow."
+      "neutral": "To trochę przypomina tę jesionową listwę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_grounded": "To trochę przypomina tę zapasową formę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_mundane": "To trochę przypomina tamtą wełnianą czapkę, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "external_ungrounded": "To trochę przypomina tamten sterownik bramy, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność następujących po sobie kroków."
     }
   ]
 }

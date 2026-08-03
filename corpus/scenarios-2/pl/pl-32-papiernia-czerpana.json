@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-32-papiernia-czerpana",
   "language": "pl",
-  "topic": "wyrob papieru czerpanego ze szmat: masa wloknista, czerpanie sitem, prasowanie i zaklejanie",
+  "topic": "wyrób papieru czerpanego ze szmat: masa włóknista, czerpanie sitem, prasowanie i zaklejanie",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Zaczalem robic papier czerpany z lnianych szmat i pierwsze arkusze wychodza bardzo nierowne.",
-        "W kacie warsztatu stoi stara maglownica po prababce, ktora wygladza gotowe arkusze.",
-        "Powiesilem na strychu wilgotnosciomierz, bo bez niego zgaduje warunki suszenia calej partii.",
-        "Masa w kadzi wydaje sie gesta, a wlokna zbijaja sie w drobne kluski.",
-        "Czy zaczynac od rozcienczenia calej masy, czy raczej od zmiany sposobu czerpania?"
+        "Zacząłem robić papier czerpany z lnianych szmat i pierwsze arkusze wychodzą bardzo nierówne.",
+        "W kącie warsztatu stoi stara maglownica po prababce, która wygładza gotowe arkusze.",
+        "Powiesiłem na strychu wilgotnościomierz, bo bez niego zgaduję warunki suszenia całej partii.",
+        "Masa w kadzi wydaje się gęsta, a włókna zbijają się w drobne kluski.",
+        "Czy zaczynać od rozcieńczenia całej masy, czy raczej od zmiany sposobu czerpania?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od masy, bo kazdy ruch sitem liczy sie wzgledem jej gestosci.",
-        "Zbite kluski oznaczaja, ze wlokna nie zostaly dosc dlugo rozbite w stepie.",
+        "Zacznij od masy, bo każdy ruch sitem liczy się względem jej gęstości.",
+        "Zbite kluski oznaczają, że włókna nie zostały dość długo rozbite w stępie.",
         "Dopiero po rozbiciu masy ma sens czerpanie, inaczej poprawiasz skutek zamiast przyczyny.",
-        "Sprawdz tez, czy woda w kadzi nie jest za zimna, bo wlokna wtedy sklejaja sie."
+        "Sprawdź też, czy woda w kadzi nie jest za zimna, bo włókna wtedy sklejają się."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Rozbilem mase dluzej i rozcienczylem ja letnia woda, wiec kluski prawie zniknely.",
-        "Arkusze sa duzo rowniejsze, ale przy jednej krawedzi warstwa wychodzi wyraznie ciensza.",
-        "Czy to znaczy, ze sito jest wypaczone, czy raczej ze zle nim potrzasam?",
-        "Mam pod reka linijke i poziomice, wiec moge sprawdzic cala rame przed czerpaniem."
+        "Rozbiłem masę dłużej i rozcieńczyłem ją letnią wodą, więc kluski prawie zniknęły.",
+        "Arkusze są dużo równiejsze, ale przy jednej krawędzi warstwa wychodzi wyraźnie cieńsza.",
+        "Czy to znaczy, że sito jest wypaczone, czy raczej że źle nim potrząsam?",
+        "Mam pod ręką linijkę i poziomicę, więc mogę sprawdzić całą ramę przed czerpaniem."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Cienszy brzeg bierze sie najczesciej z nierownego wyjmowania sita z powierzchni kadzi.",
-        "Wyjmuj rame poziomo i dopiero nad woda zacznij potrzasac nia na obie strony.",
+        "Cieńszy brzeg bierze się najczęściej z nierównego wyjmowania sita z powierzchni kadzi.",
+        "Wyjmuj ramę poziomo i dopiero nad wodą zacznij potrząsać nią na obie strony.",
         "Wypaczone sito poznasz inaczej: cienkie miejsce wraca zawsze w tym samym rogu.",
-        "Jesli cienki brzeg wedruje po arkuszu, to kwestia ruchu, a nie samej ramy."
+        "Jeśli cienki brzeg wędruje po arkuszu, to kwestia ruchu, a nie samej ramy."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zaczalem wyjmowac sito poziomo i cienki brzeg przestal sie w ogole pojawiac.",
-        "Arkusze odbijam teraz na lnianych filcach i skladam je w rowny stos.",
-        "Wilgotnosciomierz na strychu pokazuje szescdziesiat procent, wiec suszenie idzie tam dosc wolno.",
-        "Stara maglownica gladzi arkusze bardzo pieknie, ale przy grubszych zostawia blyszczace smugi.",
-        "Czy prasowac caly stos mocniej, czy raczej suszyc arkusze pojedynczo na zwyklym sznurku?"
+        "Zacząłem wyjmować sito poziomo i cienki brzeg przestał się w ogóle pojawiać.",
+        "Arkusze odbijam teraz na lnianych filcach i składam je w równy stos.",
+        "Wilgotnościomierz na strychu pokazuje sześćdziesiąt procent, więc suszenie idzie tam dość wolno.",
+        "Stara maglownica gładzi arkusze bardzo pięknie, ale przy grubszych zostawia błyszczące smugi.",
+        "Czy prasować cały stos mocniej, czy raczej suszyć arkusze pojedynczo na zwykłym sznurku?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Prasuj stos mocno, bo wycisniecie wody skraca pozniejsze suszenie o cale dnie.",
-        "Zwiekszaj nacisk stopniowo, bo inaczej woda wystrzeli bokiem i porozrywa mokre arkusze.",
-        "Po prasowaniu rozdziel filce i susz arkusze miedzy suchymi tekturami pod obciazeniem.",
-        "Sznurek zostaw tylko na cienkie arkusze, bo grubsze mocno faluja i schna nierowno."
+        "Prasuj stos mocno, bo wyciśnięcie wody skraca późniejsze suszenie o całe dnie.",
+        "Zwiększaj nacisk stopniowo, bo inaczej woda wystrzeli bokiem i porozrywa mokre arkusze.",
+        "Po prasowaniu rozdziel filce i susz arkusze między suchymi tekturami pod obciążeniem.",
+        "Sznurek zostaw tylko na cienkie arkusze, bo grubsze mocno falują i schną nierówno."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Sprasowalem stos mocniej i arkusze wyschly miedzy tekturami w niecale trzy dni.",
-        "Papier jest teraz plaski i rowny, ale atrament rozlewa sie po powierzchni.",
-        "Probowalem pisac piorem i wszystkie litery rozmywaja sie jak na zwyklej bibule.",
-        "Czy taki papier da sie jeszcze uratowac, czy trzeba przerobic cala partie?"
+        "Sprasowałem stos mocniej i arkusze wyschły między tekturami w niecałe trzy dni.",
+        "Papier jest teraz płaski i równy, ale atrament rozlewa się po powierzchni.",
+        "Próbowałem pisać piórem i wszystkie litery rozmywają się jak na zwykłej bibule.",
+        "Czy taki papier da się jeszcze uratować, czy trzeba przerobić całą partię?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Rozmywanie oznacza zwykly brak zaklejenia, bo surowe wlokna chlona atrament jak sucha gabka.",
-        "Przeciagnij arkusze przez ciepla kapiel z zelatyna i odsacz je na kracie.",
-        "Zelatyna zamyka pory i atrament zostaje na powierzchni zamiast wsiakac w glab.",
-        "Nastepnym razem dodaj kleju wprost do masy, a zaklejenie wyjdzie bardziej rownomierne."
+        "Rozmywanie oznacza zwykły brak zaklejenia, bo surowe włókna chłoną atrament jak sucha gąbka.",
+        "Przeciągnij arkusze przez ciepłą kąpiel z żelatyną i odsącz je na kracie.",
+        "Żelatyna zamyka pory i atrament zostaje na powierzchni zamiast wsiąkać w głąb.",
+        "Następnym razem dodaj kleju wprost do masy, a zaklejenie wyjdzie bardziej równomierne."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przeciagnalem arkusze przez kapiel z zelatyna i pioro pisze teraz zupelnie czysto.",
-        "Po wysuszeniu papier zrobil sie jednak sztywniejszy i lekko chrzesci przy zginaniu.",
-        "Kilka arkuszy pofalowalo sie przy brzegach, choc lezaly pod tym samym obciazeniem.",
-        "Czy to wina zelatyny, czy raczej za szybkiego suszenia przy otwartym oknie?"
+        "Przeciągnąłem arkusze przez kąpiel z żelatyną i pióro pisze teraz zupełnie czysto.",
+        "Po wysuszeniu papier zrobił się jednak sztywniejszy i lekko chrzęści przy zginaniu.",
+        "Kilka arkuszy pofalowało się przy brzegach, choć leżały pod tym samym obciążeniem.",
+        "Czy to wina żelatyny, czy raczej za szybkiego suszenia przy otwartym oknie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Sztywnosc bierze sie z zelatyny i po kilku tygodniach sama troche zelzeje.",
-        "Falowanie brzegow to juz skutek zupelnie nierownego schniecia w przeciagu przy oknie.",
-        "Susz arkusze w zamknietym pomieszczeniu, przekladajac je suchymi tekturami co kilka godzin.",
-        "Pofalowane arkusze doprowadzisz do porzadku, zwilzajac je lekko i dociskajac na noc."
+        "Sztywność bierze się z żelatyny i po kilku tygodniach sama trochę zelżeje.",
+        "Falowanie brzegów to już skutek zupełnie nierównego schnięcia w przeciągu przy oknie.",
+        "Susz arkusze w zamkniętym pomieszczeniu, przekładając je suchymi tekturami co kilka godzin.",
+        "Pofalowane arkusze doprowadzisz do porządku, zwilżając je lekko i dociskając na noc."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym czerpanym papierem jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie.",
-      "external_grounded": "Z ta stara maglownica jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie.",
-      "external_computational": "Z tym wilgotnosciomierzem jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie.",
-      "external_mundane": "Z tamtym odkurzaniem dywanu jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie.",
-      "external_ungrounded": "Z tamtym parkometrem jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobne zaniedbanie na starcie widac potem na kazdym kolejnym etapie."
+      "neutral": "Z tym czerpanym papierem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
+      "external_grounded": "Z tą starą maglownicą jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
+      "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
+      "external_mundane": "Z tamtym odkurzaniem dywanu jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
+      "external_ungrounded": "Z tamtym parkometrem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo drobne zaniedbanie na starcie widać potem na każdym kolejnym etapie."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tym czerpanym papierze, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej maglownicy, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech.",
-      "external_computational": "Ten sam porzadek widac przy tym wilgotnosciomierzu, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym odkurzaniu dywanu, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym parkometrze, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie spokojny, rowny ruch znaczy wiecej niz sam pospiech."
+      "neutral": "Ten sam porządek widać przy tym czerpanym papierze, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
+      "external_grounded": "Ten sam porządek widać przy tej starej maglownicy, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
+      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
+      "external_mundane": "Ten sam porządek widać przy tamtym odkurzaniu dywanu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym parkometrze, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie spokojny, równy ruch znaczy więcej niż sam pośpiech."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego zdarza sie tez przy tym czerpanym papierze, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt.",
-      "external_grounded": "Cos podobnego zdarza sie tez przy tej starej maglownicy, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt.",
-      "external_computational": "Cos podobnego zdarza sie tez przy tym wilgotnosciomierzu, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt.",
-      "external_mundane": "Cos podobnego zdarza sie tez przy tamtym odkurzaniu dywanu, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt.",
-      "external_ungrounded": "Cos podobnego zdarza sie tez przy tamtym parkometrze, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt.",
-      "self": "Cos podobnego zdarza sie tez przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol psuje caly pozniejszy efekt."
+      "neutral": "Coś podobnego zdarza się też przy tym czerpanym papierze, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
+      "external_grounded": "Coś podobnego zdarza się też przy tej starej maglownicy, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
+      "external_computational": "Coś podobnego zdarza się też przy tym wilgotnościomierzu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
+      "external_mundane": "Coś podobnego zdarza się też przy tamtym odkurzaniu dywanu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
+      "external_ungrounded": "Coś podobnego zdarza się też przy tamtym parkometrze, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt.",
+      "self": "Coś podobnego zdarza się też przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje cały późniejszy efekt."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym czerpanym papierze bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach.",
-      "external_grounded": "Przy tej starej maglownicy bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach.",
-      "external_computational": "Przy tym wilgotnosciomierzu bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach.",
-      "external_mundane": "Przy tamtym odkurzaniu dywanu bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach.",
-      "external_ungrounded": "Przy tamtym parkometrze bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki wychodza na jaw dopiero po wielu kolejnych podejsciach."
+      "neutral": "Przy tym czerpanym papierze bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
+      "external_grounded": "Przy tej starej maglownicy bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
+      "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
+      "external_mundane": "Przy tamtym odkurzaniu dywanu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
+      "external_ungrounded": "Przy tamtym parkometrze bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki wychodzą na jaw dopiero po wielu kolejnych podejściach."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To pod pewnymi wzgledami przypomina ten czerpany papier, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_grounded": "To pod pewnymi wzgledami przypomina te stara maglownice, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_computational": "To pod pewnymi wzgledami przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_mundane": "To pod pewnymi wzgledami przypomina tamto odkurzanie dywanu, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "external_ungrounded": "To pod pewnymi wzgledami przypomina tamten parkometr, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow.",
-      "self": "To pod pewnymi wzgledami przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych etapow."
+      "neutral": "To pod pewnymi względami przypomina ten czerpany papier, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_grounded": "To pod pewnymi względami przypomina tę starą maglownicę, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_computational": "To pod pewnymi względami przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_mundane": "To pod pewnymi względami przypomina tamto odkurzanie dywanu, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "external_ungrounded": "To pod pewnymi względami przypomina tamten parkometr, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów.",
+      "self": "To pod pewnymi względami przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych etapów."
     }
   ]
 }

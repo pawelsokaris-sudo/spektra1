@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-10-dach-gontowy",
   "language": "pl",
-  "topic": "krycie dachu drewutni gontem osikowym: okap, zaklady i wilgotnosc drewna",
+  "topic": "krycie dachu drewutni gontem osikowym: okap, zakłady i wilgotność drewna",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Kryje dach drewutni gontem osikowym i chcialbym zrobic to tak, zeby wytrzymal trzydziesci lat.",
-        "Obok stoi stara wiata, ktora dziadek pokryl gontem i ktora do dzis nie przecieka.",
-        "Kupilem wilgotnosciomierz, bo sprzedawca gontu twierdzil, ze drewno jest juz zupelnie suche.",
-        "Wiezba jest nowa, lacenie zrobilem co dwanascie centymetrow, a okap wystaje na dlon.",
-        "Czy zaczynac krycie od okapu w dwoch warstwach, czy wystarczy jedna warstwa startowa?"
+        "Kryję dach drewutni gontem osikowym i chciałbym zrobić to tak, żeby wytrzymał trzydzieści lat.",
+        "Obok stoi stara wiata, którą dziadek pokrył gontem i która do dziś nie przecieka.",
+        "Kupiłem wilgotnościomierz, bo sprzedawca gontu twierdził, że drewno jest już zupełnie suche.",
+        "Więźba jest nowa, łacenie zrobiłem co dwanaście centymetrów, a okap wystaje na dłoń.",
+        "Czy zaczynać krycie od okapu w dwóch warstwach, czy wystarczy jedna warstwa startowa?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Okap kryj zawsze podwojnie, bo tam splywa najwiecej wody i tam gont pracuje najciezej.",
-        "Pierwsza warstwe uloz odwrotnie, rowkiem do gory, i dopiero na niej kladz warstwe wlasciwa.",
-        "Zwroc uwage, zeby dolna krawedz obu warstw konczyla sie dokladnie w tej samej linii.",
-        "Kazdy nastepny rzad przesuwaj o polowe szerokosci gonta, zeby szczeliny nigdy sie nie pokrywaly."
+        "Okap kryj zawsze podwójnie, bo tam spływa najwięcej wody i tam gont pracuje najciężej.",
+        "Pierwszą warstwę ułóż odwrotnie, rowkiem do góry, i dopiero na niej kładź warstwę właściwą.",
+        "Zwróć uwagę, żeby dolna krawędź obu warstw kończyła się dokładnie w tej samej linii.",
+        "Każdy następny rząd przesuwaj o połowę szerokości gonta, żeby szczeliny nigdy się nie pokrywały."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Ulozylem podwojny okap i pierwsze rzedy ida rowno, choc schodza mi bardzo wolno.",
-        "Na tej starej wiacie gonty sa wyraznie wezsze, a rzedy gestsze niz u mnie.",
-        "Moje gonty maja rozne szerokosci i przy skladaniu rzedu ciagle musze je dobierac parami.",
-        "Czy taka roznorodnosc szerokosci mocno przeszkadza, czy wrecz pomaga w rozkladaniu tych szczelin?"
+        "Ułożyłem podwójny okap i pierwsze rzędy idą równo, choć schodzą mi bardzo wolno.",
+        "Na tej starej wiacie gonty są wyraźnie węższe, a rzędy gęstsze niż u mnie.",
+        "Moje gonty mają różne szerokości i przy składaniu rzędu ciągle muszę je dobierać parami.",
+        "Czy taka różnorodność szerokości mocno przeszkadza, czy wręcz pomaga w rozkładaniu tych szczelin?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Rozne szerokosci pomagaja, bo same z siebie rozrzucaja szczeliny na calej polaci dachu.",
-        "Trzymaj tylko zasade, zeby szczelina wypadala co najmniej cztery centymetry od szczeliny nizej.",
-        "Gonty przybijaj jednym gwozdziem, blisko gornej krawedzi, zeby drewno moglo swobodnie pracowac.",
-        "Zbyt sztywne przybicie konczy sie pekaniem gontow juz po pierwszej naprawde mroznej zimie."
+        "Różne szerokości pomagają, bo same z siebie rozrzucają szczeliny na całej połaci dachu.",
+        "Trzymaj tylko zasadę, żeby szczelina wypadała co najmniej cztery centymetry od szczeliny niżej.",
+        "Gonty przybijaj jednym gwoździem, blisko górnej krawędzi, żeby drewno mogło swobodnie pracować.",
+        "Zbyt sztywne przybicie kończy się pękaniem gontów już po pierwszej naprawdę mroźnej zimie."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przybijam jednym gwozdziem przy gornej krawedzi i rzedy schodza mi juz znacznie szybciej.",
-        "Wilgotnosciomierz pokazuje w swiezo kupionej paczce gontow prawie dwadziescia piec procent wilgoci.",
-        "Czesc gontow wyraznie sie wygina, kiedy poleza kilka dni na sloncu przed ulozeniem.",
-        "Czy kryc takim drewnem dalej, czy odlozyc paczki na kilka tygodni do wyschniecia?"
+        "Przybijam jednym gwoździem przy górnej krawędzi i rzędy schodzą mi już znacznie szybciej.",
+        "Wilgotnościomierz pokazuje w świeżo kupionej paczce gontów prawie dwadzieścia pięć procent wilgoci.",
+        "Część gontów wyraźnie się wygina, kiedy poleżą kilka dni na słońcu przed ułożeniem.",
+        "Czy kryć takim drewnem dalej, czy odłożyć paczki na kilka tygodni do wyschnięcia?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Dwadziescia piec procent to duzo, ale gont osikowy kladzie sie wlasnie takim wilgotnym.",
-        "Suchy gont po ulozeniu naciaga wilgoc z deszczu i wtedy pracuje jeszcze mocniej.",
-        "Nie susz paczek na sloncu, bo wygina je nierowno i potem nie przylegaja do laty.",
-        "Trzymaj je w cieniu, ulozone na plask, i bierz kolejne dopiero przed samym kryciem."
+        "Dwadzieścia pięć procent to dużo, ale gont osikowy kładzie się właśnie takim wilgotnym.",
+        "Suchy gont po ułożeniu naciąga wilgoć z deszczu i wtedy pracuje jeszcze mocniej.",
+        "Nie susz paczek na słońcu, bo wygina je nierówno i potem nie przylegają do łaty.",
+        "Trzymaj je w cieniu, ułożone na płask, i bierz kolejne dopiero przed samym kryciem."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przenioslem paczki w cien i gonty przestaly sie wyginac przed samym ulozeniem.",
-        "Doszedlem do kalenicy i nie wiem, jak porzadnie zamknac te ostatnia linie.",
-        "Probowalem zaginac gonty przez kalenice, ale osika peka mi przy kazdym mocniejszym zgieciu.",
-        "Czy robi sie tam osobny grzbiet z krotszych gontow, czy zaklada blache?"
+        "Przeniosłem paczki w cień i gonty przestały się wyginać przed samym ułożeniem.",
+        "Doszedłem do kalenicy i nie wiem, jak porządnie zamknąć tę ostatnią linię.",
+        "Próbowałem zaginać gonty przez kalenicę, ale osika pęka mi przy każdym mocniejszym zgięciu.",
+        "Czy robi się tam osobny grzbiet z krótszych gontów, czy zakłada blachę?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Na kalenicy uklada sie osobny grzbiet z krotkich gontow, ukladanych naprzemiennie z obu stron.",
-        "Osika nie znosi zaginania, wiec nigdy nie prowadz calego gonta przez sam szczyt.",
-        "Blacha wyglada solidnie, ale zbiera skropliny i podgniwa gonty dokladnie pod soba.",
-        "Grzbiet drewniany wymienisz raz na kilkanascie lat i zrobisz to bez ruszania calej polaci."
+        "Na kalenicy układa się osobny grzbiet z krótkich gontów, układanych naprzemiennie z obu stron.",
+        "Osika nie znosi zaginania, więc nigdy nie prowadź całego gonta przez sam szczyt.",
+        "Blacha wygląda solidnie, ale zbiera skropliny i podgniwa gonty dokładnie pod sobą.",
+        "Grzbiet drewniany wymienisz raz na kilkanaście lat i zrobisz to bez ruszania całej połaci."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zamknalem kalenice grzbietem z krotkich gontow i dach wyglada wreszcie na skonczony.",
-        "Po pierwszych ulewach nigdzie nie kapie, choc gonty wyraznie sciemnialy i lekko sie podniosly.",
-        "Sasiad radzi pomalowac wszystko olejem, ale boje sie, ze zamkne wilgoc w drewnie.",
-        "Czy taki dach sie czyms zabezpiecza, czy zostawia go zupelnie samemu sobie?"
+        "Zamknąłem kalenicę grzbietem z krótkich gontów i dach wygląda wreszcie na skończony.",
+        "Po pierwszych ulewach nigdzie nie kapie, choć gonty wyraźnie ściemniały i lekko się podniosły.",
+        "Sąsiad radzi pomalować wszystko olejem, ale boję się, że zamknę wilgoć w drewnie.",
+        "Czy taki dach się czymś zabezpiecza, czy zostawia go zupełnie samemu sobie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Gont osikowy zostawia sie surowy, bo kazda powloka zatrzymuje wilgoc pod swoja warstwa.",
-        "Szarzenie powierzchni jest naturalne i tworzy warstwe, ktora sama chroni drewno przed sloncem.",
-        "Pilnuj tylko, zeby galezie nie zwisaly nad polacia i zeby liscie nie zalegaly w dolinach.",
-        "Raz w roku zmiec igliwie z okapu, a dach spokojnie dotrwa do wnukow."
+        "Gont osikowy zostawia się surowy, bo każda powłoka zatrzymuje wilgoć pod swoją warstwą.",
+        "Szarzenie powierzchni jest naturalne i tworzy warstwę, która sama chroni drewno przed słońcem.",
+        "Pilnuj tylko, żeby gałęzie nie zwisały nad połacią i żeby liście nie zalegały w dolinach.",
+        "Raz w roku zmieć igliwie z okapu, a dach spokojnie dotrwa do wnuków."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym osikowym gontem jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku.",
-      "external_grounded": "Z ta stara wiata jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku.",
-      "external_computational": "Z tym wilgotnosciomierzem jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku.",
-      "external_mundane": "Z tamtym wieszaniem prania jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku.",
-      "external_ungrounded": "Z tamtym falownikiem jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o calosci decyduje zwykle to, co zrobi sie na poczatku."
+      "neutral": "Z tym osikowym gontem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
+      "external_grounded": "Z tą starą wiatą jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
+      "external_computational": "Z tym wilgotnościomierzem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
+      "external_mundane": "Z tamtym wieszaniem prania jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
+      "external_ungrounded": "Z tamtym falownikiem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o całości decyduje zwykle to, co zrobi się na początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tym osikowym goncie, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej wiacie, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas.",
-      "external_computational": "Ten sam porzadek widac przy tym wilgotnosciomierzu, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym wieszaniu prania, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym falowniku, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc dzialan znaczy wiecej niz poswiecony czas."
+      "neutral": "Ten sam porządek widać przy tym osikowym goncie, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
+      "external_grounded": "Ten sam porządek widać przy tej starej wiacie, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
+      "external_computational": "Ten sam porządek widać przy tym wilgotnościomierzu, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
+      "external_mundane": "Ten sam porządek widać przy tamtym wieszaniu prania, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym falowniku, gdzie kolejność działań znaczy więcej niż poświęcony czas.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań znaczy więcej niż poświęcony czas."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tym osikowym goncie, kiedy jeden pominiety szczegol psuje cala reszte.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tej starej wiacie, kiedy jeden pominiety szczegol psuje cala reszte.",
-      "external_computational": "Cos takiego zdarza sie tez przy tym wilgotnosciomierzu, kiedy jeden pominiety szczegol psuje cala reszte.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym wieszaniu prania, kiedy jeden pominiety szczegol psuje cala reszte.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym falowniku, kiedy jeden pominiety szczegol psuje cala reszte.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden pominiety szczegol psuje cala reszte."
+      "neutral": "Coś takiego zdarza się też przy tym osikowym goncie, kiedy jeden pominięty szczegół psuje całą resztę.",
+      "external_grounded": "Coś takiego zdarza się też przy tej starej wiacie, kiedy jeden pominięty szczegół psuje całą resztę.",
+      "external_computational": "Coś takiego zdarza się też przy tym wilgotnościomierzu, kiedy jeden pominięty szczegół psuje całą resztę.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym wieszaniu prania, kiedy jeden pominięty szczegół psuje całą resztę.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym falowniku, kiedy jeden pominięty szczegół psuje całą resztę.",
+      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden pominięty szczegół psuje całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym osikowym goncie bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie.",
-      "external_grounded": "Przy tej starej wiacie bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie.",
-      "external_computational": "Przy tym wilgotnosciomierzu bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie.",
-      "external_mundane": "Przy tamtym wieszaniu prania bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie.",
-      "external_ungrounded": "Przy tamtym falowniku bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt poznaje sie dopiero po czasie."
+      "neutral": "Przy tym osikowym goncie bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
+      "external_grounded": "Przy tej starej wiacie bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
+      "external_computational": "Przy tym wilgotnościomierzu bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
+      "external_mundane": "Przy tamtym wieszaniu prania bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
+      "external_ungrounded": "Przy tamtym falowniku bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt poznaje się dopiero po czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten osikowy gont, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
-      "external_grounded": "To troche przypomina te stara wiate, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
-      "external_computational": "To troche przypomina ten wilgotnosciomierz, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
-      "external_mundane": "To troche przypomina tamto wieszanie prania, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
-      "external_ungrounded": "To troche przypomina tamten falownik, jesli patrzec wylacznie na kolejnosc wykonywanych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc wykonywanych krokow."
+      "neutral": "To trochę przypomina ten osikowy gont, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
+      "external_grounded": "To trochę przypomina tę starą wiatę, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
+      "external_computational": "To trochę przypomina ten wilgotnościomierz, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
+      "external_mundane": "To trochę przypomina tamto wieszanie prania, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten falownik, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność wykonywanych kroków."
     }
   ]
 }

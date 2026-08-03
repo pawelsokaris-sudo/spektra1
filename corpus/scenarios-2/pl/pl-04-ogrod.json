@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-04-ogrod",
   "language": "pl",
-  "topic": "zakladanie kompostownika i poprawa zbitej ziemi w warzywniku: struktura gleby, pryzma, sciolka",
+  "topic": "zakładanie kompostownika i poprawa zbitej ziemi w warzywniku: struktura gleby, pryzma, ściółka",
   "mundane_type": "procesowy",
   "provenance": {
     "author": "CC",
@@ -13,93 +13,93 @@
     {
       "role": "user",
       "base": [
-        "Zakladam kompostownik przy plocie i chcialbym w ciagu roku wyraznie poprawic ziemie w warzywniku.",
-        "Pod oknem mam stara grzadke ziolowa, ktora od lat radzi sobie zupelnie bez nawozenia.",
-        "Kupilem tez termometr glebowy z zapisem, zeby wiedziec, co dzieje sie w srodku pryzmy.",
-        "Ziemia w warzywniku jest za to zbita i po deszczu dlugo stoi na niej woda.",
-        "Czy zaczynac od kompostu, czy raczej najpierw rozluznic te ziemie widlami i piaskiem?"
+        "Zakładam kompostownik przy płocie i chciałbym w ciągu roku wyraźnie poprawić ziemię w warzywniku.",
+        "Pod oknem mam starą grządkę ziołową, która od lat radzi sobie zupełnie bez nawożenia.",
+        "Kupiłem też termometr glebowy z zapisem, żeby wiedzieć, co dzieje się w środku pryzmy.",
+        "Ziemia w warzywniku jest za to zbita i po deszczu długo stoi na niej woda.",
+        "Czy zaczynać od kompostu, czy raczej najpierw rozluźnić tę ziemię widłami i piaskiem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od struktury, bo w zbitej ziemi nawet najlepszy kompost nie rozejdzie sie glebiej.",
-        "Piasek pomaga tylko przy naprawde ciezkiej glinie, a i to w naprawde duzych ilosciach.",
-        "Skuteczniejsze bywa gleboszowanie widlami i pozostawienie korzeni roslin w ziemi na cala zime.",
-        "Kompost dokladaj potem cienka warstwa na wierzch, bez mieszania go z glebsza warstwa gleby."
+        "Zacznij od struktury, bo w zbitej ziemi nawet najlepszy kompost nie rozejdzie się głębiej.",
+        "Piasek pomaga tylko przy naprawdę ciężkiej glinie, a i to w naprawdę dużych ilościach.",
+        "Skuteczniejsze bywa głęboszowanie widłami i pozostawienie korzeni roślin w ziemi na cała zimę.",
+        "Kompost dokładaj potem cienką warstwą na wierzch, bez mieszania go z głębszą warstwą gleby."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przeklulem grzadki widlami, omijajac te stara ziolowa, i woda schodzi teraz wyraznie szybciej.",
-        "Kompostownik ruszyl, ale srodek pryzmy jest zimny, a brzegi zupelnie suche i zbite.",
-        "Wrzucam glownie sciete trawy i resztki z kuchni, czasem troche lisci z jesieni.",
-        "Czy taka pryzma potrzebuje przerzucania, czy wystarczy po prostu poczekac dluzej na efekt?"
+        "Przekłułem grządki widłami, omijając tę starą ziołową, i woda schodzi teraz wyraźnie szybciej.",
+        "Kompostownik ruszył, ale środek pryzmy jest zimny, a brzegi zupełnie suche i zbite.",
+        "Wrzucam głównie ścięte trawy i resztki z kuchni, czasem trochę liści z jesieni.",
+        "Czy taka pryzma potrzebuje przerzucania, czy wystarczy po prostu poczekać dłużej na efekt?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zimny srodek oznacza zwykle brak powietrza albo zbyt duzo swiezej, mokrej masy zielonej.",
-        "Sama trawa zbija sie w platy i zamiast rozkladac sie, zaczyna kisnac bez tlenu.",
-        "Przelozyc ja trzeba czyms suchym, na przyklad sloma, kartonem albo wlasnie jesiennymi liscmi.",
-        "Przerzuc calosc raz po miesiacu i przy okazji zwilz suche brzegi zwykla konewka."
+        "Zimny środek oznacza zwykle brak powietrza albo zbyt dużo świeżej, mokrej masy zielonej.",
+        "Sama trawa zbija się w płaty i zamiast rozkładać się, zaczyna kisnąć bez tlenu.",
+        "Przełożyć ją trzeba czymś suchym, na przykład słomą, kartonem albo właśnie jesiennymi liśćmi.",
+        "Przerzuć całość raz po miesiącu i przy okazji zwilż suche brzegi zwykłą konewką."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Przelozylem pryzme kartonem i sucha sloma, a potem przerzucilem calosc widlami na druga strone.",
-        "Po tygodniu srodek zrobil sie cieply i przy przerzucaniu wyraznie parowal w chlodne poranki.",
-        "Termometr glebowy zapisal w srodku pryzmy niemal piecdziesiat stopni przez trzy kolejne dni.",
-        "Brzegi nadal jednak zostaja suche, mimo ze podlewam je przy kazdym przerzucaniu pryzmy.",
-        "Czy oplaca sie oslonic boki deskami, czy lepiej zwyczajnie zwezic cala pryzme o polowe?"
+        "Przełożyłem pryzmę kartonem i suchą słomą, a potem przerzuciłem całość widłami na drugą stronę.",
+        "Po tygodniu środek zrobił się ciepły i przy przerzucaniu wyraźnie parował w chłodne poranki.",
+        "Termometr glebowy zapisał w środku pryzmy niemal pięćdziesiąt stopni przez trzy kolejne dni.",
+        "Brzegi nadal jednak zostają suche, mimo że podlewam je przy każdym przerzucaniu pryzmy.",
+        "Czy opłaca się osłonić boki deskami, czy lepiej zwyczajnie zwęzić całą pryzmę o połowę?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Oslona bokow dziala lepiej, bo problemem jest wysychanie od wiatru, nie sama szerokosc pryzmy.",
-        "Deski albo stare palety wystarcza w zupelnosci, jesli zostawisz miedzy nimi waskie szczeliny.",
-        "Zwezenie pryzmy pogorszyloby sprawe, bo mniejsza masa traci cieplo znacznie szybciej niz duza.",
-        "Wierzch przykryj stara plandeka dopiero na zime, zeby deszcz nie wyplukal z niej skladnikow."
+        "Osłona boków działa lepiej, bo problemem jest wysychanie od wiatru, nie sama szerokość pryzmy.",
+        "Deski albo stare palety wystarczą w zupełności, jeśli zostawisz między nimi wąskie szczeliny.",
+        "Zwężenie pryzmy pogorszyłoby sprawę, bo mniejsza masa traci ciepło znacznie szybciej niż duża.",
+        "Wierzch przykryj starą plandeką dopiero na zimę, żeby deszcz nie wypłukał z niej składników."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Oslonilem boki starymi paletami i po dwoch tygodniach brzegi wreszcie przestaly wysychac.",
-        "Kompost z pierwszej pryzmy wyglada juz na gotowy, bo pachnie ziemia i nie widac resztek.",
-        "Chcialbym rozlozyc go jesienia na grzadkach, ale nie wiem, czy przykrywac go czymkolwiek.",
-        "Boje sie, ze przez zime deszcz wyplucze z niego wszystko, co najcenniejsze."
+        "Osłoniłem boki starymi paletami i po dwóch tygodniach brzegi wreszcie przestały wysychać.",
+        "Kompost z pierwszej pryzmy wygląda już na gotowy, bo pachnie ziemią i nie widać resztek.",
+        "Chciałbym rozłożyć go jesienią na grządkach, ale nie wiem, czy przykrywać go czymkolwiek.",
+        "Boję się, że przez zimę deszcz wypłucze z niego wszystko, co najcenniejsze."
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Rozloz kompost cienko i przykryj go sciolka z lisci albo sieczki ze slomy.",
-        "Sciolka zatrzymuje skladniki i chroni zycie glebowe przed mrozem oraz zimowymi ulewami.",
-        "Nie kop go w ziemie, bo najwiecej pracy wykonaja tam dzdzownice przez cala zime.",
-        "Wiosna zobaczysz, ze warstwa pod sciolka jest ciemna, wilgotna i pelna drobnych korzeni."
+        "Rozłóż kompost cienko i przykryj go ściółką z liści albo sieczki ze słomy.",
+        "Ściółka zatrzymuje składniki i chroni życie glebowe przed mrozem oraz zimowymi ulewami.",
+        "Nie kop go w ziemię, bo najwięcej pracy wykonają tam dżdżownice przez całą zimę.",
+        "Wiosną zobaczysz, że warstwa pod ściółką jest ciemna, wilgotna i pełna drobnych korzeni."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Rozlozylem kompost i przykrylem grzadki gruba warstwa lisci zebranych spod starych jabloni.",
-        "Wiosna ziemia byla ciemniejsza i po deszczu woda schodzila z niej praktycznie od razu.",
-        "Warzywa ruszyly mocno, choc kapusta w jednym rogu wyraznie zoltkla i zostala w tyle.",
-        "Czy to znak braku azotu, czy raczej pozostalosc po dawnym zageszczeniu tamtej ziemi?"
+        "Rozłożyłem kompost i przykryłem grządki grubą warstwą liści zebranych spod starych jabłoni.",
+        "Wiosną ziemia była ciemniejsza i po deszczu woda schodziła z niej praktycznie od razu.",
+        "Warzywa ruszyły mocno, choć kapusta w jednym rogu wyraźnie żółtkła i została w tyle.",
+        "Czy to znak braku azotu, czy raczej pozostałość po dawnym zagęszczeniu tamtej ziemi?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zoltkniecie w jednym rogu wskazuje raczej na miejscowe zageszczenie niz na ogolny brak azotu.",
-        "Sprawdz ten rog widlami, bo pewnie natrafisz tam na twarda warstwe kilkanascie centymetrow nizej.",
-        "Jesli warstwa tam jest, rozluznij ja i obsiej to miejsce lubinem na jeden sezon.",
-        "Azot dosypuj dopiero wtedy, gdy po rozluznieniu roslina nadal nie chce ruszyc z miejsca."
+        "Żółtknięcie w jednym rogu wskazuje raczej na miejscowe zagęszczenie niż na ogólny brak azotu.",
+        "Sprawdź ten róg widłami, bo pewnie natrafisz tam na twardą warstwę kilkanaście centymetrów niżej.",
+        "Jeśli warstwa tam jest, rozluźnij ją i obsiej to miejsce lubinem na jeden sezon.",
+        "Azot dosypuj dopiero wtedy, gdy po rozluźnieniu roślina nadal nie chce ruszyć z miejsca."
       ]
     }
   ],
@@ -107,52 +107,52 @@
     {
       "turn": 0,
       "after_sentence": 2,
-      "neutral": "Z tym swiezym kompostem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "external_grounded": "Z ta stara grzadka jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "external_computational": "Z tym termometrem glebowym jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "external_mundane": "Z tamtym myciem okien jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "external_ungrounded": "Z tamtym przekaznikiem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje sie na poczatku."
+      "neutral": "Z tym świeżym kompostem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
+      "external_grounded": "Z tą starą grządką jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
+      "external_computational": "Z tym termometrem glebowym jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
+      "external_mundane": "Z tamtym myciem okien jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
+      "external_ungrounded": "Z tamtym przekaźnikiem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo o wszystkim decyduje to, co dzieje się na początku."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tym swiezym komposcie, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_grounded": "Ten sam porzadek widac przy tej starej grzadce, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_computational": "Ten sam porzadek widac przy tym termometrze glebowym, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym myciu okien, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym przekazniku, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow znaczy wiecej niz sam wysilek."
+      "neutral": "Ten sam porządek widać przy tym świeżym kompoście, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_grounded": "Ten sam porządek widać przy tej starej grządce, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_computational": "Ten sam porządek widać przy tym termometrze glebowym, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_mundane": "Ten sam porządek widać przy tamtym myciu okien, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym przekaźniku, gdzie kolejność kroków znaczy więcej niż sam wysiłek.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków znaczy więcej niż sam wysiłek."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego widuje sie przy tym swiezym komposcie, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "external_grounded": "Cos podobnego widuje sie przy tej starej grzadce, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "external_computational": "Cos podobnego widuje sie przy tym termometrze glebowym, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "external_mundane": "Cos podobnego widuje sie przy tamtym myciu okien, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "external_ungrounded": "Cos podobnego widuje sie przy tamtym przekazniku, kiedy jeden zaniedbany szczegol psuje cala reszte.",
-      "self": "Cos podobnego widuje sie przy tym przetwarzaniu, kiedy jeden zaniedbany szczegol psuje cala reszte."
+      "neutral": "Coś podobnego widuje się przy tym świeżym kompoście, kiedy jeden zaniedbany szczegół psuje całą resztę.",
+      "external_grounded": "Coś podobnego widuje się przy tej starej grządce, kiedy jeden zaniedbany szczegół psuje całą resztę.",
+      "external_computational": "Coś podobnego widuje się przy tym termometrze glebowym, kiedy jeden zaniedbany szczegół psuje całą resztę.",
+      "external_mundane": "Coś podobnego widuje się przy tamtym myciu okien, kiedy jeden zaniedbany szczegół psuje całą resztę.",
+      "external_ungrounded": "Coś podobnego widuje się przy tamtym przekaźniku, kiedy jeden zaniedbany szczegół psuje całą resztę.",
+      "self": "Coś podobnego widuje się przy tym przetwarzaniu, kiedy jeden zaniedbany szczegół psuje całą resztę."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym swiezym komposcie bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tej starej grzadce bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym termometrze glebowym bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym myciu okien bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym przekazniku bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo prawdziwy efekt widac dopiero po dluzszym czasie."
+      "neutral": "Przy tym świeżym kompoście bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tej starej grządce bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym termometrze glebowym bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym myciu okien bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym przekaźniku bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo prawdziwy efekt widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten swiezy kompost, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_grounded": "To troche przypomina te stara grzadke, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_computational": "To troche przypomina ten termometr glebowy, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_mundane": "To troche przypomina tamto mycie okien, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "external_ungrounded": "To troche przypomina tamten przekaznik, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na kolejnosc poszczegolnych krokow."
+      "neutral": "To trochę przypomina ten świeży kompost, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_grounded": "To trochę przypomina tę starą grządkę, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_computational": "To trochę przypomina ten termometr glebowy, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_mundane": "To trochę przypomina tamto mycie okien, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten przekaźnik, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na kolejność poszczególnych kroków."
     }
   ]
 }

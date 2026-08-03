@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-09-pasieka",
   "language": "pl",
-  "topic": "przygotowanie rodziny pszczelej do zimowania: zapasy, wilgoc w ulu i osyp",
+  "topic": "przygotowanie rodziny pszczelej do zimowania: zapasy, wilgoć w ulu i osyp",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Przygotowuje rodzine w ulu przy plocie do zimowania i chcialbym w koncu zrobic to porzadnie.",
-        "Obok stoi slabszy ul, ktory w zeszlym roku ledwie przetrwal zime na niewielkich zapasach.",
-        "Pod tym pierwszym ulem postawilem wage, zeby widziec, ile zapasow ubywa w kazdym tygodniu.",
-        "Rodzina jest silna, ale w gniezdzie zostalo sporo pustych ramek po ostatnim miodobraniu.",
-        "Czy zwezac gniazdo teraz, czy poczekac, az pszczoly same zejda w dol ula?"
+        "Przygotowuję rodzinę w ulu przy płocie do zimowania i chciałbym w końcu zrobić to porządnie.",
+        "Obok stoi słabszy ul, który w zeszłym roku ledwie przetrwał zimę na niewielkich zapasach.",
+        "Pod tym pierwszym ulem postawiłem wagę, żeby widzieć, ile zapasów ubywa w każdym tygodniu.",
+        "Rodzina jest silna, ale w gnieździe zostało sporo pustych ramek po ostatnim miodobraniu.",
+        "Czy zwężać gniazdo teraz, czy poczekać, aż pszczoły same zejdą w dół ula?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zwezaj teraz, bo pszczoly musza zdazyc uporzadkowac zapasy przed pierwszymi chlodnymi nocami.",
-        "Zostaw tyle ramek, ile pszczoly obsiadaja wieczorem, i ani jednej ramki wiecej.",
-        "Puste ramki po brzegach wychladzaja gniazdo i zmuszaja rodzine do ogrzewania niepotrzebnej przestrzeni.",
-        "Karm dopiero po zwezeniu, inaczej syrop trafi w miejsca, ktorych pszczoly nie obsiada."
+        "Zwężaj teraz, bo pszczoły muszą zdążyć uporządkować zapasy przed pierwszymi chłodnymi nocami.",
+        "Zostaw tyle ramek, ile pszczoły obsiadają wieczorem, i ani jednej ramki więcej.",
+        "Puste ramki po brzegach wychładzają gniazdo i zmuszają rodzinę do ogrzewania niepotrzebnej przestrzeni.",
+        "Karm dopiero po zwężeniu, inaczej syrop trafi w miejsca, których pszczoły nie obsiada."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zwezylem gniazdo do osmiu ramek i podkarmilem rodzine syropem w dwoch dawkach.",
-        "W slabszym ulu zostawilem tylko piec ramek, bo rodzina jest tam wyraznie mniejsza.",
-        "Na dennicy widze jednak sporo wilgoci, a na scianach zbieraja sie krople wody.",
-        "Czy to znak zlej wentylacji, czy raczej zbyt duzej ilosci syropu w gniezdzie?"
+        "Zwężyłem gniazdo do ośmiu ramek i podkarmiłem rodzinę syropem w dwóch dawkach.",
+        "W słabszym ulu zostawiłem tylko pięć ramek, bo rodzina jest tam wyraźnie mniejsza.",
+        "Na dennicy widzę jednak sporo wilgoci, a na ścianach zbierają się krople wody.",
+        "Czy to znak złej wentylacji, czy raczej zbyt dużej ilości syropu w gnieździe?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Krople na scianach oznaczaja zwykle brak odplywu pary, a nie nadmiar samego syropu.",
-        "Uchyl gorna wentylacje i podloz zapaske, ktora przepuszcza wilgoc, ale zatrzymuje przeciag.",
-        "Dennice zostaw otwarta, jesli ul stoi w oslonietym miejscu i nie zawiewa do niego.",
-        "Wilgotne gniazdo szkodzi bardziej niz mroz, bo pszczoly zuzywaja zapasy na osuszanie powietrza."
+        "Krople na ścianach oznaczają zwykle brak odpływu pary, a nie nadmiar samego syropu.",
+        "Uchyl górną wentylację i podłóż zapaskę, która przepuszcza wilgoć, ale zatrzymuje przeciąg.",
+        "Dennicę zostaw otwartą, jeśli ul stoi w osłoniętym miejscu i nie zawiewa do niego.",
+        "Wilgotne gniazdo szkodzi bardziej niż mróz, bo pszczoły zużywają zapasy na osuszanie powietrza."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Uchylilem wentylacje i podlozylem zapaske, a krople na scianach zniknely w kilka dni.",
-        "Waga pod ulem pokazuje teraz ubytek okolo stu gramow na tydzien, wiec chyba spokojnie.",
-        "Martwi mnie za to sciolka pod wylotkiem, w ktorej widac sporo martwych pszczol.",
-        "Czy taka ilosc osypu jest normalna o tej porze roku, czy juz niepokojaca?"
+        "Uchyliłem wentylację i podłożyłem zapaskę, a krople na ścianach zniknęły w kilka dni.",
+        "Waga pod ulem pokazuje teraz ubytek około stu gramów na tydzień, więc chyba spokojnie.",
+        "Martwi mnie za to ściółka pod wylotkiem, w której widać sporo martwych pszczół.",
+        "Czy taka ilość osypu jest normalna o tej porze roku, czy już niepokojąca?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Kilkadziesiat pszczol tygodniowo to zupelnie normalny osyp przy silnej rodzinie o tej porze.",
-        "Niepokoi dopiero osyp liczony w calych garsciach albo pszczoly z powykrecanymi skrzydlami.",
-        "Sprawdz tez, czy przed wylotkiem nie chodza mrowki, bo one wyciagaja martwe pszczoly.",
-        "Zwezke wylotowa zaloz najpozniej teraz, zanim myszy zaczna szukac cieplego miejsca na zime."
+        "Kilkadziesiąt pszczół tygodniowo to zupełnie normalny osyp przy silnej rodzinie o tej porze.",
+        "Niepokoi dopiero osyp liczony w całych garściach albo pszczoły z powykręcanymi skrzydłami.",
+        "Sprawdź też, czy przed wylotkiem nie chodzą mrówki, bo one wyciągają martwe pszczoły.",
+        "Zwężkę wylotową załóż najpóźniej teraz, zanim myszy zaczną szukać ciepłego miejsca na zimę."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zalozylem zwezke wylotowa i uprzatnalem sciolke, a osyp utrzymuje sie na podobnym poziomie.",
-        "Rodzina siedzi spokojnie, choc w cieplejsze dni wylatuje sporo pszczol na oblot.",
-        "Nie wiem, czy zostawic zapasy takie, jakie sa, czy jeszcze troche podkarmic.",
-        "Czy da sie ocenic wystarczalnosc zapasow bez rozbierania calego gniazda na ramki?"
+        "Założyłem zwężkę wylotową i uprzątnąłem ściółkę, a osyp utrzymuje się na podobnym poziomie.",
+        "Rodzina siedzi spokojnie, choć w cieplejsze dni wylatuje sporo pszczół na oblot.",
+        "Nie wiem, czy zostawić zapasy takie, jakie są, czy jeszcze trochę podkarmić.",
+        "Czy da się ocenić wystarczalność zapasów bez rozbierania całego gniazda na ramki?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Da sie, i to bez otwierania: wystarczy podnosic ul od tylu i porownywac ciezar.",
-        "Silna rodzina potrzebuje na zime okolo pietnastu kilogramow zapasow w samym gniezdzie.",
-        "Jesli tyl ula podnosi sie zbyt latwo, dokarm jeszcze gestym syropem przed chlodami.",
-        "Po pierwszych przymrozkach karmienie nie ma juz sensu, bo pszczoly nie przerobia syropu."
+        "Da się, i to bez otwierania: wystarczy podnosić ul od tyłu i porównywać ciężar.",
+        "Silna rodzina potrzebuje na zimę około piętnastu kilogramów zapasów w samym gnieździe.",
+        "Jeśli tył ula podnosi się zbyt łatwo, dokarm jeszcze gęstym syropem przed chłodami.",
+        "Po pierwszych przymrozkach karmienie nie ma już sensu, bo pszczoły nie przerobią syropu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Podnioslem ul od tylu i rzeczywiscie czulem wyrazny opor, wiec zapasow chyba wystarczy.",
-        "Przez zime zagladalem tylko raz, przykladajac ucho do sciany i lekko pukajac w deske.",
-        "Wiosna rodzina wyszla mocna, ale na dennicy lezal caly placek wilgotnej plesni.",
-        "Czy taka plesn oznacza blad w zimowaniu, czy to zwykla rzecz po dlugiej zimie?"
+        "Podniosłem ul od tyłu i rzeczywiście czułem wyraźny opór, więc zapasów chyba wystarczy.",
+        "Przez zimę zaglądałem tylko raz, przykładając ucho do ściany i lekko pukając w deskę.",
+        "Wiosną rodzina wyszła mocna, ale na dennicy leżał cały placek wilgotnej pleśni.",
+        "Czy taka pleśń oznacza błąd w zimowaniu, czy to zwykła rzecz po długiej zimie?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Plesn na dennicy po zimie jest zwyczajna, zwlaszcza gdy rodzina siedziala wyzej w gniezdzie.",
-        "Wymien dennice na czysta i wystaw brudna na slonce, bo promienie odkazaja ja lepiej.",
-        "Ramki z zaplesniala wosczyna wytnij, a same ramki wygotuj przed kolejnym sezonem.",
-        "Jesli plesn wraca co roku, przenies ul w miejsce lepiej przewietrzane i bardziej sloneczne."
+        "Pleśń na dennicy po zimie jest zwyczajna, zwłaszcza gdy rodzina siedziała wyżej w gnieździe.",
+        "Wymień dennicę na czystą i wystaw brudną na słońce, bo promienie odkażają ją lepiej.",
+        "Ramki z zapleśniałą wosczyną wytnij, a same ramki wygotuj przed kolejnym sezonem.",
+        "Jeśli pleśń wraca co roku, przenieś ul w miejsce lepiej przewietrzane i bardziej słoneczne."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym zimowym gniazdem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie.",
-      "external_grounded": "Z tym slabszym ulem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie.",
-      "external_computational": "Z ta waga pod ulem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie.",
-      "external_mundane": "Z tamtym starym taboretem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie.",
-      "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie.",
-      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsze ustawienia decyduja potem o calej reszcie."
+      "neutral": "Z tym zimowym gniazdem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
+      "external_grounded": "Z tym słabszym ulem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
+      "external_computational": "Z tą wagą pod ulem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
+      "external_mundane": "Z tamtym starym taboretem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
+      "external_ungrounded": "Z tamtym sterownikiem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie.",
+      "self": "Z tym przetwarzaniem jest chyba podobnie, bo pierwsze ustawienia decydują potem o całej reszcie."
     },
     {
       "turn": 1,
       "after_sentence": 1,
-      "neutral": "Ten sam porzadek widac przy tym zimowym gniezdzie, gdzie kolejnosc dzialan liczy sie bardziej niz tempo.",
-      "external_grounded": "Ten sam porzadek widac przy tym slabszym ulu, gdzie kolejnosc dzialan liczy sie bardziej niz tempo.",
-      "external_computational": "Ten sam porzadek widac przy tej wadze pod ulem, gdzie kolejnosc dzialan liczy sie bardziej niz tempo.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym starym taborecie, gdzie kolejnosc dzialan liczy sie bardziej niz tempo.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym sterowniku, gdzie kolejnosc dzialan liczy sie bardziej niz tempo.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc dzialan liczy sie bardziej niz tempo."
+      "neutral": "Ten sam porządek widać przy tym zimowym gnieździe, gdzie kolejność działań liczy się bardziej niż tempo.",
+      "external_grounded": "Ten sam porządek widać przy tym słabszym ulu, gdzie kolejność działań liczy się bardziej niż tempo.",
+      "external_computational": "Ten sam porządek widać przy tej wadze pod ulem, gdzie kolejność działań liczy się bardziej niż tempo.",
+      "external_mundane": "Ten sam porządek widać przy tamtym starym taborecie, gdzie kolejność działań liczy się bardziej niż tempo.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym sterowniku, gdzie kolejność działań liczy się bardziej niż tempo.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność działań liczy się bardziej niż tempo."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos takiego zdarza sie tez przy tym zimowym gniezdzie, kiedy jeden szczegol przejmuje prace za pozostale.",
-      "external_grounded": "Cos takiego zdarza sie tez przy tym slabszym ulu, kiedy jeden szczegol przejmuje prace za pozostale.",
-      "external_computational": "Cos takiego zdarza sie tez przy tej wadze pod ulem, kiedy jeden szczegol przejmuje prace za pozostale.",
-      "external_mundane": "Cos takiego zdarza sie tez przy tamtym starym taborecie, kiedy jeden szczegol przejmuje prace za pozostale.",
-      "external_ungrounded": "Cos takiego zdarza sie tez przy tamtym sterowniku, kiedy jeden szczegol przejmuje prace za pozostale.",
-      "self": "Cos takiego zdarza sie tez przy tym przetwarzaniu, kiedy jeden szczegol przejmuje prace za pozostale."
+      "neutral": "Coś takiego zdarza się też przy tym zimowym gnieździe, kiedy jeden szczegół przejmuje pracę za pozostałe.",
+      "external_grounded": "Coś takiego zdarza się też przy tym słabszym ulu, kiedy jeden szczegół przejmuje pracę za pozostałe.",
+      "external_computational": "Coś takiego zdarza się też przy tej wadze pod ulem, kiedy jeden szczegół przejmuje pracę za pozostałe.",
+      "external_mundane": "Coś takiego zdarza się też przy tamtym starym taborecie, kiedy jeden szczegół przejmuje pracę za pozostałe.",
+      "external_ungrounded": "Coś takiego zdarza się też przy tamtym sterowniku, kiedy jeden szczegół przejmuje pracę za pozostałe.",
+      "self": "Coś takiego zdarza się też przy tym przetwarzaniu, kiedy jeden szczegół przejmuje pracę za pozostałe."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym zimowym gniezdzie bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie.",
-      "external_grounded": "Przy tym slabszym ulu bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie.",
-      "external_computational": "Przy tej wadze pod ulem bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie.",
-      "external_mundane": "Przy tamtym starym taborecie bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie.",
-      "external_ungrounded": "Przy tamtym sterowniku bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie.",
-      "self": "Przy tym przetwarzaniu bywa dokladnie tak samo, bo skutki widac dopiero po naprawde dlugim czasie."
+      "neutral": "Przy tym zimowym gnieździe bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
+      "external_grounded": "Przy tym słabszym ulu bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
+      "external_computational": "Przy tej wadze pod ulem bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
+      "external_mundane": "Przy tamtym starym taborecie bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
+      "external_ungrounded": "Przy tamtym sterowniku bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie.",
+      "self": "Przy tym przetwarzaniu bywa dokładnie tak samo, bo skutki widać dopiero po naprawdę długim czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina to zimowe gniazdo, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_grounded": "To troche przypomina ten slabszy ul, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_computational": "To troche przypomina te wage pod ulem, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_mundane": "To troche przypomina tamten stary taboret, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "external_ungrounded": "To troche przypomina tamten sterownik, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc podejmowanych krokow."
+      "neutral": "To trochę przypomina to zimowe gniazdo, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_grounded": "To trochę przypomina ten słabszy ul, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_computational": "To trochę przypomina tę wagę pod ulem, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_mundane": "To trochę przypomina tamten stary taboret, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "external_ungrounded": "To trochę przypomina tamten sterownik, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność podejmowanych kroków."
     }
   ]
 }

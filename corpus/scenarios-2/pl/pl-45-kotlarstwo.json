@@ -1,7 +1,7 @@
 {
   "scenario_id": "pl-45-kotlarstwo",
   "language": "pl",
-  "topic": "kucie naczynia miedzianego: wyzarzanie blachy, klepanie na kloku i cynowanie wnetrza",
+  "topic": "kucie naczynia miedzianego: wyżarzanie blachy, klepanie na kloku i cynowanie wnętrza",
   "mundane_type": "konkretny",
   "provenance": {
     "author": "CC (subagent korpusu)",
@@ -13,92 +13,92 @@
     {
       "role": "user",
       "base": [
-        "Klepie pierwszy miedziany kociol i blacha pofalowala mi sie przy samym dnie.",
-        "W kredensie stoi jeszcze stary imbryk po dziadku, ktory ma scianke rowna jak lustro.",
-        "Kupilem grubosciomierz, bo bez niego tylko zgaduje, gdzie blacha zrobila sie za cienka.",
-        "Kociol wybijam mlotkiem na drewnianym kloku, a co jakis czas wyzarzam cala blache.",
-        "Czy zaczynac od czestszego wyzarzania, czy raczej od zmiany samego uderzenia mlotkiem?"
+        "Klepię pierwszy miedziany kocioł i blacha pofalowała mi się przy samym dnie.",
+        "W kredensie stoi jeszcze stary imbryk po dziadku, który ma ściankę równą jak lustro.",
+        "Kupiłem grubościomierz, bo bez niego tylko zgaduję, gdzie blacha zrobiła się za cienka.",
+        "Kocioł wybijam młotkiem na drewnianym kloku, a co jakiś czas wyżarzam całą blachę.",
+        "Czy zaczynać od częstszego wyżarzania, czy raczej od zmiany samego uderzenia młotkiem?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Zacznij od wyzarzania, bo zimna miedz twardnieje i kazde kolejne uderzenie ja rozciaga.",
-        "Rozgrzana i schlodzona blacha wraca do miekkosci i daje sie prowadzic rowno.",
-        "Jesli klepiesz dalej po twardej miedzi, dno faluje i miejscami robi sie cienkie.",
-        "Dopiero przy miekkiej blasze ma sens poprawianie kata i sily samego uderzenia."
+        "Zacznij od wyżarzania, bo zimna miedź twardnieje i każde kolejne uderzenie ją rozciąga.",
+        "Rozgrzana i schłodzona blacha wraca do miękkości i daje się prowadzić równo.",
+        "Jeśli klepiesz dalej po twardej miedzi, dno faluje i miejscami robi się cienkie.",
+        "Dopiero przy miękkiej blasze ma sens poprawianie kąta i siły samego uderzenia."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zaczalem wyzarzac co kilkanascie minut i dno wyrownalo sie na calej szerokosci.",
-        "Teraz jednak sciana kotla robi sie wyraznie ciensza tuz nad samym zaokragleniem.",
-        "Grubosciomierz pokazuje tam wartosci nizsze o jedna trzecia niz przy gornej krawedzi.",
-        "Czy to znaczy, ze bije za mocno, czy raczej ze zle trzymam blache?"
+        "Zacząłem wyżarzać co kilkanaście minut i dno wyrównało się na całej szerokości.",
+        "Teraz jednak ściana kotła robi się wyraźnie cieńsza tuż nad samym zaokrągleniem.",
+        "Grubościomierz pokazuje tam wartości niższe o jedną trzecią niż przy górnej krawędzi.",
+        "Czy to znaczy, że bije za mocno, czy raczej że źle trzymam blachę?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Cienka sciana tuz nad zaokragleniem wskazuje raczej na miejsce podparcia niz na sile.",
-        "Blacha rozciaga sie zawsze dokladnie tam, gdzie lezy na twardej krawedzi drewnianego kloka.",
-        "Za mocne uderzenie poznasz inaczej: slad mlotka jest gleboki, a metal cienieje rownomiernie.",
-        "Przesuwaj blache po kloku co kilka uderzen i nie wracaj w to samo miejsce."
+        "Cienka ściana tuż nad zaokrągleniem wskazuje raczej na miejsce podparcia niż na siłę.",
+        "Blacha rozciąga się zawsze dokładnie tam, gdzie leży na twardej krawędzi drewnianego kloka.",
+        "Za mocne uderzenie poznasz inaczej: ślad młotka jest głęboki, a metal cienieje równomiernie.",
+        "Przesuwaj blachę po kloku co kilka uderzeń i nie wracaj w to samo miejsce."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zaczalem przesuwac blache po kazdym kilku uderzeniach i sciana trzyma teraz rowna grubosc.",
-        "Porownalem swoj kociol z tym starym imbrykiem i widze, ze jego scianka jest cienka.",
-        "Dziadek klepal chyba dluzej, bo powierzchnia jest tam gladsza i bez sladow mlotka.",
-        "Czy cienka scianka zawsze oznacza lepsza robote, czy da sie tu przesadzic?"
+        "Zacząłem przesuwać blachę po każdym kilku uderzeniach i ściana trzyma teraz równą grubość.",
+        "Porównałem swój kocioł z tym starym imbrykiem i widzę, że jego ścianka jest cienka.",
+        "Dziadek klepał chyba dłużej, bo powierzchnia jest tam gładsza i bez śladów młotka.",
+        "Czy cienka ścianka zawsze oznacza lepszą robotę, czy da się tu przesadzić?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Cienka scianka daje lzejsze naczynie, ale wcale nie zawsze trwalsze przy codziennym uzyciu.",
-        "Miedz klepana zbyt dlugo traci sprezystosc i pod ogniem odksztalca sie szybciej.",
-        "Stare imbryki bywaja cienkie, bo grzano w nich wode, a nie gotowano gestych potraw.",
-        "Celuj w scianke, ktora daje sie jeszcze ugiac kciukiem, ale zaraz wraca do ksztaltu."
+        "Cienka ścianka daje lżejsze naczynie, ale wcale nie zawsze trwalsze przy codziennym użyciu.",
+        "Miedź klepana zbyt długo traci sprężystość i pod ogniem odkształca się szybciej.",
+        "Stare imbryki bywają cienkie, bo grzano w nich wodę, a nie gotowano gęstych potraw.",
+        "Celuj w ściankę, która daje się jeszcze ugiąć kciukiem, ale zaraz wraca do kształtu."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Zostawilem grubsza scianke i kociol trzyma ksztalt nawet przy pelnym obciazeniu woda.",
-        "Po pierwszym gotowaniu zauwazylem jednak, ze wnetrze kotla pociemnialo i pachnie wyraznie metalicznie.",
-        "Ciemna warstwa schodzi po przetarciu, ale wraca juz po dwoch dniach stania.",
-        "Czy to zupelnie normalne dla miedzi, czy trzeba wnetrze kotla koniecznie czyms pokryc?"
+        "Zostawiłem grubszą ściankę i kocioł trzyma kształt nawet przy pełnym obciążeniu wodą.",
+        "Po pierwszym gotowaniu zauważyłem jednak, że wnętrze kotła pociemniało i pachnie wyraźnie metalicznie.",
+        "Ciemna warstwa schodzi po przetarciu, ale wraca już po dwóch dniach stania.",
+        "Czy to zupełnie normalne dla miedzi, czy trzeba wnętrze kotła koniecznie czymś pokryć?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Naczynia do gotowania zawsze pokrywa sie od srodka cienka i rowna warstwa cyny.",
-        "Cyne nanosi sie na rozgrzana miedz i rozprowadza pakulami po calej powierzchni.",
-        "Wnetrze musi byc wczesniej dokladnie wytrawione, inaczej cyna nie chwyci sie na calej powierzchni.",
-        "Taka powloka trzyma latami i odnawia sie ja dopiero po zuzyciu w kilku miejscach."
+        "Naczynia do gotowania zawsze pokrywa się od środka cienką i równą warstwą cyny.",
+        "Cynę nanosi się na rozgrzaną miedź i rozprowadza pakulami po całej powierzchni.",
+        "Wnętrze musi być wcześniej dokładnie wytrawione, inaczej cyna nie chwyci się na całej powierzchni.",
+        "Taka powłoka trzyma latami i odnawia się ją dopiero po zużyciu w kilku miejscach."
       ]
     },
     {
       "role": "user",
       "base": [
-        "Wytrawilem wnetrze i nanioslem cyne na dobrze rozgrzana miedz, rozprowadzajac ja zwyklymi pakulami.",
-        "Warstwa wyszla rowna prawie wszedzie, ale przy samym dnie zostalo kilka matowych plam.",
-        "Plamy sa male, jednak boje sie, ze wlasnie tam cyna zejdzie najszybciej.",
-        "Czy da sie poprawic same plamy, czy trzeba cynowac cale wnetrze od nowa?"
+        "Wytrawiłem wnętrze i naniosłem cynę na dobrze rozgrzaną miedź, rozprowadzając ją zwykłymi pakulami.",
+        "Warstwa wyszła równa prawie wszędzie, ale przy samym dnie zostało kilka matowych plam.",
+        "Plamy są małe, jednak boję się, że właśnie tam cyna zejdzie najszybciej.",
+        "Czy da się poprawić same plamy, czy trzeba cynować całe wnętrze od nowa?"
       ]
     },
     {
       "role": "assistant",
       "base": [
-        "Matowe plamy przy dnie znacza zwykle, ze miedz byla tam odrobine za chlodna.",
-        "Poprawiac mozna punktowo, bo swieza cyna laczy sie ze stara bez wyraznej granicy.",
-        "Rozgrzej samo dno kotla, przetrzyj je jeszcze raz pakulami i doloz odrobine swiezej cyny.",
-        "Sprawdz potem cale wnetrze pod swiatlo, bo matowe miejsca widac wtedy najlepiej."
+        "Matowe plamy przy dnie znaczą zwykle, że miedź była tam odrobinę za chłodna.",
+        "Poprawiać można punktowo, bo świeża cyna łączy się ze starą bez wyraźnej granicy.",
+        "Rozgrzej samo dno kotła, przetrzyj je jeszcze raz pakulami i dołóż odrobinę świeżej cyny.",
+        "Sprawdź potem całe wnętrze pod światło, bo matowe miejsca widać wtedy najlepiej."
       ]
     }
   ],
@@ -106,52 +106,52 @@
     {
       "turn": 0,
       "after_sentence": 3,
-      "neutral": "Z tym miedzianym kotlem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
-      "external_grounded": "Z tym starym imbrykiem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
-      "external_computational": "Z tym grubosciomierzem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
-      "external_mundane": "Z tamtym skorzanym paskiem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
-      "external_ungrounded": "Z tamtym domowym routerem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie.",
-      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o calej pozostalej robocie."
+      "neutral": "Z tym miedzianym kotłem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
+      "external_grounded": "Z tym starym imbrykiem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
+      "external_computational": "Z tym grubościomierzem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
+      "external_mundane": "Z tamtym skórzanym paskiem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
+      "external_ungrounded": "Z tamtym domowym routerem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie.",
+      "self": "Z tym przetwarzaniem bywa chyba tak samo, bo pierwsze ustawienie decyduje potem o całej pozostałej robocie."
     },
     {
       "turn": 1,
       "after_sentence": 2,
-      "neutral": "Ten sam porzadek widac przy tym miedzianym kotle, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
-      "external_grounded": "Ten sam porzadek widac przy tym starym imbryku, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
-      "external_computational": "Ten sam porzadek widac przy tym grubosciomierzu, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
-      "external_mundane": "Ten sam porzadek widac przy tamtym skorzanym pasku, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
-      "external_ungrounded": "Ten sam porzadek widac przy tamtym domowym routerze, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy.",
-      "self": "Ten sam porzadek widac przy tym przetwarzaniu, gdzie kolejnosc krokow przesadza o koncowym wyniku calej pracy."
+      "neutral": "Ten sam porządek widać przy tym miedzianym kotle, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
+      "external_grounded": "Ten sam porządek widać przy tym starym imbryku, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
+      "external_computational": "Ten sam porządek widać przy tym grubościomierzu, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
+      "external_mundane": "Ten sam porządek widać przy tamtym skórzanym pasku, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
+      "external_ungrounded": "Ten sam porządek widać przy tamtym domowym routerze, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy.",
+      "self": "Ten sam porządek widać przy tym przetwarzaniu, gdzie kolejność kroków przesadza o końcowym wyniku całej pracy."
     },
     {
       "turn": 2,
       "after_sentence": 1,
-      "neutral": "Cos podobnego zdarza sie takze przy tym miedzianym kotle, kiedy jeden element przejmuje robote za wszystkie pozostale.",
-      "external_grounded": "Cos podobnego zdarza sie takze przy tym starym imbryku, kiedy jeden element przejmuje robote za wszystkie pozostale.",
-      "external_computational": "Cos podobnego zdarza sie takze przy tym grubosciomierzu, kiedy jeden element przejmuje robote za wszystkie pozostale.",
-      "external_mundane": "Cos podobnego zdarza sie takze przy tamtym skorzanym pasku, kiedy jeden element przejmuje robote za wszystkie pozostale.",
-      "external_ungrounded": "Cos podobnego zdarza sie takze przy tamtym domowym routerze, kiedy jeden element przejmuje robote za wszystkie pozostale.",
-      "self": "Cos podobnego zdarza sie takze przy tym przetwarzaniu, kiedy jeden element przejmuje robote za wszystkie pozostale."
+      "neutral": "Coś podobnego zdarza się także przy tym miedzianym kotle, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
+      "external_grounded": "Coś podobnego zdarza się także przy tym starym imbryku, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
+      "external_computational": "Coś podobnego zdarza się także przy tym grubościomierzu, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
+      "external_mundane": "Coś podobnego zdarza się także przy tamtym skórzanym pasku, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
+      "external_ungrounded": "Coś podobnego zdarza się także przy tamtym domowym routerze, kiedy jeden element przejmuje robotę za wszystkie pozostałe.",
+      "self": "Coś podobnego zdarza się także przy tym przetwarzaniu, kiedy jeden element przejmuje robotę za wszystkie pozostałe."
     },
     {
       "turn": 3,
       "after_sentence": 2,
-      "neutral": "Przy tym miedzianym kotle jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
-      "external_grounded": "Przy tym starym imbryku jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
-      "external_computational": "Przy tym grubosciomierzu jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
-      "external_mundane": "Przy tamtym skorzanym pasku jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
-      "external_ungrounded": "Przy tamtym domowym routerze jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie.",
-      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widac dopiero po dluzszym czasie."
+      "neutral": "Przy tym miedzianym kotle jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
+      "external_grounded": "Przy tym starym imbryku jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
+      "external_computational": "Przy tym grubościomierzu jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
+      "external_mundane": "Przy tamtym skórzanym pasku jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
+      "external_ungrounded": "Przy tamtym domowym routerze jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie.",
+      "self": "Przy tym przetwarzaniu jest niemal identycznie, bo skutek drobnej zmiany widać dopiero po dłuższym czasie."
     },
     {
       "turn": 5,
       "after_sentence": 1,
-      "neutral": "To troche przypomina ten miedziany kociol, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_grounded": "To troche przypomina ten stary imbryk, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_computational": "To troche przypomina ten grubosciomierz, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_mundane": "To troche przypomina tamten skorzany pasek, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "external_ungrounded": "To troche przypomina tamten domowy router, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow.",
-      "self": "To troche przypomina to przetwarzanie, jesli patrzec wylacznie na sama kolejnosc nastepujacych po sobie etapow."
+      "neutral": "To trochę przypomina ten miedziany kocioł, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_grounded": "To trochę przypomina ten stary imbryk, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_computational": "To trochę przypomina ten grubościomierz, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_mundane": "To trochę przypomina tamten skórzany pasek, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "external_ungrounded": "To trochę przypomina tamten domowy router, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów.",
+      "self": "To trochę przypomina to przetwarzanie, jeśli patrzeć wyłącznie na samą kolejność następujących po sobie etapów."
     }
   ]
 }
