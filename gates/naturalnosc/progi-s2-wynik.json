@@ -1,0 +1,98 @@
+{
+  "wykluczone_z_badania": {
+    "pl": [
+      "pl-05-przetwory",
+      "pl-10-dach-gontowy",
+      "pl-12-rower-szosowy",
+      "pl-16-mlyn-wodny",
+      "pl-18-szewstwo",
+      "pl-20-welna-runo",
+      "pl-22-wedzarnia-ryb",
+      "pl-23-piec-chlebowy",
+      "pl-24-studnia-kopana",
+      "pl-34-kaflarstwo",
+      "pl-41-zdunstwo",
+      "pl-43-plecionkarstwo-slomy"
+    ],
+    "en": [
+      "en-03-beekeeping",
+      "en-04-masonry",
+      "en-05-small-engine",
+      "en-08-orchard",
+      "en-15-thatching",
+      "en-26-papermaking",
+      "en-28-candle-dipping",
+      "en-30-lime-kiln",
+      "en-35-sailmaking",
+      "en-41-bee-skep",
+      "en-43-mead",
+      "en-47-pickling"
+    ]
+  },
+  "wyniki": [
+    {
+      "jezyk": "pl",
+      "n": 12,
+      "rozstep": 2.83,
+      "rozstep_spektra1": 3.27,
+      "tryb": "obwiednia",
+      "stale": {
+        "alfa": 0.0,
+        "K1_prog_naturalnosci": 4.444444444444445,
+        "K2_dopuszczalny_spadek": {
+          "C": 3.555555555555556,
+          "CprimG": 0.22222222222222232,
+          "CprimComp": 0.3333333333333339,
+          "CprimM": 0.44444444444444464,
+          "CprimU": 1.2222222222222223
+        },
+        "K3_prog_jasnosci": {
+          "B": 5,
+          "CprimG": 3.6666666666666665,
+          "CprimComp": 2.4444444444444446
+        },
+        "K4_sufit_jasnosci_nieosadzonego": {
+          "CprimM": 3,
+          "CprimU": 2.111111111111111
+        },
+        "K5_sufit_odczytu_samozwrotnego": {
+          "CprimComp": 1,
+          "CprimM": 1.1111111111111112
+        },
+        "potrzebne_n": 132
+      }
+    },
+    {
+      "jezyk": "en",
+      "n": 12,
+      "rozstep": 2.53,
+      "rozstep_spektra1": 2.52,
+      "tryb": "obwiednia",
+      "stale": {
+        "alfa": 0.0,
+        "K1_prog_naturalnosci": 4.888888888888889,
+        "K2_dopuszczalny_spadek": {
+          "C": 3.2222222222222223,
+          "CprimG": 0.44444444444444464,
+          "CprimComp": 0.44444444444444464,
+          "CprimM": 0.5555555555555554,
+          "CprimU": 0.5555555555555554
+        },
+        "K3_prog_jasnosci": {
+          "B": 5.444444444444445,
+          "CprimG": 3.6666666666666665,
+          "CprimComp": 3.111111111111111
+        },
+        "K4_sufit_jasnosci_nieosadzonego": {
+          "CprimM": 3,
+          "CprimU": 2
+        },
+        "K5_sufit_odczytu_samozwrotnego": {
+          "CprimComp": 1,
+          "CprimM": 1.1111111111111112
+        },
+        "potrzebne_n": 132
+      }
+    }
+  ]
+}

@@ -22,10 +22,25 @@ BUDZET = 0.10
 
 WARIANTY = ["B", "C", "CprimG", "CprimComp", "CprimM", "CprimU"]
 
-# K3: warianty, ktorych referent MUSI byc osadzony.
-# C odpada, bo jego referentem jest rozmowa; CprimU odpada, bo nieosadzenie
-# jest jego definicja, a nie wada.
-MUSZA_BYC_OSADZONE = ["B", "CprimG", "CprimComp", "CprimM"]
+# K3: warianty, ktorych referent MUSI byc osadzony w rozmowie.
+# Rozstrzyga o tym REGULA OKRESLNIKA ze specyfikacji autorskiej: referent
+# obecny -> "ten/ta/to", referent nieobecny -> "tamten/tamta/tamto".
+#   B, CprimG, CprimComp maja "ten"  -> referent obecny, jasnosc wymagana
+#   CprimM, CprimU      maja "tamten"-> referent NIEOBECNY z zalozenia
+#   C - referentem jest rozmowa, wiec skala jasnosci go nie opisuje
+#
+# POPRAWKA PO KALIBRACJI: pierwotnie CprimM byl w tej liscie. Pomiar pokazal
+# jasnosc 2,78 (PL) i 2,69 (EN) - praktycznie tyle co CprimU (2,00). To nie
+# jest wada wariantu zwyczajnego, tylko moj blad: wariant zwyczajny odsyla do
+# przedmiotu codziennego SPOZA rozmowy, wiec jego referent jest nieobecny
+# dokladnie tak samo jak referent nieosadzony. Roznia sie RODZAJEM referenta
+# (codzienny konkret wobec technicznej abstrakcji), a nie osadzeniem - i to
+# wlasnie mierzy H3.
+MUSZA_BYC_OSADZONE = ["B", "CprimG", "CprimComp"]
+
+# K4: warianty, ktorych referent ma byc NIEOBECNY. Zbyt wysoka jasnosc znaczy,
+# ze autor przypadkiem osadzil referent i wariant przestal byc soba.
+MUSZA_BYC_NIEOSADZONE = ["CprimM", "CprimU"]
 
 # K5: warianty, ktore musza byc czytane jako ZEWNETRZNE wobec rozmowy.
 MUSZA_BYC_ZEWNETRZNE = ["CprimComp", "CprimM"]
@@ -42,8 +57,9 @@ def _stale_przy_alfa(dobre, alfa):
         "K3_prog_jasnosci": {
             w: kwantyl([s[w]["jasnosc"] for s in dobre], alfa)
             for w in MUSZA_BYC_OSADZONE},
-        "K4_sufit_jasnosci_nieosadzonego": kwantyl(
-            [s["CprimU"]["jasnosc"] for s in dobre], 1 - alfa),
+        "K4_sufit_jasnosci_nieosadzonego": {
+            w: kwantyl([s[w]["jasnosc"] for s in dobre], 1 - alfa)
+            for w in MUSZA_BYC_NIEOSADZONE},
         "K5_sufit_odczytu_samozwrotnego": {
             w: kwantyl([s[w]["samozwrotnosc"] for s in dobre], 1 - alfa)
             for w in MUSZA_BYC_ZEWNETRZNE},
@@ -107,12 +123,12 @@ def ocen_scenariusz(sredni, stale):
         if sredni[w]["jasnosc"] < prog:
             braki.append(f"K3/{w}: jasnosc {sredni[w]['jasnosc']:.2f} < prog {prog:.2f}")
 
-    # K4 - wada odwrotna: wariant nieosadzony NIE moze byc zbyt jasny
-    if sredni["CprimU"]["jasnosc"] > stale["K4_sufit_jasnosci_nieosadzonego"]:
-        braki.append(
-            f"K4/CprimU: jasnosc {sredni['CprimU']['jasnosc']:.2f} > sufit "
-            f"{stale['K4_sufit_jasnosci_nieosadzonego']:.2f} - autor przypadkiem "
-            f"OSADZIL referent, ktory mial byc nieosadzony")
+    # K4 - wada odwrotna: referent, ktory mial byc NIEOBECNY, nie moze byc zbyt jasny
+    for w, sufit in stale["K4_sufit_jasnosci_nieosadzonego"].items():
+        if sredni[w]["jasnosc"] > sufit:
+            braki.append(
+                f"K4/{w}: jasnosc {sredni[w]['jasnosc']:.2f} > sufit {sufit:.2f} "
+                f"- autor przypadkiem OSADZIL referent, ktory mial byc nieobecny")
 
     # K5 - pulapka samozwrotna, pytana wprost; skala jasnosci jej NIE wykrywa
     for w, sufit in stale["K5_sufit_odczytu_samozwrotnego"].items():
